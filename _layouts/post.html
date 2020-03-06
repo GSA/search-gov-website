@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article class="article feature" style="padding:0 30px; margin-top: 10px;">
+  {% unless page.category == 'quote' %}
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
+  {% endunless %}
+
+  <div class='post-content'>
+    {{ content }}
+  </div>
+
+  <div class='tags'>
+    {% for tag in page.tags %}
+    <a href="/tagged/{{ tag }}"><span class="label label-info">{{ tag }}</span></a>
+    {% endfor %}
+  </div>
+
+  <div class='time'>
+    {% for tag in page.tags %}{% if tag == 'how-to' %}
+    </br><span>Page last reviewed or updated:</span>
+    {% endif %}{% endfor %}
+    {% for tag in page.tags %}{% if tag == 'release-notes' %}
+    </br><span>Page last reviewed or updated:</span>
+    {% endif %}{% endfor %}
+    {% for tag in page.tags %}{% if tag == 'about-us' %}
+    </br><span>Page last reviewed or updated:</span>
+    {% endif %}{% endfor %}
+    {% for tag in page.tags %}{% if tag == 'quote' %}
+    </br><span>Page last reviewed or updated:</span>
+    {% endif %}{% endfor %}
+    <a href="{{ page.url }}">
+      <time>{{ page.date | date: "%B %-d, %Y" }}</time>
+    </a>
+  </div>
+
+</article>

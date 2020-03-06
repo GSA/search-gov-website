@@ -1,0 +1,3 @@
+---
+---
+{{ site.data.hints | concat_hash_keys | jsonify }}

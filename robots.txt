@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /drafts/
+Sitemap: https://search.gov/sitemap.xml
