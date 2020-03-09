@@ -1,10 +1,9 @@
-/.bundle
 /.idea
 /_site
 /.sass-cache
+.jekyll-cache
 *.swp
 .DS_Store
 /_deploy
 /last_commit.yml
-/stylesheets/custom.css
 /vendor
