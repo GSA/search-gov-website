@@ -30,12 +30,21 @@ We use bundler to manage gems. `cd` into the local repo. Install bundler and oth
     $ gem install bundler
     $ bundle install
 
-Start a server and try it out. From the root directory, run:
+## Running the site locally
 
-    $ bundle exec compass watch (ctrl+c to stop)
-    $ bundle exec jekyll serve
+**To build the pages with Jekyll:**
+1. open a new tab in terminal
+2. Navigate to the root directory of the project
+3. run: `bundle exec jekyll serve`
+4. Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov](https://search.gov/) homepage.
 
-Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov](https://search.gov/) homepage.
+**To build the CSS styles:**
+1. open a new tab in terminal
+2. Navigate to the root directory of the project
+3. run: `gulp`
+4. Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov](https://search.gov/) homepage.
+
+
 
 ---
 
