@@ -36,10 +36,11 @@ PATHS
 */
 
 // Project Sass source directory
-const PROJECT_SASS_SRC = "./sass";
+const PROJECT_SASS_SRC = "./assets/src";
+const OLD_PROJECT_SASS_SRC = "./assets/old";
 
 // Images destination
-const IMG_DEST = "./assets/img";
+const IMG_DEST = "./assets/img/uswds";
 
 // Fonts destination
 const FONTS_DEST = "./assets/fonts";
@@ -88,7 +89,10 @@ gulp.task("build-sass", function(done) {
   ];
   return (
     gulp
-      .src([`${PROJECT_SASS_SRC}/*.scss`])
+      .src([
+        `${PROJECT_SASS_SRC}/*.scss`,
+        `${OLD_PROJECT_SASS_SRC}/*.scss`
+      ])
       .pipe(sourcemaps.init({ largeFile: true }))
       .pipe(
         sass.sync({
