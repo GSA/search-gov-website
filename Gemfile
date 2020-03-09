@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'compass'
-gem 'jekyll'
+gem "jekyll", "~> 4.0.0"
 gem 'rake'
 gem 'rdiscount'
 gem 'rspec'
