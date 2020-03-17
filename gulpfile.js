@@ -37,6 +37,7 @@ PATHS
 
 // Project Sass source directory
 const PROJECT_SASS_SRC = "./assets/src";
+const USWDS_SASS_SRC = "./assets/uswds";
 const OLD_PROJECT_SASS_SRC = "./assets/old";
 
 // Images destination
@@ -65,7 +66,7 @@ TASKS
 gulp.task("copy-uswds-setup", () => {
   return gulp
     .src(`${uswds}/scss/theme/**/**`)
-    .pipe(gulp.dest(`${PROJECT_SASS_SRC}`));
+    .pipe(gulp.dest(`${USWDS_SASS_SRC}`));
 });
 
 gulp.task("copy-uswds-fonts", () => {
@@ -98,6 +99,7 @@ gulp.task("build-sass", function(done) {
         sass.sync({
           includePaths: [
             `${PROJECT_SASS_SRC}`,
+            `${OLD_PROJECT_SASS_SRC}`,
             `${uswds}/scss`,
             `${uswds}/scss/packages`
           ]
@@ -107,7 +109,7 @@ gulp.task("build-sass", function(done) {
       .pipe(postcss(plugins))
       .pipe(sourcemaps.write("."))
       // uncomment the next line if necessary for Jekyll to build properly
-      //.pipe(gulp.dest(`${SITE_CSS_DEST}`))
+      .pipe(gulp.dest(`${SITE_CSS_DEST}`))
       .pipe(gulp.dest(`${CSS_DEST}`))
   );
 });
@@ -124,6 +126,7 @@ gulp.task(
 );
 
 gulp.task("watch-sass", function() {
+  gulp.watch(`${OLD_PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
   gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
 });
 
