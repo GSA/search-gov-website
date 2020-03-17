@@ -48,6 +48,15 @@ We use bundler to manage gems. `cd` into the local repo. Install bundler and oth
 
 ---
 
+## Template Images
+
+To refernce images in the the site templates, use the path to the image within the `/assets/img` folder.
+
+```
+{{ "/assets/img/site/searchdotgovlogo.png" | prepend: site.baseurl }}
+```
+
+
 * For more information about Jekyll, visit [the wiki pages](https://github.com/mojombo/jekyll/wiki).
 * If you don't already have it, you'll need the Ruby version specified in `.ruby-version`. [RVM](http://rvm.io) is recommended to install Ruby on your development environment. Verify that your path points to the correct version of Ruby:
 
