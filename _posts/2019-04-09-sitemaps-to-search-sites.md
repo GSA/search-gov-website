@@ -27,15 +27,15 @@ The main difference in the search site setup process is the source of the web re
 
 ## Sitemaps: the Tributaries
 
-[XML Sitemaps]({{ site.url }}{{ site.baseurl }}/manual/sitemaps.html) are like tributaries feeding into a lake. They do not feed into sitemap-specific indexes connected to particular search sites.
+[XML Sitemaps](/manual/sitemaps.html) are like tributaries feeding into a lake. They do not feed into sitemap-specific indexes connected to particular search sites.
 
-Sitemaps list the content available on websites in a machine-friendly format, so that search engines will know what to collect from the site. The [content indexed]({{ site.url }}{{ site.baseurl }}/manual/indexing-with-searchgov.html) from your website goes into the big index mentioned above, along with the content from all other websites. You can, in theory, pull content from any website we have indexed into your search experience. This supports portal search experiences. 
+Sitemaps list the content available on websites in a machine-friendly format, so that search engines will know what to collect from the site. The [content indexed](/manual/indexing-with-searchgov.html) from your website goes into the big index mentioned above, along with the content from all other websites. You can, in theory, pull content from any website we have indexed into your search experience. This supports portal search experiences. 
 
 ## Search Site Setup: the Fishing Boats
 
 Like a fishing boat on the water, you’ve decided what fish you’re going after, you know what corners of the lake to go to, and you’ve collected the gear you need to get the fish.
 
-Search.gov used to rely on the Bing web index for our main search results. Customers would log in to the [Admin Center](https://search.usa.gov/sites) and use the [Domains]({{ site.url }}{{ site.baseurl }}/manual/domains.html) list to include the content they wanted to pull from Bing. Now that we’re building our index in house, all this remains the same. You log in to the Admin Center and configure what you want your search to return on the results page.
+Search.gov used to rely on the Bing web index for our main search results. Customers would log in to the [Admin Center](https://search.usa.gov/sites) and use the [Domains](/manual/domains.html) list to include the content they wanted to pull from Bing. Now that we’re building our index in house, all this remains the same. You log in to the Admin Center and configure what you want your search to return on the results page.
 
 ## Tying it all together
 
@@ -47,7 +47,7 @@ Following a particular page through this cycle looks like this:
 1. A page is posted to a website
 1. Its URL is added to the sitemap
 1. Search.gov’s indexer reads the sitemap and picks up the URL
-1. Search.gov’s indexer visits the page and [scrapes the content]({{ site.url }}{{ site.baseurl }}/manual/what-searchgov-indexes.html)
+1. Search.gov’s indexer visits the page and [scrapes the content](/manual/what-searchgov-indexes.html)
 1. The content is added to the index. Meanwhile, the search site had already been configured to include this content within the index.
 1. A member of the public searches on the website
 1. The query matches the page’s content

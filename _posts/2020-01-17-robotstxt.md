@@ -52,7 +52,7 @@ Crawl-delay: 10
 ```
 
 ### XML Sitemaps
-Your robots.txt file should also list one or more of your [XML sitemaps]({{ site.url }}{{ site.baseurl }}/blog/sitemaps.html). For example:
+Your robots.txt file should also list one or more of your [XML sitemaps](/blog/sitemaps.html). For example:
 
 ```
 Sitemap: https://www.exampleagency.gov/sitemap.xml
@@ -91,7 +91,7 @@ Disallow: /archive/
 
 <i class="icon-check"></i> 2. The robots.txt file disallows any directories and files that automated bots should not crawl
 
-<i class="icon-check"></i> 3. The robots.txt file lists one or more [XML sitemaps]({{ site.url }}{{ site.baseurl }}/blog/sitemaps.html)  
+<i class="icon-check"></i> 3. The robots.txt file lists one or more [XML sitemaps](/blog/sitemaps.html)  
 
 <i class="icon-check"></i> 4. The robots.txt file format has been [validated](https://www.websiteplanet.com/webtools/sitemap-validator/) {% external_link %}
 

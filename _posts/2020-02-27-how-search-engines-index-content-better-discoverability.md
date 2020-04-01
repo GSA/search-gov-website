@@ -16,7 +16,7 @@ breadcrumbs:
 
 Website structure and content can have a significant impact on the ability of search engines to provide a good search experience. As a result, the Search Engine Optimization industry evolved to provide better understanding of these impacts and close critical gaps. Some elements on your website will actively hinder the search experience, and this post will show you how to target valuable content and exclude distractions.
 
-We’ve written a [post about robots.txt files]({{ site.url }}{{ site.baseurl }}/manual/robotstxt.html), talking about high level inclusion and exclusion of content from search engines. There are other key tools you will want to employ on your website to further target the content on individual pages:
+We’ve written a [post about robots.txt files](/manual/robotstxt.html), talking about high level inclusion and exclusion of content from search engines. There are other key tools you will want to employ on your website to further target the content on individual pages:
 
 * [The <main> element](#main-element)
 * [Canonical links](#rel-canonical)
@@ -84,7 +84,7 @@ Use a canonical link to limit the search engine to indexing only the first page 
 ## Robots meta tags
 ### Exclude particular pages from indexing, or exclude their links from being followed
 
-There are individual pages on your websites that do not make good search results. This could be archived event pages, list views such as Recent Blog Posts, etc. Blocking individual pages on the [robots.txt file]({{ site.url }}{{ site.baseurl }}/manual/robotstxt.html) will be difficult if you don’t have easy access to edit the file Even if edits are easy, it could quickly lead to an unmanageably long `robots.txt`. 
+There are individual pages on your websites that do not make good search results. This could be archived event pages, list views such as Recent Blog Posts, etc. Blocking individual pages on the [robots.txt file](/manual/robotstxt.html) will be difficult if you don’t have easy access to edit the file Even if edits are easy, it could quickly lead to an unmanageably long `robots.txt`. 
 
 It's also important to note that search engines will pay attention to `Disallow` directives in `robots.txt` when crawling, but may not when accessing your URLs from other sources, like links from other sites or your sitemap. **Search.gov will rely on robots meta tags when working off your sitemap to know what content you want searchable, and what you don't want searchable.**
 
@@ -108,7 +108,7 @@ If you have content that should be indexed when it’s fresh, but needs to be re
 
 * Once the page’s window of relevance is over, add a `<meta name="robots" content="noindex" />` tag to the `<head>` of the page.
 * Make sure the modified_time on the page is updated.
-* Leave the item in the [sitemap]({{ site.url }}{{ site.baseurl }}/manual/sitemaps.html), so that search engines will see the page was updated, revisit it, and see that the item should be removed from the index.
+* Leave the item in the [sitemap](/manual/sitemaps.html), so that search engines will see the page was updated, revisit it, and see that the item should be removed from the index.
 
 <br>
 <a id="sample"></a>
