@@ -5,11 +5,11 @@ category: blog
 tags: ux manage-display font colors header footer
 ---
 
-As you customize the [newly redesigned results page](/blog/serp-redesign.html) to match your site's [brand](/manual/brand.html), we thought it'd be good to highlight some of our favorite tips.
+As you customize the [newly redesigned results page]({{ site.baseurl }}/blog/serp-redesign.html) to match your site's [brand]({{ site.baseurl }}/manual/brand.html), we thought it'd be good to highlight some of our favorite tips.
 
 ## Display Overview
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview
 
 Shorter display names look best for the faceted search and related sites. Try to keep names under 15 characters.
 
@@ -17,7 +17,7 @@ Shorter display names look best for the faceted search and related sites. Try to
 
 ## Fonts & Colors
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Fonts & Colors
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Fonts & Colors
 
 Use a background color on the header, page body, or both. For best results, use different colors for the header and body.  
 
@@ -27,7 +27,7 @@ Use a background color on the header, page body, or both. For best results, use 
 
 ## Image Assets
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Image Assets
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Image Assets
 
 A logo that has both the seal and agency name can provide a stronger identity than a seal only or a name only. 
 
@@ -42,7 +42,7 @@ Align your logo so its alignment is consistent with your website.
 
 ## Header & Footer
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Header & Footer
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Header & Footer
 
 Use the footer to add navigation and required links.
 

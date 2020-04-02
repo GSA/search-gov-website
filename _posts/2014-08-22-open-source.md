@@ -21,7 +21,7 @@ We recently began to unravel our monolithic codebase so that we can share indivi
 
 We recently released the code for our [social media image](https://github.com/gsa/oasis), [jobs](https://github.com/GSA/jobs_api) and [recalls](https://github.com/GSA/recalls_api) API servers. They're our first foray into coding in the open. The source code for these API servers is in [our GitHub repo](https://github.com/GSA) and is available for anyone to see and contribute to. 
 
-The data products for the jobs and recalls code are also open and available for anyone to consume on our [Developer hub](/developer/index.html).
+The data products for the jobs and recalls code are also open and available for anyone to consume on our [Developer hub]({{ site.baseurl }}/developer/index.html).
 
 These three servers and their underlying data now operate outside of our core search codebase.
 

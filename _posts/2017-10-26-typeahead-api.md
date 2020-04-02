@@ -5,7 +5,7 @@ category: manual
 tags: api activate-search autocomplete
 ---
 
-**_Note_**: this information is for customers who wish to display type-ahead (autocomplete) suggestions on their agency's website. If you are only looking to turn on type-ahead suggestions on your search results page, please review the instructions on our [Display Overview](/manual/display-overview.html#modules) page.
+**_Note_**: this information is for customers who wish to display type-ahead (autocomplete) suggestions on their agency's website. If you are only looking to turn on type-ahead suggestions on your search results page, please review the instructions on our [Display Overview]({{ site.baseurl }}/manual/display-overview.html#modules) page.
 
 There are two ways to get type-ahead suggestions to appear on your agency's website.
 

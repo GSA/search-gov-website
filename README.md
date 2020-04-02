@@ -36,13 +36,13 @@ We use bundler to manage gems. `cd` into the local repo. Install bundler and oth
 1. open a new tab in terminal
 2. Navigate to the root directory of the project
 3. run: `bundle exec jekyll serve`
-4. Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov](/) homepage.
+4. Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov]({{ site.baseurl }}/) homepage.
 
 **To build the CSS styles:**
 1. open a new tab in terminal
 2. Navigate to the root directory of the project
 3. run: `gulp`
-4. Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov](/) homepage.
+4. Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov]({{ site.baseurl }}/) homepage.
 
 
 

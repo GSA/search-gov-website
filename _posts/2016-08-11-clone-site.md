@@ -5,9 +5,9 @@ category: manual
 tags: "help-manual settings clone-site"
 ---
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Clone Site
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Clone Site
 
-The clone site feature allows you to create an identical copy of your current search configuration. All settings are carried over to the cloned site, except for images you may have uploaded for [Graphics Best Bets](/manual/best-bets.html#bbg). 
+The clone site feature allows you to create an identical copy of your current search configuration. All settings are carried over to the cloned site, except for images you may have uploaded for [Graphics Best Bets]({{ site.baseurl }}/manual/best-bets.html#bbg). 
 
 Any users of your current configuration will have access to the cloned site.
 
