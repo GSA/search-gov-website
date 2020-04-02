@@ -94,7 +94,7 @@ www.subagencydomainexample.gov
 
 **Who:** You, the agency web team, in consultation with the Search.gov team
 
-**What:** The easiest way for us to discover what URLs exist on your domain is via an XML sitemap. Each domain identified above will need a separate sitemap. Please read our [detailed discussion of XML sitemaps]({{ site.baseurl }}/blog/sitemaps.html), and let us know if you have any questions. We understand it can be difficult for some legacy systems to generate a sitemaps, so if this is the case, [please reach out](mailto:search@support.digitalgov.gov).
+**What:** The easiest way for us to discover what URLs exist on your domain is via an XML sitemap. Each domain identified above will need a separate sitemap. Please read our [detailed discussion of XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html), and let us know if you have any questions. We understand it can be difficult for some legacy systems to generate a sitemaps, so if this is the case, [please reach out](mailto:search@support.digitalgov.gov).
 
 We do not crawl websites by default due to the high resource demand of crawling every page on every website all the time. One of the goals of our service is to contain the costs of search government-wide, and a crawling-first model would increase costs significantly.
 
@@ -106,7 +106,7 @@ If you publish your site on Federalist, read these [additional instructions]({{ 
 
 **What:** Once sitemaps are posted to your website, our system will index your content. Alert us when the sitemaps are posted, and we’ll add your domains to our list of domains that we monitor. Then, indexing will begin.
 
-By default, we make 1 request per second to a domain. If a `Crawl-delay` is declared in your [/robots.txt file]({{ site.baseurl }}/blog/robotstxt.html), we will honor that delay while fetching your content for indexing. The length of time required to index a site is `(number of items) x (crawl delay) / 3600 = hours to index`.
+By default, we make 1 request per second to a domain. If a `Crawl-delay` is declared in your [/robots.txt file]({{ site.baseurl }}/manual/robotstxt.html), we will honor that delay while fetching your content for indexing. The length of time required to index a site is `(number of items) x (crawl delay) / 3600 = hours to index`.
 
 If you use a firewall service, it’s possible our indexer will be blocked. We can provide our IP addresses for you to whitelist in your firewall. 
 

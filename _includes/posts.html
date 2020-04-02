@@ -9,10 +9,6 @@
     </h1>
     {% endunless %}
 
-    <div class='post-content'>
-      {{ post.content }}
-    </div>
-
     <div class='tags'>
       {% for tag in post.tags %}
       <a href="/tagged/{{ tag }}"><span class="label label-info">{{ tag }}</span></a>

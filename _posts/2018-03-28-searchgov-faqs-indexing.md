@@ -9,7 +9,7 @@ tags: FAQs
 
 In FY18, we changed our name to Search.gov, and are transitioning from leveraging commercial engines for search results to serving results from our own indexes.
 
-We’re now developing our own search indexes from your site content. We will primarily be leveraging [XML sitemaps]({{ site.baseurl }}/blog/sitemaps.html) to discover your content (1st option, preferred). We'll also accept content for real-time indexing via [i14y]({{ site.baseurl }}/developer/i14y.html) (2nd option).
+We’re now developing our own search indexes from your site content. We will primarily be leveraging [XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html) to discover your content (1st option, preferred). We'll also accept content for real-time indexing via [i14y]({{ site.baseurl }}/developer/i14y.html) (2nd option).
 
 Other search features and your search results page will remain the same, and searchers should not notice a difference.
 
@@ -67,17 +67,17 @@ We launched the first phase of the new index in December 2017. We've reached the
 
 *CMS customers:*
 
-We encourage you to set-up and implement [XML sitemaps]({{ site.baseurl }}/blog/sitemaps.html) as soon as possible. Most content management systems have plugins that will facilitate creation of these sitemaps. Please also review your [robots.txt file]({{ site.baseurl }}/blog/robotstxt.html) to ensure the sitemaps are listed there, and that all the content you want searchable is allowed to be indexed.
+We encourage you to set-up and implement [XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html) as soon as possible. Most content management systems have plugins that will facilitate creation of these sitemaps. Please also review your [robots.txt file]({{ site.baseurl }}/manual/robotstxt.html) to ensure the sitemaps are listed there, and that all the content you want searchable is allowed to be indexed.
 
 *Non-CMS Customers:*
 
-We encourage you to explore how you can publish an [XML sitemap]({{ site.baseurl }}/blog/sitemaps.html). Please also review your [robots.txt file]({{ site.baseurl }}/blog/robotstxt.html) to ensure the sitemaps are listed there, and that all the content you want searchable is allowed to be indexed. 
+We encourage you to explore how you can publish an [XML sitemap]({{ site.baseurl }}/manual/sitemaps.html). Please also review your [robots.txt file]({{ site.baseurl }}/manual/robotstxt.html) to ensure the sitemaps are listed there, and that all the content you want searchable is allowed to be indexed. 
 
 ## Q: Do I need to change any code on my website?
 
 No: you do not need to update any code on your website. Indexing takes place in the backend of our system.
 
-We do ask that you publish [XML sitemaps]({{ site.baseurl }}/blog/sitemaps.html), and update your [robots.txt file]({{ site.baseurl }}/blog/robotstxt.html).
+We do ask that you publish [XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html), and update your [robots.txt file]({{ site.baseurl }}/manual/robotstxt.html).
 
 ## Q: How was my site getting results before?
  
@@ -93,7 +93,7 @@ We changed our name to make things simpler. In the past, we’ve been FirstGov S
  
 Based on your site setup, you have a variety of options. Below is our order of preference in terms of how we’ll get your content into our indexes (note: you may choose more than one approach):
 
-* [Structured URL list (XML sitemap)]({{ site.baseurl }}/blog/sitemaps.html) -- We will fetch and index the URLs that you provide on an XML sitemap, and will monitor your sitemaps for new content and updates over time. Our system will visit the URLs you provide and extract page titles, dates, and full text for indexing. You can post multiple sitemaps for content from different platforms - [get the essential information about sitemaps here]({{ site.baseurl }}/blog/sitemaps.html). This is the preferred method.
+* [Structured URL list (XML sitemap)]({{ site.baseurl }}/manual/sitemaps.html) -- We will fetch and index the URLs that you provide on an XML sitemap, and will monitor your sitemaps for new content and updates over time. Our system will visit the URLs you provide and extract page titles, dates, and full text for indexing. You can post multiple sitemaps for content from different platforms - [get the essential information about sitemaps here]({{ site.baseurl }}/manual/sitemaps.html). This is the preferred method.
  
 * [i14y API](https://search.digitalgov.gov/developer/i14y.html) --  Our API allows you to update your search index in real-time. Best for agencies with dedicated developer resources and single-platform publishing environments.
 
@@ -133,7 +133,7 @@ You will need to publish an XML sitemap of your non-CMS material, or you could m
 
 ## Q: Are there CMS sitemap plugins available, other than Drupal?
  
-Yes - see our [XML Sitemaps overview page]({{ site.baseurl }}/blog/sitemaps.html) for a more complete list of tools.
+Yes - see our [XML Sitemaps overview page]({{ site.baseurl }}/manual/sitemaps.html) for a more complete list of tools.
 
 ## Q: What if we have no plans for a CMS?
  
