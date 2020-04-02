@@ -9,7 +9,7 @@ tags: ux about-us
 
 The last time we did a major redesign of our results page was in January 2012. It was long overdue for a facelift.
 
-So, we've redesigned our search results page. We've kept an eye on best practices in the search industry and what media websites (like NPR.org and NYTimes.com) are up to, But, we're not simply following the leaders. We've also [analyzed our search data](http://www.digitalgov.gov/2014/05/07/analyzing-search-data-in-real-time-to-drive-decisions/) to make data-driven decisions that, ultimately, aim to improve searchers' experience on your site.
+So, we've redesigned our search results page. We've kept an eye on best practices in the search industry and what media websites (like NPR.org and NYTimes.com) are up to, But, we're not simply following the leaders. We've also [analyzed our search data](https://digitalgov.gov/2014/05/07/analyzing-search-data-in-real-time-to-drive-decisions/) to make data-driven decisions that, ultimately, aim to improve searchers' experience on your site.
 
 Below are some of the highlights.
 
@@ -31,7 +31,7 @@ We've done away with the wordiness and boldface. The suggestion and its correspo
 
 ## Search Verticals
 
-Through [usability tests](http://www.digitalgov.gov/resources/digitalgov-user-experience-program/digitalgov-user-experience-program-test-support/), we found that searchers didn't see the options to change the scope of their results in the left-hand column. Data also supports this finding as very, very few searchers clicked on these options. Here's the before and after for a search on *jobs* on USA.gov.
+Through [usability tests](https://digitalgov.gov/resources/digitalgov-user-experience-program/digitalgov-user-experience-program-test-support/), we found that searchers didn't see the options to change the scope of their results in the left-hand column. Data also supports this finding as very, very few searchers clicked on these options. Here's the before and after for a search on *jobs* on USA.gov.
 
 ![Search verticals on USA.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/redesign-verticals.png "Search verticals on USA.gov")
 

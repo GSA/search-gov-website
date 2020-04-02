@@ -15,7 +15,7 @@ You can also toggle between filtered and unfiltered views of the data by clickin
 
 ## Monthly Usage Stats
 
-Data for the total number of queries and clicks. Use this report to find and analyze the so-called [short head](http://www.searchtools.com/analysis/long-tail.html){% external_link %} of your most popular search queries and clicks, which are typically the same as your site's [top tasks](http://www.usability.gov/tags/task-analysis/).
+Data for the total number of queries and clicks. Use this report to find and analyze the so-called [short head](http://www.searchtools.com/analysis/long-tail.html){% external_link %} of your most popular search queries and clicks, which are typically the same as your site's [top tasks](https://www.usability.gov/tags/task-analysis/).
 
 ### Queries with No Results
 

@@ -5,7 +5,7 @@ category: blog
 tags: open api about-us
 ---
 
-We keep an eye on on our what our government counterparts are up to, both in the U.S. and other countries. We first came across [Gov.UK's](https://www.gov.uk) philosophy on and approach to [coding in the open](http://digital.cabinetoffice.gov.uk/2012/10/12/coding-in-the-open) a couple of years ago. It caught our attention and we realized we should also articulate our open source strategy.
+We keep an eye on on our what our government counterparts are up to, both in the U.S. and other countries. We first came across [Gov.UK's](https://www.gov.uk) philosophy on and approach to [coding in the open](https://digital.cabinetoffice.gov.uk/2012/10/12/coding-in-the-open) a couple of years ago. It caught our attention and we realized we should also articulate our open source strategy.
 
 ## Use and Contribute to Open Source Projects
 
@@ -41,9 +41,9 @@ That said, we hope that exposing the pieces of our system will be useful to some
 
 ## And, We're Not Alone
 
-We're not alone. Other federal agencies have embraced the approach of coding in the open and have [GitHub repos](http://gsa.github.io/federal-open-source-repos). Below are a just a few of our many favorites.
+We're not alone. Other federal agencies have embraced the approach of coding in the open and have [GitHub repos](https://gsa.github.io/federal-open-source-repos). Below are a just a few of our many favorites.
 
-* The [Consumer Financial Protection Bureau](http://www.cfpb.gov) has embraced open source, including serving their public data sets through [qu](https://github.com/cfpb/qu) and sharing their work at <http://cfpb.github.io>.
-* The [Food and Drug Administration](http://www.fda.gov) recently made public FDA datasets more accessible at [openFDA](https://open.fda.gov).
-* GSA's newly-created [18F](https://18f.gsa.gov) has committed to [working in the open from day 1](http://18fblog.tumblr.com/post/93415834296/working-in-public-from-day-1).
-* The [White House](http://www.whitehouse.gov) was in the forefront of using open source software in the federal government with their use of Drupal. They're continuing to lead by example by opening up the code for their [We the People petitions](https://github.com/WhiteHouse/petitions) and [iOS](https://github.com/WhiteHouse/wh-app-ios) and [Android](https://github.com/WhiteHouse/wh-app-android) mobile apps.
+* The [Consumer Financial Protection Bureau](https://www.cfpb.gov) has embraced open source, including serving their public data sets through [qu](https://github.com/cfpb/qu) and sharing their work at <https://cfpb.github.io>.
+* The [Food and Drug Administration](https://www.fda.gov) recently made public FDA datasets more accessible at [openFDA](https://open.fda.gov).
+* GSA's newly-created [18F](https://18f.gsa.gov) has committed to [working in the open from day 1](https://18fblog.tumblr.com/post/93415834296/working-in-public-from-day-1).
+* The [White House](https://www.whitehouse.gov) was in the forefront of using open source software in the federal government with their use of Drupal. They're continuing to lead by example by opening up the code for their [We the People petitions](https://github.com/WhiteHouse/petitions) and [iOS](https://github.com/WhiteHouse/wh-app-ios) and [Android](https://github.com/WhiteHouse/wh-app-android) mobile apps.

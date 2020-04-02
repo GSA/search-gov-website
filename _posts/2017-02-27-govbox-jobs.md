@@ -15,7 +15,7 @@ When you [turn on the Job Openings]({{ site.baseurl }}/manual/display-overview.h
 * **Federal Department Websites.** If your website is affiliated with a specific federal department (e.g., Department of Commerce), the Job Openings module will return relevant, location- and keyword-matched job openings *across all agencies within your department*. 
 * **Federal Agency or Office Websites.** If your website is affiliated with a specific federal agency (e.g., NOAA) or office (e.g, National Ocean Service), the Job Openings module will return relevant, location-and keyword-matched job openings *at your agency*. 
 
-Searchers will also see a direct link to [USAJobs.gov](https://www.usajobs.gov) for all current job openings (specific to your department or agency, if applicable), as shown in the sample below for a search on [*jobs*](http://search.doi.gov/search?utf8=%E2%9C%93&affiliate=doi.gov&query=jobs") on DOI.gov. 
+Searchers will also see a direct link to [USAJobs.gov](https://www.usajobs.gov) for all current job openings (specific to your department or agency, if applicable), as shown in the sample below for a search on [*jobs*](https://search.doi.gov/search?utf8=%E2%9C%93&affiliate=doi.gov&query=jobs") on DOI.gov. 
 
 ![Search results for jobs on DOI.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/govbox-jobs.png "Search results for jobs on DOI.gov")
 

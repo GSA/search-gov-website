@@ -9,7 +9,7 @@ DigitalGov Search (formerly USASearch) is the [winner of the 2011 Government Big
 
 The [Big Data Award](http://ctolabs.com/big-data-award) was established to highlight innovative solutions and to facilitate the exchange of best practices, lessons learned, and creative ideas for addressing Big Data challenges. The Award judges saw DigitalGov Search as a great example of solving Big Data problems to improve government agility and to provide better service for less.
 
-In line with the GSA's cost-saving "build once, use many times" paradigm, DigitalGov Search provides hosted search services for [USA.gov](http://www.usa.gov) and hundreds of other government websites. This is done in a cost-effective way, especially for the agencies involved, which receive these services at no cost.
+In line with the GSA's cost-saving "build once, use many times" paradigm, DigitalGov Search provides hosted search services for [USA.gov](https://www.usa.gov) and hundreds of other government websites. This is done in a cost-effective way, especially for the agencies involved, which receive these services at no cost.
 
 From the Award presentation:
 

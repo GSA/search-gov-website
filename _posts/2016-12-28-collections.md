@@ -13,7 +13,7 @@ Would you like searchers to be able to change where they are searching, either t
 
 Enter a name for the collection (such as FAQs, Archive, or News).
 
-Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with http:// and end it in a trailing slash to avoid unintended matches (e.g., https://publications.agency.gov/docs/ and https://answers.agency.gov).
+Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with `https://` and end it in a trailing slash to avoid unintended matches (e.g., `https://publications.agency.gov/docs/` and `https://answers.agency.gov`).
 
 You cannot specify URLs for individual web pages. If you are including a subfolder, be sure to include the folder(s) where the files are actually stored, not the folder where the index page lives.
 

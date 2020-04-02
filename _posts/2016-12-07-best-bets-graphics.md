@@ -13,9 +13,9 @@ A best bet appears above the standard web results when a searcher's query matche
 
 Graphics best bets have a one or two-column layout and you can add an image. The most relevant best bet is listed under a heading, Recommended by YourSite.
 
-See the sample results page below that shows a text best bet displayed on [USGS.gov for a search on tsunamis](http://search.usa.gov/search?affiliate=usgs&query=tsunamis).
+See the sample results page below that shows a text best bet displayed on [USGS.gov for a search on tsunamis](https://search.usa.gov/search?affiliate=usgs&query=tsunamis).
 
-[![Graphics best bet highlighting tsunami links on USGS.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/best-bets-graphics.png "Graphics best bet highlighting tsunami links on USGS.gov")](http://search.usa.gov/search?affiliate=usgs&query=tsunamis)
+[![Graphics best bet highlighting tsunami links on USGS.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/best-bets-graphics.png "Graphics best bet highlighting tsunami links on USGS.gov")](https://search.usa.gov/search?affiliate=usgs&query=tsunamis)
 
 There are a variety of layouts possible for graphics best bets.
 

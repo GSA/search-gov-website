@@ -3,4 +3,4 @@ We're working to improve the search experience for your [RSS feeds]({{ site.base
 * Searchers now see only unique URLs in the News GovBox. (We previously didn't dedupe URLs that belonged to multiple feeds.)
 * Searchers now see only valid, resolving URLs. (We previously didn't revisit your older URLs to remove those with 404 errors.)
 
-See, for example, the Most recent... results for a [search on corn on ERS.gov](http://search.ers.usda.gov/search?affiliate=ers&query=corn&m=true).
+See, for example, the Most recent... results for a [search on corn on ERS.gov](https://search.ers.usda.gov/search?affiliate=ers&query=corn&m=true).

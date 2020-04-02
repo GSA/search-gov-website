@@ -23,9 +23,9 @@ When you add the username for your Instagram account, we'll automatically index 
 
 On the image results page, we'll display the pictures from your Instagram account by default. If you'd like to backfill them with the standard image results from your website, [email us](mailto:search@support.digitalgov.gov) and we'll turn on your web images for you.
 
-See the sample results page below that shows image results displayed on [DOL.gov for a search on *minimum wage*](http://search.usa.gov/search/images?affiliate=u.s.departmentoflabor&query=minimum+wage).
+See the sample results page below that shows image results displayed on [DOL.gov for a search on *minimum wage*](https://search.usa.gov/search/images?affiliate=u.s.departmentoflabor&query=minimum+wage).
 
-[![Image results from Flickr & Instagram](https://d3qcdigd1fhos0.cloudfront.net/blog/img/social-media-instagram.png "Image results from Flickr & Instagram")](http://search.usa.gov/search/images?affiliate=u.s.departmentoflabor&query=minimum+wage)
+[![Image results from Flickr & Instagram](https://d3qcdigd1fhos0.cloudfront.net/blog/img/social-media-instagram.png "Image results from Flickr & Instagram")](https://search.usa.gov/search/images?affiliate=u.s.departmentoflabor&query=minimum+wage)
 
 ---
 

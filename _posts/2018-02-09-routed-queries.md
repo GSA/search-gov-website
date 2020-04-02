@@ -11,7 +11,7 @@ Do you want to get searchers to a specific web page as quickly as possible? Crea
 
 A routed query skips the search results page and automatically directs visitors to a web page of your choice for very specific queries. Use query routing to save visitors the extra step of reading through search results links by taking them directly to your content pages.
 
-We recommend creating a routed query for [top tasks](http://www.digitalgov.gov/2015/02/06/top-task-usability-design-for-your-users/) that have a good content page but less-than-ideal search results.
+We recommend creating a routed query for [top tasks](https://digitalgov.gov/2015/02/06/top-task-usability-design-for-your-users/) that have a good content page but less-than-ideal search results.
 
 ## Add a Routed Query
 

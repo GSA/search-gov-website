@@ -11,7 +11,7 @@ tags: help-manual manage-display facets modules related-sites
 
 **Label.** By default, we use the label 'Search' for your facets. Enter a label in the label field if you'd like something other than this default. Keep your label consistent with the options you're listing and under 15 characters.
 
-See the sample results page below that shows the facets with the default label, Search, displayed for a [search on *passport* on USA.gov](http://search.usa.gov/search?affiliate=usagov&query=passport). (It is most easily seen by clicking on the menu option from a mobile phone.)
+See the sample results page below that shows the facets with the default label, Search, displayed for a [search on *passport* on USA.gov](https://search.usa.gov/search?affiliate=usagov&query=passport). (It is most easily seen by clicking on the menu option from a mobile phone.)
 
 **On/off options for facets.** Select which facets you'd like to appear on your results page. Turn an option on to allow searchers to see it. Turn an option on or off at any time.
 
@@ -46,7 +46,7 @@ Help visitors find content relevant to their search query that resides on other 
 
 Enter the [site handle]({{ site.baseurl }}/manual/settings.html) for one of your other Search.gov sites. Enter the text you'd like searchers to see for the link to the related site. Create two entries, one from the first site to the second and vice versa, if you'd like a reciprocal link.
 
-See, for example, the Español option displayed on [USA.gov for a search on *venezuela*](http://search.usa.gov/search?query=venezuela&affiliate=usagov). When searchers click this option, they see results for [*venezuela* on GobiernoUSA.gov](http://search.usa.gov/search?query=venezuela&affiliate=gobiernousa).
+See, for example, the Español option displayed on [USA.gov for a search on *venezuela*](https://search.usa.gov/search?query=venezuela&affiliate=usagov). When searchers click this option, they see results for [*venezuela* on GobiernoUSA.gov](https://search.usa.gov/search?query=venezuela&affiliate=gobiernousa).
 
 If you list more than two related sites, searchers will see them listed under a dropdown menu, View Topic.
 

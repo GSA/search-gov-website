@@ -13,7 +13,7 @@ As you customize the [newly redesigned results page]({{ site.baseurl }}/blog/ser
 
 Shorter display names look best for the faceted search and related sites. Try to keep names under 15 characters.
 
-* [USA.gov](http://search.usa.gov/search?affiliate=usagov&query=visas) has multiple faceted topics, and a related site for Spanish.
+* [USA.gov](https://search.usa.gov/search?affiliate=usagov&query=visas) has multiple faceted topics, and a related site for Spanish.
 
 ## Fonts & Colors
 
@@ -21,9 +21,9 @@ Shorter display names look best for the faceted search and related sites. Try to
 
 Use a background color on the header, page body, or both. For best results, use different colors for the header and body.  
 
-* Your background doesn't have to be a strong color. A light gray can provide subtle definition as seen on [NIH.gov](http://search.nih.gov/search?&affiliate=nih&query=library).
-* A good, strong color for the search button can go a long way, as seen [Kids.gov](http://search.usa.gov/search?&affiliate=kidsgov&query=washington).
-* Especially buttons with a contrasting accent color like on [TreasuryDirect](http://search.usa.gov/search?query=gold&affiliate=treasurydirect).
+* Your background doesn't have to be a strong color. A light gray can provide subtle definition as seen on [NIH.gov](https://search.nih.gov/search?&affiliate=nih&query=library).
+* A good, strong color for the search button can go a long way, as seen [Kids.gov](https://search.usa.gov/search?&affiliate=kidsgov&query=washington).
+* Especially buttons with a contrasting accent color like on [TreasuryDirect](https://search.usa.gov/search?query=gold&affiliate=treasurydirect).
 
 ## Image Assets
 
@@ -33,8 +33,8 @@ A logo that has both the seal and agency name can provide a stronger identity th
 
 The addition of a name can also give the same seal two very different identities.
 
-* [NOAA Fisheries](http://search.usa.gov/search?&m=&affiliate=nmfs.noaa.gov&query=fisheries)
-* [NOAA National Oceanographic Data Center](http://search.usa.gov/search?affiliate=nodc.noaa.gov&query=wilmington)
+* [NOAA Fisheries](https://search.usa.gov/search?&m=&affiliate=nmfs.noaa.gov&query=fisheries)
+* [NOAA National Oceanographic Data Center](https://search.usa.gov/search?affiliate=nodc.noaa.gov&query=wilmington)
 
 Align your logo so its alignment is consistent with your website.
 
@@ -47,4 +47,4 @@ Align your logo so its alignment is consistent with your website.
 Use the footer to add navigation and required links.
 
 * [The Department of Justice](https://search.justice.gov/search?affiliate=justice&query=law) is using this option.
-* It's also possible to add an email address to the footer or header by using mailto:info@agency.gov within the URL as [USPTO.gov](http://search.uspto.gov/search?affiliate=web-sdmg-uspto.gov&query=patents) has done for its option to email the USPTO Webmaster.
+* It's also possible to add an email address to the footer or header by using mailto:info@agency.gov within the URL as [USPTO.gov](https://search.uspto.gov/search?affiliate=web-sdmg-uspto.gov&query=patents) has done for its option to email the USPTO Webmaster.

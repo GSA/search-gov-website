@@ -66,8 +66,8 @@ The token can be found in our system in: [Search Admin Center](https://search.us
 
 <div id="swagger-ui"></div>
 
-<script src="/files/swagger-ui-bundle.js"> </script>
-<script src="/files/swagger-ui-standalone-preset.js"> </script>
+<script src="{{ site.baseurl }}/files/swagger-ui-bundle.js"> </script>
+<script src="{{ site.baseurl }}/files/swagger-ui-standalone-preset.js"> </script>
 <script>
 window.onload = function() {
   

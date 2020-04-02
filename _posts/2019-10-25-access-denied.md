@@ -9,7 +9,7 @@ description: This page provides an error message for invalid login attempts.
 <article class="article feature" style="padding:0 30px; margin-top: 10px;">
 <div class="banner" style="text-center center-block">
   <a href="/">
-    <img class="img-responsive center-block" src="/assets/img/site/searchdotgovlogo.png" alt="Search.gov logo"/>
+    <img class="img-responsive center-block" src="{{ site.baseurl }}/assets/img/site/searchdotgovlogo.png" alt="Search.gov logo"/>
   </a>
 </div>
 
