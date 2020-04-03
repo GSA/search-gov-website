@@ -5,7 +5,7 @@
  
     {% unless post.category == 'quote' %}
     <h1>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h1>
     {% endunless %}
 
