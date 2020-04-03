@@ -11,7 +11,7 @@
 
     <div class='tags'>
       {% for tag in post.tags %}
-      <a href="/tagged/{{ tag }}"><span class="label label-info">{{ tag }}</span></a>
+      <a href="{{ site.baseurl }}/tagged/{{ tag }}"><span class="label label-info">{{ tag }}</span></a>
       {% endfor %}
     </div>
    <div class='time'>
