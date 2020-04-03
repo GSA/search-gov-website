@@ -1,7 +1,7 @@
 {
   "name": "search-gov-website",
   "version": "1.0.0",
-  "description": "[![CircleCI](https://circleci.com/gh/GSA/search.digitalgov.gov.svg?style=svg)](https://circleci.com/gh/GSA/search.digitalgov.gov)",
+  "description": "[![CircleCI](https://circleci.com/gh/GSA/search-gov-website.svg?style=svg)](https://circleci.com/gh/GSA/search-gov-website)",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

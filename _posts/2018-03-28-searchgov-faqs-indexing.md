@@ -95,9 +95,9 @@ Based on your site setup, you have a variety of options. Below is our order of p
 
 * [Structured URL list (XML sitemap)]({{ site.baseurl }}/manual/sitemaps.html) -- We will fetch and index the URLs that you provide on an XML sitemap, and will monitor your sitemaps for new content and updates over time. Our system will visit the URLs you provide and extract page titles, dates, and full text for indexing. You can post multiple sitemaps for content from different platforms - [get the essential information about sitemaps here]({{ site.baseurl }}/manual/sitemaps.html). This is the preferred method.
  
-* [i14y API](https://search.digitalgov.gov/developer/i14y.html) --  Our API allows you to update your search index in real-time. Best for agencies with dedicated developer resources and single-platform publishing environments.
+* [i14y API]({{ site.baseurl }}/developer/i14y.html) --  Our API allows you to update your search index in real-time. Best for agencies with dedicated developer resources and single-platform publishing environments.
 
-* [RSS feed](https://search.digitalgov.gov/manual/rss.html) -- We will still accept RSS feeds to update your indexes on a rolling basis. 
+* [RSS feed]({{ site.baseurl }}/manual/rss.html) -- We will still accept RSS feeds to update your indexes on a rolling basis. 
 
 If you’re unable to do any of the above, [contact us](mailto:search@support.digitalgov.gov), and we’ll discuss options.
 

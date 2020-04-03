@@ -14,8 +14,8 @@
    [Markdown](http://daringfireball.net/projects/markdown/syntax) or
    [Liquid Extension](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions).
 1. Add, commit and push your new post back to the repository.
-1. After roughly 3 minutes, visit `https://search.digitalgov.gov/drafts/post-filename-title.html` to preview your post.
-   If you added a permalink config in your post, visit `https://search.digitalgov.gov/drafts/your-permalink.html`
+1. After roughly 3 minutes, visit `{{ site.baseurl }}/drafts/post-filename-title.html` to preview your post.
+   If you added a permalink config in your post, visit `{{ site.baseurl }}/drafts/your-permalink.html`
 1. When you're ready to publish your post, move the file from from drafts to the [_posts directory](https://github.com/GSA/search.digitalgov.gov/tree/master/_posts).
 
 ## How to set up your development environment

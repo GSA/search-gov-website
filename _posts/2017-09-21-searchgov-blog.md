@@ -9,7 +9,7 @@ We are pleased to announce some exciting upcoming changes to our service. On Oct
 
 Why are we evolving in this direction? Licensing commercial search results is expensive and complex. As we’ve continued to grow, our costs have continued to increase, and a new model has become a necessity. 
 
-Indexing changes will begin rolling out in early FY18 and will only affect where your web results come from. Your search results page will look the same, and our additional search features will also be the same: [Best Bets](https://search.digitalgov.gov/manual/best-bets.html), [Collections](https://search.digitalgov.gov/manual/collections.html), job postings, social media integrations, and so on.
+Indexing changes will begin rolling out in early FY18 and will only affect where your web results come from. Your search results page will look the same, and our additional search features will also be the same: [Best Bets]({{ site.baseurl }}/manual/best-bets.html), [Collections]({{ site.baseurl }}/manual/collections.html), job postings, social media integrations, and so on.
 
 In this new model, we’ll work closely with you to get your sites indexed. This post describes the different approaches we’ll take and what we’ll need from you, depending on which method is right for your site and needs. 
 
@@ -35,7 +35,7 @@ Below are the options for how you can tell us about your site content. The list 
  
 ### Preferred Option: i14y Content Indexing API (i14y)
  
-Since 2015, we’ve offered an API called [i14y](https://search.digitalgov.gov/developer/i14y.html). I14y receives real-time content updates, which gives you full control over your search results. You can update and remove content, and decide exactly what will be shown as the result title for each item.
+Since 2015, we’ve offered an API called [i14y]({{ site.baseurl }}/developer/i14y.html). I14y receives real-time content updates, which gives you full control over your search results. You can update and remove content, and decide exactly what will be shown as the result title for each item.
 
 We are excited to get additional CMS customers using this powerful feature.
 
@@ -69,7 +69,7 @@ For customers who have developed RSS feeds for our system: that process will rem
 
 ## Next Steps and Action Items
 
-We are excited about our new direction. You can follow our progress by reading our monthly [Release Notes](https://search.digitalgov.gov/tagged/release-notes/).
+We are excited about our new direction. You can follow our progress by reading our monthly [Release Notes]({{ site.baseurl }}/tagged/release-notes/).
 
 _CMS customers:_
 
@@ -77,7 +77,7 @@ We encourage you to set-up and test i14y as soon as possible.
 
 _Non-CMS Customers:_
 
-We encourage you to explore how you can compile a list of your site URLs, and to begin thinking about cleaning up your page titles and descriptions. You do not need to send us any information yet. You may want to check out our webinar [Structuring Your Site for Better SEO](https://search.digitalgov.gov/manual/training.html) that will give you tips on what sorts of things to be on the watch for.
+We encourage you to explore how you can compile a list of your site URLs, and to begin thinking about cleaning up your page titles and descriptions. You do not need to send us any information yet. You may want to check out our webinar [Structuring Your Site for Better SEO]({{ site.baseurl }}/manual/training.html) that will give you tips on what sorts of things to be on the watch for.
 
 ### Do you have questions? 
 
