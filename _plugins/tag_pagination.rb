@@ -12,7 +12,7 @@ module Jekyll
       pages = PostPager.calculate_pages(posts, site.config['paginate_per_page'].to_i)
       (1..pages).each do |num_page|
         pager = PostPager.new(site.config, num_page, posts, pages)
-        dir = num_page > 1 ? "{{ site.baseurl }}/tagged/#{tag}/page#{num_page}" : "{{ site.baseurl }}/tagged/#{tag}"
+        dir = num_page > 1 ? "/tagged/#{tag}/page#{num_page}" : "/tagged/#{tag}"
         newpage = TagPage.new(site, site.source, tag, posts, dir, 'index.html', site.config['posts_tag_layout'])
         newpage.pager = pager
         site.pages << newpage
