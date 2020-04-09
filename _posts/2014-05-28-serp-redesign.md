@@ -93,7 +93,7 @@ The new health topics format shows a shorter, more concise snippet and the snipp
 
 ## By Government, for Government
 
-Our search results page now ensures the public has a common search experience anywhere, anytime, and on any device. This meets a key objective of the federal government's [Digital Government Strategy](https://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government.html).
+Our search results page now ensures the public has a common search experience anywhere, anytime, and on any device. This meets a key objective of the federal government's [Digital Government Strategy](https://digital.gov/resources/2012-digital-government-strategy/).
 
 It has also been tested to ensure it is [accessible to people with disabilities](https://www.section508.gov/).
 

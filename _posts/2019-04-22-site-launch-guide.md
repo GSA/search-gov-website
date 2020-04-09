@@ -24,8 +24,8 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 <img class="img-responsive"
         src="{{ site.baseurl }}/files/site-launch-workflow.png"
         alt="Flow chart showing the steps involved in launching a search site on Search.gov">
-<a href="https://search.gov/manual/site-launch-flow.html#description">Site launch flow chart detailed description</a><br />
-<a href="https://search.gov/files/site-launch-workflow.png">Open large version</a>
+<a href="{{ site baseurl }}/manual/site-launch-flow.html#description">Site launch flow chart detailed description</a><br />
+<a href="{{ site.baseurl }}/files/site-launch-workflow.png">Open large version</a>
 
 <a name="description"></a>
 
