@@ -21,15 +21,12 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 1. [Configure the branding of your results page](#configure-branding)
 1. [Connect your website’s search box to your search site](#go-live)
 
-<img class="img-responsive"
-        src="{{ site.baseurl }}/files/site-launch-workflow.png"
-        alt="Flow chart showing the steps involved in launching a search site on Search.gov">
-<a href="{{ site baseurl }}/manual/site-launch-flow.html#description">Site launch flow chart detailed description</a><br />
-<a href="{{ site.baseurl }}/files/site-launch-workflow.png">Open large version</a>
+![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.baseurl }}/files/site-launch-workflow.png){: .img-responsive}
+[Site launch flow chart detailed description](#description)
+[Open large version]({{ site.baseurl }}/files/site-launch-workflow.png)
 
-<a name="description"></a>
-
-<a name="add-site"></a>
+{: #description }
+{: #add-site }
 
 ## 1. Add Site
 
@@ -51,7 +48,7 @@ Once you've created your site, note the actions available on the left-hand navig
 
 <i class="icon-code"></i> And finally, the **Activate** section provides pre-formatted code snippets to help you go live. Don’t be afraid of entering this area, nothing will actually be activated.
 
-<a name="add-domains"></a>
+{: #add-domains }
 <br />
 ## 2. Add Domains
 
@@ -59,7 +56,7 @@ Once you've created your site, note the actions available on the left-hand navig
 
 **What:** In the content management section, the domains list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain. [Read more here]({{ site.baseurl }}/manual/domains.html).
 
-<a name="select-index"></a>
+{: #select-index }
 <br />
 ## 3. Web Index Selection
 
@@ -69,10 +66,10 @@ Once you've created your site, note the actions available on the left-hand navig
 
 Regardless of the index used to support your search, we can only serve publicly accessible content. You will not be able to use our service for secure content, including intranets, and we can never index or serve personally identifiable information (PII) or other confidential data.
 
-(<a href="#add-features">Jump to Step 4. Add Features</a> if you don't need the details of the indexing process at this time.)
+([Jump to Step 4. Add Features](#add-features) if you don't need the details of the indexing process at this time.)
 
 If we will be indexing your content ourselves, we will follow these steps:
-<a name="indexing-workflow"></a>
+{: #indexing-workflow }
 
 <br /><br />
 ###  Indexing with Search.gov
@@ -135,6 +132,7 @@ For brand new sites: You will be able to test the index using your regular searc
 For sites switching from Bing: When you give us the green light to switch to the new index, there is no action needed on your part other than the approval. We will change a setting in our back end, which will point your existing search site’s web results module to our index, and the change is effective immediately. All other elements of your search site remain the same: search features, branding, etc.
 
 <a name="add-features"></a>
+{: #add-features }
 <br /><br />
 ## 4. Add Search Features
 
@@ -152,7 +150,7 @@ For sites switching from Bing: When you give us the green light to switch to the
 * [Jobs]({{ site.baseurl }}/manual/govbox-jobs.html) are one of the most frequently searched topics on agency websites. Use our jobs module to show your agency’s postings from USAJOBS in your own website’s search results.
 * [_Federal Register_]({{ site.baseurl }}/manual/govbox-federal-register.html) rules and notices can be added to your search results in a separate module. 
 
-<a name="turn-features-on"></a>
+{: turn-features-on }
 <br />
 ## 5. Toggle Search Features On
 
@@ -160,7 +158,7 @@ For sites switching from Bing: When you give us the green light to switch to the
 
 **What:** In order to display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [Display Overview page]({{ site.baseurl }}/manual/display-overview.html). If you want to show Jobs or _Federal Register_ results and you don’t see those options on the Display Overview page, [let us know](mailto:search@support.digitalgov.gov) and we can connect your search site to those features.
 
-<a name="configure-branding"></a>
+{: #configure-branding }
 <br />
 ## 6. Configure Results Page
 
@@ -170,7 +168,7 @@ For sites switching from Bing: When you give us the green light to switch to the
 
 [Masking the domain for your results page]({{ site.baseurl }}/manual/cname.html) is another way you can provide continuity to your searchers as they move back and forth between your site and our system.
 
-<a name="go-live"></a>
+{: #go-live }
 <br />
 ## 7. Connect Your Search Box to Search.gov
 
