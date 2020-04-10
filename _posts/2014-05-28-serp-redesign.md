@@ -31,7 +31,7 @@ We've done away with the wordiness and boldface. The suggestion and its correspo
 
 ## Search Verticals
 
-Through [usability tests](https://digitalgov.gov/resources/digitalgov-user-experience-program/digitalgov-user-experience-program-test-support/), we found that searchers didn't see the options to change the scope of their results in the left-hand column. Data also supports this finding as very, very few searchers clicked on these options. Here's the before and after for a search on *jobs* on USA.gov.
+Through [usability tests](https://digital.gov/resources/#usability), we found that searchers didn't see the options to change the scope of their results in the left-hand column. Data also supports this finding as very, very few searchers clicked on these options. Here's the before and after for a search on *jobs* on USA.gov.
 
 ![Search verticals on USA.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/redesign-verticals.png "Search verticals on USA.gov")
 

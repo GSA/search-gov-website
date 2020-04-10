@@ -25,9 +25,9 @@ To address this gap and other licensing complexities, we will focus on using our
 
 In the most basic terms, here’s what we’ll be doing:
 
-![Flowchart showing the major phases of search indexing: Discover, Parse, Index, and Search.]({{ site.baseurl }}/img/basic-indexing-flow.png)
+![Flowchart showing the major phases of search indexing: Discover, Parse, Index, and Search.]({{ site.baseurl }}/assets/img/site/basic-indexing-flow.png)
 
-[*Detailed diagram*]({{ site.baseurl }}/img/searchgov-flow.png)
+[*Detailed diagram*]({{ site.baseurl }}/assets/img/site/searchgov-flow.png)
 
 Below are the options for how you can tell us about your site content. The list is divided into sections based on whether or not your website is on a content management system (CMS). There will be two primary ways to get content into our system: have your CMS send content to us via the i14y API, or send us a list of URLs.
 

@@ -53,11 +53,11 @@ After hitting ‘next’ to view page 2, supplemental content is served.
 
 ### Page 1:
 
-![Commercial Results are Displayed on Page One of the DigitalGov.gov Search Results Page]({{ site.baseurl }}/img/Commercial-Results-First-Page-1.png){:height="95%" width="95%"}
+![Commercial Results are Displayed on Page One of the DigitalGov.gov Search Results Page]({{ site.baseurl }}/assets/img/site/Commercial-Results-First-Page-1.png){:height="95%" width="95%"}
 
 ### Page 2: 
 
-![Supplemental Feed Results are Displayed on Page Two of the DigitalGov.gov Search Results Page]({{ site.baseurl }}/img/Commercial-Results-First-Page-2.png){:height="95%" width="95%"}
+![Supplemental Feed Results are Displayed on Page Two of the DigitalGov.gov Search Results Page]({{ site.baseurl }}/assets/img/site/Commercial-Results-First-Page-2.png){:height="95%" width="95%"}
 
 If there are no commercial results for a query but there are supplemental content results, we will display the supplemental content on page one.
 
@@ -69,7 +69,7 @@ Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/manual/rss.h
 
 In the example below, a Supplemental URL appears first, and clicking “Try your search again” will lead to a page of Bing results. 
 
-![A Supplemental URL is Displayed on Page One of the DigitalGo Search Search Results Page]({{ site.baseurl }}/img/Supplemental-Content-First-Example.png){:height="95%" width="95%"}
+![A Supplemental URL is Displayed on Page One of the DigitalGo Search Search Results Page]({{ site.baseurl }}/assets/img/site/Supplemental-Content-First-Example.png){:height="95%" width="95%"}
 
 ## Getting Supplemental Content To Be Your Only Search Results
 
@@ -90,7 +90,7 @@ Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/manual/rss.h
 * [Is that PDF Searchable?](https://blogs.adobe.com/acrolaw/2007/02/is_that_pdf_sea/){% external_link %} (blog post)
 * [How to Create Searchable PDF File](https://acrobatusers.com/tutorials/how-to-create-a-searchable-pdf-file){% external_link %} (video)
 
-***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report that says your page is taking too long to load? Use [Pingdom Tools Full Page Test](https://tools.pingdom.com/fpt/){% external_link %} to test the load time of your page, analyze it, and find the bottlenecks.
+***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report that says your page is taking too long to load? Use [Google's PageSpeed Tools](https://developers.google.com/speed){% external_link %} to test the load time of your page, analyze it, and find the bottlenecks.
 
 ***Did you know?*** To help the public find your web pages when they search on Bing.com, we notify Bing about any URLs you add. While this helps with search engine optimization (SEO), it is not a cure-all. You should also register for and use commercial search engines' webmaster tools.
 

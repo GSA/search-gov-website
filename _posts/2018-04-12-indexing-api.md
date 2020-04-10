@@ -62,7 +62,7 @@ The token can be found in our system in: [Search Admin Center](https://search.us
   </defs>
 </svg>
 
-<link rel="stylesheet" type="text/css" href="/files/swagger-ui.css" >
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/files/swagger-ui.css" >
 
 <div id="swagger-ui"></div>
 

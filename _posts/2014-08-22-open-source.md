@@ -41,9 +41,9 @@ That said, we hope that exposing the pieces of our system will be useful to some
 
 ## And, We're Not Alone
 
-We're not alone. Other federal agencies have embraced the approach of coding in the open and have [GitHub repos](https://gsa.github.io/federal-open-source-repos). Below are a just a few of our many favorites.
+We're not alone. Other federal agencies have embraced the approach of coding in the open and have [GitHub repos](https://github.com/GSA/federal-open-source-repos). Below are a just a few of our many favorites.
 
 * The [Consumer Financial Protection Bureau](https://www.cfpb.gov) has embraced open source, including serving their public data sets through [qu](https://github.com/cfpb/qu) and sharing their work at <https://cfpb.github.io>.
 * The [Food and Drug Administration](https://www.fda.gov) recently made public FDA datasets more accessible at [openFDA](https://open.fda.gov).
-* GSA's newly-created [18F](https://18f.gsa.gov) has committed to [working in the open from day 1](https://18fblog.tumblr.com/post/93415834296/working-in-public-from-day-1).
+* GSA's newly-created [18F](https://18f.gsa.gov) has committed to [working in the open from day 1](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/).
 * The [White House](https://www.whitehouse.gov) was in the forefront of using open source software in the federal government with their use of Drupal. They're continuing to lead by example by opening up the code for their [We the People petitions](https://github.com/WhiteHouse/petitions) and [iOS](https://github.com/WhiteHouse/wh-app-ios) and [Android](https://github.com/WhiteHouse/wh-app-android) mobile apps.

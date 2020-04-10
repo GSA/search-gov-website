@@ -22,7 +22,7 @@ Shorter display names look best for the faceted search and related sites. Try to
 Use a background color on the header, page body, or both. For best results, use different colors for the header and body.  
 
 * Your background doesn't have to be a strong color. A light gray can provide subtle definition as seen on [NIH.gov](https://search.nih.gov/search?&affiliate=nih&query=library).
-* A good, strong color for the search button can go a long way, as seen [Kids.gov](https://search.usa.gov/search?&affiliate=kidsgov&query=washington).
+* A good, strong color for the search button can go a long way, as seen on [Army.mil](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=www.army.mil&sort_by=&query=troops).
 * Especially buttons with a contrasting accent color like on [TreasuryDirect](https://search.usa.gov/search?query=gold&affiliate=treasurydirect).
 
 ## Image Assets

@@ -9,7 +9,7 @@ sitemap: false
 
 <ul class="pager">
   <li class="next">
-    <a href="/blog/page2">Older &rarr;</a>
+    <a href="{{ site.baseurl }}/blog/page2">Older &rarr;</a>
   </li>
 </ul>
 <!-- end /blog/index.md content -->
