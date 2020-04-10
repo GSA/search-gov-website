@@ -5,9 +5,9 @@ category: developer
 tags: i14y api
 ---
 
-[Search.gov Home](/index.html) > [APIs for Developers](/developer/index.html) > i14y API
+[Search.gov Home]({{ site.baseurl }}/index.html) > [APIs for Developers]({{ site.baseurl }}/developer/index.html) > i14y API
 
-> **Important Note:** April, 2018. i14y does not visit your content to do full-text scraping of your content. For new implementations, the Search.gov team recommends you index your content with us not using the i14y API, but rather by publishing a comprehensive xml sitemap, which we can use to index your content. [Read more.](/blog/six-months-in.html)
+> **Important Note:** April, 2018. i14y does not visit your content to do full-text scraping of your content. For new implementations, the Search.gov team recommends you index your content with us not using the i14y API, but rather by publishing a comprehensive xml sitemap, which we can use to index your content. [Read more.]({{ site.baseurl }}/blog/six-months-in.html)
 
 [i14y Github repo](https://github.com/GSA/i14y){% external_link %}
 
@@ -20,9 +20,9 @@ Ruby/Python/Node clients are welcome.
 ## Before you Begin
 
 1. Set-up a search site with our service via 
-[Search.gov](https://search.gov) 
+[Search.gov]() 
 2. Request that your search site be enabled for i14y by [emailing our team](mailto:search@support.digitalgov.gov).
-3. Set up an i14y “drawer” in our system. [Full instructions](https://search.gov/manual/i14y-drawers.html) are available in our help manual. You’ll give your drawer a handle, and you’ll need to enter this drawer handle in the username field below after you click the Authorize button.
+3. Set up an i14y “drawer” in our system. [Full instructions]({{ site.baseurl }}/manual/i14y-drawers.html) are available in our help manual. You’ll give your drawer a handle, and you’ll need to enter this drawer handle in the username field below after you click the Authorize button.
 4. Get your i14y secret token. You’ll need to enter this token as your password.
 The token can be found in our system in: [Search Admin Center](https://search.usa.gov/sites) > Manage Content > i14y Drawers, select the option Show.
 
@@ -62,12 +62,12 @@ The token can be found in our system in: [Search Admin Center](https://search.us
   </defs>
 </svg>
 
-<link rel="stylesheet" type="text/css" href="/files/swagger-ui.css" >
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/files/swagger-ui.css" >
 
 <div id="swagger-ui"></div>
 
-<script src="/files/swagger-ui-bundle.js"> </script>
-<script src="/files/swagger-ui-standalone-preset.js"> </script>
+<script src="{{ site.baseurl }}/files/swagger-ui-bundle.js"> </script>
+<script src="{{ site.baseurl }}/files/swagger-ui-standalone-preset.js"> </script>
 <script>
 window.onload = function() {
   

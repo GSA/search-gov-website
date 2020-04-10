@@ -5,13 +5,13 @@ category: manual
 tags: help-manual manage-content routed-queries
 ---
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Routed Queries
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Routed Queries
 
 Do you want to get searchers to a specific web page as quickly as possible? Create a Routed Query.
 
 A routed query skips the search results page and automatically directs visitors to a web page of your choice for very specific queries. Use query routing to save visitors the extra step of reading through search results links by taking them directly to your content pages.
 
-We recommend creating a routed query for [top tasks](http://www.digitalgov.gov/2015/02/06/top-task-usability-design-for-your-users/) that have a good content page but less-than-ideal search results.
+We recommend creating a routed query for [top tasks](https://digitalgov.gov/2015/02/06/top-task-usability-design-for-your-users/) that have a good content page but less-than-ideal search results.
 
 ## Add a Routed Query
 
@@ -21,7 +21,7 @@ We recommend creating a routed query for [top tasks](http://www.digitalgov.gov/2
 
 ***Keywords.*** Add the specific words or phrases used to trigger the routing. Searchers will only be directed to the URL above when their query term exactly matches one of the listed keywords. Common keywords include synonyms, acronyms, compound words, misspellings, slang, or other variants. Enter each keyword (word or phrase up to 255 characters) in a separate field. 
 
-*Note*: Any keyword that you add to a Routed Query will become a permanent [type-ahead suggestion](/manual/typeahead-api.html). This applies to all 3 ways that type-ahead suggestions are displayed from our system: the module that can be turned on in the [Display Overview section](/manual/display-overview.html#modules), the [JavaScript snippet](/manual/typeahead-api.html), and the [API](/manual/typeahead-api.html). If you do not want certain keywords to appear as type-ahead suggestions, [email us](mailto:search@support.digitalgov.gov).
+*Note*: Any keyword that you add to a Routed Query will become a permanent [type-ahead suggestion]({{ site.baseurl }}/manual/typeahead-api.html). This applies to all 3 ways that type-ahead suggestions are displayed from our system: the module that can be turned on in the [Display Overview section]({{ site.baseurl }}/manual/display-overview.html#modules), the [JavaScript snippet]({{ site.baseurl }}/manual/typeahead-api.html), and the [API]({{ site.baseurl }}/manual/typeahead-api.html). If you do not want certain keywords to appear as type-ahead suggestions, [email us](mailto:search@support.digitalgov.gov).
 
 ## Examples of How It Works
 
@@ -40,4 +40,4 @@ If they get routed to the [Unclaimed Money from the Government](https://www.usa.
 
 If they search for something not on the above list, like *show me missing money*, they'll still get the normal search results. 
 
-![Standard search results for 'I am looking for unclaimed money' on USA.gov](/img/unclaimed-money.png){:height="95%" width="95%"}
+![Standard search results for 'I am looking for unclaimed money' on USA.gov]({{ site.baseurl }}/assets/img/site/unclaimed-money.png){:height="95%" width="95%"}

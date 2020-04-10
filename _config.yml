@@ -1,6 +1,7 @@
 author: Search.gov
 title: Search.gov
-url: https://search.gov
+url: "https://search.gov"
+baseurl: ""
 permalink: /:categories/:title.html
 lsi: false
 highlighter: pygments

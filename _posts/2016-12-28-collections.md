@@ -5,7 +5,7 @@ category: manual
 tags: help-manual manage-content collections
 ---
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Collections
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Collections
 
 Would you like searchers to be able to change where they are searching, either to a particular place within your site, or to another site? You can create a collection that will search in any set of domains, subdomains, or subfolders.
 
@@ -13,7 +13,7 @@ Would you like searchers to be able to change where they are searching, either t
 
 Enter a name for the collection (such as FAQs, Archive, or News).
 
-Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with http:// and end it in a trailing slash to avoid unintended matches (e.g., https://publications.agency.gov/docs/ and https://answers.agency.gov).
+Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with `https://` and end it in a trailing slash to avoid unintended matches (e.g., `https://publications.agency.gov/docs/` and `https://answers.agency.gov`).
 
 You cannot specify URLs for individual web pages. If you are including a subfolder, be sure to include the folder(s) where the files are actually stored, not the folder where the index page lives.
 
@@ -21,7 +21,7 @@ Paths that are three or more subfolders deep may not return results immediately.
 
 ## Step 2. Opt to Show as a Facet
 
-Click on the [Display Overview](/manual/display-overview.html) page. Turn on your collection to allow searchers to see it as a search facet in the navigation bar above the search box on the results page (in the desktop view), or in the search menu (on smaller screens).
+Click on the [Display Overview]({{ site.baseurl }}/manual/display-overview.html) page. Turn on your collection to allow searchers to see it as a search facet in the navigation bar above the search box on the results page (in the desktop view), or in the search menu (on smaller screens).
 
 ## Step 3. Check Your Search Results Page
 
@@ -33,7 +33,7 @@ Searchers will see the collection name as an option that they can select in orde
 
 ***Did you know?*** You can set up a search box on your website that limits results to your collection.
 
-1. Start with the standard form snippet on the [Code Snippets](/manual/code.html) page under the Activate Search tab. 
+1. Start with the standard form snippet on the [Code Snippets]({{ site.baseurl }}/manual/code.html) page under the Activate Search tab. 
 1. Change the form action from `action="https://search.usa.gov/search/"` to `action="https://search.usa.gov/search/docs"`.
 1. Add the following line to limit the results to your collection: `<input type="hidden" name="dc" value="###">`.
 
@@ -41,7 +41,7 @@ The value is the number for your collection ID, which is visible in the URL when
 
 See the sample search box below that is limited to news on [NIH.gov for a search on *autism*](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism).
 
-![News-only search box on NIH.gov's News Releases page](/img/manual-collection-3.png){:height="95%" width="95%"}
+![News-only search box on NIH.gov's News Releases page]({{ site.baseurl }}/assets/img/site/manual-collection-3.png){:height="95%" width="95%"}
   
 [![NIH.gov news-only search results page](https://d3qcdigd1fhos0.cloudfront.net/blog/img/manual-collection-4.png "NIH.gov news-only search results page")](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism)
 

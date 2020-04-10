@@ -8,18 +8,24 @@
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" media="screen" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" media="screen" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
   <!--[if IE 7]>
   <link rel="stylesheet" href="/stylesheets/font-awesome-ie7.min.css">
   <![endif]-->
 
-  <!--<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">-->
-  <link href="/stylesheets/custom.css" rel="stylesheet">
+  <!-- OLD CSS - Pre USWDS Gulp -->
+  <!-- <link href="/stylesheets/custom.css" rel="stylesheet"> -->
+
+  <!-- OLD CSS - Post USWDS Gulp -->
+  <link href="{{ "/assets/bootstrap/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/dist/old_styles.css" | prepend: site.baseurl }}">
+
+  <!-- NEW CSS - Post USWDS Gulp -->
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/dist/styles.css" | prepend: site.baseurl }}">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
-  <script src="/javascripts/html5shiv.js"></script>
+  <script src="{{ site.baseurl }}/javascripts/html5shiv.js"></script>
   <![endif]-->
 
   <!-- Fav and touch icons -->
@@ -33,5 +39,5 @@
   <link rel="shortcut icon" href="https://d3qcdigd1fhos0.cloudfront.net/blog/img/favicon.ico">
   <link rel='alternate' type='application/atom+xml' title='search.gov Atom feed' href='/all.atom' />
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="/javascripts/bootstrap3-typeahead.js"></script>
+  <script src="{{ site.baseurl }}/javascripts/bootstrap3-typeahead.js"></script>
  </head>

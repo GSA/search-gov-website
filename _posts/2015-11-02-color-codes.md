@@ -5,11 +5,11 @@ category: manual
 tags: help-manual manage-users best-bets rss
 ---
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite
 
 We use color coding the Admin Center to indicate the status of a few types of items. 
 
-## [Manage Users](/manual/users.html)
+## [Manage Users]({{ site.baseurl }}/manual/users.html)
 
 | Color | Status | 
 | :------------ | :---------------------------------- |
@@ -17,7 +17,7 @@ We use color coding the Admin Center to indicate the status of a few types of it
 | Yellow  | Pending - requires approval or email verification |
 | Red   | Not approved |
 
-## [RSS Feeds](/manual/rss.html)
+## [RSS Feeds]({{ site.baseurl }}/manual/rss.html)
 
 | Color | Status | 
 | :------------ | :---------------------------------- |
@@ -37,7 +37,7 @@ Click on the name of the feed to see more detailed information about its status.
 * Link is not a valid URL
 * Linked URL does not exist (HTTP 404)
 
-## [Best Bets](/manual/best-bets.html): Text or Graphics
+## [Best Bets]({{ site.baseurl }}/manual/best-bets.html): Text or Graphics
 
 | Color | Status | 
 | :------------ | :---------------------------------- |

@@ -9,7 +9,7 @@ tags: ux about-us
 
 The last time we did a major redesign of our results page was in January 2012. It was long overdue for a facelift.
 
-So, we've redesigned our search results page. We've kept an eye on best practices in the search industry and what media websites (like NPR.org and NYTimes.com) are up to, But, we're not simply following the leaders. We've also [analyzed our search data](http://www.digitalgov.gov/2014/05/07/analyzing-search-data-in-real-time-to-drive-decisions/) to make data-driven decisions that, ultimately, aim to improve searchers' experience on your site.
+So, we've redesigned our search results page. We've kept an eye on best practices in the search industry and what media websites (like NPR.org and NYTimes.com) are up to, But, we're not simply following the leaders. We've also [analyzed our search data](https://digitalgov.gov/2014/05/07/analyzing-search-data-in-real-time-to-drive-decisions/) to make data-driven decisions that, ultimately, aim to improve searchers' experience on your site.
 
 Below are some of the highlights.
 
@@ -31,7 +31,7 @@ We've done away with the wordiness and boldface. The suggestion and its correspo
 
 ## Search Verticals
 
-Through [usability tests](http://www.digitalgov.gov/resources/digitalgov-user-experience-program/digitalgov-user-experience-program-test-support/), we found that searchers didn't see the options to change the scope of their results in the left-hand column. Data also supports this finding as very, very few searchers clicked on these options. Here's the before and after for a search on *jobs* on USA.gov.
+Through [usability tests](https://digital.gov/resources/#usability), we found that searchers didn't see the options to change the scope of their results in the left-hand column. Data also supports this finding as very, very few searchers clicked on these options. Here's the before and after for a search on *jobs* on USA.gov.
 
 ![Search verticals on USA.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/redesign-verticals.png "Search verticals on USA.gov")
 
@@ -93,7 +93,7 @@ The new health topics format shows a shorter, more concise snippet and the snipp
 
 ## By Government, for Government
 
-Our search results page now ensures the public has a common search experience anywhere, anytime, and on any device. This meets a key objective of the federal government's [Digital Government Strategy](https://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government.html).
+Our search results page now ensures the public has a common search experience anywhere, anytime, and on any device. This meets a key objective of the federal government's [Digital Government Strategy](https://digital.gov/resources/2012-digital-government-strategy/).
 
 It has also been tested to ensure it is [accessible to people with disabilities](https://www.section508.gov/).
 
@@ -101,4 +101,4 @@ It has also been tested to ensure it is [accessible to people with disabilities]
 
 Are you ready to turn on the new results page? [Tell us](mailto:search@support.digitalgov.gov) if you're ready now, or if you need some more time or help. 
 
-Read our [favorite tips](/blog/serp-redesign-tips.html) to see how other sites have customized their results pages and for some ideas on how to [brand the results page](/manual/brand.html) for your site.
+Read our [favorite tips]({{ site.baseurl }}/blog/serp-redesign-tips.html) to see how other sites have customized their results pages and for some ideas on how to [brand the results page]({{ site.baseurl }}/manual/brand.html) for your site.

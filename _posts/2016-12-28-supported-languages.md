@@ -5,7 +5,7 @@ category: manual
 tags: help-manual display settings
 ---
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Settings
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Settings
 
 When you add a search site, you have the option to set the language to something other than English. We support the following languages on our search results pages. 
 

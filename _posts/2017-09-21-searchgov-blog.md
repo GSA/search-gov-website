@@ -5,11 +5,11 @@ category: blog
 tags: roadmap 
 ---
 
-We are pleased to announce some exciting upcoming changes to our service. On October 1st, we’ll become Search.gov. We’re changing more than just our name; in fiscal year 2018, we will use our own indexes to serve search results instead of relying on [commercial web search engines](/blog/searchgov-faqs-indexing.html#q-how-was-my-site-getting-results-before).
+We are pleased to announce some exciting upcoming changes to our service. On October 1st, we’ll become Search.gov. We’re changing more than just our name; in fiscal year 2018, we will use our own indexes to serve search results instead of relying on [commercial web search engines]({{ site.baseurl }}/blog/searchgov-faqs-indexing.html#q-how-was-my-site-getting-results-before).
 
 Why are we evolving in this direction? Licensing commercial search results is expensive and complex. As we’ve continued to grow, our costs have continued to increase, and a new model has become a necessity. 
 
-Indexing changes will begin rolling out in early FY18 and will only affect where your web results come from. Your search results page will look the same, and our additional search features will also be the same: [Best Bets](https://search.digitalgov.gov/manual/best-bets.html), [Collections](https://search.digitalgov.gov/manual/collections.html), job postings, social media integrations, and so on.
+Indexing changes will begin rolling out in early FY18 and will only affect where your web results come from. Your search results page will look the same, and our additional search features will also be the same: [Best Bets]({{ site.baseurl }}/manual/best-bets.html), [Collections]({{ site.baseurl }}/manual/collections.html), job postings, social media integrations, and so on.
 
 In this new model, we’ll work closely with you to get your sites indexed. This post describes the different approaches we’ll take and what we’ll need from you, depending on which method is right for your site and needs. 
 
@@ -25,9 +25,9 @@ To address this gap and other licensing complexities, we will focus on using our
 
 In the most basic terms, here’s what we’ll be doing:
 
-![alt text](/img/basic-indexing-flow.png "Flowchart showing the major phases of search indexing: Discover, Parse, Index, and Search.")
+![Flowchart showing the major phases of search indexing: Discover, Parse, Index, and Search.]({{ site.baseurl }}/assets/img/site/basic-indexing-flow.png)
 
-*[Detailed diagram](/img/searchgov-flow.png "How Search.gov Works")*
+[*Detailed diagram*]({{ site.baseurl }}/assets/img/site/searchgov-flow.png)
 
 Below are the options for how you can tell us about your site content. The list is divided into sections based on whether or not your website is on a content management system (CMS). There will be two primary ways to get content into our system: have your CMS send content to us via the i14y API, or send us a list of URLs.
 
@@ -35,7 +35,7 @@ Below are the options for how you can tell us about your site content. The list 
  
 ### Preferred Option: i14y Content Indexing API (i14y)
  
-Since 2015, we’ve offered an API called [i14y](https://search.digitalgov.gov/developer/i14y.html). I14y receives real-time content updates, which gives you full control over your search results. You can update and remove content, and decide exactly what will be shown as the result title for each item.
+Since 2015, we’ve offered an API called [i14y]({{ site.baseurl }}/developer/i14y.html). I14y receives real-time content updates, which gives you full control over your search results. You can update and remove content, and decide exactly what will be shown as the result title for each item.
 
 We are excited to get additional CMS customers using this powerful feature.
 
@@ -69,7 +69,7 @@ For customers who have developed RSS feeds for our system: that process will rem
 
 ## Next Steps and Action Items
 
-We are excited about our new direction. You can follow our progress by reading our monthly [Release Notes](https://search.digitalgov.gov/tagged/release-notes/).
+We are excited about our new direction. You can follow our progress by reading our monthly [Release Notes]({{ site.baseurl }}/tagged/release-notes/).
 
 _CMS customers:_
 
@@ -77,7 +77,7 @@ We encourage you to set-up and test i14y as soon as possible.
 
 _Non-CMS Customers:_
 
-We encourage you to explore how you can compile a list of your site URLs, and to begin thinking about cleaning up your page titles and descriptions. You do not need to send us any information yet. You may want to check out our webinar [Structuring Your Site for Better SEO](https://search.digitalgov.gov/manual/training.html) that will give you tips on what sorts of things to be on the watch for.
+We encourage you to explore how you can compile a list of your site URLs, and to begin thinking about cleaning up your page titles and descriptions. You do not need to send us any information yet. You may want to check out our webinar [Structuring Your Site for Better SEO]({{ site.baseurl }}/manual/training.html) that will give you tips on what sorts of things to be on the watch for.
 
 ### Do you have questions? 
 
@@ -88,11 +88,11 @@ Tuesday, October 3rd, 1 PM ET
 Call in number: 1-866-816-7357 / Passcode: 929827#
 ```
 
-We also invite you to read our [FAQs](/blog/searchgov-faqs-indexing.html), which we'll update regularly.
+We also invite you to read our [FAQs]({{ site.baseurl }}/blog/searchgov-faqs-indexing.html), which we'll update regularly.
 
 Finally, we welcome you to email [questions and comments](mailto:search@support.digitalgov.gov).
 
-The Search program has grown and evolved since its [inception in September 2000](/customers.html). We look forward to this next phase of service to you and the public. 
+The Search program has grown and evolved since its [inception in September 2000]({{ site.baseurl }}/customers.html). We look forward to this next phase of service to you and the public. 
 
 Happy searching,
 

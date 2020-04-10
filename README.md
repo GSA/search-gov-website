@@ -14,8 +14,8 @@
    [Markdown](http://daringfireball.net/projects/markdown/syntax) or
    [Liquid Extension](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions).
 1. Add, commit and push your new post back to the repository.
-1. After roughly 3 minutes, visit `https://search.digitalgov.gov/drafts/post-filename-title.html` to preview your post.
-   If you added a permalink config in your post, visit `https://search.digitalgov.gov/drafts/your-permalink.html`
+1. After roughly 3 minutes, visit `{{ site.baseurl }}/drafts/post-filename-title.html` to preview your post.
+   If you added a permalink config in your post, visit `{{ site.baseurl }}/drafts/your-permalink.html`
 1. When you're ready to publish your post, move the file from from drafts to the [_posts directory](https://github.com/GSA/search.digitalgov.gov/tree/master/_posts).
 
 ## How to set up your development environment
@@ -30,14 +30,32 @@ We use bundler to manage gems. `cd` into the local repo. Install bundler and oth
     $ gem install bundler
     $ bundle install
 
-Start a server and try it out. From the root directory, run:
+## Running the site locally
 
-    $ bundle exec compass watch (ctrl+c to stop)
-    $ bundle exec jekyll serve
+**To build the pages with Jekyll:**
+1. open a new tab in terminal
+2. Navigate to the root directory of the project
+3. run: `bundle exec jekyll serve`
+4. Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov]({{ site.baseurl }}/) homepage.
 
-Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov](https://search.gov/) homepage.
+**To build the CSS styles:**
+1. open a new tab in terminal
+2. Navigate to the root directory of the project
+3. run: `gulp`
+4. Go to <http://localhost:4000>. The site should have the expected content & formatting of the [Search.gov]({{ site.baseurl }}/) homepage.
+
+
 
 ---
+
+## Template Images
+
+To reference images in the the site templates, use the path to the image within the `/assets/img` folder.
+
+```
+{{ "/assets/img/site/searchdotgovlogo.png" | prepend: site.baseurl }}
+```
+
 
 * For more information about Jekyll, visit [the wiki pages](https://github.com/mojombo/jekyll/wiki).
 * If you don't already have it, you'll need the Ruby version specified in `.ruby-version`. [RVM](http://rvm.io) is recommended to install Ruby on your development environment. Verify that your path points to the correct version of Ruby:

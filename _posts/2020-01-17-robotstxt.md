@@ -7,11 +7,11 @@ redirect_from: "/blog/robotstxt.html"
 tags: how-to manage-content indexing
 breadcrumbs:
   - label: Home
-    url: https://search.gov/
+    url: /
   - label: Help Manual
-    url: https://search.gov/manual/
+    url: /manual/
   - label: Indexing
-    url: https://search.gov/manual/indexing-with-searchgov.html
+    url: /manual/indexing-with-searchgov.html
 ---
 
 A `/robots.txt` file is a text file that instructs automated web bots on how to crawl and/or index a website. Web teams use them to provide information about what site directories should or should not be crawled, how quickly content should be accessed, and which bots are welcome on the site.
@@ -52,7 +52,7 @@ Crawl-delay: 10
 ```
 
 ### XML Sitemaps
-Your robots.txt file should also list one or more of your [XML sitemaps](https://search.gov/blog/sitemaps.html). For example:
+Your robots.txt file should also list one or more of your [XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html). For example:
 
 ```
 Sitemap: https://www.exampleagency.gov/sitemap.xml
@@ -70,7 +70,7 @@ Disallow: /reports/duplicative-page.html
 ```
 
 * Note that if you disallow a directory after it's been indexed by a search engine, this may not trigger a removal of that content from the index. You'll need to go into the search engine's webmaster tools to request removal.
-* Also note that search engines may index individual pages within a disallowed folder if the search engine learns about the URL from a non-crawl method, like a link from another site or your sitemap. To ensure a given page is not searchable, set a [robots meta tag](/blog/how-search-engines-index-content-better-discoverability.html#robots) on that page.
+* Also note that search engines may index individual pages within a disallowed folder if the search engine learns about the URL from a non-crawl method, like a link from another site or your sitemap. To ensure a given page is not searchable, set a [robots meta tag]({{ site.baseurl }}/manual/how-search-engines-index-content-better-discoverability.html#robots) on that page.
 
 
 ### Customize settings for different bots
@@ -91,7 +91,7 @@ Disallow: /archive/
 
 <i class="icon-check"></i> 2. The robots.txt file disallows any directories and files that automated bots should not crawl
 
-<i class="icon-check"></i> 3. The robots.txt file lists one or more [XML sitemaps](https://search.gov/blog/sitemaps.html)  
+<i class="icon-check"></i> 3. The robots.txt file lists one or more [XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html)  
 
 <i class="icon-check"></i> 4. The robots.txt file format has been [validated](https://www.websiteplanet.com/webtools/sitemap-validator/) {% external_link %}
 

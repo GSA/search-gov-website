@@ -5,7 +5,7 @@ category: manual
 tags: help-manual analytics third-party google-analytics foresee DAP
 ---
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > 3rd Party Tracking
+[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > 3rd Party Tracking
 
 Do you want your search results page to run third-party web services such as Foresee, Google Analytics, Omniture, Siteimprove, or WebTrends?
 
@@ -50,21 +50,21 @@ The code you submit should look something like one of the following two scripts.
      
 ## Digital Analytics Program Tip
 
-Does your federal agency participate in the [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP.
+Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP.
 
 ## ForeSee Tip
 
 Coordinate with your ForeSee representative and the Search.gov team to implement your customer satisfaction survey on your results page. The four general steps follow.
 
-1. Email us at <search@support.digitalgov.gov> to [set up a CNAME](cname.html) for search.youragency.gov.
+1. Email us at <search@support.digitalgov.gov> to [set up a CNAME](cname.html) for `search.YOURAGENCY.gov`.
 
 1. Update the files path in your Foresee code to use an absolute path instead of a relative path. 
 
     **Find =>** 'files': '/fsrscripts/',  
 
-    **and replace it with =>** 'files': '//www.youragency.gov/fsrscripts/',  
+    **and replace it with =>** 'files': 'https://www.YOURAGENCY.gov/fsrscripts/',  
 
-    *(Or, find => 'files': '/foresee/', and replace it with => 'files': '//www.youragency/foresee/',)*
+    *(Or, find => 'files': '/foresee/', and replace it with => 'files': 'https://www.YOURAGENCY/foresee/',)*
 
     in the following five files.
 
@@ -74,10 +74,10 @@ Coordinate with your ForeSee representative and the Search.gov team to implement
     * foresee-qualifier.js  
     * foresee-test.js
 
-1. Submit your foresee-trigger.js via our Admin Center. It should look something like the following script. `<script type="text/javascript" src="//www.youragency.gov/library/foresee/foresee-trigger.js"></script>`
+1. Submit your foresee-trigger.js via our Admin Center. It should look something like the following script. `<script type="text/javascript" src="https://www.YOURAGENCY.gov/library/foresee/foresee-trigger.js"></script>`
 
 1. We'll send you an email to confirm that we've set up both your CNAME and added the script for your foresee-trigger.js file.
 
 ---
 
-***Did you know?*** We use Google Analytics Web analytics software&mdash;our own tag plus the [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) tag&mdash;by default. Email us at <search@support.digitalgov.gov> if you'd like to opt out. Learn more about our [site policies](http://www.digitalgov.gov/about/policies/) and [terms of service](../tos.html).
+***Did you know?*** We use Google Analytics Web analytics software&mdash;our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag&mdash;by default. Email us at <search@support.digitalgov.gov> if you'd like to opt out. Learn more about our [site policies](https://digitalgov.gov/about/policies/) and [terms of service](../tos.html).

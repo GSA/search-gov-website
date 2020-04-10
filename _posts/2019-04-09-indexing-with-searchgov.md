@@ -6,34 +6,34 @@ category: manual
 tags: indexing seo
 breadcrumbs:
   - label: Home
-    url: https://search.gov/
+    url: /
   - label: Help Manual
-    url: https://search.gov/manual/
+    url: /manual/
 ---
 
 ## How does all this work?
 
 * How search engines index your website: a general overview of Search.gov and commercial search engines
-  * [Webinar](https://search.gov/manual/training.html#how-engines-index) (48 mins)
-  * [Slides](https://search.gov/files/HowSearchEnginesIndexYourWebsite.pdf)
+  * [Webinar]({{ site.baseurl }}/manual/training.html#how-engines-index) (48 mins)
+  * [Slides]({{ site.baseurl }}/files/HowSearchEnginesIndexYourWebsite.pdf)
 
-* [What Search.gov indexes from your website](https://search.gov/manual/what-searchgov-indexes.html)
+* [What Search.gov indexes from your website]({{ site.baseurl }}/manual/what-searchgov-indexes.html)
 
-* [How Search.gov ranks your search results](https://search.gov/manual/ranking-factors.html)
+* [How Search.gov ranks your search results]({{ site.baseurl }}/manual/ranking-factors.html)
 
-* [How A Page on a Sitemap Becomes a Search Result](https://search.gov/manual/sitemaps-to-search-sites.html)
+* [How A Page on a Sitemap Becomes a Search Result]({{ site.baseurl }}/manual/sitemaps-to-search-sites.html)
 
-* [A step-by-step indexing workflow](https://search.gov/manual/site-launch-guide.html#indexing-workflow)
+* [A step-by-step indexing workflow]({{ site.baseurl }}/manual/site-launch-guide.html#indexing-workflow)
 
 ## Domain Level SEO Supports
 
-* [All about XML sitemaps](https://search.gov/manual/sitemaps.html)
+* [All about XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html)
 
-* [Robots.txt files](https://search.gov/manual/robotstxt.html)
+* [Robots.txt files]({{ site.baseurl }}/manual/robotstxt.html)
 
 ## Page Level SEO Supports
 
-* [Metadata and tags you should include in your website](https://search.gov/manual/metadata.html)
+* [Metadata and tags you should include in your website]({{ site.baseurl }}/manual/metadata.html)
 
-* [How to get search engines to index the right content for better discoverability](https://search.gov/manual/how-search-engines-index-content-better-discoverability.html)
+* [How to get search engines to index the right content for better discoverability]({{ site.baseurl }}/manual/how-search-engines-index-content-better-discoverability.html)
 

@@ -1,0 +1,35 @@
+{
+  "name": "search-gov-website",
+  "version": "1.0.0",
+  "description": "[![CircleCI](https://circleci.com/gh/GSA/search-gov-website.svg?style=svg)](https://circleci.com/gh/GSA/search-gov-website)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSA/search-gov-website.git"
+  },
+  "keywords": [
+    "search.gov"
+  ],
+  "author": "Dawn McCleskey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSA/search-gov-website/issues"
+  },
+  "homepage": "https://github.com/GSA/search-gov-website#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-csso": "^4.0.0",
+    "sass": "^1.26.2",
+    "uswds": "^2.5.1",
+    "uswds-gulp": "github:uswds/uswds-gulp"
+  }
+}
