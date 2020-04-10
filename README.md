@@ -50,7 +50,7 @@ We use bundler to manage gems. `cd` into the local repo. Install bundler and oth
 
 ## Template Images
 
-To refernce images in the the site templates, use the path to the image within the `/assets/img` folder.
+To reference images in the the site templates, use the path to the image within the `/assets/img` folder.
 
 ```
 {{ "/assets/img/site/searchdotgovlogo.png" | prepend: site.baseurl }}
