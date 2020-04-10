@@ -23,6 +23,7 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 
 ![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.baseurl }}/files/site-launch-workflow.png){: .img-responsive}
 [Site launch flow chart detailed description](#description)
+
 [Open large version]({{ site.baseurl }}/files/site-launch-workflow.png)
 
 
