@@ -26,8 +26,8 @@ We do not officially support Google Tag Manager. If you add a Google Tag Manager
 
 <table>
   <tr><td><strong>Google Tag Manager</strong></td><td><strong>Search.gov script support</strong></td></tr>
-  <tr><td>Primary snippet is to be placed in the <code><head></code> of the html file</td><td>Snippet is placed at the end of the <code><body></code></td></tr>
-  <tr><td>Secondary snippet is to be placed at the beginning of the <code><body></code></td><td>Does not place secondary tag</td></tr>
+  <tr><td>Primary snippet is to be placed in the <code>head</code> of the html file</td><td>Snippet is placed at the end of the <code>body</code></td></tr>
+  <tr><td>Secondary snippet is to be placed at the beginning of the <code>body</code></td><td>Does not place secondary tag</td></tr>
 </table>
 
 Despite these differences, our agency partners appear to have success in using GTM with our results page.
