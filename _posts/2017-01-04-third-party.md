@@ -24,10 +24,11 @@ Some tips for commonly used third-party web services follow.
 
 We do not officially support Google Tag Manager. If you add a Google Tag Manager script to our system, we cannot review the individual scripts for content or quality. You assume full responsibility for the scripts managed in your GTM account, and for the script actions that are run on our results page on your behalf. A note about the differences between our third party tracking support and GTM recommendations:
 
-|Google Tag Manager|Search.gov script support|
-|:--|:--|
-|Primary snippet is to be placed in the `<head>` of the html file|Snippet is placed at the end of the `<body>`|
-|Secondary snippet is to be placed at the beginning of the `<body>`|Does not place secondary tag|
+<table>
+  <tr><td><strong>Google Tag Manager</strong></td><td><strong>Search.gov script support</strong></td></tr>
+  <tr><td>Primary snippet is to be placed in the <code><head></code> of the html file</td><td>Snippet is placed at the end of the <code><body></code></td></tr>
+  <tr><td>Secondary snippet is to be placed at the beginning of the <code><body></code></td><td>Does not place secondary tag</td></tr>
+</table>
 
 Despite these differences, our agency partners appear to have success in using GTM with our results page.
 
