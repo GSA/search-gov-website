@@ -3,9 +3,16 @@ layout: post
 title: How to Add JavaScript for Your Third-party Web Services
 category: manual
 tags: help-manual analytics third-party google-analytics foresee DAP
+crumbname: 3rd Party Tracking
+breadcrumbs:
+  - label: Home
+    url: /
+  - label: Manual
+    url: /manual/
+  - label: Analytics
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > 3rd Party Tracking
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > 3rd Party Tracking
 
 Do you want your search results page to run third-party web services such as Foresee, Google Analytics, Omniture, Siteimprove, or WebTrends?
 
@@ -13,9 +20,18 @@ Input the JavaScript code you'd like to call from your search results page. Clic
 
 Some tips for commonly used third-party web services follow.
 
-***Note***: We do not currently support Google Tag Manager. You will need to submit all of the scripts you are managing in your Google Tag Manager setup.
+## Google Tag Manager
 
-## Google Analytics Tip
+We do not officially support Google Tag Manager. If you add a Google Tag Manager script to our system, we cannot review the individual scripts for content or quality. You assume full responsibility for the scripts managed in your GTM account, and for the script actions that are run on our results page on your behalf. A note about the differences between our third party tracking support and GTM recommendations:
+
+|Google Tag Manager|Search.gov script support|
+|:--|:--|
+|Primary snippet is to be placed in the `<head>` of the html file|Snippet is placed at the end of the `<body>`|
+|Secondary snippet is to be placed at the beginning of the `<body>`|Does not place secondary tag|
+
+Despite these differences, our agency partners appear to have success in using GTM with our results page.
+
+## Google Analytics
 
 Within your Google Analytics account, select the option, *Do Track Site Search*. Set the query parameter as *query*. For more information, read Google's tip, [Set Up and Configure Site Search](https://support.google.com/analytics/answer/1012264?hl=en&ref_topic=1031951){% external_link %}.
 
@@ -23,23 +39,7 @@ Additionally, if you've requested [domain masking](cname.html) and you want to i
 
 For more information, read Google's tip, [Tracking Multiple Domains](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSite){% external_link %}.
 
-The code you submit should look something like one of the following two scripts.
-
-### Google Analytics Code (Older Format)
-
-     <script type="text/javascript">
-     var _gaq = _gaq || []; 
-     _gaq.push(['_setAccount', 'UA-########-1']); 
-     _gaq.push(['_trackPageview']);
-     
-     (function() { 
-     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
-     ga.src = ('https:' == document.location.protocol ? 'https://ssl'; : 'http://www') +      '.google-analytics.com/ga.js'; 
-     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
-     })();
-     </script>
-
-### Google Analytics Code (Newer Format)
+The code you submit should look something like this:
 
      <script type="text/javascript">
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -48,11 +48,13 @@ The code you submit should look something like one of the following two scripts.
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
      </script>
      
-## Digital Analytics Program Tip
+## Digital Analytics Program
 
-Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP.
+Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP. If you use the `search.usa.gov` domain on your results page, your data will be located within the GSA Agency Profile in DAP. To bring your Search.gov DAP data into your own agency's DAP profile, you must set up a [domain mask]({{ site.baseurl }}/manual/cname.html).
 
-## ForeSee Tip
+> You do not need to submit the DAP script to us.
+
+## ForeSee
 
 Coordinate with your ForeSee representative and the Search.gov team to implement your customer satisfaction survey on your results page. The four general steps follow.
 
@@ -80,4 +82,4 @@ Coordinate with your ForeSee representative and the Search.gov team to implement
 
 ---
 
-***Did you know?*** We use Google Analytics Web analytics software&mdash;our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag&mdash;by default. Email us at <search@support.digitalgov.gov> if you'd like to opt out. Learn more about our [site policies](https://digitalgov.gov/about/policies/) and [terms of service](../tos.html).
+***Did you know?*** We use Google Analytics Web analytics software &mdash; our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag &mdash; by default. Email us at <search@support.digitalgov.gov> if you'd like to opt out. Learn more in our [terms of service]({{ site.baseurl }}/tos.html).
