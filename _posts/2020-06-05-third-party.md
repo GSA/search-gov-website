@@ -16,7 +16,10 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 
 Do you want your search results page to run third-party web services such as Foresee, Google Analytics, Omniture, Siteimprove, or WebTrends?
 
-Input the JavaScript code you'd like to call from your search results page. Click submit to send us your request. We'll input your code for you and send you an email to confirm that we've done it.
+1. Input the JavaScript code you'd like to call from your search results page. 
+1. Click submit to send us your request. 
+1. We'll review and reach out if we have any questions.
+1. When confirmed, we will insert the code into your production results page and email you to notify you that the process is complete.
 
 Some tips for commonly used third-party web services follow.
 
