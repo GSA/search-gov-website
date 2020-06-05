@@ -24,7 +24,7 @@ Some tips for commonly used third-party web services follow.
 
 We do not officially support Google Tag Manager. If you add a Google Tag Manager script to our system, we cannot review the individual scripts for content or quality. You assume full responsibility for the scripts managed in your GTM account, and for the script actions that are run on our results page on your behalf. A note about the differences between our third party tracking support and GTM recommendations:
 
-<table border="1" cellpadding="3">
+<table style="border:1;cellpadding:3px;">
   <tr><th>Google Tag Manager</th><th>Search.gov script support</th></tr>
   <tr><td>Primary snippet is to be placed in the <code>head</code> of the html file</td><td>Snippet is placed at the end of the <code>body</code></td></tr>
   <tr><td>Secondary snippet is to be placed at the beginning of the <code>body</code></td><td>Does not place secondary tag</td></tr>
