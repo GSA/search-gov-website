@@ -9,7 +9,6 @@ breadcrumbs:
     url: /
   - label: Manual
     url: /manual/
-  - label: Analytics
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > 3rd Party Tracking
