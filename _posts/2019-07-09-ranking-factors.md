@@ -15,7 +15,7 @@ breadcrumbs:
 
 Google and Bing hold their ranking algorithms closely as trade secrets, as a guard against people trying to game the system to ensure their own content comes out on top, regardless of whether that’s appropriate to the search. Search Engine Optimization (SEO) consulting has grown up as an industry to try to help websites get the best possible placement in search results.  You may be interested in our webinars on [technical SEO]({{ site.baseurl }}/manual/training.html#site-structure-better-seo) and [best practices]({{ site.baseurl }}/manual/training.html#search-doctor) that will help you get your website into better shape for search, and we’re also available to advise federal web teams on particular search issues. Generally speaking, though, SEO is a lot like reading tea leaves.
 
-We at Search.gov share our ranking factors because we want you to game our system. This helps ensure that the best, most appropriate content rises to the top of search results to help the American public find what they need. 
+We at Search.gov share our ranking factors because we want you to game our system. This helps ensure that the best, most appropriate content rises to the top of search results to help the public find what they need. 
 
 This page will be updated as new ranking factors are added.
 
@@ -45,20 +45,22 @@ Note: Sites using the search results API to present our results on their own web
 
 ### Core Ranking Algorithm
 
-Our system is built on Elasticsearch, which itself is built on Apache Lucene. For the first several generations, Elasticsearch used Lucene’s default ranking, the Practical Scoring Function. This Function starts with a basic Boolean match for single terms and adds in TF/IDF and a vector space model. Here are some high level definitions for these technical terms:
+Our system is built on Elasticsearch, which itself is built on Apache Lucene. 
+
+The Practical Scoring Function, the primary ranking algorithm, uses a basic Boolean match for single terms and adds in TF/IDF and a vector space model. Here are some high level definitions for these technical terms:
 
 * **Boolean matches** are the AND / OR / NOT matches you’ve probably heard about.
   * This AND that 
   * This OR that
   * This NOT that
   * This AND (that OR foo) NOT bar
-  * **Note** that while the relevance ranking takes these into account, we do not currently use these operators if entered by a searcher. Support for user-entered Boolean operators is coming in 2019.
+  * **Note:** While the relevance ranking takes these into account, we do not currently use these operators if entered by a searcher.
 * **TF/IDF** means term frequency / inverse document frequency. It counts the number of times a term appears in a document, and compares it to how many documents have that word. It aims to identify documents where the query terms appear frequently, and documents with more rare terms across the whole set of documents will get a higher score. Documents with a lot of common terms appearing in many documents will get a lower score.
-  * They also have tempered the TF/IDF score with a method called **BM25**, which attempts to balance the TF/IDF scores of documents that are very different in length. If there are ten documents containing rare terms, the longest doc with the most instances of the terms would get a much higher score than a short doc with only a few instances of the terms. This makes intuitive sense, but when considered as a full pdf of a report vs the summary of the report, the full report isn't that much more relevant to the query than the summary is. BM25's length 'normalizatin' addresses that issue.
+  * They also have tempered the TF/IDF score with a method called **BM25**, which attempts to balance the TF/IDF scores of documents that are very different in length. If there are ten documents containing rare terms, the longest doc with the most instances of the terms would get a much higher score than a short doc with only a few instances of the terms. This makes intuitive sense, but when considered as a full pdf of a report vs the summary of the report, the full report isn't that much more relevant to the query than the summary is. BM25's length 'normalization' addresses that issue.
 * The **vector space model** allows the search engine to weight the individual terms in the query, so a common term in the query would receive a lower match score than a rare term in the query.
 * [Read detailed technical documentation here](https://www.elastic.co/guide/en/elasticsearch/guide/master/practical-scoring-function.html){% external_link %}
 
-The latest versions of Elasticsearch takes into account the context of terms within the document, whether they are in structured data fields or in unstructured fields, like body text. 
+The latest versions of Elasticsearch also takes into account the context of terms within the document, whether they are in structured data fields or in unstructured fields, like body text. 
 
 * Structured data fields, like dates, are treated with a Boolean match method - does the field value match, or not?
 * Unstructured data fields, like webpage body content, are considered for how well a document matches a query.
