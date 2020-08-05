@@ -45,9 +45,9 @@ Note: Sites using the search results API to present our results on their own web
 
 ### Core Ranking Algorithm
 
-Our system is built on Elasticsearch, which itself is built on Apache Lucene. 
+Our system is built on Elasticsearch, which itself is built on Apache Lucene, and over time they have supplemented Lucene's Practical Scoring Function approach in a few ways. 
 
-The Practical Scoring Function, the primary ranking algorithm, uses a basic Boolean match for single terms and adds in TF/IDF and a vector space model. Here are some high level definitions for these technical terms:
+The Practical Scoring Function, Lucene's primary ranking algorithm, uses a basic Boolean match for single terms and adds in TF/IDF and a vector space model. Here are some high level definitions for these technical terms:
 
 * **Boolean matches** are the AND / OR / NOT matches you’ve probably heard about.
   * This AND that 
