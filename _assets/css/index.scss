@@ -1,5 +1,14 @@
 // Import the US Web Design System SASS.
 
+$theme-show-notifications: false;
+
+$theme-font-type-sans: 'public-sans';
+
+$theme-font-role-heading: 'sans';
+$theme-body-font-family: 'sans';
+$theme-lead-font-family: 'sans';
+$theme-prose-font-family: 'sans';
+
 @import "uswds";
 
 // Add your SASS/CSS here
