@@ -41,3 +41,30 @@
     max-width: 32rem;
   }
 }
+
+.why-search-gov {
+  background-image: asset_url('squiggles.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 382px;
+  padding-left: 30%;
+
+  .usa-button {
+    margin-top: units(2.5);
+    padding: units(2.5);
+
+    &, &:hover {
+      color: #fff;
+    }
+    text-decoration: none;
+  }
+
+  h2 {
+    color: color('primary-darker');
+    font-weight: 400;
+
+    strong {
+      font-weight: 800;
+    }
+  }
+}
