@@ -1,3 +1,12 @@
+@media (min-width: 78rem) {
+  .grid-container,
+  .usa-header--extended .usa-navbar,
+  .usa-header--extended .usa-nav__inner,
+  .usa-banner__inner {
+    max-width: 78rem;
+  }
+}
+
 .usa-hero {
   background-color: color('primary-dark');
   background-image: asset_url('arrows.png');
@@ -44,9 +53,11 @@
 
 .why-search-gov {
   background-image: asset_url('squiggles.png');
-  background-position: 0 0;
+  background-position: 0 -11px; // magic number is just a quirk of the bg image
   background-repeat: no-repeat;
   background-size: 382px;
+  line-height: line-height('body', 5);
+  max-height: 29rem;
   padding-left: 30%;
 
   .usa-button {
@@ -66,5 +77,19 @@
     strong {
       font-weight: 800;
     }
+  }
+
+  & > p {
+    max-width: 90ex;
+  }
+
+  blockquote > cite {
+    font-weight: 800;
+
+    &:before {
+      content: '\2014';
+      font-weight: 400;
+    }
+    margin: 0 .5rem;
   }
 }
