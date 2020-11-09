@@ -84,7 +84,7 @@
   }
 
   blockquote > cite {
-    font-weight: 800;
+    font-weight: a800;
 
     &:before {
       content: '\2014';
@@ -105,5 +105,32 @@
       display: block;
       font-weight: 800;
     }
+  }
+}
+
+.site-links {
+  background-color: color('base-lightest');
+
+  ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: units(2);
+  }
+
+  a {
+    border-bottom: 1px solid;
+    color: #000;
+    display: inline-block;
+    padding: .01em;
+    font-size: size('sans', 'md');
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-color: transparent;
   }
 }
