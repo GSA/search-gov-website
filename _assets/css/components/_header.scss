@@ -1,19 +1,17 @@
-@media (min-width: 78rem) {
-  .usa-header--extended .usa-navbar {
-    display: flex;
-    align-items: center;
-    padding-top: units(1);
-    padding-bottom: units(1);
-  }
+.usa-header--extended .usa-navbar {
+  display: flex;
+  align-items: center;
+  padding-top: units(1);
+  padding-bottom: units(1);
+}
 
-  .usa-nav__primary {
-    padding-top: units(3);
-    padding-bottom: units(3);
+.usa-nav__primary {
+  padding-top: units(3);
+  padding-bottom: units(3);
 
-    & > .usa-nav__primary-item {
-      & > a, & > button {
-        font-weight: 500;
-      }
+  & > .usa-nav__primary-item {
+    & > a, & > button {
+      font-weight: 500;
     }
   }
 }
