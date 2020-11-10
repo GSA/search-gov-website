@@ -1,0 +1,43 @@
+.usa-hero {
+  background-color: color('primary-dark');
+  background-image: asset_url('arrows.png');
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: 396px;
+  padding-top: units(9);
+  padding-bottom: units(15);
+
+  .usa-button {
+    background-color: color('secondary');
+    padding: units(2.5);
+    margin-top: units(2.5);
+
+    &:hover {
+      background-color: color('secondary-dark');
+    }
+  }
+}
+
+.usa-hero__heading {
+  color: #fff;
+  font-size: size('heading', 14);
+  font-weight: 800;
+}
+
+.usa-hero__callout {
+  background-color: transparent;
+  padding: 0;
+
+  & {
+    @media (min-width: 40em) {
+      max-width: 37rem;
+    }
+  }
+
+  p {
+    font-size: size('body', 8);
+    line-height: line-height('body', 3);
+    font-weight: 400;
+    max-width: 32rem;
+  }
+}

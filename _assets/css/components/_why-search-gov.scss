@@ -1,0 +1,42 @@
+.why-search-gov {
+  background-image: asset_url('squiggles.png');
+  background-position: 0 -11px; // magic number is just a quirk of the bg image
+  background-repeat: no-repeat;
+  background-size: 382px;
+  line-height: line-height('body', 5);
+  max-height: 29rem;
+  padding-left: 30%;
+
+  .usa-button {
+    margin-top: units(2.5);
+    padding: units(2.5);
+
+    &, &:hover {
+      color: #fff;
+    }
+    text-decoration: none;
+  }
+
+  h2 {
+    color: color('primary-darker');
+    font-weight: 400;
+
+    strong {
+      font-weight: 800;
+    }
+  }
+
+  & > p {
+    max-width: 90ex;
+  }
+
+  blockquote > cite {
+    font-weight: a800;
+
+    &:before {
+      content: '\2014';
+      font-weight: 400;
+    }
+    margin: 0 .5rem;
+  }
+}

@@ -1,0 +1,45 @@
+.site-footer {
+  background-color: #14171C;
+  font-size: size('sans', 'md');
+  color: #fff;
+  padding-bottom: units(5);
+  padding-top: units(6);
+
+  a {
+    border-bottom: 1px solid;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-bottom: none;
+    text-decoration: none;
+  }
+
+  svg {
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+
+  .gsa-tts {
+    display: flex;
+    height: 114px; // magic number is just the logo height
+    align-items: center;
+  }
+
+  .contact {
+    margin-top: units(5);
+    text-align: right;
+
+    h2 {
+      font-size: size('sans', 'lg');
+      margin-bottom: units(1);
+    }
+
+    a:last-child {
+      margin-left: units(3);
+    }
+  }
+}

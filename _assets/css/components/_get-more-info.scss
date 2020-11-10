@@ -1,0 +1,13 @@
+.get-more-info {
+  background-color: color('primary-lighter');
+
+  h2 {
+    color: color('primary-darker');
+    font-weight: 400;
+
+    strong {
+      display: block;
+      font-weight: 800;
+    }
+  }
+}
