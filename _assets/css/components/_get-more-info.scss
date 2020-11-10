@@ -1,13 +1,20 @@
 .get-more-info {
   background-color: color('primary-lighter');
+  padding: units(3);
 
   h2 {
     color: color('primary-darker');
     font-weight: 400;
+    font-size: size('heading', xl);
+    margin-bottom: units(5);
 
     strong {
       display: block;
       font-weight: 800;
     }
+  }
+
+  .usa-card__footer {
+    text-align: center;
   }
 }
