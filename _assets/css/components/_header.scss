@@ -9,6 +9,12 @@
   .usa-nav__primary {
     padding-top: units(3);
     padding-bottom: units(3);
+
+    & > .usa-nav__primary-item {
+      & > a, & > button {
+        font-weight: 500;
+      }
+    }
   }
 }
 
