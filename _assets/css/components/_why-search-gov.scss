@@ -17,6 +17,7 @@
     text-decoration: none;
   }
 
+
   h2 {
     color: color('primary-darker');
     font-weight: 400;
@@ -26,17 +27,32 @@
     }
   }
 
-  & > p {
-    max-width: 90ex;
-  }
-
   blockquote > cite {
-    font-weight: a800;
+    font-weight: 800;
 
     &:before {
       content: '\2014';
       font-weight: 400;
+      margin: 0 .5rem;
     }
-    margin: 0 .5rem;
+  }
+}
+
+// @media screen and (min-width: 880px) and (max-width: 1400px) {
+@media screen and  (max-width: 1400px) {
+  .why-search-gov {
+    div {
+      background-color: rgba(255,255,255,.3);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: units(4);
+      padding: units(4);
+    }
+  }
+}
+
+@media screen and (max-width: 880px) {
+.why-search-gov {
+    padding-left: 0;
   }
 }
