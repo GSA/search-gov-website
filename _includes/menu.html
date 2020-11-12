@@ -6,15 +6,6 @@ where we provide an easy way to manage your navigation system
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
     {% include logo.html %}
-    <ul class="usa-button-group">
-      <li class="usa-button-group__item">
-        <a href="#" class="usa-button usa-button--unstyled sign-in">Sign up</a>
-      </li>
-      <li class="usa-button-group__item">
-        <a href="#" class="usa-button">Login</a>
-      </li>
-    </ul>
-    {% include searchgov/form.html searchgov=site.searchgov %}
     <button class="usa-menu-btn">Menu</button>
   </div>
   <nav role="navigation" class="usa-nav">
@@ -46,6 +37,17 @@ where we provide an easy way to manage your navigation system
         {% endunless %}
         {% endfor %}
       </ul>
+      <div class="usa-nav__secondary">
+        <ul class="usa-button-group">
+          <li class="usa-button-group__item">
+            <a href="#" class="usa-button usa-button--unstyled sign-in">Sign up</a>
+          </li>
+          <li class="usa-button-group__item">
+            <a href="#" class="usa-button">Login</a>
+          </li>
+        </ul>
+        {% include searchgov/form.html searchgov=site.searchgov %}
+      </div>
     </div>
   </nav>
 </header>

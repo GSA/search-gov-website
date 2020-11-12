@@ -16,21 +16,43 @@
   }
 }
 
-.usa-navbar .usa-button-group {
-  margin-left: auto;
-  margin-right: units(5);
-}
-
 .usa-logo__text {
   display: inline-block;
   margin-right: units(9);
 }
 
-.usa-button.sign-in {
-  color: color('primary');
-  cursor: pointer;
-  display: inline-block;
-  font-weight: bold;
-  padding: 0.75rem 1.25rem;
-  text-decoration: none;
+.usa-nav__secondary {
+  display: flex;
+
+  .usa-navbar .usa-button-group {
+    margin-left: auto;
+    margin-right: units(5);
+  }
+
+  .usa-button.sign-in {
+    color: color('primary');
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .usa-nav__secondary {
+    bottom: 8rem;
+  }
+}
+
+@media (min-width: 30em) {
+  .usa-button-group {
+      min-width: 15rem;
+  }
+}
+
+@media (max-width: 63.99em) {
+  .usa-nav__secondary {
+    flex-direction: column;
+  }
 }
