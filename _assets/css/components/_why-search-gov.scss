@@ -1,8 +1,8 @@
 .why-search-gov {
-  background-image: asset_url('squiggles.png');
-  background-position: 0 -12px; // magic number is just a quirk of the bg image
+  background-image: asset_url('squiggles.svg');
+  background-position: 0 -14px; // magic number is just a quirk of the bg image
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: auto 103%;
   line-height: line-height('body', 5);
   margin-bottom: -12px;
   padding-left: 30%;
