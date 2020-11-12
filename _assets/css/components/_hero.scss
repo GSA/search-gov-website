@@ -1,6 +1,6 @@
 .usa-hero {
   background-color: color('primary-dark');
-  background-image: asset_url('arrows.png');
+  background-image: asset_url('arrows.svg');
   background-position: 80% 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -15,6 +15,19 @@
     &:hover {
       background-color: color('secondary-dark');
     }
+  }
+}
+
+@media screen and (min-width: 880px) and (max-width: 1200px) {
+  .usa-hero {
+    background-position: 90% 50%;
+    background-size: 30%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .usa-hero {
+    background-image: none;
   }
 }
 
