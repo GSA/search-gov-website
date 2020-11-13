@@ -123,6 +123,17 @@ secondary_navigation:
   - name: Another secondary link
     url: "#main-content"
 
+highlights:
+  - heading: No commitment necessary
+    copy: There is no charge to use Search.gov, and we offer unlimited queries to our federal agency partners.
+  - heading: Hands-on customer service
+    copy: Our team is available to help you with your questions, ranging from technical support to search engine optimization.
+  - heading: Highly configurable
+    copy: No developers required - use our easy interface to design your search experience yourself, including what content to search, recommended content, and the look and feel of your search results page.
+  - heading: Built for government
+    copy: Because we only engage with government clients, we orient ourselves around your needs, whether it is security, compliance, search results coverage, or the unique circumstances of government web publishing.
+
+
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup

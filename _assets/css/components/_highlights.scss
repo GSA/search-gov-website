@@ -1,0 +1,10 @@
+.highlights {
+  h2 {
+    font-size: font-size('heading','xl');
+  }
+
+  .grid-row.usa-graphic-list__row .usa-media-block[class*="grid-col"] {
+    // Really fighting the specificity here
+    margin-bottom: units(2);
+  }
+}
