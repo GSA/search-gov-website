@@ -1,9 +1,14 @@
 @media (min-width: 78rem) {
-  .grid-container,
   .usa-header--extended .usa-navbar,
   .usa-header--extended .usa-nav__inner,
   .usa-banner__inner {
     max-width: 78rem;
+  }
+
+  .wide-layout {
+    .grid-container {
+      max-width: 78rem;
+    }
   }
 }
 
