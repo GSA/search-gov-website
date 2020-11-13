@@ -1,6 +1,12 @@
 .highlights {
   h2 {
+    color: #fff;
     font-size: font-size('heading','xl');
+    font-weight: 400;
+
+    strong {
+     font-weight: 800;
+    }
   }
 
   .grid-row.usa-graphic-list__row .usa-media-block[class*="grid-col"] {
