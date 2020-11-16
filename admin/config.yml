@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: 18f/federalist-uswds-jekyll
-  base_url: https://federalistapp.18f.gov
+  repo: GSA/search-gov-website
+  base_url: https://cg-a72b65a7-73f0-4859-a1d7-dc953cf6ade8.app.cloud.gov/preview/gsa/search-gov-website/2020-redesign/
   auth_endpoint: external/auth/github
   preview_context: federalist/build
   branch: main

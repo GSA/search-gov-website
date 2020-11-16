@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "netlify-cms": "^2.10.55",
+    "netlify-cms-app": "^2.13.3",
     "uswds": "~2.8.0"
   },
   "devDependencies": {
