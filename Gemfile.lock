@@ -57,6 +57,8 @@ GEM
       nokogiri (~> 1.8)
       pathutil (~> 0.16)
       sprockets (>= 3.3, < 4.1.beta)
+    jekyll-environment-variables (1.0.1)
+      jekyll (>= 3.0, < 5.x)
     jekyll-feed (0.15.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate-v2 (3.0.0)
@@ -125,6 +127,7 @@ DEPENDENCIES
   html-proofer (~> 3.15)
   jekyll (~> 3.9)
   jekyll-assets (~> 3.0)
+  jekyll-environment-variables
   jekyll-feed (~> 0.15)
   jekyll-paginate-v2 (= 3.0.0)
   jekyll-redirect-from
