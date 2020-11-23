@@ -1,0 +1,31 @@
+.pages-tagged {
+  article {
+    margin-top: units(3);
+    margin-bottom: units(3);
+    padding-bottom: units(3);
+    border-bottom: 1px solid color('base-dark');
+
+    a {
+      color: color('primary-dark');
+
+    }
+
+    h1 a {
+      text-decoration: none;
+    }
+
+    a.usa-tag {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  .pager {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
