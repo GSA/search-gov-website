@@ -3,9 +3,9 @@
   <article class='article'>
 
     {% unless post.category == 'quote' %}
-    <h1>
+    <h2>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h1>
+    </h2>
     {% endunless %}
 
     <div class='tags'>
@@ -13,23 +13,23 @@
       <a href="{{ site.baseurl }}/tagged/{{ tag }}" class="usa-tag"><span class="label label-info">{{ tag }}</span></a>
       {% endfor %}
     </div>
-   <div class='time'>
-      {% for tag in post.tags %}{% if tag == 'how-to' %}
-      </br><span>Page last reviewed or updated:</span>
-      {% endif %}{% endfor %}
-      {% for tag in post.tags %}{% if tag == 'release-notes' %}
-      </br><span>Page last reviewed or updated:</span>
-      {% endif %}{% endfor %}
-      {% for tag in post.tags %}{% if tag == 'about-us' %}
-      </br><span>Page last reviewed or updated:</span>
-      {% endif %}{% endfor %}
-      {% for tag in post.tags %}{% if tag == 'quote' %}
-      </br><span>Page last reviewed or updated:</span>
-      {% endif %}{% endfor %}
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-      </a>
-    </div>
+     <div class='time'>
+        {% for tag in post.tags %}{% if tag == 'how-to' %}
+        Page last reviewed or updated:
+        {% endif %}{% endfor %}
+        {% for tag in post.tags %}{% if tag == 'release-notes' %}
+        Page last reviewed or updated:
+        {% endif %}{% endfor %}
+        {% for tag in post.tags %}{% if tag == 'about-us' %}
+        Page last reviewed or updated:
+        {% endif %}{% endfor %}
+        {% for tag in post.tags %}{% if tag == 'quote' %}
+        Page last reviewed or updated:
+        {% endif %}{% endfor %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </a>
+      </div>
     </article>
   {% endfor %}
 </div>
