@@ -1,51 +1,89 @@
-{% comment %} 
+{% comment %}
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
-_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
+_layouts/page.html layout template, or you can add a "sidenav" property in the front-matter of your page corresponding to a list in the main config file
 {% endcomment %}
 
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
-      <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
-      </li>
-      <li class="usa-sidenav__item">
-        <a href="" class="usa-current">Current page</a>
-        <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="" class="usa-current">Child link</a>
-            <ul class="usa-sidenav__sublist">
+      {% for nav_item in site[include.sidenav] %}
+        {% unless nav_item.children %}
+        {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
+        {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+        <li class="usa-sidenav__item">
+          <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+            href="{{ nav_item.url | prepend: site.env.baseurl || site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+        </li>
+        {% else %}
+        <li class="usa-sidenav__item">
+          <a href"{{nav_item.url}}">{{ nav_item.name | escape }}</a>
+          <ul class="usa-sidenav__sublist">
+            {% for subnav_item in nav_item.children %}
+              {% unless subnav_item.children %}
+              {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
+              {% assign linkdir = subnav_item.url |  replace: "/", ""  | lstrip %}
               <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
+                <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+                  href="{{ subnav_item.url | prepend: site.env.baseurl || site.baseurl}}"><span>{{ subnav_item.name | escape }}</span></a>
               </li>
+              {% else %}
               <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
+                <a href"{{subnav_item.url}}">{{ subnav_item.name | escape }}</a>
+                <ul class="usa-sidenav__sublist">
+                  {% for grandchild in subnav_item.children %}
+                  <li class="usa-sidenav__item">
+                    <a href="{{ grandchild.url | prepend: site.env.BASEURL || site.baseurl }}">{{ grandchild.name | escape }}</a>
+                  </li>
+                  {% endfor %}
+                </ul>
               </li>
-              <li class="usa-sidenav__item">
-                <a href="" class="usa-current">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-            </ul>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-        </ul>
-      </li>
-      <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
-      </li>
+              {% endunless %}
+            {% endfor %}
+          </ul>
+        </li>
+        {% endunless %}
+      {% endfor %}
+
+      <!-- <li class="usa-sidenav__item"> -->
+      <!--   <a href="">Parent link</a> -->
+      <!-- </li> -->
+      <!-- <li class="usa-sidenav__item"> -->
+      <!--   <a href="" class="usa-current">Current page</a> -->
+      <!--   <ul class="usa-sidenav__sublist"> -->
+      <!--     <li class="usa-sidenav__item"> -->
+      <!--       <a href="">Child link</a> -->
+      <!--     </li> -->
+      <!--     <li class="usa-sidenav__item"> -->
+      <!--       <a href="" class="usa-current">Child link</a> -->
+      <!--       <ul class="usa-sidenav__sublist"> -->
+      <!--         <li class="usa-sidenav__item"> -->
+      <!--           <a href="">Grandchild link</a> -->
+      <!--         </li> -->
+      <!--         <li class="usa-sidenav__item"> -->
+      <!--           <a href="">Grandchild link</a> -->
+      <!--         </li> -->
+      <!--         <li class="usa-sidenav__item"> -->
+      <!--           <a href="" class="usa-current">Grandchild link</a> -->
+      <!--         </li> -->
+      <!--         <li class="usa-sidenav__item"> -->
+      <!--           <a href="">Grandchild link</a> -->
+      <!--         </li> -->
+      <!--       </ul> -->
+      <!--     </li> -->
+      <!--     <li class="usa-sidenav__item"> -->
+      <!--       <a href="">Child link</a> -->
+      <!--     </li> -->
+      <!--     <li class="usa-sidenav__item"> -->
+      <!--       <a href="">Child link</a> -->
+      <!--     </li> -->
+      <!--     <li class="usa-sidenav__item"> -->
+      <!--       <a href="">Child link</a> -->
+      <!--     </li> -->
+      <!--   </ul> -->
+      <!-- </li> -->
+      <!-- <li class="usa-sidenav__item"> -->
+      <!--   <a href="">Parent link</a> -->
+      <!-- </li> -->
     </ul>
   </nav>
 </aside>

@@ -117,11 +117,31 @@ primary_navigation:
       - name: Update your search after a redesign, CMS migration or both
         url: "/manual/redesign.html"
 
-secondary_navigation:
-  - name: Secondary link
-    url: "#main-content"
-  - name: Another secondary link
-    url: "#main-content"
+# Sidebar configuration
+#
+# A sidebar of up to 3 levels can be configured here
+# and included in the page by adding a `sidenav` property
+# to the front matter that corresponds to the key defined here.
+# Example:
+# Adding the property `sidenav: admin_center` to a page will
+# import the `admin_center` navigation defined below. If no
+# `sidenav` property is specified, no sidebar will appear on the page
+
+admin_center:
+  - name: Admin Center
+    url: /admin-center/
+    children:
+      - name: Color Codes
+        url: /admin-center/color-codes.html
+      - name: Preview
+        url: /admin-center/preview.html
+        children:
+          - name: Color Codes
+            url: /admin-center/color-codes.html
+          - name: Preview
+            url: /admin-center/preview.html
+  - name: Admin Center
+    url: /admin-center/
 
 highlights:
   - heading: No commitment necessary
