@@ -13,11 +13,9 @@
   }
 }
 
-@media (min-width: 40em) {
-  .usa-banner__button::after {
-    /* bugfix, for some reason the prefixed version is missing in the USWDS build */
-    -webkit-mask: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
-  }
+.usa-banner__button::after {
+  /* bugfix, for some reason the prefixed version is missing in the USWDS build */
+  -webkit-mask: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
 }
 
 @import 'components/header';
