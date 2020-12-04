@@ -1,0 +1,16 @@
+---
+layout: post
+title: January 2020 Release Notes
+category: releases
+last-updated: "February 14, 2020"
+tags: release-notes
+---
+
+## Improvements
+
+* **Rails Version:** We upgraded our search-gov infrastructure to Rails 5.2.
+* **Infrastructure Updates:** We conducted a large portion of housekeeping on our codebase after the Login.gov implementation.
+
+## Fixes
+
+* **YouTube Results:** We addressed a bug that was impacting YouTube search results for some sites using Search.gov.

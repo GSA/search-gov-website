@@ -1,0 +1,13 @@
+---
+layout: post
+title: September 2020 Release Notes
+category: releases
+last-updated: "October 14, 2020"
+tags: release-notes
+---
+
+## Improvements
+
+* **Type-Ahead API:** We updated our type-ahead documentation in the Admin Center to reflect our updated endpoint and API key information.
+
+* **Infrastructure updates:** We made several back-end improvements to ensure a stable working environment for our developers who manage Search.gov components.
