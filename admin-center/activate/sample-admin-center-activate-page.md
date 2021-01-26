@@ -5,7 +5,7 @@ date: January 26, 2021
 last-updated: January 26, 2021
 redirect_from: /admin-center/activate/test-redirect
 author: Amani Farooque
-sidenav: true
+sidenav: false
 ---
 # Sample Content
 
