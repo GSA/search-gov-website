@@ -3,7 +3,7 @@ layout: post
 title: Sample Admin Center - Activate Page
 date: January 26, 2021
 last-updated: January 26, 2021
-redirect_from: admin-center/activate/test-redirect
+redirect_from: /admin-center/activate/test-redirect
 author: Amani Farooque
 sidenav: true
 ---
