@@ -4,7 +4,7 @@ backend:
   base_url: https://cg-a72b65a7-73f0-4859-a1d7-dc953cf6ade8.app.cloud.gov/preview/gsa/search-gov-website/2020-redesign/
   auth_endpoint: external/auth/github
   preview_context: federalist/build
-  branch: 2020-redesign
+  branch: afarooque/2020-redesign-netlifycms
 
 media_folder: assets/uploads
 public_folder: /images/uploads
@@ -12,9 +12,9 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
-  - label: Posts
-    name: posts
-    folder: _posts/
+  - label: Releases
+    name: releases
+    folder: releases/
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -23,11 +23,82 @@ collections:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
       - {label: "Title", name: "title", widget: "string"}
       - {
-          label: "Publish Date",
+          label: "Published Date",
           name: "date",
           widget: "datetime",
           format: 'MMMM D, YYYY',
           dateFormat: 'MMMM D, YYYY',
           timeFormat: false
         }
+      - {
+          label: "Last Updated Date",
+          name: "last-updated",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."]}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Side Navigation?", name: "sidenav", widget: "boolean", default: true, required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Admin Center"
+    name: "admin-center"
+    folder: "admin-center"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Published Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {
+          label: "Last Updated Date",
+          name: "last-updated",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."]}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Side Navigation?", name: "sidenav", widget: "boolean", default: true, required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Admin Center: Activate"
+    name: "activate"
+    folder: "admin-center/activate"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Published Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {
+          label: "Last Updated Date",
+          name: "last-updated",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."]}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Side Navigation?", name: "sidenav", widget: "boolean", default: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
