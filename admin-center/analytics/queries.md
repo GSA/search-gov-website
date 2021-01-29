@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: page
 title: Analyzing Your Site's Queries
 category: manual
 tags: help-manual analytics queries
+date: February 28, 2018
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Queries
