@@ -77,45 +77,45 @@ primary_navigation:
   - name: Get Started
     children:
       - name: Sign Up/Create an Account
-        url: "/manual/account.html"
+        url: "/get-started/account.html"
       - name: Why Search.gov
         url: "#"
       - name: Site Launch Guide
-        url: "/manual/site-launch-guide.html"
+        url: "/get-started/site-launch-guide.html"
       - name: "Going live with Search.gov: Checklist"
-        url: "/manual/go-live.html"
+        url: "/get-started/go-live.html"
       - name: Regular Search Results and API-Results
         url: "/hosted-vs-api-results.html"
       - name: Available Search Features
-        url: "/manual/site-launch-guide.html#add-features"
+        url: "/get-started/site-launch-guide.html#add-features"
   - name: Manage Your Search Site
     children:
       - name: Manage your search configuration in the Admin Center
-        url: "/manual/index.html"
+        url: "/admin-center/index.html"
       - name: Add/remove users
-        url: "/manual/users.html"
+        url: "/admin-center/dashboard/users.html"
       - name: Add a site
-        url: "/manual/site-launch-guide.html#add-site"
+        url: "/admin-center/dashboard/add-site.html"
       - name: Add domains
-        url: "/manual/site-launch-guide.html#add-domains"
+        url: "/admin-center/content/domains.html"
       - name: Manage your search analytics
-        url: "#"
+        url: "/admin-center/analytics/index.html"
       - name: Add search features
-        url: "/manual/site-launch-guide.html#add-features"
+        url: "/get-started/site-launch-guide.html#add-features"
   - name: Index with Search.gov
     children:
       - name: What Search.gov indexes from your website
-        url: "/manual/what-searchgov-indexes.html"
+        url: "/indexing/what-searchgov-indexes.html"
       - name: How Search.gov ranks your search results
-        url: "/manual/ranking-factors.html"
+        url: "/indexing/ranking-factors.html"
       - name: How a page on a sitemap becomes a search result
-        url: "/manual/sitemaps-to-search-sites.html"
+        url: "/indexing/sitemaps-to-search-sites.html"
       - name: Step-by-step indexing workflow
-        url: "/manual/site-launch-guide.html#indexing-workflow"
+        url: "/get-started/site-launch-guide.html#indexing-workflow"
       - name: Metadata and tags you should include in your website
-        url: "/manual/metadata.html"
+        url: "/indexing/metadata.html"
       - name: Update your search after a redesign, CMS migration or both
-        url: "/manual/redesign.html"
+        url: "/indexing/redesign.html"
 
 # Sidebar configuration
 #
@@ -131,17 +131,37 @@ admin_center:
   - name: Admin Center
     url: /admin-center/
     children:
-      - name: Color Codes
-        url: /admin-center/color-codes.html
-      - name: Preview
-        url: /admin-center/preview.html
+      - name: Activate
+        url: /admin-center/activate/
+      - name: Analytics
+        url: /admin-center/analytics/
+      - name: Content
+        url: /admin-center/content/
+      - name: Dashboard
+        url: /admin-center/dashboard/
+      - name: Display
+        url: /admin-center/display/
         children:
           - name: Color Codes
             url: /admin-center/color-codes.html
           - name: Preview
             url: /admin-center/preview.html
-  - name: Admin Center
-    url: /admin-center/
+
+# site_launch_guide:
+#   - name: Add a Site
+#     url: /#add-site
+#   - name: Add Domains
+#     url: /#add-domains
+#   - name: Web Index Selection
+#     url: /#select-index 
+#   - name: Add Search Features
+#     url: /#add-features
+#   - name: Toggle Search Features On
+#     url: /#turn-features-on
+#   - name: Configure Results Page
+#     url: /#configure-branding
+#   - name: Connect Your Search Box to Search.gov
+#     url: /#go-live
 
 highlights:
   - heading: No commitment necessary

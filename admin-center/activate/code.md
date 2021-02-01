@@ -4,6 +4,7 @@ title: How to Activate Your Search by Adding Our Code Snippets to Your Website
 category: manual
 tags: help-manual activate-search code-snippets
 date: October 13, 2020
+sidenav: admin_center
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Activate Search > Code Snippets

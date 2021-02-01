@@ -4,6 +4,7 @@ title: Displaying Type-ahead Suggestions on Your Agency's Website
 category: manual
 tags: api activate-search autocomplete
 date: October 26, 2017
+sidenav: admin_center
 ---
 
 **_Note_**: this information is for customers who wish to display type-ahead (autocomplete) suggestions on their agency's website. If you are only looking to turn on type-ahead suggestions on your search results page, please review the instructions on our [Display Overview]({{ site.baseurl }}/manual/display-overview.html#modules) page.
