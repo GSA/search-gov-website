@@ -1,0 +1,140 @@
+---
+layout: page
+title: Search.gov Training
+crumbname: Training
+category: manual
+tags: help-manual training videos
+date: June 20, 2019
+breadcrumbs:
+  - label: Home
+    url: /
+  - label: Help Manual
+    url: /manual/
+---
+
+[DigitalGov Events Calendar](https://www.digital.gov/events/)
+
+## Upcoming Sessions
+
+* We hold our Search.gov Intro session a couple times a year.
+
+Have an idea about another topic you'd like us to develop training for? [Let us know!](mailto:search@support.digitalgov.gov)
+
+## Previous Sessions
+
+Can't view our YouTube vidoes? When available, a downloadable .mp4 file can be found below each embedded video on this page.
+<a name="intro-to-search-gov"></a>
+<br /><br /><br />
+### Intro to Search.gov
+June 2019 | 69 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/niT9kU6AfP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*Resources:*
+<br>[Download the mp4](https://d3qcdigd1fhos0.cloudfront.net/media/2019_06_12-intro-to-search.mp4)
+<br>[Transcript]({{ site.baseurl }}/files/2019_06_12-intro-to-search-event-transcript.txt)
+<br>*Note:* As new Intro sessions are held, recordings of previous sessions will be taken down.
+
+<a name="indexing-with-searchgov"></a>
+<br />
+### Indexing with Search.gov
+April 2019 | 41 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zxyJVrxWVmg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*Resources:*
+<br>[Webinar Transcript]({{ site.baseurl }}/files/indexing-with-searchgov-transcript.txt)
+<br>Download available soon
+
+<a name="how-engines-index"></a>
+<br />
+### How Search Engines Index Your Websites
+May 2018 | 48 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/THhe3Z7XSxg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+*Resources:*
+<br>[Presentation Slides & Notes]({{ site.baseurl }}/files/HowSearchEnginesIndexYourWebsite.pdf) (PDF)
+<br>Download [How Search Engines Index Your Websites .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/howsearchenginesindex.mp4)
+
+<a name="site-structure-better-seo"></a>
+<br />
+### Structuring Your Site for Better SEO
+March 2017 | 59 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2t5JM5slNSA" frameborder="0" allowfullscreen></iframe>
+
+*Resources:* 
+<br>[Presentation Slides]({{ site.baseurl }}/files/Structuring Your Site Content for Better SEO Slides.pdf) (PDF)
+<br>[List of SEO Articles and Resources]({{ site.baseurl }}/files/Article Links - Structuring Your Site for Better SEO Webinar.pdf) (PDF)
+<br>[Structuring Your Site .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/Structuring+Your+Site+for+Better+SEO_051117.mp4)
+
+<a name="all-about-analytics"></a>
+<br />
+### All About Analytics: Search
+June 2016 | 57 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xL6ipNKPW_Y" frameborder="0" allowfullscreen></iframe>
+
+[All About Analytics .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/allaboutanalytics.mp4)
+
+<a name="search-doctor"></a>
+<br />
+### Search Doctor: Preventive Care for Your Search Results
+April 2016 | 48 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wr767ENce_4" frameborder="0" allowfullscreen></iframe>
+
+[Search Doctor .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/searchdoctor.mp4)
+
+<a name="power-users"></a>
+<br />
+### DigitalGov Search for Power Users
+February 2016 | 66 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P47ccZb6Fzc" frameborder="0" allowfullscreen></iframe>
+
+[Power Users .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/powerusers.mp4)
+
+<a name="show-me-the-data"></a>
+<br />
+### Show Me the Data: Leveraging Analytics in DigitalGov Search
+December 2015 | 61 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zMft4VkYZug" frameborder="0" allowfullscreen></iframe>
+
+*Resources:* 
+<br>[Mastering Your Search Data]({{ site.baseurl }}/files/Mastering_Your_Search_Data-December_2015.pptx) (Slide deck) / Michelle Chronister, USAgov
+<br>[USA.gov FY15 Monthly Search Reports]({{ site.baseurl }}/files/Sample_FY15_Monthly_Search%20Reports-USA.gov.xlsx) (Excel workbook) / Michelle Chronister, USAgov - Modify to use as a template for your agency.
+<br>[Show Me the Data .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/showmethedata.mp4)
+
+<a name="straight-to-the-top"></a>
+<br />
+### Straight to the Top: Best Bets in DigitalGov Search 
+February 2015 | 55 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WzQocKYK0t4" frameborder="0" allowfullscreen></iframe>
+
+[Straight to the Top .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/bestbets.mp4)
+
+<a name="mastering-your-search-term-data"></a>
+<br />
+### Mastering Your Search Term Data: A Tool for Faster, Smarter Analysis
+June 2014 | 58 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x2_PhowP-DI" frameborder="0" allowfullscreen></iframe>
+
+*Note:* To build your own tool to analyze your search data, read [Understanding Your Users’ Needs By Analyzing Search Terms](https://www.digitalgov.gov/2013/10/24/understanding-your-users-needs-by-analyzing-search-terms/) and explore USA.gov’s magic formulas in this [spreadsheet](https://s3.amazonaws.com/digitalgov/_legacy-img/2013/10/usa.gov-monthly-search-reports-fy13.xlsx) (MS Excel, 371 KB, October 2013)
+
+[Mastering Your Search Term Data .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/masteringyoursearchdata.mp4)
+
+## Quick Start Video
+
+<a name="getting-started-with-search-gov"></a>
+<br />
+### Getting Started with Search.gov
+July 2018 | 4 mins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p-y9T23ziEg" frameborder="0" allowfullscreen></iframe>
+
+[Getting Started .mp4](https://d3qcdigd1fhos0.cloudfront.net/media/gettingstarted.mp4)
