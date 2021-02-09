@@ -116,7 +116,20 @@ primary_navigation:
         url: "/indexing/metadata.html"
       - name: Update your search after a redesign, CMS migration or both
         url: "/indexing/redesign.html"
-
+  - name: About Us
+    children:
+      - name: About Search.gov
+        url: "/about/"
+      - name: Website Policies
+        url: "/about/policies.html"
+      - name: For Developers
+        url: "/developer/"
+      - name: Our Product Roadmap
+        url: "/about/updates/roadmap/"
+      - name: Newsletter
+        url: ""
+      - name: Release Notes
+        url: ""
 # Sidebar configuration
 #
 # A sidebar of up to 3 levels can be configured here
@@ -147,21 +160,35 @@ admin_center:
           - name: Preview
             url: /admin-center/preview.html
 
-# site_launch_guide:
-#   - name: Add a Site
-#     url: /#add-site
-#   - name: Add Domains
-#     url: /#add-domains
-#   - name: Web Index Selection
-#     url: /#select-index 
-#   - name: Add Search Features
-#     url: /#add-features
-#   - name: Toggle Search Features On
-#     url: /#turn-features-on
-#   - name: Configure Results Page
-#     url: /#configure-branding
-#   - name: Connect Your Search Box to Search.gov
-#     url: /#go-live
+site_launch_guide:
+  - name: Add a Site
+    url: /get-started/site-launch-guide/#add-site
+  - name: Add Domains
+    url: /get-started/site-launch-guide/#add-domains
+  - name: Web Index Selection
+    url: /get-started/site-launch-guide/#select-index 
+  - name: Add Search Features
+    url: /get-started/site-launch-guide/#add-features
+  - name: Toggle Search Features On
+    url: /get-started/site-launch-guide/#turn-features-on
+  - name: Configure Results Page
+    url: /get-started/site-launch-guide/#configure-branding
+  - name: Connect Your Search Box to Search.gov
+    url: /get-started/site-launch-guide/#go-live
+
+about_us:
+  - name: About Search.gov
+    url: "/about/"
+  - name: Website Policies
+    url: "/about/policies.html"
+  - name: For Developers
+    url: "/developer/"
+  - name: Our Product Roadmap
+    url: "/about/updates/roadmap/"
+  - name: Newsletter
+    url: ""
+  - name: Release Notes
+    url: ""
 
 highlights:
   - heading: No commitment necessary
