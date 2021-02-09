@@ -4,6 +4,7 @@ title: 2019 in Review
 crumbname: 2019 Annual Review
 category: blog
 tags: annual-review
+date: December 20, 2019
 breadcrumbs:
   - label: Home
     url: /

@@ -19,65 +19,65 @@ Help documentation about the indexing process [can be found here]({{ site.baseur
 
 ### <i class="icon-dashboard"></i> Dashboard
 
-[Site overview]({{ site.baseurl }}/manual/site-overview.html)
-[Manage users]({{ site.baseurl }}/manual/users.html)
-[Settings]({{ site.baseurl }}/manual/settings.html)
-[Clone Site]({{ site.baseurl }}/manual/clone-site.html)
+* [Site overview]({{ site.baseurl }}/manual/site-overview.html)
+* [Manage users]({{ site.baseurl }}/manual/users.html)
+* [Settings]({{ site.baseurl }}/manual/settings.html)
+* [Clone Site]({{ site.baseurl }}/manual/clone-site.html)
 
 ### <i class="icon-bar-chart"></i> Analytics
 
-[Queries]({{ site.baseurl }}/manual/queries.html)
-[Clicks]({{ site.baseurl }}/manual/clicks.html)
-[Referrers]({{ site.baseurl }}/manual/referrers.html)
-[Monthly reports]({{ site.baseurl }}/manual/monthly-reports.html)
-[3rd party tracking]({{ site.baseurl }}/manual/third-party.html)
-[Analytics Alerts]({{ site.baseurl }}/manual/analytics-alerts.html)
+* [Queries]({{ site.baseurl }}/manual/queries.html)
+* [Clicks]({{ site.baseurl }}/manual/clicks.html)
+* [Referrers]({{ site.baseurl }}/manual/referrers.html)
+* [Monthly reports]({{ site.baseurl }}/manual/monthly-reports.html)
+* [3rd party tracking]({{ site.baseurl }}/manual/third-party.html)
+* [Analytics Alerts]({{ site.baseurl }}/manual/analytics-alerts.html)
 
 ### <i class="icon-file"></i> Manage Content
 
-[Content overview]({{ site.baseurl }}/manual/content-overview.html)
-[Domains]({{ site.baseurl }}/manual/domains.html) (plus advanced options to [add]({{ site.baseurl }}/manual/domains-advanced.html) or [filter]({{ site.baseurl }}/manual/filter-content.html) URLs.)
+* [Content overview]({{ site.baseurl }}/manual/content-overview.html)
+* [Domains]({{ site.baseurl }}/manual/domains.html) (plus advanced options to [add]({{ site.baseurl }}/manual/domains-advanced.html) or [filter]({{ site.baseurl }}/manual/filter-content.html) URLs.)
   \* For questions about indexing, including sitemaps, see our [Indexing help section]({{ site.baseurl }}/manual/indexing-with-searchgov.html).<br>
-[Collections]({{ site.baseurl }}/manual/collections.html)
-[i14y drawers]({{ site.baseurl }}/manual/i14y-drawers.html) (this option will only appear if your site is enabled for [i14y]({{ site.baseurl }}/developer/i14y.html))
-[Best bets: text and/or graphics]({{ site.baseurl }}/manual/best-bets.html)
-[Routed queries]({{ site.baseurl }}/manual/routed-queries.html)
-[RSS]({{ site.baseurl }}/manual/rss.html)
-[YouTube]({{ site.baseurl }}/manual/youtube.html)
-[Twitter]({{ site.baseurl }}/manual/twitter.html)
-[Flickr]({{ site.baseurl }}/manual/flickr.html)
-[Instagram]({{ site.baseurl }}/manual/instagram.html) [Deprecated]
+* [Collections]({{ site.baseurl }}/manual/collections.html)
+* [i14y drawers]({{ site.baseurl }}/manual/i14y-drawers.html) (this option will only appear if your site is enabled for [i14y]({{ site.baseurl }}/developer/i14y.html))
+* [Best bets: text and/or graphics]({{ site.baseurl }}/manual/best-bets.html)
+* [Routed queries]({{ site.baseurl }}/manual/routed-queries.html)
+* [RSS]({{ site.baseurl }}/manual/rss.html)
+* [YouTube]({{ site.baseurl }}/manual/youtube.html)
+* [Twitter]({{ site.baseurl }}/manual/twitter.html)
+* [Flickr]({{ site.baseurl }}/manual/flickr.html)
+* [Instagram]({{ site.baseurl }}/manual/instagram.html) [Deprecated]
 
 ### <i class="icon-desktop"></i> Manage Display
 
-[Display overview]({{ site.baseurl }}/manual/display-overview.html) (including [job openings]({{ site.baseurl }}/manual/govbox-jobs.html), [*Federal Register*]({{ site.baseurl }}/manual/govbox-federal-register.html), and [health topics]({{ site.baseurl }}/manual/govbox-health.html))
-[Brand]({{ site.baseurl }}/manual/brand.html) (font & colors, image assets, and header & footer)
-Custom [No Results]({{ site.baseurl }}/manual/no-results.html) page
-Custom [Search Page Alert]({{ site.baseurl }}/manual/system-alert.html)
+* [Display overview]({{ site.baseurl }}/manual/display-overview.html) (including [job openings]({{ site.baseurl }}/manual/govbox-jobs.html), * [*Federal Register*]({{ site.baseurl }}/manual/govbox-federal-register.html), and [health topics]({{ site.baseurl }}/manual/govbox-health.html))
+* [Brand]({{ site.baseurl }}/manual/brand.html) (font & colors, image assets, and header & footer)
+* Custom [No Results]({{ site.baseurl }}/manual/no-results.html) page
+* Custom [Search Page Alert]({{ site.baseurl }}/manual/system-alert.html)
 
 ### <i class="icon-eye-open"></i> Preview
 
-[Preview]({{ site.baseurl }}/manual/preview.html)
+* [Preview]({{ site.baseurl }}/manual/preview.html)
 
 ### <i class="icon-code"></i> Activate Search
 
-[Code snippets]({{ site.baseurl }}/manual/code.html)
-[Search Results API instructions and access key](https://open.gsa.gov/api/searchgov-results/)\*
-[Type-ahead API instructions](https://open.gsa.gov/api/searchgov-suggestions/)\*
-[i14y API instructions]({{ site.baseurl }}/developer/i14y.html)\*
+* [Code snippets]({{ site.baseurl }}/manual/code.html)
+[Search Results API instructions and access key](https://open.gsa.gov/api/* searchgov-results/)\*
+* [Type-ahead API instructions](https://open.gsa.gov/api/searchgov-suggestions/)\*
+* [i14y API instructions]({{ site.baseurl }}/developer/i14y.html)\*
 
 \* These APIs are available for use on official government websites only. You must be a Search.gov customer. [Sign in](https://search.usa.gov/sites) is required. Keys and instructions for each can be found under [Admin Center](https://search.usa.gov/sites) > YourSite > Activate Search.
 
 ### Additional Help Resources Not in the Admin Center
 
-[XML Sitemaps]({{ site.baseurl }}/manual/sitemaps.html)
-[/robots.txt Files]({{ site.baseurl }}/manual/robotstxt.html)
-[How to get search engines to index the right content for better discoverability]({{ site.baseurl }}/manual/how-search-engines-index-content-better-discoverability.html)
-[Getting Started video](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins){% external_link %}
-[Go-Live Check List]({{ site.baseurl }}/manual/go-live.html)
-[Masking your domain]({{ site.baseurl }}/manual/cname.html)
-[Website Redesign Checklist]({{ site.baseurl }}/manual/redesign.html)
-[Resources for Developers]({{ site.baseurl }}/developer/index.html)
-[Upcoming Training and Video Recordings]({{ site.baseurl }}/manual/training.html)
+* [XML Sitemaps]({{ site.baseurl }}/manual/sitemaps.html)
+* [/robots.txt Files]({{ site.baseurl }}/manual/robotstxt.html)
+* [How to get search engines to index the right content for better discoverability]({{ site.baseurl }}/manual/how-search-engines-index-content-better-discoverability.html)
+* [Getting Started video](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins){% external_link %}
+* [Go-Live Check List]({{ site.baseurl }}/manual/go-live.html)
+* [Masking your domain]({{ site.baseurl }}/manual/cname.html)
+* [Website Redesign Checklist]({{ site.baseurl }}/manual/redesign.html)
+* [Resources for Developers]({{ site.baseurl }}/developer/index.html)
+* [Upcoming Training and Video Recordings]({{ site.baseurl }}/manual/training.html)
 
 Do you have other questions or comments about how our service works? [Email us](mailto:search@support.digitalgov.gov).

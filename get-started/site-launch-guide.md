@@ -5,7 +5,8 @@ crumbname: Site Launch Guide
 category: manual
 tags: go-live site-launch indexing
 date: April 22, 2019
-sidenav: admin_center
+last_updated: February 3, 2021
+sidenav: site_launch_guide
 breadcrumbs:
   - label: Home
     url: /
