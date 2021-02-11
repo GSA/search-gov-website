@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: page
 title: Government-Managed Domains Outside the .Gov and .Mil Top Level Domains
 category: developer
 tags: seo policy government-urls
+sidenav: about_us
+date: March 2, 2019
 ---
 
 

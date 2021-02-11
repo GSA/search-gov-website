@@ -3,6 +3,7 @@ layout: post
 title: Our Customers
 tags: about-us customer-federal
 date: March 2, 2017
+sidenav: about_us
 ---
 
 We have a [proven track record]({{ site.baseurl }}/tagged/quote) of delivering fast, relevant search results. Nearly 175 Federal and District of Columbia government agencies currently use Search.gov to power their search box and improve their visitors' search experience.

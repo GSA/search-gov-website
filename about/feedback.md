@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: page
 title: Feature Requests
 category: feedback
 tags: feedback
 date: May 3, 2018
+sidenav: about_us
 ---
 
 Customer-driven development is important to us, and we want your feedback! We are an agile service that is always [releasing]({{ site.baseurl }}/tagged/release-notes/) new features, fixing bugs, and making improvements to our system. What would you like us to work on next? 
