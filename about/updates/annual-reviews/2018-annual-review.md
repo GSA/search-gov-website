@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: page
 title: 2018 in Review
 crumbname: 2018 Annual Review
 category: blog
 tags: annual-review
 date: December 20, 2018
+sidenav: about_us
 breadcrumbs:
   - label: Home
     url: /

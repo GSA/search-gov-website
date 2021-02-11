@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: page
 title: i14y Content Indexing API Documentation
 category: developer
+date: June 22, 2020
+sidenav: developer
 tags: i14y api
 ---
 
