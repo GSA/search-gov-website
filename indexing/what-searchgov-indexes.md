@@ -12,6 +12,9 @@ breadcrumbs:
     url: /manual/
   - label: Indexing
     url: /manual/indexing-with-searchgov.html
+last_modified: 2019-04-24
+sidenav: indexing
+
 ---
 
 ## Content

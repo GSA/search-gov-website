@@ -4,6 +4,7 @@ title: Setting Up Analytics Alerts
 category: manual
 tags: help-manual analytics
 date: March 23, 2017
+sidenav: admin_center
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Analytics Alerts

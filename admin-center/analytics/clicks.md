@@ -4,6 +4,8 @@ title: Analyzing Your Site's Clicks
 category: manual
 tags: help-manual analytics clicks
 date: February 28, 2018
+sidenav: admin_center
+
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Clicks
