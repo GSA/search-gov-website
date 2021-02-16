@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Our Customers
 tags: about-us customer-federal
 date: March 2, 2017
