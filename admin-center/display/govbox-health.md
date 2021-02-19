@@ -4,6 +4,7 @@ title: Help Searchers Find Health Information
 category: manual
 tags: help-manual display modules
 date: February 27, 2017
+last_modified_at: February 27, 2017
 ---
 
 Searches for health-related information are very common. We created the Health Topics module to help searchers find high-quality, authoritative health information.

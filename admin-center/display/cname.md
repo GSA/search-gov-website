@@ -4,6 +4,7 @@ title: How to Mask Your Domain
 category: manual
 tags: help-manual activate-search cname 
 date: September 21, 2018
+last_modified_at: September 21, 2018
 ---
 
 We offer DNS masking, which allows you to show searchers `search.YOURAGENCY.gov` (instead of `search.USA.gov`). Follow these steps to mask your domain. Please note that due to limitations in the size of our SSL certificate, we are only able to offer top level domain masking: i.e., `search.YOURAGENCY.gov` but not `search.subagency.YOURAGENCY.gov`.

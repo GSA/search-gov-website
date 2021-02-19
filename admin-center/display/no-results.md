@@ -4,6 +4,7 @@ title: How to Customize the No Results Page
 category: manual
 tags: help-manual manage-display
 date: July 27, 2015
+last_modified_at: July 27, 2015
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Display > No Results Page

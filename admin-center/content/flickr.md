@@ -4,6 +4,7 @@ title: How to Add Your Flickr Images to Our Index
 category: manual
 tags: help-manual manage-content social-media flickr images
 date: February 27, 2017
+last_modified_at: February 27, 2017
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Flickr

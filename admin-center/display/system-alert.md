@@ -4,6 +4,7 @@ title: Adding a Custom System Alert to Your Results Page
 category: manual
 tags: help-manual manage-display alert
 date: February 7, 2018
+last_modified_at: February 7, 2018
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Display > Search Page Alert

@@ -4,6 +4,7 @@ title: How to Add Your YouTube Videos to Our Index
 category: manual
 tags: help-manual manage-content social-media youtube videos
 date: March 21, 2017
+last_modified_at: March 21, 2017
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > YouTube

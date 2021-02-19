@@ -4,6 +4,7 @@ title: Help Searchers Find Jobs
 category: manual
 tags: help-manual modules jobs
 date: February 27, 2017
+last_modified_at: February 27, 2017
 ---
 
 One of the most common search tasks is to look for current job openings. We created the Jobs module to help searchers quickly find relevant jobs. 

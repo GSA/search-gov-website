@@ -2,6 +2,7 @@
 title: Second page
 layout: post
 date: January 15, 2019
+last_modified_at: January 15, 2019
 author: George Washington
 excerpt: This is an excerpt for second page
 ---

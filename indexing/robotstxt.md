@@ -6,6 +6,7 @@ category: manual
 redirect_from: "/blog/robotstxt.html"
 tags: how-to manage-content indexing
 date: January 17, 2020
+last_modified_at: January 17, 2020
 breadcrumbs:
   - label: Home
     url: /

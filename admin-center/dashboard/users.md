@@ -4,6 +4,7 @@ title: Managing Your Site's Users
 category: manual
 tags: help-manual dashboard users
 date: August 10, 2018
+last_modified_at: August 10, 2018
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Manage Users

@@ -6,6 +6,7 @@ category: manual
 redirect_from: "/blog/redesign.html"
 tags: seo site-launch indexing
 date: August 30, 2019
+last_modified_at: August 30, 2019
 breadcrumbs:
   - label: Home
     url: /
