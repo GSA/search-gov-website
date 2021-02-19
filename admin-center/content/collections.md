@@ -4,6 +4,7 @@ title: How to Create Collections Within Our Index
 category: manual
 tags: help-manual manage-content collections
 date: December 28, 2016
+last_modified_at: December 28, 2016
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Collections

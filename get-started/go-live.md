@@ -6,6 +6,7 @@ category: manual
 redirect_from: "/blog/go-live.html"
 tags: help-manual
 date: September 4, 2019
+last_modified_at: September 4, 2019
 breadcrumbs:
   - label: Home
     url: /

@@ -4,6 +4,7 @@ title: Key for Search Module Codes and Names
 category: manual
 tags: help-manual analytics clicks queries
 date: March 15, 2018
+last_modified_at: March 15, 2018
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics

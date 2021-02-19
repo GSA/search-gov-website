@@ -4,6 +4,7 @@ title: How to Add a New Site
 category: manual
 tags: "help-manual settings add-site"
 date: March 2, 2017
+last_modified_at: March 2, 2017
 published: true
 ---
 

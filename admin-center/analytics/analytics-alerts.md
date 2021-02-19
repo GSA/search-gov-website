@@ -4,6 +4,7 @@ title: Setting Up Analytics Alerts
 category: manual
 tags: help-manual analytics
 date: March 23, 2017
+last_modified_at: March 23, 2017
 sidenav: admin_center
 ---
 

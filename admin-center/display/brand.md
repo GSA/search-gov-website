@@ -4,6 +4,7 @@ title: How to Brand Your Results Page
 category: manual
 tags: help-manual manage-display font colors header footer
 date: August 13, 2015
+last_modified_at: August 13, 2015
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display

@@ -5,6 +5,8 @@ crumbname: What Search.gov Indexes
 category: manual
 tags: indexing seo
 date: April 24, 2019
+last_modified_at: April 24, 2019
+last_modified_at: April 25, 2019
 breadcrumbs:
   - label: Home
     url: /
@@ -12,7 +14,7 @@ breadcrumbs:
     url: /manual/
   - label: Indexing
     url: /manual/indexing-with-searchgov.html
-last_modified: 2019-04-24
+last_modified_at: April 24, 2019
 sidenav: indexing
 
 ---

@@ -5,11 +5,13 @@ category: manual
 tags: help-manual my-account
 crumbname: Manage User Account
 date: June 23, 2020
+last_modified_at: June 23, 2020
 breadcrumbs:
   - label: Home
     url: /
   - label: Manual
     url: /manual/
+sidenav: get_started
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites) > My Account

@@ -4,6 +4,7 @@ title: How to Add Your Instagram Pictures to Our Index
 category: manual
 tags: help-manual manage-content social-media instagram images
 date: February 1, 2018
+last_modified_at: February 1, 2018
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Instagram

@@ -6,6 +6,7 @@ category: manual
 redirect_from: "/blog/how-search-engines-index-content-better-discoverability.html"
 tags: indexing seo
 date: February 27, 2020
+last_modified_at: February 27, 2020
 last_updated: 2020-02-27
 breadcrumbs:
   - label: Home

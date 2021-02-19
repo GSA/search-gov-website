@@ -4,6 +4,7 @@ title: Working with i14y Drawers
 category: manual
 tags: "help-manual manage-content i14y"
 date: October 3, 2017
+last_modified_at: October 3, 2017
 sidenav: developer
 published: true
 ---

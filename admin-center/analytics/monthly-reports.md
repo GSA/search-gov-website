@@ -4,6 +4,7 @@ title: Analyzing Your Monthly Reports
 category: manual
 tags: help-manual analytics queries clicks
 date: January 30, 2018
+last_modified_at: January 30, 2018
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Monthly Reports
