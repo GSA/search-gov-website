@@ -128,6 +128,8 @@ primary_navigation:
         url: "/tagged/release-notes/"
       - name: For Developers
         url: "/developer/"
+      - name: Security and Compliance
+        url: "/about/security.html"
 # Sidebar configuration
 #
 # A sidebar of up to 3 levels can be configured here
@@ -198,6 +200,8 @@ about_us:
         url: "/tagged/release-notes/"
       - name: For Developers
         url: "/developer/"
+      - name: Security and Compliance
+        url: "/about/security.html"
 
 developer:
   - name: Indexing API
@@ -215,6 +219,7 @@ developer:
 
 indexing:
   - name: Index with Search.gov
+    url: "/indexing/indexing-with-searchgov.html"
     children:
       - name: How does indexing work?
         children:
@@ -227,19 +232,21 @@ indexing:
           - name: How A Page on a Sitemap Becomes a Search
             url: "/indexing/sitemaps-to-search-sites.html"
           - name: A step-by-step indexing workflow
-            url: "/indexing/"
+            url: "/get-started/site-launch-guide.html#select-index"
       - name: Domain Level SEO Supports
+        url:
         children:
           - name: All about XML sitemaps
-            url: "LINK"
+            url: "/indexing/sitemaps.html"
           - name: Robots.txt files
-            url: "LINK"
+            url: "/indexing/robotstxt.html"
       - name: Page Level SEO Supports
+        url: 
         children:
           - name: Metadata and tags you should include in your website
-            url: "LINK"
+            url: "/indexing/metadata.html"
           - name: How to get search engines to index the right content for better discoverability
-            url: "LINK"
+            url: "/indexing/how-search-engines-index-content-better-discoverability.html"
 
 highlights:
   - heading: Highly configurable
