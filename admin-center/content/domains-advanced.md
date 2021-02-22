@@ -6,6 +6,9 @@ tags: "help-manual manage-content domains advanced supplemental-feed supplementa
 published: true
 date: May 2, 2017
 last_modified_at: May 2, 2017
+sidenav: admin_center
+redirect_from:
+    - /manual/domains-advanced.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/manual/domains.html) > Advanced

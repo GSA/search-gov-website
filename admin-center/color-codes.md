@@ -4,6 +4,9 @@ title: Key to Color Coding in the Admin Center
 category: manual
 last-updated: "November 02, 2011"
 tags: help-manual manage-users best-bets rss
+sidenav: admin_center
+redirect_from:
+    - /manual/color-codes.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite

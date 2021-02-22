@@ -5,6 +5,7 @@ category: manual
 tags: help-manual modules jobs
 date: February 27, 2017
 last_modified_at: February 27, 2017
+sidenav: admin_center
 redirect_from:
     - /manual/govbox-jobs.html
 ---

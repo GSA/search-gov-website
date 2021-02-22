@@ -5,6 +5,7 @@ category: manual
 tags: help-manual manage-display facets modules related-sites
 date: February 27, 2017
 last_modified_at: February 27, 2017
+sidenav: admin_center
 redirect_from:
     - /manual/display-overview.html
 ---

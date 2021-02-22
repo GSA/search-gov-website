@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Help Manual: Managing Your Search Configuration"
 crumbname: Help Manual
 category: manual
@@ -8,6 +8,9 @@ last-updated: "April 10, 2019"
 breadcrumbs:
   - label: Home
     url: /
+sidenav: admin_center
+redirect_from:
+  - /manual/
 ---
 
 This help manual follows the order of settings that are available in the [Search Admin Center](https://search.usa.gov/sites).
@@ -62,7 +65,7 @@ Help documentation about the indexing process [can be found here]({{ site.baseur
 ### <i class="icon-code"></i> Activate Search
 
 * [Code snippets]({{ site.baseurl }}/manual/code.html)
-[Search Results API instructions and access key](https://open.gsa.gov/api/* searchgov-results/)\*
+* [Search Results API instructions and access key](https://open.gsa.gov/api/searchgov-results/)\*
 * [Type-ahead API instructions](https://open.gsa.gov/api/searchgov-suggestions/)\*
 * [i14y API instructions]({{ site.baseurl }}/developer/i14y.html)\*
 

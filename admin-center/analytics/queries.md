@@ -5,6 +5,9 @@ category: manual
 tags: help-manual analytics queries
 date: February 28, 2018
 last_modified_at: February 28, 2018
+sidenav: admin_center
+redirect_from:
+    - /manual/queries.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Queries

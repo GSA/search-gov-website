@@ -166,16 +166,21 @@ get_started:
         url: "/get-started/site-launch-guide.html#add-features"
 
 admin_center:
-  - name: Activate
-    url: /admin-center/activate/
-  - name: Analytics
-    url: /admin-center/analytics/
-  - name: Content
-    url: /admin-center/content/
-  - name: Dashboard
-    url: /admin-center/dashboard/
-  - name: Display
-    url: /admin-center/display/
+  - name: Manage Your Search Configuration
+    url: /admin-center/
+    children: 
+      - name: Dashboard
+        url: /admin-center/dashboard/
+      - name: Analytics
+        url: /admin-center/analytics/
+      - name: Content
+        url: /admin-center/content/
+      - name: Display
+        url: /admin-center/display/
+      - name: Preview
+        url: /admin-center/preview.html
+      - name: Activate
+        url: /admin-center/activate/
 
 about_us:
   - name: About Us

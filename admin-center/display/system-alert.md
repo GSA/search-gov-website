@@ -5,6 +5,9 @@ category: manual
 tags: help-manual manage-display alert
 date: February 7, 2018
 last_modified_at: February 7, 2018
+sidenav: admin_center
+redirect_from:
+    - /manual/system-alert.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Display > Search Page Alert

@@ -5,6 +5,7 @@ category: manual
 tags: help-manual manage-content collections
 date: December 28, 2016
 last_modified_at: December 28, 2016
+sidenav: admin_center
 redirect_from:
     - /manual/collections.html
 ---

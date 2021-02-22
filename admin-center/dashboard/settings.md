@@ -5,6 +5,9 @@ category: manual
 tags: help-manual dashboard settings
 date: December 29, 2017
 last_modified_at: December 29, 2017
+sidenav: admin_center
+redirect_from:
+    - /manual/settings.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Settings

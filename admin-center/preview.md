@@ -4,6 +4,9 @@ title: How to Preview Your Search Results
 category: manual
 last-updated: "December 28, 2016"
 tags: help-manual preview
+sidenav: admin_center
+redirect_from:
+    - /manual/preview.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Preview
