@@ -6,6 +6,8 @@ tags: "help-manual settings add-site"
 date: March 2, 2017
 last_modified_at: March 2, 2017
 published: true
+redirect_from:
+  - /manual/add-site.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > Add Site

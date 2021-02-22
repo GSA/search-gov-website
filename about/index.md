@@ -2,11 +2,9 @@
 layout: page
 title: About Search.gov
 date: February 3, 2021
-last_modified_at: February 3, 2021
+last_modified_at: February 22, 2021
 sidenav: about_us
 ---
-
-## About Search.gov
 
 Search.gov is a by-government, for-government web search engine. Available at no cost to federal agencies and the District of Columbia, we currently support the search boxes on about 2,200 websites, across 30% of federal domains. We are a product of Smarter IT Solutions, a division of the U.S. General Services Administration’s Technology Transformation Services, 
 
@@ -23,14 +21,19 @@ In June 2000, President Clinton announced the gift from the Federal Search Found
 In 2010, Search.gov moved to open-source software and became available to agencies across government in the United States to power the search boxes on their site. Today we power nearly 300 million queries a year through over 1,800 federal search configurations.
 
 ## Meet the Team
-Placeholder Text
+
+* **Dawn Pointer McCleskey** - Program Manager
+* **Arantxa Piperova** - Customer Success Manager
+* **Amani Farooque** - Product Manager
+* **Robert Fink** - Technical Lead and DevOps
+* **Martha Thompson** - Senior Developer
+* **John Maxwell** - Developer
+
 
 Do you have any questions or need any assistance? We’re here to help!
-Email us at search@support.digitalgov.gov, or give us a call at 202-969-7426, Monday through Friday 9am to 5pm ET, except for federal holidays.
+Email us at [search@support.digitalgov.gov](mailto:search@support.digitalgov.gov), or give us a call at [202-969-7426](tel:2029697426), Monday through Friday 9am to 5pm ET, except for federal holidays.
 
 If you’re a federal agency, we’d be happy to schedule time with you for a consultation. Email us to set up a time.
-
-## Website policies 
 
 
 

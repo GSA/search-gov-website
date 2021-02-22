@@ -6,6 +6,8 @@ tags: "help-manual manage-content rss"
 date: November 9, 2017
 last_modified_at: November 9, 2017
 published: true
+redirect_from:
+    - /manual/rss.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > RSS

@@ -6,7 +6,6 @@ category: manual
 tags: indexing seo
 date: April 24, 2019
 last_modified_at: April 24, 2019
-last_modified_at: April 25, 2019
 breadcrumbs:
   - label: Home
     url: /
@@ -14,8 +13,9 @@ breadcrumbs:
     url: /manual/
   - label: Indexing
     url: /manual/indexing-with-searchgov.html
-last_modified_at: April 24, 2019
 sidenav: indexing
+redirect_from:
+  - /manual/what-searchgov-indexes.md
 
 ---
 

@@ -139,14 +139,31 @@ primary_navigation:
 # `sidenav` property is specified, no sidebar will appear on the page
 
 get_started:
-  - name: Sign Up/Create an Account
-    url: "/get-started/account.html"
-  - name: Site Launch Guide
-    url: "/get-started/site-launch-guide.html"
-  - name: "Going live with Search.gov: Checklist"
-    url: "/get-started/go-live.html"
-  - name: Available Search Features
-    url: "/get-started/site-launch-guide.html#add-features"
+  - name: Get Started with Search.gov
+    children:
+      - name: Sign Up/Create an Account
+        url: "/get-started/account.html"
+      - name: Site Launch Guide
+        url: "/get-started/site-launch-guide.html"
+        children:
+            - name: 1. Add a Site
+              url: "/get-started/site-launch-guide.html#add-site"
+            - name: 2. Add Domains
+              url: "/get-started/site-launch-guide.html#add-domains"
+            - name: 3. Web Index Selection
+              url: "/get-started/site-launch-guide.html#select-index"
+            - name: 4. Add Search Features
+              url: "/get-started/site-launch-guide.html#add-features"
+            - name: 5. Toggle Search Features On
+              url: "/get-started/site-launch-guide.html#turn-features-on"
+            - name: 6. Configure Branding
+              url: "/get-started/site-launch-guide.html#configure-branding"
+            - name: 7. Connect Your Search Box
+              url: "/get-started/site-launch-guide.html#go-live"
+      - name: "Going live with Search.gov: Checklist"
+        url: "/get-started/go-live.html"
+      - name: Available Search Features
+        url: "/get-started/site-launch-guide.html#add-features"
 
 admin_center:
   - name: Activate
@@ -160,37 +177,22 @@ admin_center:
   - name: Display
     url: /admin-center/display/
 
-site_launch_guide:
-  - name: Add a Site
-    url: /get-started/site-launch-guide/#add-site
-  - name: Add Domains
-    url: /get-started/site-launch-guide/#add-domains
-  - name: Web Index Selection
-    url: /get-started/site-launch-guide/#select-index 
-  - name: Add Search Features
-    url: /get-started/site-launch-guide/#add-features
-  - name: Toggle Search Features On
-    url: /get-started/site-launch-guide/#turn-features-on
-  - name: Configure Results Page
-    url: /get-started/site-launch-guide/#configure-branding
-  - name: Connect Your Search Box to Search.gov
-    url: /get-started/site-launch-guide/#go-live
-
 about_us:
   - name: About Us
-    url: "/about/"
-  - name: Customers
-    url: "/about/customers.html"
-  - name: Search.gov in Policy
-    url: "/about/policy/"
-  - name: Submit Feature Requests
-    url: "/about/feedback"
-  - name: Our Product Roadmap
-    url: "/about/updates/roadmap/"
-  - name: Release Notes
-    url: "/tagged/release-notes/"
-  - name: For Developers
-    url: "/developer/"
+    url: /about/
+    children: 
+      - name: Customers
+        url: "/about/customers.html"
+      - name: Search.gov in Policy
+        url: "/about/policy/"
+      - name: Submit Feature Requests
+        url: "/about/feedback"
+      - name: Our Product Roadmap
+        url: "/about/updates/roadmap/"
+      - name: Release Notes
+        url: "/tagged/release-notes/"
+      - name: For Developers
+        url: "/developer/"
 
 developer:
   - name: Indexing API

@@ -3,7 +3,6 @@ layout: page
 title: Going Live with Search.gov
 crumbname: Go-Live
 category: manual
-redirect_from: "/blog/go-live.html"
 tags: help-manual
 date: September 4, 2019
 last_modified_at: September 4, 2019
@@ -12,6 +11,10 @@ breadcrumbs:
     url: /
   - label: Help Manual
     url: /manual/
+sidenav: get_started
+redirect_from:
+  - /blog/go-live.html
+  - /manual/go-live.html
 ---
 Your pre-launch checklist will be unique to your agency's workflow, requirements, and deadlines. Below is a typical checklist.
 
@@ -37,11 +40,21 @@ Most agencies add these two [snippets of code]({{ site.baseurl }}/manual/code.ht
 
 <i class="icon-check"></i> **7. Does your search box point to Search.gov?** Update your search box form code point to our service so that, when users execute a search, they'll see your Search.gov-hosted results page.
 
-	<form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
-		 <input id="affiliate" name="affiliate" type="hidden" value="YourSiteHandle" />
-	 	<label for="query">Enter Search Term(s):</label>
-	 	<input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" />
-	 	<input name="commit" type="submit" value="Search" />
+	<form accept-charset="UTF-8" 
+	action="https://search.usa.gov/search" 
+	id="search_form" 
+	method="get">
+	<div style="margin:0;padding:0;display:inline">
+		<input name="utf8" type="hidden" value="&#x2713;" />
+	</div>
+	<input id="affiliate" name="affiliate" type="hidden" value="YourSiteHandle" />
+	<label for="query">Enter Search Term(s):</label>
+	<input autocomplete="off" 
+		class="usagov-search-autocomplete" 
+		id="query" 
+		name="query" 
+		type="text" />
+	<input name="commit" type="submit" value="Search" />
 	</form>
 
 <i class="icon-check"></i> **8. Do you have our Javascript tag on your webpages?** This Javascript powers the suggestions for type-ahead and [related searches]({{ site.baseurl }}/manual/display-overview.html). It also provides data on your trending URLs on the [Site Overview]({{ site.baseurl }}/manual/site-overview.html) page in the [Admin Center](https://search.usa.gov/sites/).

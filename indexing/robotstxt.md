@@ -3,7 +3,9 @@ layout: page
 title: Robots.txt Files
 crumbname: Robots.txt
 category: manual
-redirect_from: "/blog/robotstxt.html"
+redirect_from: 
+  - /blog/robotstxt.html
+  - /manual/robotstxt.html
 tags: how-to manage-content indexing
 date: January 17, 2020
 last_modified_at: January 17, 2020
@@ -14,6 +16,7 @@ breadcrumbs:
     url: /manual/
   - label: Indexing
     url: /manual/indexing-with-searchgov.html
+sidenav: indexing
 ---
 
 A `/robots.txt` file is a text file that instructs automated web bots on how to crawl and/or index a website. Web teams use them to provide information about what site directories should or should not be crawled, how quickly content should be accessed, and which bots are welcome on the site.

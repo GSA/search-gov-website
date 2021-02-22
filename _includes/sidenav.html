@@ -16,7 +16,7 @@ _layouts/page.html layout template, or you can add a "sidenav" property in the f
         </li>
         {% else %}
         <li class="usa-sidenav__item">
-          <a href"{{nav_item.url}}">{{ nav_item.name | escape }}</a>
+          <a href="{{nav_item.url}}">{{ nav_item.name | escape }}</a>
           <ul class="usa-sidenav__sublist">
             {% for subnav_item in nav_item.children %}
               {% unless subnav_item.children %}
@@ -28,7 +28,7 @@ _layouts/page.html layout template, or you can add a "sidenav" property in the f
               </li>
               {% else %}
               <li class="usa-sidenav__item">
-                <a href"{{subnav_item.url}}">{{ subnav_item.name | escape }}</a>
+                <a href="{{subnav_item.url}}">{{ subnav_item.name | escape }}</a>
                 <ul class="usa-sidenav__sublist">
                   {% for grandchild in subnav_item.children %}
                   <li class="usa-sidenav__item">

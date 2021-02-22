@@ -13,6 +13,9 @@ breadcrumbs:
     url: /manual/
   - label: Indexing
     url: /manual/indexing-with-searchgov.html
+sidenav: indexing
+redirect_from:
+  - /manual/sitemaps-to-search-sites.html
 ---
 
 We often get questions about how sitemaps control the search results for a given site. The answer is, they don’t! This page will describe to you the relationship between sitemaps, search indexes, and the search experiences you create through the [Admin Center](https://search.usa.gov/sites).
