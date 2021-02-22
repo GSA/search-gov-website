@@ -11,6 +11,9 @@ breadcrumbs:
     url: /manual/
 date: June 5, 2020
 last_modified_at: June 5, 2020
+sidenav: admin_center
+redirect_from:
+    - /manual/third-party.html
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > 3rd Party Tracking

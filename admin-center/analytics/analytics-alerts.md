@@ -6,6 +6,8 @@ tags: help-manual analytics
 date: March 23, 2017
 last_modified_at: March 23, 2017
 sidenav: admin_center
+redirect_from:
+    - /manual/analytics-alerts.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Analytics Alerts

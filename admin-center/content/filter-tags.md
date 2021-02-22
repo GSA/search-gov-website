@@ -6,6 +6,9 @@ tags: "help-manual manage-content domains"
 date: December 14, 2017
 last_modified_at: December 14, 2017
 published: true
+sidenav: admin_center
+redirect_from:
+    - /manual/filter-tags.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/manual/domains.html) > Advanced > Filter Tags

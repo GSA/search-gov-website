@@ -5,6 +5,9 @@ category: manual
 tags: help-manual manage-content social-media instagram images
 date: February 1, 2018
 last_modified_at: February 1, 2018
+sidenav: admin_center
+redirect_from:
+    - /manual/instagram.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Instagram

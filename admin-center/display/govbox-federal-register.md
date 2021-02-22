@@ -5,6 +5,7 @@ category: manual
 tags: help-manual display modules
 date: December 17, 2014
 last_modified_at: December 17, 2014
+sidenav: admin_center
 redirect_from:
     - /manual/govbox-federal-register.html
 ---

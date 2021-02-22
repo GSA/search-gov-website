@@ -6,6 +6,9 @@ tags: "help-manual manage-content domains filter-urls"
 date: March 24, 2017
 last_modified_at: March 24, 2017
 published: true
+sidenav: admin_center
+redirect_from:
+    - /manual/filter-content.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/manual/domains.html) > Advanced > Filter URLs

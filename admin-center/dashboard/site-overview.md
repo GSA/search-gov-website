@@ -6,6 +6,8 @@ tags: help-manual analytics dashboard site-overview
 date: December 27, 2017
 last_modified_at: December 27, 2017
 sidenav: admin_center
+redirect_from:
+    - /manual/site-overview.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Site Overview

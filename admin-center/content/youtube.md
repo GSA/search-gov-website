@@ -5,6 +5,7 @@ category: manual
 tags: help-manual manage-content social-media youtube videos
 date: March 21, 2017
 last_modified_at: March 21, 2017
+sidenav: admin_center
 redirect_from:
     - /manual/youtube.html
 ---

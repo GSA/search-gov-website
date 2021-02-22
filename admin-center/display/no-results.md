@@ -5,6 +5,9 @@ category: manual
 tags: help-manual manage-display
 date: July 27, 2015
 last_modified_at: July 27, 2015
+sidenav: admin_center
+redirect_from:
+    - /manual/no-results.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Display > No Results Page

@@ -5,6 +5,9 @@ category: manual
 tags: help-manual display settings
 date: December 28, 2016
 last_modified_at: December 28, 2016
+sidenav: admin_center
+redirect_from:
+    - /manual/supported-languages.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Settings

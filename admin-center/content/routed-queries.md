@@ -5,6 +5,7 @@ category: manual
 tags: help-manual manage-content routed-queries
 date: February 9, 2018
 last_modified_at: February 9, 2018
+sidenav: admin_center
 redirect_from:
     - /manual/routed-queries.html
 ---
