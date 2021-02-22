@@ -5,6 +5,8 @@ category: manual
 tags: help-manual manage-display font colors header footer
 date: August 13, 2015
 last_modified_at: August 13, 2015
+redirect_from:
+    - /manual/brand.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display

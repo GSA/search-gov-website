@@ -5,8 +5,9 @@ category: manual
 tags: help-manual activate-search code-snippets
 date: October 13, 2020
 last_modified_at: October 13, 2020
-last_updated: 2020-10-13
 sidenav: admin_center
+redirect_from:
+    - /manual/code.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Activate Search > Code Snippets

@@ -11,6 +11,9 @@ breadcrumbs:
     url: /
   - label: Help Manual
     url: /manual/
+sidenav: get_started
+redirect_from:
+  - /manual/training.html
 ---
 
 [DigitalGov Events Calendar](https://www.digital.gov/events/)

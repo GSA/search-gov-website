@@ -3,7 +3,9 @@ layout: page
 title: Checklist for a Successful Website Redesign
 crumbname: Redesign Guide
 category: manual
-redirect_from: "/blog/redesign.html"
+redirect_from: 
+  - /blog/redesign.html
+  - /manual/redesign.html
 tags: seo site-launch indexing
 date: August 30, 2019
 last_modified_at: August 30, 2019
@@ -14,6 +16,8 @@ breadcrumbs:
     url: /manual/
   - label: Site Launch Guide
     url: /manual/site-launch-guide.html
+sidenav: indexing
+
 ---
 
 We often receive questions when an agency conducts a major website upgrade, changes content management systems, or both. We created this checklist to help ensure your redesign is successful. The stages are:

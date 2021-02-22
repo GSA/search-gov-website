@@ -5,6 +5,8 @@ category: manual
 tags: help-manual manage-content social-media twitter
 date: May 28, 2014
 last_modified_at: May 28, 2014
+redirect_from:
+    - /manual/twitter.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Twitter

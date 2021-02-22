@@ -11,8 +11,9 @@ breadcrumbs:
     url: /manual/
 date: April 9, 2019
 last_modified_at: April 9, 2019
-last_updated: 2019-04-09
 sidenav: indexing
+redirect_from: 
+  - /manual/indexing-with-searchgov.html
 ---
 
 ## How does all this work?

@@ -5,6 +5,8 @@ category: manual
 tags: help-manual manage-content routed-queries
 date: February 9, 2018
 last_modified_at: February 9, 2018
+redirect_from:
+    - /manual/routed-queries.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Routed Queries

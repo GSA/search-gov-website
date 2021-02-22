@@ -13,6 +13,9 @@ breadcrumbs:
     url: /manual/
   - label: Indexing
     url: /manual/indexing-with-searchgov.html
+sidenav: indexing
+redirect_from: 
+  - /manual/ranking-factors.html
 ---
 
 Google and Bing hold their ranking algorithms closely as trade secrets, as a guard against people trying to game the system to ensure their own content comes out on top, regardless of whether that’s appropriate to the search. Search Engine Optimization (SEO) consulting has grown up as an industry to try to help websites get the best possible placement in search results.  You may be interested in our webinars on [technical SEO]({{ site.baseurl }}/manual/training.html#site-structure-better-seo) and [best practices]({{ site.baseurl }}/manual/training.html#search-doctor) that will help you get your website into better shape for search, and we’re also available to advise federal web teams on particular search issues. Generally speaking, though, SEO is a lot like reading tea leaves.

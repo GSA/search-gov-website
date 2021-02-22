@@ -12,6 +12,8 @@ breadcrumbs:
   - label: Manual
     url: /manual/
 sidenav: get_started
+redirect_from:
+  - /manual/account.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites) > My Account

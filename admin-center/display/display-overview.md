@@ -5,6 +5,8 @@ category: manual
 tags: help-manual manage-display facets modules related-sites
 date: February 27, 2017
 last_modified_at: February 27, 2017
+redirect_from:
+    - /manual/display-overview.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview

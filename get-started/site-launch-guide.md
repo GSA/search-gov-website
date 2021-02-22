@@ -5,14 +5,15 @@ crumbname: Site Launch Guide
 category: manual
 tags: go-live site-launch indexing
 date: April 22, 2019
-last_modified_at: April 22, 2019
-last_updated: February 3, 2021
-sidenav: site_launch_guide
+last_modified_at: February 3, 2021
 breadcrumbs:
   - label: Home
     url: /
   - label: Help Manual
     url: /manual/
+sidenav: get_started
+redirect_from:
+  - /manual/site-launch-guide.html
 ---
 
 At Search.gov we aim to provide a self-service, plug and play search solution. This guide will walk you through everything you need to do, and let you know when to reach out to us. The basic steps are:
@@ -72,7 +73,7 @@ Once you've created your site, note the actions available on the left-hand navig
 
 Regardless of the index used to support your search, we can only serve publicly accessible content. You will not be able to use our service for secure content, including intranets, and we can never index or serve personally identifiable information (PII) or other confidential data.
 
-[Jump to Step 4. Add Features](#add-features">) if you don't need the details of the indexing process at this time.)
+[Jump to Step 4. Add Features](#add-features) if you don't need the details of the indexing process at this time.)
 
 If we will be indexing your content ourselves, we will follow these steps:
 {: #indexing-workflow }

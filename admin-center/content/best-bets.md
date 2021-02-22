@@ -5,6 +5,8 @@ category: manual
 tags: help-manual manage-content best-bets
 date: March 19, 2020
 last_modified_at: March 19, 2020
+redirect_from:
+    - /manual/best-bets.html
 ---
 
 [Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Best Bets: Text or Graphics
