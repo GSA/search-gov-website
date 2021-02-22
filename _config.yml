@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
