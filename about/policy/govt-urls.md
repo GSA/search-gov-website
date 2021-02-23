@@ -6,6 +6,8 @@ tags: seo policy government-urls
 sidenav: about_us
 date: March 2, 2019
 last_modified_at: March 2, 2019
+redirect_from:
+  - /developer/govt-urls.html
 ---
 
 
