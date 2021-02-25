@@ -12,7 +12,6 @@ Our mission is to connect the public with the information they need from the gov
 
 We work to provide a modern, high quality, government-wide, self-service search engine that allows agencies to customize search experiences for the public, regardless of website type or organization.
 
-
 ## History
 
 Search.gov got its start when Internet entrepreneur Eric Brewer, whose early research was funded by the Department of Defense, offered to donate a powerful search engine to the government. That gift helped accelerate the government’s earlier work to create a government-wide portal.
@@ -29,21 +28,7 @@ In 2010, Search.gov moved to open-source software and became available to agenci
 * **Martha Thompson** - Senior Developer
 * **John Maxwell** - Developer
 
-
 Do you have any questions or need any assistance? We’re here to help!
 Email us at [search@support.digitalgov.gov](mailto:search@support.digitalgov.gov), or give us a call at [202-969-7426](tel:2029697426), Monday through Friday 9am to 5pm ET, except for federal holidays.
 
 If you’re a federal agency, we’d be happy to schedule time with you for a consultation. Email us to set up a time.
-
-
-
-
-
-
-
-
-
-
-
-
-

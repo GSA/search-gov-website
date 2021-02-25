@@ -6,18 +6,19 @@ tags: seo policy government-urls
 sidenav: about_us
 date: March 2, 2019
 last_modified_at: March 2, 2019
+redirect_from:
+    - /developer/govt-urls.html
 ---
-
 
 ## Overview
 
 As the U.S. government's official web portal, [USA.gov](https://www.usa.gov/){% external_link %} searches across all federal, state, local, tribal, and territorial government websites. Most government websites end in .gov or .mil, but many end in .com, .org, .edu, or other top-level domains.
 
-In support of USA.gov and [M-17-06 - Policies for Federal Agency Public Websites and Digital Services](https://policy.cio.gov/web-policy/){% external_link %}, Search.gov maintains a list of all public government domains that don't end in .gov or .mil.
+In support of USA.gov and [M-17-06 - Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf){% external_link %}, Search.gov maintains a list of all public government domains that don't end in .gov or .mil.
 
 ## How to Update the List
 
-Federal agencies [are required](https://policy.cio.gov/web-policy/domain/){% external_link %} to submit to Search.gov all non-.gov websites for inclusion in the list. This includes subdomains of a second-level domain managed by a third party, and federally controlled subfolders of a domain managed by a third party.
+Federal agencies [are required](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf){% external_link %} to submit to Search.gov all non-.gov websites for inclusion in the list. This includes subdomains of a second-level domain managed by a third party, and federally controlled subfolders of a domain managed by a third party.
 
 * Review the [list of federal non-.gov domains](https://github.com/GSA/govt-urls){% external_link %}
   * You can also search for specific domains using the search box at the top of the page.

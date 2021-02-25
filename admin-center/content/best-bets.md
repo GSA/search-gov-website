@@ -10,7 +10,7 @@ redirect_from:
     - /manual/best-bets.html
 ---
 
-[Search.gov Home](/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Best Bets: Text or Graphics
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Best Bets: Text or Graphics
 
 Do you want to promote a specific page or resource? [Create a Text Best Bet](#best-bets-text).
 

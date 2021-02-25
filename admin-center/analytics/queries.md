@@ -10,7 +10,7 @@ redirect_from:
     - /manual/queries.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Queries
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Queries
 
 The Queries page lists the number of times a search query (that is, a word or string of words) was entered in the search box on your site by a unique searcher.
 

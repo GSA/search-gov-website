@@ -10,7 +10,7 @@ redirect_from:
     - /manual/youtube.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > YouTube
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > YouTube
 
 ### NOTE: As of July 2020, there is a known issue with this feature that cannot be fixed immediately. Please contact us for further information or a potential workaround.
 

@@ -10,7 +10,7 @@ redirect_from:
     - /manual/flickr.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Flickr
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Flickr
 
 ## Tell Us About Your Flickr Photostream
 

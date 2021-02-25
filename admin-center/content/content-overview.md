@@ -10,7 +10,7 @@ redirect_from:
     - /manual/content-overview.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Content Overview
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Content Overview
 
 To display the results on your search results page, we index content from various sources. Each time a searcher enters a query on your site, we determine which indexes answer the searcher's question and display results from them. This means a single search results page often includes items from several indexes.
 

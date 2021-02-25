@@ -10,7 +10,7 @@ redirect_from:
     - /manual/site-overview.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Site Overview
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Site Overview
 
 The Site Overview page provides a snapshot of what has been happening on your site in the past day. All of the analytics in the [Admin Center](https://search.usa.gov/sites/) are updated in real-time, which means that you instantaneously see the searches and clicks as they're performed on your site.
 

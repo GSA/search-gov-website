@@ -10,7 +10,7 @@ redirect_from:
   - /manual/domains.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Domains
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Domains
 
 Enter the applicable domains, subdomains, or folders to return results specific to your website. You do not need to include `https://` as we recognize domains with or without it.
 
@@ -30,11 +30,22 @@ List yoursite.gov/folder to include folders. Note: this will include all sub-fol
 
 You cannot specify individual URLs.
 
-Searches that start three or more subfolders deep cannot use our default configuration. [Email us](mailto:search@support.digitalgov.gov) for assistance.
+Searches that start three or more subfolders deep must use our full indexing service. [Email us](mailto:search@support.digitalgov.gov) for assistance.
 
 ---
 
-***Troubleshooting Tip:*** You can *exclude* specific subdomains or folders using any of the following options.
+Related Resources:
+
+* [Filter]({{ site.baseurl }}/manual/filter-content.html) unwanted URLs from results
+* [Add content]({{ site.baseurl }}/manual/domains-advanced.html) to supplement Bing results
+
+---
+
+**Pro Tips:**
+
+**Excluding domains**
+
+You can *exclude* specific subdomains or folders using any of the following options.
 
 1. List the excluded subdomains or folders in your [robots.txt](http://www.robotstxt.org){% external_link %} file. This blocks them from all crawlers that follow the robots exclusion protocol, including Google.com and Bing.com.
 
@@ -42,7 +53,9 @@ Searches that start three or more subfolders deep cannot use our default configu
 
 3. Email us at <search@support.digitalgov.gov> to filter them from your site's search results. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
 
-<a id="filter"></a>***Troubleshooting Tip:*** You can remove or filter specific URLs using any of the following options.
+<a id="filter"></a>**Removing Content** 
+
+You can remove or filter specific URLs using any of the following options.
 
 1. Remove the page from your site and return a 404 (Not Found) 401 (Gone), or 301 (Permanently Moved) HTTP status.
 
@@ -52,4 +65,6 @@ Searches that start three or more subfolders deep cannot use our default configu
 
 4. Use the [Filter URLs]({{ site.baseurl }}/manual/filter-content.html) option under the Advanced tab. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
 
-***Troubleshooting Tip:*** Are specific web pages missing from your Bing web results? You can tell us about any missing URLs via an RSS feed or manually (the Supplemental Feed and Supplemental URLs options under the [Advanced]({{ site.baseurl }}/manual/domains-advanced.html) tab, respectively). We'll fetch and index the pages and append them to your web results.
+**Missing Content:** 
+
+Are web pages missing from your web results? [Email us](mailto:search@support.digitalgov.gov) for assistance.
