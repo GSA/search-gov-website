@@ -10,7 +10,7 @@ redirect_from:
     - /manual/users.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Manage Users
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Manage Users
 
 After you've [logged in](https://search.usa.gov/sites/) and [added a site]({{ site.baseurl }}/manual/add-site.html) with your official government email, you can add your coworkers to your site.
 

@@ -15,9 +15,11 @@ redirect_from:
 
 This help manual follows the order of settings that are available in the [Search Admin Center](https://search.usa.gov/sites).
 
-Take a look at our [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html) for step by step implementation details. Or if you're an existing customer relaunching a website, read our [Website Redesign Checklist]({{ site.baseurl }}/manual/redesign.html).
+Related resources:
 
-Help documentation about the indexing process [can be found here]({{ site.baseurl }}/manual/indexing-with-searchgov.html).
+* [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html) - for new customers
+* [Website Redesign Checklist]({{ site.baseurl }}/manual/redesign.html) - for existing customers working on a relaunch
+* [Indexing process documentation]({{ site.baseurl }}/manual/indexing-with-searchgov.html) - for everyone
 
 
 ### <i class="icon-dashboard"></i> Dashboard

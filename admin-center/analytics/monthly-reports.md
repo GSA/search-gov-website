@@ -9,7 +9,7 @@ redirect_from:
     - /manual/monthly-reports.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Monthly Reports
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Monthly Reports
 
 The monthly report gives a bird's-eye view of the number of [queries]({{ site.baseurl }}/manual/queries.html) and [clicks]({{ site.baseurl }}/manual/clicks.html) each month.
 

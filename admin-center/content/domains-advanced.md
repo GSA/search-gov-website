@@ -11,7 +11,7 @@ redirect_from:
     - /manual/domains-advanced.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/manual/domains.html) > Advanced
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/manual/domains.html) > Advanced
 
 Is content missing from your search results? Do you want to have RSS content appear in your main page search results?
 

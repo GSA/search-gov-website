@@ -11,7 +11,7 @@ redirect_from:
   - /manual/add-site.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > Add Site
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > Add Site
 
 ## Homepage URL
 

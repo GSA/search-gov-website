@@ -11,13 +11,13 @@ redirect_from:
 
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Clicks
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Clicks
 
 The Clicks page shows what searchers clicked on from your search results pages, and the number of times each of those items was clicked during the selected date range. The current month is shown by default, and the date can be adjusted using the date selectors at the top of the page and re-generating the report.
 
 You can also toggle between filtered and unfiltered views of the data by clicking on the filter icon (<i class="icon-filter"></i>) in the top navigation bar. The filtered data represent our best effort to show you real searches performed by your site's visitors. The unfiltered data include nearly all searches and clicks. Only known spiders (such as Bingbot and Googlebot) are excluded.
 
-Data are available in the Admin Center from the past 13 months.
+Related resource for *Search Results API users* - use our [Clicks API](https://open.gsa.gov/api/searchgov-clicks/) to send clicks data into our system for reporting.
 
 ## Reading the Report Table
 

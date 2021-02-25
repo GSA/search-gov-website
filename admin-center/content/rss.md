@@ -11,7 +11,7 @@ redirect_from:
     - /manual/rss.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > RSS
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > RSS
 
 Would you like searchers to be able to search your news or multimedia content? Would you like them to be able to narrow results by date?
 

@@ -10,6 +10,8 @@ redirect_from:
     - /manual/govbox-jobs.html
 ---
 
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview
+
 One of the most common search tasks is to look for current job openings. We created the Jobs module to help searchers quickly find relevant jobs. 
 
 When you [turn on the Job Openings]({{ site.baseurl }}/manual/display-overview.html) module, searchers looking for jobs on your site will see up to three relevant jobs listings on your results page. You will need to [contact us](mailto:search@support.digitalgov.gov) to get the Jobs module enabled for your site.
@@ -26,4 +28,4 @@ Searchers will also see a direct link to [USAJobs.gov](https://www.usajobs.gov) 
 
 ---
 
- **Did you know?** Are you a federal agency that doesn't post your jobs on USAJobs? We want your jobs data. Email us at <search@support.digitalgov.gov> to let us know where you publish your job openings so that we can include them in the Job Openings module.
+If you would like to show [job openings]({{ site.baseurl }}/manual/govbox-jobs.html) in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.

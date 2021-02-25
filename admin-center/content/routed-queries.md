@@ -10,7 +10,7 @@ redirect_from:
     - /manual/routed-queries.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Routed Queries
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Routed Queries
 
 Do you want to get searchers to a specific web page as quickly as possible? Create a Routed Query.
 

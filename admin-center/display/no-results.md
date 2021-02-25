@@ -26,4 +26,8 @@ You can add links to alternative resources that may assist the searcher in answe
 
 ---
 
-***Did you know?*** You can see a list of Queries with No Results in [Today's Snapshot]({{ site.baseurl }}/manual/site-overview.html) on the Dashboard, and in the [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Monthly Reports.
+***Pro Tip***
+
+*Data available*
+
+You can see a list of Queries with No Results in [Today's Snapshot]({{ site.baseurl }}/manual/site-overview.html) on the Dashboard, and in the [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Monthly Reports.

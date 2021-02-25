@@ -10,9 +10,7 @@ redirect_from:
     - /manual/module-codes.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics
-
-We call several different indexes when serving search results, and we present results from each of these indexes in a separate module. Each module loads when there are relevant search results to display. Each module has a code, and you'll see these codes in the Download Details csv files available through the [Queries]({{ site.baseurl }}/manual/queries.html) or [Clicks]({{ site.baseurl }}/manual/clicks.html) pages of the Admin Center analytics section. 
+We call several different indexes when serving search results, and we present results from each of these indexes in a separate block, or module, on the results page. Each module loads when there are relevant search results to display. Each module has a code, and you'll see these codes in the Download Details csv files available through the [Queries]({{ site.baseurl }}/manual/queries.html) or [Clicks]({{ site.baseurl }}/manual/clicks.html) pages of the Admin Center analytics section. 
 
 This page lists all the module codes and their full names.
 

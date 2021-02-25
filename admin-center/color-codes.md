@@ -9,9 +9,7 @@ redirect_from:
     - /manual/color-codes.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite
-
-We use color coding the Admin Center to indicate the status of a few types of items.
+We use color coding the [Admin Center](https://search.usa.gov/sites/) to indicate the status of a few types of items.
 
 ## [Manage Users]({{ site.baseurl }}/manual/users.html)
 

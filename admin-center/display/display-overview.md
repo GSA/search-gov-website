@@ -10,7 +10,7 @@ redirect_from:
     - /manual/display-overview.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview
 
 ## Facets
 
@@ -59,6 +59,10 @@ Email us at <search@support.digitalgov.gov> if you'd like to use a custom label 
 
 ---
 
-***Did you know?***  Searchers may narrow results by time period for any [RSS]({{ site.baseurl }}/manual/rss.html) feeds. See, for example, results for a [search on *space* narrowed to press releases in the last week on NASA.gov](https://nasasearch.nasa.gov/search/news?affiliate=nasa&channel=1618&query=space&sort_by=date&tbs=w).
+**Pro Tip**  
 
-***Did you know?***  For any of your [RSS]({{ site.baseurl }}/manual/rss.html) feeds that you've extended with a contributor, publisher, or subject [Dublin Core](http://dublincore.org/documents/dcmi-terms/){% external_link %} property, searchers may narrow results by the three facets. We'll display "Contributor," "Publisher," and "Subject" as the default names. Email us at <search@support.digitalgov.gov> to if you want to customize these display names.
+*Refining RSS search results*
+
+Searchers may narrow results by time period for any [RSS]({{ site.baseurl }}/manual/rss.html) feeds. See, for example, results for a [search on *space* narrowed to press releases in the last week on NASA.gov](https://nasasearch.nasa.gov/search/news?affiliate=nasa&channel=1618&query=space&sort_by=date&tbs=w).
+
+For any of your [RSS]({{ site.baseurl }}/manual/rss.html) feeds that you've extended with a contributor, publisher, or subject [Dublin Core](http://dublincore.org/documents/dcmi-terms/){% external_link %} property, searchers may narrow results by the three facets. We'll display "Contributor," "Publisher," and "Subject" as the default names. Email us at <search@support.digitalgov.gov> to if you want to customize these display names.
