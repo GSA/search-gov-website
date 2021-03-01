@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Add Your Content to Our Indexes: An Overview"
-category: manual
+category: admin-center
 tags: help-manual manage-content
 date: February 27, 2017
 last_modified_at: February 27, 2017

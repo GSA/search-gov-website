@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to Add Your YouTube Videos to Our Index
-category: manual
+category: admin-center
 tags: help-manual manage-content social-media youtube videos
 date: March 21, 2017
 last_modified_at: March 21, 2017

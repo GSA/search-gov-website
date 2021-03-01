@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to Activate Your Search by Adding Our Code Snippets to Your Website
-category: manual
+category: admin-center
 tags: help-manual activate-search code-snippets
 date: October 13, 2020
 last_modified_at: October 13, 2020

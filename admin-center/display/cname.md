@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to Mask Your Domain
-category: manual
+category: admin-center
 tags: help-manual activate-search cname 
 date: September 21, 2018
 last_modified_at: September 21, 2018

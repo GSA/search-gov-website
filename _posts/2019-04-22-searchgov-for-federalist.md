@@ -2,15 +2,8 @@
 layout: post
 title: Setting up Search.gov for Federalist Sites
 crumbname: Search.gov for Federalist
-category: manual
+category: admin-center
 tags: getting-started go-live site-launch
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
-  - label: Site Launch Guide
-    url: /manual/site-launch-guide.html
 ---
 
 For 18 years, GSA's Search.gov has transformed the public’s search experience on federal government websites. Agencies use our free, shared service to power over 2,000 search boxes on over 30% of federal domains. This page will walk you through the steps required to integrate Search.gov with your Federalist website.

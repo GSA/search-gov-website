@@ -5,10 +5,6 @@ crumbname: Roadmap
 category: about
 tags: roadmap
 sidenav: about_us
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: About
 ---
 
 ## Overview

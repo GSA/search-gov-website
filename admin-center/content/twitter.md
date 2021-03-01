@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to Add Your Tweets to Our Index
-category: manual
+category: admin-center
 tags: help-manual manage-content social-media twitter
 date: May 28, 2014
 last_modified_at: May 28, 2014

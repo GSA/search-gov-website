@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Help Searchers Find Federal Register Documents
-category: manual
+category: admin-center
 tags: help-manual display modules
 date: December 17, 2014
 last_modified_at: December 17, 2014
@@ -20,4 +20,4 @@ If you [opt to show the Federal Register]({{ site.baseurl }}/manual/display-over
 
 [![Federal Register Module on NIH.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/govbox-fr.png "Federal Register Module on NIH.gov")](https://search.nih.gov/search?affiliate=nih&query=autoimmune+diseases)
 
-If you would like to show [*Federal Register*]({{ site.baseurl }}/manual/govbox-federal-register.html)documents in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.
+If you would like to show Federal Register documents in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Key to Color Coding in the Admin Center
-category: manual
+category: admin-center
 last-updated: "November 02, 2011"
 tags: help-manual manage-users best-bets rss
 sidenav: admin_center

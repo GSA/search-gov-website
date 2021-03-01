@@ -2,20 +2,13 @@
 layout: page
 title: What Search.gov Indexes From Your Website
 crumbname: What Search.gov Indexes
-category: manual
+category: admin-center
 tags: indexing seo
 date: April 24, 2019
 last_modified_at: April 24, 2019
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
-  - label: Indexing
-    url: /manual/indexing-with-searchgov.html
 sidenav: indexing
 redirect_from:
-  - /manual/what-searchgov-indexes.md
+    - /manual/what-searchgov-indexes.md
 
 ---
 

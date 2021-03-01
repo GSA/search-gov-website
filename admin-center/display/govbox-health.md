@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Help Searchers Find Health Information
-category: manual
+category: admin-center
 tags: help-manual display modules
 date: February 27, 2017
 last_modified_at: February 27, 2017
@@ -18,4 +18,4 @@ This module offers direct access to [MedlinePlus Health Topics](https://www.nlm.
 
 If you [opt to show the Health Topics]({{ site.baseurl }}/manual/display-overview.html) module, searchers looking for health topics on your site can readily find high-quality health information.
 
-If you would like to show [health topics]({{ site.baseurl }}/manual/govbox-health.html) in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.
+If you would like to show health topics in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.

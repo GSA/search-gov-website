@@ -69,8 +69,8 @@ dap:
   # subagency: your-subagency
 
 # Configuration for Google Analytics
-ga:
-  ua: UA-31302465-1
+# ga:
+#   ua: UA-31302465-1
 
 # Site Navigation
 primary_navigation:
@@ -172,17 +172,17 @@ admin_center:
     url: /admin-center/
     children: 
       - name: Dashboard
-        url: /admin-center/dashboard/
+        url: "/admin-center/dashboard/"
       - name: Analytics
-        url: /admin-center/analytics/
+        url: "/admin-center/analytics/"
       - name: Content
-        url: /admin-center/content/
+        url: "/admin-center/content/"
       - name: Display
-        url: /admin-center/display/
+        url: "/admin-center/display/"
       - name: Preview
-        url: /admin-center/preview.html
+        url: "/admin-center/preview.html"
       - name: Activate
-        url: /admin-center/activate/
+        url: "/admin-center/activate/"
 
 about_us:
   - name: About Us
@@ -234,14 +234,12 @@ indexing:
           - name: A step-by-step indexing workflow
             url: "/get-started/site-launch-guide.html#select-index"
       - name: Domain Level SEO Supports
-        url:
         children:
           - name: All about XML sitemaps
             url: "/indexing/sitemaps.html"
           - name: Robots.txt files
             url: "/indexing/robotstxt.html"
       - name: Page Level SEO Supports
-        url: 
         children:
           - name: Metadata and tags you should include in your website
             url: "/indexing/metadata.html"

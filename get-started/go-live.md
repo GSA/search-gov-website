@@ -2,19 +2,14 @@
 layout: page
 title: Going Live with Search.gov
 crumbname: Go-Live
-category: manual
+category: admin-center
 tags: help-manual
 date: September 4, 2019
 last_modified_at: September 4, 2019
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
 sidenav: get_started
 redirect_from:
-  - /blog/go-live.html
-  - /manual/go-live.html
+    - /blog/go-live.html
+    - /manual/go-live.html
 ---
 Your pre-launch checklist will be unique to your agency's workflow, requirements, and deadlines. Below is a typical checklist.
 

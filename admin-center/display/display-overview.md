@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to Select the Options that Appear on Your Results Page
-category: manual
+category: admin-center
 tags: help-manual manage-display facets modules related-sites
 date: February 27, 2017
 last_modified_at: February 27, 2017

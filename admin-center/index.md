@@ -2,15 +2,12 @@
 layout: page
 title: "Help Manual: Managing Your Search Configuration"
 crumbname: Help Manual
-category: manual
+category: admin-center
 tags: help-manual
 last-updated: "April 10, 2019"
-breadcrumbs:
-  - label: Home
-    url: /
 sidenav: admin_center
 redirect_from:
-  - /manual/
+    - /manual/
 ---
 
 This help manual follows the order of settings that are available in the [Search Admin Center](https://search.usa.gov/sites).

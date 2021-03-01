@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adding a Custom System Alert to Your Results Page
-category: manual
+category: admin-center
 tags: help-manual manage-display alert
 date: February 7, 2018
 last_modified_at: February 7, 2018
@@ -10,7 +10,7 @@ redirect_from:
     - /manual/system-alert.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Display > Search Page Alert
+ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Display > Search Page Alert
 
 There may be times when you want to add a system alert to your search results page. For instance, during a [site redesign]({{ site.baseurl }}/manual/redesign.html), you may wish to inform searchers that your site is in transition. 
 

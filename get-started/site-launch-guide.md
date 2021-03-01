@@ -2,18 +2,13 @@
 layout: page
 title: Search Site Launch Guide
 crumbname: Site Launch Guide
-category: manual
+category: admin-center
 tags: go-live site-launch indexing
 date: April 22, 2019
 last_modified_at: February 3, 2021
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
 sidenav: get_started
 redirect_from:
-  - /manual/site-launch-guide.html
+    - /manual/site-launch-guide.html
 ---
 
 At Search.gov we aim to provide a self-service, plug and play search solution. This guide will walk you through everything you need to do, and let you know when to reach out to us. The basic steps are:

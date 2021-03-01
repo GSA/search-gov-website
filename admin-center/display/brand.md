@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to Brand Your Results Page
-category: manual
+category: admin-center
 tags: help-manual manage-display font colors header footer
 date: August 13, 2015
 last_modified_at: August 13, 2015

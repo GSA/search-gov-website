@@ -2,20 +2,13 @@
 layout: page
 title: XML Sitemaps
 crumbname: Sitemaps
-category: manual
+category: admin-center
 redirect_from: 
   - /blog/sitemaps.html
   - /manual/sitemaps.html
 tags: sitemaps indexing
 date: January 17, 2020
 last_modified_at: January 17, 2020
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Manual
-    url: /manual/
-  - label: Indexing
-    url: /manual/indexing-with-searchgov.html
 sidenav: indexing
 ---
 An [XML sitemap](https://en.wikipedia.org/wiki/Sitemaps) {% external_link %} is an XML formatted file containing a list of URLs on a website. An XML sitemap provides information that allows a search engine to index your website more intelligently, and to keep its search index up to date. 

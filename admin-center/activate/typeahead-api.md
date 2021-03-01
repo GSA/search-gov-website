@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Displaying Type-ahead Suggestions on Your Agency's Website
-category: manual
+category: admin-center
 tags: api activate-search autocomplete
 date: October 26, 2017
 last_modified_at: October 26, 2017

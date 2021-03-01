@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Analyzing Your Monthly Reports
-category: manual
+category: admin-center
 tags: help-manual analytics queries clicks
 date: January 30, 2018
 last_modified_at: January 30, 2018

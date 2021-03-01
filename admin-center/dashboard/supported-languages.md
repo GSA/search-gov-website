@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Languages Supported on Search.gov Results Pages
-category: manual
+category: admin-center
 tags: help-manual display settings
 date: December 28, 2016
 last_modified_at: December 28, 2016

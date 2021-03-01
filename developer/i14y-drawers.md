@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Working with i14y Drawers
-category: manual
+category: admin-center
 tags: "help-manual manage-content i14y"
 date: October 3, 2017
 last_modified_at: October 3, 2017

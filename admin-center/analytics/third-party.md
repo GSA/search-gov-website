@@ -1,14 +1,8 @@
 ---
 layout: page
 title: How to Add JavaScript for Your Third-party Web Services
-category: manual
+category: admin-center
 tags: help-manual analytics third-party google-analytics foresee DAP
-crumbname: 3rd Party Tracking
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Manual
-    url: /manual/
 date: June 5, 2020
 last_modified_at: June 5, 2020
 sidenav: admin_center

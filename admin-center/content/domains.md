@@ -1,13 +1,13 @@
 ---
 layout: page
 title: How to Edit Your Domains
-category: manual
+category: admin-center
 tags: help-manual manage-content domains
 date: April 18, 2017
 last_modified_at: April 18, 2017
 sidenav: admin_center
 redirect_from:
-  - /manual/domains.html
+    - /manual/domains.html
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Domains

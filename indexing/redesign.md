@@ -2,20 +2,13 @@
 layout: page
 title: Checklist for a Successful Website Redesign
 crumbname: Redesign Guide
-category: manual
+category: admin-center
 redirect_from: 
   - /blog/redesign.html
   - /manual/redesign.html
 tags: seo site-launch indexing
 date: August 30, 2019
 last_modified_at: August 30, 2019
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
-  - label: Site Launch Guide
-    url: /manual/site-launch-guide.html
 sidenav: indexing
 
 ---

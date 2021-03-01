@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Editing Your Site Settings
-category: manual
+category: admin-center
 tags: help-manual dashboard settings
 date: December 29, 2017
 last_modified_at: December 29, 2017

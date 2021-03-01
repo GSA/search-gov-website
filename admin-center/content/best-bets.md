@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to Boost Certain Results using Best Bets
-category: manual
+category: admin-center
 tags: help-manual manage-content best-bets
 date: March 19, 2020
 last_modified_at: March 19, 2020

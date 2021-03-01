@@ -2,17 +2,10 @@
 layout: page
 title: How Search.gov Ranks Your Search Results
 crumbname: Ranking Factors
-category: manual
+category: admin-center
 tags: indexing seo
 date: July 9, 2019
 last_modified_at: July 9, 2019
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
-  - label: Indexing
-    url: /manual/indexing-with-searchgov.html
 sidenav: indexing
 redirect_from: 
   - /manual/ranking-factors.html

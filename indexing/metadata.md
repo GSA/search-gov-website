@@ -2,18 +2,11 @@
 layout: page
 title: Metadata and tags you should include in your website
 crumbname: Metadata
-category: manual
+category: admin-center
 redirect_from: 
   - /blog/metadata.html
   - /manual/metadata.html
 tags: indexing seo
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
-  - label: Indexing
-    url: /manual/indexing-with-searchgov.html
 date: September 1, 2020
 last_modified_at: September 1, 2020
 sidenav: indexing

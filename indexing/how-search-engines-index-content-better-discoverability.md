@@ -2,20 +2,13 @@
 layout: page
 title: How to get search engines to index the right content for better discoverability
 crumbname: Better Discoverability
-category: manual
+category: admin-center
 redirect_from: 
   - "/blog/how-search-engines-index-content-better-discoverability.html"
   - /manual/how-search-engines-index-content-better-discoverability.html
 tags: indexing seo
 date: February 27, 2020
 last_modified_at: February 27, 2020
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
-  - label: Indexing
-    url: /manual/indexing-with-searchgov.html
 sidenav: indexing
 ---
 

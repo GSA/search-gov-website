@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Analyzing Your Site's Referrers
-category: manual
+category: admin-center
 tags: help-manual analytics referrers
 date: August 11, 2016
 last_modified_at: August 11, 2016

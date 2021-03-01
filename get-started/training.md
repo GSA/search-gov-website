@@ -2,18 +2,13 @@
 layout: page
 title: Search.gov Training
 crumbname: Training
-category: manual
+category: admin-center
 tags: help-manual training videos
 date: June 20, 2019
 last_modified_at: June 20, 2019
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
 sidenav: get_started
 redirect_from:
-  - /manual/training.html
+    - /manual/training.html
 ---
 
 [DigitalGov Events Calendar](https://www.digital.gov/events/)

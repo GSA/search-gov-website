@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Drupal Module Troubleshooting Tips
-category: manual
+category: admin-center
 tags: drupal, i14y
 ---
 

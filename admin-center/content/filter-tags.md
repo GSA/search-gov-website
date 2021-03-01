@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Filtering Tags
-category: manual
+category: admin-center
 tags: "help-manual manage-content domains"
 date: December 14, 2017
 last_modified_at: December 14, 2017

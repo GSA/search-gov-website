@@ -2,20 +2,13 @@
 layout: page
 title: How a Page on a Sitemap Becomes a Search Result
 crumbname: Sitemaps and Search Results
-category: manual
+category: admin-center
 tags: go-live indexing
 date: April 9, 2019
 last_modified_at: April 9, 2019
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
-  - label: Indexing
-    url: /manual/indexing-with-searchgov.html
 sidenav: indexing
 redirect_from:
-  - /manual/sitemaps-to-search-sites.html
+    - /manual/sitemaps-to-search-sites.html
 ---
 
 We often get questions about how sitemaps control the search results for a given site. The answer is, they don’t! This page will describe to you the relationship between sitemaps, search indexes, and the search experiences you create through the [Admin Center](https://search.usa.gov/sites).

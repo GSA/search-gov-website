@@ -2,13 +2,8 @@
 layout: page
 title: Everything You Need to Know About Indexing with Search.gov
 crumbname: Indexing
-category: manual
+category: admin-center
 tags: indexing seo
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
 date: April 9, 2019
 last_modified_at: April 9, 2019
 sidenav: indexing

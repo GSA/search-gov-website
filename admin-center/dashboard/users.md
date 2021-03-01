@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Managing Your Site's Users
-category: manual
+category: admin-center
 tags: help-manual dashboard users
 date: August 10, 2018
 last_modified_at: August 10, 2018

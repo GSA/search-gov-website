@@ -1,13 +1,14 @@
 ---
 layout: page
 title: How to Add a New Site
-category: manual
+category: admin-center
 tags: "help-manual settings add-site"
 date: March 2, 2017
 last_modified_at: March 2, 2017
 published: true
 sidenav: admin_center
-redirect_from: "/manual/add-site"
+redirect_from: 
+    - "/manual/add-site"
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > Add Site

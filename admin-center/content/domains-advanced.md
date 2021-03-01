@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adding Supplemental Content to Your Search Configuration
-category: manual
+category: admin-center
 tags: "help-manual manage-content domains advanced supplemental-feed supplemental-urls"
 published: true
 date: May 2, 2017

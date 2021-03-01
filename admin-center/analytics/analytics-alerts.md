@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Setting Up Analytics Alerts
-category: manual
+category: admin-center
 tags: help-manual analytics
 date: March 23, 2017
 last_modified_at: March 23, 2017

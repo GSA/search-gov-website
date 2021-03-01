@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Key for Search Module Codes and Names
-category: manual
+category: admin-center
 tags: help-manual analytics clicks queries
 date: March 15, 2018
 last_modified_at: March 15, 2018

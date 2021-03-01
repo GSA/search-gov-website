@@ -2,20 +2,13 @@
 layout: page
 title: Robots.txt Files
 crumbname: Robots.txt
-category: manual
+category: admin-center
 redirect_from: 
   - /blog/robotstxt.html
   - /manual/robotstxt.html
 tags: how-to manage-content indexing
 date: January 17, 2020
 last_modified_at: January 17, 2020
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Help Manual
-    url: /manual/
-  - label: Indexing
-    url: /manual/indexing-with-searchgov.html
 sidenav: indexing
 ---
 

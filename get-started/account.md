@@ -1,19 +1,14 @@
 ---
 layout: page
 title: How to Create and Edit Your User Account
-category: manual
+category: admin-center
 tags: help-manual my-account
 crumbname: Manage User Account
 date: June 23, 2020
 last_modified_at: June 23, 2020
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Manual
-    url: /manual/
 sidenav: get_started
 redirect_from:
-  - /manual/account.html
+    - /manual/account.html
 ---
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites) > My Account

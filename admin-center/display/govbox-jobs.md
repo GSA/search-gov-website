@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Help Searchers Find Jobs
-category: manual
+category: admin-center
 tags: help-manual modules jobs
 date: February 27, 2017
 last_modified_at: February 27, 2017
@@ -28,4 +28,4 @@ Searchers will also see a direct link to [USAJobs.gov](https://www.usajobs.gov) 
 
 ---
 
-If you would like to show [job openings]({{ site.baseurl }}/manual/govbox-jobs.html) in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.
+If you would like to show job openings in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.
