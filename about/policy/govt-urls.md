@@ -7,11 +7,7 @@ sidenav: about_us
 date: March 2, 2019
 last_modified_at: March 2, 2019
 redirect_from:
-<<<<<<< HEAD
-    - /developer/govt-urls.html
-=======
   - /developer/govt-urls.html
->>>>>>> Add govt policy redirect
 ---
 
 ## Overview
