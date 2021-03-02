@@ -121,7 +121,7 @@ primary_navigation:
       - name: Search.gov in Policy
         url: "/about/policy/"
       - name: Submit Feature Requests
-        url: "/about/feedback"
+        url: "/about/feedback.html"
       - name: Our Product Roadmap
         url: "/about/updates/roadmap/"
       - name: Release Notes
