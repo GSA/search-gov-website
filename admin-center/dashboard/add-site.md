@@ -7,7 +7,7 @@ date: March 2, 2017
 last_modified_at: March 2, 2017
 published: true
 sidenav: admin_center
-redirect_from: 
+redirect_from:
     - "/manual/add-site"
 ---
 
