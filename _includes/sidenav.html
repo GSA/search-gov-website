@@ -12,7 +12,7 @@ _layouts/page.html layout template, or you can add a "sidenav" property in the f
         {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
         <li class="usa-sidenav__item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-            href="{{ nav_item.url | prepend: site.env.baseurl || site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+            href="{{ nav_item.url | prepend: site.env.BASEURL || site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
         </li>
         {% else %}
         <li class="usa-sidenav__item">
