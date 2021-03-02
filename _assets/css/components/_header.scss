@@ -19,6 +19,23 @@
 .usa-logo__text {
   display: inline-block;
   margin-right: units(9);
+
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    // font-family: Avenir, Arial, sans-serif;
+    color: #112E51;
+    letter-spacing: .075em;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    background-color: #0071bc;
+  }
 }
 
 .usa-nav__secondary {

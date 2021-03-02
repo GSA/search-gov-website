@@ -1,14 +1,16 @@
 ---
 layout: post
 title: How to Preview Your Search Results
-category: manual
-last-updated: "December 28, 2016"
+last_modified_at: February 25, 2021
 tags: help-manual preview
+sidenav: admin_center
+redirect_from:
+    - /manual/preview.html
 ---
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Preview
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Preview
 
-As you update your site's display settings, you can preview your search results page before pushing the changes to your live website.
+<i class="icon-eye-open"></i> As you update your site's display settings, you can preview your search results page before pushing the changes to your live website.
 
 Visit our [Admin Center](https://search.usa.gov/sites/), select your site, and click on the Preview option (the eye icon) in the left-hand menu.
 
@@ -18,12 +20,6 @@ Enter a term in the box to see search results.
 
 ---
 
-***Did you know?*** You can also preview (and share) your search results page by typing https://search.usa.gov/search?affiliate=**YourSiteHandle** into the address bar in any browser. (Your site handle is listed on the [Settings]({{ site.baseurl }}/manual/settings.html) page in the Admin Center, if you don't know it.)
+***Pro Tip*** 
 
-***Did you know?*** If you're still on our legacy results page, you'll see two to three options.
-
-**View Staged.** This option allows you to view the staged search results page before you publish it to your live site. You'll see this option if you have staged changes.
-
-**View Current.** This option allows you to view the current, live search results page on your site. This is the only option you'll see if you don't have any staged changes.
-
-**View Redesigned Page.** This option allows you to view the [newly redesigned search results page]({{ site.baseurl }}/blog/serp-redesign.html) as it'll appear on your site after May 30, 2014.
+You can preview (and share) your search results page by typing https://search.usa.gov/search?affiliate=**YourSiteHandle** into the address bar in any browser. Your site handle is listed on the [Settings]({{ site.baseurl }}/manual/settings.html) page in the Admin Center.

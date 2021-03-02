@@ -1,3 +1,15 @@
+// Code Block Formatting
+
+.language-plaintext {
+  max-width: 68ex;
+
+  code {
+    overflow-x: scroll;
+    display: block;
+  }
+}
+
+
 @media (min-width: 78rem) {
   .usa-header--extended .usa-navbar,
   .usa-header--extended .usa-nav__inner,
@@ -25,5 +37,6 @@
 @import 'components/get-more-info';
 @import 'components/site-links';
 @import 'components/footer';
+@import 'components/customers';
 
 @import 'components/tags';

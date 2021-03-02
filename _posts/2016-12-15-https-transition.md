@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Preparing Your Site for HTTPS
-category: manual
+category: admin-center
 tags: help-manual https
 ---
 

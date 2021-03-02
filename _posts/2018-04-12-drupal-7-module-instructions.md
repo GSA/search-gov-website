@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Step by Step Instructions for Setting Up the Drupal 7 usasearch module
-category: manual
+category: admin-center
 tags: drupal, i14y
 ---
 

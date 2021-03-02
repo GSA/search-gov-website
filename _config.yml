@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
@@ -69,54 +69,67 @@ dap:
   # subagency: your-subagency
 
 # Configuration for Google Analytics
-ga:
-  # ua: your-ua
+# ga:
+#   ua: UA-31302465-1
 
 # Site Navigation
 primary_navigation:
   - name: Get Started
     children:
       - name: Sign Up/Create an Account
-        url: "/manual/account.html"
-      - name: Why Search.gov
-        url: "#"
+        url: "/get-started/account.html"
       - name: Site Launch Guide
-        url: "/manual/site-launch-guide.html"
+        url: "/get-started/site-launch-guide.html"
       - name: "Going live with Search.gov: Checklist"
-        url: "/manual/go-live.html"
-      - name: Regular Search Results and API-Results
-        url: "/hosted-vs-api-results.html"
+        url: "/get-started/go-live.html"
       - name: Available Search Features
-        url: "/manual/site-launch-guide.html#add-features"
+        url: "/get-started/site-launch-guide.html#add-features"
   - name: Manage Your Search Site
     children:
       - name: Manage your search configuration in the Admin Center
-        url: "/manual/index.html"
+        url: "/admin-center/index.html"
       - name: Add/remove users
-        url: "/manual/users.html"
+        url: "/admin-center/dashboard/users.html"
       - name: Add a site
-        url: "/manual/site-launch-guide.html#add-site"
+        url: "/admin-center/dashboard/add-site.html"
       - name: Add domains
-        url: "/manual/site-launch-guide.html#add-domains"
+        url: "/admin-center/content/domains.html"
       - name: Manage your search analytics
-        url: "#"
+        url: "/admin-center/analytics/index.html"
       - name: Add search features
-        url: "/manual/site-launch-guide.html#add-features"
+        url: "/get-started/site-launch-guide.html#add-features"
   - name: Index with Search.gov
     children:
       - name: What Search.gov indexes from your website
-        url: "/manual/what-searchgov-indexes.html"
+        url: "/indexing/what-searchgov-indexes.html"
       - name: How Search.gov ranks your search results
-        url: "/manual/ranking-factors.html"
+        url: "/indexing/ranking-factors.html"
       - name: How a page on a sitemap becomes a search result
-        url: "/manual/sitemaps-to-search-sites.html"
+        url: "/indexing/sitemaps-to-search-sites.html"
       - name: Step-by-step indexing workflow
-        url: "/manual/site-launch-guide.html#indexing-workflow"
+        url: "/get-started/site-launch-guide.html#indexing-workflow"
       - name: Metadata and tags you should include in your website
-        url: "/manual/metadata.html"
+        url: "/indexing/metadata.html"
       - name: Update your search after a redesign, CMS migration or both
-        url: "/manual/redesign.html"
-
+        url: "/indexing/redesign.html"
+  - name: About Us
+    children:
+      - name: About Us
+        url: "/about/"
+      - name: Customers
+        url: "/about/customers.html"
+      - name: Search.gov in Policy
+        url: "/about/policy/"
+      - name: Submit Feature Requests
+        url: "/about/feedback.html"
+      - name: Our Product Roadmap
+        url: "/about/updates/roadmap/"
+      - name: Release Notes
+        url: "/tagged/release-notes/"
+      - name: For Developers
+        url: "/developer/"
+      - name: Security and Compliance
+        url: "/about/security.html"
 # Sidebar configuration
 #
 # A sidebar of up to 3 levels can be configured here
@@ -127,32 +140,121 @@ primary_navigation:
 # import the `admin_center` navigation defined below. If no
 # `sidenav` property is specified, no sidebar will appear on the page
 
-admin_center:
-  - name: Admin Center
-    url: /admin-center/
+get_started:
+  - name: Get Started with Search.gov
     children:
-      - name: Color Codes
-        url: /admin-center/color-codes.html
-      - name: Preview
-        url: /admin-center/preview.html
+      - name: Sign Up/Create an Account
+        url: "/get-started/account.html"
+      - name: Site Launch Guide
+        url: "/get-started/site-launch-guide.html"
         children:
-          - name: Color Codes
-            url: /admin-center/color-codes.html
-          - name: Preview
-            url: /admin-center/preview.html
-  - name: Admin Center
+            - name: 1. Add a Site
+              url: "/get-started/site-launch-guide.html#add-site"
+            - name: 2. Add Domains
+              url: "/get-started/site-launch-guide.html#add-domains"
+            - name: 3. Web Index Selection
+              url: "/get-started/site-launch-guide.html#select-index"
+            - name: 4. Add Search Features
+              url: "/get-started/site-launch-guide.html#add-features"
+            - name: 5. Toggle Search Features On
+              url: "/get-started/site-launch-guide.html#turn-features-on"
+            - name: 6. Configure Branding
+              url: "/get-started/site-launch-guide.html#configure-branding"
+            - name: 7. Connect Your Search Box
+              url: "/get-started/site-launch-guide.html#go-live"
+      - name: "Going live with Search.gov: Checklist"
+        url: "/get-started/go-live.html"
+      - name: Available Search Features
+        url: "/get-started/site-launch-guide.html#add-features"
+
+admin_center:
+  - name: Manage Your Search Configuration
     url: /admin-center/
+    children: 
+      - name: Dashboard
+        url: "/admin-center/dashboard/"
+      - name: Analytics
+        url: "/admin-center/analytics/"
+      - name: Content
+        url: "/admin-center/content/"
+      - name: Display
+        url: "/admin-center/display/"
+      - name: Preview
+        url: "/admin-center/preview.html"
+      - name: Activate
+        url: "/admin-center/activate/"
+
+about_us:
+  - name: About Us
+    url: /about/
+    children: 
+      - name: Customers
+        url: "/about/customers.html"
+      - name: Search.gov in Policy
+        url: "/about/policy/"
+      - name: Submit Feature Requests
+        url: "/about/feedback"
+      - name: Our Product Roadmap
+        url: "/about/updates/roadmap/"
+      - name: Release Notes
+        url: "/tagged/release-notes/"
+      - name: For Developers
+        url: "/developer/"
+      - name: Security and Compliance
+        url: "/about/security.html"
+
+developer:
+  - name: Indexing API
+    url: "/developer/indexing-api.html"
+    children:
+      children:
+          - name: Getting Started with i14y
+            url: "/developer/i14y.html"
+          - name: i14y Drawers
+            url: "/developer/i14y-drawers.html"
+          - name: i14y Testing
+            url: "/developer/i14y-testing.html"
+  - name: Jobs
+    url: "/developer/jobs"
+
+indexing:
+  - name: Index with Search.gov
+    url: "/indexing/indexing-with-searchgov.html"
+    children:
+      - name: How does indexing work?
+        children:
+          - name: How search engines index your website
+            url: "/get-started/training.html#how-engines-index"
+          - name: What Search.gov indexes from your website
+            url: "/indexing/what-searchgov-indexes.html"
+          - name: How Search.gov ranks your search results
+            url: "/indexing/ranking-factors.html"
+          - name: How A Page on a Sitemap Becomes a Search
+            url: "/indexing/sitemaps-to-search-sites.html"
+          - name: A step-by-step indexing workflow
+            url: "/get-started/site-launch-guide.html#select-index"
+      - name: Domain Level SEO Supports
+        children:
+          - name: All about XML sitemaps
+            url: "/indexing/sitemaps.html"
+          - name: Robots.txt files
+            url: "/indexing/robotstxt.html"
+      - name: Page Level SEO Supports
+        children:
+          - name: Metadata and tags you should include in your website
+            url: "/indexing/metadata.html"
+          - name: How to get search engines to index the right content for better discoverability
+            url: "/indexing/how-search-engines-index-content-better-discoverability.html"
 
 highlights:
-  - heading: No commitment necessary
-    copy: There is no charge to use Search.gov, and we offer unlimited queries to our federal agency partners.
-  - heading: Hands-on customer service
-    copy: Our team is available to help you with your questions, ranging from technical support to search engine optimization.
   - heading: Highly configurable
     copy: No developers required - use our easy interface to design your search experience yourself, including what content to search, recommended content, and the look and feel of your search results page.
   - heading: Built for government
     copy: Because we only engage with government clients, we orient ourselves around your needs, whether it is security, compliance, search results coverage, or the unique circumstances of government web publishing.
-
+  - heading: Hands-on customer service
+    copy: Our team of experts is available to help you with your questions, ranging from technical support and troubleshooting to search engine optimization consultations. Your success is our mission.
+  - heading: No barriers to entry
+    copy: Adopting a new tool or service is often difficult for federal agencies, but getting started with Search.gov is friction free. Our service is ready to use, and does not require interagency agreements, payments, or other common procedural challenges.
 
 # Search.gov configuration
 #
