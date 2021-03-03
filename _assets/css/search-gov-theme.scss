@@ -1,11 +1,11 @@
-// Code Block Formatting
+// Fixing Width Issue on Pages
+.usa-prose {
+  max-width: 68ex;
+}
 
 .language-plaintext {
-  max-width: 68ex;
-
   code {
-    overflow-x: scroll;
-    display: block;
+    white-space : pre-wrap;
   }
 }
 
