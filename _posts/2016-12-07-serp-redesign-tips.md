@@ -5,7 +5,7 @@ category: blog
 tags: ux manage-display font colors header footer
 ---
 
-As you customize the [newly redesigned results page]({{ site.baseurl }}/blog/serp-redesign.html) to match your site's [brand]({{ site.baseurl }}/manual/brand.html), we thought it'd be good to highlight some of our favorite tips.
+As you customize the [newly redesigned results page]({{ site.baseurl }}/blog/serp-redesign.html) to match your site's [brand]({{ site.baseurl }}/admin-center/display/brand.html), we thought it'd be good to highlight some of our favorite tips.
 
 ## Display Overview
 

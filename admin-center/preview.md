@@ -22,4 +22,4 @@ Enter a term in the box to see search results.
 
 ***Pro Tip*** 
 
-You can preview (and share) your search results page by typing https://search.usa.gov/search?affiliate=**YourSiteHandle** into the address bar in any browser. Your site handle is listed on the [Settings]({{ site.baseurl }}/manual/settings.html) page in the Admin Center.
+You can preview (and share) your search results page by typing https://search.usa.gov/search?affiliate=**YourSiteHandle** into the address bar in any browser. Your site handle is listed on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page in the Admin Center.

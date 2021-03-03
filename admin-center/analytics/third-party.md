@@ -52,7 +52,7 @@ The code you submit should look something like this:
      
 ## Digital Analytics Program
 
-Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP. If you use the `search.usa.gov` domain on your results page, your data will be located within the GSA Agency Profile in DAP. To bring your Search.gov DAP data into your own agency's DAP profile, you must set up a [domain mask]({{ site.baseurl }}/manual/cname.html).
+Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP. If you use the `search.usa.gov` domain on your results page, your data will be located within the GSA Agency Profile in DAP. To bring your Search.gov DAP data into your own agency's DAP profile, you must set up a [domain mask]({{ site.baseurl }}/admin-center/display/cname.html).
 
 *Note:* You do not need to submit the DAP script to us.
 
@@ -84,4 +84,6 @@ Coordinate with your ForeSee representative and the Search.gov team to implement
 
 ---
 
-***Did you know?*** We use Google Analytics Web analytics software &mdash; our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag &mdash; by default. Email us at <search@support.digitalgov.gov> if you'd like to opt out. Learn more in our [terms of service]({{ site.baseurl }}/tos.html).
+***Pro Tip*** 
+
+We use Google Analytics Web analytics software &mdash; our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag &mdash; by default. Learn more in our [terms of service]({{ site.baseurl }}/tos.html).

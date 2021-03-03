@@ -12,13 +12,13 @@ redirect_from:
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Manage Users
 
-After you've [logged in](https://search.usa.gov/sites/) and [added a site]({{ site.baseurl }}/manual/add-site.html) with your official government email, you can add your coworkers to your site.
+After you've [logged in](https://search.usa.gov/sites/) and [added a site]({{ site.baseurl }}/admin-center/dashboard/add-site.html) with your official government email, you can add your coworkers to your site.
 
 You can add anyone you'd like to your site&mdash;with or without a .gov or .mil email address. Email addresses outside the .gov or .mil domains must be associated with a business. Personal emails, such as @gmail.com or @yahoo.com, are not allowed.
 
 ![Add a user](https://d3qcdigd1fhos0.cloudfront.net/blog/img/user.png){:height="95%" width="95%"}
 
-We use [color coding]({{ site.baseurl }}/manual/color-codes.html) to indicate each user's status. 
+We use [color coding]({{ site.baseurl }}/admin-center/color-codes.html) to indicate each user's status. 
 
 | Color | Status | 
 | :------------ | :---------------------------------- |
@@ -29,4 +29,6 @@ We use [color coding]({{ site.baseurl }}/manual/color-codes.html) to indicate ea
 
 ---
 
-***Did you know?*** We recommend adding a generic email account (such as webteam@agency.gov) as a user to ensure ongoing access to your account as individuals come and go.
+***Pro Tip*** 
+
+Group accounts, using emails such as webteam@agency.gov, are not allowed through our authentication provider, Login.gov. Please make sure all individuals requiring access are added separately as users.

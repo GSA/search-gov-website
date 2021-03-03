@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Working with i14y Drawers
-category: admin-center
+category: developer
 tags: "help-manual manage-content i14y"
 date: October 3, 2017
 last_modified_at: October 3, 2017
@@ -13,7 +13,7 @@ published: true
 
 An [i14y]({{ site.baseurl }}/developer/i14y.html) Drawer is an index receiving content via the i14y API. We've called them **Drawers** because, like drawers in a filing cabinet, multiple indexes can be included in a single configuration to scope the entirety of a site’s search.
 
-Information on working with our Drupal module is [here]({{ site.baseurl }}/manual/drupal.html).
+Information on working with our Drupal module is [here]({{ site.baseurl }}/developer/drupal.html).
 
 ## Step 1. Make sure your site is connected to i14y
 
@@ -36,7 +36,7 @@ After you have created your Drawer(s), click `Show` from the i14y Drawers list t
 
 You can view the number of documents indexed for each drawer on the main i14y Drawers list, and when the most recent document was received. Click `Show` to view documents within a particular drawer. We display the most recent 1,000 items that were sent to the drawer. You can also search for keywords in the documents' text, titles, and descriptions (Note: you cannot currently search for URLs).
 
-**Note:** We use the [Domains]({{ site.baseurl }}/manual/domains.html) section to scope search results - if the domain(s) of your i14y content are not listed in the Domains section, that content will not appear on your search results page. 
+**Note:** We use the [Domains]({{ site.baseurl }}/admin-center/content/domains.html) section to scope search results - if the domain(s) of your i14y content are not listed in the Domains section, that content will not appear on your search results page. 
 
 We send success and / or failure codes in response to your API call, so if the number of documents in our index doesn’t match what you sent, check those response codes.
 
@@ -48,4 +48,6 @@ We send success and / or failure codes in response to your API call, so if the n
 If you accidentally delete a drawer, you will need to set-up a new drawer and resend the content - we are unable to retrieve deleted drawers. If you accidentally remove a shared drawer but it is still associated with other search configurations, we can re-attach it to your site. [Contact us](mailto:search@support.digitalgov.gov) for assistance.
 
 ---
-***Did you know?*** We can attach each i14y drawer to multiple search configurations: if you have a drawer that you’d like to use for multiple search sites, [email us](mailto:search@support.digitalgov.gov).
+***Pro Tip*** 
+
+We can attach each i14y drawer to multiple search configurations: if you have a drawer that you’d like to use for multiple search sites, [email us](mailto:search@support.digitalgov.gov).

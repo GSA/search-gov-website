@@ -18,7 +18,7 @@ These APIs are available for use on official government websites only. You must 
 
 **[Type-ahead API](https://open.gsa.gov/api/searchgov-suggestions/)**&mdash;This API exposes the type-ahead suggestions that often appear below your search box as searchers enter their search terms. Instructions can be found under [Admin Center](https://search.usa.gov/sites/) > YourSite > Activate Search.
 
-**[i14y]({{ site.baseurl }}/developer/i14y.html)**&mdash;This API is still available, but we encourage the use of sitemap-based indexing instead. Read more about our indexing process [here]({{ site.baseurl }}/manual/indexing-with-searchgov.html). The i14y API allows you to send content directly from your content management system (CMS) into Search.gov for real-time indexing.
+**[i14y]({{ site.baseurl }}/developer/i14y.html)**&mdash;This API is still available, but we encourage the use of sitemap-based indexing instead. Read more about our indexing process [here]({{ site.baseurl }}/indexing/indexing-with-searchgov.html). The i14y API allows you to send content directly from your content management system (CMS) into Search.gov for real-time indexing.
 
 ## APIs and Data Feeds for the Public
 

@@ -84,6 +84,8 @@ primary_navigation:
         url: "/get-started/go-live.html"
       - name: Available Search Features
         url: "/get-started/site-launch-guide.html#add-features"
+      - name: Training and Resources
+        url: "/get-started/learn.html"
   - name: Manage Your Search Site
     children:
       - name: Manage your search configuration in the Admin Center

@@ -140,8 +140,10 @@ Active best bets are shown to searchers on your site. Inactive entries aren't sh
 
 Watch the recording of our February 2015 webinar [**Straight to the Top: Best Bets in DigitalGov Search**](https://www.youtube.com/embed/WzQocKYK0t4) (55 mins)
 
-***Did you know?*** Use the [Search Page Alert]({{ site.baseurl }}/manual/system-alert.html) feature to add a text message to your search results page, which will appear at all times above all search results, *regardless of the query*.
+***Pro Tips*** 
 
-***Did you know?*** Analyze the number of impressions and clicks and clickthru rate for each best bet on the [Monthly Reports]({{ site.baseurl }}/manual/monthly-reports.html) page. Use the data to inform your titles, descriptions, and keywords and your decision to deactivate or delete an entry.
+* Use the [Search Page Alert]({{ site.baseurl }}/admin-center/display/system-alert.html) feature to add a text message to your search results page, which will appear at all times above all search results, *regardless of the query*.
 
-***Did you know?*** When you use the [sitelimit parameter]({{ site.baseurl }}/manual/collections.html#sitelimit) to scope the search to a subsection of your website, we'll apply this sitelimit to your Best Bets so searchers see recommended pages from within that folder or subdomain only.
+* Analyze the number of impressions and clicks and clickthru rate for each best bet on the [Monthly Reports]({{ site.baseurl }}/admin-center/analytics/monthly-reports.html) page. Use the data to inform your titles, descriptions, and keywords and your decision to deactivate or delete an entry.
+
+* When you use the [sitelimit parameter]({{ site.baseurl }}/admin-center/content/collections.html#sitelimit) to scope the search to a subsection of your website, we'll apply this sitelimit to your Best Bets so searchers see recommended pages from within that folder or subdomain only.

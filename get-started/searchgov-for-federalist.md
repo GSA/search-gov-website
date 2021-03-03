@@ -4,6 +4,8 @@ title: Setting up Search.gov for Federalist Sites
 crumbname: Search.gov for Federalist
 category: admin-center
 tags: getting-started go-live site-launch
+date: April 22, 2019
+last_modified_at: April 22, 2019
 ---
 
 For 18 years, GSA's Search.gov has transformed the public’s search experience on federal government websites. Agencies use our free, shared service to power over 2,000 search boxes on over 30% of federal domains. This page will walk you through the steps required to integrate Search.gov with your Federalist website.
@@ -15,10 +17,10 @@ For 18 years, GSA's Search.gov has transformed the public’s search experience 
 ## On the Search.gov side of things:
 
 1. Sign up for a [user account](https://search.usa.gov/signup).
-1. Read our [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html) if you’d like some direction.
+1. Read our [Search Site Launch Guide]({{ site.baseurl }}/get-started/site-launch-guide.html) if you’d like some direction.
 1. Request that your domain be indexed by [emailing our team](mailto:search@support.digitalgov.gov). Note, the site must be publicly available for our indexer to be able to access your content.
 1. Create and configure a search site in our [Admin Center](https://search.usa.gov/sites). Note: you’ll give your site a display name and a site handle, and you’ll need to enter the site handle in the search box form code on your website.
-1. [Preview your search results]({{ site.baseurl }}/manual/preview.html) once the indexing is complete.
+1. [Preview your search results]({{ site.baseurl }}/admin-center/preview.html) once the indexing is complete.
 1. Put finishing touches on your search site in the Admin Center - brand your results page, etc. 
 
 ## On the Federalist side of things, part 2

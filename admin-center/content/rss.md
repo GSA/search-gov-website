@@ -74,9 +74,9 @@ Any items missing a required element won't display in your search results.
 
 ## Step 2. Opt to Show as a Facet, Inline Module, or Both
 
-Allow searchers to see inline results for recent, relevant RSS results *across all of your RSS feeds* by turning on the News module on the [Display Overview]({{ site.baseurl }}/manual/display-overview.html) page. When a searcher’s query matches the title of an RSS article published within the past four months, the article appears in the News module. Very recent news results (less than five days) appear at the top of the page and less recent news results appear at the bottom. Up to three articles are displayed. You can edit the default module title, News, on the Display Overview page.
+Allow searchers to see inline results for recent, relevant RSS results *across all of your RSS feeds* by turning on the News module on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. When a searcher’s query matches the title of an RSS article published within the past four months, the article appears in the News module. Very recent news results (less than five days) appear at the top of the page and less recent news results appear at the bottom. Up to three articles are displayed. You can edit the default module title, News, on the Display Overview page.
 
-Allow searchers to narrow results to a specific feed by turning on the option to show the facet on the [Display Overview]({{ site.baseurl }}/manual/display-overview.html) page. To ensure searchers don't encounter too many dead ends, we recommend showing only feeds with a significant amount of content as a facet.
+Allow searchers to narrow results to a specific feed by turning on the option to show the facet on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. To ensure searchers don't encounter too many dead ends, we recommend showing only feeds with a significant amount of content as a facet.
 
 ## Step 3. Check Your Search Results Page
 
@@ -100,7 +100,7 @@ We show the number of results returned for searches against your feed(s).
 
 ## Step 4. Check the Status of Your Feeds
 
-We use [color coding]({{ site.baseurl }}/manual/color-codes.html) to indicate each feed's status. 
+We use [color coding]({{ site.baseurl }}/admin-center/color-codes.html) to indicate each feed's status. 
 
 ![RSS status messages and colors](https://d3qcdigd1fhos0.cloudfront.net/blog/img/rss-status.png)
 
@@ -132,16 +132,14 @@ Click on the name of any feed with an error to see more detailed information abo
 
 ***Troubleshooting tip:*** We index the content on your RSS feeds from the time you input them in the [Admin Center](https://search.usa.gov/sites/). To backfill historical content, temporarily modify your RSS feeds to return more results. Leave this larger feed in place for one hour. You can do this during off-hours and you don't need to coordinate with us.
 
-***Did you know?*** You can set up a search box on your website that limits results to your feed.
+***Pro Tips*** 
 
-Start with the standard form snippet on the [Code Snippets]({{ site.baseurl }}/manual/code.html) page under the Activate Search tab. Change the form action to `action="https://search.usa.gov/search/news` and add the following line to limit the results to your feed.
+You can set up a search box on your website that limits results to your feed.
 
-`<input type="hidden" name="channel" value="###">`
+* Start with the standard form snippet on the [Code Snippets]({{ site.baseurl }}/admin-center/activate/code.html) page under the Activate Search tab. Change the form action to `action="https://search.usa.gov/search/news` and add the following line to limit the results to your feed.<br />`<input type="hidden" name="channel" value="###">`
+* The value is the number for your feed ID, which is visible in the URL when you edit your feed in the Admin Center.
+* You can click on the 'Preview' option to see the content we have indexed for each of your RSS feeds.
 
-The value is the number for your feed ID, which is visible in the URL when you edit your feed in the Admin Center.
+When you [provide us with your YouTube channel]({{ site.baseurl }}/admin-center/content/youtube.html), we'll automatically index the RSS feed for your YouTube channel.
 
-***Did you know?*** You can click on the 'Preview' option to see the content we have indexed for each of your RSS feeds.
-
-***Did you know?*** When you [provide us with your YouTube channel]({{ site.baseurl }}/manual/youtube.html), we'll automatically index the RSS feed for your YouTube channel.
-
-***Did you know?*** For any feeds that you've extended with a contributor, publisher, or subject [Dublin Core](http://dublincore.org/documents/dcmi-terms/){% external_link %} property, searchers may narrow results by these facets in the [sidebar]({{ site.baseurl }}/manual/display-overview.html) on the results page.
+For any feeds that you've extended with a contributor, publisher, or subject [Dublin Core](http://dublincore.org/documents/dcmi-terms/){% external_link %} property, searchers may narrow results by these facets in the [sidebar]({{ site.baseurl }}/admin-center/display/display-overview.html) on the results page.

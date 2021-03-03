@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Drupal Module Troubleshooting Tips
-category: admin-center
+category: developer
 tags: drupal, i14y
+date: April, 12, 2018
+last_modified_at: April 12, 2018
 ---
 
 > **Important Note:** April, 2018. For new implementations, the Search.gov team recommends you index your content with us not using our Drupal module to send content to our i14y indexing API, but rather by publishing a comprehensive XML sitemap, which we can use to index your content. We recommend the [XML Sitemap module](https://www.drupal.org/project/xmlsitemap){% external_link %}. [Read more.]({{ site.baseurl }}/blog/six-months-in.html)
@@ -19,7 +21,7 @@ We have modules for both Drupal 7 and Drupal 8. If your site is in Drupal 7, use
 
 ### Have you set up an i14y drawer?
 
-In order to send content from Drupal to our system, you'll need an index to send the content into. We call these indexes "Drawers", because like drawers in a filing cabinet, all the items put into them will be the content you can search against. [Read more about Drawers here]({{ site.baseurl }}/manual/i14y-drawers.html). In order to set up a drawer, your search site will need to be enabled for i14y, so [contact us](mailto:search@support.digitalgov.gov) to request that.
+In order to send content from Drupal to our system, you'll need an index to send the content into. We call these indexes "Drawers", because like drawers in a filing cabinet, all the items put into them will be the content you can search against. [Read more about Drawers here]({{ site.baseurl }}/developer/i14y-drawers.html). In order to set up a drawer, your search site will need to be enabled for i14y, so [contact us](mailto:search@support.digitalgov.gov) to request that.
 
 ### Has any content actually been sent to us? 
 
@@ -69,7 +71,7 @@ If you have another question about indexing with our service through the `usasea
 
 * If you have a **Drupal 7** site
 
-  Our Drupal 7 module is designed to take over the native Drupal search box on your site, and direct queries to the site you specify in the `affiliate site handle` field. If you're seeing other results - either the Drupal search results or a different search site in our system, find out if the search box form code had been manually modified to point to this other location. Our module will only work with out-of-the-box Drupal search boxes. If the search box form code was modified, you'll need to manually point it to our service using the required parameters - you can see [general information on form code here]({{ site.baseurl }}/manual/code.html), or you can view examples customized to your particular site within the Admin Center, under `Activate`. You may also be able to restore the form code to the Drupal default, to take advantage of the module's site handle field and be able to modify the site handle without a dev.
+  Our Drupal 7 module is designed to take over the native Drupal search box on your site, and direct queries to the site you specify in the `affiliate site handle` field. If you're seeing other results - either the Drupal search results or a different search site in our system, find out if the search box form code had been manually modified to point to this other location. Our module will only work with out-of-the-box Drupal search boxes. If the search box form code was modified, you'll need to manually point it to our service using the required parameters - you can see [general information on form code here]({{ site.baseurl }}/admin-center/activate/code.html), or you can view examples customized to your particular site within the Admin Center, under `Activate`. You may also be able to restore the form code to the Drupal default, to take advantage of the module's site handle field and be able to modify the site handle without a dev.
   
 * If you have a **Drupal 8** site
 

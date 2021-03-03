@@ -11,7 +11,7 @@ redirect_from:
 
 We use color coding the [Admin Center](https://search.usa.gov/sites/) to indicate the status of a few types of items.
 
-## [Manage Users]({{ site.baseurl }}/manual/users.html)
+## [Manage Users]({{ site.baseurl }}/admin-center/dashboard/users.html)
 
 | Color | Status |
 | :------------ | :---------------------------------- |
@@ -19,7 +19,7 @@ We use color coding the [Admin Center](https://search.usa.gov/sites/) to indicat
 | Yellow  | Pending - requires approval or email verification |
 | Red   | Not approved |
 
-## [RSS Feeds]({{ site.baseurl }}/manual/rss.html)
+## [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html)
 
 | Color | Status |
 | :------------ | :---------------------------------- |
@@ -39,7 +39,7 @@ Click on the name of the feed to see more detailed information about its status.
 * Link is not a valid URL
 * Linked URL does not exist (HTTP 404)
 
-## [Best Bets]({{ site.baseurl }}/manual/best-bets.html): Text or Graphics
+## [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html): Text or Graphics
 
 | Color | Status |
 | :------------ | :---------------------------------- |

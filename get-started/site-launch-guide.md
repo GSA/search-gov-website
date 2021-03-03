@@ -34,7 +34,7 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 
 **Who:**  You, the agency web team
 
-**What:** After you’ve successfully opened an account with Search.gov, you'll need to create a search site. A search site is where you configure the search experience for your website. Find the `Add Site` link at the top of the Admin Center, and enter some basic details about your site. Please note that our service is for publicly accessible, federal government content. More detailed information can be found on our [Add Site help page]({{ site.baseurl }}/manual/add-site.html). 
+**What:** After you’ve successfully opened an account with Search.gov, you'll need to create a search site. A search site is where you configure the search experience for your website. Find the `Add Site` link at the top of the Admin Center, and enter some basic details about your site. Please note that our service is for publicly accessible, federal government content. More detailed information can be found on our [Add Site help page]({{ site.baseurl }}/admin-center/dashboard/add-site.html). 
 
 Once you've created your site, note the actions available on the left-hand navigation of your Admin Center. 
 
@@ -56,7 +56,7 @@ Once you've created your site, note the actions available on the left-hand navig
 
 **Who:** You, the agency web team
 
-**What:** In the content management section, the domains list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain. [Read more here]({{ site.baseurl }}/manual/domains.html).
+**What:** In the content management section, the domains list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain. [Read more here]({{ site.baseurl }}/admin-center/content/domains.html).
 
 {: #select-index }
 <br />
@@ -93,11 +93,11 @@ www.subagencydomainexample.gov
 
 **Who:** You, the agency web team, in consultation with the Search.gov team
 
-**What:** The easiest way for us to discover what URLs exist on your domain is via an XML sitemap. Each domain identified above will need a separate sitemap. Please read our [detailed discussion of XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html), and let us know if you have any questions. We understand it can be difficult for some legacy systems to generate a sitemaps, so if this is the case, [please reach out](mailto:search@support.digitalgov.gov).
+**What:** The easiest way for us to discover what URLs exist on your domain is via an XML sitemap. Each domain identified above will need a separate sitemap. Please read our [detailed discussion of XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html), and let us know if you have any questions. We understand it can be difficult for some legacy systems to generate a sitemaps, so if this is the case, [please reach out](mailto:search@support.digitalgov.gov).
 
 We do not crawl websites by default due to the high resource demand of crawling every page on every website all the time. One of the goals of our service is to contain the costs of search government-wide, and a crawling-first model would increase costs significantly.
 
-If you publish your site on Federalist, read these [additional instructions]({{ site.baseurl }}/manual/searchgov-for-federalist.html).
+If you publish your site on Federalist, read these [additional instructions]({{ site.baseurl }}/get-started/searchgov-for-federalist.html).
 <br /><br />
 ####  C. Index Subdomains
 
@@ -105,7 +105,7 @@ If you publish your site on Federalist, read these [additional instructions]({{ 
 
 **What:** Once sitemaps are posted to your website, our system will index your content. Alert us when the sitemaps are posted, and we’ll add your domains to our list of domains that we monitor. Then, indexing will begin.
 
-By default, we make 1 request per second to a domain. If a `Crawl-delay` is declared in your [/robots.txt file]({{ site.baseurl }}/manual/robotstxt.html), we will honor that delay while fetching your content for indexing. The length of time required to index a site is `(number of items) x (crawl delay) / 3600 = hours to index`.
+By default, we make 1 request per second to a domain. If a `Crawl-delay` is declared in your [/robots.txt file]({{ site.baseurl }}/indexing/robotstxt.html), we will honor that delay while fetching your content for indexing. The length of time required to index a site is `(number of items) x (crawl delay) / 3600 = hours to index`.
 
 If you use a firewall service, it’s possible our indexer will be blocked. We can provide our IP addresses for you to whitelist in your firewall. 
 
@@ -141,15 +141,15 @@ For sites switching from Bing: When you give us the green light to switch to the
 
 **What:** We offer several additional search features you can configure to enhance your search experience.
 
-* [Collections]({{ site.baseurl }}/manual/collections.html) allow you to set up alternative search scopes from the Domains you declare for the main search. Often Collections point at particular subfolders or subdomains of the primary domain for the site. Sometimes they point at a different domain entirely. If you are indexed by Search.gov and you want a Collection to search another domain, check with us to see if we have that content already indexed.  
-* [Best Bets]({{ site.baseurl }}/manual/best-bets.html) work like ads in Google, and allow you to pin certain results to the top of your search results. Use Text Best Bets to boost individual items, and Graphics Best Bets to boost a set of related items, such as a form, its instructions page, and other related material.
-* [Routed queries]({{ site.baseurl }}/manual/routed-queries.html) allow you to bypass the results page entirely for a given query, where you know exactly the page you want a person to get to after running that query. This is helpful for always getting people to the landing page for a process, rather than their clicking to a mid-process page from a search results page.
-* [RSS]({{ site.baseurl }}/manual/rss.html) feeds can be indexed and searched either as separate tabs on the search results, or as an inline module promoting your latest content alongside your web results.
-* [YouTube]({{ site.baseurl }}/manual/youtube.html) videos can also be searched
-* [Twitter]({{ site.baseurl }}/manual/twitter.html)    
-* [Flickr]({{ site.baseurl }}/manual/flickr.html)   
-* [Jobs]({{ site.baseurl }}/manual/govbox-jobs.html) are one of the most frequently searched topics on agency websites. Use our jobs module to show your agency’s postings from USAJOBS in your own website’s search results.
-* [_Federal Register_]({{ site.baseurl }}/manual/govbox-federal-register.html) rules and notices can be added to your search results in a separate module. 
+* [Collections]({{ site.baseurl }}/admin-center/content/collections.html) allow you to set up alternative search scopes from the Domains you declare for the main search. Often Collections point at particular subfolders or subdomains of the primary domain for the site. Sometimes they point at a different domain entirely. If you are indexed by Search.gov and you want a Collection to search another domain, check with us to see if we have that content already indexed.  
+* [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) work like ads in Google, and allow you to pin certain results to the top of your search results. Use Text Best Bets to boost individual items, and Graphics Best Bets to boost a set of related items, such as a form, its instructions page, and other related material.
+* [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) allow you to bypass the results page entirely for a given query, where you know exactly the page you want a person to get to after running that query. This is helpful for always getting people to the landing page for a process, rather than their clicking to a mid-process page from a search results page.
+* [RSS]({{ site.baseurl }}/admin-center/content/rss.html) feeds can be indexed and searched either as separate tabs on the search results, or as an inline module promoting your latest content alongside your web results.
+* [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) videos can also be searched
+* [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)    
+* [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)   
+* [Jobs]({{ site.baseurl }}/display/jobs-module.html) are one of the most frequently searched topics on agency websites. Use our jobs module to show your agency’s postings from USAJOBS in your own website’s search results.
+* [_Federal Register_]({{ site.baseurl }}/display/federal-register-module.html) rules and notices can be added to your search results in a separate module. 
 
 {: #turn-features-on }
 <br />
@@ -157,7 +157,7 @@ For sites switching from Bing: When you give us the green light to switch to the
 
 **Who:** You, the agency web team
 
-**What:** In order to display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [Display Overview page]({{ site.baseurl }}/manual/display-overview.html). If you want to show Jobs or _Federal Register_ results and you don’t see those options on the Display Overview page, [let us know](mailto:search@support.digitalgov.gov) and we can connect your search site to those features.
+**What:** In order to display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [Display Overview page]({{ site.baseurl }}/admin-center/display/display-overview.html). If you want to show Jobs or _Federal Register_ results and you don’t see those options on the Display Overview page, [let us know](mailto:search@support.digitalgov.gov) and we can connect your search site to those features.
 
 {: #configure-branding }
 <br />
@@ -165,9 +165,9 @@ For sites switching from Bing: When you give us the green light to switch to the
 
 **Who:** You, the agency web team
 
-**What:** To make the results page complement your website’s look and feel, upload your logo, set the font style, and customize the page colors to ensure a more seamless experience for your searchers as they move from your site to ours, and back again. You can also add header and footer links to support navigation back to your website. [See more details here]({{ site.baseurl }}/manual/brand.html). 
+**What:** To make the results page complement your website’s look and feel, upload your logo, set the font style, and customize the page colors to ensure a more seamless experience for your searchers as they move from your site to ours, and back again. You can also add header and footer links to support navigation back to your website. [See more details here]({{ site.baseurl }}/admin-center/display/brand.html). 
 
-[Masking the domain for your results page]({{ site.baseurl }}/manual/cname.html) is another way you can provide continuity to your searchers as they move back and forth between your site and our system.
+[Masking the domain for your results page]({{ site.baseurl }}/admin-center/display/cname.html) is another way you can provide continuity to your searchers as they move back and forth between your site and our system.
 
 {: #go-live }
 <br />
@@ -175,8 +175,8 @@ For sites switching from Bing: When you give us the green light to switch to the
 
 **Who:** You, the agency web team, in collaboration with your deploy team, if different
 
-**What:** Once you’re ready to go live with your search site, take a look at the [Go-Live Checklist]({{ site.baseurl }}/manual/go-live.html) to make sure you've covered all your bases. Then you will need to modify the form code for the search box on your website. We provide simple pre-formatted code in the Admin Center, or you can include these same parameters in another style of search box. [Read more and see required parameters here]({{ site.baseurl }}/manual/code.html). 
+**What:** Once you’re ready to go live with your search site, take a look at the [Go-Live Checklist]({{ site.baseurl }}/get-started/go-live.html) to make sure you've covered all your bases. Then you will need to modify the form code for the search box on your website. We provide simple pre-formatted code in the Admin Center, or you can include these same parameters in another style of search box. [Read more and see required parameters here]({{ site.baseurl }}/admin-center/activate/code.html). 
 
-If you publish your site on Federalist, read these [alternative instructions]({{ site.baseurl }}/manual/searchgov-for-federalist.html).
+If you publish your site on Federalist, read these [alternative instructions]({{ site.baseurl }}/developer/searchgov-for-federalist.html).
 
 You’re now live with Search.gov!

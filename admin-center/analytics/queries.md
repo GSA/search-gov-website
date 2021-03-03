@@ -46,7 +46,7 @@ You can download a detailed CSV (comma separated values) file for any search ter
 * The date and time of the query
 * The query (It is embedded in the request URL. Look for the text following ‘query=’.) 
 * Where the person was when they ran the search (We use the ISO-2 alpha standard for country codes and ISO 3166-2 codes for country subdivisions.)
-* The modules loaded in response to the query (Our [Module Codes]({{ site.baseurl }}/manual/module-codes.html) page provides a key of the codes and names.)
+* The modules loaded in response to the query (Our [Module Codes]({{ site.baseurl }}/admin-center/analytics/module-codes.html) page provides a key of the codes and names.)
 * The kind of device and browser they were using
  
 ## Clicks from a Query and Queries Leading to a Click
@@ -78,4 +78,6 @@ High or low CTR's may indicate that users are not able to find relevant results.
 
 ---
 
-***Did you know?*** The [Monthly Report]({{ site.baseurl }}/manual/monthly-reports.html) section gives a bird's-eye view of the number of queries and [clicks]({{ site.baseurl }}/manual/clicks.html) on your site each month. The [Site Overview]({{ site.baseurl }}/manual/site-overview.html) provides a snapshot of what has been happening on your site in the past day or so.
+***Pro Tip*** 
+
+The [Monthly Report]({{ site.baseurl }}/admin-center/analytics/monthly-reports.html) section gives a bird's-eye view of the number of queries and [clicks]({{ site.baseurl }}/admin-center/analytics/clicks.html) on your site each month. The [Site Overview]({{ site.baseurl }}/admin-center/dashboard/site-overview.html) provides a snapshot of what has been happening on your site in the past day or so.

@@ -37,7 +37,7 @@ Sitemaps (or the [sitemap index](https://www.sitemaps.org/protocol.html#index) {
 
 List the appropriate sitemap(s) for the domain or subdomain. `www.exampleagency.gov/robots.txt` would list sitemaps for content in the `www` subdomain, while `forms.exampleagency.gov/robots.txt` would list sitemaps for the `forms` subdomain.
 
-Read more about [robots.txt files]({{ site.baseurl }}/manual/robotstxt.html), and take a look at ours: [https://search.gov/robots.txt]({{ site.baseurl }}/robots.txt)
+Read more about [robots.txt files]({{ site.baseurl }}/indexing/robotstxt.html), and take a look at ours: [https://search.gov/robots.txt]({{ site.baseurl }}/robots.txt)
 
 ## What should my XML sitemap look like?
 

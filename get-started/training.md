@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Search.gov Training
-crumbname: Training
+title: Search.gov Training Webinars
 category: admin-center
 tags: help-manual training videos
 date: June 20, 2019

@@ -11,7 +11,7 @@ redirect_from:
     - /manual/filter-tags.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/manual/domains.html) > Advanced > Filter Tags
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/admin-center/content/domains.html) > Advanced > Filter Tags
 
 **Note:** this feature is only available to sites that are enabled for [i14y]({{ site.baseurl }}/developer/i14y.html).
 

@@ -36,8 +36,8 @@ Searches that start three or more subfolders deep must use our full indexing ser
 
 Related Resources:
 
-* [Filter]({{ site.baseurl }}/manual/filter-content.html) unwanted URLs from results
-* [Add content]({{ site.baseurl }}/manual/domains-advanced.html) to supplement Bing results
+* [Filter]({{ site.baseurl }}/admin-center/content/filter-content.html) unwanted URLs from results
+* [Add content]({{ site.baseurl }}/admin-center/content/domains-advanced.html) to supplement Bing results
 
 ---
 
@@ -63,7 +63,7 @@ You can remove or filter specific URLs using any of the following options.
 
 3. Request the page's removal using the [Block URLs option in Bing Webaster Tools](https://www.bing.com/webmaster/help/block-urls-from-bing-264e560a){% external_link %} and [Remove URLs option in Google Webmaster Tools](https://support.google.com/webmasters/answer/1663419){% external_link %}.
 
-4. Use the [Filter URLs]({{ site.baseurl }}/manual/filter-content.html) option under the Advanced tab. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
+4. Use the [Filter URLs]({{ site.baseurl }}/admin-center/content/filter-content.html) option under the Advanced tab. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
 
 **Missing Content:** 
 

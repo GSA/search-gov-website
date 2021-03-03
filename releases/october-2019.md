@@ -10,12 +10,12 @@ tags: release-notes
 
 * **Login.gov:** We continued to work on our integration with Login.gov.
 * **Elasticsearch Indexing:** We upgraded the underlying Elasticsearch engine for our optional search features, which includes the following:
-  * [Best Bets]({{ site.baseurl }}/manual/best-bets.html)
-  * [Federal Register]({{ site.baseurl }}/manual/govbox-federal-register.html)
-  * [Health Topics]({{ site.baseurl }}/manual/govbox-health.html)
+  * [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html)
+  * [Federal Register]({{ site.baseurl }}/display/federal-register-module.html)
+  * [Health Topics]({{ site.baseurl }}/display/health-module.html)
   * [Related Searches]()
-  * [RSS Feeds]({{ site.baseurl }}/manual/rss.html)
-  * [Twitter]({{ site.baseurl }}/manual/twitter.html)
-  * [YouTube]({{ site.baseurl }}/manual/youtube.html)
+  * [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html)
+  * [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)
+  * [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)
 * **Rails Upgrade:** We implemented infrastructure changes for our forthcoming Rails upgrade.
 * **Improved Security:** We improved the security and stability of our system through a series of upgrades.

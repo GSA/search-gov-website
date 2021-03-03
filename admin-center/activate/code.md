@@ -31,7 +31,7 @@ Include this snippet of code where the form for your search box appears. It shou
 
 ## 2. Javascript Snippet
 
-Include this snippet of code before the closing `</body>` tag. This tag enables type-ahead search in the search box on your web pages and powers the data on trending URLs on the [Site Overview]({{ site.baseurl }}/manual/site-overview.html) page in the Admin Center. It should look something like this:
+Include this snippet of code before the closing `</body>` tag. This tag enables type-ahead search in the search box on your web pages and powers the data on trending URLs on the [Site Overview]({{ site.baseurl }}/admin-center/dashboard/site-overview.html) page in the Admin Center. It should look something like this:
 
     <script type="text/javascript">
     //<![CDATA[
@@ -52,7 +52,7 @@ You can limit results to specific folders or subdomains by creating a collection
 
 ### Option 1. Limit to Collections
 
-Create a [collection]({{ site.baseurl }}/manual/collections.html). Then update your form code to (a) change the action to `action="https://search.usa.gov/search/docs/` and (b) add an input for this collection, `<input type="hidden" name="dc" value="###">`. It should look something like this:
+Create a [collection]({{ site.baseurl }}/admin-center/content/collections.html). Then update your form code to (a) change the action to `action="https://search.usa.gov/search/docs/` and (b) add an input for this collection, `<input type="hidden" name="dc" value="###">`. It should look something like this:
     
     <form accept-charset="UTF-8" action="https://search.usa.gov/search/docs/" id="search_form" method="get">
         <div style="margin:0;padding:0;display:inline">
@@ -70,7 +70,7 @@ The value is the number for your collection ID, which is visible in the URL when
 
 ### Option 2. Limit to RSS Feeds
 
-Set up an [RSS feed]({{ site.baseurl }}/manual/rss.html). Then update your form code to (a) change the action to `action="https://search.usa.gov/search/news/` and (b) add an input for this feed, `<input type="hidden" name="channel" value="###">`.  It should look something like this:
+Set up an [RSS feed]({{ site.baseurl }}/admin-center/content/rss.html). Then update your form code to (a) change the action to `action="https://search.usa.gov/search/news/` and (b) add an input for this feed, `<input type="hidden" name="channel" value="###">`.  It should look something like this:
     
     <form accept-charset="UTF-8" action="https://search.usa.gov/search/news/" id="search_form" method="get">
         <div style="margin:0;padding:0;display:inline">
@@ -86,7 +86,7 @@ The value is the number for your RSS ID, which is visible in the URL when you ed
 
 ### Option 3. Limit to a Hidden Domain Value
 
-You can pass a hidden value for the domain in the search form code to focus results on a particular portion of your site, without using a collection. The value must be within the scope of the [Domains]({{ site.baseurl }}/manual/domains.html) list, either a subdomain or subfolder of a domain listed there.
+You can pass a hidden value for the domain in the search form code to focus results on a particular portion of your site, without using a collection. The value must be within the scope of the [Domains]({{ site.baseurl }}/admin-center/content/domains.html) list, either a subdomain or subfolder of a domain listed there.
 
 For example, on `example.gov`, the following hidden value would be added to limit results to only the `research` subdomain.
 
@@ -96,4 +96,4 @@ See it in action on NPS.gov: type a query in the search box on <a href="https://
 
 ----
 
-***Pro tip!*** You can use a [domain mask]({{ site.baseurl }}/manual/cname.html) on your results page, which allows you to show searchers your own domain (instead of search.USA.gov).
+***Pro tip!*** You can use a [domain mask]({{ site.baseurl }}/admin-center/display/cname.html) on your results page, which allows you to show searchers your own domain (instead of search.USA.gov).
