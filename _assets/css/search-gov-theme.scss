@@ -1,6 +1,11 @@
 // Fixing Width Issue on Pages
-.usa-prose {
+.usa-layout-docs__main.usa-prose {
   max-width: 68ex;
+
+  table {
+    overflow-x: scroll;
+    display: block;
+  }
 }
 
 .language-plaintext {
