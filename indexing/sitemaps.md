@@ -32,10 +32,10 @@ It's common for agencies to use more than one platform to publish their websites
 ## How do search engines find my sitemap(s)?
 
 Sitemaps (or the [sitemap index](https://www.sitemaps.org/protocol.html#index) {% external_link %}) should be listed in your site’s robots.txt file, i.e.:  
-`Sitemap: https://www.agency.gov/sitemap_1.xml`  
-`Sitemap: https://www.agency.gov/sitemap_2.xml`  
+`Sitemap: https://www.example.gov/sitemap_1.xml`  
+`Sitemap: https://www.example.gov/sitemap_2.xml`  
 
-List the appropriate sitemap(s) for the domain or subdomain. `www.exampleagency.gov/robots.txt` would list sitemaps for content in the `www` subdomain, while `forms.exampleagency.gov/robots.txt` would list sitemaps for the `forms` subdomain.
+List the appropriate sitemap(s) for the domain or subdomain. `www.example.gov/robots.txt` would list sitemaps for content in the `www` subdomain, while `forms.example.gov/robots.txt` would list sitemaps for the `forms` subdomain.
 
 Read more about [robots.txt files]({{ site.baseurl }}/indexing/robotstxt.html), and take a look at ours: [https://search.gov/robots.txt]({{ site.baseurl }}/robots.txt)
 
@@ -49,11 +49,11 @@ When publishing your sitemap, be sure it begins with an `<xml>` declaration, and
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset>
 <url>
-<loc>https://exampleagency.gov/blog/file1.html</loc>
+<loc>https://example.gov/blog/file1.html</loc>
 <lastmod>2018-03-19T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://exampleagency.gov/policy/new-policy.html</loc>
+<loc>https://example.gov/policy/new-policy.html</loc>
 <lastmod>2018-03-27T00:00:00+00:00</lastmod>
 </url>
 </urlset>
@@ -63,8 +63,8 @@ If you use multiple sitemaps, then you'll need to use a [sitemap index](https://
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex>
-<sitemap>https://exampleagency.gov/sitemap.xml?page=1</sitemap>
-<sitemap>https://exampleagency.gov/sitemap.xml?page=2</sitemap>
+<sitemap>https://example.gov/sitemap.xml?page=1</sitemap>
+<sitemap>https://example.gov/sitemap.xml?page=2</sitemap>
 </sitemapindex>
 ```
 Importantly, be sure that any [special characters in your URLs are escaped](https://www.sitemaps.org/protocol.html#escaping) {% external_link %} so the search engines will know how to read them.

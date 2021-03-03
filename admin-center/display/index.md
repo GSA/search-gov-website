@@ -13,7 +13,7 @@ last_modified_at: March 1, 2021
 * Custom [No Results]({{ site.baseurl }}/admin-center/display/no-results.html) page - add links and optional text in case a search has no results
 * Custom [Search Page Alert]({{ site.baseurl }}/admin-center/display/system-alert.html) - add text to tell searchers about something that affects their search experience
 
-If you would like to show [job openings]({{ site.baseurl }}/display/jobs-module.html), [*Federal Register*]({{ site.baseurl }}/display/federal-register-module.html)documents, or [health topics]({{ site.baseurl }}/display/health-module.html) in your results, but do not see toggles to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.
+If you would like to show [job openings]({{ site.baseurl }}/admin-center/display/jobs-module.html), [*Federal Register*]({{ site.baseurl }}/admin-center/display/federal-register-module.html)documents, or [health topics]({{ site.baseurl }}/admin-center/display/health-module.html) in your results, but do not see toggles to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.
 
 ---
 

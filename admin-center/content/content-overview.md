@@ -56,9 +56,9 @@ After you've added your content, be sure to [set the display options]({{ site.ba
 
 We also have three pre-built, government-centric content modules that you can opt to turn on, too.
 
-* **Job Openings.** Toggle on the [Jobs module]({{ site.baseurl }}/display/jobs-module.html) to show your agency's job openings from USAJobs. 
-* ***Federal Register* Documents.** Toggle on the [*Federal Register* module]({{ site.baseurl }}/display/federal-register-module.html) to show your agency's documents posted on FederalRegister.gov. 
-* **Health Topics.** Toggle on the [Health Topics module]({{ site.baseurl }}/display/health-module.html) to show authoritative health information from MedlinePlus and ClinicalTrials.gov.
+* **Job Openings.** Toggle on the [Jobs module]({{ site.baseurl }}/admin-center/display/jobs-module.html) to show your agency's job openings from USAJobs. 
+* ***Federal Register* Documents.** Toggle on the [*Federal Register* module]({{ site.baseurl }}/admin-center/display/federal-register-module.html) to show your agency's documents posted on FederalRegister.gov. 
+* **Health Topics.** Toggle on the [Health Topics module]({{ site.baseurl }}/admin-center/display/health-module.html) to show authoritative health information from MedlinePlus and ClinicalTrials.gov.
 
 ---
 

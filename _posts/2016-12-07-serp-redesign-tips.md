@@ -47,4 +47,4 @@ Align your logo so its alignment is consistent with your website.
 Use the footer to add navigation and required links.
 
 * [The Department of Justice](https://search.justice.gov/search?affiliate=justice&query=law) is using this option.
-* It's also possible to add an email address to the footer or header by using mailto:info@agency.gov within the URL as [USPTO.gov](https://search.uspto.gov/search?affiliate=web-sdmg-uspto.gov&query=patents) has done for its option to email the USPTO Webmaster.
+* It's also possible to add an email address to the footer or header by using mailto:info@example.gov within the URL as [USPTO.gov](https://search.uspto.gov/search?affiliate=web-sdmg-uspto.gov&query=patents) has done for its option to email the USPTO Webmaster.

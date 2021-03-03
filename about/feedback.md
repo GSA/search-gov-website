@@ -115,7 +115,7 @@ If you’re unable to use or view the submission form, [email us](mailto:search@
 * Change the page title for the login screen to DigitalGov Search Login
 * Discover RSS feeds from a dedicated [RSS feeds list page]({{ site.baseurl }}/admin-center/content/rss.html)
 * [Monthly Reports]({{ site.baseurl }}/admin-center/analytics/monthly-reports.html) data: list Top Queries with No Results and Top Queries with Low Click Thrus for the entire month
-* Monthly Reports download: Add # of clicks and CTR columns to the CSV files that you download from the Monthly Reports page.
+* Monthly Reports download: Add "number of clicks" and "CTR" columns to the CSV files that you download from the Monthly Reports page.
 * [Search Page Alert]({{ site.baseurl }}/admin-center/display/system-alert.html) title and color can be changed.
 * Update [help documentation]({{ site.baseurl }}/admin-center/index.html)
   * *Search team note: we are always updating our help documentation! Please send feedback at any time.*

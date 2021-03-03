@@ -35,13 +35,13 @@ Check this box if you want to enable the Javascript for our [Type-ahead API]({{ 
 
 ## Search domain
 
-We offer [domain masking]({{ site.baseurl }}/admin-center/display/cname.html), which allows you to display `search.YOURAGENCY.gov` in the URL of your search results page, instead of the default `search.usa.gov`. 
+We offer [domain masking]({{ site.baseurl }}/admin-center/display/cname.html), which allows you to display `search.example.gov` in the URL of your search results page, instead of the default `search.usa.gov`. 
 
 NOTE: Only change this setting if you have domain masking configured for your search site! If you haven’t set it up, leave the default `https://search.usa.gov` until you’ve completed the masking steps.
   
 ## Alternate indexing domain 
 
-Do you edit your site on one domain or subdomain, but publish on another? If so, use this field to set the domain you want us to present for your content on the search results page. For instance, if you enter `www.YOURAGENCY.gov` here, nodes that are stored in Drupal under `edit.YOURAGENCY.gov` would be indexed with us as `www.YOURAGENCY.gov`.
+Do you edit your site on one domain or subdomain, but publish on another? If so, use this field to set the domain you want us to present for your content on the search results page. For instance, if you enter `www.example.gov` here, nodes that are stored in Drupal under `edit.example.gov` would be indexed with us as `www.example.gov`.
 
 ## Use rules to index content
 

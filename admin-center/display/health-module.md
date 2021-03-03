@@ -7,7 +7,7 @@ date: February 27, 2017
 last_modified_at: February 27, 2017
 sidenav: admin_center
 redirect_from:
-    - /display/health-module.html
+    - /manual/govbox-health.html
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview

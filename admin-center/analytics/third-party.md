@@ -37,7 +37,7 @@ Despite these differences, our agency partners appear to have success in using G
 
 Within your Google Analytics account, select the option, *Do Track Site Search*. Set the query parameter as *query*. For more information, read Google's tip, [Set Up and Configure Site Search](https://support.google.com/analytics/answer/1012264?hl=en&ref_topic=1031951){% external_link %}.
 
-Additionally, if you've requested [domain masking](cname.html) and you want to include the analytics for your *search.agency.gov* subdomain with your main *agency.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'agency.gov']);`.
+Additionally, if you've requested [domain masking](cname.html) and you want to include the analytics for your *search.example.gov* subdomain with your main *example.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'example.gov']);`.
 
 For more information, read Google's tip, [Tracking Multiple Domains](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSite){% external_link %}.
 
@@ -60,13 +60,13 @@ Does your federal agency participate in the [Digital Analytics Program](https://
 
 Coordinate with your ForeSee representative and the Search.gov team to implement your customer satisfaction survey on your results page. The four general steps follow.
 
-1. Email us at <search@support.digitalgov.gov> to [set up a CNAME](cname.html) for `search.YOURAGENCY.gov`.
+1. Email us at <search@support.digitalgov.gov> to [set up a CNAME](cname.html) for `search.example.gov`.
 
 1. Update the files path in your Foresee code to use an absolute path instead of a relative path. 
 
     **Find =>** 'files': '/fsrscripts/',  
 
-    **and replace it with =>** 'files': 'https://www.YOURAGENCY.gov/fsrscripts/',  
+    **and replace it with =>** 'files': 'https://www.example.gov/fsrscripts/',  
 
     *(Or, find => 'files': '/foresee/', and replace it with => 'files': 'https://www.YOURAGENCY/foresee/',)*
 
@@ -78,7 +78,7 @@ Coordinate with your ForeSee representative and the Search.gov team to implement
     * foresee-qualifier.js  
     * foresee-test.js
 
-1. Submit your foresee-trigger.js via our Admin Center. It should look something like the following script. `<script type="text/javascript" src="https://www.YOURAGENCY.gov/library/foresee/foresee-trigger.js"></script>`
+1. Submit your foresee-trigger.js via our Admin Center. It should look something like the following script. `<script type="text/javascript" src="https://www.example.gov/library/foresee/foresee-trigger.js"></script>`
 
 1. We'll send you an email to confirm that we've set up both your CNAME and added the script for your foresee-trigger.js file.
 

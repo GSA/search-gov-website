@@ -23,13 +23,13 @@ The launch of a new or redesigned site is a great time to think about refreshing
 DigitalGov Search does not crawl. Crawling is hard and expensive, and others have systems in place that do this very well, so we rely on commercial search engines’ indexes of your site. Search engines create **indexes** of the websites they crawl, and search queries are run against those indexes. If a website is restructured but the search indexes are not updated, the old structure will be presented in search results.
 
 * **Robots.txt** files declare what can and cannot be indexed by crawlers. Tip: Set up a robots.txt file on your *beta* site to *disallow* indexing. When you switch your beta site to **production**, update the robots.txt to **allow** indexing. [Resources and Examples](https://www.google.com/search?q=robots.txt+example){% external_link %} 
-  * Put your file at the root of your site, `https://www.YOURAGENCY.gov/robots.txt`.
+  * Put your file at the root of your site, `https://www.example.gov/robots.txt`.
   * If you didn’t disallow indexing of your beta site and it has already been indexed, request it be removed via Google and Bing’s webmaster tools sites. A robots.txt file won’t proactively *remove* content from search engines’ indexes. 
 * **301 redirects** allow crawlers to find their way around your new structure, and expedite the reindexing process. A 404 page is a dead end, and the new location or version of that file can’t be found from there. 
   * If the volume of 301s to place is daunting, consider setting a general 301 for all the content in a location pointing to the new index page for that type of content. You can also prioritize your 301 placement based on your site usage analytics, starting with the most popular pages.
   * If you’re not sure which of your pages are throwing 404s, you can run your list of URLs through an [online http status checker](https://duckduckgo.com/?q=http+status+checker){% external_link %}, or you could install SEO auditing software on your computer, if your IT policies allow it.
 * **XML sitemaps** tell crawlers how often to reindex your site, or portions of your site. The protocol and examples are available at [Sitemaps.org(https://www.sitemaps.org/protocol.html){% external_link %}. The crucial element is to set the `<changefreq>` tag to the appropriate frequency for your content. You can set the frequency at the site, folder, or even individual item level.
-  * Put your file at the root of your site, `https://www.YOURAGENCY.gov/sitemap.xml`.
+  * Put your file at the root of your site, `https://www.example.gov/sitemap.xml`.
 * See also our [tips on preparing for a site redesign]({{ site.baseurl }}/indexing/redesign.html).
 
 <a name="direct"></a> 
@@ -74,5 +74,5 @@ At any time, you can use some of our more advanced options to get the most out o
   * Start your **search in a collection**: add `<input type="hidden" name="dc" value="INSERT_COLLECTION_ID_#" />` to your form code. The collection ID can be found in the URL of the collection’s edit screen.
   * Create an **isolated search** experience by searching a hidden collection: add `<input type="hidden" name="dc" value="INSERT_COLLECTION_ID_#" />`, as above, but make sure the collection display is set to OFF.
   * Provide **options** that allow the user to set their search scope from the get-go. For example, [Lawrence, Kansas](http://lawrenceks.org/) has developed a nice modern approach to radio buttons. 
-  * Pass a **site limit parameter** from your search box: add `<input type="hidden" name="sitelimit" id="sitelimit" value="www.agency.gov/limittothisfolder">` to your form code.
+  * Pass a **site limit parameter** from your search box: add `<input type="hidden" name="sitelimit" id="sitelimit" value="www.example.gov/limittothisfolder">` to your form code.
 * The **API key** for displaying search results on your own site is available under [Search.gov Home]({{ site.baseurl }}/) > [Admin Center](https://search.usa.gov/sites/) > `YourSite` > `Activate` > `API Access Key`. We recommend you **use the hosted results page** whenever possible, to take advantage of all of the features of our service.

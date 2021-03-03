@@ -148,8 +148,8 @@ For sites switching from Bing: When you give us the green light to switch to the
 * [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) videos can also be searched
 * [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)    
 * [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)   
-* [Jobs]({{ site.baseurl }}/display/jobs-module.html) are one of the most frequently searched topics on agency websites. Use our jobs module to show your agency’s postings from USAJOBS in your own website’s search results.
-* [_Federal Register_]({{ site.baseurl }}/display/federal-register-module.html) rules and notices can be added to your search results in a separate module. 
+* [Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html) are one of the most frequently searched topics on agency websites. Use our jobs module to show your agency’s postings from USAJOBS in your own website’s search results.
+* [_Federal Register_]({{ site.baseurl }}/admin-center/display/federal-register-module.html) rules and notices can be added to your search results in a separate module. 
 
 {: #turn-features-on }
 <br />

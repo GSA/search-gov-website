@@ -53,8 +53,8 @@ Crawl-delay: 10
 Your robots.txt file should also list one or more of your [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html). For example:
 
 ```
-Sitemap: https://www.exampleagency.gov/sitemap.xml
-Sitemap: https://www.exampleagency.gov/independent-subsection-sitemap.xml
+Sitemap: https://www.example.gov/sitemap.xml
+Sitemap: https://www.example.gov/independent-subsection-sitemap.xml
 ```
 * Only list sitemaps for the domain matching where the robots.txt file is. A different subdomain's sitemap should be listed on that subdomain's robots.txt.
 
@@ -85,7 +85,7 @@ Disallow: /archive/
 ```
 
 ## Robots.txt checklist
-<i class="icon-check" ></i> 1. A robots.txt file has been created in the site's root directory (`https://exampleagency.gov/robots.txt`)
+<i class="icon-check" ></i> 1. A robots.txt file has been created in the site's root directory (`https://example.gov/robots.txt`)
 
 <i class="icon-check"></i> 2. The robots.txt file disallows any directories and files that automated bots should not crawl
 

@@ -18,7 +18,7 @@ Would you like searchers to be able to change where they are searching, either t
 
 Enter a name for the collection (such as FAQs, Archive, or News).
 
-Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with `https://` and end it in a trailing slash to avoid unintended matches (e.g., `https://publications.agency.gov/docs/` and `https://answers.agency.gov`).
+Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with `https://` and end it in a trailing slash to avoid unintended matches (e.g., `https://publications.example.gov/docs/` and `https://answers.example.gov`).
 
 You cannot specify URLs for individual web pages. If you are including a subfolder, be sure to include the folder(s) where the files are actually stored, not the folder where the index page lives.
 
@@ -62,4 +62,4 @@ Note that the searcher sees that results are filtered to nih.gov/news in a messa
 
 Simply add the following line to your form code on your search box to use the `sitelimit` parameter.
 
-`<input type="hidden" name="sitelimit" id="sitelimit" value="www.agency.gov/limittothisfolder">` 
+`<input type="hidden" name="sitelimit" id="sitelimit" value="www.example.gov/limittothisfolder">` 

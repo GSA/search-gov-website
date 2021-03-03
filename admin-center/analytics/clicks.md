@@ -38,7 +38,7 @@ You can download the raw click logs for any URL in the list. The CSV (comma sepa
 * *Device*, *Browser*, and *OS*: The kind of device and browser they were using, and
 * *Country Code* and *Region*: Where the user was, physically. We use the ISO-2 alpha standard for country codes and ISO 3166-2 codes for country subdivisions.
  
-### # of Clicks
+### Number of Clicks
 
 <a href="https://d3qcdigd1fhos0.cloudfront.net/blog/img/ClicksQueries_800.png" target="_blank" alt="Report of Queries that people ran before clicking on a particular page"><img style="float: right;" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/ClicksQueries_175.png"></a>Select a hyperlinked number in the `# of Clicks` column to view the queries that led to the clicks for that URL (the **Queries leading to a Click** report).
 

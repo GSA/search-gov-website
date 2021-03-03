@@ -11,8 +11,8 @@ tags: release-notes
 * **Login.gov:** We continued to work on our integration with Login.gov.
 * **Elasticsearch Indexing:** We upgraded the underlying Elasticsearch engine for our optional search features, which includes the following:
   * [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html)
-  * [Federal Register]({{ site.baseurl }}/display/federal-register-module.html)
-  * [Health Topics]({{ site.baseurl }}/display/health-module.html)
+  * [Federal Register]({{ site.baseurl }}/admin-center/display/federal-register-module.html)
+  * [Health Topics]({{ site.baseurl }}/admin-center/display/health-module.html)
   * [Related Searches]()
   * [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html)
   * [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)

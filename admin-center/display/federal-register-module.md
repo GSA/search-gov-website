@@ -7,7 +7,7 @@ date: December 17, 2014
 last_modified_at: December 17, 2014
 sidenav: admin_center
 redirect_from:
-    - /display/federal-register-module.html
+    - /manual/govbox-federal-register.html
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview

@@ -31,4 +31,4 @@ We use [color coding]({{ site.baseurl }}/admin-center/color-codes.html) to indic
 
 ***Pro Tip*** 
 
-Group accounts, using emails such as webteam@agency.gov, are not allowed through our authentication provider, Login.gov. Please make sure all individuals requiring access are added separately as users.
+Group accounts, using emails such as webteam@example.gov, are not allowed through our authentication provider, Login.gov. Please make sure all individuals requiring access are added separately as users.
