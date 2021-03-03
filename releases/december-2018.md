@@ -9,7 +9,7 @@ tags: release-notes
 ## Improvements
 
 * We integrated with Bing v7 and transitioned our customers to this newer version.
-* We now will index content on a domain even if the root of that domain lists a different domain as the canonical domain. For example, `https://publications.sampleagency.gov` may list `https://www.sampleagency.gov` as the canonical domain, but still serve content from `https://publications.sampleagency.gov/reports/first_report.pdf`. We can now index https://publications.sampleagency.gov/reports/first_report.pdf`.
+* We now will index content on a domain even if the root of that domain lists a different domain as the canonical domain. For example, `https://publications.example.gov` may list `https://www.example.gov` as the canonical domain, but still serve content from `https://publications.example.gov/reports/first_report.pdf`. We can now index https://publications.example.gov/reports/first_report.pdf`.
 * We updated our job search location feature to show more job openings, and cleaned up how we send job queries to the USAJOBS api to get more results.
 * We now automatically review URLs for reindexing, checking for 404s and 301s. We're doing this every 30 days to begin with, and will adjust that timeframe as needed.
 

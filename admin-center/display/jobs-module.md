@@ -14,7 +14,7 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 
 One of the most common search tasks is to look for current job openings. We created the Jobs module to help searchers quickly find relevant jobs. 
 
-When you [turn on the Job Openings]({{ site.baseurl }}/manual/display-overview.html) module, searchers looking for jobs on your site will see up to three relevant jobs listings on your results page. You will need to [contact us](mailto:search@support.digitalgov.gov) to get the Jobs module enabled for your site.
+When you [turn on the Job Openings]({{ site.baseurl }}/admin-center/display/display-overview.html) module, searchers looking for jobs on your site will see up to three relevant jobs listings on your results page. You will need to [contact us](mailto:search@support.digitalgov.gov) to get the Jobs module enabled for your site.
 
 ## Federal Government
 

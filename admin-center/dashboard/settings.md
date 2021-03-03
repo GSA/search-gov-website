@@ -14,13 +14,13 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 
 ## Display Name
 
-Tell us the name of your website. Searchers see your site name on the results page, such as in your page title or [Best Bets]({{ site.baseurl }}/manual/best-bets.html). We recommend using the plain language name for your agency or site, such as *Social Security Administration*.
+Tell us the name of your website. Searchers see your site name on the results page, such as in your page title or [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html). We recommend using the plain language name for your agency or site, such as *Social Security Administration*.
 
 ## Homepage URL
 
 Tell us the homepage URL of your website. Enter a fully qualified URL, including https://, https://www, etc. 
 
-We use this homepage URL to (a) populate your primary [domain]({{ site.baseurl }}/manual/domains.html) and (b) link the default logo on your results page to your homepage.
+We use this homepage URL to (a) populate your primary [domain]({{ site.baseurl }}/admin-center/content/domains.html) and (b) link the default logo on your results page to your homepage.
 
 **Correct Syntax**
 
@@ -50,7 +50,7 @@ We assign a unique, system-generated numeric ID to your site. We use this ID in 
 
 ## Site Language
 
-You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/manual/supported-languages.html) when you first [added your site]({{ site.baseurl }}/manual/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
+You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html) when you first [added your site]({{ site.baseurl }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
 
 ## Delete
 
@@ -58,4 +58,6 @@ After you've set up a site, you may want to delete it. **Use caution.** This act
 
 ---
 
-***Did you know?***  Click the pushpin icon in the top navigation bar to change the default site that appears when you first log in to the [Admin Center](https://search.usa.gov/sites/). 
+***Pro Tip***  
+
+Click the pushpin icon in the top navigation bar to change the default site that appears when you first log in to the [Admin Center](https://search.usa.gov/sites/). 

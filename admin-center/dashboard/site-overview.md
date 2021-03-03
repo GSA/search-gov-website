@@ -34,7 +34,7 @@ A list of the top 10 changing URLs that were *visited by users on your website*.
 
 Use this report to identify newly popular pages on your website. Investigate why pages are trending, if the reason is not immediately apparent.
 
-You'll only see the trending URLs list if you have our [Javascript snippet]({{ site.baseurl }}/manual/code.html) on your web pages. Data are updated every few minutes, so you may see URLs come and go quickly.
+You'll only see the trending URLs list if you have our [Javascript snippet]({{ site.baseurl }}/admin-center/activate/code.html) on your web pages. Data are updated every few minutes, so you may see URLs come and go quickly.
 
 ## Trending Queries
 
@@ -46,7 +46,7 @@ Use this report to identify newly popular terms. Create new content or update ex
 
 A list of the top 10 queries that returned no results.
 
-Use this data to help searchers find your content by adding a [Best Bet]({{ site.baseurl }}/manual/best-bets.html), updating your existing web pages, or both.
+Use this data to help searchers find your content by adding a [Best Bet]({{ site.baseurl }}/admin-center/content/best-bets.html), updating your existing web pages, or both.
 
 For example, on one agency's website, a dozen searches for *frostline* returned no results. The frost line&mdash;also known as depth of frost or freezing&mdash;is the depth to which the groundwater in soil is expected to freeze. The agency's pages on the topic referred to this concept as *depth of freezing*. 
 
@@ -54,7 +54,7 @@ For example, on one agency's website, a dozen searches for *frostline* returned 
 
 A list of the top 10 searches with low click thru rates. If there are any frequently searched terms that returned results but didn't get a click at least 20% of the time, they'll appear here. 
 
-Use this alert about low click thrus to identify issues with coverage. You may opt to create a [Best Bet]({{ site.baseurl }}/manual/best-bets.html), add pages that may be missing from the results, or do both to improve recall. Or, you may opt to incorporate language from these popular search terms into your page titles and descriptions, or enter common search terms as keywords, verbatim.
+Use this alert about low click thrus to identify issues with coverage. You may opt to create a [Best Bet]({{ site.baseurl }}/admin-center/content/best-bets.html), add pages that may be missing from the results, or do both to improve recall. Or, you may opt to incorporate language from these popular search terms into your page titles and descriptions, or enter common search terms as keywords, verbatim.
 
 ## This Month's Totals to Date
 
@@ -64,6 +64,7 @@ A graph of your site's total search queries over time is also presented to provi
 
 ---
 
-***Did you know?*** The [Monthly Report]({{ site.baseurl }}/manual/monthly-reports.html) gives a bird's-eye view of the number of [queries]({{ site.baseurl }}/manual/queries.html) and [clicks]({{ site.baseurl }}/manual/clicks.html) each month.
+***Pro Tips*** 
 
-***Did you know?***  Click the pushpin icon in the top navigation bar to change the default site that appears when you first log in to the [Admin Center](https://search.usa.gov/sites/). 
+* The [Monthly Report]({{ site.baseurl }}/admin-center/analytics/monthly-reports.html) gives a bird's-eye view of the number of [queries]({{ site.baseurl }}/admin-center/analytics/queries.html) and [clicks]({{ site.baseurl }}/admin-center/analytics/clicks.html) each month.
+* Click the pushpin icon in the top navigation bar to change the default site that appears when you first log in to the [Admin Center](https://search.usa.gov/sites/). 

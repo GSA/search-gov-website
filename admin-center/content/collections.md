@@ -18,7 +18,7 @@ Would you like searchers to be able to change where they are searching, either t
 
 Enter a name for the collection (such as FAQs, Archive, or News).
 
-Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with `https://` and end it in a trailing slash to avoid unintended matches (e.g., `https://publications.agency.gov/docs/` and `https://answers.agency.gov`).
+Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with `https://` and end it in a trailing slash to avoid unintended matches (e.g., `https://publications.example.gov/docs/` and `https://answers.example.gov`).
 
 You cannot specify URLs for individual web pages. If you are including a subfolder, be sure to include the folder(s) where the files are actually stored, not the folder where the index page lives.
 
@@ -26,7 +26,7 @@ Paths that are three or more subfolders deep may not return results immediately.
 
 ## Step 2. Opt to Show as a Facet
 
-Click on the [Display Overview]({{ site.baseurl }}/manual/display-overview.html) page. Turn on your collection to allow searchers to see it as a search facet in the navigation bar above the search box on the results page (in the desktop view), or in the search menu (on smaller screens).
+Click on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. Turn on your collection to allow searchers to see it as a search facet in the navigation bar above the search box on the results page (in the desktop view), or in the search menu (on smaller screens).
 
 ## Step 3. Check Your Search Results Page
 
@@ -36,9 +36,11 @@ Searchers will see the collection name as an option that they can select in orde
 
 ---
 
-***Did you know?*** You can set up a search box on your website that limits results to your collection.
+***Pro Tip*** 
 
-1. Start with the standard form snippet on the [Code Snippets]({{ site.baseurl }}/manual/code.html) page under the Activate Search tab. 
+You can set up a search box on your website that limits results to your collection.
+
+1. Start with the standard form snippet on the [Code Snippets]({{ site.baseurl }}/admin-center/activate/code.html) page under the Activate Search tab. 
 1. Change the form action from `action="https://search.usa.gov/search/"` to `action="https://search.usa.gov/search/docs"`.
 1. Add the following line to limit the results to your collection: `<input type="hidden" name="dc" value="###">`.
 
@@ -52,10 +54,12 @@ See the sample search box below that is limited to news on [NIH.gov for a search
 
 <a name="sitelimit"></a>
 
-***Did you know?*** If you don't want to set up a Collection, you can use the `sitelimit` parameter to search a subset of your content. Compare the collection-based results above with the results for [the same search using the sitelimit parameter](https://search.usa.gov/search?affiliate=nih&query=autism&sitelimit=nih.gov/news).
+***Pro Tip*** 
+
+If you don't want to set up a Collection, you can use the `sitelimit` parameter to search a subset of your content. Compare the collection-based results above with the results for [the same search using the sitelimit parameter](https://search.usa.gov/search?affiliate=nih&query=autism&sitelimit=nih.gov/news).
 
 Note that the searcher sees that results are filtered to nih.gov/news in a message under the search box, among other differences.
 
 Simply add the following line to your form code on your search box to use the `sitelimit` parameter.
 
-`<input type="hidden" name="sitelimit" id="sitelimit" value="www.agency.gov/limittothisfolder">` 
+`<input type="hidden" name="sitelimit" id="sitelimit" value="www.example.gov/limittothisfolder">` 

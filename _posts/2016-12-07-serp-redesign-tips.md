@@ -5,7 +5,7 @@ category: blog
 tags: ux manage-display font colors header footer
 ---
 
-As you customize the [newly redesigned results page]({{ site.baseurl }}/blog/serp-redesign.html) to match your site's [brand]({{ site.baseurl }}/manual/brand.html), we thought it'd be good to highlight some of our favorite tips.
+As you customize the [newly redesigned results page]({{ site.baseurl }}/blog/serp-redesign.html) to match your site's [brand]({{ site.baseurl }}/admin-center/display/brand.html), we thought it'd be good to highlight some of our favorite tips.
 
 ## Display Overview
 
@@ -47,4 +47,4 @@ Align your logo so its alignment is consistent with your website.
 Use the footer to add navigation and required links.
 
 * [The Department of Justice](https://search.justice.gov/search?affiliate=justice&query=law) is using this option.
-* It's also possible to add an email address to the footer or header by using mailto:info@agency.gov within the URL as [USPTO.gov](https://search.uspto.gov/search?affiliate=web-sdmg-uspto.gov&query=patents) has done for its option to email the USPTO Webmaster.
+* It's also possible to add an email address to the footer or header by using mailto:info@example.gov within the URL as [USPTO.gov](https://search.uspto.gov/search?affiliate=web-sdmg-uspto.gov&query=patents) has done for its option to email the USPTO Webmaster.

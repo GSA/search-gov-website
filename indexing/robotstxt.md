@@ -50,11 +50,11 @@ Crawl-delay: 10
 ```
 
 ### XML Sitemaps
-Your robots.txt file should also list one or more of your [XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html). For example:
+Your robots.txt file should also list one or more of your [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html). For example:
 
 ```
-Sitemap: https://www.exampleagency.gov/sitemap.xml
-Sitemap: https://www.exampleagency.gov/independent-subsection-sitemap.xml
+Sitemap: https://www.example.gov/sitemap.xml
+Sitemap: https://www.example.gov/independent-subsection-sitemap.xml
 ```
 * Only list sitemaps for the domain matching where the robots.txt file is. A different subdomain's sitemap should be listed on that subdomain's robots.txt.
 
@@ -68,7 +68,7 @@ Disallow: /reports/duplicative-page.html
 ```
 
 * Note that if you disallow a directory after it's been indexed by a search engine, this may not trigger a removal of that content from the index. You'll need to go into the search engine's webmaster tools to request removal.
-* Also note that search engines may index individual pages within a disallowed folder if the search engine learns about the URL from a non-crawl method, like a link from another site or your sitemap. To ensure a given page is not searchable, set a [robots meta tag]({{ site.baseurl }}/manual/how-search-engines-index-content-better-discoverability.html#robots) on that page.
+* Also note that search engines may index individual pages within a disallowed folder if the search engine learns about the URL from a non-crawl method, like a link from another site or your sitemap. To ensure a given page is not searchable, set a [robots meta tag]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html#robots) on that page.
 
 
 ### Customize settings for different bots
@@ -85,11 +85,11 @@ Disallow: /archive/
 ```
 
 ## Robots.txt checklist
-<i class="icon-check" ></i> 1. A robots.txt file has been created in the site's root directory (`https://exampleagency.gov/robots.txt`)
+<i class="icon-check" ></i> 1. A robots.txt file has been created in the site's root directory (`https://example.gov/robots.txt`)
 
 <i class="icon-check"></i> 2. The robots.txt file disallows any directories and files that automated bots should not crawl
 
-<i class="icon-check"></i> 3. The robots.txt file lists one or more [XML sitemaps]({{ site.baseurl }}/manual/sitemaps.html)  
+<i class="icon-check"></i> 3. The robots.txt file lists one or more [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)  
 
 <i class="icon-check"></i> 4. The robots.txt file format has been [validated](https://www.websiteplanet.com/webtools/sitemap-validator/) {% external_link %}
 

@@ -26,8 +26,6 @@ On the image results page, we'll display the images from your Flickr photostream
 
 ---
 
-***Did you know?*** Do you have a multimedia gallery on your website for your agency's photos, images, videos, podcasts, or other multimedia content? Do you use a content management system, database, or media RSS (MRSS) feed to power this gallery? You can index [MRSS feeds]({{ site.baseurl }}/manual/rss.html) so that your multimedia content is automatically included in your search results.
+***Pro Tips*** 
 
-***Did you know?*** You can also tell us about your [Instagram]({{ site.baseurl }}/manual/instagram.html) account. Note that searchers see interspersed results from both Flickr and Instagram. If you have a lot of duplicate images in the two services, consider listing only one in the Admin Center.
-
-***Troubleshooting tip:*** Flickr and Instagram results appear on the [redesigned results page]({{ site.baseurl }}/blog/serp-redesign.html) only.
+* Do you have a multimedia gallery on your website for your agency's photos, images, videos, podcasts, or other multimedia content? Do you use a content management system, database, or media RSS (MRSS) feed to power this gallery? You can index [MRSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) so that your multimedia content is automatically included in your search results.

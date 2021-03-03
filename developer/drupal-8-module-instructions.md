@@ -1,17 +1,19 @@
 ---
 layout: post
 title: Step by Step Instructions for Setting Up the Drupal 8 usasearch module
-category: admin-center
+category: developer
 tags: drupal, i14y
+date: April, 12, 2018
+last_modified_at: April 12, 2018
 ---
 
 > **Important Note:** April, 2018. For new implementations, the Search.gov team recommends you index your content with us not using our Drupal module to send content to our i14y indexing API, but rather by publishing a comprehensive XML sitemap, which we can use to index your content. We recommend the [XML Sitemap module](https://www.drupal.org/project/xmlsitemap){% external_link %}. [Read more.]({{ site.baseurl }}/blog/six-months-in.html)
 
-This documentation will walk you through setting up the `usasearch` [Drupal 8 module](https://www.drupal.org/project/usasearch/releases?api_version%5B%5D=7234){% external_link %} field by field, to integrate your Drupal CMS with the Search.gov service. If you have trouble, take a look at our [troubleshooting tips]({{ site.baseurl }}/manual/drupal-module-troubleshooting.html). 
+This documentation will walk you through setting up the `usasearch` [Drupal 8 module](https://www.drupal.org/project/usasearch/releases?api_version%5B%5D=7234){% external_link %} field by field, to integrate your Drupal CMS with the Search.gov service. If you have trouble, take a look at our [troubleshooting tips]({{ site.baseurl }}/developer/drupal-module-troubleshooting.html). 
 
 These instructions follow the order of settings listed in our Drupal module at `YOUR-DRUPAL-8-SITE.gov/admin/config/search/usasearch`.
 
-Instructions for setting up the **Drupal 7** module are [here]({{ site.baseurl }}/manual/drupal-7-module-instructions.html).
+Instructions for setting up the **Drupal 7** module are [here]({{ site.baseurl }}/developer/drupal-7-module-instructions.html).
 
 ## Search Settings
 
@@ -29,7 +31,7 @@ Check this box if you want to enable the Javascript for our [Type-ahead API]({{ 
 
 ### Search domain
 
-We offer [domain masking]({{ site.baseurl }}/manual/cname.html), which allows you to display `search.YOURAGENCY.gov` in the URL of your search results page, instead of the default `search.usa.gov`. 
+We offer [domain masking]({{ site.baseurl }}/admin-center/display/cname.html), which allows you to display `search.example.gov` in the URL of your search results page, instead of the default `search.usa.gov`. 
 
 NOTE: Only change this setting if you have domain masking configured for your search site! If you haven’t set it up, leave the default `https://search.usa.gov` until you’ve completed the masking steps.
 
@@ -74,7 +76,7 @@ Check this box to log i14y API operations to the watchdog log. On `YOUR-DRUPAL-8
 
 ### Alternate indexing domain 
 
-Do you edit your site on one domain or subdomain, but publish on another? If so, use this field to set the domain you want us to present for your content on the search results page. For instance, if you enter `www.YOURAGENCY.gov` here, nodes that are stored in Drupal under `edit.YOURAGENCY.gov` would be indexed with us as `www.YOURAGENCY.gov`.
+Do you edit your site on one domain or subdomain, but publish on another? If so, use this field to set the domain you want us to present for your content on the search results page. For instance, if you enter `www.example.gov` here, nodes that are stored in Drupal under `edit.example.gov` would be indexed with us as `www.example.gov`.
 
 ## Indexing
 
@@ -92,5 +94,5 @@ After you save these settings, the module will send a command to us when you hit
 
 ## Having trouble?
 
-Take a look at our [troubleshooting tips]({{ site.baseurl }}/manual/drupal-module-troubleshooting.html), and don't hesitate to [reach out](mailto:search@support.digitalgov.gov). We're not Drupal experts ourselves, but we'll try to help.
+Take a look at our [troubleshooting tips]({{ site.baseurl }}/developer/drupal-module-troubleshooting.html), and don't hesitate to [reach out](mailto:search@support.digitalgov.gov). We're not Drupal experts ourselves, but we'll try to help.
 

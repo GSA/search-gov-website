@@ -11,7 +11,7 @@ tags: release-notes
 
 ## Chores
 * We completed our transition to Chef 12.
-* We updated our program website to be https://search.gov/. As part of that process, we changed our website favicon to our new logo, updated references to our program on individual pages, and created a new [domain mask]({{ site.baseurl }}/manual/cname.html).
+* We updated our program website to be https://search.gov/. As part of that process, we changed our website favicon to our new logo, updated references to our program on individual pages, and created a new [domain mask]({{ site.baseurl }}/admin-center/display/cname.html).
 * We updated the attribution at the bottom of search results pages that display content from our indexes. Those pages now say “Powered by Search.gov.”
 * We began transitioning our repos to use Circle CI.
 

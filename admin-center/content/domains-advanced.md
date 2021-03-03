@@ -11,13 +11,13 @@ redirect_from:
     - /manual/domains-advanced.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/manual/domains.html) > Advanced
+Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/admin-center/content/domains.html) > Advanced
 
 Is content missing from your search results? Do you want to have RSS content appear in your main page search results?
 
 We offer two ways for you to tell us about content that you want us to fetch and include in our web index: via RSS feed (Supplemental Feed) or manually (via the [Supplemental URLs](#supplemental-urls) section).
 
-**Note for customers using Collections:** We serve [Collections]({{ site.baseurl }}/manual/collections.html) results from commercial indexes; the instructions below only apply to your main search results.
+**Note for customers using Collections:** We serve [Collections]({{ site.baseurl }}/admin-center/content/collections.html) results from commercial indexes; the instructions below only apply to your main search results.
 
 **Note to our i14y customers:** Supplemental content will not appear for customers using our [i14y content indexing API]({{ site.baseurl }}/developer/i14y.html).
 
@@ -25,7 +25,7 @@ We offer two ways for you to tell us about content that you want us to fetch and
 
 You can use an RSS feed to add URLs. The feed is useful if you'd like to automate the process, add multiple URLs, or both.
 
-Enter the URL of your RSS feed. Click `Submit`. We'll fetch each URL in your feed and index the title, description (optional), and the full text of the document/webpage for the items you provide. Please be sure to follow our [schema]({{ site.baseurl }}/manual/rss.html), and note that we will only index the items that are listed in the feed. 
+Enter the URL of your RSS feed. Click `Submit`. We'll fetch each URL in your feed and index the title, description (optional), and the full text of the document/webpage for the items you provide. Please be sure to follow our [schema]({{ site.baseurl }}/admin-center/content/rss.html), and note that we will only index the items that are listed in the feed. 
 
 You can see the list of URLs we have indexed from your feed by viewing the Supplemental URLs section.
 
@@ -70,7 +70,7 @@ If there are no commercial results for a query but there are supplemental conten
 
 If you would like your supplemental content to always appear first in search results, please [contact our team](mailto:search@suppot.digitalgov.gov). Searchers will first be served any supplemental content results, and are then offered the chance to “search again,” which will lead them to commercial index results. 
 
-Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/manual/rss.html) set up in your search site, this regular RSS content will also appear first with the supplemental content, prior to commercial results. If content is present in both types of feed, duplicates will appear in your results.
+Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) set up in your search site, this regular RSS content will also appear first with the supplemental content, prior to commercial results. If content is present in both types of feed, duplicates will appear in your results.
 
 In the example below, a Supplemental URL appears first, and clicking “Try your search again” will lead to a page of Bing results. 
 
@@ -80,7 +80,7 @@ In the example below, a Supplemental URL appears first, and clicking “Try your
 
 If you would like your supplemental content to be the only results served from your site, please [contact our team](mailto:search@suppot.digitalgov.gov). Searchers will not be offered the chance to “search again” on a commercial index after they exhaust your supplemental content results (see above example). 
 
-Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/manual/rss.html) set up in your search site, this regular RSS content will also appear with the supplemental content. If content is present in both types of feed, duplicates will appear in your results.
+Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) set up in your search site, this regular RSS content will also appear with the supplemental content. If content is present in both types of feed, duplicates will appear in your results.
 
 ---
 
@@ -97,7 +97,9 @@ Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/manual/rss.h
 
 ***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report that says your page is taking too long to load? Use [Google's PageSpeed Tools](https://developers.google.com/speed){% external_link %} to test the load time of your page, analyze it, and find the bottlenecks.
 
-***Did you know?*** To help the public find your web pages when they search on Bing.com, we notify Bing about any URLs you add. While this helps with search engine optimization (SEO), it is not a cure-all. You should also register for and use commercial search engines' webmaster tools.
+***Pro Tip*** 
 
+To help the public find your web pages when they search on Bing.com, we notify Bing about any URLs you add. While this helps with search engine optimization (SEO), it is not a cure-all. You should also register for and use commercial search engines' webmaster tools.
+
+* [Google Search Console](https://search.google.com/search-console){% external_link %}
 * [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster){% external_link %}
-* [Google Webmaster Central](https://www.google.com/webmasters/tools/home?hl=en){% external_link %}

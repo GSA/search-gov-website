@@ -37,7 +37,7 @@ Despite these differences, our agency partners appear to have success in using G
 
 Within your Google Analytics account, select the option, *Do Track Site Search*. Set the query parameter as *query*. For more information, read Google's tip, [Set Up and Configure Site Search](https://support.google.com/analytics/answer/1012264?hl=en&ref_topic=1031951){% external_link %}.
 
-Additionally, if you've requested [domain masking](cname.html) and you want to include the analytics for your *search.agency.gov* subdomain with your main *agency.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'agency.gov']);`.
+Additionally, if you've requested [domain masking](cname.html) and you want to include the analytics for your *search.example.gov* subdomain with your main *example.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'example.gov']);`.
 
 For more information, read Google's tip, [Tracking Multiple Domains](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSite){% external_link %}.
 
@@ -52,7 +52,7 @@ The code you submit should look something like this:
      
 ## Digital Analytics Program
 
-Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP. If you use the `search.usa.gov` domain on your results page, your data will be located within the GSA Agency Profile in DAP. To bring your Search.gov DAP data into your own agency's DAP profile, you must set up a [domain mask]({{ site.baseurl }}/manual/cname.html).
+Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP. If you use the `search.usa.gov` domain on your results page, your data will be located within the GSA Agency Profile in DAP. To bring your Search.gov DAP data into your own agency's DAP profile, you must set up a [domain mask]({{ site.baseurl }}/admin-center/display/cname.html).
 
 *Note:* You do not need to submit the DAP script to us.
 
@@ -60,13 +60,13 @@ Does your federal agency participate in the [Digital Analytics Program](https://
 
 Coordinate with your ForeSee representative and the Search.gov team to implement your customer satisfaction survey on your results page. The four general steps follow.
 
-1. Email us at <search@support.digitalgov.gov> to [set up a CNAME](cname.html) for `search.YOURAGENCY.gov`.
+1. Email us at <search@support.digitalgov.gov> to [set up a CNAME](cname.html) for `search.example.gov`.
 
 1. Update the files path in your Foresee code to use an absolute path instead of a relative path. 
 
     **Find =>** 'files': '/fsrscripts/',  
 
-    **and replace it with =>** 'files': 'https://www.YOURAGENCY.gov/fsrscripts/',  
+    **and replace it with =>** 'files': 'https://www.example.gov/fsrscripts/',  
 
     *(Or, find => 'files': '/foresee/', and replace it with => 'files': 'https://www.YOURAGENCY/foresee/',)*
 
@@ -78,10 +78,12 @@ Coordinate with your ForeSee representative and the Search.gov team to implement
     * foresee-qualifier.js  
     * foresee-test.js
 
-1. Submit your foresee-trigger.js via our Admin Center. It should look something like the following script. `<script type="text/javascript" src="https://www.YOURAGENCY.gov/library/foresee/foresee-trigger.js"></script>`
+1. Submit your foresee-trigger.js via our Admin Center. It should look something like the following script. `<script type="text/javascript" src="https://www.example.gov/library/foresee/foresee-trigger.js"></script>`
 
 1. We'll send you an email to confirm that we've set up both your CNAME and added the script for your foresee-trigger.js file.
 
 ---
 
-***Did you know?*** We use Google Analytics Web analytics software &mdash; our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag &mdash; by default. Email us at <search@support.digitalgov.gov> if you'd like to opt out. Learn more in our [terms of service]({{ site.baseurl }}/tos.html).
+***Pro Tip*** 
+
+We use Google Analytics Web analytics software &mdash; our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag &mdash; by default. Learn more in our [terms of service]({{ site.baseurl }}/tos.html).
