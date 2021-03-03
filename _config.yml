@@ -285,7 +285,7 @@ collections:
     output: true
     permalink: /:path/
 
-permalink: /:categories/:title.html
+permalink: /:categories/:title:output_ext
 
 markdown: kramdown
 plugins:
