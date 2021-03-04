@@ -224,7 +224,6 @@ indexing:
     url: "/indexing/indexing-with-searchgov.html"
     children:
       - name: How does indexing work?
-        url: 
         children:
           - name: How search engines index your website
             url: "/get-started/training.html#how-engines-index"
@@ -237,14 +236,12 @@ indexing:
           - name: A step-by-step indexing workflow
             url: "/get-started/site-launch-guide.html#select-index"
       - name: Domain Level SEO Supports
-        url: 
         children:
           - name: All about XML sitemaps
             url: "/indexing/sitemaps.html"
           - name: Robots.txt files
             url: "/indexing/robotstxt.html"
       - name: Page Level SEO Supports
-        url: 
         children:
           - name: Metadata and tags you should include in your website
             url: "/indexing/metadata.html"

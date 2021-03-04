@@ -14,6 +14,13 @@
   }
 }
 
+//Styling for link-less sidenav labels
+.usa-sidenav-label {
+  color: #565c65;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
 
 @media (min-width: 78rem) {
   .usa-header--extended .usa-navbar,
