@@ -18,11 +18,11 @@ _layouts/page.html layout template, or you can add a "sidenav" property in the f
         <li class="usa-sidenav__item">
           {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
           {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
-          {% if subnav_item.url %}
+          {% if nav_item.url %}
           <a href="{{ nav_item.url | prepend: site.env.BASEURL || site.baseurl}}">
           {% endif %}
           <span class="{% if subnav_item.url == null %}usa-sidenav-label{% endif %}">{{ nav_item.name | escape }}</span>
-          {% if subnav_item.url %}
+          {% if nav_item.url %}
           </a>
           {% endif %}
           <ul class="usa-sidenav__sublist">
