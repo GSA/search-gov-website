@@ -12,7 +12,11 @@ redirect_from:
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview
 
+Related resource: [Comparison of our hosted search results page and our results API]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html)
+
 ## Facets
+
+> These features are only available on the hosted search results page.
 
 **Label.** By default, we use the label 'Search' for your facets. Enter a label in the label field if you'd like something other than this default. Keep your label consistent with the options you're listing and under 15 characters.
 
@@ -26,6 +30,8 @@ Type over the text in the Name field to edit a facet's display name. Keep each n
 
 
 ## Modules
+
+> These options control what types of search results are returned, and apply to both the hosted search results page and the search results API.
 
 **On/off options for modules.** Turn on a module to allow searchers to see inline, contextually relevant results for selected content sources based on keyword matches with relevant queries. There are eight types of modules.
 
@@ -45,7 +51,10 @@ Type over the text in the Name field to edit a facet's display name. Keep each n
 
 1. **Type-ahead search.** Help searchers refine their query by displaying type-ahead search suggestions as a list in the search box. The list forms as a searcher begins to type in the search box. Suggestions are listed in order of most popular (that is, most searched). They're updated every few seconds. See, for example, the suggestions as you type di... on [SocialSecurity.gov's search results page](https://search.ssa.gov/search?affiliate=ssa). ***Note:*** this will enable type-ahead on your search results page that is hosted by our service. If you wish to display type-ahead suggestions on your agency’s website, please review instructions for our [JavaScript snippet and API]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). 
 
+
 ## Related Sites
+
+> This feature is only available on the hosted search results page.
 
 Help visitors find content relevant to their search query that resides on other websites, such as the site for your parent organization or your Spanish-language site. When searchers click on the link to the related site, they see search results for their query on the related site.
 
@@ -61,7 +70,7 @@ Email us at <search@support.digitalgov.gov> if you'd like to use a custom label 
 
 **Pro Tip**  
 
-*Refining RSS search results*
+*Refining RSS search results* (Hosted search results page only)
 
 Searchers may narrow results by time period for any [RSS]({{ site.baseurl }}/admin-center/content/rss.html) feeds. See, for example, results for a [search on *space* narrowed to press releases in the last week on NASA.gov](https://nasasearch.nasa.gov/search/news?affiliate=nasa&channel=1618&query=space&sort_by=date&tbs=w).
 

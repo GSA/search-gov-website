@@ -17,4 +17,7 @@ If you would like to show [job openings]({{ site.baseurl }}/admin-center/display
 
 ---
 
-For information on our Search Results API, see our documentation on [Open GSA](https://open.gsa.gov/api/searchgov-results/).
+We also offer a Search Results API that will allow you to display results within your own website's framework. 
+
+* See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) of our hosted results page vs. our Results API.
+* For detailed information on the Results API, see our documentation on [Open GSA](https://open.gsa.gov/api/searchgov-results/).

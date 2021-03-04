@@ -59,4 +59,4 @@ Use the list icon (with three horizontal lines) on the left to change the order.
 
 * As you change each font and color option, the mini search results page in the upper right-hand corner will update to reflect your changes. Once you click save, the changes will appear on your live site.
 * Our search results page uses a responsive design to ensure it is optimized for searchers anywhere, anytime, and on any device. 
-* We offer results through our Search Results API, if you'd like to create mash-ups or have complete control of the look and feel of your search results pages. You can access our Search Results API Instructions by clicking on the Activate Search option in the left-hand menu in the [Admin Center](https://search.usa.gov/sites/).
+* We offer results through our Search Results API, if you'd like to create mash-ups or have complete control of the look and feel of your search results pages. See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) of our hosted results page vs. our Results API. For detailed information on the Results API, see our documentation on [Open GSA](https://open.gsa.gov/api/searchgov-results/).

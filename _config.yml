@@ -76,6 +76,10 @@ dap:
 primary_navigation:
   - name: Get Started
     children:
+      - name: Why Choose Search.gov?
+        url: "/about/why-choose-searchgov.html"
+      - name: Get Started with Search.gov
+        url: "/get-started/"
       - name: Sign Up/Create an Account
         url: "/get-started/account.html"
       - name: Site Launch Guide
@@ -144,7 +148,10 @@ primary_navigation:
 
 get_started:
   - name: Get Started with Search.gov
+    url: "/get-started/"
     children:
+      - name: Why Choose Search.gov?
+        url: "/about/why-choose-searchgov.html"
       - name: Sign Up/Create an Account
         url: "/get-started/account.html"
       - name: Site Launch Guide
@@ -171,7 +178,7 @@ get_started:
 
 admin_center:
   - name: Manage Your Search Configuration
-    url: /admin-center/
+    url: "/admin-center/"
     children: 
       - name: Dashboard
         url: "/admin-center/dashboard/"
@@ -190,6 +197,8 @@ about_us:
   - name: About Us
     url: /about/
     children: 
+      - name: Why Choose Search.gov?
+        url: "/about/why-choose-searchgov.html"
       - name: Customers
         url: "/about/customers.html"
       - name: Search.gov in Policy
