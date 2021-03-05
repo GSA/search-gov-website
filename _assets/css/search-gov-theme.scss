@@ -22,6 +22,14 @@
   text-decoration: none;
 }
 
+//Archive Banner Styling
+.archived-content {
+  background-color: #FACE02;
+  width: 100%;
+  padding: .5rem 1rem;
+  display: block;
+}
+
 @media (min-width: 78rem) {
   .usa-header--extended .usa-navbar,
   .usa-header--extended .usa-nav__inner,

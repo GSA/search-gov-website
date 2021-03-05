@@ -4,6 +4,9 @@ title: Adopting Apache Hadoop in the Federal Government
 category: blog
 tags: analytics about-us
 ---
+
+{% include archive.html %}
+
 ## Background
 
 The United States federal government's DigitalGov Search program provides hosted search services for government affiliate organizations, shares APIs and web services, and operates the government's official search engine on [USA.gov](https://www.usa.gov). DigitalGov Search offers free search services to any federal, state, local, tribal, or territorial government agency. Several hundred websites make use of this service, ranging from the smallest municipality to larger federal sites like <https://www.weather.gov> and <https://www.usa.gov>. DigitalGov Search leverages the Bing API as the basis for its web results and then augments the user search experience by providing a variety of government-centric information such as related search topics and highlighted editorial content. The entire system is comprised of a suite of open-source tools and resources, including Apache Solr/Lucene, OpenCalais, and Apache Hadoop. Of these, our usage of Hadoop is the most recent. We began using [Cloudera's Distribution including Apache Hadoop](https://www.cloudera.com/hadoop/){% external_link %} (CDH3) for the first time in the Fall, and since then we've seen our usage grow every month&mdash;not just in scale, but in scope as well. But before highlighting everything DigitalGov Search is doing with Hadoop today, I should explain why we began using it in the first place.
