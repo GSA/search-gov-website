@@ -14,6 +14,21 @@
   }
 }
 
+//Styling for link-less sidenav labels
+.usa-sidenav-label {
+  color: #565c65;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+//Archive Banner Styling
+.archived-content {
+  background-color: #FACE02;
+  width: 100%;
+  padding: .5rem 1rem;
+  display: flex;
+}
 
 @media (min-width: 78rem) {
   .usa-header--extended .usa-navbar,
