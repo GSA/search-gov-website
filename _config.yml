@@ -131,7 +131,7 @@ primary_navigation:
       - name: Our Product Roadmap
         url: "/about/updates/roadmap/"
       - name: Release Notes
-        url: "/tagged/release-notes/"
+        url: "/about/updates/releases/"
       - name: For Developers
         url: "/developer/"
       - name: Security and Compliance
@@ -208,7 +208,7 @@ about_us:
       - name: Our Product Roadmap
         url: "/about/updates/roadmap/"
       - name: Release Notes
-        url: "/tagged/release-notes/"
+        url: "/about/updates/releases/"
       - name: For Developers
         url: "/developer/"
       - name: Security and Compliance
@@ -295,6 +295,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  releases:
+    output: true
+    permalink: /about/updates/releases/:title:output_ext
+
 
 permalink: /:categories/:title:output_ext
 
