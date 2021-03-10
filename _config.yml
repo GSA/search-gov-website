@@ -74,6 +74,24 @@ dap:
 
 # Site Navigation
 primary_navigation:
+  - name: About Us
+    children:
+      - name: About Us
+        url: "/about/"
+      - name: Customers
+        url: "/about/customers.html"
+      - name: Search.gov in Policy
+        url: "/about/policy/"
+      - name: Share Your Feedback
+        url: "/about/feedback.html"
+      - name: Our Product Roadmap
+        url: "/about/updates/roadmap/"
+      - name: Release Notes
+        url: "/about/updates/releases/"
+      - name: For Developers
+        url: "/developer/"
+      - name: Security and Compliance
+        url: "/about/security.html"
   - name: Get Started
     children:
       - name: Why Choose Search.gov?
@@ -118,34 +136,8 @@ primary_navigation:
         url: "/indexing/metadata.html"
       - name: Update your search after a redesign, CMS migration or both
         url: "/indexing/redesign.html"
-  - name: About Us
-    children:
-      - name: About Us
-        url: "/about/"
-      - name: Customers
-        url: "/about/customers.html"
-      - name: Search.gov in Policy
-        url: "/about/policy/"
-      - name: Share Your Feedback
-        url: "/about/feedback.html"
-      - name: Our Product Roadmap
-        url: "/about/updates/roadmap/"
-      - name: Release Notes
-        url: "/about/updates/releases/"
-      - name: For Developers
-        url: "/developer/"
-      - name: Security and Compliance
-        url: "/about/security.html"
   - name: Support
-    children:
-      - name: About Us
-        url: "/about/"
-      - name: Customers
-        url: "/about/customers.html"
-      - name: Search.gov in Policy
-        url: "/about/policy/"
-      - name: Share Your Feedback
-        url: "/about/feedback.html"
+    url: "/support.html"
 # Sidebar configuration
 #
 # A sidebar of up to 3 levels can be configured here
@@ -263,22 +255,22 @@ highlights:
     copy: Adopting a new tool or service is often difficult for federal agencies, but getting started with Search.gov is friction free. Our service is ready to use, and does not require interagency agreements, payments, or other common procedural challenges.
 
 tasks:
-  - heading: Sign up/create my search.gov account
-    copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id sagittis massa. Aenean sit amet facilisis enim. 
-    url: /get-started/account.html
-    cta: Get Started
-  - heading: Check system status
-    copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id sagittis massa. Aenean sit amet facilisis enim. 
-    url: /status.html
-    cta: View Status
-  - heading: Request to pause or a re-indexing 
-    copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id sagittis massa. Aenean sit amet facilisis enim.  
-    url: mailto:search@support.digitalgov.gov
-    cta: Email Us
   - heading: Get help to log in
-    copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id sagittis massa. Aenean sit amet facilisis enim. 
+    copy: If you’re unable to log in to your account, email us for help.
     url: mailto:search@support.digitalgov.gov
     cta: Email Us
+  - heading: Re-index your site or submit sitemap 
+    copy: Let us know if your search results are outdated, or if you have a new sitemap.
+    url: mailto:search@support.digitalgov.gov
+    cta: Email Us
+  - heading: Learn about Results API features
+    copy: We offer a robust API for pulling search results, but its feature set is different from our hosted results page.
+    url: /admin-center/display/hosted-vs-api-results.html
+    cta: Compare Features
+  - heading: Add or remove users
+    copy: You can manage who has access to your search site in the Admin Center.
+    url: /admin-center/dashboard/users.html
+    cta: Manage Users
 
 
 # Search.gov configuration

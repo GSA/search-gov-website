@@ -1,12 +1,14 @@
 <section class="grid-container usa-section usa-prose top-tasks">
     <div>
-        <h2 class="font-heading-xl margin-top-0">How do I?</strong></h2>
+        <h2 class="font-heading-xl margin-top-0">How do I...</strong></h2>
         <div class="usa-graphic-list__row grid-row grid-gap-lg">
             {% for task in include.tasks %}
             <div class="usa-media-block tablet:grid-col">
               <div class="usa-media-block__body">
-                <h3 class="usa-graphic-list__heading">{{ task.heading }}</h3>
-                <p>{{ task.copy }}</p>
+                <div> 
+                  <h3 class="usa-graphic-list__heading">{{ task.heading }}</h3>
+                  <p>{{ task.copy }}</p>
+                </div>
                 <a class="usa-button usa-button--outline" href="{{ task.url }}">{{ task.cta }}</a>
               </div>
             </div>

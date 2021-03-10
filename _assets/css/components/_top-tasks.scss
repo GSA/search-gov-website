@@ -1,19 +1,17 @@
 .top-tasks {
     .usa-media-block {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .usa-media-block__body {
         height: 100%;
-
-        p {
-            margin-bottom: 5rem;
-        }
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .usa-button {
-        position: absolute;
-        bottom: 0;
-        margin: 0 auto;
+        max-width: 12rem;
     }
+
 }
