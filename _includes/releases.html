@@ -1,0 +1,14 @@
+<div class="releases">
+{% assign releases = site.releases | sort: 'date' | reverse %}
+{% for release in releases %}
+  {% assign currentdate = release.release-year %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h1 id="y{{release.date | date: "%Y"}}">{{ currentdate }}</h1>
+    <ul>
+    {% assign date = currentdate %}
+  {% endif %}
+    <li><a href="{{ site.baseurl }}{{ release.url }}">{{ release.title }}</a></li>
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+</div>

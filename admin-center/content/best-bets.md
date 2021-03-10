@@ -22,9 +22,9 @@ Best Bets appear at the top of the results page when a searcher's query matches 
 
 Text best bets have the same look as standard web results. They're listed under the heading, Recommended by YourSite.
 
-See the sample results page below that shows a text best bet displayed on TSA.gov for a search on *[razors](https://search.usa.gov/search?query=razors&affiliate=tsa.gov)*.
+See the sample results page below that shows a text best bet displayed on TSA.gov for a search on *[taxes](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=usagov&query=taxes)*.
 
-![Text best bets for 'razors' on TSA.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/best-bets-text.png)
+![Text best bets for 'taxes' on USA.gov]({{ site.baseurl }}/assets/img/site/best-bets-text.png)
 
 
 ### Add an Individual Text Best Bet
@@ -64,9 +64,10 @@ Bulk upload updates existing Best Bets (matching on the URL field) and adds new 
 
 Recommended items are displayed in two columns, and you have the option of including an image. We show the most relevant Graphics Best Bet for the query, with the heading, Recommended by YourSite.
 
-See the sample results page below that shows a graphics best bet displayed on [USGS.gov for a search on tsunamis](https://search.usa.gov/search?affiliate=usgs&query=tsunamis).
+See the sample results page below that shows a graphics best bet displayed on [USA.gov for a search on housing assistance](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=usagov&query=Housing+Assistance).
 
-[![Graphics best bet highlighting tsunami links on USGS.gov](https://d3qcdigd1fhos0.cloudfront.net/blog/img/best-bets-graphics.png "Graphics best bet highlighting tsunami links on USGS.gov")](https://search.usa.gov/search?affiliate=usgs&query=tsunamis)
+[![Graphics best bet highlighting housing assistance links on USA.gov]({{ site.baseurl }}/assets/img/site/best-bets-graphics.png "Graphics best bet highlighting housing assistance links on USA.gov")](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=usagov&query=Housing+Assistance)
+
 
 More configuration options
 

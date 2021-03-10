@@ -74,6 +74,24 @@ dap:
 
 # Site Navigation
 primary_navigation:
+  - name: About Us
+    children:
+      - name: About Us
+        url: "/about/"
+      - name: Customers
+        url: "/about/customers.html"
+      - name: Search.gov in Policy
+        url: "/about/policy/"
+      - name: Share Your Feedback
+        url: "/about/feedback.html"
+      - name: Our Product Roadmap
+        url: "/about/updates/roadmap/"
+      - name: Release Notes
+        url: "/about/updates/releases/"
+      - name: For Developers
+        url: "/developer/"
+      - name: Security and Compliance
+        url: "/about/security.html"
   - name: Get Started
     children:
       - name: Why Choose Search.gov?
@@ -118,24 +136,8 @@ primary_navigation:
         url: "/indexing/metadata.html"
       - name: Update your search after a redesign, CMS migration or both
         url: "/indexing/redesign.html"
-  - name: About Us
-    children:
-      - name: About Us
-        url: "/about/"
-      - name: Customers
-        url: "/about/customers.html"
-      - name: Search.gov in Policy
-        url: "/about/policy/"
-      - name: Submit Feature Requests
-        url: "/about/feedback.html"
-      - name: Our Product Roadmap
-        url: "/about/updates/roadmap/"
-      - name: Release Notes
-        url: "/tagged/release-notes/"
-      - name: For Developers
-        url: "/developer/"
-      - name: Security and Compliance
-        url: "/about/security.html"
+  - name: Support
+    url: "/support.html"
 # Sidebar configuration
 #
 # A sidebar of up to 3 levels can be configured here
@@ -156,21 +158,6 @@ get_started:
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"
-        children:
-            - name: 1. Add a Site
-              url: "/get-started/site-launch-guide.html#add-site"
-            - name: 2. Add Domains
-              url: "/get-started/site-launch-guide.html#add-domains"
-            - name: 3. Web Index Selection
-              url: "/get-started/site-launch-guide.html#select-index"
-            - name: 4. Add Search Features
-              url: "/get-started/site-launch-guide.html#add-features"
-            - name: 5. Toggle Search Features On
-              url: "/get-started/site-launch-guide.html#turn-features-on"
-            - name: 6. Configure Branding
-              url: "/get-started/site-launch-guide.html#configure-branding"
-            - name: 7. Connect Your Search Box
-              url: "/get-started/site-launch-guide.html#go-live"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
       - name: Available Search Features
@@ -203,12 +190,12 @@ about_us:
         url: "/about/customers.html"
       - name: Search.gov in Policy
         url: "/about/policy/"
-      - name: Submit Feature Requests
-        url: "/about/feedback"
+      - name: Share Your Feedback
+        url: "/about/feedback.html"
       - name: Our Product Roadmap
         url: "/about/updates/roadmap/"
       - name: Release Notes
-        url: "/tagged/release-notes/"
+        url: "/about/updates/releases/"
       - name: For Developers
         url: "/developer/"
       - name: Security and Compliance
@@ -267,6 +254,25 @@ highlights:
   - heading: No barriers to entry
     copy: Adopting a new tool or service is often difficult for federal agencies, but getting started with Search.gov is friction free. Our service is ready to use, and does not require interagency agreements, payments, or other common procedural challenges.
 
+tasks:
+  - heading: Get help to log in
+    copy: If you’re unable to log in to your account, email us for help.
+    url: mailto:search@support.digitalgov.gov
+    cta: Email Us
+  - heading: Re-index your site or submit sitemap 
+    copy: Let us know if your search results are outdated, or if you have a new sitemap.
+    url: mailto:search@support.digitalgov.gov
+    cta: Email Us
+  - heading: Learn about Results API features
+    copy: We offer a robust API for pulling search results, but its feature set is different from our hosted results page.
+    url: /admin-center/display/hosted-vs-api-results.html"
+    cta: Compare Features
+  - heading: Add or remove users
+    copy: You can manage who has access to your search site in the Admin Center.
+    url: /admin-center/dashboard/users.html"
+    cta: Manage Users
+
+
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
@@ -295,6 +301,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  releases:
+    output: true
+    permalink: /about/updates/releases/:title:output_ext
+
 
 permalink: /:categories/:title:output_ext
 
