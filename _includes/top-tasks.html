@@ -9,7 +9,11 @@
                   <h3 class="usa-graphic-list__heading">{{ task.heading }}</h3>
                   <p>{{ task.copy }}</p>
                 </div>
-                <a class="usa-button usa-button--outline" href="{{ task.url }}">{{ task.cta }}</a>
+                {% if task.url contains "mailto:" or task.url contains "tel:" or task.url contains "://" %}
+                  <a class="usa-button usa-button--outline" href="{{  task.url }}">{{ task.cta }}</a>
+                {% else %}
+                  <a class="usa-button usa-button--outline" href="{{  task.url | prepend: site.env.BASEURL || site.baseurl}}">{{ task.cta }}</a>
+                {% endif %}
               </div>
             </div>
             {% endfor %}
