@@ -39,7 +39,7 @@ We use this homepage URL to:
 
 ## Display Name
 
-<a href="https://d3qcdigd1fhos0.cloudfront.net/blog/img/DisplayName_SiteHandle_800.png"><img style="float: right;" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/DisplayName_SiteHandle_175.png" alt="Display Name and Site Handle on NIH.gov's search results page"></a>Tell us the name of your website. Searchers see your display name on the results page, such as in your page title or best bets. We recommend using the plain language name for your agency or site, such as National Institutes of Health. 
+<a href="{{ site.url }}/assets/img/site/DisplayName_SiteHandle_800.png"><img style="float: right;" src="{{ site.url }}/assets/img/site/DisplayName_SiteHandle_800.png" alt="Display Name and Site Handle on NIH.gov's search results page"></a>Tell us the name of your website. Searchers see your display name on the results page, such as in your page title or best bets. We recommend using the plain language name for your agency or site, such as National Institutes of Health. 
 
 ## Site Handle
 

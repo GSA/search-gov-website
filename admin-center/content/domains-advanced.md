@@ -52,19 +52,6 @@ We display descriptions as follows:
 * If a searcher’s term matches terms in the description you provided: We'll display the description exactly as you provided it.
 * If a searcher’s term only matches terms in the full text of the document: We’ll display snippets taken from the full text.
 
-By default, supplemental content will appear after all Bing commercial search results have been shown. For example, a search on DigitalGov.gov for “serverless architecture” displays results from Bing’s index on page 1.
-
-After hitting ‘next’ to view page 2, supplemental content is served.
-
-### Page 1:
-
-![Commercial Results are Displayed on Page One of the DigitalGov.gov Search Results Page]({{ site.baseurl }}/assets/img/site/Commercial-Results-First-Page-1.png){:height="95%" width="95%"}
-
-### Page 2: 
-
-![Supplemental Feed Results are Displayed on Page Two of the DigitalGov.gov Search Results Page]({{ site.baseurl }}/assets/img/site/Commercial-Results-First-Page-2.png){:height="95%" width="95%"}
-
-If there are no commercial results for a query but there are supplemental content results, we will display the supplemental content on page one.
 
 ## Getting Supplemental Content To Always Appear First
 

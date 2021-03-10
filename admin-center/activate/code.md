@@ -66,7 +66,7 @@ Create a [collection]({{ site.baseurl }}/admin-center/content/collections.html).
 
 The value is the number for your collection ID, which is visible in the URL when you edit your collection in the Admin Center as shown in the sample below.
 
-![Value for the collection ID](https://d3qcdigd1fhos0.cloudfront.net/blog/img/get-code-collection.png)
+[![Value for the collection ID]({{ site.baseurl}}/assets/img/site/get-code-collection.png)]({{ site.baseurl}}/assets/img/site/get-code-collection.png)
 
 ### Option 2. Limit to RSS Feeds
 

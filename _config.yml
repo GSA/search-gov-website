@@ -126,7 +126,7 @@ primary_navigation:
         url: "/about/customers.html"
       - name: Search.gov in Policy
         url: "/about/policy/"
-      - name: Submit Feature Requests
+      - name: Share Your Feedback
         url: "/about/feedback.html"
       - name: Our Product Roadmap
         url: "/about/updates/roadmap/"
@@ -136,6 +136,16 @@ primary_navigation:
         url: "/developer/"
       - name: Security and Compliance
         url: "/about/security.html"
+  - name: Support
+    children:
+      - name: About Us
+        url: "/about/"
+      - name: Customers
+        url: "/about/customers.html"
+      - name: Search.gov in Policy
+        url: "/about/policy/"
+      - name: Share Your Feedback
+        url: "/about/feedback.html"
 # Sidebar configuration
 #
 # A sidebar of up to 3 levels can be configured here
@@ -156,21 +166,6 @@ get_started:
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"
-        children:
-            - name: 1. Add a Site
-              url: "/get-started/site-launch-guide.html#add-site"
-            - name: 2. Add Domains
-              url: "/get-started/site-launch-guide.html#add-domains"
-            - name: 3. Web Index Selection
-              url: "/get-started/site-launch-guide.html#select-index"
-            - name: 4. Add Search Features
-              url: "/get-started/site-launch-guide.html#add-features"
-            - name: 5. Toggle Search Features On
-              url: "/get-started/site-launch-guide.html#turn-features-on"
-            - name: 6. Configure Branding
-              url: "/get-started/site-launch-guide.html#configure-branding"
-            - name: 7. Connect Your Search Box
-              url: "/get-started/site-launch-guide.html#go-live"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
       - name: Available Search Features
@@ -203,8 +198,8 @@ about_us:
         url: "/about/customers.html"
       - name: Search.gov in Policy
         url: "/about/policy/"
-      - name: Submit Feature Requests
-        url: "/about/feedback"
+      - name: Share Your Feedback
+        url: "/about/feedback.html"
       - name: Our Product Roadmap
         url: "/about/updates/roadmap/"
       - name: Release Notes
@@ -266,6 +261,25 @@ highlights:
     copy: Our team of experts is available to help you with your questions, ranging from technical support and troubleshooting to search engine optimization consultations. Your success is our mission.
   - heading: No barriers to entry
     copy: Adopting a new tool or service is often difficult for federal agencies, but getting started with Search.gov is friction free. Our service is ready to use, and does not require interagency agreements, payments, or other common procedural challenges.
+
+tasks:
+  - heading: Sign up/create my search.gov account
+    copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id sagittis massa. Aenean sit amet facilisis enim. 
+    url: /get-started/account.html
+    cta: Get Started
+  - heading: Check system status
+    copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id sagittis massa. Aenean sit amet facilisis enim. 
+    url: /status.html
+    cta: View Status
+  - heading: Request to pause or a re-indexing 
+    copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id sagittis massa. Aenean sit amet facilisis enim.  
+    url: mailto:search@support.digitalgov.gov
+    cta: Email Us
+  - heading: Get help to log in
+    copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id sagittis massa. Aenean sit amet facilisis enim. 
+    url: mailto:search@support.digitalgov.gov
+    cta: Email Us
+
 
 # Search.gov configuration
 #
