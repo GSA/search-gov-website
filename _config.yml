@@ -110,7 +110,7 @@ primary_navigation:
         url: "/get-started/learn.html"
   - name: Manage Your Search Site
     children:
-      - name: Manage your search configuration in the Admin Center
+      - name: Admin Center Help Manual
         url: "/admin-center/index.html"
       - name: Add/remove users
         url: "/admin-center/dashboard/users.html"
@@ -124,17 +124,17 @@ primary_navigation:
         url: "/get-started/site-launch-guide.html#add-features"
   - name: Index with Search.gov
     children:
-      - name: What Search.gov indexes from your website
+      - name: What we index
         url: "/indexing/what-searchgov-indexes.html"
-      - name: How Search.gov ranks your search results
+      - name: Relevance ranking
         url: "/indexing/ranking-factors.html"
-      - name: How a page on a sitemap becomes a search result
+      - name: How a page becomes a search result
         url: "/indexing/sitemaps-to-search-sites.html"
-      - name: Step-by-step indexing workflow
+      - name: Indexing workflow
         url: "/get-started/site-launch-guide.html#indexing-workflow"
-      - name: Metadata and tags you should include in your website
+      - name: Metadata and tags
         url: "/indexing/metadata.html"
-      - name: Update your search after a redesign, CMS migration or both
+      - name: Website redesign tips
         url: "/indexing/redesign.html"
   - name: Support
     url: "/support.html"
@@ -243,6 +243,12 @@ indexing:
             url: "/indexing/metadata.html"
           - name: How to get search engines to index the right content for better discoverability
             url: "/indexing/how-search-engines-index-content-better-discoverability.html"
+
+support:
+  - name: Support
+    url: "/support.html"
+  - name: System Status
+    url: "/status.html"
 
 highlights:
   - heading: Highly configurable

@@ -1,19 +1,22 @@
 ---
-permalink: /status.html
-layout: post
-crumbname: System Status
+layout: page
 title: Search.gov System Status
-tags: status
+tags: status support help
 description: This page provides the current operating status of the Search.gov system.
+last_modified_at: January 11, 2021
+sidenav: support
 ---
 
 ## Current Status
 
 <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
-**August 25, 2020 - 2:15 PM ET:** Search.gov is fully operational.
-
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: 3:01pm - 5:08pm ET January 11, 2021 <br />
+Details: Starting 3:01 PM ET, a significant increase in query traffic caused our system to refuse connections. We added more processing resources to handle that additional load, which entered the herd at 4:04 PM ET and began to resolve the connection issue. The system is now fully operational.
+
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
 Date: 2:24pm - 2:43pm ET August 25, 2020<br />
 Details: A brief certificate issue caused a small subset of image searches to be unavailable. The issue was resolved by a certificate re-issue, and Search.gov is now fully operational.
