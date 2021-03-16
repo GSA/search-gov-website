@@ -46,7 +46,7 @@ We often receive questions when an agency conducts a major website upgrade, chan
 ![Flow chart showing the steps involved in getting the search index ready to go on Search.gov, for a website that’s being relaunched.]({{ site.baseurl }}/assets/img/site/website-relaunch-workflow.png)
 [Website relaunch flow chart detailed description](#description)
 
-[Open large version](https://search.gov/img/website-relaunch-workflow.png)
+[Open large version]({{ site.baseurl }}/assets/img/site/website-relaunch-workflow.png)
 
        
 
