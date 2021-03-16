@@ -14,21 +14,23 @@ site, this is the place to do it.
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Title and meta description
-    ================================================== -->
-  <title>{{site.title}}</title>
-  <meta property="og:title" content="{{site.title}}">
-  <meta name="description" content="{{site.description}}">
-  <meta property="og:description" content="{{site.description}}">
+  {% comment %} Commenting out the below, since we are using the Jekyll SEO Plugin
+    <!-- Title and meta description
+      ================================================== -->
+    <title>{{site.title}}</title>
+    <meta property="og:title" content="{{site.title}}">
+    <meta name="description" content="{{site.description}}">
+    <meta property="og:description" content="{{site.description}}">
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{{site.title}}" />
-  <meta name="twitter:description" content="{{site.description}}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{site.twitter}}" />
+    <meta name="twitter:title" content="{{site.title}}" />
+    <meta name="twitter:description" content="{{site.description}}" />
 
-  <meta property="og:type" content="article">
-  <link rel="canonical" href="{{ page.url | absolute_url }}" />
-  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  {% endcomment %}
   <!-- Favicons
     ================================================== -->
   <!-- 128x128 -->
@@ -37,4 +39,13 @@ site, this is the place to do it.
   <!-- CSS
     ================================================== -->
   {% asset index.scss %}
+
+  <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-N56JXGD');</script>
+  <!-- End Google Tag Manager -->
+  {% seo %}
 </head>
