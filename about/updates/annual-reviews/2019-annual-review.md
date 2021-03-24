@@ -7,6 +7,8 @@ tags: annual-review
 date: December 20, 2019
 last_modified_at: December 20, 2019
 sidenav: about_us
+redirect_from:
+    - /blog/2019-annual-review.html
 ---
 <span style="float:right;"><img 
   src="{{ site.baseurl }}/files/2019_annual_review_small.png" 

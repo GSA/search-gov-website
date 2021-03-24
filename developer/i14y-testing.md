@@ -8,6 +8,7 @@ last_modified_at: April 12, 2018
 sidenav: developer
 ---
 
+{% include archive.html %}
 
 > **Important Note:** April, 2018. i14y does not visit your content to do full-text scraping of your content. For new implementations, the Search.gov team recommends you index your content with us not using the i14y API, but rather by publishing a comprehensive xml sitemap, which we can use to index your content. [Read more.]({{ site.baseurl }}/blog/six-months-in.html)
 

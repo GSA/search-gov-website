@@ -7,6 +7,8 @@ tags: annual-review
 date: December 20, 2017
 last_modified_at: December 20, 2017
 sidenav: about_us
+redirect_from:
+    - /blog/2017-annual-review.html
 ---
 <span style="float:right;"><img 
   src="{{ site.baseurl }}/files/2017_annual_review_small.png" 

@@ -20,14 +20,14 @@ Related resources:
 * [Indexing process documentation]({{ site.baseurl }}/indexing/indexing-with-searchgov.html) - for everyone
 
 
-### <i class="icon-dashboard"></i> Dashboard
+## <i class="icon-dashboard"></i> [Dashboard]({{ site.baseurl }}/admin-center/dashboard/)
 
 * [Site overview]({{ site.baseurl }}/admin-center/dashboard/site-overview.html)
 * [Manage users]({{ site.baseurl }}/admin-center/dashboard/users.html)
 * [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html)
 * [Clone Site]({{ site.baseurl }}/admin-center/dashboard/clone-site.html)
 
-### <i class="icon-bar-chart"></i> Analytics
+## <i class="icon-bar-chart"></i> [Analytics]({{ site.baseurl }}/admin-center/analytics/)
 
 * [Queries]({{ site.baseurl }}/admin-center/analytics/queries.html)
 * [Clicks]({{ site.baseurl }}/admin-center/analytics/clicks.html)
@@ -36,7 +36,7 @@ Related resources:
 * [3rd party tracking]({{ site.baseurl }}/admin-center/analytics/third-party.html)
 * [Analytics Alerts]({{ site.baseurl }}/admin-center/analytics/analytics-alerts.html)
 
-### <i class="icon-file"></i> Manage Content
+## <i class="icon-file"></i> [Manage Content]({{ site.baseurl }}/admin-center/content/)
 
 * [Content overview]({{ site.baseurl }}/admin-center/content/content-overview.html)
 * [Domains]({{ site.baseurl }}/admin-center/content/domains.html) (plus advanced options to [add]({{ site.baseurl }}/admin-center/content/domains-advanced.html) or [filter]({{ site.baseurl }}/admin-center/content/filter-content.html) URLs.)
@@ -50,36 +50,41 @@ Related resources:
 * [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)
 * [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)
 
-### <i class="icon-desktop"></i> Manage Display
+## <i class="icon-desktop"></i> [Manage Display]({{ site.baseurl }}/admin-center/display/)
 
 * [Display overview]({{ site.baseurl }}/admin-center/display/display-overview.html) (including [job openings]({{ site.baseurl }}/admin-center/display/jobs-module.html), * [*Federal Register*]({{ site.baseurl }}/admin-center/display/federal-register-module.html), and [health topics]({{ site.baseurl }}/admin-center/display/health-module.html))
 * [Brand]({{ site.baseurl }}/admin-center/display/brand.html) (font & colors, image assets, and header & footer)
 * Custom [No Results]({{ site.baseurl }}/admin-center/display/no-results.html) page
 * Custom [Search Page Alert]({{ site.baseurl }}/admin-center/display/system-alert.html)
 
-### <i class="icon-eye-open"></i> Preview
+## <i class="icon-eye-open"></i> Preview
 
 * [Preview]({{ site.baseurl }}/admin-center/preview.html)
 
-### <i class="icon-code"></i> Activate Search
+## <i class="icon-code"></i> [Activate Search]({{ site.baseurl }}/admin-center/activate/)
 
 * [Code snippets]({{ site.baseurl }}/admin-center/activate/code.html)
-* [Search Results API instructions and access key](https://open.gsa.gov/api/searchgov-results/)\*
-* [Type-ahead API instructions](https://open.gsa.gov/api/searchgov-suggestions/)\*
+* [Search Results API instructions and access key](https://open.gsa.gov/api/searchgov-results/)\*{% external_link %}
+* [Type-ahead API instructions]({{ site.baseurl }}/admin-center/activate/typeahead-api.html)\*
 * [i14y API instructions]({{ site.baseurl }}/developer/i14y.html)\*
 
-\* These APIs are available for use on official government websites only. You must be a Search.gov customer. [Sign in](https://search.usa.gov/sites) is required. Keys and instructions for each can be found under [Admin Center](https://search.usa.gov/sites) > YourSite > Activate Search.
+\* These APIs are available for use on official government websites only. You must be a Search.gov customer. [Sign in](https://search.usa.gov/sites) is required. Keys for each can be found under [Admin Center](https://search.usa.gov/sites) > YourSite > Activate Search.
 
-### Additional Help Resources Not in the Admin Center
+## Additional Help Resources
+
+### SEO (Search Engine Optimization)
 
 * [XML Sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)
 * [/robots.txt Files]({{ site.baseurl }}/indexing/robotstxt.html)
 * [How to get search engines to index the right content for better discoverability]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html)
-* [Getting Started video](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins){% external_link %}
+
+### Launching or re-launching your search
 * [Go-Live Check List]({{ site.baseurl }}/get-started/go-live.html)
-* [Masking your domain]({{ site.baseurl }}/admin-center/display/cname.html)
 * [Website Redesign Checklist]({{ site.baseurl }}/indexing/redesign.html)
-* [Resources for Developers]({{ site.baseurl }}/developer/index.html)
-* [Upcoming Training and Video Recordings]({{ site.baseurl }}/get-started/training.html)
+* [Using your own domain on your results page]({{ site.baseurl }}/admin-center/display/cname.html)
+
+### Training Videos
+* [Getting Started video](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins){% external_link %}
+* [All Training Videos]({{ site.baseurl }}/get-started/training.html)
 
 Do you have other questions or comments about how our service works? [Email us](mailto:search@support.digitalgov.gov).

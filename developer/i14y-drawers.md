@@ -9,6 +9,8 @@ sidenav: developer
 published: true
 ---
 
+{% include archive.html %}
+
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > i14y Drawers
 
 An [i14y]({{ site.baseurl }}/developer/i14y.html) Drawer is an index receiving content via the i14y API. We've called them **Drawers** because, like drawers in a filing cabinet, multiple indexes can be included in a single configuration to scope the entirety of a site’s search.

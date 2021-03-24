@@ -39,7 +39,7 @@ The code will look similar to:
 
 The Type-ahead API exposes your site's type-ahead suggestions. Calling the API directly alllows you to show type-ahead suggestions without adding the JavaScript code.
 
-This API is available for use on official government websites only. Instructions can be found on the API's [GSA Open API directory listing](https://open.gsa.gov/api/searchgov-suggestions/).
+This API is available for use on official government websites only. Instructions can be found on the API's [GSA Open API directory listing](https://open.gsa.gov/api/searchgov-suggestions/){% external_link %}.
 
 --- 
-***Troubleshooting:*** Suggestions are derived from the searches performed on your website. For additional details, please review the [documentation](https://open.gsa.gov/api/searchgov-suggestions/).
+***Troubleshooting:*** Suggestions are derived from the searches performed on your website. For additional details, please review the [documentation](https://open.gsa.gov/api/searchgov-suggestions/){% external_link %}.

@@ -7,6 +7,7 @@ date: April, 12, 2018
 last_modified_at: April 12, 2018
 ---
 
+{% include archive.html %}
 
 > **Important Note:** April, 2018. For new implementations, the Search.gov team recommends you index your content with us not using our Drupal module to send content to our i14y indexing API, but rather by publishing a comprehensive XML sitemap, which we can use to index your content. We recommend the [XML Sitemap module](https://www.drupal.org/project/xmlsitemap){% external_link %}. [Read more.]({{ site.baseurl }}/blog/six-months-in.html)
 
