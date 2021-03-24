@@ -2,6 +2,7 @@
 layout: default
 title: Search.gov Blog
 sitemap: false
+redirect_to: /
 ---
 
 <!-- begin /blog/index.md content -->
