@@ -15,6 +15,8 @@ Search.gov is pleased to present our annual reviews - high level reports that sh
 
 From common needs for forms and process status checks, to the latest information on the news of the year, or vulnerable moments seeking help in times of need, Search.gov is there, connecting people with their government.
 
+* [2020]({{ site.baseurl }}/blog/2020-annual-review.html)
+
 * [2019]({{ site.baseurl }}/blog/2019-annual-review.html)
 
 * [2018]({{ site.baseurl }}/blog/2018-annual-review.html)
