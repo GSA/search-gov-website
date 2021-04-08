@@ -20,9 +20,7 @@
 
 title: Search.gov
 email: search@support.digitalgov.gov
-description: >- # this means to ignore newlines until "baseurl:"
-  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+# description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -124,6 +122,8 @@ primary_navigation:
         url: "/get-started/site-launch-guide.html#add-features"
   - name: Index with Search.gov
     children:
+      - name: Start here
+        url: "/indexing/indexing-with-searchgov.html"
       - name: What we index
         url: "/indexing/what-searchgov-indexes.html"
       - name: Relevance ranking
@@ -154,7 +154,7 @@ get_started:
     children:
       - name: Why Choose Search.gov?
         url: "/about/why-choose-searchgov.html"
-      - name: Sign Up/Create an Account
+      - name: Sign Up
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"
@@ -164,7 +164,7 @@ get_started:
         url: "/get-started/site-launch-guide.html#add-features"
 
 admin_center:
-  - name: Manage Your Search Configuration
+  - name: Admin Center Help Manual
     url: "/admin-center/"
     children: 
       - name: Dashboard

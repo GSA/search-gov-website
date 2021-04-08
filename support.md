@@ -22,7 +22,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a1" class="usa-accordion__content usa-prose">
-        <p>Our system is required to disable accounts if they’ve not been used for 90 days. If you’re unable to log in to your account, [email us for help](mailto:search@support.digitalgov.gov).</p>
+        <p>Our system is required to disable accounts if they’ve not been used for 90 days. If you’re unable to log in to your account, <a href="mailto:search@support.digitalgov.gov">email us</a> for help.</p>
 
       </div>
   
@@ -37,9 +37,9 @@ Customer support is central at Search.gov. Our success is bound up with the succ
       <div id="m-a2" class="usa-accordion__content usa-prose">
         <p>This question has two answers.</p> 
 			<ul>
-				<li>If your search site uses our index, please note that we scan for page updates and removals on a regular basis. If you need something removed immediately, please [email us](mailto:search@support.digitalgov.gov). You can also use the Filter URLs feature to hide the item. See below.</li>
+				<li>If your search site uses our index, please note that we scan for page updates and removals on a regular basis. If you need something removed immediately, please <a href="mailto:search@support.digitalgov.gov">email us</a>. You can also use the Filter URLs feature to hide the item. See below.</li>
 				<li>If your search site uses the Bing index, you can use the Filter URLs feature, but we’re unable to update their index. We can work with you to index your site and move it onto our index, where we can have control over the content and timeliness of updates.</li>
-				<li>Learn more about the [Filter URLs feature]({{ site.baseurl }}/admin-center/filter-content.html).</li>
+				<li>Learn more about the <a href="{{ site.baseurl }}/admin-center/filter-content.html">Filter URLs feature</a>.</li>
 			</ul>
       </div>
   
@@ -52,7 +52,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a3" class="usa-accordion__content usa-prose">
-        <p>[Email us](mailto:search@support.digitalgov.gov) right away. We’ll need to do some things in the back-end of the system to get your search results up to date as soon as possible. Also, please read through our [Checklist For A Successful Redesign]({{ site.baseurl }}/indexing/redesign.html) for suggestions on what you can do right away.</p>
+        <p><a href="mailto:search@support.digitalgov.gov">email us</a> right away. We’ll need to do some things in the back-end of the system to get your search results up to date as soon as possible. Also, please read through our <a href="{{ site.baseurl }}/indexing/redesign.html">Checklist For A Successful Redesign</a> for suggestions on what you can do right away.</p>
 
       </div>
   
@@ -65,7 +65,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a4" class="usa-accordion__content usa-prose">
-        <p>We offer a robust API for search results, but its feature set is different from our hosted results page. We have a [feature comparison chart]({{ site.baseurl }}//admin-center/display/hosted-vs-api-results.html) that gives details.</p>
+        <p>We offer a robust API for search results, but its feature set is different from our hosted results page. We have a <a href="{{ site.baseurl }}//admin-center/display/hosted-vs-api-results.html">feature comparison chart</a> that gives details.</p>
 
       </div>
   
@@ -78,7 +78,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a5" class="usa-accordion__content usa-prose">
-        <p>If you want to work on your Best Bets in a spreadsheet, we can do a bulk download for you. Please [email us](mailto:search@support.digitalgov.gov) to request a download.</p>
+        <p>If you want to work on your Best Bets in a spreadsheet, we can do a bulk download for you. Please <a href="mailto:search@support.digitalgov.gov">email us</a> to request a download.</p>
 
       </div>
   
@@ -91,7 +91,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a6" class="usa-accordion__content usa-prose">
-        <p>Our [System Status page]({{ site.baseurl }}/status.html) shows our current status and any performance issues we may be working on.</p>
+        <p>Our <a href="{{ site.baseurl }}/status.html">System Status page</a> shows our current status and any performance issues we may be working on.</p>
 
       </div>
   

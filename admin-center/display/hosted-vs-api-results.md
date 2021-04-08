@@ -11,12 +11,12 @@ After you get your [search site set up]({{ site.baseurl }}/get-started/site-laun
 
 We offer a [hosted search results page]({{ site.baseurl }}/admin-center/display/), which allows you to configure the look and feel of the results page using our Admin Center interface. We recommend customers use the hosted search results page because all features are automatically available and maintained over time - users can access a consistent experience with no developer effort on the agency’s part.
 
-We also offer a [results API](https://open.gsa.gov/api/searchgov-results/), which does require development within your website’s environment in order to display results.
+We also offer a [results API](https://open.gsa.gov/api/searchgov-results/){% external_link %}, which does require development within your website’s environment in order to display results.
 
 | Analytics Features | Available on Hosted Search Results Page? | Available in Results API? |
 | :-- | :--: | :--: |
 | [Query tracking]({{ site.baseurl }}/admin-center/analytics/queries.html) to see what people searched for on your website | Yes | Yes |
-| [Click tracking]({{ site.baseurl }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes - requires a [secondary API call](https://open.gsa.gov/api/searchgov-clicks/) |
+| [Click tracking]({{ site.baseurl }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes - requires a [secondary API call](https://open.gsa.gov/api/searchgov-clicks/){% external_link %} |
 | [Referrer tracking]({{ site.baseurl }}/admin-center/analytics/referrers.html) to see where people were when they ran their searches | Yes | No |
 
 | Content Features | Available on Hosted Search Results Page? | Available in Results API? |

@@ -8,6 +8,8 @@ sidenav: developer
 tags: i14y api
 ---
 
+{% include archive.html %}
+
 [Search.gov Home]({{ site.baseurl }}/index.html) > [APIs for Developers]({{ site.baseurl }}/developer/index.html) > i14y API
 
 > **Important Note:** Search.gov team recommends you index your content with us not using the i14y API, but rather by publishing a comprehensive xml sitemap, which we can use to index your content. [Read more.]({{ site.baseurl }}/indexing/indexing-with-searchgov.html)
