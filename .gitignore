@@ -8,3 +8,4 @@ node_modules
 /_deploy
 /last_commit.yml
 /vendor
+.ruby-version
