@@ -1,3 +1,5 @@
+$default-link-color: #005EA2;
+
 // Fixing Width Issue on Pages
 .usa-layout-docs__main.usa-prose {
   max-width: 68ex;
@@ -22,6 +24,10 @@
   text-decoration: none;
 }
 
+.usa-sidenav a:not(.usa-button) {
+    color: $default-link-color;
+}
+
 //Archive Banner Styling
 .archived-content {
   background-color: #FACE02;
@@ -44,6 +50,13 @@
     }
   }
 }
+
+//Default Link Styling
+a {
+  color: $default-link-color;
+}
+
+
 
 .usa-banner__button::after {
   /* bugfix, for some reason the prefixed version is missing in the USWDS build */
