@@ -223,12 +223,12 @@ get_started:
         url: "/get-started/learn.html"
         children:
           - name: Training Webinars
-            url: "/get-started/training/html"
-  - name: Related Resources
-    children:
-      - name: Why Choose Search.gov?
-        url: "/about/why-choose-searchgov.html"
- 
+            url: "/get-started/training.html"
+      - name: Related Resources
+        children:
+          - name: Why Choose Search.gov?
+            url: "/about/why-choose-searchgov.html"
+    
 
 indexing:
   - name: Index with Search.gov
@@ -268,7 +268,7 @@ support:
     url: "/get-started/learn.html"
     children:
       - name: Training Webinars
-        url: "/get-started/training/html"
+        url: "/get-started/training.html"
   - name: Share Your Feedback
     url: "/about/feedback.html"
 
