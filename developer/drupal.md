@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: usasearch Drupal Module Help Documentation 
 category: developer
 tags: i14y drupal

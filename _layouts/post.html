@@ -28,7 +28,7 @@ This is used in blog posts. The index page can be found at blog/index.html
         {% unless page.author %}
           <div class="text-base">
             {% unless page.date %}
-              {{ page.last-updated }}
+              {{ page.last_modified_at }}
             {% else %}
               {{ page.date | date: '%B %d, %Y' }}
             {% endunless %}

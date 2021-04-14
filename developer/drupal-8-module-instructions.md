@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Step by Step Instructions for Setting Up the Drupal 8 usasearch module
 category: developer
 tags: drupal, i14y
