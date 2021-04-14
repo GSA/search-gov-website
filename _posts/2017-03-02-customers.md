@@ -4,7 +4,7 @@ title: Our Customers
 tags: about-us customer-federal
 ---
 
-We have a [proven track record]({{ site.baseurl }}/tagged/quote) of delivering fast, relevant search results. Nearly 175 Federal and District of Columbia government agencies currently use Search.gov to power their search box and improve their visitors' search experience.
+We have a [proven track record]({{ site.baseurl }}/tagged/quote) of delivering fast, relevant search results. Over 200 Federal government agencies currently use Search.gov to power their search box and improve their visitors' search experience.
 
 <table align="center" width="100%">
 <tr>
