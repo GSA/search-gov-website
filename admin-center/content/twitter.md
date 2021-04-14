@@ -14,14 +14,14 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 
 Provide us with the @handle for your Twitter account(s). Your @handle is your agency's username used within Twitter. When you're logged into Twitter, you can see your username at <https://twitter.com/login?redirect_after_login=/settings/account>{% external_link %}.
 
-For example, the Twitter username for the Federal Student Aid, a part of the U.S. Department of Education, is [@FAFSA](https://twitter.com/FAFSA).
+For example, the Twitter username for the Transportation Security Administration (TSA), is [@AskTSA](https://twitter.com/AskTSA).
 
 When you add your Twitter @handle, we'll automatically index and display *your* tweets. Select the option, Show tweets from my lists, to index the tweets for all members of your lists.
 
 If you don't want to display your tweets, simply delete your Twitter handle.
 
-See the sample results page below that shows a recent tweet displayed on Federal Student Aid for a search on *[loans](https://search.usa.gov/search?query=loans&op=Search&affiliate=federalstudentaid&m=true)*.
+See the sample results page below that shows a recent tweet displayed on TSA for a search on *[acceptable forms of ID](https://search.usa.gov/search?query=acceptable%20forms%20of%20ID&submit.x=0&submit.y=0&affiliate=tsa.gov)*.
 
-![Search result with a tweet on Federal Student Aid](https://d3qcdigd1fhos0.cloudfront.net/blog/img/social-media-tweets.png)
+![Search result with a tweet on ]({{ site.baseurl }}/assets/img/site/social-media-tweets.png)
 
 Searchers will see the most recent tweet (posted within the past three days) that matches their search term.

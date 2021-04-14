@@ -8,10 +8,17 @@ sidenav: admin_center
 ---
 
 After you get your [search site set up]({{ site.baseurl }}/get-started/site-launch-guide.html) and we have your content indexed, it’s time to think about how you want to display the search results to your users.
+<<<<<<< HEAD
  
 We offer a [hosted search results page]({{ site.baseurl }}/admin-center/display/), which allows you to configure the look and feel of the results page using our Admin Center interface. We recommend you use the hosted results page because all our features are available and maintained over time. Searchers will have a good experience with no developer effort on the agency’s part.
  
 We also offer a [Results API](https://open.gsa.gov/api/searchgov-results/){% external_link %}. To use this API, you'll need developers to develop a results page template within your website’s environment in order to display results. We also recommend you plan to implement our [Clicks API](https://open.gsa.gov/api/searchgov-clicks/){% external_link %}, to use alongside the Results API.
+=======
+
+We offer a [hosted search results page]({{ site.baseurl }}/admin-center/display/), which allows you to configure the look and feel of the results page using our Admin Center interface. We recommend customers use the hosted search results page because all features are automatically available and maintained over time - users can access a consistent experience with no developer effort on the agency’s part.
+
+We also offer a [results API](https://open.gsa.gov/api/searchgov-results/){% external_link %}, which does require development within your website’s environment in order to display results.
+>>>>>>> 2020-redesign
 
 | Analytics Features | Available on Hosted Search Results Page? | Available in Results API? |
 | :-- | :--: | :--: |
