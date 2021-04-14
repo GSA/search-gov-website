@@ -4,7 +4,7 @@ title: "Help Manual: Managing Your Search Configuration"
 crumbname: Help Manual
 category: admin-center
 tags: help-manual
-last-updated: "March 3, 2021"
+last_modified_at: "March 3, 2021"
 sidenav: admin_center
 redirect_from:
     - /manual/
@@ -52,7 +52,7 @@ Related resources:
 
 ## <i class="icon-desktop"></i> [Manage Display]({{ site.baseurl }}/admin-center/display/)
 
-* [Display overview]({{ site.baseurl }}/admin-center/display/display-overview.html) (including [job openings]({{ site.baseurl }}/admin-center/display/jobs-module.html), * [*Federal Register*]({{ site.baseurl }}/admin-center/display/federal-register-module.html), and [health topics]({{ site.baseurl }}/admin-center/display/health-module.html))
+* [Display overview]({{ site.baseurl }}/admin-center/display/display-overview.html) (including [job openings]({{ site.baseurl }}/admin-center/display/jobs-module.html), [*Federal Register*]({{ site.baseurl }}/admin-center/display/federal-register-module.html), and [health topics]({{ site.baseurl }}/admin-center/display/health-module.html))
 * [Brand]({{ site.baseurl }}/admin-center/display/brand.html) (font & colors, image assets, and header & footer)
 * Custom [No Results]({{ site.baseurl }}/admin-center/display/no-results.html) page
 * Custom [Search Page Alert]({{ site.baseurl }}/admin-center/display/system-alert.html)

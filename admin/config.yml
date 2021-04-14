@@ -32,7 +32,7 @@ collections:
         }
       - {
           label: "Last Updated Date",
-          name: "last-updated",
+          name: "last_modified_at",
           widget: "datetime",
           format: 'MMMM D, YYYY',
           dateFormat: 'MMMM D, YYYY',
@@ -62,7 +62,7 @@ collections:
         }
       - {
           label: "Last Updated Date",
-          name: "last-updated",
+          name: "last_modified_at",
           widget: "datetime",
           format: 'MMMM D, YYYY',
           dateFormat: 'MMMM D, YYYY',
@@ -92,7 +92,7 @@ collections:
         }
       - {
           label: "Last Updated Date",
-          name: "last-updated",
+          name: "last_modified_at",
           widget: "datetime",
           format: 'MMMM D, YYYY',
           dateFormat: 'MMMM D, YYYY',

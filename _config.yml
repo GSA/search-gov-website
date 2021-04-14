@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
-twitter: 18F
+# twitter: 
 
 #################################################################
 #
@@ -61,10 +61,10 @@ twitter: 18F
 #
 #################################################################
 dap:
-  # agency: your-agency
+  # agency: GSA
 
   # Optional
-  # subagency: your-subagency
+  # subagency: TTS
 
 # Configuration for Google Analytics
 # ga:
@@ -92,10 +92,10 @@ primary_navigation:
         url: "/about/security.html"
   - name: Get Started
     children:
-      - name: Why Choose Search.gov?
-        url: "/about/why-choose-searchgov.html"
       - name: Get Started with Search.gov
         url: "/get-started/"
+      - name: Why Choose Search.gov?
+        url: "/about/why-choose-searchgov.html"
       - name: Sign Up/Create an Account
         url: "/get-started/account.html"
       - name: Site Launch Guide
@@ -148,20 +148,28 @@ primary_navigation:
 # import the `admin_center` navigation defined below. If no
 # `sidenav` property is specified, no sidebar will appear on the page
 
-get_started:
-  - name: Get Started with Search.gov
-    url: "/get-started/"
-    children:
+about_us:
+  - name: About Us
+    url: /about/
+    children: 
       - name: Why Choose Search.gov?
         url: "/about/why-choose-searchgov.html"
-      - name: Sign Up
-        url: "/get-started/account.html"
-      - name: Site Launch Guide
-        url: "/get-started/site-launch-guide.html"
-      - name: "Going live with Search.gov: Checklist"
-        url: "/get-started/go-live.html"
-      - name: Available Search Features
-        url: "/get-started/site-launch-guide.html#add-features"
+      - name: Customers
+        url: "/about/customers.html"
+      - name: Our Product Roadmap
+        url: "/about/updates/roadmap/"
+      - name: Release Notes
+        url: "/about/updates/releases/"
+      - name: Annual Reviews
+        url: "/about/updates/annual-reviews/"
+      - name: Search.gov in Policy
+        url: "/about/policy/"
+      - name: For Developers
+        url: "/developer/"
+      - name: Security and Compliance
+        url: "/about/security.html"
+      - name: Share Your Feedback
+        url: "/about/feedback.html"
 
 admin_center:
   - name: Admin Center Help Manual
@@ -180,40 +188,47 @@ admin_center:
       - name: Activate
         url: "/admin-center/activate/"
 
-about_us:
-  - name: About Us
-    url: /about/
-    children: 
-      - name: Why Choose Search.gov?
-        url: "/about/why-choose-searchgov.html"
-      - name: Customers
-        url: "/about/customers.html"
-      - name: Search.gov in Policy
-        url: "/about/policy/"
-      - name: Share Your Feedback
-        url: "/about/feedback.html"
-      - name: Our Product Roadmap
-        url: "/about/updates/roadmap/"
-      - name: Release Notes
-        url: "/about/updates/releases/"
-      - name: For Developers
-        url: "/developer/"
-      - name: Security and Compliance
-        url: "/about/security.html"
-
 developer:
-  - name: Indexing API
-    url: "/developer/indexing-api.html"
+  - name: For Developers
+    url: "/developer/"
     children:
+    - name: Indexing API
+      url: "/developer/indexing-api.html"
       children:
-          - name: Getting Started with i14y
-            url: "/developer/i14y.html"
+      - name: Getting Started with i14y
+        url: "/developer/i14y.html"
+        children:
           - name: i14y Drawers
             url: "/developer/i14y-drawers.html"
           - name: i14y Testing
             url: "/developer/i14y-testing.html"
-  - name: Jobs
-    url: "/developer/jobs"
+    - name: Jobs
+      url: "/developer/jobs"
+
+get_started:
+  - name: Get Started with Search.gov
+    url: "/get-started/"
+    children:
+      - name: Sign Up
+        url: "/get-started/account.html"
+      - name: Site Launch Guide
+        url: "/get-started/site-launch-guide.html"
+      - name: Search.gov for Federalist
+        url: "/get-started/searchgov-for-federalist.html"
+      - name: Available Search Features
+        url: "/get-started/site-launch-guide.html#add-features"
+      - name: "Going live with Search.gov: Checklist"
+        url: "/get-started/go-live.html"
+      - name: Training and Resources
+        url: "/get-started/learn.html"
+        children:
+          - name: Training Webinars
+            url: "/get-started/training.html"
+      - name: Related Resources
+        children:
+          - name: Why Choose Search.gov?
+            url: "/about/why-choose-searchgov.html"
+    
 
 indexing:
   - name: Index with Search.gov
@@ -249,6 +264,13 @@ support:
     url: "/support.html"
   - name: System Status
     url: "/status.html"
+  - name: Training and Resources
+    url: "/get-started/learn.html"
+    children:
+      - name: Training Webinars
+        url: "/get-started/training.html"
+  - name: Share Your Feedback
+    url: "/about/feedback.html"
 
 highlights:
   - heading: Highly configurable
@@ -287,16 +309,19 @@ tasks:
 searchgov:
 
   # You should not change this.
-  endpoint: https://search.usa.gov
+  endpoint: https://find.search.gov
 
   # replace this with your search.gov account
-  affiliate: federalist-uswds-example
+  affiliate: usasearch
 
   # replace with your access key
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+  access_key: Q_XTNBtjvH-l0g1JU5QVj9G6vJRFnYkoR2NMSZKFWBc=
 
   # this renders the results within the page instead of sending to user to search.gov
-  inline: true
+  inline: false
+  
+  # this allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
+  suggestions: true
 
 ##########################################################################################
 # The values below here are more advanced and should only be

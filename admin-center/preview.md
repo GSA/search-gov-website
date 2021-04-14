@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: How to Preview Your Search Results
 last_modified_at: February 25, 2021
 tags: help-manual preview

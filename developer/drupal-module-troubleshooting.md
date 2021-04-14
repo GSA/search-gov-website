@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Drupal Module Troubleshooting Tips
 category: developer
 tags: drupal, i14y
