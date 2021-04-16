@@ -12,7 +12,6 @@ USWDS SASS GULPFILE
 */
 
 const autoprefixer = require("autoprefixer");
-const autoprefixerOptions = require("./node_modules/uswds-gulp/config/browsers");
 const csso = require("postcss-csso");
 const gulp = require("gulp");
 const pkg = require("./node_modules/uswds/package.json");
@@ -20,7 +19,7 @@ const postcss = require("gulp-postcss");
 const replace = require("gulp-replace");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
-const uswds = require("./node_modules/uswds-gulp/config/uswds");
+const uswds = "node_modules/uswds/dist";
 
 sass.compiler = require("sass");
 
@@ -81,19 +80,16 @@ gulp.task("copy-uswds-js", () => {
   return gulp.src(`${uswds}/js/**/**`).pipe(gulp.dest(`${JS_DEST}`));
 });
 
-gulp.task("build-sass", function(done) {
+gulp.task("build-sass", function (done) {
   var plugins = [
     // Autoprefix
-    autoprefixer(autoprefixerOptions),
+    autoprefixer(),
     // Minify
-    csso({ forceMediaMerge: false })
+    csso({ forceMediaMerge: false }),
   ];
   return (
     gulp
-      .src([
-        `${PROJECT_SASS_SRC}/*.scss`,
-        `${OLD_PROJECT_SASS_SRC}/*.scss`
-      ])
+      .src([`${PROJECT_SASS_SRC}/*.scss`, `${OLD_PROJECT_SASS_SRC}/*.scss`])
       .pipe(sourcemaps.init({ largeFile: true }))
       .pipe(
         sass.sync({
@@ -101,8 +97,8 @@ gulp.task("build-sass", function(done) {
             `${PROJECT_SASS_SRC}`,
             `${OLD_PROJECT_SASS_SRC}`,
             `${uswds}/scss`,
-            `${uswds}/scss/packages`
-          ]
+            `${uswds}/scss/packages`,
+          ],
         })
       )
       .pipe(replace(/\buswds @version\b/g, "based on uswds v" + pkg.version))
@@ -125,7 +121,7 @@ gulp.task(
   )
 );
 
-gulp.task("watch-sass", function() {
+gulp.task("watch-sass", function () {
   gulp.watch(`${OLD_PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
   gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
 });

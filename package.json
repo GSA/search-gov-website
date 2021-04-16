@@ -29,7 +29,6 @@
     "gulp-sourcemaps": "^2.6.5",
     "postcss-csso": "^4.0.0",
     "sass": "^1.26.2",
-    "uswds": "^2.5.1",
-    "uswds-gulp": "github:uswds/uswds-gulp"
+    "uswds": "^2.5.1"
   }
 }
