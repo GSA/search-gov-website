@@ -10,9 +10,10 @@ breadcrumbs:
     url: /
   - label: Annual Reviews
     url: /blog/annual-reviews.html
+sidenav: about_us
 ---
-<span style="float:right;"><a href="{{ site.baseurl }}/files/2020-annual-review.pdf"><img 
-  src="{{ site.baseurl }}/files/2020-annual-review-cover.png"
+<span><a href="{{ site.baseurl }}/files/2020-annual-review.pdf"><img 
+  src="{{ site.baseurl }}/assets/img/site/2020-annual-review-cover.png"
   alt="2020 Year In Review, cover image showing a pie chart made out of tiny people. Following is a link to the full PDF report." style="width:280px;border:1px solid #333333;"></a><br />
 [Download full report]({{ site.baseurl }}/files/2020-annual-review.pdf)
 </span>
@@ -67,4 +68,4 @@ The time frame studied was January 1 - December 31, 2020.
 
 <br />
 
-[Read our 2020 system highlights]({{ site.baseurl }}/releases/2020-system-highlights.html), an overview of the biggest improvements we made to our system last year.
+[Read our 2020 system highlights]({{ site.baseurl }}/about/updates/annual-reviews/2020-system-highlights.html), an overview of the biggest improvements we made to our system last year.

@@ -5,6 +5,9 @@ description: An overview of the biggest technical improvements for Search.gov ov
 crumbname: 2020 System Highlights
 category: releases
 tags: release-notes annual-review
+redirect_from:
+    - /releases/2020-system-highlights.html
+sidenav: about_us
 ---
 
 Every month we publish [release notes]({{ site.baseurl }}/tagged/release-notes/), highlighting the improvements we’ve made to our technology. The biggest changes in 2020 revolved around our APIs and system version upgrades.

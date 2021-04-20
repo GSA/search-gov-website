@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Search.gov Roadmap FY21Q2
 crumbname: Roadmap FY21Q2
 category: about
@@ -8,6 +8,9 @@ breadcrumbs:
   - label: Home
     url: /
   - label: About
+redirect_from:
+    - /about/FY21Q2-roadmap.html
+sidenav: about_us
 ---
 
 ## Overview
@@ -55,6 +58,6 @@ If you have questions or comments, please feel free to [reach out](mailto:search
 
 ## Previous Roadmaps
 
-* [FY21 Q1: October - December 2020]({{ site.baseurl}}/about/FY21Q1-roadmap.html)
-* [FY20 Q4: July - September, 2020]({{ site.baseurl}}/about/FY20Q4-roadmap.html)
-* [FY20 Q3: April - June, 2020]({{ site.baseurl}}/about/FY20Q3-roadmap.html)
+* [FY21 Q1: October - December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)
+* [FY20 Q4: July - September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
+* [FY20 Q3: April - June, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q3-roadmap.html)

@@ -1,9 +1,12 @@
 ---
 layout: page
-title: Search.gov Roadmap
+title: Search.gov Roadmap FY20Q4
 crumbname: Roadmap FY20Q4
 category: about
 tags: roadmap
+redirect_from:
+    - /about/FY20Q4-roadmap.html
+sidenav: about_us
 ---
 
 ## Overview
@@ -59,4 +62,4 @@ If you have questions or comments, please feel free to [reach out](mailto:search
 
 ## Previous Roadmaps
 
-[FY20 Q3: April - June, 2020]({{ site.baseurl}}/about/roadmap-fy20q3.html)
+[FY20 Q3: April - June, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q3-roadmap.html)
