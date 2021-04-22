@@ -20,15 +20,15 @@
   },
   "homepage": "https://github.com/GSA/search-gov-website#readme",
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
+    "autoprefixer": "^10.2.5",
     "gulp": "^4.0.2",
-    "gulp-notify": "^3.2.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "postcss-csso": "^4.0.0",
-    "sass": "^1.26.2",
-    "uswds": "^2.5.1"
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-replace": "^1.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss-csso": "^5.0.1",
+    "sass": "^1.32.11",
+    "uswds": "^2.11.1"
   }
 }
