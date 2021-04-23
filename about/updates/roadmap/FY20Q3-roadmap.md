@@ -1,9 +1,12 @@
 ---
-layout: post
-title: Search.gov Roadmap
+layout: page
+title: Search.gov Roadmap FY20Q3
 crumbname: Roadmap FY20Q3
 category: about
 tags: roadmap
+redirect_from:
+    - /about/FY20Q3-roadmap.html
+sidenav: about_us
 ---
 
 ## Overview

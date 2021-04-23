@@ -3,11 +3,11 @@ layout: page
 title: Our Customers
 tags: about-us customer-federal
 date: March 2, 2017
-last_modified_at: February 24, 2020
+last_modified_at: April 19, 2021
 sidenav: about_us
 ---
 
-We have a proven track record of delivering fast, relevant search results to federal agencies large and small. We support 35% of federal domains, with more than 2,200 search configurations from over 200 agencies, bureaus, and offices, and the District of Columbia.
+We have a proven track record of delivering fast, relevant search results to federal agencies large and small. We support 35% of federal domains, with more than 2,200 search configurations from over 200 agencies, bureaus, and offices.
 
 <div class="customer-logo-container">
     <div class="customer-logo-item">
@@ -149,7 +149,6 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Department of the Treasury Office of Inspector General](https://oig.treasury.gov/)
 * [Department of Transportation](https://www.transportation.gov)
 * [Department of Veterans Affairs](https://www.va.gov/)
-* [District of Columbia](https://dc.gov)
 * [DOD High Performance Computing Centers](https://centers.hpc.mil/)
 * [DOD White House Communications Agency](https://www.whitehousecommsagency.mil)
 * [DOE Energy Information Administration (EIA)](https://www.eia.gov)
