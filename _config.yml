@@ -103,7 +103,7 @@ primary_navigation:
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
       - name: Available Search Features
-        url: "/get-started/site-launch-guide.html#add-features"
+        url: "/admin-center/display/hosted-vs-api-results.html"
       - name: Training and Resources
         url: "/get-started/learn.html"
   - name: Manage Your Search Site
@@ -151,25 +151,24 @@ primary_navigation:
 about_us:
   - name: About Us
     url: /about/
-    children: 
-      - name: Why Choose Search.gov?
-        url: "/about/why-choose-searchgov.html"
-      - name: Customers
-        url: "/about/customers.html"
-      - name: Our Product Roadmap
-        url: "/about/updates/roadmap/"
-      - name: Release Notes
-        url: "/about/updates/releases/"
-      - name: Annual Reviews
-        url: "/about/updates/annual-reviews/"
-      - name: Search.gov in Policy
-        url: "/about/policy/"
-      - name: For Developers
-        url: "/developer/"
-      - name: Security and Compliance
-        url: "/about/security.html"
-      - name: Share Your Feedback
-        url: "/about/feedback.html"
+  - name: Why Choose Search.gov?
+    url: "/about/why-choose-searchgov.html"
+  - name: Customers
+    url: "/about/customers.html"
+  - name: Our Product Roadmap
+    url: "/about/updates/roadmap/"
+  - name: Release Notes
+    url: "/about/updates/releases/"
+  - name: Annual Reviews
+    url: "/about/updates/annual-reviews/"
+  - name: Search.gov in Policy
+    url: "/about/policy/"
+  - name: For Developers
+    url: "/developer/"
+  - name: Security and Compliance
+    url: "/about/security.html"
+  - name: Share Your Feedback
+    url: "/about/feedback.html"
 
 admin_center:
   - name: Admin Center Help Manual
@@ -188,23 +187,6 @@ admin_center:
       - name: Activate
         url: "/admin-center/activate/"
 
-developer:
-  - name: For Developers
-    url: "/developer/"
-    children:
-    - name: Indexing API
-      url: "/developer/indexing-api.html"
-      children:
-      - name: Getting Started with i14y
-        url: "/developer/i14y.html"
-        children:
-          - name: i14y Drawers
-            url: "/developer/i14y-drawers.html"
-          - name: i14y Testing
-            url: "/developer/i14y-testing.html"
-    - name: Jobs
-      url: "/developer/jobs"
-
 get_started:
   - name: Get Started with Search.gov
     url: "/get-started/"
@@ -216,7 +198,7 @@ get_started:
       - name: Search.gov for Federalist
         url: "/get-started/searchgov-for-federalist.html"
       - name: Available Search Features
-        url: "/get-started/site-launch-guide.html#add-features"
+        url: "/admin-center/display/hosted-vs-api-results.html"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
       - name: Training and Resources
@@ -224,10 +206,10 @@ get_started:
         children:
           - name: Training Webinars
             url: "/get-started/training.html"
-      - name: Related Resources
-        children:
-          - name: Why Choose Search.gov?
-            url: "/about/why-choose-searchgov.html"
+  - name: Related Resources
+    children:
+      - name: Why Choose Search.gov?
+        url: "/about/why-choose-searchgov.html"
     
 
 indexing:

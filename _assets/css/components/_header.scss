@@ -6,8 +6,8 @@
 }
 
 .usa-nav__primary {
-  padding-top: units(3);
-  padding-bottom: units(3);
+  // padding-top: units(3);
+  // padding-bottom: units(3);
 
   & > .usa-nav__primary-item {
     & > a, & > button {
@@ -63,7 +63,7 @@
 
 @media (min-width: 64em) {
   .usa-nav__secondary {
-    bottom: 8rem;
+    bottom: 4rem;
   }
 }
 

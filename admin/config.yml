@@ -14,7 +14,7 @@ logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 collections:
   - label: Releases
     name: releases
-    folder: releases/
+    folder: _releases/
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -30,7 +30,7 @@ collections:
           dateFormat: 'MMMM D, YYYY',
           timeFormat: false }
       - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."]}
-      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Author", name: "author", widget: "hidden"}
       - { 
           label: "Side Navigation",
           name: "sidenav",
@@ -41,8 +41,8 @@ collections:
           label: "Release Year",
           name: "release-year",
           widget: "select",
-          default: "2021",
-          options: ["2017", "2018", "2019", "2020", "2021", "2022"]
+          default: 2021,
+          options: [2017, 2018, 2019, 2020, 2021, 2022]
        }
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Admin Center"
