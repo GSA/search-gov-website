@@ -70,8 +70,8 @@ Regardless of the index used to support your search, we can only serve publicly 
 [Jump to Step 4. Add Features](#add-features) if you don't need the details of the indexing process at this time.)
 
 If we will be indexing your content ourselves, we will follow these steps:
-{: #indexing-workflow }
 
+{: #indexing-workflow }
 ###  Indexing with Search.gov
 
 ####  A. Define Domains and Subdomains
