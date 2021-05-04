@@ -47,17 +47,17 @@ $side-navigation-highlight: #162e51;
   display: flex;
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 78rem) {
   .usa-header--extended .usa-navbar,
   .usa-header--extended .usa-nav__inner,
   .usa-banner__inner {
-    max-width: 60rem;
+    max-width: 78rem;
   }
 
   .wide-layout,
   .usa-layout-docs {
     .grid-container {
-      max-width: 60rem;
+      max-width: 78rem;
     }
   }
 }
