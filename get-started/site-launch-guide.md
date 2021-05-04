@@ -26,7 +26,6 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 
 [Open large version]({{ site.baseurl }}/files/site-launch-workflow.png)
 
-
 {: #description }
 {: #add-site }
 
@@ -51,7 +50,7 @@ Once you've created your site, note the actions available on the left-hand navig
 <i class="icon-code"></i> And finally, the **Activate** section provides pre-formatted code snippets to help you go live. Don’t be afraid of entering this area, nothing will actually be activated.
 
 {: #add-domains }
-<br />
+
 ## 2. Add Domains
 
 **Who:** You, the agency web team
@@ -59,7 +58,7 @@ Once you've created your site, note the actions available on the left-hand navig
 **What:** In the content management section, the domains list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain. [Read more here]({{ site.baseurl }}/admin-center/content/domains.html).
 
 {: #select-index }
-<br />
+
 ## 3. Web Index Selection
 
 **Who:** Search.gov team, in consultation with you, the agency web team
@@ -71,11 +70,10 @@ Regardless of the index used to support your search, we can only serve publicly 
 [Jump to Step 4. Add Features](#add-features) if you don't need the details of the indexing process at this time.)
 
 If we will be indexing your content ourselves, we will follow these steps:
-{: #indexing-workflow }
 
-<br /><br />
+{: #indexing-workflow }
 ###  Indexing with Search.gov
-<br /><br />
+
 ####  A. Define Domains and Subdomains
 
 **Who:** You, the agency web team, in consultation with the Search.gov team
@@ -88,7 +86,7 @@ data.example.gov
 archive.example.gov
 www.subagencydomainexample.gov 
 ```
-<br /><br />
+
 ####  B. Sitemap for Each Subdomain
 
 **Who:** You, the agency web team, in consultation with the Search.gov team
@@ -98,7 +96,7 @@ www.subagencydomainexample.gov
 We do not crawl websites by default due to the high resource demand of crawling every page on every website all the time. One of the goals of our service is to contain the costs of search government-wide, and a crawling-first model would increase costs significantly.
 
 If you publish your site on Federalist, read these [additional instructions]({{ site.baseurl }}/get-started/searchgov-for-federalist.html).
-<br /><br />
+
 ####  C. Index Subdomains
 
 **Who:** The Search.gov team
@@ -110,13 +108,13 @@ By default, we make 1 request per second to a domain. If a `Crawl-delay` is decl
 If you use a firewall service, it’s possible our indexer will be blocked. We can provide our IP addresses for you to whitelist in your firewall. 
 
 Please note, we can only index domains that are publicly accessible. This means that if you have a password-protected staging environment, we will not be able to index it for you as part of your testing process. [Please reach out](mailto:search@support.digitalgov.gov) and we can discuss options if you need to test our service pre-production.
-<br /><br />
+
 ####  D. Test Index
 
 **Who:** Search.gov Team
 
 **What:** For search sites switching from Bing: After your content is indexed, we’ll start up a parallel search site using your current site configuration and the new index, and run a number of test queries to ensure the index is performing satisfactorily. Our test will cover your live site’s most popular queries. 
-<br /><br />
+
 ####  E. Review Index
 
 **Who:** You, the agency web team
@@ -124,7 +122,7 @@ Please note, we can only index domains that are publicly accessible. This means 
 **What:** For sites switching from Bing: After we’re satisfied with the index, we’ll send you a link to the test search site, so you can review and provide feedback.
 
 For brand new sites: You will be able to test the index using your regular search site(s).
-<br /><br />
+
 ####  F. Ready to Launch
 
 **Who:** You, the agency web team, in collaboration with Search.gov
@@ -134,7 +132,7 @@ For brand new sites: You will be able to test the index using your regular searc
 For sites switching from Bing: When you give us the green light to switch to the new index, there is no action needed on your part other than the approval. We will change a setting in our back end, which will point your existing search site’s web results module to our index, and the change is effective immediately. All other elements of your search site remain the same: search features, branding, etc.
 
 {: #add-features }
-<br /><br />
+
 ## 4. Add Search Features
 
 **Who:** You, the agency web team
@@ -152,7 +150,7 @@ For sites switching from Bing: When you give us the green light to switch to the
 * [_Federal Register_]({{ site.baseurl }}/admin-center/display/federal-register-module.html) rules and notices can be added to your search results in a separate module. 
 
 {: #turn-features-on }
-<br />
+
 ## 5. Toggle Search Features On
 
 **Who:** You, the agency web team
@@ -160,7 +158,7 @@ For sites switching from Bing: When you give us the green light to switch to the
 **What:** In order to display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [Display Overview page]({{ site.baseurl }}/admin-center/display/display-overview.html). If you want to show Jobs or _Federal Register_ results and you don’t see those options on the Display Overview page, [let us know](mailto:search@support.digitalgov.gov) and we can connect your search site to those features.
 
 {: #configure-branding }
-<br />
+
 ## 6. Configure Results Page
 
 **Who:** You, the agency web team
@@ -170,7 +168,7 @@ For sites switching from Bing: When you give us the green light to switch to the
 [Masking the domain for your results page]({{ site.baseurl }}/admin-center/display/cname.html) is another way you can provide continuity to your searchers as they move back and forth between your site and our system.
 
 {: #go-live }
-<br />
+
 ## 7. Connect Your Search Box to Search.gov
 
 **Who:** You, the agency web team, in collaboration with your deploy team, if different
