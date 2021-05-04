@@ -65,7 +65,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a4" class="usa-accordion__content usa-prose">
-        <p>We offer a robust API for search results, but its feature set is different from our hosted results page. We have a <a href="{{ site.baseurl }}//admin-center/display/hosted-vs-api-results.html">feature comparison chart</a> that gives details.</p>
+        <p>We offer a robust API for search results, but its feature set is different from our hosted results page. We have a <a href="{{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html">feature comparison chart</a> that gives details.</p>
 
       </div>
   

@@ -1,4 +1,10 @@
 $default-link-color: #005EA2;
+$side-navigation-highlight: #162e51;
+
+// Updating H3 color on navy background
+.usa-section--dark h3 {
+  color: #52daf2;
+}
 
 // Fixing Width Issue on Pages
 .usa-layout-docs__main.usa-prose {
@@ -24,9 +30,18 @@ $default-link-color: #005EA2;
   text-decoration: none;
 }
 
+//Add border and styling to current subnav item
+.usa-sidenav .usa-current {
+  color: $side-navigation-highlight;
+
+  &::after {
+    background-color: $side-navigation-highlight;
+  }
+}
+
 //Archive Banner Styling
 .archived-content {
-  background-color: #FACE02;
+  background-color: #FACE00;
   width: 100%;
   padding: .5rem 1rem;
   display: flex;
