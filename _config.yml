@@ -138,6 +138,10 @@ primary_navigation:
         url: "/indexing/redesign.html"
   - name: Support
     url: "/support.html"
+  - name: For Developers
+    url: "/developer/"
+# END Site Navigation
+
 # Sidebar configuration
 #
 # A sidebar of up to 3 levels can be configured here
@@ -151,24 +155,29 @@ primary_navigation:
 about_us:
   - name: About Us
     url: /about/
-  - name: Why Choose Search.gov?
-    url: "/about/why-choose-searchgov.html"
-  - name: Customers
-    url: "/about/customers.html"
-  - name: Our Product Roadmap
-    url: "/about/updates/roadmap/"
-  - name: Release Notes
-    url: "/about/updates/releases/"
-  - name: Annual Reviews
-    url: "/about/updates/annual-reviews/"
-  - name: Search.gov in Policy
-    url: "/about/policy/"
-  - name: For Developers
-    url: "/developer/"
-  - name: Security and Compliance
-    url: "/about/security.html"
-  - name: Share Your Feedback
-    url: "/about/feedback.html"
+    children: 
+    - name: Why Choose Search.gov?
+      url: "/about/why-choose-searchgov.html"
+    - name: Customers
+      url: "/about/customers.html"
+    - name: Our Product Roadmap
+      url: "/about/updates/roadmap/"
+    - name: Release Notes
+      url: "/about/updates/releases/"
+    - name: Annual Reviews
+      url: "/about/updates/annual-reviews/"
+    - name: Search.gov in Policy
+      url: "/about/policy/"
+    - name: For Developers
+      url: "/developer/"
+    - name: Security and Compliance
+      url: "/about/security.html"
+    - name: Share Your Feedback
+      url: "/about/feedback.html"
+  - name: Related Resources
+    children: 
+    - name: For Developers
+      url: "/developer/"
 
 admin_center:
   - name: Admin Center Help Manual
@@ -197,8 +206,6 @@ get_started:
         url: "/get-started/site-launch-guide.html"
       - name: Search.gov for Federalist
         url: "/get-started/searchgov-for-federalist.html"
-      - name: Available Search Features
-        url: "/admin-center/display/hosted-vs-api-results.html"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
       - name: Training and Resources
@@ -210,6 +217,8 @@ get_started:
     children:
       - name: Why Choose Search.gov?
         url: "/about/why-choose-searchgov.html"
+      - name: Available Search Features
+        url: "/admin-center/display/hosted-vs-api-results.html"
     
 
 indexing:
@@ -218,7 +227,7 @@ indexing:
     children:
       - name: How does indexing work?
         children:
-          - name: How search engines index your website
+          - name: How search engines index your website (Webinar)
             url: "/get-started/training.html#how-engines-index"
           - name: What Search.gov indexes from your website
             url: "/indexing/what-searchgov-indexes.html"
@@ -227,7 +236,7 @@ indexing:
           - name: How A Page on a Sitemap Becomes a Search
             url: "/indexing/sitemaps-to-search-sites.html"
           - name: A step-by-step indexing workflow
-            url: "/get-started/site-launch-guide.html#select-index"
+            url: "/get-started/site-launch-guide.html#indexing-workflow"
       - name: Domain Level SEO Supports
         children:
           - name: All about XML sitemaps
@@ -253,7 +262,12 @@ support:
         url: "/get-started/training.html"
   - name: Share Your Feedback
     url: "/about/feedback.html"
+  - name: For Developers
+    url: "/developer/"
 
+# END sidebar configuration
+
+# Homepage highlights section
 highlights:
   - heading: Highly configurable
     copy: No developers required - use our easy interface to design your search experience yourself, including what content to search, recommended content, and the look and feel of your search results page.
@@ -264,6 +278,7 @@ highlights:
   - heading: No barriers to entry
     copy: Adopting a new tool or service is often difficult for federal agencies, but getting started with Search.gov is friction free. Our service is ready to use, and does not require interagency agreements, payments, or other common procedural challenges.
 
+# Homepage How Do I? section
 tasks:
   - heading: Get help to log in
     copy: If you’re unable to log in to your account, email us for help.

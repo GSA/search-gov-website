@@ -5,7 +5,7 @@ category: developer
 tags: i14y api manage-content
 date: April 12, 2018
 last_modified_at: April 12, 2018
-sidenav: developer
+sidenav: support
 ---
 
 {% include archive.html %}

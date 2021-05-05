@@ -30,6 +30,10 @@ $side-navigation-highlight: #162e51;
   text-decoration: none;
 }
 
+.usa-sidenav__sublist a {
+  padding-left: 2rem !important;
+}
+
 //Add border and styling to current subnav item
 .usa-sidenav .usa-current {
   color: $side-navigation-highlight;
