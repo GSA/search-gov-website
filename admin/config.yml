@@ -21,7 +21,7 @@ collections:
       preview: false
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", default: "[[Month]] [[Year]] Release Notes"}
       - {
           label: "Last Modified At",
           name: "last_modified_at",
@@ -29,79 +29,31 @@ collections:
           format: 'MMMM D, YYYY',
           dateFormat: 'MMMM D, YYYY',
           timeFormat: false }
-      - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."]}
+      - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."], hint: "Relative URL path for redirect."}
       - {label: "Author", name: "author", widget: "hidden"}
       - { 
           label: "Side Navigation",
           name: "sidenav",
           widget: "select",
+          default: "about_us",
           options: ["about_us", "admin_center", "developer", "get_started", "indexing", "support"]
        }
       - { 
           label: "Release Year",
           name: "release-year",
-          widget: "select",
-          default: 2021,
-          options: [2017, 2018, 2019, 2020, 2021, 2022]
+          widget: "string",
+          default: 2021
        }
-      - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Admin Center"
-    name: "admin-center"
-    folder: "admin-center"
-    create: true
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
-      - {label: "Title", name: "title", widget: "string"}
       - {
-          label: "Published Date",
-          name: "date",
-          widget: "datetime",
-          format: 'MMMM D, YYYY',
-          dateFormat: 'MMMM D, YYYY',
-          timeFormat: false
+          label: "Description", 
+          name: "description", 
+          widget: "string",
+          default: ""
         }
       - {
-          label: "Last Updated Date",
-          name: "last_modified_at",
-          widget: "datetime",
-          format: 'MMMM D, YYYY',
-          dateFormat: 'MMMM D, YYYY',
-          timeFormat: false
+          label: "Body", 
+          name: "body", 
+          widget: "markdown",
+          default: "## Improvements \n * \n ## Fixes \n *"
         }
-      - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."]}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Side Navigation?", name: "sidenav", widget: "boolean", default: true, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Admin Center: Activate"
-    name: "activate"
-    folder: "admin-center/activate"
-    create: true
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
-      - {label: "Title", name: "title", widget: "string"}
-      - {
-          label: "Published Date",
-          name: "date",
-          widget: "datetime",
-          format: 'MMMM D, YYYY',
-          dateFormat: 'MMMM D, YYYY',
-          timeFormat: false
-        }
-      - {
-          label: "Last Updated Date",
-          name: "last_modified_at",
-          widget: "datetime",
-          format: 'MMMM D, YYYY',
-          dateFormat: 'MMMM D, YYYY',
-          timeFormat: false
-        }
-      - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."]}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Side Navigation?", name: "sidenav", widget: "boolean", default: true, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+  
