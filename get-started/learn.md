@@ -15,3 +15,4 @@ Search.gov is committed to your success in using our service. We offer webinars 
 * [How to get search engines to index the right content for better discoverability]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html)
 * [How to mask the domain on your search results page]({{ site.baseurl }}/admin-center/display/cname.html)
 * [Metadata management]({{ site.baseurl }}/indexing/metadata.html)
+* [Redesign Tips]({{ site.baseurl }}/indexing/redesign.html)
