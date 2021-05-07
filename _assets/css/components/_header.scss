@@ -26,13 +26,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 175px;
     font-family: Montserrat, Arial, sans-serif;
     color: #162E51;
     letter-spacing: .075em;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .logo {
