@@ -37,17 +37,17 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 
 Once you've created your site, note the actions available on the left-hand navigation of your Admin Center. 
 
-<i class="icon-dashboard"></i> The **Dashboard** is where you can view a Site Overview, manage users, update your site’s homepage, or site display name. 
+<i class="icon-dashboard"></i> The **[Dashboard]({{site.baseurl}}/admin-center/dashboard/)** is where you can view a Site Overview, manage users, update your site’s homepage, or site display name. 
 
-<i class="icon-bar-chart"></i> **Analytics** are provided for the past 13 months, reporting your top queries, clicks, and referrers (the pages people were on when they ran their searches), and monthly rollup data.
+<i class="icon-bar-chart"></i> **[Analytics]({{site.baseurl}}/admin-center/analytics/)** are provided for the past 13 months, reporting your top queries, clicks, and referrers (the pages people were on when they ran their searches), and monthly rollup data.
 
-<i class="icon-file"></i> **Content** management is where you define what your search experience will include, both the default search scope, additional content sources, and alternative search views.
+<i class="icon-file"></i> **[Content]({{site.baseurl}}/admin-center/content/)** management is where you define what your search experience will include, both the default search scope, additional content sources, and alternative search views.
 
-<i class="icon-desktop"></i> **Display** management is where you can configure the branding of your search results page.
+<i class="icon-desktop"></i> **[Display]({{site.baseurl}}/admin-center/display/)** management is where you can configure the branding of your search results page.
 
-<i class="icon-eye-open"></i> **Preview** your search results page to see what your search experience will be like, before you go live.
+<i class="icon-eye-open"></i> **[Preview]({{site.baseurl}}/admin-center/preview.html)** your search results page to see what your search experience will be like, before you go live.
 
-<i class="icon-code"></i> And finally, the **Activate** section provides pre-formatted code snippets to help you go live. Don’t be afraid of entering this area, nothing will actually be activated.
+<i class="icon-code"></i> And finally, the **[Activate](/admin-center/activate/)** section provides pre-formatted code snippets to help you go live. Don’t be afraid of entering this area, nothing will actually be activated.
 
 {: #add-domains }
 
@@ -72,64 +72,8 @@ Regardless of the index used to support your search, we can only serve publicly 
 If we will be indexing your content ourselves, we will follow these steps:
 
 {: #indexing-workflow }
-###  Indexing with Search.gov
 
-####  A. Define Domains and Subdomains
-
-**Who:** You, the agency web team, in consultation with the Search.gov team
-
-**What:** The Admin Center Domains list controls what we pull out of our index for a search on your site. But we also need to know what to put in to the index to begin with. We’ll work with you to confirm the domains and subdomains you want discoverable through search. For example, after discussing with you, we may plan to index all of your subdomains, or just a selection of the major sections:
-
-```
-www.example.gov
-data.example.gov
-archive.example.gov
-www.subagencydomainexample.gov 
-```
-
-####  B. Sitemap for Each Subdomain
-
-**Who:** You, the agency web team, in consultation with the Search.gov team
-
-**What:** The easiest way for us to discover what URLs exist on your domain is via an XML sitemap. Each domain identified above will need a separate sitemap. Please read our [detailed discussion of XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html), and let us know if you have any questions. We understand it can be difficult for some legacy systems to generate a sitemaps, so if this is the case, [please reach out](mailto:search@support.digitalgov.gov).
-
-We do not crawl websites by default due to the high resource demand of crawling every page on every website all the time. One of the goals of our service is to contain the costs of search government-wide, and a crawling-first model would increase costs significantly.
-
-If you publish your site on Federalist, read these [additional instructions]({{ site.baseurl }}/get-started/searchgov-for-federalist.html).
-
-####  C. Index Subdomains
-
-**Who:** The Search.gov team
-
-**What:** Once sitemaps are posted to your website, our system will index your content. Alert us when the sitemaps are posted, and we’ll add your domains to our list of domains that we monitor. Then, indexing will begin.
-
-By default, we make 1 request per second to a domain. If a `Crawl-delay` is declared in your [/robots.txt file]({{ site.baseurl }}/indexing/robotstxt.html), we will honor that delay while fetching your content for indexing. The length of time required to index a site is `(number of items) x (crawl delay) / 3600 = hours to index`.
-
-If you use a firewall service, it’s possible our indexer will be blocked. We can provide our IP addresses for you to whitelist in your firewall. 
-
-Please note, we can only index domains that are publicly accessible. This means that if you have a password-protected staging environment, we will not be able to index it for you as part of your testing process. [Please reach out](mailto:search@support.digitalgov.gov) and we can discuss options if you need to test our service pre-production.
-
-####  D. Test Index
-
-**Who:** Search.gov Team
-
-**What:** For search sites switching from Bing: After your content is indexed, we’ll start up a parallel search site using your current site configuration and the new index, and run a number of test queries to ensure the index is performing satisfactorily. Our test will cover your live site’s most popular queries. 
-
-####  E. Review Index
-
-**Who:** You, the agency web team
-
-**What:** For sites switching from Bing: After we’re satisfied with the index, we’ll send you a link to the test search site, so you can review and provide feedback.
-
-For brand new sites: You will be able to test the index using your regular search site(s).
-
-####  F. Ready to Launch
-
-**Who:** You, the agency web team, in collaboration with Search.gov
-
-**What:**  For brand new sites: Your index is ready to go, you can proceed with the rest of the site launch steps and go live without any further action from our team.
-
-For sites switching from Bing: When you give us the green light to switch to the new index, there is no action needed on your part other than the approval. We will change a setting in our back end, which will point your existing search site’s web results module to our index, and the change is effective immediately. All other elements of your search site remain the same: search features, branding, etc.
+{% include featured-accordion.html content="indexing-long" accordion=true expanded=true %}
 
 {: #add-features }
 

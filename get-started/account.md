@@ -10,6 +10,9 @@ redirect_from:
     - /manual/account.html
 ---
 
+{% include featured-accordion.html content="add-users" accordion=true %}
+
+
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites) > My Account
 
 You can use Search.gov to power the search box on your federal government website&mdash;at no cost.

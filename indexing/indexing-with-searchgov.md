@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Everything You Need to Know About Indexing with Search.gov
+title: How to Index with Search.gov
 crumbname: Indexing
 category: admin-center
 tags: indexing seo
@@ -11,11 +11,10 @@ redirect_from:
   - /manual/indexing-with-searchgov.html
 ---
 
-## How does all this work?
+{% include featured-accordion.html content="indexing-long" accordion=true expanded=false %}
 
-* How search engines index your website: a general overview of Search.gov and commercial search engines
-  * [Webinar]({{ site.baseurl }}/get-started/training.html#how-engines-index) (48 mins)
-  * [Slides]({{ site.baseurl }}/files/HowSearchEnginesIndexYourWebsite.pdf)
+
+## How does all this work?
 
 * [What Search.gov indexes from your website]({{ site.baseurl }}/indexing/what-searchgov-indexes.html)
 
@@ -23,7 +22,11 @@ redirect_from:
 
 * [How A Page on a Sitemap Becomes a Search Result]({{ site.baseurl }}/indexing/sitemaps-to-search-sites.html)
 
-* [A step-by-step indexing workflow]({{ site.baseurl }}/get-started/site-launch-guide.html#indexing-workflow)
+* [A step-by-step indexing workflow]({{ site.baseurl }}/indexing/indexing-workflow.html)
+
+* How search engines index your website: a general overview of Search.gov and commercial search engines
+  * [Webinar]({{ site.baseurl }}/get-started/training.html#how-engines-index) (48 mins)
+  * [Slides]({{ site.baseurl }}/files/HowSearchEnginesIndexYourWebsite.pdf)
 
 ## Domain Level SEO Supports
 
