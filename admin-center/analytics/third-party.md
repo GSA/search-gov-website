@@ -35,11 +35,11 @@ Despite these differences, our agency partners appear to have success in using G
 
 ## Google Analytics
 
-Within your Google Analytics account, select the option, *Do Track Site Search*. Set the query parameter as *query*. For more information, read Google's tip, [Set Up and Configure Site Search](https://support.google.com/analytics/answer/1012264?hl=en&ref_topic=1031951){% external_link %}.
+Within your Google Analytics account, select the option, *Do Track Site Search*. Set the query parameter as *query*. For more information, read Google's tip, [Set Up and Configure Site Search](https://support.google.com/analytics/answer/1012264?hl=en&ref_topic=1031951).
 
 Additionally, if you've requested [domain masking](cname.html) and you want to include the analytics for your *search.example.gov* subdomain with your main *example.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'example.gov']);`.
 
-For more information, read Google's tip, [Tracking Multiple Domains](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSite){% external_link %}.
+For more information, read Google's tip, [Tracking Multiple Domains](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSite).
 
 The code you submit should look something like this:
 

@@ -19,7 +19,7 @@ You can also toggle between filtered and unfiltered views of the data by clickin
 
 ## Monthly Usage Stats
 
-Data for the total number of queries and clicks. Use this report to find and analyze the so-called [short head](http://www.searchtools.com/analysis/long-tail.html){% external_link %} of your most popular search queries and clicks, which are typically the same as your site's [top tasks](https://www.usability.gov/tags/task-analysis/).
+Data for the total number of queries and clicks. Use this report to find and analyze the so-called [short head](http://www.searchtools.com/analysis/long-tail.html) of your most popular search queries and clicks, which are typically the same as your site's [top tasks](https://www.usability.gov/tags/task-analysis/).
 
 ### Queries with No Results
 
@@ -33,7 +33,7 @@ Use this report to inform which [modules you opt to display]({{ site.baseurl }}/
 
 ## Download Top Queries
 
-View a detailed report of the number of times searchers have input specific terms and phrases by clicking on the CSV (comma-separated values) link to download the list as a text file. Once you've downloaded the CSV file, you can easily [import it  into Excel](https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-e8ab9ff3-be8d-43f1-9d52-b5e8a008ba5c){% external_link %} or another speadsheet program to analyze the data.
+View a detailed report of the number of times searchers have input specific terms and phrases by clicking on the CSV (comma-separated values) link to download the list as a text file. Once you've downloaded the CSV file, you can easily [import it  into Excel](https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-e8ab9ff3-be8d-43f1-9d52-b5e8a008ba5c) or another speadsheet program to analyze the data.
 
 Read [Understanding Your Users' Needs By Analyzing Search Terms](https://www.digitalgov.gov/2013/10/24/understanding-your-users-needs-by-analyzing-search-terms/) for tips on how to create a semi-automated report for analyzing the data in this CSV file on a regular basis.
 

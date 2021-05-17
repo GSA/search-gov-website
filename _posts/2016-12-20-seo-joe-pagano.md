@@ -21,11 +21,11 @@ Ammie Farraj Feijoo, our program manager, presented on SEO for government websit
 Download the [slide deck]({{ site.baseurl }}/pdf/seo-joe-pagano.pdf) [PDF] and visit the resources below to learn more.
 
 ## Webmaster Tools
-* [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster){% external_link %}
-* [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en){% external_link %}
+* [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster)
+* [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en)
 
 ## A Few (of Many) SEO Resources
-* [Bing's Collection of SEO-related documents](https://blogs.bing.com/webmaster/2011/04/13/collection-of-seo-related-documents-from-the-bing-ecosystem/){% external_link %}
-* [Google's SEO Starter Guide](https://static.googleusercontent.com/media/www.google.com/en/us/webmasters/docs/search-engine-optimization-starter-guide.pdf) [PDF]{% external_link %} & [How Search Works](https://www.google.com/insidesearch/howsearchworks/thestory/index.html){% external_link %}
-* [Moz's The Beginner's Guide to SEO](https://moz.com/beginners-guide-to-seo){% external_link %}
-* [Search Engine Land's Guide to SEO](https://searchengineland.com/guide/seo){% external_link %}
+* [Bing's Collection of SEO-related documents](https://blogs.bing.com/webmaster/2011/04/13/collection-of-seo-related-documents-from-the-bing-ecosystem/)
+* [Google's SEO Starter Guide](https://static.googleusercontent.com/media/www.google.com/en/us/webmasters/docs/search-engine-optimization-starter-guide.pdf) [PDF] & [How Search Works](https://www.google.com/insidesearch/howsearchworks/thestory/index.html)
+* [Moz's The Beginner's Guide to SEO](https://moz.com/beginners-guide-to-seo)
+* [Search Engine Land's Guide to SEO](https://searchengineland.com/guide/seo)

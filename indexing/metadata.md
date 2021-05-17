@@ -12,9 +12,9 @@ last_modified_at: September 1, 2020
 sidenav: indexing
 ---
 
-Search.gov, like other search engines, relies on structured data to help inform how we index your content and how it is presented in search results. You should also read up on the metadata and structured data used by [Google](https://support.google.com/webmasters/answer/79812?hl=en){% external_link %} and [Bing](https://www.bing.com/webmaster/help/marking-up-your-site-with-structured-data-3a93e731){% external_link %}.
+Search.gov, like other search engines, relies on structured data to help inform how we index your content and how it is presented in search results. You should also read up on the metadata and structured data used by [Google](https://support.google.com/webmasters/answer/79812?hl=en) and [Bing](https://www.bing.com/webmaster/help/marking-up-your-site-with-structured-data-3a93e731).
 
-Including the following tags and metadata in each of your pages will improve the quality of your content's indexing, as well as results ranking. We also encourage you to read about more [HTML5 semantic markup](https://www.semrush.com/blog/semantic-html5-guide/){% external_link %} you can include in your websites.
+Including the following tags and metadata in each of your pages will improve the quality of your content's indexing, as well as results ranking. We also encourage you to read about more [HTML5 semantic markup](https://www.semrush.com/blog/semantic-html5-guide/) you can include in your websites.
 
 This page will be updated over time as we add more tag-based indexing functions and ranking factors to our service.
 
@@ -23,11 +23,11 @@ This page will be updated over time as we add more tag-based indexing functions 
 <br>**Used in:** Query matching, term frequency scoring<br>
 <br>
 `<meta name="description" content="foo" />` 
-<br>**Detail:** Your well crafted, plain language summary of the page content. This will often be used by search engines in place of a page snippet. Be sure to include the keywords you want the page to rank well for. Best to limit to 160 characters, so it will not be truncated. [Read more here](https://moz.com/learn/seo/meta-description){% external_link %}.
+<br>**Detail:** Your well crafted, plain language summary of the page content. This will often be used by search engines in place of a page snippet. Be sure to include the keywords you want the page to rank well for. Best to limit to 160 characters, so it will not be truncated. [Read more here](https://moz.com/learn/seo/meta-description).
 <br>**Used in:** Query matching, term frequency scoring<br>
 <br>
 `<meta name="keywords" content="foo bar baz" />`
-<br>**Detail:** While not often used by commercial search engines due to [keyword stuffing](https://support.google.com/webmasters/answer/66358?hl=en){% external_link %}, Search.gov indexes your keywords, if you have added them.
+<br>**Detail:** While not often used by commercial search engines due to [keyword stuffing](https://support.google.com/webmasters/answer/66358?hl=en), Search.gov indexes your keywords, if you have added them.
 <br>**Used in:** Query matching, term frequency scoring<br>
 <br>
 `<meta property="og:title" content="Title goes here" />`
@@ -39,11 +39,11 @@ This page will be updated over time as we add more tag-based indexing functions 
 <br>**Used in:** Query matching, term frequency scoring<br>
 <br>
 `<meta property="article:published_time" content="YYYY-MM-DD" />`
-<br>**Detail:** Exact time is optional; [read more here](https://en.wikipedia.org/wiki/ISO_8601){% external_link %}.
+<br>**Detail:** Exact time is optional; [read more here](https://en.wikipedia.org/wiki/ISO_8601).
 <br>**Used in:** Page freshness scoring.<br>
 <br>
 `<meta property="article:modified_time" content="YYYY-MM-DD" />`
-<br>**Detail:** Exact time is optional; [read more here](https://en.wikipedia.org/wiki/ISO_8601){% external_link %}.
+<br>**Detail:** Exact time is optional; [read more here](https://en.wikipedia.org/wiki/ISO_8601).
 <br>**Used in:** Page freshness scoring.<br>
 <br>
 `<meta name="robots" content="..., ..." />`

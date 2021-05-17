@@ -62,7 +62,7 @@ We often receive questions when an agency conducts a major website upgrade, chan
 
 **What:** Send us an [email](mailto:search@support.digitalgov.gov), give us a call, either way, please let us know that you’re working on a redesign of your website. If we know ahead of time, we can help you get your new search experience prepped and in good shape on the day of the relaunch. When you reach out to us, include the planned launch date.
 
-It’s important to plan ahead, because if there are any changes to your site structure, your search results will break, which will lead to frustration for the public as they try to use your new site. This is true for our service, and out on Google and Bing. To avoid an avalanche of `404 not found` errors from your search results, wherever possible, use 301 redirects to send visitors from the old pages to the appropriate new pages. For more on 301 redirects, read tips from [Bing](http://blogs.bing.com/webmaster/2011/10/06/managing-redirects-301s-302s-and-canonicals/){% external_link %} and [Google](https://support.google.com/webmasters/answer/93633){% external_link %}. Notify other websites that link to you of the changes.
+It’s important to plan ahead, because if there are any changes to your site structure, your search results will break, which will lead to frustration for the public as they try to use your new site. This is true for our service, and out on Google and Bing. To avoid an avalanche of `404 not found` errors from your search results, wherever possible, use 301 redirects to send visitors from the old pages to the appropriate new pages. For more on 301 redirects, read tips from [Bing](http://blogs.bing.com/webmaster/2011/10/06/managing-redirects-301s-302s-and-canonicals/) and [Google](https://support.google.com/webmasters/answer/93633). Notify other websites that link to you of the changes.
 
 
 <a name="develop-plan"></a>
@@ -172,10 +172,10 @@ At this point, the work splits into two parallel tracks, with your team and ours
 **Who:** You, the agency web team
 
 **What:** Register for the commercial search engines' webmaster tools, if you haven’t already done so.
-* [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster){% external_link %}
-* [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en){% external_link %} (now called Google Search Console)
+* [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster)
+* [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en) (now called Google Search Console)
 * Resources: 
-  *[How to move your content to a new location](http://googlewebmastercentral.blogspot.com/2012/04/how-to-move-your-content-to-new.html)*{% external_link %}, Google Webmaster Central Blog
-  * In Bing, use the [Site Move tool](https://www.bing.com/webmaster/help/how-to-use-the-site-move-tool-bb8f5112){% external_link %}.
+  *[How to move your content to a new location](http://googlewebmastercentral.blogspot.com/2012/04/how-to-move-your-content-to-new.html)*, Google Webmaster Central Blog
+  * In Bing, use the [Site Move tool](https://www.bing.com/webmaster/help/how-to-use-the-site-move-tool-bb8f5112).
 
 If you've undergone a redesign, followed these steps, and your site search results are not what you'd expect, [send us an email](mailto:search@support.digitalgov.gov).

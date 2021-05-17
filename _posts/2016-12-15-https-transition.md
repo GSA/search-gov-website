@@ -6,7 +6,7 @@ tags: help-manual https
 ---
 
 
-[OMB memo M-15-13](https://https.cio.gov/){% external_link %} requires all publicly available federal websites and web services to [implement HTTPS](https://www.digitalgov.gov/2015/07/21/an-introduction-to-https-by-18f-and-digitalgov-university/){% external_link %} by December 31, 2016.
+[OMB memo M-15-13](https://https.cio.gov/) requires all publicly available federal websites and web services to [implement HTTPS](https://www.digitalgov.gov/2015/07/21/an-introduction-to-https-by-18f-and-digitalgov-university/) by December 31, 2016.
 
 Below is a checklist of action items that should be completed in order for your search site to function as expected in HTTPS.
 
@@ -62,13 +62,13 @@ Update your form code action: An `s` must be added to your site’s form action 
 
 Notify Google and Bing about the change; Google and Bing treat a migration from HTTP to HTTPS as a site move. 
 
-* Google has a step-by-step guide, [Move a Site with URL changes](https://support.google.com/webmasters/answer/6033049){% external_link %}. 
-* For Bing, review [How to Use the Site Move tool](https://www.bing.com/webmaster/help/how-to-use-the-site-move-tool-bb8f5112){% external_link %}.
+* Google has a step-by-step guide, [Move a Site with URL changes](https://support.google.com/webmasters/answer/6033049). 
+* For Bing, review [How to Use the Site Move tool](https://www.bing.com/webmaster/help/how-to-use-the-site-move-tool-bb8f5112).
 
 Additional SEO best practices:
 
 * Update your XML sitemap with HTTPS URLs.
-* Use `rel canonical` to [declare HTTPS the preferred version](https://support.google.com/webmasters/answer/139066?hl=en#https){% external_link %}.
+* Use `rel canonical` to [declare HTTPS the preferred version](https://support.google.com/webmasters/answer/139066?hl=en#https).
 * Update internal website links.
 * Update links to your website from social media and other platforms managed by your agency.
 
@@ -77,6 +77,6 @@ Additional SEO best practices:
 
 ***Additional Information:*** 
 
-* Read more about the [HTTPS-Only Standard](https://https.cio.gov/){% external_link %} from the Federal CIO Council.
-* View a [SEO Checklist](https://docs.google.com/spreadsheets/d/1XB26X_wFoBBlQEqecj7HB79hQ7DTLIPo97SS5irwsK8/edit#gid=1975121463) {% external_link %} created by Aleyda Solís.
+* Read more about the [HTTPS-Only Standard](https://https.cio.gov/) from the Federal CIO Council.
+* View a [SEO Checklist](https://docs.google.com/spreadsheets/d/1XB26X_wFoBBlQEqecj7HB79hQ7DTLIPo97SS5irwsK8/edit#gid=1975121463)  created by Aleyda Solís.
 

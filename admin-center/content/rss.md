@@ -29,11 +29,11 @@ Create a name for the feed. Within this 'bucket' you can list a single RSS feed 
 
 ### Feed type
 
-Select the type of feed. The default option is RSS (for text content like press releases or blogs). Change it to [media RSS](http://www.rssboard.org/media-rss){% external_link %} for multimedia content like images and videos.
+Select the type of feed. The default option is RSS (for text content like press releases or blogs). Change it to [media RSS](http://www.rssboard.org/media-rss) for multimedia content like images and videos.
 
 Each item within a RSS feed must include a title, link, description, and publication date.
 
-Each item within a media RSS feed must also include both a [media:content URL](http://www.rssboard.org/media-rss#media-content){% external_link %} to specify a direct URL to the media object and a [media:thumbnail URL](http://www.rssboard.org/media-rss#media-thumbnails){% external_link %} to specify a URL to the object's thumbnail.
+Each item within a media RSS feed must also include both a [media:content URL](http://www.rssboard.org/media-rss#media-content) to specify a direct URL to the media object and a [media:thumbnail URL](http://www.rssboard.org/media-rss#media-thumbnails) to specify a URL to the object's thumbnail.
 
 Any items missing a required element won't display in your search results.
 
@@ -126,9 +126,9 @@ Click on the name of any feed with an error to see more detailed information abo
 
 ***Troubleshooting tip:*** We support RSS 2.0 and Atom feeds. Learn more and validate your feeds at:
 
-* [W3C Feed Validation Service](http://validator.w3.org/feed/){% external_link %} (Atom & RSS)
-* RSS 2.0 [specification](http://www.rssboard.org/rss-specification){% external_link %} and [validator](http://www.rssboard.org/rss-validator/){% external_link %}
-* [Atom syndication format](http://atomenabled.org/developers/syndication/){% external_link %}
+* [W3C Feed Validation Service](http://validator.w3.org/feed/) (Atom & RSS)
+* RSS 2.0 [specification](http://www.rssboard.org/rss-specification) and [validator](http://www.rssboard.org/rss-validator/)
+* [Atom syndication format](http://atomenabled.org/developers/syndication/)
 
 ***Troubleshooting tip:*** We index the content on your RSS feeds from the time you input them in the [Admin Center](https://search.usa.gov/sites/). To backfill historical content, temporarily modify your RSS feeds to return more results. Leave this larger feed in place for one hour. You can do this during off-hours and you don't need to coordinate with us.
 
@@ -142,4 +142,4 @@ You can set up a search box on your website that limits results to your feed.
 
 When you [provide us with your YouTube channel]({{ site.baseurl }}/admin-center/content/youtube.html), we'll automatically index the RSS feed for your YouTube channel.
 
-For any feeds that you've extended with a contributor, publisher, or subject [Dublin Core](http://dublincore.org/documents/dcmi-terms/){% external_link %} property, searchers may narrow results by these facets in the [sidebar]({{ site.baseurl }}/admin-center/display/display-overview.html) on the results page.
+For any feeds that you've extended with a contributor, publisher, or subject [Dublin Core](http://dublincore.org/documents/dcmi-terms/) property, searchers may narrow results by these facets in the [sidebar]({{ site.baseurl }}/admin-center/display/display-overview.html) on the results page.

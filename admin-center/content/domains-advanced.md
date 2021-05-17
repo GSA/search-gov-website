@@ -73,20 +73,20 @@ Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/admin-center
 
 ***Troubleshooting tip:*** We support RSS 2.0 and Atom feeds. Learn more and validate your feeds at:
 
-* [W3C Feed Validation Service](https://validator.w3.org/feed/){% external_link %} (Atom & RSS)
-* RSS 2.0 [specification](http://www.rssboard.org/rss-specification){% external_link %} and [validator](http://www.rssboard.org/rss-validator/){% external_link %}
-* [Atom syndication format](https://atomenabled.org/developers/syndication/){% external_link %}
+* [W3C Feed Validation Service](https://validator.w3.org/feed/) (Atom & RSS)
+* RSS 2.0 [specification](http://www.rssboard.org/rss-specification) and [validator](http://www.rssboard.org/rss-validator/)
+* [Atom syndication format](https://atomenabled.org/developers/syndication/)
 
 ***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report for your PDF that says, "No content found in document"? Your PDF is likely an image-only, non-searchable file that was created from a paper document using a scanner. See the resources below for more information on how to create searchable PDF files.
 
-* [Is that PDF Searchable?](https://blogs.adobe.com/acrolaw/2007/02/is_that_pdf_sea/){% external_link %} (blog post)
-* [How to Create Searchable PDF File](https://acrobatusers.com/tutorials/how-to-create-a-searchable-pdf-file){% external_link %} (video)
+* [Is that PDF Searchable?](https://blogs.adobe.com/acrolaw/2007/02/is_that_pdf_sea/) (blog post)
+* [How to Create Searchable PDF File](https://acrobatusers.com/tutorials/how-to-create-a-searchable-pdf-file) (video)
 
-***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report that says your page is taking too long to load? Use [Google's PageSpeed Tools](https://developers.google.com/speed){% external_link %} to test the load time of your page, analyze it, and find the bottlenecks.
+***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report that says your page is taking too long to load? Use [Google's PageSpeed Tools](https://developers.google.com/speed) to test the load time of your page, analyze it, and find the bottlenecks.
 
 ***Pro Tip*** 
 
 To help the public find your web pages when they search on Bing.com, we notify Bing about any URLs you add. While this helps with search engine optimization (SEO), it is not a cure-all. You should also register for and use commercial search engines' webmaster tools.
 
-* [Google Search Console](https://search.google.com/search-console){% external_link %}
-* [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster){% external_link %}
+* [Google Search Console](https://search.google.com/search-console)
+* [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster)
