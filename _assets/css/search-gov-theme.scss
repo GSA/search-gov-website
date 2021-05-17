@@ -74,7 +74,7 @@ a {
 
 //External Link Styling
 main {
-  [href^=http]:not([href*="search.gov"]):not([href*='usa.gov'])::after{
+  [href^=http]:not([href*=".gov"]):not([href*='.mil'])::after{
     background-image: url(/assets/img/site/launch.svg);
     background-position: 50% 60%;
     background-repeat: no-repeat;
