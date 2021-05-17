@@ -11,6 +11,8 @@ redirect_from:
     - /manual/site-launch-guide.html
 ---
 
+This page includes the basic steps you need to take to start using our service. If your website is planning to go or is already going through a redesign process, see our [checklist]({{site.baseurl}}/indexing/redesign.html) for a successful redesign, content management migration, or both.
+
 At Search.gov we aim to provide a self-service, plug and play search solution. This guide will walk you through everything you need to do, and let you know when to reach out to us. The basic steps are:
 
 1. [Add a site](#add-site)

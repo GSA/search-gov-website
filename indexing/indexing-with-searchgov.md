@@ -11,7 +11,7 @@ redirect_from:
   - /manual/indexing-with-searchgov.html
 ---
 
-{% include featured-accordion.html content="indexing-long" accordion=true expanded=false %}
+{% include featured-accordion.html content="indexing-short" accordion=true expanded=false %}
 
 
 ## How does all this work?
