@@ -12,7 +12,7 @@ redirect_from:
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Twitter
 
-Provide us with the @handle for your Twitter account(s). Your @handle is your agency's username used within Twitter. When you're logged into Twitter, you can see your username at <https://twitter.com/login?redirect_after_login=/settings/account>{% external_link %}.
+Provide us with the @handle for your Twitter account(s). Your @handle is your agency's username used within Twitter. When you're logged into Twitter, you can see your username at <https://twitter.com/login?redirect_after_login=/settings/account>.
 
 For example, the Twitter username for the Transportation Security Administration (TSA), is [@AskTSA](https://twitter.com/AskTSA).
 

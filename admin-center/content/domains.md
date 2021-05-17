@@ -47,7 +47,7 @@ Related Resources:
 
 You can *exclude* specific subdomains or folders using any of the following options.
 
-1. List the excluded subdomains or folders in your [robots.txt](http://www.robotstxt.org){% external_link %} file. This blocks them from all crawlers that follow the robots exclusion protocol, including Google.com and Bing.com.
+1. List the excluded subdomains or folders in your [robots.txt](http://www.robotstxt.org) file. This blocks them from all crawlers that follow the robots exclusion protocol, including Google.com and Bing.com.
 
 2. Exclude them by omission. For example, to exclude subdomain3, list only subdomain1.yoursite.gov, subdomain2.yoursite.gov, and subdomain4.yoursite.gov.
 
@@ -59,9 +59,9 @@ You can remove or filter specific URLs using any of the following options.
 
 1. Remove the page from your site and return a 404 (Not Found) 401 (Gone), or 301 (Permanently Moved) HTTP status.
 
-2. Add a [noindex robots metatag or x-robots tag](https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag?csw=1){% external_link %}. This blocks them from all crawlers that follow the robots exclusion protocol, including Google.com and Bing.com.
+2. Add a [noindex robots metatag or x-robots tag](https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag?csw=1). This blocks them from all crawlers that follow the robots exclusion protocol, including Google.com and Bing.com.
 
-3. Request the page's removal using the [Block URLs option in Bing Webaster Tools](https://www.bing.com/webmaster/help/block-urls-from-bing-264e560a){% external_link %} and [Remove URLs option in Google Webmaster Tools](https://support.google.com/webmasters/answer/1663419){% external_link %}.
+3. Request the page's removal using the [Block URLs option in Bing Webaster Tools](https://www.bing.com/webmaster/help/block-urls-from-bing-264e560a) and [Remove URLs option in Google Webmaster Tools](https://support.google.com/webmasters/answer/1663419).
 
 4. Use the [Filter URLs]({{ site.baseurl }}/admin-center/content/filter-content.html) option under the Advanced tab. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
 

@@ -21,7 +21,7 @@ Search.gov is a by-government, for-government web search engine, available at no
   * [A Step-By-Step Indexing Workflow]({{ site.baseurl }}/get-started/site-launch-guide.html#indexing-workflow)
   * [About XML Sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)
 * [Learn what search features are available through our service]({{ site.baseurl }}/about/why-choose-searchgov.html): check out the features we offer and how we compare to other search engines.
-* Watch our 4-minute [Getting Started](https://www.youtube.com/watch?v=p-y9T23ziEg) {% external_link %} video, or a recording of our webinar [Intro to Search.gov](https://search.gov/get-started/training.html) {% external_link %}, a one-hour overview of our system.
+* Watch our 4-minute [Getting Started](https://www.youtube.com/watch?v=p-y9T23ziEg)  video, or a recording of our webinar [Intro to Search.gov](https://search.gov/get-started/training.html) , a one-hour overview of our system.
 * Review our [Search Site Launch Guide]({{ site.baseurl }}/get-started/site-launch-guide.html), a step by step guide that takes you through everything you need to do to start using our service.
 * Contact Us: email us at search@support.digitalgov.gov or call at 202-969-7426 if you have any questions. We will be happy to schedule a call to go over your specific search needs.
 

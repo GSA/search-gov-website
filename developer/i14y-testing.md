@@ -13,7 +13,7 @@ sidenav: support
 > **Important Note:** April, 2018. i14y does not visit your content to do full-text scraping of your content. For new implementations, the Search.gov team recommends you index your content with us not using the i14y API, but rather by publishing a comprehensive xml sitemap, which we can use to index your content. [Read more.]({{ site.baseurl }}/blog/six-months-in.html)
 
 If you experience difficulty sending documents to our index via [i14y]({{ site.baseurl }}/developer/i14y.html), it is possible your firewall is not letting you communicate with the i14y server. Adding a test document to your i14y drawer can help you diagnose a firewall issue.
-Windows users may need to [install cURL](https://curl.haxx.se/download.html){% external_link %} in order to run this test from the command line.
+Windows users may need to [install cURL](https://curl.haxx.se/download.html) in order to run this test from the command line.
 
 ## Adding the Test Document
 

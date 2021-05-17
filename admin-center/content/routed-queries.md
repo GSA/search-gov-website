@@ -30,7 +30,7 @@ We recommend creating a routed query for [top tasks](https://digitalgov.gov/2015
 
 ## Examples of How It Works
 
-Private industry has been using query routing for some time. If you go to [Home Depot](http://www.homedepot.com/){% external_link %} and search for a general term like *carpet*, you're routed to their carpet navigation page. If you search for a more specific term like *vanities*, you get standard search results.
+Private industry has been using query routing for some time. If you go to [Home Depot](http://www.homedepot.com/) and search for a general term like *carpet*, you're routed to their carpet navigation page. If you search for a more specific term like *vanities*, you get standard search results.
 
 Using USA.gov an as example, every time someone goes to [USA.gov](https://www.usa.gov) and searches for any of the following terms (must be exact matches), they'll automatically be directed to the USA.gov [Unclaimed Money from the Government](https://www.usa.gov/unclaimed-money) page.
 

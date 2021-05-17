@@ -14,7 +14,7 @@ tags: i14y api
 
 > **Important Note:** Search.gov team recommends you index your content with us not using the i14y API, but rather by publishing a comprehensive xml sitemap, which we can use to index your content. [Read more.]({{ site.baseurl }}/indexing/indexing-with-searchgov.html)
 
-[i14y Github repo](https://github.com/GSA/i14y){% external_link %}
+[i14y Github repo](https://github.com/GSA/i14y)
 
 ## What is i14y?
 

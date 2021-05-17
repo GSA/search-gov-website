@@ -28,7 +28,7 @@ Read our [favorite tips]({{ site.baseurl }}/blog/serp-redesign-tips.html) to see
 
 ## Image Assets
 
-**Favicon.** Provide the URL for your agency's favicon. (A [favicon](http://webdesign.about.com/od/favicon/f/blfaqfavicon1.htm){% external_link %}, short for favorites icon, is the small image associated with your website.)
+**Favicon.** Provide the URL for your agency's favicon. (A [favicon](http://webdesign.about.com/od/favicon/f/blfaqfavicon1.htm), short for favorites icon, is the small image associated with your website.)
 
 **Logo.** Use the Choose File option to upload the logo that you'd like to appear in the header of your results page. Click on the option, Mark Logo for Deletion, to delete an uploaded logo. There isn't a required dimension. That said, images less than 550 pixels wide and 100 pixels high tend to work best.
 
@@ -59,4 +59,4 @@ Use the list icon (with three horizontal lines) on the left to change the order.
 
 * As you change each font and color option, the mini search results page in the upper right-hand corner will update to reflect your changes. Once you click save, the changes will appear on your live site.
 * Our search results page uses a responsive design to ensure it is optimized for searchers anywhere, anytime, and on any device. 
-* We offer results through our Search Results API, if you'd like to create mash-ups or have complete control of the look and feel of your search results pages. See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) of our hosted results page vs. our Results API. For detailed information on the Results API, see our documentation on [Open GSA](https://open.gsa.gov/api/searchgov-results/){% external_link %}.
+* We offer results through our Search Results API, if you'd like to create mash-ups or have complete control of the look and feel of your search results pages. See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) of our hosted results page vs. our Results API. For detailed information on the Results API, see our documentation on [Open GSA](https://open.gsa.gov/api/searchgov-results/).

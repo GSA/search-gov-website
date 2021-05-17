@@ -15,7 +15,7 @@ sidenav: indexing
 A `/robots.txt` file is a text file that instructs automated web bots on how to crawl and/or index a website. Web teams use them to provide information about what site directories should or should not be crawled, how quickly content should be accessed, and which bots are welcome on the site.
 
 ## What should my robots.txt file look like?
-Please refer to the [robots.txt protocol](http://www.robotstxt.org/robotstxt.html) {% external_link %} for detailed information on how and where to create your robots.txt. Key points to keep in mind:
+Please refer to the [robots.txt protocol](http://www.robotstxt.org/robotstxt.html)  for detailed information on how and where to create your robots.txt. Key points to keep in mind:
 
 * The file must be located at the root of the domain, and each subdomain needs its own file.
 * The robots.txt protocol is case sensitive.
@@ -91,11 +91,11 @@ Disallow: /archive/
 
 <i class="icon-check"></i> 3. The robots.txt file lists one or more [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)  
 
-<i class="icon-check"></i> 4. The robots.txt file format has been [validated](https://www.websiteplanet.com/webtools/sitemap-validator/) {% external_link %}
+<i class="icon-check"></i> 4. The robots.txt file format has been [validated](https://www.websiteplanet.com/webtools/sitemap-validator/) 
 
 ## Additional Resources
-[Yoast SEO's Ultimate Guide to Robots.txt](https://yoast.com/ultimate-guide-robots-txt/) {% external_link %}  
+[Yoast SEO's Ultimate Guide to Robots.txt](https://yoast.com/ultimate-guide-robots-txt/)   
 
-[Google's "Learn about robots.txt files"](https://support.google.com/webmasters/answer/6062608?hl=en&ref_topic=6061961) {% external_link %}  
+[Google's "Learn about robots.txt files"](https://support.google.com/webmasters/answer/6062608?hl=en&ref_topic=6061961)   
 
 

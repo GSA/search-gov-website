@@ -29,7 +29,7 @@ You can [read more detail on each of the following elements here]({{ site.baseur
 * url
 * lastmod (collected from XML sitemaps)
 
-### [Open Graph protocol](http://ogp.me/) {% external_link %} elements
+### [Open Graph protocol](http://ogp.me/)  elements
 
 * og:description
 * og:title
@@ -49,4 +49,4 @@ In addition to HTML pages with their various file extensions, Search.gov indexes
 Coming soon:
 * Powerpoint
 
-Please note that at this time we cannot index javascript content, [similar to most search engines](https://moz.com/blog/search-engines-ready-for-javascript-crawling){% external_link %}. At this time we recommend your team adds well crafted, unique description text for each of your pages, or perhaps auto-generate description tag text from the first few lines of the article text. However the text is added, it should include the keywords you want the page to respond to in search, framed in plain language. This will give us, and other search engines, something to work with when we're matching and ranking results. See our discussion of description [metadata]({{ site.baseurl }}/indexing/metadata.html) for more information.
+Please note that at this time we cannot index javascript content, [similar to most search engines](https://moz.com/blog/search-engines-ready-for-javascript-crawling). At this time we recommend your team adds well crafted, unique description text for each of your pages, or perhaps auto-generate description tag text from the first few lines of the article text. However the text is added, it should include the keywords you want the page to respond to in search, framed in plain language. This will give us, and other search engines, something to work with when we're matching and ranking results. See our discussion of description [metadata]({{ site.baseurl }}/indexing/metadata.html) for more information.
