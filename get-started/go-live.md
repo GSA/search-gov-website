@@ -72,4 +72,4 @@ Most agencies add these two [snippets of code]({{ site.baseurl }}/admin-center/a
 
 ## Don't Forget SEO
 
-<i class="icon-check"></i> **11. Have you registered your site with the major commercial search engines?** Register for both [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster){% external_link %} and [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en){% external_link %} to maximize the coverage of your content in their search results.
+<i class="icon-check"></i> **11. Have you registered your site with the major commercial search engines?** Register for both [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster) and [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en) to maximize the coverage of your content in their search results.

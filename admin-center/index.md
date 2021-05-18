@@ -64,7 +64,7 @@ Related resources:
 ## <i class="icon-code"></i> [Activate Search]({{ site.baseurl }}/admin-center/activate/)
 
 * [Code snippets]({{ site.baseurl }}/admin-center/activate/code.html)
-* [Search Results API instructions and access key](https://open.gsa.gov/api/searchgov-results/)\*{% external_link %}
+* [Search Results API instructions and access key](https://open.gsa.gov/api/searchgov-results/)\*
 * [Type-ahead API instructions]({{ site.baseurl }}/admin-center/activate/typeahead-api.html)\*
 * [i14y API instructions]({{ site.baseurl }}/developer/i14y.html)\*
 
@@ -84,7 +84,7 @@ Related resources:
 * [Using your own domain on your results page]({{ site.baseurl }}/admin-center/display/cname.html)
 
 ### Training Videos
-* [Getting Started video](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins){% external_link %}
+* [Getting Started video](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins)
 * [All Training Videos]({{ site.baseurl }}/get-started/training.html)
 
 Do you have other questions or comments about how our service works? [Email us](mailto:search@support.digitalgov.gov).

@@ -3,6 +3,7 @@
   align-items: center;
   padding-top: units(1);
   padding-bottom: units(1);
+  background-color: white;
 }
 
 .usa-nav__primary {
@@ -25,17 +26,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 175px;
-    // font-family: Avenir, Arial, sans-serif;
-    color: #112E51;
+    font-family: Montserrat, Arial, sans-serif;
+    color: #162E51;
     letter-spacing: .075em;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .logo {
     background-color: #0071bc;
+  }
+
+  span {
+    padding-left: .4rem;
+    padding-bottom: .25rem;
   }
 }
 
@@ -65,6 +71,9 @@
 @media (min-width: 64em) {
   .usa-nav__secondary {
     bottom: 4rem;
+  }
+  .usa-header--extended .usa-logo {
+    margin-bottom: .75rem;
   }
 }
 

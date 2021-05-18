@@ -32,7 +32,7 @@ We’d like to update you on our progress and share some lessons learned. Over t
 
 ### 4. XML sitemaps are great - really helpful for search engines and pretty easy for agencies to implement
 
-* An XML sitemap is a machine-friendly list of the contents of a website. While no one can know for sure, the consensus in the SEO industry is that Google and Bing use XML sitemaps as part of their monitoring sites for new or updated content. Making it easy for them to find your content is thought to give a [ranking boost to your site’s content](https://searchengineland.com/guide/seo/site-architecture-search-engine-ranking) {% external_link %}.
+* An XML sitemap is a machine-friendly list of the contents of a website. While no one can know for sure, the consensus in the SEO industry is that Google and Bing use XML sitemaps as part of their monitoring sites for new or updated content. Making it easy for them to find your content is thought to give a [ranking boost to your site’s content](https://searchengineland.com/guide/seo/site-architecture-search-engine-ranking) .
 * Most content management systems have plugins that will generate an xml sitemap for the content in the CMS. Static content can either be added to the CMS-generated sitemap, or listed in a separate sitemap file.
 * We feel it’s a better use of time for agency teams to work on implementing good sitemaps that will help them out in Google and Bing, as well as with the Search.gov system, than to invest a lot of time in an integration that only works with us.
 
@@ -42,7 +42,7 @@ We built the new index model and released that in December 2017, along with our 
 
 We added a crawler in January 2018, to facilitate URL discovery on a given website.
 
-We added the ability to index content from XML sitemaps in February. We follow the [sitemaps protocol](https://www.sitemaps.org/protocol.html) {% external_link %}, which relies in part on also having  and have posted a explainer pages about [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html) and [robots.txt files]({{ site.baseurl }}/indexing/robotstxt.html) to get you the most essential information.
+We added the ability to index content from XML sitemaps in February. We follow the [sitemaps protocol](https://www.sitemaps.org/protocol.html) , which relies in part on also having  and have posted a explainer pages about [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html) and [robots.txt files]({{ site.baseurl }}/indexing/robotstxt.html) to get you the most essential information.
 
 We removed our connection to the Google Site Search API in March, and are now serving results from our own index for those cases where we had previously used Google. 
 

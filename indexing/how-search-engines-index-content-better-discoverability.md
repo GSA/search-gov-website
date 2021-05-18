@@ -100,7 +100,7 @@ This example tells bots not to index the page, and not to follow any of the link
 
 `<meta name="robots" content="noindex, nofollow" />`
 
-You can also add an X-Robots-Tag to you HTTP header response to control indexing for a given page. This requires deeper access to servers than our customers usually have themselves, so if you are interested in learning more, you can do so [here](https://developers.google.com/search/reference/robots_meta_tag) {% external_link %}.
+You can also add an X-Robots-Tag to you HTTP header response to control indexing for a given page. This requires deeper access to servers than our customers usually have themselves, so if you are interested in learning more, you can do so [here](https://developers.google.com/search/reference/robots_meta_tag) .
 
 If you have content that should be indexed when it’s fresh, but needs to be removed from the index once it’s outdated, you’ll want to take a few actions:
 
@@ -210,9 +210,9 @@ Various scripts, etc.
 
 ## Resources
 
-* [HTML <main> Tag](https://www.w3schools.com/tags/tag_main.asp) {% external_link %} - accessed October 10, 2018.
+* [HTML <main> Tag](https://www.w3schools.com/tags/tag_main.asp)  - accessed October 10, 2018.
 * [Robots meta tag and X-Robots-Tag HTTP header specifications
-](https://developers.google.com/search/reference/robots_meta_tag) {% external_link %} - accessed October 10, 2018.
+](https://developers.google.com/search/reference/robots_meta_tag)  - accessed October 10, 2018.
 * [rel=canonical: the ultimate guide
-](https://yoast.com/rel-canonical/) {% external_link %} - accessed October 10, 2018.
-* [Consolidate duplicate URLs: Define a canonical page for similar or duplicate pages](https://support.google.com/webmasters/answer/139066?hl=en) {% external_link %} - accessed October 10, 2018.
+](https://yoast.com/rel-canonical/)  - accessed October 10, 2018.
+* [Consolidate duplicate URLs: Define a canonical page for similar or duplicate pages](https://support.google.com/webmasters/answer/139066?hl=en)  - accessed October 10, 2018.

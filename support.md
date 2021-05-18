@@ -52,7 +52,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a3" class="usa-accordion__content usa-prose">
-        <p><a href="mailto:search@support.digitalgov.gov">email us</a> right away. We’ll need to do some things in the back-end of the system to get your search results up to date as soon as possible. Also, please read through our <a href="{{ site.baseurl }}/indexing/redesign.html">Checklist For A Successful Redesign</a> for suggestions on what you can do right away.</p>
+        <p><a href="mailto:search@support.digitalgov.gov">Email us</a> right away. We’ll need to do some things in the back-end of the system to get your search results up to date as soon as possible. Also, please read through our <a href="{{ site.baseurl }}/indexing/redesign.html">Checklist For A Successful Redesign</a> for suggestions on what you can do right away.</p>
 
       </div>
   
@@ -92,7 +92,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
       </h3>
       <div id="m-a6" class="usa-accordion__content usa-prose">
         <p>Our <a href="{{ site.baseurl }}/status.html">System Status page</a> shows our current status and any performance issues we may be working on.</p>
-
+        
       </div>
   
 </div>

@@ -131,7 +131,7 @@ primary_navigation:
       - name: How a page becomes a search result
         url: "/indexing/sitemaps-to-search-sites.html"
       - name: Indexing workflow
-        url: "/get-started/site-launch-guide.html#indexing-workflow"
+        url: "/indexing/indexing-workflow.html"
       - name: Metadata and tags
         url: "/indexing/metadata.html"
       - name: Website redesign tips
@@ -168,8 +168,6 @@ about_us:
       url: "/about/updates/annual-reviews/"
     - name: Search.gov in Policy
       url: "/about/policy/"
-    - name: For Developers
-      url: "/developer/"
     - name: Security and Compliance
       url: "/about/security.html"
     - name: Share Your Feedback
@@ -236,7 +234,7 @@ indexing:
           - name: How A Page on a Sitemap Becomes a Search
             url: "/indexing/sitemaps-to-search-sites.html"
           - name: A step-by-step indexing workflow
-            url: "/get-started/site-launch-guide.html#indexing-workflow"
+            url: "/indexing/indexing-workflow.html"
       - name: Domain Level SEO Supports
         children:
           - name: All about XML sitemaps

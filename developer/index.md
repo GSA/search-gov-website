@@ -17,14 +17,14 @@ These APIs are available for use on official government websites only. You must 
 **Search Results API** &mdash; This API exposes all relevant results "modules" in a single JSON call, including: web results, best bets, health topics, job openings, recent tweets, recent news, recent videos, *Federal Register* documents, and related searches. Use it to ***pull search results*** from our service to display on your agency's website or mobile applications. 
 
 - See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) between our Results API modules and our hosted search results page.
-- [Results API technical documentation](https://open.gsa.gov/api/searchgov-results/){% external_link %}
-- The Results API should be used in parallel with our [Clicks API](https://open.gsa.gov/api/searchgov-clicks/){% external_link %}.
+- [Results API technical documentation](https://open.gsa.gov/api/searchgov-results/)
+- The Results API should be used in parallel with our [Clicks API](https://open.gsa.gov/api/searchgov-clicks/).
 
-**[Type-ahead API](https://open.gsa.gov/api/searchgov-suggestions/)** {% external_link %} &mdash; This API exposes the type-ahead suggestions that often appear below your search box as searchers enter their search terms. We recommend, however, that instead of using this API you [use our javascript snippet]({{ site.baseurl }}/admin-center/activate/typeahead-api.html) that will call the API for you.
+**[Type-ahead API](https://open.gsa.gov/api/searchgov-suggestions/)**  &mdash; This API exposes the type-ahead suggestions that often appear below your search box as searchers enter their search terms. We recommend, however, that instead of using this API you [use our javascript snippet]({{ site.baseurl }}/admin-center/activate/typeahead-api.html) that will call the API for you.
 
 **[i14y]({{ site.baseurl }}/developer/i14y.html)** &mdash; This API is still available, but we encourage the use of sitemap-based indexing instead. Read more about our indexing process [here]({{ site.baseurl }}/indexing/indexing-with-searchgov.html). The i14y API allows you to send content directly from your content management system (CMS) into Search.gov for real-time indexing.
 
-**[Clicks API](https://open.gsa.gov/api/searchgov-clicks/)** {% external_link %} &mdash; This API is to use in parallel with the Search Results API. It allows sites that display results on their own websites to send click action data into our system for analysis.
+**[Clicks API](https://open.gsa.gov/api/searchgov-clicks/)**  &mdash; This API is to use in parallel with the Search Results API. It allows sites that display results on their own websites to send click action data into our system for analysis.
 
 ## APIs and Data Feeds for the Public
 

@@ -11,12 +11,12 @@ After you get your [search site set up]({{ site.baseurl }}/get-started/site-laun
  
 We offer a [hosted search results page]({{ site.baseurl }}/admin-center/display/), which allows you to configure the look and feel of the results page using our Admin Center interface. We recommend you use the hosted results page because all our features are available and maintained over time. Searchers will have a good experience with no developer effort on the agency’s part.
  
-We also offer a [Results API](https://open.gsa.gov/api/searchgov-results/){% external_link %}. To use this API, you'll need developers to develop a results page template within your website’s environment in order to display results. We also recommend you plan to implement our [Clicks API](https://open.gsa.gov/api/searchgov-clicks/){% external_link %}, to use alongside the Results API.
+We also offer a [Results API](https://open.gsa.gov/api/searchgov-results/). To use this API, you'll need developers to develop a results page template within your website’s environment in order to display results. We also recommend you plan to implement our [Clicks API](https://open.gsa.gov/api/searchgov-clicks/), to use alongside the Results API.
 
 | Analytics Features | Available on Hosted Search Results Page? | Available in Results API? |
 | :-- | :--: | :--: |
 | [Query tracking]({{ site.baseurl }}/admin-center/analytics/queries.html) to see what people searched for on your website | Yes | Yes |
-| [Click tracking]({{ site.baseurl }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes - requires a [secondary API call](https://open.gsa.gov/api/searchgov-clicks/){% external_link %} |
+| [Click tracking]({{ site.baseurl }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes - requires a [secondary API call](https://open.gsa.gov/api/searchgov-clicks/) |
 | [Referrer tracking]({{ site.baseurl }}/admin-center/analytics/referrers.html) to see where people were when they ran their searches | Yes | No |
 
 | Content Features | Available on Hosted Search Results Page? | Available in Results API? |
