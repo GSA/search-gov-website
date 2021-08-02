@@ -16,7 +16,7 @@ Customer feedback is a core component of our service. Our success depends on you
 
 Let us know how can we do better. What would you like us to work on next? Use this form to send general questions and comments.
 
-If you need immediate assistance, contact us via email at search@support.digitalgov.gov, or call us at 202-969-7426.
+If you need immediate assistance, contact us via email at [search@support.digitalgov.gov](mailto:search@support.digitalgov.gov), or call us at [202-969-7426](tel:202-969-7426).
 
 Thank you for your time!
 
