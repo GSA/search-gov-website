@@ -4,7 +4,9 @@ backend:
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
-  branch: 2020-redesign
+  branch: afarooque/cms-configuration
+  squash_merges: true
+
 
 media_folder: assets/uploads
 public_folder: /images/uploads
@@ -29,8 +31,8 @@ collections:
           format: 'MMMM D, YYYY',
           dateFormat: 'MMMM D, YYYY',
           timeFormat: false }
-      - {label: "Redirect From", name: "redirect_from", widget: "string", pattern: ['^\/.*', "Must begin with leading slash."], hint: "Relative URL path for redirect."}
-      - {label: "Author", name: "author", widget: "hidden"}
+      - {label: "Redirect From", name: "redirect_from", widget: "list", required: false, pattern: ['^\/.*', "Must begin with leading slash."], hint: "Relative URL path for redirect. Comma-separated list."}
+      - {label: "Author", name: "author", required: false, widget: "hidden"}
       - { 
           label: "Side Navigation",
           name: "sidenav",
@@ -48,12 +50,111 @@ collections:
           label: "Description", 
           name: "description", 
           widget: "string",
+          required: false,
           default: ""
         }
       - {
           label: "Body", 
           name: "body", 
           widget: "markdown",
-          default: "## Improvements \n * \n ## Fixes \n *"
+          default: "## Improvements \n \n ## Fixes \n"
         }
-  
+  - label: About 
+    name: about
+    folder: about/
+    create: true
+    slug: "{{slug}}"
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    editor:
+      preview: false
+    meta: &standard_path { path: { widget: string, label: 'Path', index_file: 'index' } }
+    fields: &standard_fields
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Last Modified At",
+          name: "last_modified_at",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false }
+      - {label: "Redirect From", name: "redirect_from", widget: "list", required: false, pattern: ['^\/.*', "Must begin with leading slash."], hint: "Relative URL path for redirect. Comma-separated list."}
+      - {label: "Author", name: "author", widget: "hidden"}
+      - { 
+          label: "Side Navigation",
+          name: "sidenav",
+          widget: "select",
+          default: "about_us",
+          options: ["about_us", "admin_center", "developer", "get_started", "indexing", "support"]
+      }
+      - {
+          label: "Description", 
+          name: "description", 
+          required: false,
+          widget: "string",
+          default: ""
+        }
+      - {
+          label: "Body", 
+          name: "body", 
+          widget: "markdown"
+        }
+  - label: Admin Center
+    name: admin-center
+    folder: admin-center/
+    create: true
+    slug: "{{slug}}"
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    editor:
+      preview: false
+    meta: *standard_path
+    fields: *standard_fields
+  - label: Developer
+    name: developer
+    folder: developer/
+    create: true
+    slug: "{{slug}}"
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    editor:
+      preview: false
+    meta: *standard_path
+    fields: *standard_fields
+  - label: Indexing
+    name: indexing
+    folder: indexing/
+    create: true
+    slug: "{{slug}}"
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    editor:
+      preview: false
+    meta: *standard_path
+    fields: *standard_fields
+  - label: Get Started
+    name: get-started
+    folder: get-started/
+    create: true
+    slug: "{{slug}}"
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    editor:
+      preview: false
+    meta: *standard_path
+    fields: *standard_fields
+  - label: Main Pages
+    name: main-pages
+    folder: /
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    meta: *standard_path
+    fields: *standard_fields
