@@ -29,6 +29,6 @@ In 2010, Search.gov moved to open-source software and became available to agenci
 * **John Maxwell** - Developer
 
 Do you have any questions or need any assistance? We’re here to help!
-Email us at [search@support.digitalgov.gov](mailto:search@support.digitalgov.gov), or give us a call at [202-969-7426](tel:2029697426), Monday through Friday 9am to 5pm ET, except for federal holidays.
+Email us at [search@support.digitalgov.gov](mailto:search@support.digitalgov.gov). You can also give us a call at [202-969-7426](tel:2029697426), Monday through Friday 9am to 5pm ET, except for federal holidays.
 
 If you’re a federal agency, we’d be happy to schedule time with you for a consultation. Email us to set up a time.
