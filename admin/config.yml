@@ -23,6 +23,7 @@ collections:
       preview: false
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: 'Category', name: 'category', widget: 'hidden', default: 'releases'}
       - {label: "Title", name: "title", widget: "string", default: "[[Month]] [[Year]] Release Notes"}
       - {
           label: "Last Modified At",
