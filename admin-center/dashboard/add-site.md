@@ -10,8 +10,9 @@ sidenav: admin_center
 redirect_from:
     - "/manual/add-site.html"
 ---
-
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > Add Site
+
+{% include featured-accordion.html content="access-existing-site" accordion=true %}
 
 ## Homepage URL
 

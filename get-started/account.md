@@ -10,7 +10,7 @@ redirect_from:
     - /manual/account.html
 ---
 
-{% include featured-accordion.html content="add-users" accordion=true %}
+{% include featured-accordion.html content="add-users, access-existing-site" accordion=true %}
 
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites) > My Account

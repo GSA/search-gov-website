@@ -5,6 +5,7 @@ sidenav: admin_center
 date: March 1, 2021
 last_modified_at: March 1, 2021
 ---
+{% include featured-accordion.html content="access-existing-site" accordion=true %}
 
 <i class="icon-bar-chart"></i> The Analytics section allows you to view unsampled, near real-time data for your search traffic.
 
