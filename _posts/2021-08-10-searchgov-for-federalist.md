@@ -38,13 +38,13 @@ If you wish to test before launch, you'll need to publish the website to a publi
 
 1. Open the `_config.yml` file in your Federalist repo.
 1. Add your site's domain to the `url` field, approximately line 25. Leave this line commented out for now.
-  1. If you're testing pre-production, enter your **demo** domain here, and uncomment the line to allow the XML sitemap to build using the demo domain. 
+  * If you're testing pre-production, enter your **demo** domain here, and uncomment the line to allow the XML sitemap to build using the demo domain. 
 1. Find the `Search.gov configuration` section following the navigation and sidebar configuration sections. Add your site handle from the Admin Center to the `affiliate` line.
 1. If you are using the hosted search results page:
-  1. Delete the value in the `access_key` line and/or comment out the line.
-  1. Set the `inline` value to `false`
+  * Delete the value in the `access_key` line and/or comment out the line.
+  * Set the `inline` value to `false`
 1. If you're pulling search results into your website for display:
-  1. Go to the Search.gov Admin Center, and find the `Activate` section, `API Access Key`. Copy this value to the `access_key` line in your Federalist `_config.yml` file.
+  * Go to the Search.gov Admin Center, and find the `Activate` section, `API Access Key`. Copy this value to the `access_key` line in your Federalist `_config.yml` file.
 1. If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the `suggestions` value to `false`.
 1. When you're ready to launch your website, you will uncomment  the `url` line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.
-  1. If you tested using a demo domain, you'll need to update the `url` value to be your production domain.
+  * If you tested using a demo domain, you'll need to update the `url` value to be your production domain.
