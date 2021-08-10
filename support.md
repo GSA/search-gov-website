@@ -94,8 +94,23 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         <p>Our <a href="{{ site.baseurl }}/status.html">System Status page</a> shows our current status and any performance issues we may be working on.</p>
         
       </div>
+
+       <!-- Use the accurate heading level to maintain the document outline -->
+      <h3 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a7">
+          How do I access an existing site?
+        </button>
+      </h3>
+      <div id="m-a7" class="usa-accordion__content usa-prose">
+        {% include featured-accordion.html content="access-existing-site" accordion=false %}
+      </div>
   
+      
 </div>
+
+
 
 ## Other Requests
 
