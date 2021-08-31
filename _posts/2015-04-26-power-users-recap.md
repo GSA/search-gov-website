@@ -9,7 +9,7 @@ Our April 2015 training session looked into the nooks and crannies of the [Admin
 
 Watch the [recorded session](https://www.youtube.com/watch?v=Z1Eg9LhhFcY) on YouTube.
 
-The launch of a new or redesigned site is a great time to think about refreshing your search as well. Come along on a journey through a search refresh before, during, and just after your new site goes live. You need not wait for a new site, though - these steps can be taken at any time.
+The launch of a new or redesigned site is a great time to think about refreshing your search as well. Come along on a journey through a search refresh before, during, and just after your new site goes live. You need not wait for a new site, though &mdash; these steps can be taken at any time.
 
 * [Tell search engines to (re-)index your site](#commercial)
 * [Let us index your site directly](#direct)
@@ -45,7 +45,7 @@ While we don’t crawl, we will index any pages you tell us about. The steps men
 
 Don’t forget to update your content settings in the Admin Center to point to your new content. This is an important, but often overlooked step.
 
-* Set up your domains list to **include entire domains**. Example: nih.gov - not www.nih.gov. Specifying www will limit your search to that particular subdomain. If you do specify a subdomain, do so with the intent to limit your search. [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > `YourSite` > `Content` > `Domains`
+* Set up your domains list to **include entire domains**. Example: nih.gov &mdash; not www.nih.gov. Specifying www will limit your search to that particular subdomain. If you do specify a subdomain, do so with the intent to limit your search. [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > `YourSite` > `Content` > `Domains`
 * If a particular **new item** is not showing up in search results and you need it there ASAP, you can create a Best Bet pointing to it, or add it as a Supplemental URL.
   * **Best Bets** can be managed at [Search.gov Home]({{ site.baseurl }}/) > [Admin Center](https://search.usa.gov/sites/) > `YourSite` > `Content` > `Best Bets: Text or Best Bets: Graphics` *(Recommended)*
   * **Supplemental URLs** can be added at [Search.gov Home]({{ site.baseurl }}/) > [Admin Center](https://search.usa.gov/sites/) > `YourSite` > `Content` > `Domains` > `Advanced` > `Supplemental URLs`

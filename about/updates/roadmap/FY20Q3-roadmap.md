@@ -15,7 +15,7 @@ At Search.gov we aim to provide an excellent public search experience, a self-se
 
 We know it's helpful for you, our partners at federal agencies, to know what we have planned for our service, to support your planning for your own web platforms. This roadmap shows what we are working on now, and what we plan to be working after that. We'll update this roadmap quarterly.
 
-## FY20 Q3: April - June 2020
+## FY20 Q3: April &ndash; June 2020
 
 ### Now
 

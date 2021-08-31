@@ -71,7 +71,7 @@ permalink: /document-with-sidenav
 ---
 ```
 
-✅ [Search.gov](https://search.gov) integration - Once you have registered and configured Search.gov for your site by following [these instructions](https://federalist.18f.gov/documentation/search/), add your "affiliate" and "access key" to `_config.yml`. Ex.
+✅ [Search.gov](https://search.gov) integration &mdash; Once you have registered and configured Search.gov for your site by following [these instructions](https://federalist.18f.gov/documentation/search/), add your "affiliate" and "access key" to `_config.yml`. Ex.
 
 ```
 searchgov:
@@ -96,7 +96,7 @@ searchgov:
 ```
 in `_config.yml`.
 
-✅ [Digital Analytics Program (DAP)](https://digital.gov/services/dap/) integration - Once you have registered your site with DAP add your "agency" and optionally, `subagency` to `_config.yml` and uncomment the appropriate lines. Ex.
+✅ [Digital Analytics Program (DAP)](https://digital.gov/services/dap/) integration &mdash; Once you have registered your site with DAP add your "agency" and optionally, `subagency` to `_config.yml` and uncomment the appropriate lines. Ex.
 
 ```
 dap:
@@ -106,7 +106,7 @@ dap:
   # subagency: your-subagency
 ```
 
-✅ [Google Analytics](https://analytics.google.com/analytics/web/) integration - If you have a Google Analytics account to use, add your "ua" to `_config.yml` and uncomment the appropriate lines. Ex.
+✅ [Google Analytics](https://analytics.google.com/analytics/web/) integration &mdash; If you have a Google Analytics account to use, add your "ua" to `_config.yml` and uncomment the appropriate lines. Ex.
 
 ```
 ga:
@@ -214,8 +214,8 @@ site.
 
 ## Technologies you should be familiarize yourself with
 
-- [Jekyll](https://jekyllrb.com/docs/) - The primary site engine that builds your code and content.
-- [Front Matter](https://jekyllrb.com/docs/frontmatter) - The top of each page/post includes keywords within `--` tags. This is meta data that helps Jekyll build the site, but you can also use it to pass custom variables.
+- [Jekyll](https://jekyllrb.com/docs/) &mdash; The primary site engine that builds your code and content.
+- [Front Matter](https://jekyllrb.com/docs/frontmatter) &mdash; The top of each page/post includes keywords within `--` tags. This is meta data that helps Jekyll build the site, but you can also use it to pass custom variables.
 - [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) 
 
 

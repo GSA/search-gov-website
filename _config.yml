@@ -76,6 +76,8 @@ primary_navigation:
     children:
       - name: About Us
         url: "/about/"
+      - name: Why Choose Search.gov?
+        url: "/about/why-choose-searchgov.html"
       - name: Customers
         url: "/about/customers.html"
       - name: Search.gov in Policy
@@ -92,17 +94,15 @@ primary_navigation:
         url: "/about/security.html"
   - name: Get Started
     children:
-      - name: Get Started with Search.gov
+      - name: Get Started With Search.gov
         url: "/get-started/"
-      - name: Why Choose Search.gov?
-        url: "/about/why-choose-searchgov.html"
       - name: Sign Up/Create an Account
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
-      - name: Available Search Features
+      - name: Results Page Feature Comparison
         url: "/admin-center/display/hosted-vs-api-results.html"
       - name: Training and Resources
         url: "/get-started/learn.html"
@@ -110,31 +110,31 @@ primary_navigation:
     children:
       - name: Admin Center Help Manual
         url: "/admin-center/index.html"
-      - name: Add/remove users
+      - name: Add/Remove Users
         url: "/admin-center/dashboard/users.html"
-      - name: Add a site
+      - name: Add a Site
         url: "/admin-center/dashboard/add-site.html"
-      - name: Add domains
+      - name: Add Domains
         url: "/admin-center/content/domains.html"
-      - name: Manage your search analytics
+      - name: Manage Your Search Analytics
         url: "/admin-center/analytics/index.html"
-      - name: Add search features
+      - name: Add Search Features
         url: "/get-started/site-launch-guide.html#add-features"
-  - name: Index with Search.gov
+  - name: Index With Search.gov
     children:
-      - name: Start here
+      - name: Start Here
         url: "/indexing/indexing-with-searchgov.html"
-      - name: What we index
+      - name: What We Index
         url: "/indexing/what-searchgov-indexes.html"
-      - name: Relevance ranking
+      - name: Relevance Ranking
         url: "/indexing/ranking-factors.html"
-      - name: How a page becomes a search result
+      - name: How a Page Becomes a Search Result
         url: "/indexing/sitemaps-to-search-sites.html"
-      - name: Indexing workflow
+      - name: Indexing Workflow
         url: "/indexing/indexing-workflow.html"
-      - name: Metadata and tags
+      - name: Metadata and Tags
         url: "/indexing/metadata.html"
-      - name: Website redesign tips
+      - name: Website Redesign Tips
         url: "/indexing/redesign.html"
   - name: Support
     url: "/support.html"
@@ -195,7 +195,7 @@ admin_center:
         url: "/admin-center/activate/"
 
 get_started:
-  - name: Get Started with Search.gov
+  - name: Get Started With Search.gov
     url: "/get-started/"
     children:
       - name: Sign Up
@@ -215,37 +215,37 @@ get_started:
     children:
       - name: Why Choose Search.gov?
         url: "/about/why-choose-searchgov.html"
-      - name: Available Search Features
+      - name: Results Page Feature Comparison
         url: "/admin-center/display/hosted-vs-api-results.html"
     
 
 indexing:
-  - name: Index with Search.gov
+  - name: Index With Search.gov
     url: "/indexing/indexing-with-searchgov.html"
     children:
-      - name: How does indexing work?
+      - name: How Does Indexing Work?
         children:
-          - name: How search engines index your website (Webinar)
+          - name: How Search Engines Index Your Website (Webinar)
             url: "/get-started/training.html#how-engines-index"
-          - name: What Search.gov indexes from your website
+          - name: What Search.gov Indexes From Your Website
             url: "/indexing/what-searchgov-indexes.html"
-          - name: How Search.gov ranks your search results
+          - name: How Search.gov Ranks Your Search Results
             url: "/indexing/ranking-factors.html"
-          - name: How A Page on a Sitemap Becomes a Search
+          - name: How a Page on a Sitemap Becomes a Search Result
             url: "/indexing/sitemaps-to-search-sites.html"
-          - name: A step-by-step indexing workflow
+          - name: A Step-by-step Indexing Workflow
             url: "/indexing/indexing-workflow.html"
       - name: Domain Level SEO Supports
         children:
-          - name: All about XML sitemaps
+          - name: All About XML Sitemaps
             url: "/indexing/sitemaps.html"
-          - name: Robots.txt files
+          - name: \/robots.txt Files
             url: "/indexing/robotstxt.html"
       - name: Page Level SEO Supports
         children:
-          - name: Metadata and tags you should include in your website
+          - name: Metadata and Tags You Should Include in Your Website
             url: "/indexing/metadata.html"
-          - name: How to get search engines to index the right content for better discoverability
+          - name: How to Get Search Engines to Index the Right Content for Better Discoverability
             url: "/indexing/how-search-engines-index-content-better-discoverability.html"
 
 support:

@@ -49,7 +49,7 @@ You can download a detailed CSV (comma separated values) file for any search ter
 * The modules loaded in response to the query (Our [Module Codes]({{ site.baseurl }}/admin-center/analytics/module-codes.html) page provides a key of the codes and names.)
 * The kind of device and browser they were using
  
-## Clicks from a Query and Queries Leading to a Click
+## Clicks From a Query and Queries Leading to a Click
 
 Select "View Clicks" to view the top clicked URLs for each query.
 
@@ -70,7 +70,7 @@ If you clicked on the first-listed *www.house.gov* in the example above, you'd s
 
 You can loop through or drill down into this list for any set of clicks and queries.
 
-## Click-Through Rate (CTR)
+## Click-through Rate (CTR)
 
 The click-through rate (CTR) is the the number of clicks from a query divided by the number of queries (multiplied by 100 to be expressed as a percentage).
 

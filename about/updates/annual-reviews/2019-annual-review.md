@@ -26,17 +26,17 @@ redirect_from:
 
 ## System Highlights
 
-* Added ranking factors to our search algorithm (popularity, freshness)
-* Released help documentation about site launches and the indexing process
-* Added a sitelimit feature to provide an alternative to Collection search scoping
+* Added ranking factors to our search algorithm (popularity, freshness).
+* Released help documentation about site launches and the indexing process.
+* Added a sitelimit feature to provide an alternative to Collection search scoping.
 * Added indexing coverage for javascript pages and other metadata-only files.
-* Increased security on user accounts 
-  * automatic disabling after 90 days of inactivity
-  * MFA login through Login.gov
-* Upgraded Ruby
-* Upgraded Rails
-* Upgraded Elasticsearch
-* Upgraded jQuery
-* Increased server capacity and processing power
-* Added query caching on our primary index to improve response time
-* Expanded our Elasticsearch system twice
+* Increased security on user accounts:
+  * Automatic disabling after 90 days of inactivity.
+  * MFA login through Login.gov.
+* Upgraded Ruby.
+* Upgraded Rails.
+* Upgraded Elasticsearch.
+* Upgraded jQuery.
+* Increased server capacity and processing power.
+* Added query caching on our primary index to improve response time.
+* Expanded our Elasticsearch system twice.

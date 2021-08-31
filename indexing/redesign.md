@@ -88,7 +88,7 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
 **What:** Action items that usually come out of the planning discussions include
 
 * Ensure that each domain and subdomain you want to be searchable launches with an [xml sitemap]({{ site.baseurl }}/indexing/sitemaps.html).
-* Add [metadata]({{ site.baseurl }}/indexing/metadata.html) blocks to the `<head>` of your page templates, and Semantic Markup to the `<body>`. 
+* Add [metadata]({{ site.baseurl }}/indexing/metadata.html) blocks to the `<head>` of your page templates, and Semantic Markup to the `<body>`.
   * Sometimes these pieces are in place, but need to be modified or moved.
 * Talk with other web teams to ask them to do the above items on their sites, so you can leverage them when your site searches their site’s content.
 
@@ -108,7 +108,7 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
 
 **Who:** You, the agency web team
 
-**What:** Gather your [new logo and color palette]({{ site.baseurl }}/admin-center/display/brand.html), if needed. Many sites find it helpful to mock up their redesigned results page in a non-production search site - you can either [clone]({{ site.baseurl }}/admin-center/dashboard/clone-site.html) your existing site or just use the [Add Site]({{ site.baseurl }}/admin-center/dashboard/add-site.html) button to create a totally new one.
+**What:** Gather your [new logo and color palette]({{ site.baseurl }}/admin-center/display/brand.html), if needed. Many sites find it helpful to mock up their redesigned results page in a non-production search site &mdash; you can either [clone]({{ site.baseurl }}/admin-center/dashboard/clone-site.html) your existing site or just use the [Add Site]({{ site.baseurl }}/admin-center/dashboard/add-site.html) button to create a totally new one.
 
 **Don’t implement** these changes on your production site ahead of the actual relaunch (that comes in [Step 8](#parallel-tracks), below).
 
@@ -146,15 +146,15 @@ At this point, the work splits into two parallel tracks, with your team and ours
 
 **What:** Add the updates you prepared in Steps 4, 5, and 6 to the Admin Center for your production search site:
 
-* Set your Search Page Alert to `Active`
-* Update your colors and logo
-* Update your Domains, Collections, Best Bets, Routed Queries, and RSS Feeds as necessary
+* Set your Search Page Alert to `Active`.
+* Update your colors and logo.
+* Update your Domains, Collections, Best Bets, Routed Queries, and RSS Feeds as necessary.
 
 **Who:** The Search.gov team
 
 **What:** We complete several backend tasks
 * Switch your production search site to use the new index, which will begin empty for your domain(s).
-* Tell our indexer to begin working on your domain(s)
+* Tell our indexer to begin working on your domain(s).
   * The time it takes to get your content indexed depends on the number of items you have, and whether you have a crawl delay declared in your `/robots.txt` file. Generally speaking, a few hundred items should be done in an hour or two, a few thousand items should be done in several hours, etc. 
 
 <a name="go-live"></a>
@@ -173,9 +173,9 @@ At this point, the work splits into two parallel tracks, with your team and ours
 
 **What:** Register for the commercial search engines' webmaster tools, if you haven’t already done so.
 * [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster)
-* [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en) (now called Google Search Console)
+* [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en).
 * Resources: 
-  *[How to move your content to a new location](http://googlewebmastercentral.blogspot.com/2012/04/how-to-move-your-content-to-new.html)*, Google Webmaster Central Blog
+  *[How to move your content to a new location](http://googlewebmastercentral.blogspot.com/2012/04/how-to-move-your-content-to-new.html)*, Google Webmaster Central Blog.
   * In Bing, use the [Site Move tool](https://www.bing.com/webmaster/help/how-to-use-the-site-move-tool-bb8f5112).
 
 If you've undergone a redesign, followed these steps, and your site search results are not what you'd expect, [send us an email](mailto:search@support.digitalgov.gov).

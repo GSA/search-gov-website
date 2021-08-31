@@ -21,7 +21,7 @@ We offer two ways for you to tell us about content that you want us to fetch and
 
 **Note to our i14y customers:** Supplemental content will not appear for customers using our [i14y content indexing API]({{ site.baseurl }}/developer/i14y.html).
 
-## Adding Content via Supplemental Feed
+## Adding Content Via Supplemental Feed
 
 You can use an RSS feed to add URLs. The feed is useful if you'd like to automate the process, add multiple URLs, or both.
 
@@ -35,7 +35,7 @@ You can also delete all of the URLs added via the RSS feed by deleting the RSS f
 
 **Note:** We can't restore URLs that don't exist within your current feed. Please don't remove items from the feed unless you want them to be removed from the index. You can add a feed that contains up to 1,000 items on your own. If you have a feed that will include more than 1,000 items, please contact us.
 
-## Adding Content via the Supplemental URLs Section
+## Adding Content Via the Supplemental URLs Section
 
 You can also manually add a specific URL on the Supplemental URLs page. We'll fetch each URL you add manually and we'll index the title, description, and the full text of the document/webpage for the link you provide. Note: You can’t manually add a Supplemental URL if it has already been added by via Supplemental feed.
 
@@ -52,8 +52,7 @@ We display descriptions as follows:
 * If a searcher’s term matches terms in the description you provided: We'll display the description exactly as you provided it.
 * If a searcher’s term only matches terms in the full text of the document: We’ll display snippets taken from the full text.
 
-
-## Getting Supplemental Content To Always Appear First
+## Getting Supplemental Content to Always Appear First
 
 If you would like your supplemental content to always appear first in search results, please [contact our team](mailto:search@suppot.digitalgov.gov). Searchers will first be served any supplemental content results, and are then offered the chance to “search again,” which will lead them to commercial index results. 
 
@@ -63,7 +62,7 @@ In the example below, a Supplemental URL appears first, and clicking “Try your
 
 ![A Supplemental URL is Displayed on Page One of the DigitalGo Search Search Results Page]({{ site.baseurl }}/assets/img/site/Supplemental-Content-First-Example.png){:height="95%" width="95%"}
 
-## Getting Supplemental Content To Be Your Only Search Results
+## Getting Supplemental Content to Be Your Only Search Results
 
 If you would like your supplemental content to be the only results served from your site, please [contact our team](mailto:search@suppot.digitalgov.gov). Searchers will not be offered the chance to “search again” on a commercial index after they exhaust your supplemental content results (see above example). 
 

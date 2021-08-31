@@ -15,7 +15,7 @@ redirect_from:
 
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites) > My Account
 
-You can use Search.gov to power the search box on your federal government website&mdash;at no cost.
+You can use Search.gov to power the search box on your federal government website &mdash; at no cost.
 
 * [Sign up](#sign-up)
 * [Log in](#login)
@@ -49,7 +49,7 @@ Log in to an existing account at <https://search.usa.gov/login>.
 1. Acknowledge you are accessing a government system
 1. Sign in at Login.gov with your email address and password, and provide your second factor of authentication (PIV/CAC card, code receive via SMS, etc.) <br />
 <img src="{{ site.baseurl }}/assets/img/site/login-gov-sign-in.png" align="center" width="500px" alt="Screenshot showing Login.gov sign in page" title="Sign in to Login.gov">
-1. You will be returned to your Account page in Search.gov - use the `Select a Site` dropdown menu in the upper left to access your search configurations.
+1. You will be returned to your Account page in Search.gov &mdash; use the `Select a Site` dropdown menu in the upper left to access your search configurations.
 
 If you've previously logged in to Login.gov using an email address different from the one you use to access Search.gov, go to https://secure.login.gov/account and use the `Add email` button in the upper right to add the government email address that you use with Search.gov.
 

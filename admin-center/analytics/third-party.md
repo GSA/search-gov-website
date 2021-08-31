@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Add JavaScript for Your Third-party Web Services
+title: How to Add Javascript for Your Third-party Web Services
 category: admin-center
 tags: help-manual analytics third-party google-analytics foresee DAP
 date: June 5, 2020

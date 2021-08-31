@@ -30,7 +30,7 @@ We’d like to update you on our progress and share some lessons learned. Over t
 * We’ll be able to add more ranking indicators to the index that we build than we can offer in the i14y drawer indexes built by agencies via API.
 * If an agency is able to send 100% of the content they want searched, with full text, to a single i14y drawer, then their relevance ranking would be easy to determine. While most agencies can’t do this, we will continue to support i14y for the agencies that have already launched with it.
 
-### 4. XML sitemaps are great - really helpful for search engines and pretty easy for agencies to implement
+### 4. XML sitemaps are great &mdash; really helpful for search engines and pretty easy for agencies to implement
 
 * An XML sitemap is a machine-friendly list of the contents of a website. While no one can know for sure, the consensus in the SEO industry is that Google and Bing use XML sitemaps as part of their monitoring sites for new or updated content. Making it easy for them to find your content is thought to give a [ranking boost to your site’s content](https://searchengineland.com/guide/seo/site-architecture-search-engine-ranking) .
 * Most content management systems have plugins that will generate an xml sitemap for the content in the CMS. Static content can either be added to the CMS-generated sitemap, or listed in a separate sitemap file.
@@ -38,7 +38,7 @@ We’d like to update you on our progress and share some lessons learned. Over t
 
 ## So where are we now?
 
-We built the new index model and released that in December 2017, along with our core indexing job that grabs data from pages - html, pdf, and the other major file types.
+We built the new index model and released that in December 2017, along with our core indexing job that grabs data from pages &mdash; html, pdf, and the other major file types.
 
 We added a crawler in January 2018, to facilitate URL discovery on a given website.
 

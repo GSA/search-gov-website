@@ -23,7 +23,7 @@ For over 20 years, GSA's Search.gov has transformed the public’s search experi
   - Five your site a display name and a site handle
   - Enter the site handle in the search box form code on your website, see below
 1. [Preview your search results]({{ site.baseurl }}/admin-center/preview.html) once the indexing is complete.
-1. Put finishing touches on your search site in the Admin Center - brand your results page, etc. 
+1. Put finishing touches on your search site in the Admin Center &mdash; brand your results page, etc. 
 
 ## On the Federalist side of things, part 2
 
@@ -32,4 +32,4 @@ For over 20 years, GSA's Search.gov has transformed the public’s search experi
   - `inline = true` will use our API to display results in your Cloud.gov site
   - `inline = false` will direct searchers to our hosted results page, and then return them to your site to view your content
 1. Include the `_includes/searchgov/form.html` search box in your `<header>` include.
-1. If you would like type-ahead search suggestions to appear in your website’s search box, in the `_config.yml` file set `searchgov` `suggestions` to `true`.
+1. If you would like typeahead search suggestions to appear in your website’s search box, in the `_config.yml` file set `searchgov` `suggestions` to `true`.
