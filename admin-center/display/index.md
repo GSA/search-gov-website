@@ -1,4 +1,4 @@
- ---
+---
 layout: page
 title: Manage Display
 sidenav: admin_center
