@@ -239,7 +239,7 @@ indexing:
         children:
           - name: All About XML Sitemaps
             url: "/indexing/sitemaps.html"
-          - name: \/robots.txt Files
+          - name: "/robots.txt Files"
             url: "/indexing/robotstxt.html"
       - name: Page Level SEO Supports
         children:
