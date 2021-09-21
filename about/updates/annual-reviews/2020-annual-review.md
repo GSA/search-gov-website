@@ -62,7 +62,7 @@ The Search.gov system collects unsampled data about search traffic through our s
 
 For this report, we used an analysis method designed to detect the topic of the search from any of these data points: the search term, the URL of the selected search result, the website being searched, or the webpage being searched from. For example, a person searching for an application form may use the word “forms” or they may search using a specific form name, but select a search result from the website’s forms folder. We also considered how different searchers may use different words to talk about the same idea, such as “lost green card” or “i-90,” the USCIS form number to apply for a replacement green card.
 
-The time frame studied was January 1 - December 31, 2020. 
+The time frame studied was January 1 &ndash; December 31, 2020. 
 
 [Read the report]({{ site.baseurl }}/files/2020-annual-review.pdf)
 

@@ -29,7 +29,7 @@ image_asset:
   logo_alt_text: "If you leave this blank, we'll use the site name provided on the Settings page as the default alt text."
 
 watcher:
-  name: "Enter a short, meaningful name - this will appear in the subject line of your alert."
+  name: "Enter a short, meaningful name; this will appear in the subject line of your alert."
   throttle_period: "Period of time in between successive alert messages. (e.g., 30m, 8h, 2d, 1w)"
   check_interval: "Period of time in between checks. (e.g., 30m, 8h, 2d, 1w)"
   time_window: "How far back in time to look, in each check. (e.g., 30m, 8h, 2d, 1w)"

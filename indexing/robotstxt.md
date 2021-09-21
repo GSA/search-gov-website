@@ -19,12 +19,12 @@ Please refer to the [robots.txt protocol](http://www.robotstxt.org/robotstxt.htm
 
 * The file must be located at the root of the domain, and each subdomain needs its own file.
 * The robots.txt protocol is case sensitive.
-* It's easy to accidentally block crawling of everything
-  * `Disallow: /` means disallow everything
-  * `Disallow:  ` means disallow nothing, thus allowing everything
-  * `Allow: /` means allow everything
-  * `Allow:  ` means allow nothing, thus disallowing everything
-* The instructions in robots.txt are guidance for bots, not binding requirements.
+* It's easy to accidentally block crawling of everything:
+  * `Disallow: /` means disallow everything.
+  * `Disallow:  ` means disallow nothing, which will allow everything.
+  * `Allow: /` means allow everything.
+  * `Allow:  ` means allow nothing, which will disallow everything.
+* The instructions in robots.txt are guidance for bots, not binding requirements &mdash; bad bots may ignore your settings.
 
 ## How can I optimize my robots.txt for Search.gov?
 

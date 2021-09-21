@@ -1,6 +1,6 @@
 ---
 layout: page
-title: View a Snapshot of What's Happening on Your Site Today
+title: "Admin Center Site Overview: What's Happening On Your Site Today"
 category: admin-center
 tags: help-manual analytics dashboard site-overview
 date: December 27, 2017
@@ -12,7 +12,7 @@ redirect_from:
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Site Overview
 
-The Site Overview page provides a snapshot of what has been happening on your site in the past day. All of the analytics in the [Admin Center](https://search.usa.gov/sites/) are updated in real-time, which means that you instantaneously see the searches and clicks as they're performed on your site.
+The Site Overview page provides a snapshot of what has been happening on your site in the past day. All of the analytics in the [Admin Center](https://search.usa.gov/sites/) are updated in real time, which means that you instantaneously see the searches and clicks as they're performed on your site.
 
 You can opt to receive this snapshot as a daily email by clicking on the envelope icon (<i class="icon-envelope"></i>) in the top navigation bar next to your selected site. 
 
@@ -42,15 +42,15 @@ A list of the top 10 search terms with the greatest *gain* between yesterday and
 
 Use this report to identify newly popular terms. Create new content or update existing content to ensure it's current, accurate, and complete.
 
-## Queries with No Results
+## Queries With No Results
 
 A list of the top 10 queries that returned no results.
 
 Use this data to help searchers find your content by adding a [Best Bet]({{ site.baseurl }}/admin-center/content/best-bets.html), updating your existing web pages, or both.
 
-For example, on one agency's website, a dozen searches for *frostline* returned no results. The frost line&mdash;also known as depth of frost or freezing&mdash;is the depth to which the groundwater in soil is expected to freeze. The agency's pages on the topic referred to this concept as *depth of freezing*. 
+For example, on one agency's website, a dozen searches for *frostline* returned no results. The frost line &mdash; also known as depth of frost or freezing &mdash; is the depth to which the groundwater in soil is expected to freeze. The agency's pages on the topic referred to this concept as *depth of freezing*. 
 
-## Top Queries with Low Click Thrus
+## Top Queries With Low Click Thrus
 
 A list of the top 10 searches with low click thru rates. If there are any frequently searched terms that returned results but didn't get a click at least 20% of the time, they'll appear here. 
 

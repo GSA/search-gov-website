@@ -39,7 +39,7 @@ Since 2015, we’ve offered an API called [i14y]({{ site.baseurl }}/developer/i1
 
 We are excited to get additional CMS customers using this powerful feature.
 
-#### Customers with Drupal - We have a Drupal module for i14y!
+#### Customers with Drupal &mdash; We have a Drupal module for i14y!
 
 For customers who use Drupal as their CMS, our [Drupal module]( https://www.drupal.org/project/usasearch) eliminates the need for programming effort around the i14y API. This module is available for websites in Drupal 7 and 8. 
 
@@ -51,7 +51,7 @@ Your non-CMS material will be indexed via the URL method described below, while 
 
 #### Customers with other CMSs
 
-If you use a CMS that’s not Drupal, we encourage you to develop an integration with i14y and open source it so that other agencies can leverage it as well - a rising tide lifts all boats! If you’re unable to develop an integration, however, read on for other options.
+If you use a CMS that’s not Drupal, we encourage you to develop an integration with i14y and open source it so that other agencies can leverage it as well &mdash; a rising tide lifts all boats! If you’re unable to develop an integration, however, read on for other options.
  
 ## Customers without Content Management Systems
  

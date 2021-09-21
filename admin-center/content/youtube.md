@@ -24,7 +24,7 @@ Either URL format works.
 
 ## Opt to Display Your Videos
 
-When you add the URL for your YouTube channel, we'll automatically index your videos&mdash;both your uploaded videos and playlists.
+When you add the URL for your YouTube channel, we'll automatically index your videos &mdash; both your uploaded videos and playlists.
 
 We'll show the videos by default. You can toggle the settings for showing your videos on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page, choosing to show them as a facet, inline module, or both.
 

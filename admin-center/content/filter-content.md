@@ -21,4 +21,4 @@ Entire the full path of the URL, e.g. use https://www.usa.gov/Citizen/Topics/Ben
 
 You can later use the delete option to remove the filter.
 
-Please note: this filtering only affects your search results page that is hosted by our service - it does not affect commercial web results on Google.com, Bing.com, etc.
+Please note: this filtering only affects your search results page that is hosted by our service &mdash; it does not affect commercial web results on Google.com, Bing.com, etc.

@@ -16,7 +16,7 @@ At Search.gov we aim to provide an excellent public search experience, a self-se
 We know it’s helpful for you, our partners at federal agencies, to know what we have planned for our service, to support your planning for your own web platforms. This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY 20, Q4: July - September 2020
+## FY 20, Q4: July &ndash; September 2020
 
 ### Now
 
@@ -34,7 +34,7 @@ We know it’s helpful for you, our partners at federal agencies, to know what w
   * We’ll be improving our continuous integration and continuous deployment pipeline.
 
 * **Search.gov website redesign**
-  * We will be updating to a design fully aligned with the [US Web Design System](https://designsystem.digital.gov/), in accordance with the [21st Century IDEA](https://digital.gov/resources/21st-century-integrated-digital-experience-act/). Keep an eye out - we may reach out for help with usability testing!
+  * We will be updating to a design fully aligned with the [US Web Design System](https://designsystem.digital.gov/), in accordance with the [21st Century IDEA](https://digital.gov/resources/21st-century-integrated-digital-experience-act/). Keep an eye out &mdash; we may reach out for help with usability testing!
 
 
 ### Next
@@ -45,21 +45,21 @@ We know it’s helpful for you, our partners at federal agencies, to know what w
   * We'll begin planning our upgrade to the next Elasticsearch version.
 
 * **Development process improvements**
-  * Update our system error diagnostics tooling
-  * Clean out legacy code components
+  * Update our system error diagnostics tooling.
+  * Clean out legacy code components.
   
 * **Results page redesign**
-  * Preparation stage
+  * Preparation stage.
 
 ### Later
 
-* **Improving indexing for users without sitemaps**
-* **Search query upgrades to support boolean operators and improve synonyms**
-* **Results page redesign - searcher interface updates**
-* **Cloud infrastructure improvements**
+* **Improving indexing for users without sitemaps**.
+* **Search query upgrades to support boolean operators and improve synonyms**.
+* **Results page redesign &mdash; searcher interface updates**.
+* **Cloud infrastructure improvements**.
 
 If you have questions or comments, please feel free to [reach out](mailto:search@support.digitalgov.gov) to our team.
 
 ## Previous Roadmaps
 
-[FY 20 Q3: April - June, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q3-roadmap.html)
+[FY 20 Q3: April &ndash; June, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q3-roadmap.html)

@@ -9,14 +9,14 @@ redirect_from:
     - /manual/color-codes.html
 ---
 
-We use color coding the [Admin Center](https://search.usa.gov/sites/) to indicate the status of a few types of items.
+In addition to text-based indicators, we use color coding the [Admin Center](https://search.usa.gov/sites/) to indicate the status of a few types of items. 
 
 ## [Manage Users]({{ site.baseurl }}/admin-center/dashboard/users.html)
 
 | Color | Status |
 | :------------ | :---------------------------------- |
 | No color&nbsp;&nbsp;&nbsp; | Approved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| Yellow  | Pending - requires approval or email verification |
+| Yellow  | Pending &mdash; requires approval or email verification |
 | Red   | Not approved |
 
 ## [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html)

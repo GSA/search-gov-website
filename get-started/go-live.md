@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Going Live with Search.gov
+title: Going Live With Search.gov
 crumbname: Go-Live
 category: admin-center
 tags: help-manual
@@ -52,7 +52,7 @@ Most agencies add these two [snippets of code]({{ site.baseurl }}/admin-center/a
 	<input name="commit" type="submit" value="Search" />
 	</form>
 
-<i class="icon-check"></i> **8. Do you have our Javascript tag on your webpages?** This Javascript powers the suggestions for type-ahead and [related searches]({{ site.baseurl }}/admin-center/display/display-overview.html). It also provides data on your trending URLs on the [Site Overview]({{ site.baseurl }}/admin-center/dashboard/site-overview.html) page in the [Admin Center](https://search.usa.gov/sites/).
+<i class="icon-check"></i> **8. Do you have our Javascript tag on your webpages?** This Javascript powers the suggestions for typeahead and [related searches]({{ site.baseurl }}/admin-center/display/display-overview.html). It also provides data on your trending URLs on the [Site Overview]({{ site.baseurl }}/admin-center/dashboard/site-overview.html) page in the [Admin Center](https://search.usa.gov/sites/).
 
 	<script type="text/javascript">
 	//<![CDATA[
@@ -64,7 +64,7 @@ Most agencies add these two [snippets of code]({{ site.baseurl }}/admin-center/a
 	//]]>
 	</script>
 
-## Set Up Nice-to-Have Features (Optional)
+## Set Up Nice-to-have Features (Optional)
 
 <i class="icon-check"></i> **9. Have you masked your domain?** We offer [DNS masking]({{ site.baseurl }}/admin-center/display/cname.html), which allows you to show searchers search.YOURSITE.gov (instead of search.USA.gov). If you leverage DNS masking you will have to change your search box form action from search.usa.gov to search.YOURSITE.gov. Be sure to alert us you will be adding a domain mask, so we can add you to our SSL certificate before you update your search box form code.
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Step by Step Instructions for Setting Up the Drupal 7 usasearch module
+title: Step by Step Instructions for Setting Up the Drupal 7 usasearch Module
 category: developer
 tags: drupal, i14y
 date: April, 12, 2018
@@ -34,7 +34,7 @@ Required. Enter your i14y drawer’s “secret token”. This can be found in ou
 
 Recommended setting (default): Checked.
 
-Check this box if you want to enable the Javascript for our [Type-ahead API]({{ site.baseurl }}/developer/). Suggestions for popular queries will appear below your search box as searchers begin typing. A query must have been run more than 10 times in a day for it to become a search suggestion.
+Check this box if you want to enable the Javascript for our [typeahead API]({{ site.baseurl }}/developer/). Suggestions for popular queries will appear below your search box as searchers begin typing. A query must have been run more than 10 times in a day for it to become a search suggestion.
 
 ## Search domain
 

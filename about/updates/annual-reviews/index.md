@@ -13,7 +13,7 @@ redirect_from:
 
 ## What people are trying to do on government websites, in their own words
 
-Search.gov is pleased to present our annual reviews - high level reports that show, in their own words, what the public has been searching for across government websites.
+Search.gov is pleased to present our annual reviews &mdash; high level reports that show, in their own words, what the public has been searching for across government websites.
 
 From common needs for forms and process status checks, to the latest information on the news of the year, or vulnerable moments seeking help in times of need, Search.gov is there, connecting people with their government.
 

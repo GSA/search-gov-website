@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Boost Certain Results using Best Bets
+title: How to Boost Certain Results Using Best Bets
 category: admin-center
 tags: help-manual manage-content best-bets
 date: March 19, 2020
@@ -29,7 +29,7 @@ See the sample results page below that shows a text best bet displayed on TSA.go
 
 ### Add an Individual Text Best Bet
 
-***URL.*** Add the URL of the web page that you want to promote. Make sure the URL is properly formatted, and includes the protocol (either `http://` or `https://`).
+***URL.*** Add the URL of the web page that you want to promote. Make sure the URL is properly formatted, and includes the `https://` protocol.
 
 ***Title and Description.*** Add the title and description of the web page that you want to promote. Each field can have up to 255 characters. Titles and descriptions are visible to searchers.
 
@@ -39,19 +39,19 @@ See the sample results page below that shows a text best bet displayed on TSA.go
 
 ***Keywords.*** Keywords are optional and they're *not* visible to searchers. Add specific words or phrases that aren't already included in the visible title or description. Common keywords include synonyms, acronyms, compound words, plural variations, misspellings, slang, or other variants. Enter each keyword (word or phrase up to 255 characters) in a separate field. Use your search Analytics to inform your keyword lists. Keywords are not case sensitive, but are exact matches, and cannot end with a space. If a keyword ends with a space, that keyword won't return the best bet in results.
 
-### Add Multiple Best Bets via Bulk Upload
+### Add Multiple Best Bets Via Bulk Upload
 
 You can upload a batch of Text Best Bets, up to 390 at a time. Create a comma-separated file with the following fields (in this order). Download our [sample template for uploading best bets](/files/best-bets-template-201603.csv) [CSV] to see the correct format.
 
 Title, URL, Description, StartDate, EndDate, Keywords, Match_Keywords_Only, Status
 
 * Required fields:
-  * Title
+  * Title.
   * URL. Make sure the URL is properly formatted, and includes the protocol (either `http://` or `https://`). 
-  * Description 
+  * Description.
 * Optional fields:
-  * Start date
-  * End date
+  * Start date.
+  * End date.
   * Keywords. Cannot end with a space.
   * Match_Keywords_Only. Enter a `1` in this column if you want the Best Bet to respond only to the query terms and phrases you've specified in this column. Note that selecting this option means you need to list *all* terms or phrases you want the Best Bet to respond to.  
   * Status. If you leave this column blank, the Best Bet will default to `Active` and will display to users. Enter `0` to set the Best Bet to `Inactive`.
@@ -69,7 +69,7 @@ See the sample results page below that shows a graphics best bet displayed on [U
 [![Graphics best bet highlighting housing assistance links on USA.gov]({{ site.baseurl }}/assets/img/site/best-bets-graphics.png "Graphics best bet highlighting housing assistance links on USA.gov")](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=usagov&query=Housing+Assistance)
 
 
-More configuration options
+#### More configuration options
 
 * **Two columns with a collection of links and an image** displayed on USA.gov for a search on *[wildfires](https://search.usa.gov/search?affiliate=usagov&query=wildfires)*.   
 * **Two columns with a collection of links only** displayed on USA.gov for a search on *[housing](https://search.usa.gov/search?affiliate=usagov&query=housing)*.   
@@ -91,13 +91,13 @@ More configuration options
 
 ***Links.*** Enter a title and URL for each link. There is no limit on the number of links. Use the list icons ("hamburger buttons") on the left to rearrange the display order of the links. The two columns populate by rows, so if you have three links, you would have two links in the top row, and one link in the left column of the second row. The link titles are visible to searchers.
 
-## When Searchers See Your Best Bets: Graphics
+## When Will Searchers See Your Best Bets: Graphics?
 
 For searchers to see a best bet on your site, it must match their query and be relevant and active.
 
 ### It Matches Their Query
 
-Searchers see your best bets when their query:
+Searchers see your best bets when their query either:
 
 * Matches any or all words in the title, description, or link titles, or
 * Matches a keyword exactly.
