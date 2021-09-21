@@ -47,19 +47,19 @@ Our system is built on Elasticsearch, which itself is built on Apache Lucene, an
 
 The Practical Scoring Function, Lucene's primary ranking algorithm, uses a basic Boolean match for single terms and adds in TF/IDF and a vector space model. Here are some high level definitions for these technical terms:
 
-* **Boolean matches** are the AND / OR / NOT matches you’ve probably heard about.
-  * This AND that 
-  * This OR that
-  * This NOT that
-  * This AND (that OR foo) NOT bar
+* **Boolean matches** are the AND / OR / NOT matches you’ve probably heard about:
+  * This AND that.
+  * This OR that.
+  * This NOT that.
+  * This AND (that OR foo) NOT bar.
   * **Note:** While the relevance ranking takes these into account, we do not currently use these operators if entered by a searcher. This is planned for future development.
 * **TF/IDF** means term frequency / inverse document frequency. It counts the number of times a term appears in a document, and compares it to how many documents have that word. It aims to identify documents where the query terms appear frequently, and documents with more rare terms across the whole set of documents will get a higher score. Documents with a lot of common terms appearing in many documents will get a lower score.
   * Elasticsearch modifies the basic TF/IDF score with a method called **BM25**, which attempts to balance the TF/IDF scores of documents that are very different in length. If there are ten documents containing rare terms, the longest doc with the most instances of the terms would get a much higher score than a short doc with only a few instances of the terms. This makes intuitive sense, but when considered as a full pdf of a report vs the summary of the report, the full report isn't that much more relevant to the query than the summary is. BM25's length 'normalization' addresses that issue.
 * The **vector space model** allows the search engine to weight the individual terms in the query, so a common term in the query would receive a lower match score than a rare term in the query.
-* [Read detailed technical documentation here](https://www.elastic.co/guide/en/elasticsearch/guide/master/practical-scoring-function.html)
+* [Read detailed technical documentation here](https://www.elastic.co/guide/en/elasticsearch/guide/master/practical-scoring-function.html).
 
 The latest versions of Elasticsearch also take into account the context of terms within the document, whether they are in structured data fields or in unstructured fields, like body text. 
 
-* Structured data fields, like dates, are treated with a Boolean match method - does the field value match, or not?
+* Structured data fields, like dates, are treated with a Boolean match method &mdash; does the field value match, or not?
 * Unstructured data fields, like webpage body content, are considered for how well a document matches a query.
-* [Read highly technical documentation here](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
+* [Read highly technical documentation here](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html).

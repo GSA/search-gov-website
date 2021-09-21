@@ -22,7 +22,7 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY 21, Q2: January - March 2021
+## FY 21, Q2: January &ndash; March 2021
 
 ### Now
 
@@ -39,25 +39,25 @@ This roadmap shows what we are working on now, and what we plan to be working af
 
 ### Next
 
-* **Results page redesign**
-  * Begin work to decommision legacy SERP and build out new design
-* **Development process improvements**
-  * Streamline our deployment process
-  * Update our system error diagnostics tooling
-  * Clean out legacy code components
+* **Results page redesign**:
+  * Begin work to decommision legacy SERP and build out new design.
+* **Development process improvements**:
+  * Streamline our deployment process.
+  * Update our system error diagnostics tooling.
+  * Clean out legacy code components.
 
 
 ### Later
 
-* **Indexing Improvements for Non-Standard Sites**
-* **Adding Features to Results API**
-* **Results Page Redesign Rollout**
-* **Security and Privacy Improvements**
+* **Indexing Improvements for Non-Standard Sites**.
+* **Adding Features to Results API**.
+* **Results Page Redesign Rollout**.
+* **Security and Privacy Improvements**.
 
 If you have questions or comments, please feel free to [reach out](mailto:search@support.digitalgov.gov) to our team.
 
 ## Previous Roadmaps
 
-* [FY 21 Q1: October - December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)
-* [FY 20 Q4: July - September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
-* [FY 20 Q3: April - June, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q3-roadmap.html)
+* [FY 21 Q1: October &ndash; December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)
+* [FY 20 Q4: July &ndash; September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
+* [FY 20 Q3: April &ndash; June, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q3-roadmap.html)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Select the Options that Appear on Your Results Page
+title: How to Select the Options That Appear on Your Results Page
 category: admin-center
 tags: help-manual manage-display facets modules related-sites
 date: February 27, 2017
@@ -33,23 +33,23 @@ Type over the text in the Name field to edit a facet's display name. Keep each n
 
 > These options control what types of search results are returned, and apply to both the hosted search results page and the search results API.
 
-**On/off options for modules.** Turn on a module to allow searchers to see inline, contextually relevant results for selected content sources based on keyword matches with relevant queries. There are eight types of modules.
+**On/Off Options for Modules.** Turn on a module to allow searchers to see inline, contextually relevant results for selected content sources based on keyword matches with relevant queries. There are eight types of modules.
 
 1. **News.** This option only appears after you've told us about your [RSS]({{ site.baseurl }}/admin-center/content/rss.html) feeds. When a searcher's query matches the title of an RSS article published within the past four months, the article appears in the News module. Very recent news results (less than five days) appear at the top of the page and less recent news results appear at the bottom. Up to three articles are displayed. Type over the default name, News, in the Name field to edit the display name.
 
 1. **Videos.** This option only appears after you've told us about your [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) channel. When a searcher's query matches the metadata of a video published within the 13 months, the video appears in the Videos module. One inline video is displayed with a link to see more videos for the searcher's query.
 
-1. **Job openings.** When a searcher's query matches the text of a job opening published by your agency on USAJobs, the job appears in the Job Openings module. Up to three job openings are displayed. For more information, including a screenshot, read our post [Help Searchers Find Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html). You will need to [contact us](mailto:search@support.digitalgov.gov) to get the Jobs module enabled for your site.
+1. **Job Openings.** When a searcher's query matches the text of a job opening published by your agency on USAJobs, the job appears in the Job Openings module. Up to three job openings are displayed. For more information, including a screenshot, read our post [Help Searchers Find Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html). You will need to [contact us](mailto:search@support.digitalgov.gov) to get the Jobs module enabled for your site.
 
-1. ***Federal Register* documents.** When a searcher's query matches the text of a notice or rule published by your agency in the *Federal Register*, the document appears in the *Federal Register* module. Up to three documents are displayed. For more information, including a screenshot, read our post [Help Searchers Find Federal Register Documents]({{ site.baseurl }}/admin-center/display/federal-register-module.html).
+1. ***Federal Register* Documents.** When a searcher's query matches the text of a notice or rule published by your agency in the *Federal Register*, the document appears in the *Federal Register* module. Up to three documents are displayed. For more information, including a screenshot, read our post [Help Searchers Find Federal Register Documents]({{ site.baseurl }}/admin-center/display/federal-register-module.html).
 
-1. **Related searches.** Help visitors better define the focus of their search by offering them searches related to their current search term. Suggestions are derived from the searches performed on your website. Up to five searches related to your visitors' original search are displayed and are updated in near real time.
+1. **Related Searches.** Help visitors better define the focus of their search by offering them searches related to their current search term. Suggestions are derived from the searches performed on your website. Up to five searches related to your visitors' original search are displayed and are updated in near real time.
 
-1. **Health topics.** Help searchers find high-quality, authoritative health information from MedlinePlus and ClinicalTrials.gov. For more information, including a screenshot, read our post [Help Searchers Find Health Information]({{ site.baseurl }}/admin-center/display/health-module.html).
+1. **Health Topics.** Help searchers find high-quality, authoritative health information from MedlinePlus and ClinicalTrials.gov. For more information, including a screenshot, read our post [Help Searchers Find Health Information]({{ site.baseurl }}/admin-center/display/health-module.html).
 
-1. **Recent tweets.** This option only appears after you've told us about your [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html) account. When a searcher's query matches the text of a tweet published within the past three days, the tweet appears in the Recent Tweets module.
+1. **Recent Tweets.** This option only appears after you've told us about your [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html) account. When a searcher's query matches the text of a tweet published within the past three days, the tweet appears in the Recent Tweets module.
 
-1. **Type-ahead search.** Help searchers refine their query by displaying type-ahead search suggestions as a list in the search box. The list forms as a searcher begins to type in the search box. Suggestions are listed in order of most popular (that is, most searched). They're updated every few seconds. See, for example, the suggestions as you type di... on [SocialSecurity.gov's search results page](https://search.ssa.gov/search?affiliate=ssa). ***Note:*** this will enable type-ahead on your search results page that is hosted by our service. If you wish to display type-ahead suggestions on your agency’s website, please review instructions for our [JavaScript snippet and API]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). 
+1. **Typeahead Search.** Help searchers refine their query by displaying typeahead search suggestions as a list in the search box. The list forms as a searcher begins to type in the search box. Suggestions are listed in order of most popular (that is, most searched). They're updated every few seconds. See, for example, the suggestions as you type di... on [SocialSecurity.gov's search results page](https://search.ssa.gov/search?affiliate=ssa). ***Note:*** this will enable typeahead on your search results page that is hosted by our service. If you wish to display typeahead suggestions on your agency’s website, please review instructions for our [JavaScript snippet and API]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). 
 
 
 ## Related Sites

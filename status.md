@@ -13,48 +13,48 @@ sidenav: support
 
 ## Recent Events
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
-Date: 3:01pm - 5:08pm ET January 11, 2021 <br />
+Date: 3:01pm &ndash; 5:08pm ET January 11, 2021 <br />
 Details: Starting 3:01 PM ET, a significant increase in query traffic caused our system to refuse connections. We added more processing resources to handle that additional load, which entered the herd at 4:04 PM ET and began to resolve the connection issue. The system is now fully operational.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
-Date: 2:24pm - 2:43pm ET August 25, 2020<br />
+Date: 2:24pm &ndash; 2:43pm ET August 25, 2020<br />
 Details: A brief certificate issue caused a small subset of image searches to be unavailable. The issue was resolved by a certificate re-issue, and Search.gov is now fully operational.
 
 <img src="https://search.gov/assets/img/site/red-status-system-down.png" width="15px" height="15px" alt="Outage" title="Outage">&nbsp;&nbsp;&nbsp; Outage <br />
-Date: 4:52pm - 5:15pm ET March 5, 2020<br />
+Date: 4:52pm &ndash; 5:15pm ET March 5, 2020<br />
 Details: At 4:52pm ET, Search.gov encountered an error due to an issue with data pulls for a migration. Service was restored once our clusters recovered at 5:15pm ET. Search.gov is now fully operational.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
-Date: 8:22am - 12:40pm ET March 6, 2020<br />
+Date: 8:22am &ndash; 12:40pm ET March 6, 2020<br />
 Details: Search.gov saw a large number of errors on sites due to an issue originating on our application servers. The issue was resolved by a rolling restart of the environment and Search.gov is now fully operational.
 
 <img src="https://search.gov/assets/img/site/red-status-system-down.png" width="15px" height="15px" alt="Outage" title="Outage">&nbsp;&nbsp;&nbsp; Outage <br />
-Date: 7:02pm - 7:49pm ET March 5, 2020<br />
+Date: 7:02pm &ndash; 7:49pm ET March 5, 2020<br />
 Details: Beginning 7:02pm ET, an outage at our hosting provider prevented us from distributing incoming requests to our servers. Their issue was resolved, but in addition, a database update by them to an unused feature caused our internal requests to fail. We applied an update to match their update, and service was restored.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
-Date: 8:00 pm October 29 - 10:15 am October 30, 2019<br />
+Date: 8:00 pm October 29 &mdash; 10:15 am October 30, 2019<br />
 Details: Beginning 8 PM ET 10/29, search sites using certain search features began returning errors for all searches. During our planned maintenance, our infrastructure host deployed routing settings to more servers than we requested, and this caused the error. After reverting the routing setting, all search sites are now behaving normally.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
-Date: August 31, 2019, 8:49am - 4:30pm ET <br />
+Date: August 31, 2019, 8:49am &ndash; 4:30pm ET <br />
 Details: An issue at our cloud hosting provider caused new logins to the Admin Center to fail. Searches were working normally.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
-Date: August 20, 2019, 9:30pm ET - August 21 9:50am ET <br />
+Date: August 20, 2019, 9:30pm ET &mdash; August 21 9:50am ET <br />
 Details: An internal DNS issue caused our web index to return "No results" messages to some sites in their web results module. We have resolved the DNS issue and all systems are functioning normally.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
-Date: August 16, 2019, 10:30am - 3:30pm<br />
+Date: August 16, 2019, 10:30am &ndash; 3:30pm<br />
 Details: We performed unplanned maintenance to alleviate issues on search result pages and the Admin Center.
 
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
-Date: August 12, 2019, 10:30am - 2:00pm, and from 2:30pm - 5:50pm ET<br />
+Date: August 12, 2019, 10:30am &ndash; 2:00pm, and from 2:30pm &ndash; 5:50pm ET<br />
 Details: We experienced two periods of intermittent errors and longer than usual load times, during high load to our results API. The load resulted in a reallocation process of our search indexes.
 
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation<br/>
-Date: July 17, 2019, 8am - approx 10:30am <br/>
+Date: July 17, 2019, 8am &ndash; approx 10:30am <br/>
 Details: Server issues caused intermittent issues on search result pages (SERPs) and site Admin Centers.  
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation<br/>

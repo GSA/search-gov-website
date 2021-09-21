@@ -48,10 +48,9 @@ Your site handle is a unique identifier for your site. The site handle is includ
 
 Handles can have lowercase letters, numbers, periods, hyphens, and underscores only. They can't have spaces and other punctuation.
 
-
 ## Site Language
 
-English is the default language for our results pages. If you will be searching against content in another language, you should choose another language for your search site - we support English, Spanish, and [66 other languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html). 
+English is the default language for our results pages. If you will be searching against content in another language, you should choose another language for your search site &mdash; we support English, Spanish, and [66 other languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html). 
 
 When English is selected, results will primarily include English language pages. All display text on the results page will also be in English. 
 

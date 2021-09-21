@@ -27,7 +27,7 @@ Select the option to add a new RSS feed.
 
 Create a name for the feed. Within this 'bucket' you can list a single RSS feed or many feeds. For example, you can opt to list all of your agency's press releases separately (such as Police News, Fire News, EMS News, etc.) or you can list all three under one general name (such as News).
 
-### Feed type
+### Feed Type
 
 Select the type of feed. The default option is RSS (for text content like press releases or blogs). Change it to [media RSS](http://www.rssboard.org/media-rss) for multimedia content like images and videos.
 
@@ -37,7 +37,7 @@ Each item within a media RSS feed must also include both a [media:content URL](h
 
 Any items missing a required element won't display in your search results.
 
-### Sample RSS Item with All Required Elements
+### Sample RSS Item With All Required Elements
 
 	<item>
 	<title>
@@ -52,7 +52,7 @@ Any items missing a required element won't display in your search results.
 	</description>
 	</item>
 
-### Sample Media RSS Item with All Required Elements
+### Sample Media RSS Item With All Required Elements
 
 	<item>
 	<title type="html">
@@ -72,7 +72,7 @@ Any items missing a required element won't display in your search results.
 	<media:content type="" url="https://gallery.usgs.gov/images/05_24_2013/gkb4Erq11X_05_24_2013/large/CoastalEco_KPrzybyla_kelly18.JPG"/>
 	</item>
 
-## Step 2. Opt to Show as a Facet, Inline Module, or Both
+## Step 2. Opt to Show As a Facet, Inline Module, or Both
 
 Allow searchers to see inline results for recent, relevant RSS results *across all of your RSS feeds* by turning on the News module on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. When a searcher’s query matches the title of an RSS article published within the past four months, the article appears in the News module. Very recent news results (less than five days) appear at the top of the page and less recent news results appear at the bottom. Up to three articles are displayed. You can edit the default module title, News, on the Display Overview page.
 
@@ -92,7 +92,7 @@ If you opted to show your RSS feed(s) as a facet, searchers can narrow their res
 
 Within the RSS-based results, searchers can opt to limit results to the last hour, day, week, month, or year, or they can set a custom date range. They also can sort results in descending order by relevance (best match first) or date (most recent first).
 
-### Results count
+### Results Count
 
 We show the number of results returned for searches against your feed(s).
 

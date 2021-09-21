@@ -9,9 +9,9 @@ We keep an eye on on our what our government counterparts are up to, both in the
 
 ## Use and Contribute to Open Source Projects
 
-Since 2010, we've embraced and leveraged open source software to build our site search service for federal, state, and local government websites. This use of open source has allowed us to experience enormous growth over the past few years. In July 2014 alone, over 23 million searchers received results from our service&mdash;a five-fold increase since July 2010.
+Since 2010, we've embraced and leveraged open source software to build our site search service for federal, state, and local government websites. This use of open source has allowed us to experience enormous growth over the past few years. In July 2014 alone, over 23 million searchers received results from our service &mdash; a five-fold increase since July 2010.
 
-Our search service is now a complex system made up of many moving parts, including providing type-ahead search suggestions, serving search results, fetching, indexing, and caching content, and providing analytics.
+Our search service is now a complex system made up of many moving parts, including providing typeahead search suggestions, serving search results, fetching, indexing, and caching content, and providing analytics.
 
 Each of these parts is compiled into our codebase and, as we use open source components for our system, we contribute back to the projects.
 
@@ -27,9 +27,9 @@ These three servers and their underlying data now operate outside of our core se
 
 Following this same model, moving forward, we plan to:
 
-* Share first&mdash;For every new feature, we'll write the code so that *anyone* can make use of the code, not just us. If the public community contributes to the codebase, we'll be able to improve this feature without taxing our developers.
-* Expose APIs&mdash;We'll expose our data products as APIs so that *anyone* can make use of the data, not just searchers on a government websites.
-* Be our own customer&mdash;We'll use our own public code and data just like everyone else. We'll call our own API servers to integrate the data within our search results pages.
+* Share first &mdash; For every new feature, we'll write the code so that *anyone* can make use of the code, not just us. If the public community contributes to the codebase, we'll be able to improve this feature without taxing our developers.
+* Expose APIs &mdash; We'll expose our data products as APIs so that *anyone* can make use of the data, not just searchers on a government websites.
+* Be our own customer &mdash; We'll use our own public code and data just like everyone else. We'll call our own API servers to integrate the data within our search results pages.
 
 ## Make Things Open to Make Things Better
 

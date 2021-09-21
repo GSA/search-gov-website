@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Step by Step Instructions for Setting Up the Drupal 8 usasearch module
+title: Step by Step Instructions for Setting Up the Drupal 8 usasearch Module
 category: developer
 tags: drupal, i14y
 date: April, 12, 2018
@@ -30,7 +30,7 @@ Required. Enter the site handle you gave your search site. This is found in our 
 
 Recommended setting: Checked.
 
-Check this box if you want to enable the Javascript for our [Type-ahead API]({{ site.baseurl }}/developer/). Suggestions for popular queries will appear below your search box as searchers begin typing. A query must have been run more than 10 times in a day for it to become a search suggestion.
+Check this box if you want to enable the Javascript for our [typeahead API]({{ site.baseurl }}/developer/). Suggestions for popular queries will appear below your search box as searchers begin typing. A query must have been run more than 10 times in a day for it to become a search suggestion.
 
 ### Search domain
 
@@ -56,7 +56,7 @@ Enter your i14y drawer’s “secret token”. This can be found in our system i
 
 ### Content Types
 
-Recommended setting (default): Checked - all types.
+Recommended setting (default): Checked &mdash; all types.
 
 Select which content types will be sent to our indexes. Content types unchecked here will **not** be indexed. You can also control indexing status of individual nodes in their Search.gov settings.
 

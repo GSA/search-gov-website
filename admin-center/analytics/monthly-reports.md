@@ -21,7 +21,7 @@ You can also toggle between filtered and unfiltered views of the data by clickin
 
 Data for the total number of queries and clicks. Use this report to find and analyze the so-called [short head](http://www.searchtools.com/analysis/long-tail.html) of your most popular search queries and clicks, which are typically the same as your site's [top tasks](https://www.usability.gov/tags/task-analysis/).
 
-### Queries with No Results
+### Queries With No Results
 
 A list of queries that returned no results. Sometimes, searchers look for information on the wrong website or use different words than what are used on the page, and so they get no results. Use this list of Queries with No Results to help searchers get to the information they're looking for. You can set up [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html), or a [Routed Query]({{ site.baseurl }}/admin-center/content/routed-queries.html). You can also [customize the No Results message]({{ site.baseurl }}/admin-center/display/no-results.html) displayed on your results page.
 

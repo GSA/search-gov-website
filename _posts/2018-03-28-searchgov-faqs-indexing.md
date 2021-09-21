@@ -93,7 +93,7 @@ We changed our name to make things simpler. In the past, we’ve been FirstGov S
  
 Based on your site setup, you have a variety of options. Below is our order of preference in terms of how we’ll get your content into our indexes (note: you may choose more than one approach):
 
-* [Structured URL list (XML sitemap)]({{ site.baseurl }}/indexing/sitemaps.html) -- We will fetch and index the URLs that you provide on an XML sitemap, and will monitor your sitemaps for new content and updates over time. Our system will visit the URLs you provide and extract page titles, dates, and full text for indexing. You can post multiple sitemaps for content from different platforms - [get the essential information about sitemaps here]({{ site.baseurl }}/indexing/sitemaps.html). This is the preferred method.
+* [Structured URL list (XML sitemap)]({{ site.baseurl }}/indexing/sitemaps.html) -- We will fetch and index the URLs that you provide on an XML sitemap, and will monitor your sitemaps for new content and updates over time. Our system will visit the URLs you provide and extract page titles, dates, and full text for indexing. You can post multiple sitemaps for content from different platforms &mdash; [get the essential information about sitemaps here]({{ site.baseurl }}/indexing/sitemaps.html). This is the preferred method.
  
 * [i14y API]({{ site.baseurl }}/developer/i14y.html) --  Our API allows you to update your search index in real-time. Best for agencies with dedicated developer resources and single-platform publishing environments.
 
@@ -133,7 +133,7 @@ You will need to publish an XML sitemap of your non-CMS material, or you could m
 
 ## Q: Are there CMS sitemap plugins available, other than Drupal?
  
-Yes - see our [XML Sitemaps overview page]({{ site.baseurl }}/indexing/sitemaps.html) for a more complete list of tools.
+Yes &mdash; see our [XML Sitemaps overview page]({{ site.baseurl }}/indexing/sitemaps.html) for a more complete list of tools.
 
 ## Q: What if we have no plans for a CMS?
  
