@@ -37,7 +37,7 @@ Despite these differences, our agency partners appear to have success in using G
 
 Within your Google Analytics account, select the option, *Do Track Site Search*. Set the query parameter as *query*. For more information, read Google's tip, [Set Up and Configure Site Search](https://support.google.com/analytics/answer/1012264?hl=en&ref_topic=1031951).
 
-Additionally, if you've requested [domain masking](cname.html) and you want to include the analytics for your *search.example.gov* subdomain with your main *example.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'example.gov']);`.
+Additionally, if you've requested [domain masking]({{ site.baseurl }}/admin-center/display/cname.html) and you want to include the analytics for your *search.example.gov* subdomain with your main *example.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'example.gov']);`.
 
 For more information, read Google's tip, [Tracking Multiple Domains](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSite).
 
@@ -60,7 +60,7 @@ Does your federal agency participate in the [Digital Analytics Program](https://
 
 Coordinate with your ForeSee representative and the Search.gov team to implement your customer satisfaction survey on your results page. The four general steps follow.
 
-1. Email us at <search@support.digitalgov.gov> to [set up a CNAME](cname.html) for `search.example.gov`.
+1. Email us at <search@support.digitalgov.gov> to [set up a CNAME]({{ site.baseurl }}/admin-center/display/cname.html) for `search.example.gov`.
 
 1. Update the files path in your Foresee code to use an absolute path instead of a relative path. 
 
