@@ -24,18 +24,7 @@ jobs:
           paths:
             - vendor/bundle
       - run: npm run build
-      - run:
-          name: Jekyll build
-          command: bundle exec jekyll build
-      - run:
-          name: HTMLProofer tests
-          command: |
-            bundle exec htmlproofer ./_site \
-              --check-favicon  \
-              --check_opengraph \
-              --check-html \
-              --assume-extension \
-              --enforce_https \
+      - run: npm run test
 
 
 workflows:
