@@ -51,7 +51,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
 			<ul>
 				<li>If your search site uses our index, we scan for page updates and removals on a regular basis. If you need something removed immediately, please <a href="mailto:search@support.digitalgov.gov">email us</a>. You can also use the Filter URLs feature to hide the item. See below.</li>
 				<li>If your search site uses the Bing index, you can use the Filter URLs feature to hide the item immediately from your results. However, we are unable to update the Bing index itself to remove the item fully from their results. We can work with you to index your site and move it onto our index, where we have control over the content and timeliness of updates.</li>
-				<li>Learn more about the <a href="{{ site.baseurl }}/admin-center/filter-content.html">Filter URLs feature</a>.</li>
+				<li>Learn more about the <a href="{{ site.baseurl }}/admin-center/content/filter-content.html">Filter URLs feature</a>.</li>
 			</ul>
       </div>
   
@@ -92,7 +92,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
       <div id="m-a6" class="usa-accordion__content usa-prose">
         <p>Our system uses multiple web indexes. Our hosted results page uses Bing index by default, but our Results API only uses our own web index. <a href="mailto:search@support.digitalgov.gov">Contact us</a> and we can adjust your hosted results page view to use our web index.</p>
 
-<p>If you don't see any results through the API, we need to index your website. Please <a href="{{ site.baseurl }}/indexing/">read our indexing guide</a>, and <a href="mailto:search@support.digitalgov.gov">email us</a> to get started.
+<p>If you don't see any results through the API, we need to index your website. Please <a href="{{ site.baseurl }}/indexing/indexing-with-searchgov.html">read our indexing guide</a>, and <a href="mailto:search@support.digitalgov.gov">email us</a> to get started.
 </p>
         
       </div>

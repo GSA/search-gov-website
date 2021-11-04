@@ -5,6 +5,8 @@ category: blog
 tags: help-manual training
 ---
 
+{% include archive.html %}
+
 Our April 2015 training session looked into the nooks and crannies of the [Admin Center](https://search.usa.gov/sites/), and provided other advanced tips for optimizing your search. We used the scenario of a site redesign to ground these tips in a common experience. This is a summary and cheat sheet. Since we know that some of these tips won’t be relevant until they’re relevant, please hang on to this for future reference.
 
 Watch the [recorded session](https://www.youtube.com/watch?v=Z1Eg9LhhFcY) on YouTube.

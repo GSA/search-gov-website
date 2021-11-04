@@ -5,6 +5,8 @@ category: blog
 tags: roadmap 
 ---
 
+{% include archive.html %}
+
 We are pleased to announce some exciting upcoming changes to our service. On October 1st, we’ll become Search.gov. We’re changing more than just our name; in fiscal year 2018, we will use our own indexes to serve search results instead of relying on [commercial web search engines]({{ site.baseurl }}/blog/searchgov-faqs-indexing.html#q-how-was-my-site-getting-results-before).
 
 Why are we evolving in this direction? Licensing commercial search results is expensive and complex. As we’ve continued to grow, our costs have continued to increase, and a new model has become a necessity. 
@@ -69,7 +71,7 @@ For customers who have developed RSS feeds for our system: that process will rem
 
 ## Next Steps and Action Items
 
-We are excited about our new direction. You can follow our progress by reading our monthly [Release Notes]({{ site.baseurl }}/tagged/release-notes/).
+We are excited about our new direction. You can follow our progress by reading our monthly [Release Notes]({{ site.baseurl }}/tagged/releases/).
 
 _CMS customers:_
 
@@ -92,7 +94,7 @@ We also invite you to read our [FAQs]({{ site.baseurl }}/blog/searchgov-faqs-ind
 
 Finally, we welcome you to email [questions and comments](mailto:search@support.digitalgov.gov).
 
-The Search program has grown and evolved since its [inception in September 2000]({{ site.baseurl }}/customers.html). We look forward to this next phase of service to you and the public. 
+The Search program has grown and evolved since its [inception in September 2000]({{ site.baseurl }}/about/customers.html). We look forward to this next phase of service to you and the public. 
 
 Happy searching,
 

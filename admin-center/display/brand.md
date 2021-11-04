@@ -18,8 +18,6 @@ To customize your search results page and match your site's brand:
 1. Upload your logo on the Image Assets page. (We'll also link your logo to your homepage using the homepage URL you provide on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page.)
 1. Add your navigation links on the Header & Footer page.
 
-Read our [favorite tips]({{ site.baseurl }}/blog/serp-redesign-tips.html) to see how other sites have customized their results pages and for some ideas on how to optimize the [newly redesigned results page]({{ site.baseurl }}/blog/serp-redesign.html) for your site.
-
 ## Font & Colors
 
 **Font Family.** Leave the default font as-is, or select your preferred font family.

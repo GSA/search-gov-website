@@ -5,6 +5,7 @@ category: blog
 tags: help-manual https
 ---
 
+{% include archive.html %}
 
 [OMB memo M-15-13](https://https.cio.gov/) requires all publicly available federal websites and web services to [implement HTTPS](https://www.digitalgov.gov/2015/07/21/an-introduction-to-https-by-18f-and-digitalgov-university/) by December 31, 2016.
 
