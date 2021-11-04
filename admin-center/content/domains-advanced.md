@@ -35,6 +35,8 @@ You can also delete all of the URLs added via the RSS feed by deleting the RSS f
 
 **Note:** We can't restore URLs that don't exist within your current feed. Please don't remove items from the feed unless you want them to be removed from the index. You can add a feed that contains up to 1,000 items on your own. If you have a feed that will include more than 1,000 items, please contact us.
 
+{: #supplemental-urls }
+
 ## Adding Content Via the Supplemental URLs Section
 
 You can also manually add a specific URL on the Supplemental URLs page. We'll fetch each URL you add manually and we'll index the title, description, and the full text of the document/webpage for the link you provide. Note: You can’t manually add a Supplemental URL if it has already been added by via Supplemental feed.
@@ -74,7 +76,7 @@ Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/admin-center
 
 * [W3C Feed Validation Service](https://validator.w3.org/feed/) (Atom & RSS)
 * RSS 2.0 [specification](http://www.rssboard.org/rss-specification) and [validator](http://www.rssboard.org/rss-validator/)
-* [Atom syndication format](https://atomenabled.org/developers/syndication/)
+* [Atom syndication format](https://validator.w3.org/feed/docs/atom.html)
 
 ***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report for your PDF that says, "No content found in document"? Your PDF is likely an image-only, non-searchable file that was created from a paper document using a scanner. See the resources below for more information on how to create searchable PDF files.
 

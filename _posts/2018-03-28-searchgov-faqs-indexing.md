@@ -5,6 +5,8 @@ category: blog
 tags: FAQs
 ---
 
+{% include archive.html %}
+
 *Updated March 2018*
 
 In FY18, we changed our name to Search.gov, and are transitioning from leveraging commercial engines for search results to serving results from our own indexes.

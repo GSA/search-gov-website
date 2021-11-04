@@ -50,11 +50,11 @@ We often receive questions when an agency conducts a major website upgrade, chan
 
        
 
-{: #description}
+{: #description }
 
 ## Ready...
 
-<a name="contact-us"></a>
+{: #contact-us }
 
 ### 1. Let the Search.gov team know you are launching a new site
 
@@ -65,7 +65,7 @@ We often receive questions when an agency conducts a major website upgrade, chan
 It’s important to plan ahead, because if there are any changes to your site structure, your search results will break, which will lead to frustration for the public as they try to use your new site. This is true for our service, and out on Google and Bing. To avoid an avalanche of `404 not found` errors from your search results, wherever possible, use 301 redirects to send visitors from the old pages to the appropriate new pages. For more on 301 redirects, read tips from [Bing](http://blogs.bing.com/webmaster/2011/10/06/managing-redirects-301s-302s-and-canonicals/) and [Google](https://support.google.com/webmasters/answer/93633). Notify other websites that link to you of the changes.
 
 
-<a name="develop-plan"></a>
+{: #develop-plan }
 
 ### 2. Develop a reindexing plan
 
@@ -79,7 +79,7 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
 
 ## Set...
 
-<a name="prep-seo"></a>
+{: #prep-seo }
 
 ### 3. Prepare xml sitemaps and SEO elements
 
@@ -92,7 +92,7 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
   * Sometimes these pieces are in place, but need to be modified or moved.
 * Talk with other web teams to ask them to do the above items on their sites, so you can leverage them when your site searches their site’s content.
 
-<a name="search-page-alert"></a>
+{: #search-page-alert }
 
 ### 4. Add a Search Page Alert in the Admin Center
 
@@ -102,7 +102,7 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
 * `We are launching a new example.gov. If your search does not return the content you expected, please check back soon for updated results.`
 * Set the status of the alert to `Inactive` and wait for the relaunch.
 
-<a name="add-features"></a>
+{: #update-brand }
 
 ### 5. Prepare color scheme updates and new logo to add to Admin Center
 
@@ -112,7 +112,7 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
 
 **Don’t implement** these changes on your production site ahead of the actual relaunch (that comes in [Step 8](#parallel-tracks), below).
 
-<a name="update-features"></a>
+{: #update-features }
 
 ### 6. Prepare updates to your other search features
 
@@ -128,7 +128,7 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
 
 ## Go!
 
-<a name="go-live"></a>
+{: #go-live }
 
 ### 7. Flip the new website live, and let us know
 
@@ -136,7 +136,7 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
 
 **What:** When your new website is publicly available, reach out to us by email or phone. This will be our signal to begin our part of [Step 8](#parallel-tracks).
 
-<a name="parallel-tracks"></a>
+{: #parallel-tracks }
 
 ### 8. Implement the changes to the search site
 
@@ -157,7 +157,7 @@ At this point, the work splits into two parallel tracks, with your team and ours
 * Tell our indexer to begin working on your domain(s).
   * The time it takes to get your content indexed depends on the number of items you have, and whether you have a crawl delay declared in your `/robots.txt` file. Generally speaking, a few hundred items should be done in an hour or two, a few thousand items should be done in several hours, etc. 
 
-<a name="go-live"></a>
+{: #results-show }
 
 ### 9. Results begin to show
 
@@ -165,7 +165,7 @@ At this point, the work splits into two parallel tracks, with your team and ours
 
 ## Victory lap
 
-<a name="google-bing"></a>
+{: #google-bing }
 
 ### 10. Alert Google and Bing that your website has been refreshed.
 
@@ -176,6 +176,6 @@ At this point, the work splits into two parallel tracks, with your team and ours
 * [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en).
 * Resources: 
   *[How to move your content to a new location](http://googlewebmastercentral.blogspot.com/2012/04/how-to-move-your-content-to-new.html)*, Google Webmaster Central Blog.
-  * In Bing, use the [Site Move tool](https://www.bing.com/webmaster/help/how-to-use-the-site-move-tool-bb8f5112).
+  * In Bing, submit your new [Sitemaps ](https://www.bing.com/webmasters/help/sitemaps-3b5cf6ed) together with the [Content Removal tool](https://www.bing.com/webmasters/help/bing-content-removal-tool-cb6c294d).
 
 If you've undergone a redesign, followed these steps, and your site search results are not what you'd expect, [send us an email](mailto:search@support.digitalgov.gov).
