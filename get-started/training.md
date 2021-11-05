@@ -23,7 +23,7 @@ You can also watch recordings of our previous sessions below. If you have any di
 <a name="intro-to-search-gov"></a>
 * **[Introduction to Search.gov](https://youtu.be/niT9kU6AfP8)** &mdash; June 2019
   * [Transcript]({{ site.baseurl }}/files/2019_06_12-intro-to-search-event-transcript.txt)
-  * [Download the MP4]({{ site.baseurl }}/files/2019_06_12-intro-to-search.MP4)
+  * [Download the MP4](https://dgsearch-images.s3.amazonaws.com/media/2019_06_12-intro-to-search.mp4)
 
 <a name="indexing-with-searchgov"></a>
 * **[Indexing with Search.gov](https://youtu.be/zxyJVrxWVmg)** &mdash; April 2019
