@@ -13,6 +13,7 @@ This is used in blog posts. The index page can be found at blog/index.html
         {% include sidenav.html sidenav=page.sidenav %}
       {% endif %}
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+       <main>
         <h1 class="title">{{page.title}}</h1>
           {% if page.author %}
             <div class="text-base margin-bottom-2">
@@ -34,6 +35,7 @@ This is used in blog posts. The index page can be found at blog/index.html
             {% endunless %}
           </div>
         {% endunless %}
+       </main>
       </div>
     </div>
   </div>
