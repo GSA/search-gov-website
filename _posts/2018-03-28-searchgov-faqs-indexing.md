@@ -5,6 +5,8 @@ category: blog
 tags: FAQs
 ---
 
+{% include archive.html %}
+
 *Updated March 2018*
 
 In FY18, we changed our name to Search.gov, and are transitioning from leveraging commercial engines for search results to serving results from our own indexes.
@@ -47,11 +49,9 @@ We will update these FAQs with questions we hear from our customers.
 
 [Q: What if I have content in my CMS plus files stored on filesystems (such as PDFs)?](#q-what-if-i-have-content-in-my-cms-plus-files-stored-on-filesystems-such-as-pdfs)
 
-[Q: Are there CMS integrations available, other than Drupal?](#q-are-there-cms-integrations-available-other-than-drupal)
-
 [Q: What if we have no plans for a CMS?](#q-what-if-we-have-no-plans-for-a-cms)
 
-[Q: How can I create or find a list of URLs for my site?](#q-how-can-i-create-or-find-a-list-of-urls-for-my-site)
+[Q: How can I create or find a list of URLs for my site?](#q-how-can-i-create-or-find-a-list-of-urls-for-my-site-to-build-a-sitemap)
 
 # General
 

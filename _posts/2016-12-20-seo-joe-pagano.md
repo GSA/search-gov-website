@@ -5,6 +5,8 @@ category: blog
 tags: seo analytics about-us
 ---
 
+{% include archive.html %}
+
 On June 10, 2014, the Metrics Community of Practice of the Federal Web Managers Council and [DigitalGov University](https://www.digitalgov.gov/digitalgov-university/) hosted an event to honor the memory of Joe Pagano, a former co-chair of the Web Metrics Sub-Council.
 
 This third lecture honoring Joe focused on search engine optimization (SEO). 
@@ -18,7 +20,7 @@ Ammie Farraj Feijoo, our program manager, presented on SEO for government websit
 * Conducting keyword research; and
 * Eliminating ROT (redundant, outdated, and trivial content).
 
-Download the [slide deck]({{ site.baseurl }}/pdf/seo-joe-pagano.pdf) [PDF] and visit the resources below to learn more.
+<!-- Download the [slide deck]({{ site.baseurl }}/pdf/seo-joe-pagano.pdf) [PDF] and visit the resources below to learn more. -->
 
 ## Webmaster Tools
 * [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster)

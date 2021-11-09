@@ -29,13 +29,13 @@ State or local agencies can browse the list by [by level of government](https://
 
 ## What's Included in the List?
 
-* Federal, state, local, [tribal](https://www.bia.gov/tribal-leaders-directory), commonwealth, and territorial government agency websites.
+* Federal, state, local, [tribal](https://www.bia.gov/service/tribal-leaders-directory), commonwealth, and territorial government agency websites.
 * [Federal reserve banks and branches](https://www.federalreserve.gov/aboutthefed/federal-reserve-system.htm).
 * [Federal home loan banks](http://www.fhlbanks.com/).
 * Libraries, archives, and museums, including [Presidential libraries](https://www.archives.gov/presidential-libraries/).
 * Department of Defense websites for [recruiting](https://www.defense.gov/Resources/Military-Departments/DOD-Websites/category/Recruiting/) and [service academies](https://www.defense.gov/Resources/Military-Departments/DOD-Websites/category/Academy/).
 * [Travel and tourism](https://www.usa.gov/state-travel-and-tourism) websites for states and U.S. territories.
-* [State lotteries](https://www.usa.gov/state-lotteries).
+* State lotteries.
 * [Cooperative extensions](https://nifa.usda.gov/land-grant-colleges-and-universities-partner-website-directory?state=All&type=Extension).
 * [Combined federal campaigns](https://www.opm.gov/combined-federal-campaign/find-local-campaigns/#url=CFC-Zones).
 * [Government sponsored enterprises](https://en.wikipedia.org/wiki/Government-sponsored_enterprise#List_of_GSEs) (such as Fannie Mae).

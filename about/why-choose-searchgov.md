@@ -19,7 +19,7 @@ This page gives a comparison of our service and other options in the marketplace
 | Search USAJOBS postings | [Yes]({{ site.baseurl }}/admin-center/display/jobs-module.html) | No | No | No |
 | Search Federal Register documents | [Yes]({{ site.baseurl }}/admin-center/display/federal-register-module.html) | No | No | No |
 | Search RSS feed content | [Yes]({{ site.baseurl }}/admin-center/content/rss.html) | No | No | No |
-| Search social media content ([Twitter]({{ site.baseurl }}/admin-center/content/twitter/.html), [images]({{ site.baseurl }}/admin-center/content/flickr.html), [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) | Yes | No | No | No |
+| Search social media content ([Twitter]({{ site.baseurl }}/admin-center/content/twitter.html), [images]({{ site.baseurl }}/admin-center/content/flickr.html), [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) | Yes | No | No | No |
 | Is developer assistance required? | No[\+](#1plus) | No | No[\*](#1star) | Depends on the service |
 | Faceted search and metadata driven search | Planned | No | Yes | Depends on the service |
 | Relevance Ranking Control | Planned[\+\+](#2plus) | No | No | Depends on the service |

@@ -24,11 +24,10 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 1. [Connect your website’s search box to your search site](#go-live)
 
 ![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.baseurl }}/files/site-launch-workflow.png){: .img-responsive}
-[Site launch flow chart detailed description](#description)
+[Site launch flow chart detailed description](#add-site)
 
 [Open large version]({{ site.baseurl }}/files/site-launch-workflow.png)
 
-{: #description }
 {: #add-site }
 
 ## 1. Add Site
@@ -121,6 +120,6 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 **What:** Once you’re ready to go live with your search site, take a look at the [Go-Live Checklist]({{ site.baseurl }}/get-started/go-live.html) to make sure you've covered all your bases. Then you will need to modify the form code for the search box on your website. We provide simple pre-formatted code in the Admin Center, or you can include these same parameters in another style of search box. [Read more and see required parameters here]({{ site.baseurl }}/admin-center/activate/code.html). 
 
-If you publish your site on Federalist, read these [alternative instructions]({{ site.baseurl }}/developer/searchgov-for-federalist.html).
+If you publish your site on Federalist, read these [alternative instructions]({{ site.baseurl }}/get-started/searchgov-for-federalist.html).
 
 You’re now live with Search.gov!

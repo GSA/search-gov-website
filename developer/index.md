@@ -46,6 +46,6 @@ These APIs are available for use on official government websites only. You must 
 
 **[search-gov-website](https://github.com/gsa/search-gov-website)** &mdash; Pages and layout for our website, <https://search.gov>.
 
-**[Site Links](https://github.com/GSA/sitelink_generator)** &mdash; The source code that "decorates" organic web results to provide additional, value-added links to help searchers find what they're looking for. Currently provides one-click links to EDGAR filings for relevant SEC.gov results. Also published as a Ruby gem at <https://rubygems.org/gems/sitelink_generator>.
+**[Site Links](https://github.com/GSA/sitelink_generator)** &mdash; The source code that "decorates" organic web results to provide additional, value-added links to help searchers find what they're looking for. Currently provides one-click links to EDGAR filings for relevant SEC.gov results. Also published as a Ruby gem at [https://rubygems.org/gems/sitelink_generator](https://rubygems.org/gems/sitelink_generator).
 
 **[Unique Child Attribute](https://github.com/GSA/activerecord-validate_unique_child_attribute)** &mdash; activerecord-validate_unique_child_attribute is an ActiveRecord extension to enforce uniqueness validations when accepting nested attributes. Works around [Rails issue #4568](https://github.com/rails/rails/issues/4568).
