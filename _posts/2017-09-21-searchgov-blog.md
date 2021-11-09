@@ -71,7 +71,7 @@ For customers who have developed RSS feeds for our system: that process will rem
 
 ## Next Steps and Action Items
 
-We are excited about our new direction. You can follow our progress by reading our monthly [Release Notes]({{ site.baseurl }}/tagged/releases/).
+We are excited about our new direction. You can follow our progress by reading our monthly [Release Notes]({{ site.baseurl }}/about/updates/releases/).
 
 _CMS customers:_
 
