@@ -80,7 +80,6 @@ Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/admin-center
 
 ***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report for your PDF that says, "No content found in document"? Your PDF is likely an image-only, non-searchable file that was created from a paper document using a scanner. See the resources below for more information on how to create searchable PDF files.
 
-* [Is that PDF Searchable?](https://blogs.adobe.com/acrolaw/2007/02/is_that_pdf_sea/) (blog post)
 * [How to Create Searchable PDF File](https://acrobatusers.com/tutorials/how-to-create-a-searchable-pdf-file) (video)
 
 ***Troubleshooting tip:*** Are you seeing an error message in the crawled URLs report that says your page is taking too long to load? Use [Google's PageSpeed Tools](https://developers.google.com/speed) to test the load time of your page, analyze it, and find the bottlenecks.

@@ -7,7 +7,7 @@ tags: open api about-us
 
 {% include archive.html %}
 
-We keep an eye on on our what our government counterparts are up to, both in the U.S. and other countries. We first came across [Gov.UK's](https://www.gov.uk) philosophy on and approach to [coding in the open](https://digital.cabinetoffice.gov.uk/2012/10/12/coding-in-the-open) a couple of years ago. It caught our attention and we realized we should also articulate our open source strategy.
+We keep an eye on on our what our government counterparts are up to, both in the U.S. and other countries. We first came across [Gov.UK's](https://www.gov.uk) philosophy on and approach to [coding in the open](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/) a couple of years ago. It caught our attention and we realized we should also articulate our open source strategy.
 
 ## Use and Contribute to Open Source Projects
 

@@ -64,7 +64,7 @@ Update your form code action: An `s` must be added to your site’s form action 
 Notify Google and Bing about the change; Google and Bing treat a migration from HTTP to HTTPS as a site move. 
 
 * Google has a step-by-step guide, [Move a Site with URL changes](https://support.google.com/webmasters/answer/6033049). 
-* For Bing, review [How to Use the Site Move tool](https://www.bing.com/webmaster/help/how-to-use-the-site-move-tool-bb8f5112).
+<!-- * For Bing, review [How to Use the Site Move tool](https://www.bing.com/webmaster/help/how-to-use-the-site-move-tool-bb8f5112). -->
 
 Additional SEO best practices:
 
