@@ -288,11 +288,11 @@ tasks:
     cta: Email Us
   - heading: Learn about Results API features
     copy: We offer a robust API for pulling search results, but its feature set is different from our hosted results page.
-    url: /admin-center/display/hosted-vs-api-results.html"
+    url: /admin-center/display/hosted-vs-api-results.html
     cta: Compare Features
   - heading: Add or remove users
     copy: You can manage who has access to your search site in the Admin Center.
-    url: /admin-center/dashboard/users.html"
+    url: /admin-center/dashboard/users.html
     cta: Manage Users
 
 
