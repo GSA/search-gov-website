@@ -22,39 +22,38 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY 21, Q2: January &ndash; March 2021
+## FY21, Q4: July - September 2021
 
 ### Now
 
 * **Version Upgrades**
-  * We will be upgrading our Elasticsearch and Ruby components to keep them up-to-date and compliant. 
+  * We will be upgrading our Rails and MySQL components to keep them up-to-date and compliant. 
 * **Search.gov website redesign**
-  * We will be launching a new design that aligns with the [US Web Design System](https://designsystem.digital.gov/), in accordance with the [21st Century IDEA](https://digital.gov/resources/21st-century-integrated-digital-experience-act/). 
-* **Results page redesign**
-  * We are beginning the preparation stage to update our search results page design.
-* **Indexing improvements**
-  * We are improving our indexing workflows on the back-end to support non-standard site structures.
+  * We will be launching a new design that aligns with the [US Web Design System](https://designsystem.digital.gov/), in accordance with the [21st Century IDEA](https://digital.gov/resources/21st-century-integrated-digital-experience-act/). The new site includes improved navigation and expanded documentation.
+* **Results page redesign** 
+  * We are completing the removal of the legacy code in preparation for the new design, as well as scoping and planning the redesign effort. 
 * **Continuity of Operations Plan Improvements** 
   * We are taking steps to bolster our system's resiliance and reliability.
+* **Indexing Workflow Improvements** 
+  * We are making some backend improvements to our indexing workflows to better support our customers lacking sitemaps.
 
 ### Next
 
-* **Results page redesign**:
-  * Begin work to decommision legacy SERP and build out new design.
-* **Development process improvements**:
-  * Streamline our deployment process.
-  * Update our system error diagnostics tooling.
-  * Clean out legacy code components.
-
+* **Results page redesign**
+  * Continue work on the new design
+* **Version Upgrades**
+  * Continue work on upgrading Elasticsearch
+* **Indexing Infrastructure Improvements**
+  * Addressing common indexing issues and improving our automated indexing processes 
 
 ### Later
 
-* **Indexing Improvements for Non-Standard Sites**.
-* **Adding Features to Results API**.
-* **Results Page Redesign Rollout**.
-* **Security and Privacy Improvements**.
+* **Indexing Improvements for Non-Standard Sites**
+* **Results Page Redesign Rollout**
+* **Security and Privacy Improvements**
 
 If you have questions or comments, please feel free to [reach out](mailto:search@support.digitalgov.gov) to our team.
+
 
 ## Previous Roadmaps
 
