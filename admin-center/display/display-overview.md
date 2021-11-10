@@ -73,5 +73,3 @@ Email us at <search@support.digitalgov.gov> if you'd like to use a custom label 
 *Refining RSS search results* (Hosted search results page only)
 
 Searchers may narrow results by time period for any [RSS]({{ site.baseurl }}/admin-center/content/rss.html) feeds. See, for example, results for a [search on *space* narrowed to press releases in the last week on NASA.gov](https://nasasearch.nasa.gov/search/news?affiliate=nasa&channel=1618&query=space&sort_by=date&tbs=w).
-
-For any of your [RSS]({{ site.baseurl }}/admin-center/content/rss.html) feeds that you've extended with a contributor, publisher, or subject [Dublin Core](http://dublincore.org/documents/dcmi-terms/) property, searchers may narrow results by the three facets. We'll display "Contributor," "Publisher," and "Subject" as the default names. Email us at <search@support.digitalgov.gov> to if you want to customize these display names.

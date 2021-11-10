@@ -12,6 +12,15 @@ sidenav: support
 <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
+Date: 12:02PM - 1:32PM ET September 28, 2021 <br />
+Details: Beginning shortly after noon ET, during planned maintenance, some searches failed. We then experienced serious degradation between 12:29PM and 12:36PM, which appears to have been a combination of the planned maintenance and a DDoS attempt. After this period, some queries continued to fail intermittently until 1:32PM ET.
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: 2:04PM - 2:38PM ET August 26, 2021 <br />
+Details: Starting around 2:04PM, our system stopped returning search results due to a production push to update a back-end tool. Search results began to improve around 2:14PM ET as we redeployed our app servers. As of 2:38PM, Search.gov is now fully operational.
+
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
 Date: 3:01pm &ndash; 5:08pm ET January 11, 2021 <br />
 Details: Starting 3:01 PM ET, a significant increase in query traffic caused our system to refuse connections. We added more processing resources to handle that additional load, which entered the herd at 4:04 PM ET and began to resolve the connection issue. The system is now fully operational.

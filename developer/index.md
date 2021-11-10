@@ -40,8 +40,6 @@ These APIs are available for use on official government websites only. You must 
 
 **[i14y](https://github.com/GSA/i14y)** &mdash; The source code that runs our search engine for agencies' published content. i14y indexes agencies' published content, for search through our regular search channels.
 
-**[Non-.gov URLs](https://github.com/GSA/govt-urls)** &mdash; The source code that runs our non-.gov URLs API. Indexes all government URLs that don't end in .gov or .mil.
-
 **[Punchcard](https://github.com/GSA/punchcard)** &mdash; The repository of synonyms, protected words, stop words, localizations, and other vocabularies that we use to improve the precision, recall, and usability of search results.
 
 **[search-gov-website](https://github.com/gsa/search-gov-website)** &mdash; Pages and layout for our website, <https://search.gov>.

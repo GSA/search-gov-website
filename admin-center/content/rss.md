@@ -141,5 +141,3 @@ You can set up a search box on your website that limits results to your feed.
 * You can click on the 'Preview' option to see the content we have indexed for each of your RSS feeds.
 
 When you [provide us with your YouTube channel]({{ site.baseurl }}/admin-center/content/youtube.html), we'll automatically index the RSS feed for your YouTube channel.
-
-For any feeds that you've extended with a contributor, publisher, or subject [Dublin Core](http://dublincore.org/documents/dcmi-terms/) property, searchers may narrow results by these facets in the [sidebar]({{ site.baseurl }}/admin-center/display/display-overview.html) on the results page.
