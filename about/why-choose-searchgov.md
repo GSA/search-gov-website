@@ -3,7 +3,7 @@ layout: page
 title: Why Choose Search.gov? 
 tags: about-us features
 date: March 4, 2021
-last_modified_at: April 6, 2021
+last_modified_at: November 22, 2021
 sidenav: about_us
 ---
 
@@ -46,7 +46,7 @@ There are several key differences between our service and other options in the m
 
 <a name="1star"></a>\* Some features are only available with Solr if you buy a hosted Solr service or you manage a crawler stack in-house
 
-<a name="2star"></a>\*\* Solr search is available at no cost for uncustomized, single-instance search. Costs are associated with hosted Solr services or development effort.
+<a name="2star"></a>\*\* Solr search is available at no cost for uncustomized, single-website CMS search. Costs are associated with hosted Solr services or development effort.
 
 <a name="1plus"></a>\+ Search.gov allows web teams to manage their search configurations without running changes through developer teams. If you would like to use our Results API to pull results and display them within your website's template, this would require developer assistance to establish and maintain the API calls, and to design and build the search results page.
 
