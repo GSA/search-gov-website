@@ -31,110 +31,110 @@ There are several key differences between our service and other options in the m
   <table class="usa-table usa-table--compact">
     <thead>
       <tr>
-        <th>Feature Comparison</th>
+        <th>Feature<br />Comparison</th>
         <th scope="col" class="text-right">Search.gov</th>
-        <th scope="col" class="text-right">Major Search Engine Custom Search</th>
+        <th scope="col" class="text-right">Major Search<br />Engine Custom<br />Search</th>
         <th scope="col" class="text-right">Solr</th>
         <th scope="col" class="text-right">Other Site Search Tools</th>
       </tr>
     </thead>
     <tr>
-      <th scope="row">Search your primary domain</th>
+      <th scope="row">Search your<br />primary domain</th>
       <td class="text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/content/domains.html">Yes</a></td>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">Yes</td>
     </tr>
     <tr>
-      <th scope="row">Search additional domains and servers</th>
+      <th scope="row">Search additional<br />domains and servers</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No<a href="#1star">*</a></td>
       <td class="text-tabular text-right">Yes</td>
     </tr>
     <tr>
-      <th scope="row">Search the full text of PDFs</th>
+      <th scope="row">Search the full<br />text of PDFs</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No<a href="#1star">*</a></td>
-      <td class="text-tabular text-right">Depends on the service</td>
+      <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
-      <th scope="row">Search USAJOBS postings</th>
+      <th scope="row">Search USAJOBS<br />postings</th>
       <td class="text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/display/jobs-module.html">Yes</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
-      <th scope="row">Search Federal Register documents</th>
+      <th scope="row">Search <em>Federal<br />Register</em> documents</th>
       <td class="text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/display/federal-register-module.html">Yes</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
-      <th scope="row">Search RSS feed content</th>
+      <th scope="row">Search RSS<br />feed content</th>
       <td class="text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/content/rss.html">Yes</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
-      <th scope="row">Search social media content (<a href="{{ site.baseurl }}/admin-center/content/twitter.html">Twitter</a>, <a href="{{ site.baseurl }}/admin-center/content/flickr.html">images</a>, <a href="{{ site.baseurl }}/admin-center/content/youtube.html">YouTube</a>)</th>
+      <th scope="row">Search social<br />media content<br />(<a href="{{ site.baseurl }}/admin-center/content/twitter.html">Twitter</a>, <a href="{{ site.baseurl }}/admin-center/content/flickr.html">images</a>,<br /><a href="{{ site.baseurl }}/admin-center/content/youtube.html">YouTube</a>)</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
-      <th scope="row">Is developer assistance required?</th>
+      <th scope="row">Is developer<br />assistance required?</th>
       <td class="text-tabular text-right">No<a href="#1plus">+</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No<a href="#1star">*</a></td>
-      <td class="text-tabular text-right">Depends on the service</td>
+      <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
-      <th scope="row">Faceted search and metadata driven search</th>
+      <th scope="row">Faceted search<br />and metadata<br />driven search</th>
       <td class="text-tabular text-right">Planned</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">Yes</td>
-      <td class="text-tabular text-right">Depends on the service</td>
+      <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
       <th scope="row">Relevance Ranking Control</th>
       <td class="text-tabular text-right">Planned<a href="#2plus">++</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
-      <td class="text-tabular text-right">Depends on the service</td>
+      <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
       <th scope="row">Customer service</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
-      <td class="text-tabular text-right">Depends on the service</td>
+      <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
       <th scope="row">SEO consultations available</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
-      <td class="text-tabular text-right">Depends on the service</td>
+      <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
       <th scope="row">Authorized to Operate</th>
       <td class="text-tabular text-right"><a href="{{ site.baseurl }}/about/security.html">Yes</a></td>
-      <td class="text-tabular text-right">Ask your CISSO</td>
-      <td class="text-tabular text-right">Ask your CISSO</td>
-      <td class="text-tabular text-right">Ask your CISSO</td>
+      <td class="text-tabular text-right">Ask your<br />CISSO</td>
+      <td class="text-tabular text-right">Ask your<br />CISSO</td>
+      <td class="text-tabular text-right">Ask your<br />CISSO</td>
     </tr>
     <tr>
       <th scope="row">Cost model</th>
       <td class="text-tabular text-right">No cost</td>
-      <td class="text-tabular text-right">Query volume</td>
+      <td class="text-tabular text-right">Query<br />volume</td>
       <td class="text-tabular text-right">No cost<a href="#2star">**</a></td>
-      <td class="text-tabular text-right">Size of index plus query volume</td>
+      <td class="text-tabular text-right">Size of index<br />plus query<br />volume</td>
     </tr>
   </table>
 </div>
