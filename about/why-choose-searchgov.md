@@ -35,7 +35,7 @@ There are several key differences between our service and other options in the m
         <th scope="col" class="text-right">Search.gov</th>
         <th scope="col" class="text-right">Major Search<br />Engine Custom<br />Search</th>
         <th scope="col" class="text-right">Solr</th>
-        <th scope="col" class="text-right">Other Site Search Tools</th>
+        <th scope="col" class="text-right">Other Site<br />Search Tools</th>
       </tr>
     </thead>
     <tr>
@@ -102,7 +102,7 @@ There are several key differences between our service and other options in the m
       <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
-      <th scope="row">Relevance Ranking Control</th>
+      <th scope="row">Relevance Ranking<br />Control</th>
       <td class="text-tabular text-right">Planned<a href="#2plus">++</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
@@ -116,14 +116,14 @@ There are several key differences between our service and other options in the m
       <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
-      <th scope="row">SEO consultations available</th>
+      <th scope="row">SEO consultations<br />available</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
-      <th scope="row">Authorized to Operate</th>
+      <th scope="row">Authorized to<br />Operate</th>
       <td class="text-tabular text-right"><a href="{{ site.baseurl }}/about/security.html">Yes</a></td>
       <td class="text-tabular text-right">Ask your<br />CISSO</td>
       <td class="text-tabular text-right">Ask your<br />CISSO</td>
