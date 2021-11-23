@@ -9,7 +9,23 @@ sidenav: about_us
 
 Search.gov is a by-government, for-government search engine provided to federal agencies by the General Services Administration. We understand the needs and challenges that government web teams face. We've designed our service to meet you where you are.
 
-This page gives a comparison of our service and other options in the marketplace. We look forward to working with you!
+## Highly configurable
+
+No developers required - use our easy interface to design your search experience yourself, including what content to search, recommended content, and the look and feel of your search results page.
+
+## Built for government
+
+Because we only engage with government clients, we orient ourselves around your needs, whether it is security, compliance, search results coverage, or the unique circumstances of government web publishing.
+
+## Hands-on customer service
+
+Our team of experts is available to help you with your questions, ranging from technical support and troubleshooting to search engine optimization consultations. Your success is our mission.
+
+## No barriers to entry
+
+Adopting a new tool or service is often difficult for federal agencies, but getting started with Search.gov is friction free. Our service is ready to use, and does not require interagency agreements, payments, or other common procedural challenges.
+
+There are several key differences between our service and other options in the marketplace. We look forward to working with you!
 
 | Features | Search.gov | Major Search Engine Custom Search | Solr | Other Site Search Tools |
 | :-- | :--: | :--: | :--: | :--: |
