@@ -27,22 +27,120 @@ Adopting a new tool or service is often difficult for federal agencies, but gett
 
 There are several key differences between our service and other options in the marketplace. We look forward to working with you!
 
-| Features | Search.gov | Major Search Engine Custom Search | Solr | Other Site Search Tools |
-| :-- | :--: | :--: | :--: | :--: |
-| Search your primary domain | [Yes]({{ site.baseurl }}/admin-center/content/domains.html) | Yes | Yes | Yes |
-| Search additional domains and servers | Yes | Yes | No[\*](#1star) | Yes |
-| Search the full text of PDFs | Yes | Yes | No[\*](#1star) | Depends on the service |
-| Search USAJOBS postings | [Yes]({{ site.baseurl }}/admin-center/display/jobs-module.html) | No | No | No |
-| Search Federal Register documents | [Yes]({{ site.baseurl }}/admin-center/display/federal-register-module.html) | No | No | No |
-| Search RSS feed content | [Yes]({{ site.baseurl }}/admin-center/content/rss.html) | No | No | No |
-| Search social media content ([Twitter]({{ site.baseurl }}/admin-center/content/twitter.html), [images]({{ site.baseurl }}/admin-center/content/flickr.html), [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) | Yes | No | No | No |
-| Is developer assistance required? | No[\+](#1plus) | No | No[\*](#1star) | Depends on the service |
-| Faceted search and metadata driven search | Planned | No | Yes | Depends on the service |
-| Relevance Ranking Control | Planned[\+\+](#2plus) | No | No | Depends on the service |
-| Customer service | Yes | No | No | Depends on the service |
-| SEO consultations available | Yes | No | No | Depends on the service |
-| Authorized to Operate | [Yes]({{ site.baseurl }}/about/security.html) | Ask your CISSO | Ask your CISSO | Ask your CISSO |
-| Cost model | No cost | Query volume | No cost[\*\*](#2star)  | Size of index plus query volume |
+<div class="usa-table-container--scrollable" tabindex="0">
+  <table class="usa-table usa-table--compact">
+    <col />
+    <colgroup span="2"></colgroup>
+    <colgroup span="2"></colgroup>
+    <thead>
+      <tr>
+        <th scope="col" class-"text-left">Feature Comparison</th>
+        <th scope="col" class="text-right">Search.gov</th>
+        <th scope="col" class="text-right">Major Search Engine Custom Search</th>
+        <th scope="col" class="text-right">Solr</th>
+        <th scope="col" class="text-right">Other Site Search Tools</th>
+      </tr>
+    </thead>
+    <tr>
+      <th scope="row">Search your primary domain</th>
+      <td class="font-mono-sm text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/content/domains.html">Yes</a></td>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row">Search additional domains and servers</th>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">No<a href="#1star">*</a></td>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+    </tr>
+    <tr>
+      <th scope="row">Search the full text of PDFs</th>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">No<a href="#1star">*</a></td>
+      <td class="font-mono-sm text-tabular text-right">Depends on the service</td>
+    </tr>
+    <tr>
+      <th scope="row">Search USAJOBS postings</th>
+      <td class="font-mono-sm text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/display/jobs-module.html">Yes</a></td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+    </tr>
+    <tr>
+      <th scope="row">Search Federal Register documents</th>
+      <td class="font-mono-sm text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/display/federal-register-module.html">Yes</a></td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+    </tr>
+    <tr>
+      <th scope="row">Search RSS feed content</th>
+      <td class="font-mono-sm text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/content/rss.html">Yes</a></td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+    </tr>
+    <tr>
+      <th scope="row">Search social media content (<a href="{{ site.baseurl }}/admin-center/content/twitter.html">Twitter</a>, <a href="{{ site.baseurl }}/admin-center/content/flickr.html">images</a>, <a href="{{ site.baseurl }}/admin-center/content/youtube.html">YouTube</a>)</th>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+    </tr>
+    <tr>
+      <th scope="row">Is developer assistance required?</th>
+      <td class="font-mono-sm text-tabular text-right">No<a href="#1plus">+</a></td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No<a href="#1star">*</a></td>
+      <td class="font-mono-sm text-tabular text-right">Depends on the service</td>
+    </tr>
+    <tr>
+      <th scope="row">Faceted search and metadata driven search</th>
+      <td class="font-mono-sm text-tabular text-right">Planned</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">Depends on the service</td>
+    </tr>
+    <tr>
+      <th scope="row">Relevance Ranking Control</th>
+      <td class="font-mono-sm text-tabular text-right">Planned<a href="#2plus">++</a></td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">Depends on the service</td>
+    </tr>
+    <tr>
+      <th scope="row">Customer service</th>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">Depends on the service</td>
+    </tr>
+    <tr>
+      <th scope="row">SEO consultations available</th>
+      <td class="font-mono-sm text-tabular text-right">Yes</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">No</td>
+      <td class="font-mono-sm text-tabular text-right">Depends on the service</td>
+    </tr>
+    <tr>
+      <th scope="row">Authorized to Operate</th>
+      <td class="font-mono-sm text-tabular text-right"><a href="{{ site.baseurl }}/about/security.html">Yes</a></td>
+      <td class="font-mono-sm text-tabular text-right">Ask your CISSO</td>
+      <td class="font-mono-sm text-tabular text-right">Ask your CISSO</td>
+      <td class="font-mono-sm text-tabular text-right">Ask your CISSO</td>
+    </tr>
+    <tr>
+      <th scope="row">Cost model</th>
+      <td class="font-mono-sm text-tabular text-right">No cost</td>
+      <td class="font-mono-sm text-tabular text-right">Query volume</td>
+      <td class="font-mono-sm text-tabular text-right">No cost<a href="#2star">**</a></td>
+      <td class="font-mono-sm text-tabular text-right">Size of index plus query volume</td>
+    </tr>
+  </table>
+</div>
 
 <a name="1star"></a>\* Some features are only available with Solr if you buy a hosted Solr service or you manage a crawler stack in-house
 
