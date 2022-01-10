@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How Search.gov Ranks Your Search Results
+title: "Relevance Ranking: How Search.gov Ranks Your Search Results"
 crumbname: Ranking Factors
 category: admin-center
 tags: indexing seo

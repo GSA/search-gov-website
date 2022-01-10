@@ -1,9 +1,9 @@
 ---
 layout: page
 title: 2017 in Review
-crumbname: 2017 Annual Review
+crumbname: 2017 in Review
 category: blog
-tags: annual-review
+tags: year-in-review
 date: December 20, 2017
 last_modified_at: December 20, 2017
 sidenav: about_us

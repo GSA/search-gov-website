@@ -17,7 +17,7 @@ redirect_from:
 ## How does all this work?
 
 * [What Search.gov indexes from your website]({{ site.baseurl }}/indexing/what-searchgov-indexes.html).
-* [How Search.gov ranks your search results]({{ site.baseurl }}/indexing/ranking-factors.html).
+* [Relevance Ranking: How Search.gov ranks your search results]({{ site.baseurl }}/indexing/ranking-factors.html).
 * [How A Page on a Sitemap Becomes a Search Result]({{ site.baseurl }}/indexing/sitemaps-to-search-sites.html).
 * [A step-by-step indexing workflow]({{ site.baseurl }}/indexing/indexing-workflow.html).
 * How search engines index your website: a general overview of Search.gov and commercial search engines.
