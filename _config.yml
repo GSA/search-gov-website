@@ -82,16 +82,18 @@ primary_navigation:
         url: "/about/customers.html"
       - name: Search.gov in Policy
         url: "/about/policy/"
-      - name: Share Your Feedback
-        url: "/about/feedback.html"
+      - name: Year in Review
+        url: "/about/updates/year-in-review/"
+      - name: Security and Compliance
+        url: "/about/security.html"
       - name: Our Product Roadmap
         url: "/about/updates/roadmap/"
       - name: Release Notes
         url: "/about/updates/releases/"
+      - name: Share Your Feedback
+        url: "/about/feedback.html"
       - name: For Developers
         url: "/developer/"
-      - name: Security and Compliance
-        url: "/about/security.html"
   - name: Get Started
     children:
       - name: Get Started With Search.gov
@@ -106,11 +108,13 @@ primary_navigation:
         url: "/admin-center/display/hosted-vs-api-results.html"
       - name: Training and Resources
         url: "/get-started/learn.html"
+      - name: Website Redesign Tips
+        url: "/indexing/redesign.html"
   - name: Manage Your Search Site
     children:
-      - name: Admin Center Help Manual
+      - name: Full Help Manual
         url: "/admin-center/index.html"
-      - name: Add/Remove Users
+      - name: Add or Remove Users
         url: "/admin-center/dashboard/users.html"
       - name: Add a Site
         url: "/admin-center/dashboard/add-site.html"
@@ -120,6 +124,8 @@ primary_navigation:
         url: "/admin-center/analytics/index.html"
       - name: Add Search Features
         url: "/get-started/site-launch-guide.html#add-features"
+      - name: Website Redesign Tips
+        url: "/indexing/redesign.html"
   - name: Index With Search.gov
     children:
       - name: Start Here
@@ -130,7 +136,7 @@ primary_navigation:
         url: "/indexing/ranking-factors.html"
       - name: How a Page Becomes a Search Result
         url: "/indexing/sitemaps-to-search-sites.html"
-      - name: Indexing Workflow
+      - name: Indexing Step-By-Step
         url: "/indexing/indexing-workflow.html"
       - name: Metadata and Tags
         url: "/indexing/metadata.html"
@@ -160,16 +166,16 @@ about_us:
       url: "/about/why-choose-searchgov.html"
     - name: Customers
       url: "/about/customers.html"
+    - name: Search.gov in Policy
+      url: "/about/policy/"
+    - name: Year in Review
+      url: "/about/updates/year-in-review/"
+    - name: Security and Compliance
+      url: "/about/security.html"
     - name: Our Product Roadmap
       url: "/about/updates/roadmap/"
     - name: Release Notes
       url: "/about/updates/releases/"
-    - name: Annual Reviews
-      url: "/about/updates/annual-reviews/"
-    - name: Search.gov in Policy
-      url: "/about/policy/"
-    - name: Security and Compliance
-      url: "/about/security.html"
     - name: Share Your Feedback
       url: "/about/feedback.html"
   - name: Related Resources
@@ -193,6 +199,12 @@ admin_center:
         url: "/admin-center/preview.html"
       - name: Activate
         url: "/admin-center/activate/"
+  - name: Additional Resources
+    url: "#additional-resources"
+    children:
+      - name: Website Redesign Tips
+        url: "/indexing/redesign.html"
+
 
 get_started:
   - name: Get Started With Search.gov
@@ -217,6 +229,8 @@ get_started:
         url: "/about/why-choose-searchgov.html"
       - name: Results Page Feature Comparison
         url: "/admin-center/display/hosted-vs-api-results.html"
+      - name: Website Redesign Tips
+        url: "/indexing/redesign.html"
     
 
 indexing:
@@ -225,16 +239,16 @@ indexing:
     children:
       - name: How Does Indexing Work?
         children:
-          - name: How Search Engines Index Your Website (Webinar)
-            url: "/get-started/training.html#how-engines-index"
           - name: What Search.gov Indexes From Your Website
             url: "/indexing/what-searchgov-indexes.html"
           - name: How Search.gov Ranks Your Search Results
             url: "/indexing/ranking-factors.html"
           - name: How a Page on a Sitemap Becomes a Search Result
             url: "/indexing/sitemaps-to-search-sites.html"
-          - name: A Step-by-step Indexing Workflow
+          - name: A Step-By-Step Indexing Workflow
             url: "/indexing/indexing-workflow.html"
+          - name: How Search Engines Index Your Website (Webinar)
+            url: "/get-started/training.html#how-engines-index"
       - name: Domain Level SEO Supports
         children:
           - name: All About XML Sitemaps
@@ -247,6 +261,8 @@ indexing:
             url: "/indexing/metadata.html"
           - name: How to Get Search Engines to Index the Right Content for Better Discoverability
             url: "/indexing/how-search-engines-index-content-better-discoverability.html"
+  - name: Website Redesign Tips
+    url: "/indexing/redesign.html"
 
 support:
   - name: Support
@@ -258,6 +274,8 @@ support:
     children:
       - name: Training Webinars
         url: "/get-started/training.html"
+  - name: Website Redesign Tips
+    url: "/indexing/redesign.html"
   - name: Share Your Feedback
     url: "/about/feedback.html"
   - name: For Developers

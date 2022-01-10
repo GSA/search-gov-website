@@ -1,9 +1,9 @@
 ---
 layout: page
 title: 2018 in Review
-crumbname: 2018 Annual Review
+crumbname: 2018 in Review
 category: blog
-tags: annual-review
+tags: year-in-review
 date: December 20, 2018
 last_modified_at: December 20, 2018
 sidenav: about_us

@@ -2,14 +2,9 @@
 layout: page
 title: 2020 in Review
 description: The 2020 Search.gov Year In Review report shows how significantly the COVID-19 pandemic affected how the public sought information and services from the government.
-crumbname: 2020 Annual Review
+crumbname: 2020 in Review
 category: blog
-tags: annual-review
-breadcrumbs:
-  - label: Home
-    url: /
-  - label: Annual Reviews
-    url: /blog/annual-reviews.html
+tags: year-in-review
 sidenav: about_us
 ---
 <span><a href="{{ site.baseurl }}/files/2020-annual-review.pdf"><img 
@@ -68,4 +63,4 @@ The time frame studied was January 1 &ndash; December 31, 2020.
 
 <br />
 
-[Read our 2020 system highlights]({{ site.baseurl }}/about/updates/annual-reviews/2020-system-highlights.html), an overview of the biggest improvements we made to our system last year.
+[Read our 2020 system highlights]({{ site.baseurl }}/about/updates/year-in-review/2020-system-highlights.html), an overview of the biggest improvements we made to our system last year.

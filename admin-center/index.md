@@ -56,18 +56,19 @@ Related resources:
 * Custom [No Results]({{ site.baseurl }}/admin-center/display/no-results.html) page
 * Custom [Search Page Alert]({{ site.baseurl }}/admin-center/display/system-alert.html)
 
-## <i class="icon-eye-open"></i> Preview
+## <i class="icon-eye-open"></i> [Preview]({{ site.baseurl }}/admin-center/preview.html)
 
-* [Preview]({{ site.baseurl }}/admin-center/preview.html)
+* [Preview]({{ site.baseurl }}/admin-center/preview.html) your search results, to review both design and content.
 
 ## <i class="icon-code"></i> [Activate Search]({{ site.baseurl }}/admin-center/activate/)
 
 * [Code Snippets]({{ site.baseurl }}/admin-center/activate/code.html)
 * [Search Results API Instructions and Access Key](https://open.gsa.gov/api/searchgov-results/)\*
 * [typeahead API Instructions]({{ site.baseurl }}/admin-center/activate/typeahead-api.html)\*
-* [i14y API Instructions]({{ site.baseurl }}/developer/i14y.html)\*
 
 \* These APIs are available for use on official government websites only. You must be a Search.gov customer. [Sign in](https://search.usa.gov/sites) is required. Keys for each can be found under [Admin Center](https://search.usa.gov/sites) > YourSite > Activate Search.
+
+{: #additional-resources }
 
 ## Additional Help Resources
 

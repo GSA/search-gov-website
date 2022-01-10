@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Add a New Site
+title: How to Add a New Search Site
 category: admin-center
 tags: "help-manual settings add-site"
 date: March 2, 2017
@@ -16,7 +16,7 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 
 ## Homepage URL
 
-Tell us the homepage URL of your website. Enter a fully qualified URL, including `https://`, `https://www`, etc. 
+Tell us the homepage URL of your website. Enter a fully qualified URL, including the protocol, such as `https://www.example.gov`. 
 
 **Correct Syntax**
 
