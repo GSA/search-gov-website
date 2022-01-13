@@ -35,12 +35,6 @@ We have a proven track record of delivering fast, relevant search results to fed
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.dhs.gov">
-            <img alt="Official seal of the Department of Homeland Security" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-dhs.png"/>
-            Homeland Security
-        </a>
-    </div>
-    <div class="customer-logo-item">
         <a href="https://www.hud.gov">
             <img alt="Official seal of the Department of Housing and Urban Development" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-hud.png"/>
             HUD
@@ -112,7 +106,6 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Bureau of the Fiscal Service](https://www.fiscal.treasury.gov)
 * [Census Bureau](https://www.census.gov/)
 * [Centers for Medicare and Medicaid Services Healthcare.gov](https://www.healthcare.gov/)
-* [Citizenship and Immigration Services](https://www.uscis.gov)
 * [Coast Guard](https://www.uscg.mil/)
 * [Coast Guard Auxiliary](https://www.cgaux.org)
 * [Commission of Fine Arts](https://www.cfa.gov)
@@ -134,7 +127,6 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Department of Education](https://www.ed.gov)
 * [Department of Energy Office of Science](https://www.es.net/)
 * [Department of Health and Human Services Office of Inspector General](https://oig.hhs.gov/)
-* [Department of Homeland Security](https://www.dhs.gov/)
 * [Department of Homeland Security Office of the Inspector General](https://www.oig.dhs.gov)
 * [Department of Housing and Urban Development](https://www.hud.gov)
 * [Department of Justice](https://www.justice.gov)
