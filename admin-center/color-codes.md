@@ -13,6 +13,7 @@ In addition to text-based indicators, we use color coding the [Admin Center](htt
 
 ## [Manage Users]({{ site.baseurl }}/admin-center/dashboard/users.html)
 
+{: .usa-table .usa-table--compact}
 | Color | Status |
 | :------------ | :---------------------------------- |
 | No color&nbsp;&nbsp;&nbsp; | Approved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
@@ -21,12 +22,13 @@ In addition to text-based indicators, we use color coding the [Admin Center](htt
 
 ## [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html)
 
+{: .usa-table .usa-table--compact}
 | Color | Status |
 | :------------ | :---------------------------------- |
 | Green&nbsp;&nbsp;&nbsp; | Feed indexed, no errors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | Yellow  | Pending Indexing |
 | Red   | Feed indexed, but error in one or more items |
-| &nbsp; | &nbsp; |
+
 
 Click on the name of the feed to see more detailed information about its status. Possible error messages follow.
 
@@ -41,10 +43,10 @@ Click on the name of the feed to see more detailed information about its status.
 
 ## [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html): Text or Graphics
 
+{: .usa-table .usa-table--compact}
 | Color | Status |
 | :------------ | :---------------------------------- |
 | Green&nbsp;&nbsp;&nbsp;  | Active&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | Yellow   | Inactive |
-| &nbsp; | &nbsp; |
 
 Active best bets are shown to searchers on your site. Inactive entries aren't shown to searchers because they're inactive, expired (by the publish end date), or both.

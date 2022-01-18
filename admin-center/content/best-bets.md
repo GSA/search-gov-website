@@ -129,6 +129,7 @@ If you've selected Match Keywords Only, then only keywords are used to determine
 
 We use [color coding]({{ site.baseurl }}) to indicate each entry's status. 
 
+{: .usa-table .usa-table--compact}
 | Color | Status | 
 | :------------ | :---------------------------------- |
 | Green&nbsp;&nbsp;&nbsp;  | Active&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |

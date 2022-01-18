@@ -22,7 +22,7 @@ title: Search.gov
 email: search@support.digitalgov.gov
 # description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 # twitter: 
@@ -200,7 +200,7 @@ admin_center:
       - name: Activate
         url: "/admin-center/activate/"
   - name: Additional Resources
-    url: "#additional-resources"
+    url: "/admin-center/#additional-resources"
     children:
       - name: Website Redesign Tips
         url: "/indexing/redesign.html"

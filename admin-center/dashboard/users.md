@@ -20,6 +20,7 @@ You can add anyone you'd like to your site &mdash; with or without a .gov or .mi
 
 In addition to a text-based indicator, we use [color coding]({{ site.baseurl }}/admin-center/color-codes.html) to indicate each user's status. 
 
+{: .usa-table .usa-table--compact}
 | Color | Status | 
 | :------------ | :---------------------------------- |
 | No color&nbsp;&nbsp;&nbsp; | Approved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
