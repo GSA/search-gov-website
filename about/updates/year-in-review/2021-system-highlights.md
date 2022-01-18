@@ -8,7 +8,7 @@ last_modified_at: January 19 2022
 sidenav: about_us
 ---
 
-Every month we publish [release notes]({ site.baseurl }/about/updates/releases/), highlighting the improvements we’ve made to our technology. The biggest changes in 2021 revolved around system security and legacy code cleanup, paving the way for new feature development in 2022.
+Every month we publish [release notes]({{site.baseurl}}/about/updates/releases/), highlighting the improvements we’ve made to our technology. The biggest changes in 2021 revolved around system security and legacy code cleanup, paving the way for new feature development in 2022.
 
 * **Indexing Improvements:** We now visit sitemaps to scan for new and updated content every 2 hours. We made updates to our backend infrastructure to make it easier to manually queue URLs for indexing. We also improved the performance and stability of our indexing process.
 * **Localizations Update:** We moved management of multilingual support from the GSA/Punchcard repository to the GSA/search-gov repository.
