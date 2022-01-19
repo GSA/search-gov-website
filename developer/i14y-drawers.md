@@ -7,6 +7,8 @@ date: October 3, 2017
 last_modified_at: October 3, 2017
 sidenav: support
 published: true
+redirect_from:
+    - /manual/i14y-drawers.html
 ---
 
 {% include archive.html %}
