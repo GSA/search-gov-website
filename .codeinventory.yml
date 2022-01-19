@@ -1,0 +1,13 @@
+name: Search.gov
+description: 'The website for the Search.gov program'
+license: null
+openSourceProject: 1
+governmentWideReuseProject: 0
+tags:
+    - GSA
+    - Search.gov
+    - DigitalGovSearch
+    - search
+    - website
+contact:
+    email: search@support.digitalgov.gov

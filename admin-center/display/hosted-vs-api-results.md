@@ -19,12 +19,14 @@ After you get your [search site set up]({{ site.baseurl }}/get-started/site-laun
   * You should also implement our [Clicks API](https://open.gsa.gov/api/searchgov-clicks/) to use alongside the Results API &mdash; this API reports click activity to our system and will complete your search analytics.
   * For searchers to use new search features we introduce over time, your developers will need to update your environment's results page template.
 
+{: .usa-table .usa-table--compact}
 | Analytics Features | Available on Hosted Search Results Page? | Available in Results API? |
 | :-- | :--: | :--: |
 | [Query Tracking]({{ site.baseurl }}/admin-center/analytics/queries.html) to see what people searched for on your website | Yes | Yes |
 | [Click Tracking]({{ site.baseurl }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes &mdash; requires a [secondary API call](https://open.gsa.gov/api/searchgov-clicks/) |
 | [Referrer Tracking]({{ site.baseurl }}/admin-center/analytics/referrers.html) to see where people were when they ran their searches | Yes | No |
 
+{: .usa-table .usa-table--compact}
 | Content Features | Available on Hosted Search Results Page? | Available in Results API? |
 | :-- | :--: | :--: |
 | [Domains]({{ site.baseurl }}/admin-center/content/domains.html) to search by default | Yes | Yes |

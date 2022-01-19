@@ -14,6 +14,7 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 
 When you add a search site, you have the option to set the language to something other than English. We support the following languages on our search results pages. 
 
+{: .usa-table .usa-table--compact}
 | &nbsp; | &nbsp; |
 | :------------------- | :-----------------|
 | Albanian | Korean

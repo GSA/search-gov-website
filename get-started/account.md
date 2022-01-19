@@ -35,7 +35,7 @@ You will first need to register with Login.gov, and you'll receive an automatic 
 
 **Important note about Login.gov:** If you already registered with them with a different email address, for instance your personal email address for use with USAJOBS, you will need to log in to Login.gov, and on https://secure.login.gov/account use the `Add email` button in the upper right to add the government email address that you use with Search.gov.
 
-<img src="{{ site.baseurl }}/assets/img/site/login_gov-add-email.png" align=center width="500px" alt="Screenshot of Login.gov account page showing where to find the 'Add email' button" title="Add another email in Login.gov">
+<img src="{{ site.baseurl }}/assets/img/site/login_gov-add-email.png"  width="500px" alt="Screenshot of Login.gov account page showing where to find the 'Add email' button" title="Add another email in Login.gov">
 
 If you have a .gov or .mil address, you'll be able to access your account immediately after you verify your email.
 
@@ -48,12 +48,12 @@ Log in to an existing account at <https://search.usa.gov/login>.
 
 1. Acknowledge you are accessing a government system
 1. Sign in at Login.gov with your email address and password, and provide your second factor of authentication (PIV/CAC card, code receive via SMS, etc.) <br />
-<img src="{{ site.baseurl }}/assets/img/site/login-gov-sign-in.png" align="center" width="500px" alt="Screenshot showing Login.gov sign in page" title="Sign in to Login.gov">
+<img src="{{ site.baseurl }}/assets/img/site/login-gov-sign-in.png" width="500px" alt="Screenshot showing Login.gov sign in page" title="Sign in to Login.gov">
 1. You will be returned to your Account page in Search.gov &mdash; use the `Select a Site` dropdown menu in the upper left to access your search configurations.
 
 If you've previously logged in to Login.gov using an email address different from the one you use to access Search.gov, go to https://secure.login.gov/account and use the `Add email` button in the upper right to add the government email address that you use with Search.gov.
 
-<img src="{{ site.baseurl }}/assets/img/site/login_gov-add-email.png" align="center" width="500px" alt="Screenshot of Login.gov account page showing where to find the 'Add email' button" title="Add another email in Login.gov">
+<img src="{{ site.baseurl }}/assets/img/site/login_gov-add-email.png" width="500px" alt="Screenshot of Login.gov account page showing where to find the 'Add email' button" title="Add another email in Login.gov">
 
 <a id="update-email"></a>
 ## Update Your Email Address

@@ -14,6 +14,14 @@ sidenav: support
 ## Recent Events
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
+Date: 7:10 - 8:20 ET December 22, 2021 <br />
+Details: From around 7AM to 8AM ET, searches were intermittently failing due to an outage with our hosting provider. The outage is now resolved and Search.gov is fully operational.
+
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
+Date: 8:16AM ET - 8:21AM ET, 8:40AM ET - 8:41AM ET December 20 <br />
+Details: From December 20 between 8:16AM ET - 8:21AM ET, and 8:40AM ET - 8:41AM ET, Search.gov encountered an error with a certain subset of searches failing. The issue has been resolved and Search.gov is now fully operational.
+
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
 Date: 12:02PM - 1:32PM ET September 28, 2021 <br />
 Details: Beginning shortly after noon ET, during planned maintenance, some searches failed. We then experienced serious degradation between 12:29PM and 12:36PM, which appears to have been a combination of the planned maintenance and a DDoS attempt. After this period, some queries continued to fail intermittently until 1:32PM ET.
 
@@ -92,6 +100,7 @@ Details: We experienced intermittent errors due to request queue volume. Errors 
 
 ## Legend
 
+{: .usa-table .usa-table--compact}
 | &nbsp;&nbsp;Color&nbsp;&nbsp;	| Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	| Description |
 | :--:	| :--	| :-- |
 |<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">	| Fully Operational	| Systems are operating normally.|

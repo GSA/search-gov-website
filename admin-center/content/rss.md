@@ -104,6 +104,7 @@ We use [color coding]({{ site.baseurl }}/admin-center/color-codes.html) to indic
 
 ![RSS status messages and colors](https://d3qcdigd1fhos0.cloudfront.net/blog/img/rss-status.png)
 
+{: .usa-table .usa-table--compact}
 | Color | Status | 
 | :------------ | :---------------------------------- |
 | Green&nbsp;&nbsp;&nbsp; | Feed indexed, no errors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |

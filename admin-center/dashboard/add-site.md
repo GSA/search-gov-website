@@ -58,7 +58,7 @@ If you select Spanish, results will primarily include Spanish language pages. Al
 
 If you select one of the other [69 languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html), results will primarily include pages from the selected language when possible. Display text will be in the selected language when localizations are available, and in English when they're not available.
 
-We've published the [localization files](https://github.com/GSA/punchcard/tree/master/localizations) on Github, and we encourage you to [contribute](https://github.com/GSA/punchcard/blob/master/CONTRIBUTING.md) to them.
+We've published the [localization files](https://github.com/GSA/search-gov/tree/master/config/locales) on Github, and we encourage you to [contribute](https://github.com/GSA/search-gov/blob/master/CONTRIBUTING.md) to them.
 
 ---
 

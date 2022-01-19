@@ -14,6 +14,7 @@ We call several different indexes when serving search results, and we present re
 
 This page lists all the module codes and their full names.
 
+{: .usa-table .usa-table--compact}
 | Code    | Module Name |
 | :------------ | :---------------------------------- |
 | AIDOC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Collections |
