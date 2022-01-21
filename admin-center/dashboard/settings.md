@@ -50,7 +50,7 @@ We assign a unique, system-generated numeric ID to your site. We use this ID in 
 
 ## Site Language
 
-You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html) when you first [added your site]({{ site.baseurl }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
+You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html)) when you first [added your site]({{ site.baseurl }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
 
 ## Delete
 

@@ -121,7 +121,7 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Defense Intelligence Agency](https://www.dia.mil)
 * [Defense Logistics Agency](https://www.dla.mil/)
 * [Defense Media Activity](https://www.dma.mil)
-* [Department of Agriculture](https://mymarketnews.ams.usda.gov)
+* [Department of Agriculture](https://www.usda.gov/)
 * [Department of Commerce](https://www.commerce.gov)
 * [Department of Defense](https://www.defense.gov)
 * [Department of Education](https://www.ed.gov)

@@ -27,20 +27,12 @@
 {% asset app.js %}
 
 {% if site.searchgov %}
-  {% if site.searchgov.suggestions == "true" %}
-  <script>
-  //<![CDATA[
-      var usasearch_config = { siteHandle:"{{ site.searchgov.affiliate }}" };
-
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "//search.usa.gov/javascripts/remote.loader.js";
-      document.getElementsByTagName("head")[0].appendChild(script);
-
-  //]]>
-  </script>
-  {% endif %}  
-{% else %}
+  {% if site.searchgov.suggestions == true %}
+    <script>
+          var usasearch_config = { siteHandle: "{{ site.searchgov.affiliate }}" };
+    </script>
+    <script async src="https://search.usa.gov/javascripts/remote.loader.js" type="text/javascript"></script>
+  {% endif %}
 {% endif %}
 
 <script src="https://touchpoints.app.cloud.gov/touchpoints/b5daa2ee/js" async></script>

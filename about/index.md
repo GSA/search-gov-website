@@ -32,4 +32,4 @@ In 2010, Search.gov moved to open-source software and expanded its use to agenci
 * **Amani Farooque** &ndash; Product Manager
 * **Robert Fink** &ndash; Technical Lead and DevOps
 * **Martha Thompson** &ndash; Senior Developer
-* **John Maxwell** &ndash; Developer
+* **Lora Woodford** &ndash; Developer

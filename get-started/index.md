@@ -20,7 +20,7 @@ Search.gov is a search engine built by government, for government, available at 
   * [How a Page On a Sitemap Becomes a Search Result]({{ site.baseurl }}/indexing/sitemaps-to-search-sites.html)
   * [A Step-by-step Indexing Workflow]({{ site.baseurl }}/get-started/site-launch-guide.html#indexing-workflow)
   * [All About XML Sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)
-* Watch our 4-minute [Getting Started video](https://www.youtube.com/watch?v=p-y9T23ziEg), or a recording of our [webinar Intro to Search.gov]({{ site.baseurl }}/get-started/training.html), a one-hour overview of our system.
+* Watch our 4-minute [Getting Started video (YouTube)](https://www.youtube.com/watch?v=p-y9T23ziEg), or a recording of our [webinar Intro to Search.gov]({{ site.baseurl }}/get-started/training.html), a one-hour overview of our system.
 * Review our [Search Site Launch Guide]({{ site.baseurl }}/get-started/site-launch-guide.html), a step by step guide that takes you through everything you need to do to start using our service.
 * [Learn what search features are available through our different results page options]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html)
 * Contact Us: [email us](mailto:search@support.digitalgov.gov) or call [202-969-7426](tel:(202)-969-7426) if you have any questions. We will be happy to schedule a call to go over your specific search needs.
