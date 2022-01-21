@@ -10,7 +10,7 @@ redirect_from:
     - /manual/routed-queries.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Routed Queries
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Routed Queries
 
 Do you want to get searchers to a specific web page as quickly as possible? Create a Routed Query.
 
@@ -26,7 +26,7 @@ We recommend creating a routed query for [top tasks](https://digitalgov.gov/2015
 
 ***Keywords.*** Add the specific words or phrases used to trigger the routing. Searchers will only be directed to the URL above when their query term exactly matches one of the listed keywords. Common keywords include synonyms, acronyms, compound words, misspellings, slang, or other variants. Enter each keyword (word or phrase up to 255 characters) in a separate field. 
 
-*Note*: Any keyword that you add to a Routed Query will become a permanent [typeahead suggestion]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). This applies to all 3 ways that typeahead suggestions are displayed from our system: the module that can be turned on in the [Display Overview section]({{ site.baseurl }}/admin-center/display/display-overview.html#modules), the [JavaScript snippet]({{ site.baseurl }}/admin-center/activate/typeahead-api.html), and the [API]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). If you do not want certain keywords to appear as typeahead suggestions, [email us](mailto:search@support.digitalgov.gov).
+*Note*: Any keyword that you add to a Routed Query will become a permanent [typeahead suggestion]({{ site.url }}/admin-center/activate/typeahead-api.html). This applies to all 3 ways that typeahead suggestions are displayed from our system: the module that can be turned on in the [Display Overview section]({{ site.url }}/admin-center/display/display-overview.html#modules), the [JavaScript snippet]({{ site.url }}/admin-center/activate/typeahead-api.html), and the [API]({{ site.url }}/admin-center/activate/typeahead-api.html). If you do not want certain keywords to appear as typeahead suggestions, [email us](mailto:search@support.digitalgov.gov).
 
 ## Examples of How It Works
 
@@ -45,4 +45,4 @@ If they get routed to the [Unclaimed Money from the Government](https://www.usa.
 
 If they search for something not on the above list, like *show me missing money*, they'll still get the normal search results. 
 
-![Standard search results for 'I am looking for unclaimed money' on USA.gov]({{ site.baseurl }}/assets/img/site/unclaimed-money.png){:height="95%" width="95%"}
+![Standard search results for 'I am looking for unclaimed money' on USA.gov]({{ site.url }}/assets/img/site/unclaimed-money.png){:height="95%" width="95%"}

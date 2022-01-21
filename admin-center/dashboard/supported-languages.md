@@ -10,7 +10,7 @@ redirect_from:
     - /manual/supported-languages.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Settings
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Settings
 
 When you add a search site, you have the option to set the language to something other than English. We support the following languages on our search results pages. 
 

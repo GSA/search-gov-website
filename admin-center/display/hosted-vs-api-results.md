@@ -7,9 +7,9 @@ last_modified_at: April 6, 2021
 sidenav: admin_center
 ---
 
-After you get your [search site set up]({{ site.baseurl }}/get-started/site-launch-guide.html) and we have your content indexed, it’s time to think about how you want to display the search results to your users. We offer two options:
+After you get your [search site set up]({{ site.url }}/get-started/site-launch-guide.html) and we have your content indexed, it’s time to think about how you want to display the search results to your users. We offer two options:
  
-**[Hosted Search Results]({{ site.baseurl }}/admin-center/display/)** &mdash; *Recommended!*
+**[Hosted Search Results]({{ site.url }}/admin-center/display/)** &mdash; *Recommended!*
   * Configure the branding, fonts, and colors of the results page using our Admin Center interface.
   * All our search features are available and maintained over time.
   * No developer effort on your agency’s part.
@@ -22,22 +22,22 @@ After you get your [search site set up]({{ site.baseurl }}/get-started/site-laun
 {: .usa-table .usa-table--compact}
 | Analytics Features | Available on Hosted Search Results Page? | Available in Results API? |
 | :-- | :--: | :--: |
-| [Query Tracking]({{ site.baseurl }}/admin-center/analytics/queries.html) to see what people searched for on your website | Yes | Yes |
-| [Click Tracking]({{ site.baseurl }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes &mdash; requires a [secondary API call](https://open.gsa.gov/api/searchgov-clicks/) |
-| [Referrer Tracking]({{ site.baseurl }}/admin-center/analytics/referrers.html) to see where people were when they ran their searches | Yes | No |
+| [Query Tracking]({{ site.url }}/admin-center/analytics/queries.html) to see what people searched for on your website | Yes | Yes |
+| [Click Tracking]({{ site.url }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes &mdash; requires a [secondary API call](https://open.gsa.gov/api/searchgov-clicks/) |
+| [Referrer Tracking]({{ site.url }}/admin-center/analytics/referrers.html) to see where people were when they ran their searches | Yes | No |
 
 {: .usa-table .usa-table--compact}
 | Content Features | Available on Hosted Search Results Page? | Available in Results API? |
 | :-- | :--: | :--: |
-| [Domains]({{ site.baseurl }}/admin-center/content/domains.html) to search by default | Yes | Yes |
-| [Collections]({{ site.baseurl }}/admin-center/content/collections.html) to search alternative locations | Yes | No |
-| [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) &mdash; Text and Graphics options, to post recommended items at the top of results | Yes | Yes |
-| [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to send searchers to specific pages | Yes | Yes &mdash; requires additional logic |
-| [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html) &mdash; document search | Yes | Yes &mdash; requires separate endpoint call |
-| [YouTube Videos]({{ site.baseurl }}/admin-center/content/youtube.html) | Yes | Yes &mdash; requires separate endpoint call |
-| [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html) | Yes | Yes |
-| [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html) | Yes | No |
-| [MRSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html) &mdash; image search | Yes | No |
-| [Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html) | Yes | Yes |
-| [Federal Register Documents]({{ site.baseurl }}/admin-center/display/federal-register-module.html) | Yes | Yes |
-| [Health Topics]({{ site.baseurl }}/admin-center/display/health-module.html) | Yes | Yes |
+| [Domains]({{ site.url }}/admin-center/content/domains.html) to search by default | Yes | Yes |
+| [Collections]({{ site.url }}/admin-center/content/collections.html) to search alternative locations | Yes | No |
+| [Best Bets]({{ site.url }}/admin-center/content/best-bets.html) &mdash; Text and Graphics options, to post recommended items at the top of results | Yes | Yes |
+| [Routed Queries]({{ site.url }}/admin-center/content/routed-queries.html) to send searchers to specific pages | Yes | Yes &mdash; requires additional logic |
+| [RSS Feeds]({{ site.url }}/admin-center/content/rss.html) &mdash; document search | Yes | Yes &mdash; requires separate endpoint call |
+| [YouTube Videos]({{ site.url }}/admin-center/content/youtube.html) | Yes | Yes &mdash; requires separate endpoint call |
+| [Twitter]({{ site.url }}/admin-center/content/twitter.html) | Yes | Yes |
+| [Flickr]({{ site.url }}/admin-center/content/flickr.html) | Yes | No |
+| [MRSS Feeds]({{ site.url }}/admin-center/content/rss.html) &mdash; image search | Yes | No |
+| [Jobs]({{ site.url }}/admin-center/display/jobs-module.html) | Yes | Yes |
+| [Federal Register Documents]({{ site.url }}/admin-center/display/federal-register-module.html) | Yes | Yes |
+| [Health Topics]({{ site.url }}/admin-center/display/health-module.html) | Yes | Yes |

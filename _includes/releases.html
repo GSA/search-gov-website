@@ -8,7 +8,7 @@
     <ul>
     {% assign date = currentdate %}
   {% endif %}
-    <li><a href="{{ site.baseurl }}{{ release.url }}">{{ release.title }}</a></li>
+    <li><a href="{{ site.url }}{{ release.url }}">{{ release.title }}</a></li>
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
 </div>

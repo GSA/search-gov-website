@@ -10,7 +10,7 @@ sidenav: about_us
 
 Customer feedback is a core component of our service. Our success depends on your success. Your input is key to help us:
 
-* Prioritize [releasing]({{ site.baseurl }}/about/updates/releases/) new features
+* Prioritize [releasing]({{ site.url }}/about/updates/releases/) new features
 * Improve documentation about our service and how it works
 * Innovate by implementing new feature ideas
 

@@ -10,7 +10,7 @@ redirect_from:
     - /manual/flickr.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Flickr
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Flickr
 
 ## Tell Us About Your Flickr Photostream
 
@@ -28,4 +28,4 @@ On the image results page, we'll display the images from your Flickr photostream
 
 ***Pro Tips*** 
 
-* Do you have a multimedia gallery on your website for your agency's photos, images, videos, podcasts, or other multimedia content? Do you use a content management system, database, or media RSS (MRSS) feed to power this gallery? You can index [MRSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) so that your multimedia content is automatically included in your search results.
+* Do you have a multimedia gallery on your website for your agency's photos, images, videos, podcasts, or other multimedia content? Do you use a content management system, database, or media RSS (MRSS) feed to power this gallery? You can index [MRSS feeds]({{ site.url }}/admin-center/content/rss.html) so that your multimedia content is automatically included in your search results.

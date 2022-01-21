@@ -11,9 +11,9 @@ redirect_from:
     - /manual/filter-tags.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.baseurl }}/admin-center/content/domains.html) > Advanced > Filter Tags
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > [Domains]({{ site.url }}/admin-center/content/domains.html) > Advanced > Filter Tags
 
-**Note:** this feature is only available to sites that are enabled for [i14y]({{ site.baseurl }}/developer/i14y.html).
+**Note:** this feature is only available to sites that are enabled for [i14y]({{ site.url }}/developer/i14y.html).
 
 Tags are used in the full text searching of i14y documents. If a tag is added to a document, the document will appear in search results when a query matches the tag, even if the term does not appear in the document's full text.
 

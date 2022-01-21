@@ -10,12 +10,12 @@ redirect_from:
     - /manual/brand.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display
 
 To customize your search results page and match your site's brand:
 
 1. Define your color scheme on the Fonts & Colors page.
-1. Upload your logo on the Image Assets page. (We'll also link your logo to your homepage using the homepage URL you provide on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page.)
+1. Upload your logo on the Image Assets page. (We'll also link your logo to your homepage using the homepage URL you provide on the [Settings]({{ site.url }}/admin-center/dashboard/settings.html) page.)
 1. Add your navigation links on the Header & Footer page.
 
 ## Font & Colors
@@ -30,11 +30,11 @@ To customize your search results page and match your site's brand:
 
 **Logo.** Use the Choose File option to upload the logo that you'd like to appear in the header of your results page. Click on the option, Mark Logo for Deletion, to delete an uploaded logo. There isn't a required dimension. That said, images less than 550 pixels wide and 100 pixels high tend to work best.
 
-If you don't upload a logo, searchers will simply see the header, *Your Site Name*. We'll use the site name you provide on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page.
+If you don't upload a logo, searchers will simply see the header, *Your Site Name*. We'll use the site name you provide on the [Settings]({{ site.url }}/admin-center/dashboard/settings.html) page.
 
-**Logo Alignment.** Leave the logo center-aligned, or select Left to make it left-aligned or Right to make it right-aligned. (Right-aligned logos are typically used on sites with right-to-left [languages]({{ site.baseurl }}/admin-center/dashboard/settings.html) like Arabic, Hebrew, and Urdu.)
+**Logo Alignment.** Leave the logo center-aligned, or select Left to make it left-aligned or Right to make it right-aligned. (Right-aligned logos are typically used on sites with right-to-left [languages]({{ site.url }}/admin-center/dashboard/settings.html) like Arabic, Hebrew, and Urdu.)
 
-**Logo Alt Text.** Add alt text for your logo. If you don't add custom alt text, we'll use the site name you provide on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page as the default alt text.
+**Logo Alt Text.** Add alt text for your logo. If you don't add custom alt text, we'll use the site name you provide on the [Settings]({{ site.url }}/admin-center/dashboard/settings.html) page as the default alt text.
 
 ## Header & Footer
 
@@ -57,4 +57,4 @@ Use the list icon (with three horizontal lines) on the left to change the order.
 
 * As you change each font and color option, the mini search results page in the upper right-hand corner will update to reflect your changes. Once you click save, the changes will appear on your live site.
 * Our search results page uses a responsive design to ensure it is optimized for searchers anywhere, anytime, and on any device. 
-* We offer results through our Search Results API, if you'd like to create mash-ups or have complete control of the look and feel of your search results pages. See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) of our hosted results page vs. our Results API. For detailed information on the Results API, see our documentation on [Open GSA](https://open.gsa.gov/api/searchgov-results/).
+* We offer results through our Search Results API, if you'd like to create mash-ups or have complete control of the look and feel of your search results pages. See a [feature comparison]({{ site.url }}/admin-center/display/hosted-vs-api-results.html) of our hosted results page vs. our Results API. For detailed information on the Results API, see our documentation on [Open GSA](https://open.gsa.gov/api/searchgov-results/).

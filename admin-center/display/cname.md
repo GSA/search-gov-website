@@ -14,7 +14,7 @@ We offer DNS masking, which allows you to show searchers `search.example.gov` (i
 
 1. Create a `search` subdomain for your domain. If `search` is already in use in your environment, you could use `find` or `findit` as your subdomain.
 
-2. Create a CNAME in your external DNS records for `search.example.gov`. Point it to `yoursitehandle.sites.infr.search.usa.gov`. Your site handle is listed on the [settings page]({{ site.baseurl }}/admin-center/dashboard/settings.html) in the Search Admin Center.
+2. Create a CNAME in your external DNS records for `search.example.gov`. Point it to `yoursitehandle.sites.infr.search.usa.gov`. Your site handle is listed on the [settings page]({{ site.url }}/admin-center/dashboard/settings.html) in the Search Admin Center.
 	
 	For example: if your site handle is `abc`, the DNS record would look like this:
 	
@@ -26,7 +26,7 @@ We offer DNS masking, which allows you to show searchers `search.example.gov` (i
   
 3. After your DNS record has been added, [email us](mailto:search@support.digitalgov.gov) to request to be added to our SSL certificate. If your CNAME is not on our SSL certificate, browser security warnings will appear when your search results page attemps to load over `HTTPS`. It generally takes a few days for these requests to get through our queue.<br><br>Your domain mask will work as soon as these two steps are complete.
 
-4. When your DNS record is in place and you have received confirmation that your domain mask has been added to our SSL certificate, change your search box's [form code]({{ site.baseurl }}/admin-center/activate/code.html) action from `search.usa.gov/search` to `search.example.gov/search`. 
+4. When your DNS record is in place and you have received confirmation that your domain mask has been added to our SSL certificate, change your search box's [form code]({{ site.url }}/admin-center/activate/code.html) action from `search.usa.gov/search` to `search.example.gov/search`. 
 
 ---
 

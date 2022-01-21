@@ -17,13 +17,13 @@ Search.gov is pleased to present our annual reviews &mdash; high level reports t
 
 From common needs for forms and process status checks, to the latest information on the news of the year, or vulnerable moments seeking help in times of need, Search.gov is there, connecting people with their government.
 
-* [2020]({{ site.baseurl }}/about/updates/year-in-review/2020-year-in-review.html)
+* [2020]({{ site.url }}/about/updates/year-in-review/2020-year-in-review.html)
 
-* [2019]({{ site.baseurl }}/about/updates/year-in-review/2019-year-in-review.html)
+* [2019]({{ site.url }}/about/updates/year-in-review/2019-year-in-review.html)
 
-* [2018]({{ site.baseurl }}/about/updates/year-in-review/2018-year-in-review.html)
+* [2018]({{ site.url }}/about/updates/year-in-review/2018-year-in-review.html)
 
-* [2017]({{ site.baseurl }}/about/updates/year-in-review/2017-year-in-review.html)
+* [2017]({{ site.url }}/about/updates/year-in-review/2017-year-in-review.html)
 
 Changes in the data over time reflect which agencies use our service, and major news in a given year. The data represents only those websites that use Search.gov, and does not include data on searches run on commercial search engines.
 

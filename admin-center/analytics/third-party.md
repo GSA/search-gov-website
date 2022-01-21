@@ -10,7 +10,7 @@ redirect_from:
     - /manual/third-party.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > 3rd Party Tracking
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > 3rd Party Tracking
 
 Do you want your search results page to run third-party web services such as Foresee, Google Analytics, Omniture, Siteimprove, or WebTrends?
 
@@ -37,7 +37,7 @@ Despite these differences, our agency partners appear to have success in using G
 
 Within your Google Analytics account, select the option, *Do Track Site Search*. Set the query parameter as *query*. For more information, read Google's tip, [Set Up and Configure Site Search](https://support.google.com/analytics/answer/1012264?hl=en&ref_topic=1031951).
 
-Additionally, if you've requested [domain masking]({{ site.baseurl }}/admin-center/display/cname.html) and you want to include the analytics for your *search.example.gov* subdomain with your main *example.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'example.gov']);`.
+Additionally, if you've requested [domain masking]({{ site.url }}/admin-center/display/cname.html) and you want to include the analytics for your *search.example.gov* subdomain with your main *example.gov* domain, you'll need to set your domain in your Google Analytics JavaScript by including `_gaq.push(['_setDomainName', 'example.gov']);`.
 
 For more information, read Google's tip, [Tracking Multiple Domains](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingSite).
 
@@ -52,7 +52,7 @@ The code you submit should look something like this:
      
 ## Digital Analytics Program
 
-Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP. If you use the `search.usa.gov` domain on your results page, your data will be located within the GSA Agency Profile in DAP. To bring your Search.gov DAP data into your own agency's DAP profile, you must set up a [domain mask]({{ site.baseurl }}/admin-center/display/cname.html).
+Does your federal agency participate in the [Digital Analytics Program](https://digitalgov.gov/services/dap/) (DAP)?  You don't need to do anything. We're already fully integrated with DAP. If you use the `search.usa.gov` domain on your results page, your data will be located within the GSA Agency Profile in DAP. To bring your Search.gov DAP data into your own agency's DAP profile, you must set up a [domain mask]({{ site.url }}/admin-center/display/cname.html).
 
 *Note:* You do not need to submit the DAP script to us.
 
@@ -60,7 +60,7 @@ Does your federal agency participate in the [Digital Analytics Program](https://
 
 Coordinate with your ForeSee representative and the Search.gov team to implement your customer satisfaction survey on your results page. The four general steps follow.
 
-1. Email us at <search@support.digitalgov.gov> to [set up a CNAME]({{ site.baseurl }}/admin-center/display/cname.html) for `search.example.gov`.
+1. Email us at <search@support.digitalgov.gov> to [set up a CNAME]({{ site.url }}/admin-center/display/cname.html) for `search.example.gov`.
 
 1. Update the files path in your Foresee code to use an absolute path instead of a relative path. 
 
@@ -86,4 +86,4 @@ Coordinate with your ForeSee representative and the Search.gov team to implement
 
 ***Pro Tip*** 
 
-We use Google Analytics Web analytics software &mdash; our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag &mdash; by default. Learn more in our [terms of service]({{ site.baseurl }}/tos.html).
+We use Google Analytics Web analytics software &mdash; our own tag plus the [Digital Analytics Program](https://digitalgov.gov/services/dap/) tag &mdash; by default. Learn more in our [terms of service]({{ site.url }}/tos.html).

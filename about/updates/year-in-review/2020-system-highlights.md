@@ -10,7 +10,7 @@ redirect_from:
 sidenav: about_us
 ---
 
-Every month we publish [release notes]({{ site.baseurl }}/about/updates/releases/), highlighting the improvements we’ve made to our technology. The biggest changes in 2020 revolved around our APIs and system version upgrades.
+Every month we publish [release notes]({{ site.url }}/about/updates/releases/), highlighting the improvements we’ve made to our technology. The biggest changes in 2020 revolved around our APIs and system version upgrades.
 
 * Released a new [Click Tracking API](https://open.gsa.gov/api/searchgov-clicks/) to enable analytics capture for Results API users
 * Updated our Login.gov integration for a consistent experience through login & logout

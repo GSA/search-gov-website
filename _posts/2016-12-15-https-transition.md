@@ -23,7 +23,7 @@ Update all URLs that are listed in the Search Admin Center for each of your sear
 
 **Analytics:**
 
-* **3rd Party Tracking:** If you are using [3rd party tracking code]({{ site.baseurl }}/admin-center/analytics/third-party.html) that is HTTP protocol-specific, you will need to submit updated code.
+* **3rd Party Tracking:** If you are using [3rd party tracking code]({{ site.url }}/admin-center/analytics/third-party.html) that is HTTP protocol-specific, you will need to submit updated code.
 
 **Content:**
 
@@ -50,7 +50,7 @@ Update all URLs that are listed in the Search Admin Center for each of your sear
 
 ## 2. Masked Domains
 
-If your site uses [domain masking]({{ site.baseurl }}/admin-center/display/cname.html): [contact our team](mailto:search@support.digitalgov.gov) to be added to our SSL certificate. While this step doesn't apply to everyone, it does need to be done before step 3.
+If your site uses [domain masking]({{ site.url }}/admin-center/display/cname.html): [contact our team](mailto:search@support.digitalgov.gov) to be added to our SSL certificate. While this step doesn't apply to everyone, it does need to be done before step 3.
 
 
 ## 3. Form Code Action on Your Website

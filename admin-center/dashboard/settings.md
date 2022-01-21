@@ -10,17 +10,17 @@ redirect_from:
     - /manual/settings.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Settings
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Settings
 
 ## Display Name
 
-Tell us the name of your website. Searchers see your site name on the results page, such as in your page title or [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html). We recommend using the plain language name for your agency or site, such as *Social Security Administration*.
+Tell us the name of your website. Searchers see your site name on the results page, such as in your page title or [Best Bets]({{ site.url }}/admin-center/content/best-bets.html). We recommend using the plain language name for your agency or site, such as *Social Security Administration*.
 
 ## Homepage URL
 
 Tell us the homepage URL of your website. Enter a fully qualified URL, including https://, https://www, etc. 
 
-We use this homepage URL to (a) populate your primary [domain]({{ site.baseurl }}/admin-center/content/domains.html) and (b) link the default logo on your results page to your homepage.
+We use this homepage URL to (a) populate your primary [domain]({{ site.url }}/admin-center/content/domains.html) and (b) link the default logo on your results page to your homepage.
 
 **Correct Syntax**
 
@@ -42,7 +42,7 @@ You created your site handle when you originally added your site. Searchers can 
 
 **Note:** If you change the site handle on a live search site, you will lose any analytics that have been gathered.
 
-[![Site name and handle on USA.gov's search results page]({{ site.baseurl }}/assets/img/site/DisplayName_SiteHandle_800.png "Site name and handle on USA.gov's search results page")](https://search.usa.gov/search?affiliate=usagov&query=taxes)
+[![Site name and handle on USA.gov's search results page]({{ site.url }}/assets/img/site/DisplayName_SiteHandle_800.png "Site name and handle on USA.gov's search results page")](https://search.usa.gov/search?affiliate=usagov&query=taxes)
 
 ## Site ID
 
@@ -50,7 +50,7 @@ We assign a unique, system-generated numeric ID to your site. We use this ID in 
 
 ## Site Language
 
-You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html)) when you first [added your site]({{ site.baseurl }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
+You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.url }}/admin-center/dashboard/supported-languages.html)) when you first [added your site]({{ site.url }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
 
 ## Delete
 
