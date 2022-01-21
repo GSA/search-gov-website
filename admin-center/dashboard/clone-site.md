@@ -10,9 +10,9 @@ redirect_from:
     - /manual/clone-site.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Clone Site
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Clone Site
 
-The clone site feature allows you to create an identical copy of your current search configuration. All settings are carried over to the cloned site, except for images you may have uploaded for [Graphics Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html#best-bets-graphics). 
+The clone site feature allows you to create an identical copy of your current search configuration. All settings are carried over to the cloned site, except for images you may have uploaded for [Graphics Best Bets]({{ site.url }}/admin-center/content/best-bets.html#best-bets-graphics). 
 
 Any users of your current configuration will have access to the cloned site.
 

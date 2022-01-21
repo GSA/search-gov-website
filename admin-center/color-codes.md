@@ -11,7 +11,7 @@ redirect_from:
 
 In addition to text-based indicators, we use color coding the [Admin Center](https://search.usa.gov/sites/) to indicate the status of a few types of items. 
 
-## [Manage Users]({{ site.baseurl }}/admin-center/dashboard/users.html)
+## [Manage Users]({{ site.url }}/admin-center/dashboard/users.html)
 
 {: .usa-table .usa-table--compact}
 | Color | Status |
@@ -20,7 +20,7 @@ In addition to text-based indicators, we use color coding the [Admin Center](htt
 | Yellow  | Pending &mdash; requires approval or email verification |
 | Red   | Not approved |
 
-## [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html)
+## [RSS Feeds]({{ site.url }}/admin-center/content/rss.html)
 
 {: .usa-table .usa-table--compact}
 | Color | Status |
@@ -41,7 +41,7 @@ Click on the name of the feed to see more detailed information about its status.
 * Link is not a valid URL
 * Linked URL does not exist (HTTP 404)
 
-## [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html): Text or Graphics
+## [Best Bets]({{ site.url }}/admin-center/content/best-bets.html): Text or Graphics
 
 {: .usa-table .usa-table--compact}
 | Color | Status |

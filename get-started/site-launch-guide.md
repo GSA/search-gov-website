@@ -23,10 +23,10 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 1. [Configure the branding of your results page](#configure-branding)
 1. [Connect your website’s search box to your search site](#go-live)
 
-![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.baseurl }}/files/site-launch-workflow.png){: .img-responsive}
+![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.url }}/files/site-launch-workflow.png){: .img-responsive}
 [Site launch flow chart detailed description](#add-site)
 
-[Open large version]({{ site.baseurl }}/files/site-launch-workflow.png)
+[Open large version]({{ site.url }}/files/site-launch-workflow.png)
 
 {: #add-site }
 
@@ -34,7 +34,7 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 
 **Who:**  You, the agency web team
 
-**What:** After you’ve successfully opened an account with Search.gov, you'll need to create a search site. A search site is where you configure the search experience for your website. Find the `Add Site` link at the top of the Admin Center, and enter some basic details about your site. Please note that our service is for publicly accessible, federal government content. More detailed information can be found on our [Add Site help page]({{ site.baseurl }}/admin-center/dashboard/add-site.html). 
+**What:** After you’ve successfully opened an account with Search.gov, you'll need to create a search site. A search site is where you configure the search experience for your website. Find the `Add Site` link at the top of the Admin Center, and enter some basic details about your site. Please note that our service is for publicly accessible, federal government content. More detailed information can be found on our [Add Site help page]({{ site.url }}/admin-center/dashboard/add-site.html). 
 
 Once you've created your site, note the actions available on the left-hand navigation of your Admin Center. 
 
@@ -56,7 +56,7 @@ Once you've created your site, note the actions available on the left-hand navig
 
 **Who:** You, the agency web team
 
-**What:** In the content management section, the domains list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain. [Read more here]({{ site.baseurl }}/admin-center/content/domains.html).
+**What:** In the content management section, the domains list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain. [Read more here]({{ site.url }}/admin-center/content/domains.html).
 
 {: #select-index }
 
@@ -84,15 +84,15 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 **What:** We offer several additional search features you can configure to enhance your search experience.
 
-* [Collections]({{ site.baseurl }}/admin-center/content/collections.html) allow you to set up alternative search scopes from the Domains you declare for the main search. Often Collections point at particular subfolders or subdomains of the primary domain for the site. Sometimes they point at a different domain entirely. If you are indexed by Search.gov and you want a Collection to search another domain, check with us to see if we have that content already indexed.  
-* [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) work like ads in Google, and allow you to pin certain results to the top of your search results. Use Text Best Bets to boost individual items, and Graphics Best Bets to boost a set of related items, such as a form, its instructions page, and other related material.
-* [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) allow you to bypass the results page entirely for a given query, where you know exactly the page you want a person to get to after running that query. This is helpful for always getting people to the landing page for a process, rather than their clicking to a mid-process page from a search results page.
-* [RSS]({{ site.baseurl }}/admin-center/content/rss.html) feeds can be indexed and searched either as separate tabs on the search results, or as an inline module promoting your latest content alongside your web results.
-* [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) videos can also be searched
-* [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)    
-* [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)   
-* [Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html) are one of the most frequently searched topics on agency websites. Use our jobs module to show your agency’s postings from USAJOBS in your own website’s search results.
-* [_Federal Register_]({{ site.baseurl }}/admin-center/display/federal-register-module.html) rules and notices can be added to your search results in a separate module. 
+* [Collections]({{ site.url }}/admin-center/content/collections.html) allow you to set up alternative search scopes from the Domains you declare for the main search. Often Collections point at particular subfolders or subdomains of the primary domain for the site. Sometimes they point at a different domain entirely. If you are indexed by Search.gov and you want a Collection to search another domain, check with us to see if we have that content already indexed.  
+* [Best Bets]({{ site.url }}/admin-center/content/best-bets.html) work like ads in Google, and allow you to pin certain results to the top of your search results. Use Text Best Bets to boost individual items, and Graphics Best Bets to boost a set of related items, such as a form, its instructions page, and other related material.
+* [Routed queries]({{ site.url }}/admin-center/content/routed-queries.html) allow you to bypass the results page entirely for a given query, where you know exactly the page you want a person to get to after running that query. This is helpful for always getting people to the landing page for a process, rather than their clicking to a mid-process page from a search results page.
+* [RSS]({{ site.url }}/admin-center/content/rss.html) feeds can be indexed and searched either as separate tabs on the search results, or as an inline module promoting your latest content alongside your web results.
+* [YouTube]({{ site.url }}/admin-center/content/youtube.html) videos can also be searched
+* [Twitter]({{ site.url }}/admin-center/content/twitter.html)    
+* [Flickr]({{ site.url }}/admin-center/content/flickr.html)   
+* [Jobs]({{ site.url }}/admin-center/display/jobs-module.html) are one of the most frequently searched topics on agency websites. Use our jobs module to show your agency’s postings from USAJOBS in your own website’s search results.
+* [_Federal Register_]({{ site.url }}/admin-center/display/federal-register-module.html) rules and notices can be added to your search results in a separate module. 
 
 {: #turn-features-on }
 
@@ -100,7 +100,7 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 **Who:** You, the agency web team
 
-**What:** In order to display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [Display Overview page]({{ site.baseurl }}/admin-center/display/display-overview.html). If you want to show Jobs or _Federal Register_ results and you don’t see those options on the Display Overview page, [let us know](mailto:search@support.digitalgov.gov) and we can connect your search site to those features.
+**What:** In order to display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [Display Overview page]({{ site.url }}/admin-center/display/display-overview.html). If you want to show Jobs or _Federal Register_ results and you don’t see those options on the Display Overview page, [let us know](mailto:search@support.digitalgov.gov) and we can connect your search site to those features.
 
 {: #configure-branding }
 
@@ -108,9 +108,9 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 **Who:** You, the agency web team
 
-**What:** To make the results page complement your website’s look and feel, upload your logo, set the font style, and customize the page colors to ensure a more seamless experience for your searchers as they move from your site to ours, and back again. You can also add header and footer links to support navigation back to your website. [See more details here]({{ site.baseurl }}/admin-center/display/brand.html). 
+**What:** To make the results page complement your website’s look and feel, upload your logo, set the font style, and customize the page colors to ensure a more seamless experience for your searchers as they move from your site to ours, and back again. You can also add header and footer links to support navigation back to your website. [See more details here]({{ site.url }}/admin-center/display/brand.html). 
 
-[Masking the domain for your results page]({{ site.baseurl }}/admin-center/display/cname.html) is another way you can provide continuity to your searchers as they move back and forth between your site and our system.
+[Masking the domain for your results page]({{ site.url }}/admin-center/display/cname.html) is another way you can provide continuity to your searchers as they move back and forth between your site and our system.
 
 {: #go-live }
 
@@ -118,8 +118,8 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 **Who:** You, the agency web team, in collaboration with your deploy team, if different
 
-**What:** Once you’re ready to go live with your search site, take a look at the [Go-Live Checklist]({{ site.baseurl }}/get-started/go-live.html) to make sure you've covered all your bases. Then you will need to modify the form code for the search box on your website. We provide simple pre-formatted code in the Admin Center, or you can include these same parameters in another style of search box. [Read more and see required parameters here]({{ site.baseurl }}/admin-center/activate/code.html). 
+**What:** Once you’re ready to go live with your search site, take a look at the [Go-Live Checklist]({{ site.url }}/get-started/go-live.html) to make sure you've covered all your bases. Then you will need to modify the form code for the search box on your website. We provide simple pre-formatted code in the Admin Center, or you can include these same parameters in another style of search box. [Read more and see required parameters here]({{ site.url }}/admin-center/activate/code.html). 
 
-If you publish your site on Federalist, read these [alternative instructions]({{ site.baseurl }}/get-started/searchgov-for-federalist.html).
+If you publish your site on Federalist, read these [alternative instructions]({{ site.url }}/get-started/searchgov-for-federalist.html).
 
 You’re now live with Search.gov!

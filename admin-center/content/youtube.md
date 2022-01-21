@@ -10,7 +10,7 @@ redirect_from:
     - /manual/youtube.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > YouTube
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > YouTube
 
 ## Tell Us About Your YouTube Channel
 
@@ -26,20 +26,20 @@ Either URL format works.
 
 When you add the URL for your YouTube channel, we'll automatically index your videos &mdash; both your uploaded videos and playlists.
 
-We'll show the videos by default. You can toggle the settings for showing your videos on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page, choosing to show them as a facet, inline module, or both.
+We'll show the videos by default. You can toggle the settings for showing your videos on the [Display Overview]({{ site.url }}/admin-center/display/display-overview.html) page, choosing to show them as a facet, inline module, or both.
 
 **Facet**
 
-![Videos Facet on DigitalGov.gov]({{ site.baseurl }}/assets/img/site/Videos-Facet.png "Videos Facet on DigitalGov.gov"){:height="95%" width="95%"}
+![Videos Facet on DigitalGov.gov]({{ site.url }}/assets/img/site/Videos-Facet.png "Videos Facet on DigitalGov.gov"){:height="95%" width="95%"}
 
 **Inline Module**
 
-![Inline Module on DigitalGov.gov]({{ site.baseurl }}/assets/img/site/Videos-Inline-Module.png "Inline Module on DigitalGov.gov"){:height="95%" width="95%"}
+![Inline Module on DigitalGov.gov]({{ site.url }}/assets/img/site/Videos-Inline-Module.png "Inline Module on DigitalGov.gov"){:height="95%" width="95%"}
 
-You can edit the default facet label, Videos, on the [RSS]({{ site.baseurl }}/admin-center/content/rss.html) page.
+You can edit the default facet label, Videos, on the [RSS]({{ site.url }}/admin-center/content/rss.html) page.
 
 ---
 
 ***Pro Tip*** 
 
-Do you have a multimedia gallery on your website for your agency's photos, images, videos, podcasts, or other multimedia content? Do you use a content management system, database, or media RSS (MRSS) feed to power this gallery? You can index [MRSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) so that your multimedia content is automatically included in your search results.
+Do you have a multimedia gallery on your website for your agency's photos, images, videos, podcasts, or other multimedia content? Do you use a content management system, database, or media RSS (MRSS) feed to power this gallery? You can index [MRSS feeds]({{ site.url }}/admin-center/content/rss.html) so that your multimedia content is automatically included in your search results.

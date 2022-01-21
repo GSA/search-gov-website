@@ -47,11 +47,11 @@ This page will be updated over time as we add more tag-based indexing functions 
 <br>**Used in:** Page freshness scoring.<br>
 <br>
 `<meta name="robots" content="..., ..." />`
-<br>**Detail:** Use the [meta robots tag]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html#robots) to block the search engine from indexing a particular page.
+<br>**Detail:** Use the [meta robots tag]({{ site.url }}/indexing/how-search-engines-index-content-better-discoverability.html#robots) to block the search engine from indexing a particular page.
 <br>**Used in:** Used during indexing, does not affect relevance ranking.<br>
 <br>
 `<main>`
-<br>**Detail:** Allows the search engine to target the actual content of the page and avoid headers, sidebars and other page content not useful to search. [Read more about the <main> element here]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html#main-element)
+<br>**Detail:** Allows the search engine to target the actual content of the page and avoid headers, sidebars and other page content not useful to search. [Read more about the <main> element here]({{ site.url }}/indexing/how-search-engines-index-content-better-discoverability.html#main-element)
 <br>**Used in:** Query matching, term frequency scoring<br>
 <br>
 `<lastmod>`

@@ -10,7 +10,7 @@ redirect_from:
     - /manual/analytics-alerts.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Analytics Alerts
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Analytics Alerts
 
 Analytics Alerts let you receive email alerts when your site visitors are getting no results for a particular query or when a query is getting a [low click-through rate](#low-query-click-through-rate). ***Note:*** the Low Click-through Rate alert is not currently functional. We apologize for any inconvience this may cause.
 
@@ -46,7 +46,7 @@ Enter any query terms that you don’t want included in the alert, separated by 
 
 In this example, the alert system will check every 30 minutes to see if any query has been entered at least 50 times over the past 12 hours and yielded no results. The system will send an alert at most once per day if there are queries that fit this criteria, and it will not include the query ‘panda’ in the alert.
 
-![No Results Analytics Alert Example]({{ site.baseurl }}/assets/img/site/No-Results-Screenshot.png "No Results Analytics Alert Example"){:height="95%" width="95%"}
+![No Results Analytics Alert Example]({{ site.url }}/assets/img/site/No-Results-Screenshot.png "No Results Analytics Alert Example"){:height="95%" width="95%"}
 
 ## Low Query Click-through Rate
 
@@ -86,7 +86,7 @@ Enter any query terms that you don’t want included in the alert, separated by 
 
 In this example, the alert system will check every 30 minutes for a query that has had search activity (queries plus clicks) at least 100 times over the past 12 hours and has a CTR 15% or lower. The system will send an alert at most once per day if there are queries that fit these criteria, and it will not include queries for ‘lion’ in the alert.
 
-![Low CTR Analytics Alert Example]({{ site.baseurl }}/assets/img/site/Low-CTR-Screenshot.png "Low CTR Analytics Alert Example"){:height="95%" width="95%"}
+![Low CTR Analytics Alert Example]({{ site.url }}/assets/img/site/Low-CTR-Screenshot.png "Low CTR Analytics Alert Example"){:height="95%" width="95%"}
 
 ---
 

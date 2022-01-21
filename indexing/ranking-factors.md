@@ -11,7 +11,7 @@ redirect_from:
   - /manual/ranking-factors.html
 ---
 
-Google and Bing hold their ranking algorithms closely as trade secrets, as a guard against people trying to game the system to ensure their own content comes out on top, regardless of whether that’s appropriate to the search. Search Engine Optimization (SEO) consulting has grown up as an industry to try to help websites get the best possible placement in search results.  You may be interested in our webinars on [technical SEO]({{ site.baseurl }}/get-started/training.html#site-structure-better-seo) and [best practices]({{ site.baseurl }}/get-started/training.html#search-doctor) that will help you get your website into better shape for search, and we’re also available to advise federal web teams on particular search issues. Generally speaking, though, SEO is a lot like reading tea leaves.
+Google and Bing hold their ranking algorithms closely as trade secrets, as a guard against people trying to game the system to ensure their own content comes out on top, regardless of whether that’s appropriate to the search. Search Engine Optimization (SEO) consulting has grown up as an industry to try to help websites get the best possible placement in search results.  You may be interested in our webinars on [technical SEO]({{ site.url }}/get-started/training.html#site-structure-better-seo) and [best practices]({{ site.url }}/get-started/training.html#search-doctor) that will help you get your website into better shape for search, and we’re also available to advise federal web teams on particular search issues. Generally speaking, though, SEO is a lot like reading tea leaves.
 
 We at Search.gov share our ranking factors because we want you to game our system. This helps ensure that the best, most appropriate content rises to the top of search results to help the public find what they need. 
 
@@ -19,7 +19,7 @@ This page will be updated as new ranking factors are added.
 
 ## Guaranteed 1st Place Spot
 
-For any pages you want always to appear in the top of search results, regardless of what the ranking algorithm might decide, use a [Best Bet]({{ site.baseurl }}/admin-center/content/best-bets.html). Like an ad in the commercial engines, Best Bets allow you to pin recommended pages to the top of results. Text Best Bets are for single pages, and Graphics Best Bets allow you to boost a set of related items. Our `Match Keywords Only` feature allows you to put a tight focus on the terms you want a Best Bet to respond to. [Read more here]({{ site.baseurl }}/admin-center/content/best-bets.html).
+For any pages you want always to appear in the top of search results, regardless of what the ranking algorithm might decide, use a [Best Bet]({{ site.url }}/admin-center/content/best-bets.html). Like an ad in the commercial engines, Best Bets allow you to pin recommended pages to the top of results. Text Best Bets are for single pages, and Graphics Best Bets allow you to boost a set of related items. Our `Match Keywords Only` feature allows you to put a tight focus on the terms you want a Best Bet to respond to. [Read more here]({{ site.url }}/admin-center/content/best-bets.html).
 
 ## Ranking Factors
 
@@ -33,7 +33,7 @@ We prefer HTML documents over other file types. Non-HTML results are demoted sig
 
 We prefer documents that are fresh. Anything published or updated in the past 30 days is considered fresh. After that, we use a Gaussian decay function to demote documents, so that the older a document is, the more it is demoted. When documents are 5 years old or older, we consider them to be equally old and do not demote further. We use either the `article:modified_time` on an individual page, or that page's `<lastmod>` date from the sitemap, whichever is more recent. If there is only an `article:published_time` for a given page, we use that date.
 
-Documents with no date metadata at all are considered fresh and are not demoted. [Read more about date metadata]({{ site.baseurl }}/indexing/metadata.html) we collect and why it’s important to add metadata to your files.
+Documents with no date metadata at all are considered fresh and are not demoted. [Read more about date metadata]({{ site.url }}/indexing/metadata.html) we collect and why it’s important to add metadata to your files.
 
 ### Page Popularity
 

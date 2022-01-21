@@ -10,7 +10,7 @@ redirect_from:
     - /manual/typeahead-api.html
 ---
 
-**_Note_**: this information is for customers who wish to display typeahead (autocomplete) suggestions on their agency's website. If you are only looking to turn on typeahead suggestions on your search results page, please review the instructions on our [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html#modules) page.
+**_Note_**: this information is for customers who wish to display typeahead (autocomplete) suggestions on their agency's website. If you are only looking to turn on typeahead suggestions on your search results page, please review the instructions on our [Display Overview]({{ site.url }}/admin-center/display/display-overview.html#modules) page.
 
 There are two ways to get typeahead suggestions to appear on your agency's website.
 

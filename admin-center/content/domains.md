@@ -10,7 +10,7 @@ redirect_from:
     - /manual/domains.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Domains
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Domains
 
 Enter the applicable domains, subdomains, or folders to return results specific to your website. You do not need to include `https://` as we recognize domains with or without it.
 
@@ -36,8 +36,8 @@ Searches that start three or more subfolders deep must use our full indexing ser
 
 Related Resources:
 
-* [Filter]({{ site.baseurl }}/admin-center/content/filter-content.html) unwanted URLs from results
-* [Add content]({{ site.baseurl }}/admin-center/content/domains-advanced.html) to supplement Bing results
+* [Filter]({{ site.url }}/admin-center/content/filter-content.html) unwanted URLs from results
+* [Add content]({{ site.url }}/admin-center/content/domains-advanced.html) to supplement Bing results
 
 ---
 
@@ -63,7 +63,7 @@ You can remove or filter specific URLs using any of the following options.
 
 3. Request the page's removal using the [Block URLs option in Bing Webaster Tools](https://www.bing.com/webmaster/help/block-urls-from-bing-264e560a) and [Remove URLs option in Google Webmaster Tools](https://support.google.com/webmasters/answer/1663419).
 
-4. Use the [Filter URLs]({{ site.baseurl }}/admin-center/content/filter-content.html) option under the Advanced tab. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
+4. Use the [Filter URLs]({{ site.url }}/admin-center/content/filter-content.html) option under the Advanced tab. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
 
 **Missing Content:** 
 

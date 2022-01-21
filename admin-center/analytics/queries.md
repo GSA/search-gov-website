@@ -10,7 +10,7 @@ redirect_from:
     - /manual/queries.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Queries
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Queries
 
 The Queries page lists the number of times a search query (that is, a word or string of words) was entered in the search box on your site by a unique searcher.
 
@@ -46,7 +46,7 @@ You can download a detailed CSV (comma separated values) file for any search ter
 * The date and time of the query
 * The query (It is embedded in the request URL. Look for the text following ‘query=’.) 
 * Where the person was when they ran the search (We use the ISO-2 alpha standard for country codes and ISO 3166-2 codes for country subdivisions.)
-* The modules loaded in response to the query (Our [Module Codes]({{ site.baseurl }}/admin-center/analytics/module-codes.html) page provides a key of the codes and names.)
+* The modules loaded in response to the query (Our [Module Codes]({{ site.url }}/admin-center/analytics/module-codes.html) page provides a key of the codes and names.)
 * The kind of device and browser they were using
  
 ## Clicks From a Query and Queries Leading to a Click
@@ -80,4 +80,4 @@ High or low CTR's may indicate that users are not able to find relevant results.
 
 ***Pro Tip*** 
 
-The [Monthly Report]({{ site.baseurl }}/admin-center/analytics/monthly-reports.html) section gives a bird's-eye view of the number of queries and [clicks]({{ site.baseurl }}/admin-center/analytics/clicks.html) on your site each month. The [Site Overview]({{ site.baseurl }}/admin-center/dashboard/site-overview.html) provides a snapshot of what has been happening on your site in the past day or so.
+The [Monthly Report]({{ site.url }}/admin-center/analytics/monthly-reports.html) section gives a bird's-eye view of the number of queries and [clicks]({{ site.url }}/admin-center/analytics/clicks.html) on your site each month. The [Site Overview]({{ site.url }}/admin-center/dashboard/site-overview.html) provides a snapshot of what has been happening on your site in the past day or so.

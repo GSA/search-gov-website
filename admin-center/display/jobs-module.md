@@ -10,11 +10,11 @@ redirect_from:
     - /manual/govbox-jobs.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display > Display Overview
 
 One of the most common search tasks is to look for current job openings. We created the Jobs module to help searchers quickly find relevant jobs. 
 
-When you [turn on the Job Openings]({{ site.baseurl }}/admin-center/display/display-overview.html) module, searchers looking for jobs on your site will see up to three relevant jobs listings on your results page. You will need to [contact us](mailto:search@support.digitalgov.gov) to get the Jobs module enabled for your site.
+When you [turn on the Job Openings]({{ site.url }}/admin-center/display/display-overview.html) module, searchers looking for jobs on your site will see up to three relevant jobs listings on your results page. You will need to [contact us](mailto:search@support.digitalgov.gov) to get the Jobs module enabled for your site.
 
 ## Federal Government
 
@@ -24,7 +24,7 @@ When you [turn on the Job Openings]({{ site.baseurl }}/admin-center/display/disp
 
 Searchers will also see a direct link to [USAJobs.gov](https://www.usajobs.gov) for all current job openings (specific to your department or agency, if applicable), as shown in the sample below for a search on [*jobs*](https://secsearch.sec.gov/search?utf8=%E2%9C%93&affiliate=secsearch&sort_by=&query=jobs) on SEC.gov. 
 
-![Search results for jobs on DOI.gov]({{ site.baseurl }}/assets/img/site/govbox-jobs.png "Search results for jobs on DOI.gov")
+![Search results for jobs on DOI.gov]({{ site.url }}/assets/img/site/govbox-jobs.png "Search results for jobs on DOI.gov")
 
 ---
 

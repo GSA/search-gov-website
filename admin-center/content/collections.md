@@ -10,7 +10,7 @@ redirect_from:
     - /manual/collections.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Collections
+Find it in the Admin Center: [Search.gov Home]({{ site.url }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Collections
 
 Would you like searchers to be able to change where they are searching, either to a particular place within your site, or to another site? You can create a collection that will search in any set of domains, subdomains, or subfolders.
 
@@ -26,13 +26,13 @@ Paths that are three or more subfolders deep may not return results immediately.
 
 ## Step 2. Opt to Show As a Facet
 
-Click on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. Turn on your collection to allow searchers to see it as a search facet in the navigation bar above the search box on the results page (in the desktop view), or in the search menu (on smaller screens).
+Click on the [Display Overview]({{ site.url }}/admin-center/display/display-overview.html) page. Turn on your collection to allow searchers to see it as a search facet in the navigation bar above the search box on the results page (in the desktop view), or in the search menu (on smaller screens).
 
 ## Step 3. Check Your Search Results Page
 
 Searchers will see the collection name as an option that they can select in order to focus their search.
 
-![Collection on the search results page]({{ site.baseurl }}/assets/img/site/manual-collection-2.png)
+![Collection on the search results page]({{ site.url }}/assets/img/site/manual-collection-2.png)
 
 ---
 
@@ -40,7 +40,7 @@ Searchers will see the collection name as an option that they can select in orde
 
 You can set up a search box on your website that limits results to your collection.
 
-1. Start with the standard form snippet on the [Code Snippets]({{ site.baseurl }}/admin-center/activate/code.html) page under the Activate Search tab. 
+1. Start with the standard form snippet on the [Code Snippets]({{ site.url }}/admin-center/activate/code.html) page under the Activate Search tab. 
 1. Change the form action from `action="https://search.usa.gov/search/"` to `action="https://search.usa.gov/search/docs"`.
 1. Add the following line to limit the results to your collection: `<input type="hidden" name="dc" value="###">`.
 
@@ -48,9 +48,9 @@ The value is the number for your collection ID, which is visible in the URL when
 
 See the sample search box below that is limited to news on [NIH.gov for a search on *autism*](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism).
 
-![News-only search box on NIH.gov's News Releases page]({{ site.baseurl }}/assets/img/site/manual-collection-3.png)
+![News-only search box on NIH.gov's News Releases page]({{ site.url }}/assets/img/site/manual-collection-3.png)
   
-[![NIH.gov news-only search results page]({{ site.baseurl }}/assets/img/site/manual-collection-4.png "NIH.gov news-only search results page")](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism)
+[![NIH.gov news-only search results page]({{ site.url }}/assets/img/site/manual-collection-4.png "NIH.gov news-only search results page")](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism)
 
 <a name="sitelimit"></a>
 

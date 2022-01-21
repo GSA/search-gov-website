@@ -41,7 +41,7 @@ There are several key differences between our service and other options in the m
     </thead>
     <tr>
       <th scope="row">Search your<br />primary domain</th>
-      <td class="text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/content/domains.html">Yes</a></td>
+      <td class="text-tabular text-right"><a href="{{ site.url }}/admin-center/content/domains.html">Yes</a></td>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">Yes</td>
@@ -62,27 +62,27 @@ There are several key differences between our service and other options in the m
     </tr>
     <tr>
       <th scope="row">Search USAJOBS<br />postings</th>
-      <td class="text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/display/jobs-module.html">Yes</a></td>
+      <td class="text-tabular text-right"><a href="{{ site.url }}/admin-center/display/jobs-module.html">Yes</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
       <th scope="row">Search <em>Federal<br />Register</em> documents</th>
-      <td class="text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/display/federal-register-module.html">Yes</a></td>
+      <td class="text-tabular text-right"><a href="{{ site.url }}/admin-center/display/federal-register-module.html">Yes</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
       <th scope="row">Search RSS<br />feed content</th>
-      <td class="text-tabular text-right"><a href="{{ site.baseurl }}/admin-center/content/rss.html">Yes</a></td>
+      <td class="text-tabular text-right"><a href="{{ site.url }}/admin-center/content/rss.html">Yes</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
-      <th scope="row">Search social<br />media content<br />(<a href="{{ site.baseurl }}/admin-center/content/twitter.html">Twitter</a>, <a href="{{ site.baseurl }}/admin-center/content/flickr.html">images</a>,<br /><a href="{{ site.baseurl }}/admin-center/content/youtube.html">YouTube</a>)</th>
+      <th scope="row">Search social<br />media content<br />(<a href="{{ site.url }}/admin-center/content/twitter.html">Twitter</a>, <a href="{{ site.url }}/admin-center/content/flickr.html">images</a>,<br /><a href="{{ site.url }}/admin-center/content/youtube.html">YouTube</a>)</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
@@ -125,7 +125,7 @@ There are several key differences between our service and other options in the m
     </tr>
     <tr>
       <th scope="row">Authorized to<br />Operate</th>
-      <td class="text-tabular text-right"><a href="{{ site.baseurl }}/about/security.html">Yes</a></td>
+      <td class="text-tabular text-right"><a href="{{ site.url }}/about/security.html">Yes</a></td>
       <td class="text-tabular text-right">Ask your<br />CISSO</td>
       <td class="text-tabular text-right">Ask your<br />CISSO</td>
       <td class="text-tabular text-right">Ask your<br />CISSO</td>
