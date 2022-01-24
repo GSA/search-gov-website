@@ -8,8 +8,6 @@ breadcrumbs:
   - label: Home
     url: /
   - label: About
-redirect_from:
-    - /about/roadmap.html
 sidenav: about_us
 ---
 
