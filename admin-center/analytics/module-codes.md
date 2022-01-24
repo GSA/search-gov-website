@@ -23,7 +23,6 @@ This page lists all the module codes and their full names.
 | BOOS  | Best Bets: Text |
 | BSPEL | Spelling Suggestions (Bing/Google) |
 | BWEB  | Web Results (Bing) |
-| DECOR | Value-added Links for SEC Filings |
 | FRDOC | Federal Register Documents |
 | GWEB  | Web Results (Google) |
 | I14Y  | Web Results (Search.gov via [i14y]({{ site.baseurl }}/developer/i14y.html)) |
