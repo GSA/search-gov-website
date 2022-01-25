@@ -36,8 +36,6 @@ This roadmap shows what we are working on now, and what we plan to be working af
   * We are onboarding additional developers in support of our FY22 upcoming projects
 * **Legacy Code Removal**
   * We are removing deprecated code in order to pave our path for new feature development this year.
-* **Search.gov website redesign - performance monitoring**
-  * As of January 19, we have launched a new design that aligns with the [US Web Design System](https://designsystem.digital.gov/), in accordance with the [21st Century IDEA](https://digital.gov/resources/21st-century-integrated-digital-experience-act/). The new site includes improved navigation and expanded documentation.
 
 ### Next
 
@@ -46,7 +44,7 @@ This roadmap shows what we are working on now, and what we plan to be working af
 * **Scoping Faceted Search**
   * We will begin scoping the backend and frontend work required to support this functionality.
 * **Version Upgrades**
-  * We will continue work on the ElasticSearch upgrade to keep them up-to-date.
+  * We will continue work on the ElasticSearch upgrade to keep it up-to-date.
 
 ### Later
 
