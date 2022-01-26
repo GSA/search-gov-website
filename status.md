@@ -11,7 +11,7 @@ sidenav: support
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
 Date: January 26, 2022 7:20AM ET - ongoing <br />
-Details: At this time, Bing searches are intermittently failing and returning errors, likely due to an issue in the Bing API. We will continue monitoring and update this message every 30 minutes.
+Details: At this time, Bing searches are intermittently failing and returning errors, likely due to an issue in the Bing API. We will continue monitoring and update when the errors subside. 
 
 <!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
 
