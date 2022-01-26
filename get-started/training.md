@@ -22,22 +22,22 @@ You can also watch recordings of our previous sessions below. If you have any di
 
 <a name="intro-to-search-gov"></a>
 * **[Introduction to Search.gov (YouTube)](https://youtu.be/niT9kU6AfP8)** &mdash; June 2019
-  * [Transcript]({{ site.baseurl }}/files/2019_06_12-intro-to-search-event-transcript.txt)
+  * [Transcript]({{ site.url }}/files/2019_06_12-intro-to-search-event-transcript.txt)
   * [Download the MP4](https://dgsearch-images.s3.amazonaws.com/media/2019_06_12-intro-to-search.mp4)
 
 <a name="indexing-with-searchgov"></a>
 * **[Indexing with Search.gov (YouTube)](https://youtu.be/zxyJVrxWVmg)** &mdash; April 2019
-  * [Transcript]({{ site.baseurl }}/files/indexing-with-searchgov-transcript.txt)
+  * [Transcript]({{ site.url }}/files/indexing-with-searchgov-transcript.txt)
 
 <a name="how-engines-index"></a>
 * **[How Search Engines Index Your Websites (YouTube)](https://youtu.be/THhe3Z7XSxg)** &mdash; May 2018
-  * [Presentation Slides & Notes]({{ site.baseurl }}/files/HowSearchEnginesIndexYourWebsite.pdf) (PDF)
+  * [Presentation Slides & Notes]({{ site.url }}/files/HowSearchEnginesIndexYourWebsite.pdf) (PDF)
   * [Download the MP4](https://d3qcdigd1fhos0.cloudfront.net/media/howsearchenginesindex.mp4)
 
 <a name="site-structure-better-seo"></a>
 * **[Structuring Your Site for Better SEO (YouTube)](https://youtu.be/2t5JM5slNSA)** &mdash; March 2017
-  * [Presentation Slides]({{ site.baseurl }}/files/Structuring Your Site Content for Better SEO Slides.pdf) (PDF)
-  * [List of SEO Articles and Resources]({{ site.baseurl }}/files/Article-Links---Structuring-Your-Site-for-Better-SEO-Webinar.pdf) (PDF)
+  * [Presentation Slides]({{ site.url }}/files/Structuring Your Site Content for Better SEO Slides.pdf) (PDF)
+  * [List of SEO Articles and Resources]({{ site.url }}/files/Article-Links---Structuring-Your-Site-for-Better-SEO-Webinar.pdf) (PDF)
   * [Download the MP4](https://d3qcdigd1fhos0.cloudfront.net/media/Structuring+Your+Site+for+Better+SEO_051117.mp4)
 
 <a name="all-about-analytics"></a>
@@ -54,8 +54,8 @@ You can also watch recordings of our previous sessions below. If you have any di
 
 <a name="show-me-the-data"></a>
 * **[Show Me the Data: Leveraging Analytics in DigitalGov Search (YouTube)](https://youtu.be/zMft4VkYZug)** &mdash; December 2015
-  * [Mastering Your Search Data]({{ site.baseurl }}/files/Mastering_Your_Search_Data-December_2015.pptx) (Slide deck) / Michelle Chronister, USAgov
-  <!-- * [USA.gov FY15 Monthly Search Reports]({{ site.baseurl }}/files/Sample_FY15_Monthly_Search%20Reports-USAgov.xlsx) (Excel workbook) / Michelle Chronister, USAgov &mdash; Modify to use as a template for your agency. -->
+  * [Mastering Your Search Data]({{ site.url }}/files/Mastering_Your_Search_Data-December_2015.pptx) (Slide deck) / Michelle Chronister, USAgov
+  <!-- * [USA.gov FY15 Monthly Search Reports]({{ site.url }}/files/Sample_FY15_Monthly_Search%20Reports-USAgov.xlsx) (Excel workbook) / Michelle Chronister, USAgov &mdash; Modify to use as a template for your agency. -->
   * [Download the MP4](https://d3qcdigd1fhos0.cloudfront.net/media/showmethedata.mp4)
 
 <a name="straight-to-the-top"></a>

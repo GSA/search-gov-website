@@ -7,10 +7,10 @@ category: blog
 tags: year-in-review
 sidenav: about_us
 ---
-<span><a href="{{ site.baseurl }}/files/2020-annual-review.pdf"><img 
-  src="{{ site.baseurl }}/assets/img/site/2020-annual-review-cover.png"
+<span><a href="{{ site.url }}/files/2020-annual-review.pdf"><img 
+  src="{{ site.url }}/assets/img/site/2020-annual-review-cover.png"
   alt="2020 Year In Review, cover image showing a pie chart made out of tiny people. Following is a link to the full PDF report." style="width:280px;border:1px solid #333333;"></a><br />
-[Download full report]({{ site.baseurl }}/files/2020-annual-review.pdf)
+[Download full report]({{ site.url }}/files/2020-annual-review.pdf)
 </span>
 <br />
 	
@@ -33,7 +33,7 @@ Between the COVID-19 pandemic, social unrest, and environmental emergencies, 202
 
 The COVID-19 pandemic changed search patterns and volume significantly. Some topics, like loan forgiveness, saw as high as a 500% increase in volume, while others dropped dramatically. The Trusted Traveler Programs, on the other hand, got 90% fewer queries in 2020 compared to 2019. Forms, usually one of the top needs, saw a steady level of demand but still dropped to 5th place in 2020 due to other emergent needs.
 
-[Read the report]({{ site.baseurl }}/files/2020-annual-review.pdf)
+[Read the report]({{ site.url }}/files/2020-annual-review.pdf)
 
 <br />
 
@@ -47,7 +47,7 @@ We can see trends in challenges as well. For instance, 25% of people search for 
 
 Since we don’t track individual searchers, we cannot show a complete journey from beginning to end. However, the themes and trends provide government with a considerable amount of information to improve the public experience with navigating government information.
 
-[Read the report]({{ site.baseurl }}/files/2020-annual-review.pdf)
+[Read the report]({{ site.url }}/files/2020-annual-review.pdf)
 
 <br />
 
@@ -59,7 +59,7 @@ For this report, we used an analysis method designed to detect the topic of the 
 
 The time frame studied was January 1 &ndash; December 31, 2020. 
 
-[Read the report]({{ site.baseurl }}/files/2020-annual-review.pdf)
+[Read the report]({{ site.url }}/files/2020-annual-review.pdf)
 
 <br />
 

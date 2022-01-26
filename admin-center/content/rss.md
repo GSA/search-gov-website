@@ -84,7 +84,7 @@ Allow searchers to narrow results to a specific feed by turning on the option to
 
 If you opted to show your RSS feed(s) as a module, searchers will see inline news results. It will highlight the three most recent, relevant results across all of your RSS feeds.
 
-![RSS Inline Module Example]({{ site.baseurl }}/assets/img/site/RSS-Inline.png)
+![RSS Inline Module Example]({{ site.url }}/assets/img/site/RSS-Inline.png)
 
 ### Facet
 
@@ -96,7 +96,7 @@ Within the RSS-based results, searchers can opt to limit results to the last hou
 
 We show the number of results returned for searches against your feed(s).
 
-![RSS Facet Example with Results Count]({{ site.baseurl }}/assets/img/site/RSS-Facet.png)
+![RSS Facet Example with Results Count]({{ site.url }}/assets/img/site/RSS-Facet.png)
 
 ## Step 4. Check the Status of Your Feeds
 

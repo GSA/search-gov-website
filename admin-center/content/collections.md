@@ -32,7 +32,7 @@ Click on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-
 
 Searchers will see the collection name as an option that they can select in order to focus their search.
 
-![Collection on the search results page]({{ site.baseurl }}/assets/img/site/manual-collection-2.png)
+![Collection on the search results page]({{ site.url }}/assets/img/site/manual-collection-2.png)
 
 ---
 
@@ -48,9 +48,9 @@ The value is the number for your collection ID, which is visible in the URL when
 
 See the sample search box below that is limited to news on [NIH.gov for a search on *autism*](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism).
 
-![News-only search box on NIH.gov's News Releases page]({{ site.baseurl }}/assets/img/site/manual-collection-3.png)
+![News-only search box on NIH.gov's News Releases page]({{ site.url }}/assets/img/site/manual-collection-3.png)
   
-[![NIH.gov news-only search results page]({{ site.baseurl }}/assets/img/site/manual-collection-4.png "NIH.gov news-only search results page")](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism)
+[![NIH.gov news-only search results page]({{ site.url }}/assets/img/site/manual-collection-4.png "NIH.gov news-only search results page")](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism)
 
 <a name="sitelimit"></a>
 

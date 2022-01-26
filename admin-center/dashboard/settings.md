@@ -42,7 +42,7 @@ You created your site handle when you originally added your site. Searchers can 
 
 **Note:** If you change the site handle on a live search site, you will lose any analytics that have been gathered.
 
-[![Site name and handle on USA.gov's search results page]({{ site.baseurl }}/assets/img/site/DisplayName_SiteHandle_800.png "Site name and handle on USA.gov's search results page")](https://search.usa.gov/search?affiliate=usagov&query=taxes)
+[![Site name and handle on USA.gov's search results page]({{ site.url }}/assets/img/site/DisplayName_SiteHandle_800.png "Site name and handle on USA.gov's search results page")](https://search.usa.gov/search?affiliate=usagov&query=taxes)
 
 ## Site ID
 

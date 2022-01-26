@@ -30,11 +30,11 @@ We'll show the videos by default. You can toggle the settings for showing your v
 
 **Facet**
 
-![Videos Facet on DigitalGov.gov]({{ site.baseurl }}/assets/img/site/Videos-Facet.png "Videos Facet on DigitalGov.gov"){:height="95%" width="95%"}
+![Videos Facet on DigitalGov.gov]({{ site.url }}/assets/img/site/Videos-Facet.png "Videos Facet on DigitalGov.gov"){:height="95%" width="95%"}
 
 **Inline Module**
 
-![Inline Module on DigitalGov.gov]({{ site.baseurl }}/assets/img/site/Videos-Inline-Module.png "Inline Module on DigitalGov.gov"){:height="95%" width="95%"}
+![Inline Module on DigitalGov.gov]({{ site.url }}/assets/img/site/Videos-Inline-Module.png "Inline Module on DigitalGov.gov"){:height="95%" width="95%"}
 
 You can edit the default facet label, Videos, on the [RSS]({{ site.baseurl }}/admin-center/content/rss.html) page.
 

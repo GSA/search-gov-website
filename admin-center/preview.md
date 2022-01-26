@@ -14,7 +14,7 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 
 Visit our [Admin Center](https://search.usa.gov/sites/), select your site, and click on the Preview option (the eye icon) in the left-hand menu.
 
-![Select the preview option]({{ site.baseurl }}/assets/img/site/preview-nav.png)
+![Select the preview option]({{ site.url }}/assets/img/site/preview-nav.png)
 
 Enter a term in the box to see search results.
 

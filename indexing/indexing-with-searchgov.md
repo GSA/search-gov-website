@@ -22,7 +22,7 @@ redirect_from:
 * [A step-by-step indexing workflow]({{ site.baseurl }}/indexing/indexing-workflow.html).
 * How search engines index your website: a general overview of Search.gov and commercial search engines.
   * [Webinar]({{ site.baseurl }}/get-started/training.html#how-engines-index) (48 mins)
-  * [Slides]({{ site.baseurl }}/files/HowSearchEnginesIndexYourWebsite.pdf)
+  * [Slides]({{ site.url }}/files/HowSearchEnginesIndexYourWebsite.pdf)
 
 ## Domain Level SEO Supports
 

@@ -18,6 +18,6 @@ This module offers direct access to *Federal Register* documents. We pull the da
 
 If you [opt to show the Federal Register]({{ site.baseurl }}/admin-center/display/display-overview.html) module, searchers on your site can readily find the notices and rules that your agency has published in the *Federal Register*, as shown in the sample below for a search on [*research* on sec.gov](https://secsearch.sec.gov/search?utf8=%E2%9C%93&affiliate=secsearch&sort_by=&query=research).
 
-[![Federal Register Module on SEC.gov]({{ site.baseurl }}/assets/img/site/govbox-fr.png "Federal Register Module on SEC.gov")](https://secsearch.sec.gov/search?utf8=%E2%9C%93&affiliate=secsearch&sort_by=&query=research)
+[![Federal Register Module on SEC.gov]({{ site.url }}/assets/img/site/govbox-fr.png "Federal Register Module on SEC.gov")](https://secsearch.sec.gov/search?utf8=%E2%9C%93&affiliate=secsearch&sort_by=&query=research)
 
 If you would like to show Federal Register documents in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.

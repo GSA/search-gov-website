@@ -23,10 +23,10 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 1. [Configure the branding of your results page](#configure-branding)
 1. [Connect your website’s search box to your search site](#go-live)
 
-![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.baseurl }}/files/site-launch-workflow.png){: .img-responsive}
+![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.url }}/files/site-launch-workflow.png){: .img-responsive}
 [Site launch flow chart detailed description](#add-site)
 
-[Open large version]({{ site.baseurl }}/files/site-launch-workflow.png)
+[Open large version]({{ site.url }}/files/site-launch-workflow.png)
 
 {: #add-site }
 
