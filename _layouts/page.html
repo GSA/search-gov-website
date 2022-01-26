@@ -7,12 +7,15 @@ This template is for a single page that does not have a date associated with it.
 {% endcomment %}
 
 <div id="main-content" class="usa-layout-docs usa-section">
-  <div class="grid-container">
+  <div id="main-container" class="grid-container">
     <div class="grid-row grid-gap">
       {% if page.sidenav %}
         {% include sidenav.html sidenav=page.sidenav %}
       {% endif %}
-      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+      {% comment %}
+      Do not remove the article semantic tag or the article class. They are required for Admin Center help links to work.
+      {% endcomment %}
+      <article class="usa-layout-docs__main desktop:grid-col-9 usa-prose article">
         <main>
           <h1 class="title">{{page.title}}</h1>
             {{ content }}
