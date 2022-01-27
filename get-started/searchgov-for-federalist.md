@@ -6,6 +6,8 @@ tags: getting-started go-live site-launch
 sidenav: get_started
 date: April 22, 2019
 last_modified_at: August 8, 2021
+redirect_from:
+    - /manual/searchgov-for-federalist.html
 ---
 
 For 20 years, GSA's Search.gov has transformed the public’s search experience on federal government websites. Agencies use our free, shared service to power over 2,000 search boxes on over 30% of federal domains. This page will walk you through the steps required to integrate Search.gov with your Federalist website. Examples are for websites using the Jekyll site template.
