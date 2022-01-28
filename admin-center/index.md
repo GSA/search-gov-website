@@ -84,7 +84,7 @@ Related resources:
 * [Using Your Own Domain on Your Results Page]({{ site.baseurl }}/admin-center/display/cname.html)
 
 ### Training Videos
-* [Getting Started Video](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins)
+* [Getting Started Video (YouTube)](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins)
 * [All Training Videos]({{ site.baseurl }}/get-started/training.html)
 
 Do you have other questions or comments about how our service works? [Email us](mailto:search@support.digitalgov.gov).

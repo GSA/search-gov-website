@@ -45,4 +45,4 @@ If they get routed to the [Unclaimed Money from the Government](https://www.usa.
 
 If they search for something not on the above list, like *show me missing money*, they'll still get the normal search results. 
 
-![Standard search results for 'I am looking for unclaimed money' on USA.gov]({{ site.baseurl }}/assets/img/site/unclaimed-money.png){:height="95%" width="95%"}
+![Standard search results for 'I am looking for unclaimed money' on USA.gov]({{ site.url }}/assets/img/site/unclaimed-money.png){:height="95%" width="95%"}

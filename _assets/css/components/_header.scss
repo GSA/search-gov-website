@@ -46,6 +46,12 @@
 
 .usa-nav__secondary {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .usa-search {
+    margin-top: 0;
+  }
 
   .usa-navbar .usa-button-group {
     margin-left: auto;
@@ -63,7 +69,7 @@
 
   .usa-button.login {
     padding: 0.45rem 1rem;
-	margin-top: .35rem;
+	  margin-top: .35rem;
   }
 
 

@@ -62,7 +62,7 @@ Please note: if you have any [regular RSS feeds]({{ site.baseurl }}/admin-center
 
 In the example below, a Supplemental URL appears first, and clicking “Try your search again” will lead to a page of Bing results. 
 
-![A Supplemental URL is Displayed on Page One of the DigitalGo Search Search Results Page]({{ site.baseurl }}/assets/img/site/Supplemental-Content-First-Example.png){:height="95%" width="95%"}
+![A Supplemental URL is Displayed on Page One of the DigitalGo Search Search Results Page]({{ site.url }}/assets/img/site/Supplemental-Content-First-Example.png){:height="95%" width="95%"}
 
 ## Getting Supplemental Content to Be Your Only Search Results
 

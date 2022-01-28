@@ -24,7 +24,7 @@ Text best bets have the same look as standard web results. They're listed under 
 
 See the sample results page below that shows a text best bet displayed on TSA.gov for a search on *[taxes](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=usagov&query=taxes)*.
 
-![Text best bets for 'taxes' on USA.gov. Text best bets appear as recommendations at the top of the results page.]({{ site.baseurl }}/assets/img/site/best-bets-text.png)
+![Text best bets for 'taxes' on USA.gov. Text best bets appear as recommendations at the top of the results page.]({{ site.url }}/assets/img/site/best-bets-text.png)
 
 
 ### Add an Individual Text Best Bet
@@ -41,7 +41,7 @@ See the sample results page below that shows a text best bet displayed on TSA.go
 
 ### Add Multiple Best Bets Via Bulk Upload
 
-You can upload a batch of Text Best Bets, up to 390 at a time. Create a comma-separated file with the following fields (in this order). Download our [sample template for uploading best bets]({{ site.baseurl }}/files/best-bets-template-201603.csv) [CSV] to see the correct format.
+You can upload a batch of Text Best Bets, up to 390 at a time. Create a comma-separated file with the following fields (in this order). Download our [sample template for uploading best bets]({{ site.url }}/files/best-bets-template-201603.csv) [CSV] to see the correct format.
 
 Title, URL, Description, StartDate, EndDate, Keywords, Match_Keywords_Only, Status
 
@@ -66,7 +66,7 @@ Recommended items are displayed in two columns, and you have the option of inclu
 
 See the sample results page below that shows a graphics best bet displayed on [USA.gov for a search on housing assistance](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=usagov&query=Housing+Assistance).
 
-[![Graphics best bet highlighting housing assistance links on USA.gov]({{ site.baseurl }}/assets/img/site/best-bets-graphics.png "Graphics best bet highlighting housing assistance links on USA.gov. Graphic Best Bets appear as recommendations at the top of the search results page.")](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=usagov&query=Housing+Assistance)
+[![Graphics best bet highlighting housing assistance links on USA.gov]({{ site.url }}/assets/img/site/best-bets-graphics.png "Graphics best bet highlighting housing assistance links on USA.gov. Graphic Best Bets appear as recommendations at the top of the search results page.")](https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=usagov&query=Housing+Assistance)
 
 
 #### More configuration options

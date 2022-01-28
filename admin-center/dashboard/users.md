@@ -16,7 +16,7 @@ After you've [logged in](https://search.usa.gov/sites/) and [added a site]({{ si
 
 You can add anyone you'd like to your site &mdash; with or without a .gov or .mil email address. Email addresses outside the .gov or .mil domains must be associated with a business. Personal emails, such as @gmail.com or @yahoo.com, are not allowed.
 
-[![Add a user]({{ site.baseurl }}/assets/img/site/user.png)]({{ site.baseurl }}/assets/img/site/user.png)
+[![Add a user]({{ site.url }}/assets/img/site/user.png)]({{ site.url }}/assets/img/site/user.png)
 
 In addition to a text-based indicator, we use [color coding]({{ site.baseurl }}/admin-center/color-codes.html) to indicate each user's status. 
 

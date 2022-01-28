@@ -22,6 +22,6 @@ If you don't want to display your tweets, simply delete your Twitter handle.
 
 See the sample results page below that shows a recent tweet displayed on TSA for a search on *[acceptable forms of ID](https://search.usa.gov/search?query=acceptable%20forms%20of%20ID&submit.x=0&submit.y=0&affiliate=tsa.gov)*.
 
-![Search result with a tweet on ]({{ site.baseurl }}/assets/img/site/social-media-tweets.png)
+![Search result with a tweet on ]({{ site.url }}/assets/img/site/social-media-tweets.png)
 
 Searchers will see the most recent tweet (posted within the past three days) that matches their search term.

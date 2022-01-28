@@ -43,10 +43,10 @@ We often receive questions when an agency conducts a major website upgrade, chan
 
 10\. [Alert Google and Bing that your website has been refreshed](#google-bing)
 
-![Flow chart showing the steps involved in getting the search index ready to go on Search.gov, for a website that’s being relaunched.]({{ site.baseurl }}/assets/img/site/website-relaunch-workflow.png)
+![Flow chart showing the steps involved in getting the search index ready to go on Search.gov, for a website that’s being relaunched.]({{ site.url }}/assets/img/site/website-relaunch-workflow.png)
 [Website relaunch flow chart detailed description](#description)
 
-[Open large version]({{ site.baseurl }}/assets/img/site/website-relaunch-workflow.png)
+[Open large version]({{ site.url }}/assets/img/site/website-relaunch-workflow.png)
 
        
 

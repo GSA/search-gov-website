@@ -46,7 +46,7 @@ Enter any query terms that you don’t want included in the alert, separated by 
 
 In this example, the alert system will check every 30 minutes to see if any query has been entered at least 50 times over the past 12 hours and yielded no results. The system will send an alert at most once per day if there are queries that fit this criteria, and it will not include the query ‘panda’ in the alert.
 
-![No Results Analytics Alert Example]({{ site.baseurl }}/assets/img/site/No-Results-Screenshot.png "No Results Analytics Alert Example"){:height="95%" width="95%"}
+![No Results Analytics Alert Example]({{ site.url }}/assets/img/site/No-Results-Screenshot.png "No Results Analytics Alert Example"){:height="95%" width="95%"}
 
 ## Low Query Click-through Rate
 
@@ -86,7 +86,7 @@ Enter any query terms that you don’t want included in the alert, separated by 
 
 In this example, the alert system will check every 30 minutes for a query that has had search activity (queries plus clicks) at least 100 times over the past 12 hours and has a CTR 15% or lower. The system will send an alert at most once per day if there are queries that fit these criteria, and it will not include queries for ‘lion’ in the alert.
 
-![Low CTR Analytics Alert Example]({{ site.baseurl }}/assets/img/site/Low-CTR-Screenshot.png "Low CTR Analytics Alert Example"){:height="95%" width="95%"}
+![Low CTR Analytics Alert Example]({{ site.url }}/assets/img/site/Low-CTR-Screenshot.png "Low CTR Analytics Alert Example"){:height="95%" width="95%"}
 
 ---
 

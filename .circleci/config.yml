@@ -24,7 +24,7 @@ jobs:
           paths:
             - vendor/bundle
       - run: npm run build
-      - run: npm run test || true
+      - run: npm run htmlproofer || true
 
 
 workflows:

@@ -42,7 +42,7 @@ You created your site handle when you originally added your site. Searchers can 
 
 **Note:** If you change the site handle on a live search site, you will lose any analytics that have been gathered.
 
-[![Site name and handle on USA.gov's search results page]({{ site.baseurl }}/assets/img/site/DisplayName_SiteHandle_800.png "Site name and handle on USA.gov's search results page")](https://search.usa.gov/search?affiliate=usagov&query=taxes)
+[![Site name and handle on USA.gov's search results page]({{ site.url }}/assets/img/site/DisplayName_SiteHandle_800.png "Site name and handle on USA.gov's search results page")](https://search.usa.gov/search?affiliate=usagov&query=taxes)
 
 ## Site ID
 
@@ -50,7 +50,7 @@ We assign a unique, system-generated numeric ID to your site. We use this ID in 
 
 ## Site Language
 
-You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html) when you first [added your site]({{ site.baseurl }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
+You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html)) when you first [added your site]({{ site.baseurl }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
 
 ## Delete
 

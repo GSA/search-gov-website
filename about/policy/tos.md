@@ -26,7 +26,7 @@ The following terms of service ("Terms") governing the General Services Administ
 
 ## Citing Data
 
-Customers using the Search Results API with Bing results must display the [Powered by Bing](https://advertiseonbing.blob.core.windows.net/blob/bingads/media/library/docs/bing-marketing-guidelines.pdf) [PDF] logo on 'web' and 'image' search results pages for attribution of these results. Customers using any of Search.gov indexes ('i14y', 'docs', 'news', and 'videonews') must display "Powered by Search.gov" (using plain text or [our logo]({{ site.baseurl }}/assets/img/site/searchdotgovlogo.png) for Search.gov) for attribution instead of the Bing logo. 
+Customers using the Search Results API with Bing results must display the [Powered by Bing](https://advertiseonbing.blob.core.windows.net/blob/bingads/media/library/docs/bing-marketing-guidelines.pdf) [PDF] logo on 'web' and 'image' search results pages for attribution of these results. Customers using any of Search.gov indexes ('i14y', 'docs', 'news', and 'videonews') must display "Powered by Search.gov" (using plain text or [our logo]({{ site.url }}/assets/img/site/searchdotgovlogo.png) for Search.gov) for attribution instead of the Bing logo. 
 
 ## Source Code
 

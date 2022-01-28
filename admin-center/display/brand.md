@@ -26,7 +26,7 @@ To customize your search results page and match your site's brand:
 
 ## Image Assets
 
-**Favicon.** Provide the URL for your agency's favicon. (A [favicon](http://webdesign.about.com/od/favicon/f/blfaqfavicon1.htm), short for favorites icon, is the small image associated with your website.)
+**Favicon.** Provide the URL for your agency's favicon. (A [favicon](https://developer.mozilla.org/en-US/docs/Glossary/Favicon), short for favorites icon, is the small image associated with your website.)
 
 **Logo.** Use the Choose File option to upload the logo that you'd like to appear in the header of your results page. Click on the option, Mark Logo for Deletion, to delete an uploaded logo. There isn't a required dimension. That said, images less than 550 pixels wide and 100 pixels high tend to work best.
 

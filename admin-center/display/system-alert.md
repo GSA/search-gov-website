@@ -18,7 +18,7 @@ Use the Search Page Alert feature to add a text message to your search results p
 
 See, for example, the custom alert on Defense.gov announcing their migration to a new system.
 
-![Custom System Alert on State.gov]({{ site.baseurl }}/assets/img/site/system-alert.png "Custom System Alert on state.gov")
+![Custom System Alert on State.gov]({{ site.url }}/assets/img/site/system-alert.png "Custom System Alert on state.gov")
 
 ---
 
