@@ -2,6 +2,7 @@
 layout: post
 category: releases
 title: January 2022 Release Notes
+filename: january-2022
 last_modified_at: February 4, 2022
 sidenav: about_us
 release-year: "2022"
