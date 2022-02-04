@@ -45,7 +45,7 @@ collections:
           label: "Release Year",
           name: "release-year",
           widget: "string",
-          default: 2021
+          default: 2022
        }
       - {
           label: "Description", 
