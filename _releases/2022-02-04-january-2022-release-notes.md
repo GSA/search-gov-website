@@ -9,7 +9,7 @@ description: ""
 ---
 ## Improvements
 
-* **Search.gov Website Redesign:** On January 19, we launched a redesign to this website (https://search.gov). This site now uses [USWDS](https://designsystem.digital.gov/) and features easier navigation to the content our users need. Please give us any feedback via the "Help improve this site" button at the bottom of the page!
+* **Search.gov Website Redesign:** On January 19, we launched a redesign to this website (<https://search.gov>). This site now uses [USWDS](https://designsystem.digital.gov/) and features easier navigation to the content our users need. Please give us any feedback via the "Help improve this site" button at the bottom of the page!
 * **Legacy Code Removal:** We've removed unused code associated with the [sitelink generator](https://github.com/GSA/sitelink_generator).
 * **Security Improvements:** We've added more cybersecurity monitoring and support to our production environment.
 
