@@ -6,6 +6,8 @@ tags: feedback
 date: May 3, 2018
 last_modified_at: May 3, 2018
 sidenav: about_us
+redirect_from:
+    - /feedback/feedback.html
 ---
 
 Customer feedback is a core component of our service. Our success depends on your success. Your input is key to help us:

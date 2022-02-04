@@ -8,7 +8,7 @@ We encourage you to read this project's CONTRIBUTING policy (you are here), its 
 
 We want to ensure a welcoming environment for all of our projects. Our staff follow the [TTS Code of Conduct](https://18f.gsa.gov/code-of-conduct/) and all contributors should do the same.
 
-We adhere to the [18F Open Source Policy](https://github.com/18f/open-source-policy). If you have any questions, just [shoot us an email](mailto:18f@gsa.gov).
+We adhere to the [18F Open Source Policy](https://github.com/18f/open-source-policy). If you have any questions, just [shoot us an email](mailto:search@support.digitalgov.gov).
 
 ## Public domain
 

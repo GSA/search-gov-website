@@ -8,6 +8,7 @@ date: March 2, 2019
 last_modified_at: March 2, 2019
 redirect_from:
     - /developer/govt-urls.html
+    - /developer/govturls.html
 ---
 
 ## Overview
