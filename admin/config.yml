@@ -18,7 +18,8 @@ collections:
     name: releases
     folder: _releases/
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{title}}.html"
+    preview_path: /about/updates/releases/{{slug}}
     editor:
       preview: false
     fields:
@@ -45,7 +46,7 @@ collections:
           label: "Release Year",
           name: "release-year",
           widget: "string",
-          default: 2021
+          default: 2022
        }
       - {
           label: "Description", 
