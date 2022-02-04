@@ -18,14 +18,15 @@ collections:
     name: releases
     folder: _releases/
     create: true
-    slug: "{{title}}.html"
-    preview_path: /about/updates/releases/{{slug}}
+    slug: "{{fields.filename}}.html"
+    preview_path: /about/updates/releases/{{fields.filename}}.html
     editor:
       preview: false
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
       - {label: 'Category', name: 'category', widget: 'hidden', default: 'releases'}
       - {label: "Title", name: "title", widget: "string", default: "[[Month]] [[Year]] Release Notes"}
+      - {label: "Filename", name: "filename", widget: "string", default: "[[month]]-[[year]]"}
       - {
           label: "Last Modified At",
           name: "last_modified_at",
