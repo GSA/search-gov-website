@@ -10,7 +10,7 @@ sidenav: about_us
 <span style="float:right;"><img 
   src="{{ site.baseurl }}/files/2021-year-in-review-cover.png"
   alt="2021 Year In Review, report cover image showing two photos of people wearing face coverings. In the larger photo, a young black girl wearing a backpack adjusts her mask with a parent's help. In the smaller photo, a white couple sits in airport chairs, the woman resting her head on the man's shoulder. Following is a link to the full PDF report." style="width:260px;"><br />
-[Download full report]({{ site.url }}/files/2021-year-in-review.pdf)
+[Download full report]({{ site.baseurl }}/files/2021-year-in-review.pdf)
 </span>
 <br />
 	
@@ -23,7 +23,7 @@ sidenav: about_us
 
 Search.gov is a search engine service provided by the GSA’s Technology Transformation Services. Used by one-third of federal domains, it provides a high-quality, standard search experience for the public as they interact with different government websites. The service’s broad use gives insight into not only what services and information the public needs, but how people seek it out. Often, web analytics just show what resources people used. Search data shows why people went to get those resources.
 
-This [Year In Review]({{ site.url }}/files/2021-year-in-review.pdf) explores the top needs of 2021, expressed in the public’s own words. For each of the 18 topics, this report provides the **top 25 searches** in that topic, **trend data** since 2019, and the **top websites** serving the public in that area.
+This [Year In Review]({{ site.baseurl }}/files/2021-year-in-review.pdf) explores the top needs of 2021, expressed in the public’s own words. For each of the 18 topics, this report provides the **top 25 searches** in that topic, **trend data** since 2019, and the **top websites** serving the public in that area.
 
 
 The top five topics in 2021 were:
@@ -42,7 +42,7 @@ Searches for health topics remain nearly double the level of a typical year, tho
 
 Forms, usually one of the top needs, remained in 5th place, though total requests were 17% lower than 2020. Immigration related searches had remained steady between 2019 and 2020, and increased 10% in 2021. For the first time this year, we investigated the topic of Infrastructure, given that this is a priority for the administration. Though it’s a broad enough subject that it didn’t rise to the top through any particular search terms, Infrastructure as a whole turned out to be among the top topics, with searches such as "energy," "roads," and "communications lines."
 
-[Read the report]({{ site.url }}/files/2021-year-in-review.pdf)
+[Read the report]({{ site.baseurl }}/files/2021-year-in-review.pdf)
 
 ## Public Experience - How Do People Search?
 
@@ -56,7 +56,7 @@ According to data from the Digital Analytics Program, about 40% of visits to fed
 
 Since we don’t track individual searchers, we cannot show a complete journey from beginning to end. However, the themes and trends in site search data provide government with a considerable amount of information to improve the public experience with navigating government information.
 
-[Read the report]({{ site.url }}/files/2021-year-in-review.pdf)
+[Read the report]({{ site.baseurl }}/files/2021-year-in-review.pdf)
 
 ## Methods
 
