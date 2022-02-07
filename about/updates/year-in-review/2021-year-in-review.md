@@ -66,8 +66,8 @@ For this report, we use an analysis method designed to detect the topic of the s
 
 The time frame studied was January 1 - December 31, 2021. 
 
-[Read the report]({{ site.url }}/files/2021-year-in-review.pdf)
+[Read the report]({{ site.baseurl }}/files/2021-year-in-review.pdf)
 
 <br />
 
-[Read our 2021 system highlights]({{ site.url }}/year-in-review/2021-system-highlights.html), an overview of the biggest improvements we made to our system last year.
+[Read our 2021 system highlights]({{ site.baseurl }}/year-in-review/2021-system-highlights.html), an overview of the biggest improvements we made to our system last year.
