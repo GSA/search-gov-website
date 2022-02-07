@@ -1,15 +1,15 @@
 ---
 layout: page
-title: 2021 In Review
+title: 2021 Year In Review
 description: The 2021 Search.gov Year In Review report shows how COVID-19 continued to affect the public’s needs and interactions with the government.
 tags: year-in-review
-date: February ASAP, 2022
-last_modified_at: February ASAP 2022
+date: February 7, 2022
+last_modified_at: February 7, 2022
 sidenav: about_us
 ---
 <span style="float:right;"><img 
   src="{{ site.baseurl }}/files/2021-year-in-review-cover.png"
-  alt="2021 Year In Review, report cover image showing two photos of people wearing face coverings. In the larger photo, a young black girl wearing a backpack adjusts her mask with a parent's help. In the smaller photo, a white couple sits in airport chairs, the woman resting her head on the man's shoulder. Following is a link to the full PDF report." style="width:260px;height:300px;"><br />
+  alt="2021 Year In Review, report cover image showing two photos of people wearing face coverings. In the larger photo, a young black girl wearing a backpack adjusts her mask with a parent's help. In the smaller photo, a white couple sits in airport chairs, the woman resting her head on the man's shoulder. Following is a link to the full PDF report." style="width:260px;"><br />
 [Download full report]({{ site.url }}/files/2021-year-in-review.pdf)
 </span>
 <br />
