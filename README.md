@@ -47,6 +47,18 @@ Note: some pages have HTML or complex markdown tables, which will need to be edi
 * /admin-center/display/hosted-vs-api-results.html
 * /admin-center/entries/color-codes
 
+### Adding Hyperlinks
+Links will need to be added in markdown with the syntax below in order for our preview functionality to work. 
+
+```
+[Link Text]({{ site.baseurl }}/folder1/folder2/index.html)
+```
+
+{{ site.baseurl }} adds the correct folder path for the Federalist Preview URL to work.
+
+**Important Note** - if you are adding image or PDF references to any page within `admin-center`, use `{{ site.url }}` instead of `{{ site.baseurl }}`. This will add in "https://search.gov" to the URL, which means the resource will not appear until it exists in production. However, it will allow us to show that image within the preview modals in the Admin Center.
+
+
 ### Adding Media
 Media can be uploaded to the site via NetlifyCMS as well. Click on "Media" on the top menu, and you'll see an interface where you can browse through existing images and upload new ones. These can then be added via the page editor to any page you're working on.
 
