@@ -70,4 +70,4 @@ The time frame studied was January 1 - December 31, 2021.
 
 <br />
 
-[Read our 2021 system highlights]({{ site.baseurl }}/year-in-review/2021-system-highlights.html), an overview of the biggest improvements we made to our system last year.
+[Read our 2021 system highlights]({{ site.baseurl }}/about/updates/year-in-review/2021-system-highlights.html), an overview of the biggest improvements we made to our system last year.
