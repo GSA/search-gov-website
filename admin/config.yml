@@ -8,8 +8,7 @@ backend:
   squash_merges: true
 
 
-media_folder: assets/uploads
-public_folder: /images/uploads
+media_folder: "assets/img/site"
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
@@ -18,15 +17,15 @@ collections:
     name: releases
     folder: _releases/
     create: true
-    slug: "{{fields.filename}}.html"
-    preview_path: /about/updates/releases/{{fields.filename}}.html
+    slug: "{{filename-custom}}.html"
+    preview_path: about/updates/releases/{{filename-custom}}.html
     editor:
       preview: false
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
       - {label: 'Category', name: 'category', widget: 'hidden', default: 'releases'}
       - {label: "Title", name: "title", widget: "string", default: "[[Month]] [[Year]] Release Notes"}
-      - {label: "Filename", name: "filename", widget: "string", default: "[[month]]-[[year]]"}
+      - {label: "Formatted Filename", name: "filename-custom", widget: "string", default: "[[month]]-[[year]]", hint: "Required in order to format the filename and preview link correctly. Should look like [lowercase month]-[year], ex january-2022."}
       - {
           label: "Last Modified At",
           name: "last_modified_at",
