@@ -1,21 +1,21 @@
 ---
 layout: page
 title: Government-Managed Domains Outside the .Gov and .Mil Top Level Domains
-category: developer
-tags: seo policy government-urls
-sidenav: about_us
-date: March 2, 2019
 last_modified_at: March 2, 2019
 redirect_from:
-    - /developer/govt-urls.html
-    - /developer/govturls.html
+  - /developer/govt-urls.html
+  - /developer/govturls.html
+sidenav: about_us
+date: March 2, 2019
+tags: seo policy government-urls
+category: developer
 ---
 
 ## Overview
 
 As the U.S. government's official web portal, [USA.gov](https://www.usa.gov/) searches across all federal, state, local, tribal, and territorial government websites. Most government websites end in .gov or .mil, but many end in .com, .org, .edu, or other top-level domains.
 
-In support of USA.gov and [M-17-06 &ndash; Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf), Search.gov maintains a list of all public government domains that don't end in .gov or .mil.
+In support of USA.gov and [M-17-06 &ndash; Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf), Search.gov maintains a list of all public government domains that don't end in .gov or .mil.
 
 ## How to Update the List
 
