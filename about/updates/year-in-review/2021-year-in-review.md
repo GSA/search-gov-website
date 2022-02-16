@@ -4,7 +4,7 @@ title: 2021 Year In Review
 description: The 2021 Search.gov Year In Review report shows how COVID-19 continued to affect the public’s needs and interactions with the government.
 tags: year-in-review
 date: February 7, 2022
-last_modified_at: February 7, 2022
+last_modified_at: February 16, 2022
 sidenav: about_us
 ---
 <span style="float:right;"><img 
@@ -30,9 +30,9 @@ The top five topics in 2021 were:
 
 1. Benefits
 1. Loans
-1. Space
 1. Immigration
-1. Forms
+1. Space
+1. Health
 
 ## The Long Haul
 
@@ -40,7 +40,7 @@ The story of 2021 is one of perseverance. COVID continued to weigh heavily on ou
 
 Searches for health topics remain nearly double the level of a typical year, though about 10% lower than 2020. The main focus of COVID-19-related health searches shifted from symptoms and protection to vaccines and testing.
 
-Forms, usually one of the top needs, remained in 5th place, though total requests were 17% lower than 2020. Immigration related searches had remained steady between 2019 and 2020, and increased 10% in 2021. For the first time this year, we investigated the topic of Infrastructure, given that this is a priority for the administration. Though it’s a broad enough subject that it didn’t rise to the top through any particular search terms, Infrastructure as a whole turned out to be among the top topics, with searches such as "energy," "roads," and "communications lines."
+Immigration related searches had remained steady between 2019 and 2020, and increased 10% in 2021. Forms, usually one of the top needs, dropped out of the top 5, with total requests 17% lower than 2020. For the first time this year, we investigated the topic of Infrastructure, given that this is a priority for the administration. Though it’s a broad enough subject that it didn’t rise to the top through any particular search terms, Infrastructure as a whole turned out to be among the top topics, with searches such as "energy," "roads," and "communications lines."
 
 [Read the report]({{ site.baseurl }}/files/2021-year-in-review.pdf)
 
