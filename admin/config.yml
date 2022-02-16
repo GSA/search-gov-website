@@ -63,15 +63,12 @@ collections:
         }
   - label: About 
     name: about
-    folder: about/
+    folder: about
     create: true
-    slug: "{{slug}}"
-    nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    slug: "{{title}}"
+    preview_path: about/{{filename}}.html
     editor:
       preview: false
-    meta: &standard_path { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields: &standard_fields
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
       - {label: "Title", name: "title", widget: "string"}
@@ -103,60 +100,138 @@ collections:
           name: "body", 
           widget: "markdown"
         }
-  - label: Admin Center
-    name: admin-center
-    folder: admin-center/
+  - label: About - Policy
+    name: about-policy
+    folder: about/policy
     create: true
-    slug: "{{slug}}"
-    nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    slug: "{{title}}"
+    preview_path: about/policy/{{filename}}.html
     editor:
       preview: false
-    meta: *standard_path
+    fields: *standard_fields
+  - label: About - Updates
+    name: about-updates
+    folder: about/updates
+    create: true
+    slug: "{{title}}"
+    preview_path: about/updates/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: About - Updates - Releases
+    name: about-updates-releases
+    folder: about/updates/releases
+    create: true
+    slug: "{{title}}"
+    preview_path: about/updates/releases/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: About - Updates - Roadmap
+    name: about-updates-roadmap
+    folder: about/updates/roadmap
+    create: true
+    slug: "{{title}}"
+    preview_path: about/updates/roadmap/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: About - Updates - Year In Review
+    name: about-updates-year-in-review
+    folder: about/updates/year-in-review
+    create: true
+    slug: "{{title}}"
+    preview_path: about/updates/year-in-review/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: Admin Center
+    name: admin-center
+    folder: admin-center
+    create: true
+    slug: "{{title}}"
+    preview_path: admin-center/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: Admin Center - Activate
+    name: admin-center-activate
+    folder: admin-center/activate
+    create: true
+    slug: "{{title}}"
+    preview_path: admin-center/activate/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: Admin Center - Analytics
+    name: admin-center-analytics
+    folder: admin-center/analytics
+    create: true
+    slug: "{{title}}"
+    preview_path: admin-center/analytics/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: Admin Center - Content
+    name: admin-center-content
+    folder: admin-center/content
+    create: true
+    slug: "{{title}}"
+    preview_path: admin-center/content/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: Admin Center - Dashboard
+    name: admin-center-dashboard
+    folder: admin-center/dashboard
+    create: true
+    slug: "{{title}}"
+    preview_path: admin-center/dashboard/{{filename}}.html
+    editor:
+      preview: false
+    fields: *standard_fields
+  - label: Admin Center - Display
+    name: admin-center-display
+    folder: admin-center/display
+    create: true
+    slug: "{{title}}"
+    preview_path: admin-center/display/{{filename}}.html
+    editor:
+      preview: false
     fields: *standard_fields
   - label: Developer
     name: developer
-    folder: developer/
+    folder: developer
     create: true
-    slug: "{{slug}}"
-    nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    slug: "{{title}}"
+    preview_path: developer/{{filename}}.html
     editor:
       preview: false
-    meta: *standard_path
     fields: *standard_fields
   - label: Indexing
     name: indexing
     folder: indexing/
     create: true
-    slug: "{{slug}}"
-    nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    slug: "{{title}}"
+    preview_path: indexing/{{filename}}.html
     editor:
       preview: false
-    meta: *standard_path
     fields: *standard_fields
   - label: Get Started
     name: get-started
     folder: get-started/
     create: true
-    slug: "{{slug}}"
-    nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{path}}' # optional summary for a tree node, defaults to the inferred title field
+    slug: "{{title}}"
+    preview_path: get-started/{{filename}}.html
     editor:
       preview: false
-    meta: *standard_path
     fields: *standard_fields
   - label: Main Pages
     name: main-pages
     folder: /
     create: true
-    slug: "{{slug}}"
+    slug: "{{title}}"
+    preview_path: /{{filename}}.html
     editor:
       preview: false
-    meta: *standard_path
     fields: *standard_fields
