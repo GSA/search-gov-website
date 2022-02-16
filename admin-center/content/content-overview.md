@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Add Your Content to Our Indexes: An Overview"
-last_modified_at: February 27, 2017
+last_modified_at: February 16, 2022
 redirect_from:
   - /manual/content-overview.html
 sidenav: admin_center
