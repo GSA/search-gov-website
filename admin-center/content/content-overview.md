@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Add Your Content to Our Indexes: An Overview"
-category: admin-center
-tags: help-manual manage-content
-date: February 27, 2017
 last_modified_at: February 27, 2017
-sidenav: admin_center
 redirect_from:
-    - /manual/content-overview.html
+  - /manual/content-overview.html
+sidenav: admin_center
+date: February 27, 2017
+tags: help-manual manage-content
+category: admin-center
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Content Overview
@@ -24,7 +24,7 @@ When you [add your domains]({{ site.baseurl }}/admin-center/content/domains.html
 
 If you don't like the default web results, you can choose to use another index. Options follow.
 
-**Option 1. Use Our Search.gov Web Index.** We can index content that is sent to us by API or RSS. Email us at <search@support.digitalgov.gov> and we'll work with you to determine the best way for us to get your content.
+**Option 1. Use Our Search.gov Web Index.** Read about indexing with Search.gov [here]({{site.baseurl}}/indexing/indexing-workflow.html). Email us at <search@support.digitalgov.gov> and we'll work with you to determine the best way for us to get your content.
 
 **Option 2. Use Another Web Index of Your Choice.** Most search indexes expose their results as XML. If you have another search index that renders XML, let us know and we'll work with you to determine if you can use it.
 
