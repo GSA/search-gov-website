@@ -16,6 +16,6 @@ Search.gov can help you comply with the following laws and policies.
 * *[OMB M-17-06: Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf)*
 
   * *Section 3.A.* &ndash; Public websites must have a search function.
-  * *Section 9.D.* &ndash; Federal websites must use .gov or .mil top-level domains. Any domains in a different top-level domain must be approved for use by the agency's CIO and registered with the \[Search.gov list of non-governmental domains]({{ site.baseurl }}/about/policy/govt-urls.html).
+  * *Section 9.D.* &ndash; Federal websites must use .gov or .mil top-level domains. Any domains in a different top-level domain must be approved for use by the agency's CIO and registered with the [Search.gov list of non-governmental domains]({{ site.baseurl }}/about/policy/govt-urls.html).
 
-To learn about Search.gov’s program policies, read our \[Terms of Service]({{ site.baseurl }}/about/policy/tos.html).
+To learn about Search.gov’s program policies, read our [Terms of Service]({{ site.baseurl }}/about/policy/tos.html).
