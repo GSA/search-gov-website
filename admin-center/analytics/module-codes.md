@@ -18,14 +18,14 @@ This page lists all the module codes and their full names.
 | Code    | Module Name |
 | :------------ | :---------------------------------- |
 | AIDOC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Collections |
-| AWEB  | Web Results Only (Azure) |
+| AWEB* | Web Results Only (Azure) |
 | BBG   | Best Bets: Graphics |
 | BOOS  | Best Bets: Text |
 | BSPEL | Spelling Suggestions (Bing/Google) |
 | BWEB  | Web Results (Bing) |
-| DECOR | Value-added Links for SEC Filings |
+| DECOR* | Value-added Links for SEC Filings |
 | FRDOC | Federal Register Documents |
-| GWEB  | Web Results (Google) |
+| GWEB*  | Web Results (Google) |
 | I14Y  | Web Results (Search.gov via [i14y]({{ site.baseurl }}/developer/i14y.html)) |
 | IMAG  | Image Results (Bing) |
 | JOBS  | Jobs |
@@ -41,3 +41,5 @@ This page lists all the module codes and their full names.
 | SREL  | Related Searches |
 | TWEET | Tweets (Twitter) |
 | VIDS  | Video Results (YouTube) |
+
+\* indicates a deprecated module code.
