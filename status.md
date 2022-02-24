@@ -9,15 +9,14 @@ sidenav: support
 
 ## Current Status
 
-<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
-Date: February 24, 10:50AM ET - ongoing <br />
-Details: 
-11:40AM ET Update - We are continuing to investigate, and will update once we have more information.
-11:10AM ET Update - At this time, searches are intermittently failing and returning errors. An investigation is currently underway, and we will update this message every 30 minutes.
-
-<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
+Date: February 24, 10:50AM ET - 11:45AM ET <br />
+Details: 
+From February 24 at 10:50AM ET to 11:45AM ET, a small number of searches failed due to network anomalies. The issue has been resolved and Search.gov is now fully operational.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
 Date: January 26, 2022 - Janary 28, 2022 <br />
