@@ -9,9 +9,10 @@ sidenav: support
 
 ## Current Status
 
-<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
-Date: February 24, 2022, 2:07PM ET - ongoing <br />
-Details: Update 2:50pm ET, we are implementing mitigations. Original: Beginning 2:07PM ET we are experiencing serious degradation. We are investigating and will provide updates here every 30 minutes.
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: February 24, 2022, 2:07PM ET - 2:50PM ET <br />
+Details: From 2:07PM ET to 2:50PM ET we experienced serious degredation in our search. The issue appears to be resolved and we are currently monitoring.
+
 
 ## Recent Events
 
