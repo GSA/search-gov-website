@@ -11,7 +11,9 @@ sidenav: support
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
 Date: February 24, 10:50AM ET - ongoing <br />
-Details: At this time, searches are intermittently failing and returning errors. An investigation is currently underway, and we will update this message every 30 minutes.
+Details: 
+11:40AM ET Update - We are continuing to investigate, and will update once we have more information.
+11:10AM ET Update - At this time, searches are intermittently failing and returning errors. An investigation is currently underway, and we will update this message every 30 minutes.
 
 <!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
 
