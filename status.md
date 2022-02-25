@@ -3,18 +3,20 @@ layout: page
 title: Search.gov System Status
 tags: status support help
 description: This page provides the current operating status of the Search.gov system.
-last_modified_at: February 24, 2022
+last_modified_at: February 25, 2022
 sidenav: support
 ---
 
 ## Current Status
 
-<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
-Date: February 24, 2022, 2:07PM ET - 2:50PM ET <br />
-Details: From 2:07PM ET to 2:50PM ET we experienced serious degredation in our search. The issue appears to be resolved and we are currently monitoring.
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
 
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: February 24, 2022, 2:07PM ET - 2:50PM ET <br />
+Details: From 2:07PM ET to 2:50PM ET we experienced serious degredation in our search. The issue appears to be resolved and Search.gov is now fully operational.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Intermittent Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Intermittent Degradation <br />
 Date: February 24, 2022, 10:50AM ET - 11:45AM ET <br />
