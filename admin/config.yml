@@ -17,7 +17,7 @@ collections:
     name: releases
     folder: _releases/
     create: true
-    slug: "{{filename-custom}}.html"
+    slug: "{{filename-custom}}"
     preview_path: about/updates/releases/{{filename-custom}}.html
     editor:
       preview: false
