@@ -2,10 +2,9 @@
 layout: page
 title: About Search.gov
 date: February 3, 2021
-last_modified_at: February 22, 2021
+last_modified_at: March 10, 2022
 sidenav: about_us
 ---
-
 Search.gov is a search engine built by the government, for the government. Available to federal agencies and the District of Columbia, we currently support over 300 million search queries a year for about 2,200 websites, across one third of federal domains.
 
 Our mission is to connect the public with the information they need from the government. 
@@ -33,3 +32,4 @@ In 2010, Search.gov moved to open-source software and expanded its use to agenci
 * **Robert Fink** &ndash; Technical Lead and DevOps
 * **Martha Thompson** &ndash; Senior Developer
 * **Lora Woodford** &ndash; Developer
+* **James Miller** &ndash; Developer
