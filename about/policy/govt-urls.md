@@ -66,7 +66,7 @@ This **excludes** the non-.gov domains of third-party online services where the 
 
     -   [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. (No technical knowledge or code is required, but a GitHub account is.) We will also review pull requests.
 
-    -   Submit bulk changes via email using this CSV template.
+    -   Submit bulk changes via email using our [template]({{ site_baseurl }}/files/non-gov-submission-template.xlsx) (.xlsx).
 
 -   For *single additions*, use this form:
 
