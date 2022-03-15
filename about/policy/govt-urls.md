@@ -12,13 +12,15 @@ category: developer
 ---
 ## Overview
 
-Most U.S. government websites end in .gov or .mil, but some end in .com, .org, .net, or other top-level domains. To enhance discoverability and public trust, we maintain a [list](https://github.com/GSA/govt-urls/) of known government domains that *don't* end in .gov or .mil. This list is used by several U.S. government services, including USA.gov and the .gov registry.
+Most U.S. government websites end in .gov or .mil, but some end in .com, .org, .net, or other top-level domains. To enhance discoverability and public trust, we maintain a [list](https://github.com/GSA/govt-urls/) of known government domains that *don't* end in .gov or .mil. Federal executive branch agencies must ensure their non-.gov or .mil domains are on the list. Read more in the [Federal Zero Trust Strategy](https://zerotrust.cyber.gov/federal-zero-trust-strategy/#4-safely-making-applications-internet-accessible) and [Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf#page=11).
 
-Anyone can submit to the list. Federal executive branch agencies are required to submit all registered non-.gov domain names for inclusion. Read more in the [Federal Zero Trust Strategy](https://zerotrust.cyber.gov/federal-zero-trust-strategy/#4-safely-making-applications-internet-accessible) and [Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf#page=11).
+The list is used by several U.S. government services, including USA.gov to support their all-of-government search, and the .gov registry to support an inventory of government domains.
+
+Anyone can submit a domain to the list.
 
 ## What domains are in scope of this list?
 
-All non-.gov domain names registered by your agency, or by a contractor on behalf of your agency, are in scope of this list. This includes domains that aren\'t even used on the internet but are merely registered by your agency.
+All non-.gov and non-.mil domain names registered by your agency, or by a contractor on behalf of your agency, must be included in this list. This includes domains that aren\'t even used on the internet but are merely registered.
 
 | **Domain Description** | **Example** |
 |------------------------|-------------|
@@ -28,18 +30,22 @@ All non-.gov domain names registered by your agency, or by a contractor on behal
 | Registered long ago and is not expired | * **legacyagency.org** |
 | Registered to prevent others from obtaining it (sometimes called "defensive registrations", which includes "typo" domains) | * **ouragency.com** <br> * **0uragency.com** <br> * **houragency.com** |
 
-In general, do not add individual subdomains or hostnames that fall within domains matching the criteria above. For example, report *agency.com*, but do not also report *saas.agency.com*. Two exceptions include when your agency has a domain registered on a country-code top-level domain (or other "[public suffixes](https://publicsuffix.org/)") or when your agency publishes federal information on nongovernmental URLs you operate.
+Do not add individual subdomains or hostnames within that domain. For example, report *agency.com*, but do not also report *saas.agency.com*.
+
+Report a "subdomain" if (1) your agency has a domain registered on a country-code top-level domain (or other "[public suffixes](https://publicsuffix.org/)") or (2) your agency publishes federal information on nongovernmental domains that you do not operate.
 
 | **Domain Description** | **Example** |
 |------------------------|-------------|
 | Registered on a country-code top level domain | * **us-agency.org.uk** |
 | Subdomains publishing federal information | * **exampleagency.university.edu** |
 
-Domains registered by a grantee pursuant to the terms of a grant and used for federal purposes should generally be included. Domains registered by grantees for which an agency does not oversee or technologically support generally should not.
+### Domains registered by grantees
+
+Generally, report a domain if it is registered pursuant to the terms of a grant and used for federal purposes, but do not report domains registered by grantees which your agency does not oversee or technologically support.
 
 ## What domains are out of scope of this list?
 
-This list **excludes** the non-.gov domains of third-party online services where the agency is merely a user or a customer, not the domain's registrant.
+This list **excludes** the domains of third-party online services where the agency is merely a user or a customer, not the domain's registrant.
 
 | **Domain Description** | **Example** |
 | -----------------------|-------------|
@@ -58,17 +64,23 @@ This list **excludes** the non-.gov domains of third-party online services where
 
     c.  Budget or accounting teams who might process domain registration payments to registrars like GoDaddy, Network Solutions, Namecheap, etc.
 
-> If you have questions about whether a certain domain should be included, [open an issue](https://github.com/GSA/govt-urls/issues) in Github or email us.
+> If you have questions about whether a certain domain should be included, [open an issue](https://github.com/GSA/govt-urls/issues) in Github or [email us](mailto:search@support.digitalgov.gov).
 
-2.  **Send your updates.** All submissions will be reviewed before inclusion.
+2.  **Send your updates.** We will review all submissions before including them on the list.
 
--   For *multiple additions* or any *changes*
+-   For *multiple additions* or any *changes:*
 
-    -   [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. (No technical knowledge or code is required, but a GitHub account is.) We will also review pull requests.
+    -   [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. No technical knowledge or code is required, but a GitHub account is. You can also open pull requests.
 
-    -   Submit bulk changes via email using our [template]({{ site_baseurl }}/files/non-gov-submission-template.xlsx) (.xlsx).
+    -   Submit bulk changes [via email](mailto:search@support.digitalgov.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.xlsx) (.xlsx).
 
 -   For *single additions*, use this form:
+
+{: #non-gov-domain-collector }
+
+<br />  
+
+<script src="https://touchpoints.app.cloud.gov/touchpoints/3ff8b6de.js" async></script><div id="non-gov-domain-collector"></div>
 
 ### What's Included in the List?
 
@@ -93,7 +105,6 @@ This list **excludes** the non-.gov domains of third-party online services where
 * Subdomains or folders that are already covered by a higher-level domain.
 * State institutions of higher education or their board of regents.
 * K-12 school districts.
-* Local fire, library, police, sheriff, etc. departments with separate websites.
 * Local chambers of commerce or visitor bureaus.
 * Nonprofit municipal leagues or councils of government officials.
 * Nonprofit historical societies.
