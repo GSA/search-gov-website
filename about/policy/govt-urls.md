@@ -58,10 +58,8 @@ This list **excludes** the domains of third-party online services where the agen
 
 1.  **Gather domain names**. Domains are sometimes confused for "websites", so consider asking for a "list of websites/domain registrations we manage" from the following types of roles:
 
-    a.  External affairs, web publishing, or press team
-
-    b.  DNS managers, network/security operations
-
+    a.  External affairs, web publishing, or press team.
+    b.  DNS managers, network/security operations.
     c.  Budget or accounting teams who might process domain registration payments to registrars like GoDaddy, Network Solutions, Namecheap, etc.
 
 > If you have questions about whether a certain domain should be included, [open an issue](https://github.com/GSA/govt-urls/issues) in Github or [email us](mailto:search@support.digitalgov.gov).
@@ -71,7 +69,6 @@ This list **excludes** the domains of third-party online services where the agen
 -   For *multiple additions* or any *changes:*
 
     -   [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. No technical knowledge or code is required, but a GitHub account is. You can also open pull requests.
-
     -   Submit bulk changes [via email](mailto:search@support.digitalgov.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.xlsx) (.xlsx).
 
 -   For *single additions*, use this form:
