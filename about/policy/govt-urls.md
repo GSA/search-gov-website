@@ -16,7 +16,7 @@ Most U.S. government websites end in .gov or .mil, but some end in .com, .org, .
 
 Anyone can submit to the list. Federal executive branch agencies are required to submit all registered non-.gov domain names for inclusion. Read more in the [Federal Zero Trust Strategy](https://zerotrust.cyber.gov/federal-zero-trust-strategy/#4-safely-making-applications-internet-accessible) and [Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf#page=11).
 
-## What domains are in scope?
+## What domains are in scope of this list?
 
 All non-.gov domain names registered by your agency, or by a contractor on behalf of your agency, are in scope of this list. This includes domains that aren\'t even used on the internet but are merely registered by your agency.
 
@@ -37,9 +37,9 @@ In general, do not add individual subdomains or hostnames that fall within domai
 
 Domains registered by a grantee pursuant to the terms of a grant and used for federal purposes should generally be included. Domains registered by grantees for which an agency does not oversee or technologically support generally should not.
 
-## What domains are out of scope?
+## What domains are out of scope of this list?
 
-This **excludes** the non-.gov domains of third-party online services where the agency is merely a user or a customer, not the domain's registrant.
+This list **excludes** the non-.gov domains of third-party online services where the agency is merely a user or a customer, not the domain's registrant.
 
 | **Domain Description** | **Example** |
 | -----------------------|-------------|
