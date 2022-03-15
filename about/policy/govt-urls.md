@@ -16,7 +16,7 @@ Most U.S. government websites end in .gov or .mil, but some end in .com, .org, .
 
 The list is used by several U.S. government services, including USA.gov to support their all-of-government search, and the .gov registry to support an inventory of government domains.
 
-Anyone can submit a domain to the list.
+Anyone can [submit](#non-gov-domain-collector) a domain to the list.
 
 ## What domains are in scope of this list?
 
