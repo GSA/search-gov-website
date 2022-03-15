@@ -20,15 +20,15 @@ Anyone can [submit](#non-gov-domain-collector) a domain to the list.
 
 ## What domains are in scope of this list?
 
-All non-.gov and non-.mil domain names registered by your agency, or by a contractor on behalf of your agency, must be included in this list. This includes domains that aren\'t even used on the internet but are merely registered.
+All non-.gov and non-.mil domain names registered by your agency, or by a contractor on behalf of your agency, must be included in this list. This includes domains that aren't even used on the internet but are merely registered.
 
 | **Domain Description** | **Example** |
 |------------------------|-------------|
 | Registered to facilitate redirects | * **agency.com** which may redirect to agency.gov |
-| Serve some infrastructure purpose, even if not public-facing | * **agencyapi.com** <br> * **agency-dashboard.net** |
+| Serve some infrastructure purpose, even if not public-facing | * **agencyapi.com** <br /> * **agency-dashboard.net** |
 | Registered by a contractor on behalf of the agency | * **agencycampaignsite.us** |
 | Registered long ago and is not expired | * **legacyagency.org** |
-| Registered to prevent others from obtaining it (sometimes called "defensive registrations", which includes "typo" domains) | * **ouragency.com** <br> * **0uragency.com** <br> * **houragency.com** |
+| Registered to prevent others from obtaining it (sometimes called "defensive registrations", which includes "typo" domains) | * **ouragency.com** <br /> * **0uragency.com** <br /> * **houragency.com** |
 
 Do not add individual subdomains or hostnames within that domain. For example, report *agency.com*, but do not also report *saas.agency.com*.
 
@@ -49,9 +49,9 @@ This list **excludes** the domains of third-party online services where the agen
 
 | **Domain Description** | **Example** |
 | -----------------------|-------------|
-| Software-as-a-service sites | * **agency-my.sharepoint.com** <br> * **agency-service.slack.com** |
+| Software-as-a-service sites | * **agency-my.sharepoint.com** <br /> * **agency-service.slack.com** |
 | Cloud-managed resources | * **s3.amazonaws.com** |
-| Social media sites | * **twitter.com** <br> * **linkedin.com** |
+| Social media sites | * **twitter.com** <br /> * **linkedin.com** |
 | Code repositories | * **github.com/agency** |
 
 ## How to Update the List
