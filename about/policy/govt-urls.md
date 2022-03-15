@@ -30,9 +30,9 @@ All non-.gov and non-.mil domain names registered by your agency, or by a contra
 | Registered long ago and is not expired | * **legacyagency.org** |
 | Registered to prevent others from obtaining it (sometimes called "defensive registrations", which includes "typo" domains) | * **ouragency.com** <br /> * **0uragency.com** <br /> * **houragency.com** |
 
-Do not add individual subdomains or hostnames within that domain. For example, report *agency.com*, but do not also report *saas.agency.com*.
+Do not add individual subdomains or hostnames within a domain that's already on the list. For example, report *agency.com*, but do not also report *saas.agency.com*.
 
-Report a "subdomain" if (1) your agency has a domain registered on a country-code top-level domain (or other "[public suffixes](https://publicsuffix.org/)") or (2) your agency publishes federal information on nongovernmental domains that you do not operate.
+Report a "subdomain" if (1) your agency has a domain registered on a country-code top-level domain (or other "[public suffix](https://publicsuffix.org/)") or (2) your agency publishes federal information on nongovernmental domains that you do not operate.
 
 | **Domain Description** | **Example** |
 |------------------------|-------------|
