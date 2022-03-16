@@ -17,7 +17,6 @@ Search.gov can help you comply with the following laws and policies.
 * *[44 USC Section 3501 204: Federal Internet Portal](https://www.govinfo.gov/content/pkg/USCODE-2010-title44/pdf/USCODE-2010-title44-chap35-subchapI-sec3501.pdf)*
   * *Section (a)(2)(B)* &ndash; Online government information and services should be accessible from a single point.
 
-
 Submit non-governmental domains individually or in bulk [using these instructions]({{ site.baseurl }}/about/policy/govt-urls.html).
 
 To learn about Search.gov’s program policies, read our [Terms of Service]({{ site.baseurl }}/about/policy/tos.html).
