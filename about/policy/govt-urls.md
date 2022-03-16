@@ -67,7 +67,7 @@ This list **excludes** the domains of third-party online services where the agen
 1.  **Send your updates.** We will review all submissions before including them on the list.
     * For *multiple additions* or any *changes:*
         * [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. No technical knowledge or code is required, but a GitHub account is. You can also open pull requests.
-        * Submit bulk changes [via email](mailto:search@support.digitalgov.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.xlsx) (.xlsx).
+        * Submit bulk changes [via email](mailto:search@support.digitalgov.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.csv) (.csv format).
     * For *single additions*, use this form:
   
     {: #non-gov-domain-collector }
