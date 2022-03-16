@@ -14,7 +14,7 @@ category: developer
 
 Most U.S. government websites end in .gov or .mil, but some end in .com, .org, .net, or other top-level domains. To enhance discoverability and public trust, we maintain a [list](https://github.com/GSA/govt-urls/) of known government domains that *don't* end in .gov or .mil. Federal executive branch agencies must ensure their non-.gov or .mil domains are on the list. Read more in the [Federal Zero Trust Strategy](https://zerotrust.cyber.gov/federal-zero-trust-strategy/#4-safely-making-applications-internet-accessible) and [Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf#page=11).
 
-The list is used by several U.S. government services, including USA.gov to support their all-of-government search, and the .gov registry to support an inventory of government domains.
+The list is used by several U.S. government services, including USA.gov to support their all-of-government search, and the .gov Registry to support an inventory of government domains.
 
 Anyone can [submit](#non-gov-domain-collector) a domain to the list.
 
@@ -22,22 +22,24 @@ Anyone can [submit](#non-gov-domain-collector) a domain to the list.
 
 All non-.gov and non-.mil domain names registered by your agency, or by a contractor on behalf of your agency, must be included in this list. This includes domains that aren't even used on the internet but are merely registered.
 
-| **Domain Description** | **Example** |
-|------------------------|-------------|
-| Registered to facilitate redirects | * **agency.com** which may redirect to agency.gov |
-| Serve some infrastructure purpose, even if not public-facing | * **agencyapi.com** <br /> * **agency-dashboard.net** |
-| Registered by a contractor on behalf of the agency | * **agencycampaignsite.us** |
-| Registered long ago and is not expired | * **legacyagency.org** |
-| Registered to prevent others from obtaining it (sometimes called "defensive registrations", which includes "typo" domains) | * **ouragency.com** <br /> * **0uragency.com** <br /> * **houragency.com** |
+{: .usa-table .usa-table--compact}
+| Domain Description | Example |
+| :------------------------ | :------------- |
+| Registered to facilitate redirects | **agency.com** which may redirect to agency.gov |
+| Serve some infrastructure purpose, <br />even if not public-facing | **agencyapi.com** <br /> **agency-dashboard.net** |
+| Registered by a contractor on behalf of the agency | **agencycampaignsite.us** |
+| Registered long ago and is not expired | **legacyagency.org** |
+| Registered to prevent others from obtaining it <br />(sometimes called "defensive registrations", which includes "typo" domains) | **ouragency.com** <br /> **0uragency.com** <br /> **houragency.com** |
 
 Do not add individual subdomains or hostnames within a domain that's already on the list. For example, report *agency.com*, but do not also report *saas.agency.com*.
 
 Report a "subdomain" if (1) your agency has a domain registered on a country-code top-level domain (or other "[public suffix](https://publicsuffix.org/)") or (2) your agency publishes federal information on nongovernmental domains that you do not operate.
 
-| **Domain Description** | **Example** |
-|------------------------|-------------|
-| Registered on a country-code top level domain | * **us-agency.org.uk** |
-| Subdomains publishing federal information | * **exampleagency.university.edu** |
+{: .usa-table .usa-table--compact}
+| Domain Description | Example |
+| ------------------------ | ------------- |
+| Registered on a country-code top level domain | **us-agency.org.uk** |
+| Subdomains publishing federal information | **exampleagency.university.edu** |
 
 ### Domains registered by grantees
 
@@ -47,33 +49,28 @@ Generally, report a domain if it is registered pursuant to the terms of a grant 
 
 This list **excludes** the domains of third-party online services where the agency is merely a user or a customer, not the domain's registrant.
 
-| **Domain Description** | **Example** |
-| -----------------------|-------------|
-| Software-as-a-service sites | * **agency-my.sharepoint.com** <br /> * **agency-service.slack.com** |
-| Cloud-managed resources | * **s3.amazonaws.com** |
-| Social media sites | * **twitter.com** <br /> * **linkedin.com** |
-| Code repositories | * **github.com/agency** |
+{: .usa-table .usa-table--compact}
+| Domain Description | Example |
+| ----------------------- | ------------- |
+| Software-as-a-service sites | **agency-my.sharepoint.com** <br /> **agency-service.slack.com** |
+| Cloud-managed resources | **s3.amazonaws.com** |
+| Social media sites | **twitter.com** <br /> **linkedin.com** |
+| Code repositories | **github.com/agency** |
 
 ## How to Update the List
 
 1.  **Gather domain names**. Domains are sometimes confused for "websites", so consider asking for a "list of websites/domain registrations we manage" from the following types of roles:
+    * External affairs, web publishing, or press team.
+    * DNS managers, network/security operations.
+    * Budget or accounting teams who might process domain registration payments to registrars like GoDaddy, Network Solutions, Namecheap, etc.<br /><br />If you have questions about whether a certain domain should be included, [open an issue](https://github.com/GSA/govt-urls/issues) in Github or [email us](mailto:search@support.digitalgov.gov).<br /><br />
 
-    a.  External affairs, web publishing, or press team.
-    b.  DNS managers, network/security operations.
-    c.  Budget or accounting teams who might process domain registration payments to registrars like GoDaddy, Network Solutions, Namecheap, etc.
-
-> If you have questions about whether a certain domain should be included, [open an issue](https://github.com/GSA/govt-urls/issues) in Github or [email us](mailto:search@support.digitalgov.gov).
-
-2.  **Send your updates.** We will review all submissions before including them on the list.
-
--   For *multiple additions* or any *changes:*
-
-    -   [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. No technical knowledge or code is required, but a GitHub account is. You can also open pull requests.
-    -   Submit bulk changes [via email](mailto:search@support.digitalgov.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.xlsx) (.xlsx).
-
--   For *single additions*, use this form:
-
-{: #non-gov-domain-collector }
+1.  **Send your updates.** We will review all submissions before including them on the list.
+    * For *multiple additions* or any *changes:*
+        * [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. No technical knowledge or code is required, but a GitHub account is. You can also open pull requests.
+        * Submit bulk changes [via email](mailto:search@support.digitalgov.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.xlsx) (.xlsx).
+    * For *single additions*, use this form:
+  
+    {: #non-gov-domain-collector }
 
 <br />  
 
