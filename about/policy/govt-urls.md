@@ -1,34 +1,82 @@
 ---
 layout: page
-title: Government-Managed Domains Outside the .Gov and .Mil Top Level Domains
-last_modified_at: March 2, 2019
+title: Government Domains Outside .Gov and .Mil
+last_modified_at: March 11, 2022
 redirect_from:
   - /developer/govt-urls.html
   - /developer/govturls.html
 sidenav: about_us
-date: March 2, 2019
+date: March 11, 2022
 tags: seo policy government-urls
 category: developer
 ---
 ## Overview
 
-As the U.S. government's official web portal, [USA.gov](https://www.usa.gov/) searches across all federal, state, local, tribal, and territorial government websites. Most government websites end in .gov or .mil, but many end in .com, .org, .edu, or other top-level domains.
+Most U.S. government websites end in .gov or .mil, but some end in .com, .org, .net, or other top-level domains. To enhance discoverability and public trust, we maintain a [list](https://github.com/GSA/govt-urls/) of known government domains that *don't* end in .gov or .mil. Federal executive branch agencies must ensure their non-.gov or .mil domains are on the list. Read more in the [Federal Zero Trust Strategy](https://zerotrust.cyber.gov/federal-zero-trust-strategy/#4-safely-making-applications-internet-accessible) and [Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf#page=11).
 
-In support of USA.gov and [M-17-06 &ndash; Policies for Federal Agency Public Websites and Digital Services](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf), Search.gov maintains a list of all public government domains that don't end in .gov or .mil.
+The list is used by several U.S. government services, including USA.gov to support their all-of-government search, and the .gov Registry to support an inventory of government domains.
+
+Anyone can [submit](#non-gov-domain-collector) a domain to the list.
+
+## What domains are in scope of this list?
+
+All non-.gov and non-.mil domain names registered by your agency, or by a contractor on behalf of your agency, must be included in this list. This includes domains that are not even used on the internet but are merely registered.
+
+{: .usa-table .usa-table--compact}
+| Domain Description | Example |
+| :------------------------ | :------------- |
+| Registered to facilitate redirects | **agency.com** which may redirect to agency.gov |
+| Serve some infrastructure purpose, <br />even if not public-facing | **agencyapi.com** <br /> **agency-dashboard.net** |
+| Registered by a contractor on behalf of the agency | **agencycampaignsite.us** |
+| Registered long ago and is not expired | **legacyagency.org** |
+| Registered to prevent others from obtaining it <br />(sometimes called "defensive registrations", which includes "typo" domains) | **ouragency.com** <br /> **0uragency.com** <br /> **houragency.com** |
+
+Do not add individual subdomains or hostnames within a domain that's already on the list. For example, report *agency.com*, but do not also report *saas.agency.com*.
+
+Report a "subdomain" if (1) your agency has a domain registered on a country-code top-level domain (or other "[public suffix](https://publicsuffix.org/)") or (2) your agency publishes federal information on nongovernmental domains that you do not operate.
+
+{: .usa-table .usa-table--compact}
+| Domain Description | Example |
+| ------------------------ | ------------- |
+| Registered on a country-code top level domain | **us-agency.org.uk** |
+| Subdomains publishing federal information | **exampleagency.university.edu** |
+
+### Domains registered by grantees
+
+Generally, report a domain if it is registered pursuant to the terms of a grant and used for federal purposes, but do not report domains registered by grantees which your agency does not oversee or technologically support.
+
+## What domains are out of scope of this list?
+
+This list **excludes** the domains of third-party online services where the agency is merely a user or a customer, not the domain's registrant.
+
+{: .usa-table .usa-table--compact}
+| Domain Description | Example |
+| ----------------------- | ------------- |
+| Software-as-a-service sites | **agency-my.sharepoint.com** <br /> **agency-service.slack.com** |
+| Cloud-managed resources | **s3.amazonaws.com** |
+| Social media sites | **twitter.com** <br /> **linkedin.com** |
+| Code repositories | **github.com/agency** |
 
 ## How to Update the List
 
-Federal agencies [are required](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf) to submit to Search.gov all non-.gov websites for inclusion in the list. This includes subdomains of a second-level domain managed by a third party, and federally controlled subfolders of a domain managed by a third party.
+1.  **Gather domain names**. Domains are sometimes confused for "websites", so consider asking for a "list of websites/domain registrations we manage" from the following types of roles:
+    * External affairs, web publishing, or press team.
+    * DNS managers, network/security operations.
+    * Budget or accounting teams who might process domain registration payments to registrars like GoDaddy, Network Solutions, Namecheap, etc.<br /><br />If you have questions about whether a certain domain should be included, [open an issue](https://github.com/GSA/govt-urls/issues) in Github or [email us](mailto:search@support.digitalgov.gov).<br /><br />
 
-* Review the [list of federal non-.gov domains](https://github.com/GSA/govt-urls)
+1.  **Send your updates.** We will review all submissions before including them on the list.
+    * For *multiple additions* or any *changes:*
+        * [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. No technical knowledge or code is required, but a GitHub account is. You can also open pull requests.
+        * Submit bulk changes [via email](mailto:search@support.digitalgov.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.csv) (.csv format).
+    * For *single additions*, use this form:
+  
+    {: #non-gov-domain-collector }
 
-  * You can also search for specific domains using the search box at the top of the page.
-  * Quasi-governmental entities are [listed here](https://github.com/GSA/govt-urls/blob/master/8_govt_urls_quasigovernmental_only.csv).
-* To submit updates, you can [open an issue in GitHub](https://github.com/GSA/govt-urls/issues), or [email them to Search.gov](mailto:search@support.digitalgov.gov), such as notice of decommissioned sites, or updates to existing domains. Any new sites [must use a .gov or .mil domain](https://policy.cio.gov/web-policy/domain/).
+<br />  
 
-State or local agencies can browse the list by [by level of government](https://github.com/GSA/govt-urls/), you can sort by state by downloading the .csv file to your computer. Please [email updates or additions to the Search team](mailto:search@support.digitalgov.gov), or [open an issue in GitHub](https://github.com/GSA/govt-urls/issues).
+<script src="https://touchpoints.app.cloud.gov/touchpoints/3ff8b6de.js" async></script><div id="non-gov-domain-collector"></div>
 
-## What's Included in the List?
+### What's Included in the List?
 
 * Federal, state, local, [tribal](https://www.bia.gov/service/tribal-leaders-directory), commonwealth, and territorial government agency websites.
 * [Federal reserve banks and branches](https://www.federalreserve.gov/aboutthefed/federal-reserve-system.htm).
@@ -44,14 +92,13 @@ State or local agencies can browse the list by [by level of government](https://
 * Task forces (such as the Preventive Services Task Force) and commissions (such as the 9/11 Commission).
 * A few select, non-government organizations (such as the Red Cross) and public-private partnerships.
 
-## What's Not Included in This List?
+### What's Not Included in This List?
 
-* .gov URLs &ndash; these are managed by the [.gov Registry](https://www.dotgov.gov).
-* .mil URLs &ndash; these are managed by [DOD](https://www.defense.gov/Resources/Military-Departments/DOD-Websites/).
+* .gov domains &ndash; these are managed by the [.gov Registry](https://home.dotgov.gov).
+* .mil domains &ndash; these are managed by [DOD](https://www.defense.gov/Resources/Military-Departments/DOD-Websites/).
 * Subdomains or folders that are already covered by a higher-level domain.
 * State institutions of higher education or their board of regents.
 * K-12 school districts.
-* Local fire, library, police, sheriff, etc. departments with separate websites.
 * Local chambers of commerce or visitor bureaus.
 * Nonprofit municipal leagues or councils of government officials.
 * Nonprofit historical societies.
