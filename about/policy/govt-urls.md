@@ -20,7 +20,7 @@ Anyone can [submit](#non-gov-domain-collector) a domain to the list.
 
 ## What domains are in scope of this list?
 
-All non-.gov and non-.mil domain names registered by your agency, or by a contractor on behalf of your agency, must be included in this list. This includes domains that aren't even used on the internet but are merely registered.
+All non-.gov and non-.mil domain names registered by your agency, or by a contractor on behalf of your agency, must be included in this list. This includes domains that are not even used on the internet but are merely registered.
 
 {: .usa-table .usa-table--compact}
 | Domain Description | Example |
