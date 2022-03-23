@@ -73,5 +73,5 @@ You can also watch recordings of our previous sessions below. If you have any di
 * **[Getting Started with Search.gov (YouTube)](https://youtu.be/p-y9T23ziEg)** &mdash; July 2018, 4 minutes
   * [Download the MP4](https://d3qcdigd1fhos0.cloudfront.net/media/gettingstarted.mp4)
 
-**Share Your Feedback!** Let us know if you have a topic in mind that we should include as part of our training webinars. Email us at search@support.digitalgov.gov
+**Share Your Feedback!** Let us know if you have a topic in mind that we should include as part of our training webinars. Email us at search@gsa.gov
 

@@ -28,7 +28,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 1. Create and configure a search site in our [Admin Center](https://search.usa.gov/sites), as described in the [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html). Highlights include:
   * [Add a search site]({{ site.baseurl }}/manual/add-site.html)
   * [Brand your hosted search results page]({{ site.baseurl }}/manual/brand.html)
-1. Request that we index your domain by [emailing our team](mailto:search@support.digitalgov.gov). Note, the site must be publicly available for our indexer to be able to access your content.
+1. Request that we index your domain by [emailing our team](mailto:search@gsa.gov). Note, the site must be publicly available for our indexer to be able to access your content.
 1. [Preview your search results]({{ site.baseurl }}/manual/preview.html) once the indexing is complete.
 
 ## On the Federalist side of things, part 2

@@ -61,7 +61,7 @@ If you've previously logged in to Login.gov using an email address different fro
 If your email address changes, follow these steps: 
 
 1. Make sure that the new email is registered with Login.gov: first add and verify the new address, then delete the defunct address. You cannot edit an existing address.
-1. [Email us](mailto:search@support.digitalgov.gov) to request your Search.gov account be updated with the new address. We'll make the update in our back end, and after that you will be able to log in using your Login.gov credentials.
+1. [Email us](mailto:search@gsa.gov) to request your Search.gov account be updated with the new address. We'll make the update in our back end, and after that you will be able to log in using your Login.gov credentials.
 
 Government employees must use a .gov or .mil address. Contractors without a .gov or .mil address must use business email address that is verified in writing by your government POC. Personal email addresses such as Gmail, Yahoo, etc. are not allowed. GSA partners with GSA-linked Gmail accounts in the format `gsa.yourname@gmail.com` are allowed.
 

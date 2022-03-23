@@ -29,4 +29,4 @@ From common needs for forms and process status checks, to the latest information
 
 Changes in the data over time reflect which agencies use our service, and major news in a given year. The data represents only those websites that use Search.gov, and does not include data on searches run on commercial search engines.
 
-If you have questions or comments, please feel free to [reach out](mailto:search@support.digitalgov.gov) to our team.
+If you have questions or comments, please feel free to [reach out](mailto:search@gsa.gov) to our team.

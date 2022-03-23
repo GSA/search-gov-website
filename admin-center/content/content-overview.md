@@ -24,7 +24,7 @@ When you [add your domains]({{ site.baseurl }}/admin-center/content/domains.html
 
 If you don't like the default web results, you can choose to use another index. Options follow.
 
-**Option 1. Use Our Search.gov Web Index.** We can index content that is sent to us by API or RSS. Email us at <search@support.digitalgov.gov> and we'll work with you to determine the best way for us to get your content.
+**Option 1. Use Our Search.gov Web Index.** We can index content that is sent to us by API or RSS. Email us at <search@gsa.gov> and we'll work with you to determine the best way for us to get your content.
 
 **Option 2. Use Another Web Index of Your Choice.** Most search indexes expose their results as XML. If you have another search index that renders XML, let us know and we'll work with you to determine if you can use it.
 
@@ -62,4 +62,4 @@ We also have three pre-built, government-centric content modules that you can op
 
 ---
 
-***Troubleshooting tip:*** We've connected your site to your agency on the backend. If you're not seeing jobs or *Federal Register* documents specific to your agency, [email us](mailto:search@support.digitalgov.gov) so we can fix the agency setting for your site.
+***Troubleshooting tip:*** We've connected your site to your agency on the backend. If you're not seeing jobs or *Federal Register* documents specific to your agency, [email us](mailto:search@gsa.gov) so we can fix the agency setting for your site.

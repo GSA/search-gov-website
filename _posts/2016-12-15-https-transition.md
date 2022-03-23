@@ -30,9 +30,9 @@ Update all URLs that are listed in the Search Admin Center for each of your sear
 * **Content Overview:** No action needed. The URL that we scan for social media accounts is synced with the homepage you have listed in the Dashboard section.
 * **Domains:** No action needed, as this list isn’t protocol-specific.
 * **Collections:** Update all URL paths in your collections; if you have mixed collections, leave any HTTP sites as-is.
-* **Best Bets (Text and Graphics):** Throughout December 2016, we are doing bulk updates of Best Bet URLs in our system. If your site is serving content over HTTPS, we will update the URLs for your Best Bets. We suggest doing a spotcheck to confirm that all Best Bets have been updated. If you need a bulk update done after December, please [email us](mailto:search@support.digitalgov.gov).
+* **Best Bets (Text and Graphics):** Throughout December 2016, we are doing bulk updates of Best Bet URLs in our system. If your site is serving content over HTTPS, we will update the URLs for your Best Bets. We suggest doing a spotcheck to confirm that all Best Bets have been updated. If you need a bulk update done after December, please [email us](mailto:search@gsa.gov).
 * **Routed Queries:** Update routed query URLs.
-* **RSS feeds:** Throughout December 2016, we are doing bulk updates of RSS feed URLs in our system. If your site is serving content over HTTPS, we will update the indexed URLs for your RSS feeds. We suggest doing a spotcheck to confirm that all feeds have been updated. Note: check to make sure that the URLs listed *within* the RSS feed are also HTTPS. If you need a bulk update done after December, please [email us](mailto:search@support.digitalgov.gov).
+* **RSS feeds:** Throughout December 2016, we are doing bulk updates of RSS feed URLs in our system. If your site is serving content over HTTPS, we will update the indexed URLs for your RSS feeds. We suggest doing a spotcheck to confirm that all feeds have been updated. Note: check to make sure that the URLs listed *within* the RSS feed are also HTTPS. If you need a bulk update done after December, please [email us](mailto:search@gsa.gov).
 
 **Display:**
 
@@ -43,14 +43,14 @@ Update all URLs that are listed in the Search Admin Center for each of your sear
 
 ### Only those using `Domains > Advanced` features:
 
-* **Supplemental Feed:** Throughout December 2016, we are doing bulk updates of RSS feed URLs in our system. If your site is serving content over HTTPS, we will update the indexed URLs for your RSS feeds. We suggest doing a spotcheck to confirm that all feeds have been updated. Note: check to make sure that the URLs listed *within* the RSS feed are also HTTPS. If you need a bulk update done after December, please [email us](mailto:search@support.digitalgov.gov).
-* **Supplemental URLs:** Throughout December 2016, we are doing bulk updates of supplemental URLs in our system. If your site is serving content over HTTPS, we will update the supplemental URLs you have submitted. We suggest doing a spotcheck to confirm that all URLs have been updated. If you need a bulk update done after December, please [email us](mailto:search@support.digitalgov.gov).
+* **Supplemental Feed:** Throughout December 2016, we are doing bulk updates of RSS feed URLs in our system. If your site is serving content over HTTPS, we will update the indexed URLs for your RSS feeds. We suggest doing a spotcheck to confirm that all feeds have been updated. Note: check to make sure that the URLs listed *within* the RSS feed are also HTTPS. If you need a bulk update done after December, please [email us](mailto:search@gsa.gov).
+* **Supplemental URLs:** Throughout December 2016, we are doing bulk updates of supplemental URLs in our system. If your site is serving content over HTTPS, we will update the supplemental URLs you have submitted. We suggest doing a spotcheck to confirm that all URLs have been updated. If you need a bulk update done after December, please [email us](mailto:search@gsa.gov).
 * **Filter URLs:** Update filtered URLs.
 
 
 ## 2. Masked Domains
 
-If your site uses [domain masking]({{ site.baseurl }}/admin-center/display/cname.html): [contact our team](mailto:search@support.digitalgov.gov) to be added to our SSL certificate. While this step doesn't apply to everyone, it does need to be done before step 3.
+If your site uses [domain masking]({{ site.baseurl }}/admin-center/display/cname.html): [contact our team](mailto:search@gsa.gov) to be added to our SSL certificate. While this step doesn't apply to everyone, it does need to be done before step 3.
 
 
 ## 3. Form Code Action on Your Website

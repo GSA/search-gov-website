@@ -20,4 +20,4 @@ If you [opt to show the Federal Register]({{ site.baseurl }}/admin-center/displa
 
 [![Federal Register Module on SEC.gov]({{ site.url }}/assets/img/site/govbox-fr.png "Federal Register Module on SEC.gov")](https://secsearch.sec.gov/search?utf8=%E2%9C%93&affiliate=secsearch&sort_by=&query=research)
 
-If you would like to show Federal Register documents in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.
+If you would like to show Federal Register documents in your results, but do not see the toggle to turn them on, [email us](mailto:search@gsa.gov) for assistance.

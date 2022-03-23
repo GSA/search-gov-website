@@ -30,7 +30,7 @@ List yoursite.gov/folder to include folders. Note: this will include all sub-fol
 
 You cannot specify individual URLs.
 
-Searches that start three or more subfolders deep must use our full indexing service. [Email us](mailto:search@support.digitalgov.gov) for assistance.
+Searches that start three or more subfolders deep must use our full indexing service. [Email us](mailto:search@gsa.gov) for assistance.
 
 ---
 
@@ -51,7 +51,7 @@ You can *exclude* specific subdomains or folders using any of the following opti
 
 2. Exclude them by omission. For example, to exclude subdomain3, list only subdomain1.yoursite.gov, subdomain2.yoursite.gov, and subdomain4.yoursite.gov.
 
-3. Email us at <search@support.digitalgov.gov> to filter them from your site's search results. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
+3. Email us at <search@gsa.gov> to filter them from your site's search results. Note that this option should be used only if the other options aren't feasible as it can have an undesired effect on other features such as the display of spelling suggestions and relevance ranking.
 
 <a id="filter"></a>**Removing Content** 
 
@@ -67,4 +67,4 @@ You can remove or filter specific URLs using any of the following options.
 
 **Missing Content:** 
 
-Are web pages missing from your web results? [Email us](mailto:search@support.digitalgov.gov) for assistance.
+Are web pages missing from your web results? [Email us](mailto:search@gsa.gov) for assistance.

@@ -19,7 +19,7 @@
 ##########################################################################################
 
 title: Search.gov
-email: search@support.digitalgov.gov
+email: search@gsa.gov
 # description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
@@ -298,11 +298,11 @@ highlights:
 tasks:
   - heading: Get help to log in
     copy: If you’re unable to log in to your account, email us for help.
-    url: mailto:search@support.digitalgov.gov
+    url: mailto:search@gsa.gov
     cta: Email Us
   - heading: Re-index your site or submit sitemap 
     copy: Let us know if your search results are outdated, or if you have a new sitemap.
-    url: mailto:search@support.digitalgov.gov
+    url: mailto:search@gsa.gov
     cta: Email Us
   - heading: Learn about Results API features
     copy: We offer a robust API for pulling search results, but its feature set is different from our hosted results page.

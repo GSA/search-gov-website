@@ -38,7 +38,7 @@ We use this homepage URL to (a) populate your primary [domain]({{ site.baseurl }
 
 ## Site Handle
 
-You created your site handle when you originally added your site. Searchers can see your site handle in the browser's address bar. We recommend making this handle short and unique, such as *ssa*. If you'd like to edit your site handle, email us at <search@support.digitalgov.gov>. 
+You created your site handle when you originally added your site. Searchers can see your site handle in the browser's address bar. We recommend making this handle short and unique, such as *ssa*. If you'd like to edit your site handle, email us at <search@gsa.gov>. 
 
 **Note:** If you change the site handle on a live search site, you will lose any analytics that have been gathered.
 
@@ -50,7 +50,7 @@ We assign a unique, system-generated numeric ID to your site. We use this ID in 
 
 ## Site Language
 
-You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html)) when you first [added your site]({{ site.baseurl }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@support.digitalgov.gov).
+You chose your site's language (English, Spanish, or one of the other [69 supported languages]({{ site.baseurl }}/admin-center/dashboard/supported-languages.html)) when you first [added your site]({{ site.baseurl }}/admin-center/dashboard/add-site.html). If you'd like to edit your site's language, [email us](mailto:search@gsa.gov).
 
 ## Delete
 

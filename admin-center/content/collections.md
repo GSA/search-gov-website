@@ -22,7 +22,7 @@ Enter the domains, subdomains, or subfolders that you want this collection to se
 
 You cannot specify URLs for individual web pages. If you are including a subfolder, be sure to include the folder(s) where the files are actually stored, not the folder where the index page lives.
 
-Paths that are three or more subfolders deep may not return results immediately. [Email us](mailto:search@support.digitalgov.gov) if you are not seeing search results for these paths.
+Paths that are three or more subfolders deep may not return results immediately. [Email us](mailto:search@gsa.gov) if you are not seeing search results for these paths.
 
 ## Step 2. Opt to Show As a Facet
 

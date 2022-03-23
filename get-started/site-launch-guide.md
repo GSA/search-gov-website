@@ -100,7 +100,7 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 **Who:** You, the agency web team
 
-**What:** In order to display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [Display Overview page]({{ site.baseurl }}/admin-center/display/display-overview.html). If you want to show Jobs or _Federal Register_ results and you don’t see those options on the Display Overview page, [let us know](mailto:search@support.digitalgov.gov) and we can connect your search site to those features.
+**What:** In order to display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [Display Overview page]({{ site.baseurl }}/admin-center/display/display-overview.html). If you want to show Jobs or _Federal Register_ results and you don’t see those options on the Display Overview page, [let us know](mailto:search@gsa.gov) and we can connect your search site to those features.
 
 {: #configure-branding }
 

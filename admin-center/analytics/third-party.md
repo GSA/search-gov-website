@@ -60,7 +60,7 @@ Does your federal agency participate in the [Digital Analytics Program](https://
 
 Coordinate with your ForeSee representative and the Search.gov team to implement your customer satisfaction survey on your results page. The four general steps follow.
 
-1. Email us at <search@support.digitalgov.gov> to [set up a CNAME]({{ site.baseurl }}/admin-center/display/cname.html) for `search.example.gov`.
+1. Email us at <search@gsa.gov> to [set up a CNAME]({{ site.baseurl }}/admin-center/display/cname.html) for `search.example.gov`.
 
 1. Update the files path in your Foresee code to use an absolute path instead of a relative path. 
 
