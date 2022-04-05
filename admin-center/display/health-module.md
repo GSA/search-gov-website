@@ -18,4 +18,4 @@ This module offers direct access to [MedlinePlus Health Topics](https://www.nlm.
 
 If you [opt to show the Health Topics]({{ site.baseurl }}/admin-center/display/display-overview.html) module, searchers looking for health topics on your site can readily find high-quality health information.
 
-If you would like to show health topics in your results, but do not see the toggle to turn them on, [email us](mailto:search@support.digitalgov.gov) for assistance.
+If you would like to show health topics in your results, but do not see the toggle to turn them on, [email us](mailto:search@gsa.gov) for assistance.

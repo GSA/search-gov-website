@@ -117,4 +117,4 @@ Most content management systems provide tools to generate a sitemap and keep it 
 [Sitemap validator](https://www.websiteplanet.com/webtools/sitemap-validator/) 
 
 ## More questions?
-If you have questions that aren't answered here, [email us](mailto:search@support.digitalgov.gov). We'll also keep updating this page over time.
+If you have questions that aren't answered here, [email us](mailto:search@gsa.gov). We'll also keep updating this page over time.

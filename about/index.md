@@ -14,7 +14,7 @@ We work to provide a modern, high quality, government-wide, self-service search 
 Search.gov is a product of Smarter IT Solutions, a division of the [U.S. General Services Administration’s Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions#smart), and there is no cost to federal agencies.
 
 Do you have any questions or need any assistance? We’re here to help!
-Email us at [search@support.digitalgov.gov](mailto:search@support.digitalgov.gov). You can also give us a call at [202-969-7426](tel:2029697426), Monday through Friday 9am to 5pm ET, except for federal holidays.
+Email us at [search@gsa.gov](mailto:search@gsa.gov). You can also give us a call at [202-969-7426](tel:2029697426), Monday through Friday 9am to 5pm ET, except for federal holidays.
 
 ## History
 

@@ -47,4 +47,4 @@ We know it's helpful for you, our partners at federal agencies, to know what we 
 * **Add Customization/Configuration Features to the Search.gov Admin Center**
 
 
-If you have questions or comments, please feel free to [reach out](mailto:search@support.digitalgov.gov) to our team.
+If you have questions or comments, please feel free to [reach out](mailto:search@gsa.gov) to our team.

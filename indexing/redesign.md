@@ -60,7 +60,7 @@ We often receive questions when an agency conducts a major website upgrade, chan
 
 **Who:**  You, the agency web team
 
-**What:** Send us an [email](mailto:search@support.digitalgov.gov), give us a call, either way, please let us know that you’re working on a redesign of your website. If we know ahead of time, we can help you get your new search experience prepped and in good shape on the day of the relaunch. When you reach out to us, include the planned launch date.
+**What:** Send us an [email](mailto:search@gsa.gov), give us a call, either way, please let us know that you’re working on a redesign of your website. If we know ahead of time, we can help you get your new search experience prepped and in good shape on the day of the relaunch. When you reach out to us, include the planned launch date.
 
 It’s important to plan ahead, because if there are any changes to your site structure, your search results will break, which will lead to frustration for the public as they try to use your new site. This is true for our service, and out on Google and Bing. To avoid an avalanche of `404 not found` errors from your search results, wherever possible, use 301 redirects to send visitors from the old pages to the appropriate new pages. For more on 301 redirects, read tips from [Bing](http://blogs.bing.com/webmaster/2011/10/06/managing-redirects-301s-302s-and-canonicals/) and [Google](https://support.google.com/webmasters/answer/93633). Notify other websites that link to you of the changes.
 
@@ -178,4 +178,4 @@ At this point, the work splits into two parallel tracks, with your team and ours
   *[How to move your content to a new location](http://googlewebmastercentral.blogspot.com/2012/04/how-to-move-your-content-to-new.html)*, Google Webmaster Central Blog.
   * In Bing, submit your new [Sitemaps ](https://www.bing.com/webmasters/help/sitemaps-3b5cf6ed) together with the [Content Removal tool](https://www.bing.com/webmasters/help/bing-content-removal-tool-cb6c294d).
 
-If you've undergone a redesign, followed these steps, and your site search results are not what you'd expect, [send us an email](mailto:search@support.digitalgov.gov).
+If you've undergone a redesign, followed these steps, and your site search results are not what you'd expect, [send us an email](mailto:search@gsa.gov).

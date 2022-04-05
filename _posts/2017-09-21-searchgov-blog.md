@@ -63,7 +63,7 @@ In FY18, we will have the ability to index content from lists of URLs. You’ll 
 
 This is a good opportunity to review your page titles and other metadata, and to tidy things up. This will improve not only how results are presented in our system, but improve your SEO for Google and Bing as well.
 
-If you’re unable to send us a list of URLs, please [schedule a time](mailto:search@support.digitalgov.gov) to talk with us.
+If you’re unable to send us a list of URLs, please [schedule a time](mailto:search@gsa.gov) to talk with us.
 
 ## Customers who send us RSS feeds
 
@@ -92,7 +92,7 @@ Call in number: 1-866-816-7357 / Passcode: 929827#
 
 We also invite you to read our [FAQs]({{ site.baseurl }}/blog/searchgov-faqs-indexing.html), which we'll update regularly.
 
-Finally, we welcome you to email [questions and comments](mailto:search@support.digitalgov.gov).
+Finally, we welcome you to email [questions and comments](mailto:search@gsa.gov).
 
 The Search program has grown and evolved since its [inception in September 2000]({{ site.baseurl }}/about/customers.html). We look forward to this next phase of service to you and the public. 
 

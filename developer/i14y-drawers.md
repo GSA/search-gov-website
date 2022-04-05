@@ -21,7 +21,7 @@ Information on working with our Drupal module is [here]({{ site.baseurl }}/devel
 
 ## Step 1. Make sure your site is connected to i14y
 
-If your site Admin Center has the following page: [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > i14y Drawers, your site is connected to i14y. If you don't see this page in the Admin Center, [email us](mailto:search@support.digitalgov.gov). You can also read about [Getting Started with i14y]({{ site.baseurl }}/developer/i14y.html).
+If your site Admin Center has the following page: [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > i14y Drawers, your site is connected to i14y. If you don't see this page in the Admin Center, [email us](mailto:search@gsa.gov). You can also read about [Getting Started with i14y]({{ site.baseurl }}/developer/i14y.html).
 
 ## Step 2. Add one or more Drawers
 On [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > i14y Drawers, Click `Add i14y Drawer` in the upper right corner. If you have more than one website that will be sending content, add a separate Drawer for each of these sites.
@@ -49,9 +49,9 @@ We send success and / or failure codes in response to your API call, so if the n
 ---
 ***Caution:*** A pop-up message will appear when you hit `Remove` on a drawer: please review this pop-up message carefully. If you remove a drawer that is only associated with one search configuration, the drawer and its contents will be deleted from our system. If the drawer is attached to multiple search configurations, it will only be removed from the search configuration you are currently on. The pop-up message will indicate what type of drawer you have.
 
-If you accidentally delete a drawer, you will need to set up a new drawer and resend the content &mdash; we are unable to retrieve deleted drawers. If you accidentally remove a shared drawer but it is still associated with other search configurations, we can re-attach it to your site. [Contact us](mailto:search@support.digitalgov.gov) for assistance.
+If you accidentally delete a drawer, you will need to set up a new drawer and resend the content &mdash; we are unable to retrieve deleted drawers. If you accidentally remove a shared drawer but it is still associated with other search configurations, we can re-attach it to your site. [Contact us](mailto:search@gsa.gov) for assistance.
 
 ---
 ***Pro Tip*** 
 
-We can attach each i14y drawer to multiple search configurations: if you have a drawer that you’d like to use for multiple search sites, [email us](mailto:search@support.digitalgov.gov).
+We can attach each i14y drawer to multiple search configurations: if you have a drawer that you’d like to use for multiple search sites, [email us](mailto:search@gsa.gov).

@@ -62,12 +62,12 @@ This list **excludes** the domains of third-party online services where the agen
 1.  **Gather domain names**. Domains are sometimes confused for "websites", so consider asking for a "list of websites/domain registrations we manage" from the following types of roles:
     * External affairs, web publishing, or press team.
     * DNS managers, network/security operations.
-    * Budget or accounting teams who might process domain registration payments to registrars like GoDaddy, Network Solutions, Namecheap, etc.<br /><br />If you have questions about whether a certain domain should be included, [open an issue](https://github.com/GSA/govt-urls/issues) in Github or [email us](mailto:search@support.digitalgov.gov).<br /><br />
+    * Budget or accounting teams who might process domain registration payments to registrars like GoDaddy, Network Solutions, Namecheap, etc.<br /><br />If you have questions about whether a certain domain should be included, [open an issue](https://github.com/GSA/govt-urls/issues) in Github or [email us](mailto:search@gsa.gov).<br /><br />
 
 1.  **Send your updates.** We will review all submissions before including them on the list.
     * For *multiple additions* or any *changes:*
         * [Open an issue](https://github.com/GSA/govt-urls/issues) in GitHub. No technical knowledge or code is required, but a GitHub account is. You can also open pull requests.
-        * Submit bulk changes [via email](mailto:search@support.digitalgov.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.csv) (.csv format).
+        * Submit bulk changes [via email](mailto:search@gsa.gov) using our [template]({{ site_baseurl }}/files/non-gov-submission-template.csv) (.csv format).
     * For *single additions*, use this form:
   
     {: #non-gov-domain-collector }

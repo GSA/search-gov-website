@@ -22,4 +22,4 @@ Your site handle is a unique identifier for your site. The site handle is includ
 
 Handles can have lowercase letters, numbers, periods, hyphens, and underscores only. They can't have spaces and other punctuation.
 
-If you'd like to edit your site handle after the fact, [email us](mailto:search@support.digitalgov.gov). Note, however, that you will lose access to any search analytics that were collected using the old site handle.
+If you'd like to edit your site handle after the fact, [email us](mailto:search@gsa.gov). Note, however, that you will lose access to any search analytics that were collected using the old site handle.

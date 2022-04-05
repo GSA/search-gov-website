@@ -22,7 +22,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a1" class="usa-accordion__content usa-prose">
-        <p>Our system is required to disable accounts if they’ve not been used for 90 days. If you’re unable to log in to your account, <a href="mailto:search@support.digitalgov.gov">email us</a> for help.</p>
+        <p>Our system is required to disable accounts if they’ve not been used for 90 days. If you’re unable to log in to your account, <a href="mailto:search@gsa.gov">email us</a> for help.</p>
 
       </div>
       
@@ -49,7 +49,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
       <div id="m-a3" class="usa-accordion__content usa-prose">
         <p>This question has two answers.</p> 
 			<ul>
-				<li>If your search site uses our index, we scan for page updates and removals on a regular basis. If you need something removed immediately, please <a href="mailto:search@support.digitalgov.gov">email us</a>. You can also use the Filter URLs feature to hide the item. See below.</li>
+				<li>If your search site uses our index, we scan for page updates and removals on a regular basis. If you need something removed immediately, please <a href="mailto:search@gsa.gov">email us</a>. You can also use the Filter URLs feature to hide the item. See below.</li>
 				<li>If your search site uses the Bing index, you can use the Filter URLs feature to hide the item immediately from your results. However, we are unable to update the Bing index itself to remove the item fully from their results. We can work with you to index your site and move it onto our index, where we have control over the content and timeliness of updates.</li>
 				<li>Learn more about the <a href="{{ site.baseurl }}/admin-center/content/filter-content.html">Filter URLs feature</a>.</li>
 			</ul>
@@ -64,7 +64,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a4" class="usa-accordion__content usa-prose">
-        <p><a href="mailto:search@support.digitalgov.gov">Email us</a> as soon as possible. We’ll need to do some things in the back-end of the system to get your search results up to date as soon as possible. Also, please read through our <a href="{{ site.baseurl }}/indexing/redesign.html">Checklist For a Successful Redesign</a> for suggestions on what you can do right away.</p>
+        <p><a href="mailto:search@gsa.gov">Email us</a> as soon as possible. We’ll need to do some things in the back-end of the system to get your search results up to date as soon as possible. Also, please read through our <a href="{{ site.baseurl }}/indexing/redesign.html">Checklist For a Successful Redesign</a> for suggestions on what you can do right away.</p>
 
       </div>
   
@@ -77,7 +77,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a5" class="usa-accordion__content usa-prose">
-        <p>If something is missing from your search results, it’s likely not included in your <a href="{{ site.baseurl }}/indexing/sitemaps.html">XML sitemap</a>. Some content management systems, like Drupal, have <a href="https://www.drupal.org/project/xmlsitemap">sitemap plugins</a> that allow you to add static media files to the sitemap. If the content is not stored within the CMS, you will likely need an additional sitemap or RSS feed for this content. <a href="mailto:search@support.digitalgov.gov">Email us</a> about your system and the content you need indexed, and we can recommend a solution.</p>
+        <p>If something is missing from your search results, it’s likely not included in your <a href="{{ site.baseurl }}/indexing/sitemaps.html">XML sitemap</a>. Some content management systems, like Drupal, have <a href="https://www.drupal.org/project/xmlsitemap">sitemap plugins</a> that allow you to add static media files to the sitemap. If the content is not stored within the CMS, you will likely need an additional sitemap or RSS feed for this content. <a href="mailto:search@gsa.gov">Email us</a> about your system and the content you need indexed, and we can recommend a solution.</p>
         
       </div>  
       
@@ -90,9 +90,9 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a6" class="usa-accordion__content usa-prose">
-        <p>Our system uses multiple web indexes. Our hosted results page uses Bing index by default, but our Results API only uses our own web index. <a href="mailto:search@support.digitalgov.gov">Contact us</a> and we can adjust your hosted results page view to use our web index.</p>
+        <p>Our system uses multiple web indexes. Our hosted results page uses Bing index by default, but our Results API only uses our own web index. <a href="mailto:search@gsa.gov">Contact us</a> and we can adjust your hosted results page view to use our web index.</p>
 
-<p>If you don't see any results through the API, we need to index your website. Please <a href="{{ site.baseurl }}/indexing/indexing-with-searchgov.html">read our indexing guide</a>, and <a href="mailto:search@support.digitalgov.gov">email us</a> to get started.
+<p>If you don't see any results through the API, we need to index your website. Please <a href="{{ site.baseurl }}/indexing/indexing-with-searchgov.html">read our indexing guide</a>, and <a href="mailto:search@gsa.gov">email us</a> to get started.
 </p>
         
       </div>
@@ -119,7 +119,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a8" class="usa-accordion__content usa-prose">
-        <p>If you want to work on your Best Bets in a spreadsheet, we can do a bulk download for you. Please <a href="mailto:search@support.digitalgov.gov">email us</a> to request a download.</p>
+        <p>If you want to work on your Best Bets in a spreadsheet, we can do a bulk download for you. Please <a href="mailto:search@gsa.gov">email us</a> to request a download.</p>
 
       </div>
    
@@ -145,6 +145,6 @@ Customer support is central at Search.gov. Our success is bound up with the succ
 
 If you have any other questions, feel free to reach out to us. 
 
-[Email](mailto:search@support.digitalgov.gov)
+[Email](mailto:search@gsa.gov)
 
 [Phone](tel:(202)-969-7426)

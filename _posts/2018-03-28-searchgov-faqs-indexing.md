@@ -99,17 +99,17 @@ Based on your site setup, you have a variety of options. Below is our order of p
 
 * [RSS feed]({{ site.baseurl }}/admin-center/content/rss.html) -- We will still accept RSS feeds to update your indexes on a rolling basis. 
 
-If you’re unable to do any of the above, [contact us](mailto:search@support.digitalgov.gov), and we’ll discuss options.
+If you’re unable to do any of the above, [contact us](mailto:search@gsa.gov), and we’ll discuss options.
 
 ## Q: How often will you update my index?
 
-If you have an XML sitemap, our default will be to monitor it daily for newly published or updated pages. If you have a need to have certain content searchable within minutes of publication, please [let us know](mailto:search@support.digitalgov.gov).
+If you have an XML sitemap, our default will be to monitor it daily for newly published or updated pages. If you have a need to have certain content searchable within minutes of publication, please [let us know](mailto:search@gsa.gov).
 
 ## Q: How will you remove items from the index?
 
 We will be monitoring the status of pages in our index. If any start returning a `404 Not Found`, `403 Not Permitted`, `301 Permanent Redirect`, or other non-`200 OK` response, we will remove those items from the index. For redirects, we'll update the index with information from the target page. 
 
-Removing a page from the sitemap will not remove it from the search index. If the page is still publicly accessible and returning a `200` response, you can [contact us](mailto:search@support.digitalgov.gov) to have it removed from the index, or you can use our [Filter URLs]({{ site.baseurl }}/admin-center/content/filter-content.html) feature to suppress the item from appearing in search results.
+Removing a page from the sitemap will not remove it from the search index. If the page is still publicly accessible and returning a `200` response, you can [contact us](mailto:search@gsa.gov) to have it removed from the index, or you can use our [Filter URLs]({{ site.baseurl }}/admin-center/content/filter-content.html) feature to suppress the item from appearing in search results.
 
 ## Q: How does the sitemap control my search results?
 

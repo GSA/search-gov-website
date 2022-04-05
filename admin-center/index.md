@@ -87,4 +87,4 @@ Related resources:
 * [Getting Started Video (YouTube)](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins)
 * [All Training Videos]({{ site.baseurl }}/get-started/training.html)
 
-Do you have other questions or comments about how our service works? [Email us](mailto:search@support.digitalgov.gov).
+Do you have other questions or comments about how our service works? [Email us](mailto:search@gsa.gov).

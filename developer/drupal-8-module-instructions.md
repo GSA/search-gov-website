@@ -97,5 +97,5 @@ After you save these settings, the module will send a command to us when you hit
 
 ## Having trouble?
 
-Take a look at our [troubleshooting tips]({{ site.baseurl }}/developer/drupal-module-troubleshooting.html), and don't hesitate to [reach out](mailto:search@support.digitalgov.gov). We're not Drupal experts ourselves, but we'll try to help.
+Take a look at our [troubleshooting tips]({{ site.baseurl }}/developer/drupal-module-troubleshooting.html), and don't hesitate to [reach out](mailto:search@gsa.gov). We're not Drupal experts ourselves, but we'll try to help.
 

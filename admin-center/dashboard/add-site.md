@@ -64,4 +64,4 @@ We've published the [localization files](https://github.com/GSA/search-gov/tree/
 
 ***Troubleshooting Tip:*** For non-English sites, some agencies opt to include the specific location of the language's content (such as example.gov/language or language.example.gov) in their [Domains]({{ site.baseurl }}/admin-center/content/domains.html) to further refine the search results. Test the results for your non-English site with both the general example.gov and the language-specific location to determine which setting gives you the best results.
 
-***Troubleshooting Tip:*** Once you've added your site, you can edit your display name on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page. If you later need to edit your site handle or language, email us at <search@support.digitalgov.gov>.
+***Troubleshooting Tip:*** Once you've added your site, you can edit your display name on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page. If you later need to edit your site handle or language, email us at <search@gsa.gov>.

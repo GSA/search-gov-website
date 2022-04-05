@@ -22,7 +22,7 @@ The URL must be for your overall photostream. You cannot specify individual phot
 
 When you add the URL for your Flickr photostream, we'll automatically index all of the images in your photostream.
 
-On the image results page, we'll display the images from your Flickr photostream by default. If you'd like to backfill them with the standard image results from your website, [email us](mailto:search@support.digitalgov.gov) and we'll turn on your web images for you.
+On the image results page, we'll display the images from your Flickr photostream by default. If you'd like to backfill them with the standard image results from your website, [email us](mailto:search@gsa.gov) and we'll turn on your web images for you.
 
 ---
 

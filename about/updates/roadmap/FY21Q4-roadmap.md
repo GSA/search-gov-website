@@ -52,7 +52,7 @@ This roadmap shows what we are working on now, and what we plan to be working af
 * **Results Page Redesign Rollout**
 * **Security and Privacy Improvements**
 
-If you have questions or comments, please feel free to [reach out](mailto:search@support.digitalgov.gov) to our team.
+If you have questions or comments, please feel free to [reach out](mailto:search@gsa.gov) to our team.
 
 
 ## Previous Roadmaps

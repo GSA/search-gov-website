@@ -35,7 +35,7 @@ The above command returns JSON structured like this:
 }
 ```
 
-If you do not see a 200 status, [contact our team](mailto:search@support.digitalgov.gov).
+If you do not see a 200 status, [contact our team](mailto:search@gsa.gov).
 
 After successfully sending a document, you should see an increase (by 1) in the number of documents in your [i14y drawer]({{ site.baseurl }}/developer/i14y-drawers.html).
 

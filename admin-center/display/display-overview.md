@@ -26,7 +26,7 @@ See the sample results page below that shows the facets with the default label, 
 
 Type over the text in the Name field to edit a facet's display name. Keep each name short (15 or fewer characters) and consistent with the content you're searching. Click on the hyperlink in the Source field to update the facet's source content. Hover over the icon with three horizontal lines on the left to change the order.
 
-**More.** We show up to four facets above your search box. If you turn on the display of more than four facets, you'll see them listed under a 'More' dropdown menu. Email us at <search@support.digitalgov.gov> if you'd like to use a custom label instead of the default 'More'.
+**More.** We show up to four facets above your search box. If you turn on the display of more than four facets, you'll see them listed under a 'More' dropdown menu. Email us at <search@gsa.gov> if you'd like to use a custom label instead of the default 'More'.
 
 
 ## Modules
@@ -39,7 +39,7 @@ Type over the text in the Name field to edit a facet's display name. Keep each n
 
 1. **Videos.** This option only appears after you've told us about your [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) channel. When a searcher's query matches the metadata of a video published within the 13 months, the video appears in the Videos module. One inline video is displayed with a link to see more videos for the searcher's query.
 
-1. **Job Openings.** When a searcher's query matches the text of a job opening published by your agency on USAJobs, the job appears in the Job Openings module. Up to three job openings are displayed. For more information, including a screenshot, read our post [Help Searchers Find Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html). You will need to [contact us](mailto:search@support.digitalgov.gov) to get the Jobs module enabled for your site.
+1. **Job Openings.** When a searcher's query matches the text of a job opening published by your agency on USAJobs, the job appears in the Job Openings module. Up to three job openings are displayed. For more information, including a screenshot, read our post [Help Searchers Find Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html). You will need to [contact us](mailto:search@gsa.gov) to get the Jobs module enabled for your site.
 
 1. ***Federal Register* Documents.** When a searcher's query matches the text of a notice or rule published by your agency in the *Federal Register*, the document appears in the *Federal Register* module. Up to three documents are displayed. For more information, including a screenshot, read our post [Help Searchers Find Federal Register Documents]({{ site.baseurl }}/admin-center/display/federal-register-module.html).
 
@@ -64,7 +64,7 @@ See, for example, the Español option displayed on [USA.gov for a search on *ven
 
 If you list more than two related sites, searchers will see them listed under a dropdown menu, View Topic.
 
-Email us at <search@support.digitalgov.gov> if you'd like to use a custom label instead of the default 'View Topic' label.
+Email us at <search@gsa.gov> if you'd like to use a custom label instead of the default 'View Topic' label.
 
 ---
 

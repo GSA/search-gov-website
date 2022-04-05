@@ -24,7 +24,7 @@ We offer DNS masking, which allows you to show searchers `search.example.gov` (i
 
 		search.example.gov   CNAME  abc-gov-search.sites.infr.search.usa.gov
   
-3. After your DNS record has been added, [email us](mailto:search@support.digitalgov.gov) to request to be added to our SSL certificate. If your CNAME is not on our SSL certificate, browser security warnings will appear when your search results page attemps to load over `HTTPS`. It generally takes a few days for these requests to get through our queue.<br><br>Your domain mask will work as soon as these two steps are complete.
+3. After your DNS record has been added, [email us](mailto:search@gsa.gov) to request to be added to our SSL certificate. If your CNAME is not on our SSL certificate, browser security warnings will appear when your search results page attemps to load over `HTTPS`. It generally takes a few days for these requests to get through our queue.<br><br>Your domain mask will work as soon as these two steps are complete.
 
 4. When your DNS record is in place and you have received confirmation that your domain mask has been added to our SSL certificate, change your search box's [form code]({{ site.baseurl }}/admin-center/activate/code.html) action from `search.usa.gov/search` to `search.example.gov/search`. 
 
