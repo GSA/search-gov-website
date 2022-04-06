@@ -11,8 +11,6 @@ sidenav: support
 
 <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
-Note: If you experience issues viewing analytics for your site, please turn off the bot filter by clicking the Filter icon next to your site name. We are investigating the issue. 
-
 ## Recent Events
 
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
