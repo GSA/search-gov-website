@@ -352,14 +352,6 @@ collections:
 
 permalink: /:categories/:title:output_ext
 
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
 ############################################################
 # Plugin config
 ############################################################

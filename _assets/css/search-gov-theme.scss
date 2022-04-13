@@ -99,22 +99,22 @@ main {
   }
 }
 
-//fix icons on USWDS Banner (image references and hover state)
+// fix carrot icon on USWDS banner
+
+@media (min-width: 40em) {
+  .usa-banner__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
 
 .usa-banner__button::after, .usa-banner__header-action::after  {
-  background: url(../img/usa-icons/expand_more.svg) no-repeat center/contain;
+  margin-left: 1rem;
 }
 
 .usa-banner__button[aria-expanded="true"]::after {
-  background: url(../img/usa-icons/expand_less.svg) no-repeat center/contain;
-}
-
-.usa-banner__button:hover::after {
-  background-color: transparent;
-}
-
-.usa-banner__button[aria-expanded="true"]:hover::after {
-  background-color: transparent;
+  margin-left: 1rem;
 }
 
 @import 'components/header';
