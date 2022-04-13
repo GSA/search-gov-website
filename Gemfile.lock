@@ -142,7 +142,6 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
-  rexml (= 3.2.5)
   tzinfo-data
 
 RUBY VERSION
