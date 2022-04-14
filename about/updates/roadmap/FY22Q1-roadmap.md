@@ -20,7 +20,7 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY22, Q1: October to December 2021
+## FY 22, Q1: October to December 2021
 
 ### Now
 

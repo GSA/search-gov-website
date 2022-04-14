@@ -22,7 +22,7 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY22, Q2: January to March 2022
+## FY 22, Q2: January to March 2022
 
 ### Now
 
@@ -51,7 +51,6 @@ This roadmap shows what we are working on now, and what we plan to be working af
 * **Results Page Redesign Rollout**
 * **Develop Faceted Search**
 * **Indexing Improvements**
-* **Security and privacy improvements**.
 
 If you have questions or comments, please feel free to [reach out](mailto:search@support.digitalgov.gov) to our team.
 
