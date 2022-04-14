@@ -22,7 +22,7 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY22, Q3: April to June 2022
+## FY22 Q3: April to June 2022
 
 ### Now
 
@@ -37,7 +37,7 @@ This roadmap shows what we are working on now, and what we plan to be working af
 * **Security and Logging Improvements**
   * We are adding additional defenses to protect our system from attack, and ways to better visualize incoming traffic. 
 * **New Developer Onboarding**
-  * We are onboarding additional developers in support of our FY22 upcoming projects
+  * We are onboarding additional developers in support of our FY 22 upcoming projects
 
 ### Next
 
@@ -59,10 +59,10 @@ If you have questions or comments, please feel free to [reach out](mailto:search
 
 ## Previous Roadmaps
 
-* [FY22 Q2: Janaury - March 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q2-roadmap.html)
-* [FY22 Q1: October - December 2021]({{ site.baseurl}}/about/updates/roadmap/FY22Q1-roadmap.html)
-* [FY21 Q4: July - September 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q4-roadmap.html)
-* [FY21 Q3: April - June 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q3-roadmap.html)
-* [FY21 Q2: January - March 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q2-roadmap.html)
-* [FY21 Q1: October - December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)
-* [FY20 Q4: July - September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
+* [FY 22 Q2: Janaury - March 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q2-roadmap.html)
+* [FY 22 Q1: October - December 2021]({{ site.baseurl}}/about/updates/roadmap/FY22Q1-roadmap.html)
+* [FY 21 Q4: July - September 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q4-roadmap.html)
+* [FY 21 Q3: April - June 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q3-roadmap.html)
+* [FY 21 Q2: January - March 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q2-roadmap.html)
+* [FY 21 Q1: October - December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)
+* [FY 20 Q4: July - September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
