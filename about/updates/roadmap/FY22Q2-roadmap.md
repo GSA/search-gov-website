@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Search.gov Roadmap FY 21 Q4
-crumbname: Roadmap FY 21 Q4
+title: Search.gov Roadmap FY 22 Q2
+crumbname: Roadmap FY 22 Q2
 category: about
 tags: roadmap
 breadcrumbs:
@@ -9,7 +9,7 @@ breadcrumbs:
     url: /
   - label: About
 redirect_from:
-    - /about/FY21Q4-roadmap.html
+    - /about/roadmap.html
 sidenav: about_us
 ---
 
@@ -22,41 +22,42 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY 21 Q4: July - September 2021
+## FY 22 Q2: January to March 2022
 
 ### Now
 
+* **Faceted Search: User Discovery**
+  * We will be conducting focus groups and initial research to feed into our development plans for faceted search.
 * **Version Upgrades**
-  * We will be upgrading our Rails and MySQL components to keep them up-to-date and compliant. 
-* **Search.gov website redesign**
-  * We will be launching a new design that aligns with the [US Web Design System](https://designsystem.digital.gov/), in accordance with the [21st Century IDEA](https://digital.gov/resources/21st-century-integrated-digital-experience-act/). The new site includes improved navigation and expanded documentation.
-* **Results page redesign** 
-  * We are completing the removal of the legacy code in preparation for the new design, as well as scoping and planning the redesign effort. 
+  * We will be upgrading our Rails, ElasticSearch, and Ruby versions to keep them up-to-date and compliant. 
 * **Continuity of Operations Plan Improvements** 
   * We are taking steps to bolster our system's resiliance and reliability.
-* **Indexing Workflow Improvements** 
-  * We are making some backend improvements to our indexing workflows to better support our customers lacking sitemaps.
+* **New Developer Onboarding**
+  * We are onboarding additional developers in support of our FY 22 upcoming projects
+* **Legacy Code Removal**
+  * We are removing deprecated code in order to pave our path for new feature development this year.
 
 ### Next
 
 * **Results page redesign**
-  * Continue work on the new design
+  * We will begin to develop the new design and determine our best rollout strategy.
+* **Scoping Faceted Search**
+  * We will begin scoping the backend and frontend work required to support this functionality.
 * **Version Upgrades**
-  * Continue work on upgrading Elasticsearch
-* **Indexing Infrastructure Improvements**
-  * Addressing common indexing issues and improving our automated indexing processes 
+  * We will continue work on the ElasticSearch upgrade to keep it up-to-date.
 
 ### Later
 
-* **Indexing Improvements for Non-Standard Sites**
 * **Results Page Redesign Rollout**
-* **Security and Privacy Improvements**
+* **Develop Faceted Search**
+* **Indexing Improvements**
 
-If you have questions or comments, please feel free to [reach out](mailto:search@gsa.gov) to our team.
-
+If you have questions or comments, please feel free to [reach out](mailto:search@support.digitalgov.gov) to our team.
 
 ## Previous Roadmaps
 
+* [FY 22 Q1: October - December 2021]({{ site.baseurl}}/about/updates/roadmap/FY22Q1-roadmap.html)
+* [FY 21 Q4: July - September 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q4-roadmap.html)
 * [FY 21 Q3: April - June 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q3-roadmap.html)
 * [FY 21 Q2: January - March 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q2-roadmap.html)
 * [FY 21 Q1: October - December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)

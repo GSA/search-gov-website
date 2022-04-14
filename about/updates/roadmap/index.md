@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Search.gov Roadmap FY 22 Q2
-crumbname: Roadmap FY 22 Q2
+title: Search.gov Roadmap FY 22 Q3
+crumbname: Roadmap FY 22 Q3
 category: about
 tags: roadmap
 breadcrumbs:
@@ -22,43 +22,47 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY22, Q2: January to March 2022
+## FY 22 Q3: April to June 2022
 
 ### Now
 
-* **Faceted Search: User Discovery**
-  * We will be conducting focus groups and initial research to feed into our development plans for faceted search.
+* **Faceted Search: Developer Investigations**
+  * We will be scoping out the implementation approach to support ingesting metadata into our indices for faceted search.
+* **Indexing Improvements**
+  * We are updating some components of our indexing process to ensure resiliency.
 * **Version Upgrades**
-  * We will be upgrading our Rails, ElasticSearch, and Ruby versions to keep them up-to-date and compliant. 
+  * We will be upgrading our ElasticSearch version to keep them up-to-date and compliant. 
 * **Continuity of Operations Plan Improvements** 
   * We are taking steps to bolster our system's resiliance and reliability.
+* **Security and Logging Improvements**
+  * We are adding additional defenses to protect our system from attack, and ways to better visualize incoming traffic. 
 * **New Developer Onboarding**
-  * We are onboarding additional developers in support of our FY22 upcoming projects
-* **Legacy Code Removal**
-  * We are removing deprecated code in order to pave our path for new feature development this year.
+  * We are onboarding additional developers in support of our FY 22 upcoming projects
 
 ### Next
 
 * **Results page redesign**
   * We will begin to develop the new design and determine our best rollout strategy.
-* **Scoping Faceted Search**
-  * We will begin scoping the backend and frontend work required to support this functionality.
+* **Building Faceted Search**
+  * We will begin building the backend and frontend components required to support this functionality.
 * **Version Upgrades**
   * We will continue work on the ElasticSearch upgrade to keep it up-to-date.
 
 ### Later
 
 * **Results Page Redesign Rollout**
-* **Develop Faceted Search**
-* **Indexing Improvements**
+* **Testing Faceted Search**
+* **Continued Indexing Improvements**
+* **Security and Privacy Improvements**.
 
 If you have questions or comments, please feel free to [reach out](mailto:search@gsa.gov) to our team.
 
 ## Previous Roadmaps
 
-* [FY22 Q1: October - December 2021]({{ site.baseurl}}/about/updates/roadmap/FY22Q1-roadmap.html)
-* [FY21 Q4: July - September 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q4-roadmap.html)
-* [FY21 Q3: April - June 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q3-roadmap.html)
-* [FY21 Q2: January - March 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q2-roadmap.html)
-* [FY21 Q1: October - December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)
-* [FY20 Q4: July - September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
+* [FY 22 Q2: Janaury - March 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q2-roadmap.html)
+* [FY 22 Q1: October - December 2021]({{ site.baseurl}}/about/updates/roadmap/FY22Q1-roadmap.html)
+* [FY 21 Q4: July - September 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q4-roadmap.html)
+* [FY 21 Q3: April - June 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q3-roadmap.html)
+* [FY 21 Q2: January - March 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q2-roadmap.html)
+* [FY 21 Q1: October - December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)
+* [FY 20 Q4: July - September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
