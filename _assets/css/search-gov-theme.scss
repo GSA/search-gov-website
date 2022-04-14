@@ -8,6 +8,7 @@ $side-navigation-highlight: #162e51;
 
   &--info:before {
     background: url(../img/usa-icons/campaign.svg) no-repeat center/contain;  
+    -webkit-mask: url(../img/usa-icons/campaign.svg) no-repeat center/contain;  
     background-position-y: center;
     height: 100%;
   }
@@ -101,20 +102,8 @@ main {
 
 // fix carrot icon on USWDS banner
 
-@media (min-width: 40em) {
-  .usa-banner__button {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-}
-
-.usa-banner__button::after, .usa-banner__header-action::after  {
-  margin-left: 1rem;
-}
-
-.usa-banner__button[aria-expanded="true"]::after {
-  margin-left: 1rem;
+.usa-banner__button {
+  width: 8rem;
 }
 
 @import 'components/header';
