@@ -47,7 +47,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a3" class="usa-accordion__content usa-prose">
-        <p>This question has two answers.</p> 
+        <p>This question has two possible answers.</p> 
 			<ul>
 				<li>If your search site uses our index, we scan for page updates and removals on a regular basis. If you need something removed immediately, please <a href="mailto:search@gsa.gov">email us</a>. You can also use the Filter URLs feature to hide the item. See below.</li>
 				<li>If your search site uses the Bing index, you can use the Filter URLs feature to hide the item immediately from your results. However, we are unable to update the Bing index itself to remove the item fully from their results. We can work with you to index your site and move it onto our index, where we have control over the content and timeliness of updates.</li>
