@@ -68,6 +68,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
+    jekyll-environment-variables (1.0.1)
+      jekyll (>= 3.0, < 5.x)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate-v2 (3.0.0)
@@ -97,7 +99,11 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    mini_portile2 (2.8.0)
     minitest (5.15.0)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.13.4-x86_64-darwin)
       racc (~> 1.4)
     parallel (1.22.1)
@@ -129,6 +135,7 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
+  ruby
   x86_64-darwin-20
 
 DEPENDENCIES
@@ -137,6 +144,7 @@ DEPENDENCIES
   html-proofer (~> 3.18)
   jekyll (~> 4.0)
   jekyll-assets!
+  jekyll-environment-variables
   jekyll-feed (~> 0.15)
   jekyll-paginate-v2 (= 3.0.0)
   jekyll-redirect-from
@@ -145,7 +153,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.7.4p191
+   ruby 2.7.5p203
 
 BUNDLED WITH
    2.3.11
