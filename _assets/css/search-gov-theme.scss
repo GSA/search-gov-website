@@ -8,6 +8,7 @@ $side-navigation-highlight: #162e51;
 
   &--info:before {
     background: url(../img/usa-icons/campaign.svg) no-repeat center/contain;  
+    -webkit-mask: url(../img/usa-icons/campaign.svg) no-repeat center/contain;  
     background-position-y: center;
     height: 100%;
   }
@@ -99,22 +100,10 @@ main {
   }
 }
 
-//fix icons on USWDS Banner (image references and hover state)
+// fix carrot icon on USWDS banner
 
-.usa-banner__button::after, .usa-banner__header-action::after  {
-  background: url(../img/usa-icons/expand_more.svg) no-repeat center/contain;
-}
-
-.usa-banner__button[aria-expanded="true"]::after {
-  background: url(../img/usa-icons/expand_less.svg) no-repeat center/contain;
-}
-
-.usa-banner__button:hover::after {
-  background-color: transparent;
-}
-
-.usa-banner__button[aria-expanded="true"]:hover::after {
-  background-color: transparent;
+.usa-banner__button {
+  width: 8rem;
 }
 
 @import 'components/header';

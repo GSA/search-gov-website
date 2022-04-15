@@ -352,14 +352,6 @@ collections:
 
 permalink: /:categories/:title:output_ext
 
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
 ############################################################
 # Plugin config
 ############################################################
@@ -424,8 +416,13 @@ exclude:
   - Gemfile.lock
 
 assets:
+  autoprefixer:
+    browsers:
+      - "> 2%"
+      - "last 2 versions"
+      - "IE 11"
+      - "not dead"
+  compression: true
   sources:
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
+    - node_modules/uswds/dist
     - node_modules/netlify-cms/dist
