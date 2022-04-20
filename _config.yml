@@ -61,10 +61,10 @@ url: "https://search.gov" # the base hostname & protocol for your site, e.g. htt
 #
 #################################################################
 dap:
-  # agency: GSA
+  agency: GSA
 
-  # Optional
-  # subagency: TTS
+# Optional
+  subagency: TTS
 
 # Configuration for Google Analytics
 # ga:
