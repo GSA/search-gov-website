@@ -9,7 +9,11 @@ sidenav: support
 
 ## Current Status
 
-<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: April 21, 2022 12:40PM ET - ongoing <br />
+Details: At this time, searches are intermittently failing and returning errors. An investigation is currently underway, and we will update this message every 30 minutes.
+
+<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
 
 ## Recent Events
 
