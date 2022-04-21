@@ -9,13 +9,13 @@ sidenav: support
 
 ## Current Status
 
-<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
-Date: April 21, 2022 12:40PM ET - ongoing <br />
-Details: At this time, searches are intermittently failing and returning errors. An investigation is currently underway, and we will update this message every 30 minutes.
-
-<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: April 21, 2022 12:33PM ET - 12:48PM ET <br />
+Details: From 12:33PM ET - 12:48PM ET we experienced serious degredation in our search. The issue appears to be resolved and Search.gov is now fully operational.
 
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
 Date: February 24, 2022, 2:07PM ET - 2:50PM ET <br />
