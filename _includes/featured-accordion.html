@@ -21,6 +21,8 @@
                         Are you ready to index with Search.gov?
                     {% when "indexing-long" %}
                         How to Index with Search.gov
+                    {% when "manage-account" %}
+                        Create or Edit Your User Account
                     {% else %}
                         Related Content
                 {% endcase %}
@@ -86,6 +88,8 @@
                         <strong>What:</strong>  For brand new sites: Your index is ready to go, you can proceed with the rest of the site launch steps and go live without any further action from our team.
                         
                         For sites switching from Bing: When you give us the green light to switch to the new index, there is no action needed on your part other than the approval. We will change a setting in our back end, which will point your existing search site’s web results module to our index, and the change is effective immediately. All other elements of your search site remain the same: search features, branding, etc.
+                    {% when "manage-account" %}
+                        <a href="{{ site.baseurl }}/get-started/account.html#sign-up">Register for a new account</a> or <a href="{{ site.baseurl }}/get-started/account.html#login">log in</a> to make changes to an existing account.
                     {% else %}
                 {% endcase %}
         {% if include.accordion %}
