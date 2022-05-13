@@ -37,7 +37,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
       <div id="m-a2" class="usa-accordion__content usa-prose">
         Please follow the steps below:
         <ol>
-        <li>Go to Search.gov, click Login</li>
+        <li><a href="https://search.usa.gov/login">Login to your Search.gov account</a></li>
         <li>Click Accept and Proceed on the system access banner</li>
         <li>Arrive at Login.gov</li>
         <li>Enter the email address associated with your Search.gov account (.gov or approved business email address) and account password, plus MFA code</li>
