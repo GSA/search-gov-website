@@ -68,4 +68,4 @@ Government employees must use a .gov or .mil address. Contractors without a .gov
 <a id="forgot-password"></a>
 ## Forgot Your Password?
 
-All passwords are now managed through Login.gov, so please use their password reset process at https://secure.login.gov/manage/password.
+All passwords are now managed through Login.gov, so please use their password reset process at [https://secure.login.gov/manage/password](https://secure.login.gov/manage/password).

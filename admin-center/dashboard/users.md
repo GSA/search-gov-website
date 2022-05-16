@@ -9,6 +9,7 @@ sidenav: admin_center
 redirect_from:
     - /manual/users.html
 ---
+{% include featured-accordion.html content="manage-account" accordion=true %}
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Dashboard > Manage Users
 
