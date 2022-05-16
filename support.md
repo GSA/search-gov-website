@@ -42,10 +42,10 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         <li>Arrive at Login.gov</li>
         <li>Enter the email address associated with your Search.gov account (.gov or approved business email address) and account password, plus MFA code</li>
         <li>Login.gov will send you back to Search.gov along with the email address you presented to them</li>
-        <li>Search.gov checks for that email address's status and should let you in</li>
+        <li>Search.gov checks for that email address's status and should let you in. If you still see a credentials error, <a href="mailto:search@gsa.gov">email us</a> for help.</li>
         </ol>
         
-        <p>If the browser you are using has stored your personal email address and is auto-filling it when you arrive at Login.gov, this needs to be overwritten with the .gov/business email address before entering your password.</p>
+        <p>If the browser you are using has stored your personal email address and is auto-filling it when you arrive at Login.gov, this needs to be overwritten with your .gov or business email address before entering your password.</p>
       </div>
       
        <!-- Use the accurate heading level to maintain the document outline -->
