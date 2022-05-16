@@ -35,17 +35,17 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         </button>
       </h3>
       <div id="m-a2" class="usa-accordion__content usa-prose">
-        Please follow the steps below:
+        It's likely your browser auto-filled the wrong email address when you were logging in. Please follow these steps:
         <ol>
         <li><a href="https://search.usa.gov/login">Login to your Search.gov account</a></li>
-        <li>Click Accept and Proceed on the system access banner</li>
+        <li>Click "Accept and Proceed" on the system access banner</li>
         <li>Arrive at Login.gov</li>
         <li>Enter the email address associated with your Search.gov account (.gov or approved business email address) and account password, plus MFA code</li>
-        <li>Login.gov sends you back to Search.gov along with the email address you presented to them</li>
+        <li>Login.gov will send you back to Search.gov along with the email address you presented to them</li>
         <li>Search.gov checks for that email address's status and should let you in</li>
         </ol>
         
-        <p>If the browser your are using has stored the personal email address and is auto-filling it when you arrive at Login.gov, this needs to be overwritten with the .gov/business email address before entering your password.</p>
+        <p>If the browser you are using has stored your personal email address and is auto-filling it when you arrive at Login.gov, this needs to be overwritten with the .gov/business email address before entering your password.</p>
       </div>
       
        <!-- Use the accurate heading level to maintain the document outline -->
