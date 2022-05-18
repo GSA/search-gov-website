@@ -24,8 +24,7 @@ You can use Search.gov to power the search box on your federal government websit
 
 Search.gov uses Login.gov to secure our system access.
 
-<a id="sign-up"></a>
-## Sign up
+## Sign up {#sign-up}
 
 Register for a new account at <https://search.usa.gov/signup>
 
@@ -41,8 +40,7 @@ If you have a .gov or .mil address, you'll be able to access your account immedi
 
 If you don't have a .gov or .mil address, we'll ask for additional information to confirm that you're a government employee or contractor. We'll notify you when your account is approved.
 
-<a id="login"></a>
-## Log In
+## Log In {#login}
 
 Log in to an existing account at <https://search.usa.gov/login>. 
 
@@ -55,8 +53,7 @@ If you've previously logged in to Login.gov using an email address different fro
 
 <img src="{{ site.url }}/assets/img/site/login_gov-add-email.png" width="500px" alt="Screenshot of Login.gov account page showing where to find the 'Add email' button" title="Add another email in Login.gov">
 
-<a id="update-email"></a>
-## Update Your Email Address
+## Update Your Email Address {#update-email}
 
 If your email address changes, follow these steps: 
 
@@ -65,7 +62,6 @@ If your email address changes, follow these steps:
 
 Government employees must use a .gov or .mil address. Contractors without a .gov or .mil address must use business email address that is verified in writing by your government POC. Personal email addresses such as Gmail, Yahoo, etc. are not allowed. GSA partners with GSA-linked Gmail accounts in the format `gsa.yourname@gmail.com` are allowed.
 
-<a id="forgot-password"></a>
-## Forgot Your Password?
+## Forgot Your Password? {#forgot-password}
 
 All passwords are now managed through Login.gov, so please use their password reset process at [https://secure.login.gov/manage/password](https://secure.login.gov/manage/password).

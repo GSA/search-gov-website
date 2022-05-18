@@ -32,7 +32,7 @@ There are several key differences between our service and other options in the m
   <table class="usa-table usa-table--compact">
     <thead>
       <tr>
-        <th>Feature<br />Comparison</th>
+        <th scope="col">Feature<br />Comparison</th>
         <th scope="col" class="text-right">Search.gov</th>
         <th scope="col" class="text-right">Major Search<br />Engine Custom<br />Search</th>
         <th scope="col" class="text-right">Solr</th>

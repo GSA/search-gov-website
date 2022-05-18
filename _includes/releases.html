@@ -4,7 +4,7 @@
   {% assign currentdate = release.release-year %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
-    <h1 id="y{{release.date | date: "%Y"}}">{{ currentdate }}</h1>
+    <h1 id="{{ currentdate }}">{{ currentdate }}</h1>
     <ul>
     {% assign date = currentdate %}
   {% endif %}
