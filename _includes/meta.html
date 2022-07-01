@@ -38,4 +38,17 @@ site, this is the place to do it.
       })(window,document,'script','dataLayer','GTM-N56JXGD');</script>
   <!-- End Google Tag Manager -->
   {% seo %}
+
+  <!-- Custom Fields -->
+  {% if page.tags and page.layout=="page" %}
+    <meta name="searchgov_custom1" content='{{page.tags | replace: " ", ","  | replace "[" , " " }}'>
+  {% endif %}
+  {% if page.category %}
+    <meta name="searchgov_custom2" content="{{page.category}}">
+  {% endif %}
+  {% if page.sidenav %}
+    <meta name="searchgov_custom3" content="{{page.sidenav}}">
+  {% endif %}
+  <!-- End Custom Fields -->
+
 </head>
