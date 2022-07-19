@@ -1,15 +1,13 @@
 ---
 layout: page
-title: Search.gov Roadmap FY 22 Q4
-crumbname: Roadmap FY 22 Q4
+title: Search.gov Roadmap FY 22 Q3
+crumbname: Roadmap FY 22 Q3
 category: about
 tags: roadmap
 breadcrumbs:
   - label: Home
     url: /
   - label: About
-redirect_from:
-    - /about/roadmap.html
 sidenav: about_us
 ---
 
@@ -22,18 +20,16 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY 22 Q4: July - September 2022
+## FY 22 Q3: April to June 2022
 
 ### Now
 
-* **Faceted Search - Backend Support**
-  * We are adding additional metadata indexing and searching support to enable faceted search. 
-* **Javascript Indexing - Investigations**
-  * We are scoping out the work required to support indexing of Javascript-powered, dynamic webpages.
+* **Faceted Search: Developer Investigations**
+  * We will be scoping out the implementation approach to support ingesting metadata into our indices for faceted search.
+* **Indexing Improvements**
+  * We are updating some components of our indexing process to ensure resiliency.
 * **Version Upgrades**
-  * We will be upgrading our ElasticSearch and Tika version to keep them up-to-date and compliant. 
-* **Search Engine Results Page (SERP) Redesign - Investigations**
-  * We will begin scoping the work required to upgrade our frontend technology in support of this redesign.
+  * We will be upgrading our ElasticSearch version to keep them up-to-date and compliant. 
 * **Continuity of Operations Plan Improvements** 
   * We are taking steps to bolster our system's resiliance and reliability.
 * **Security and Logging Improvements**
@@ -43,31 +39,24 @@ This roadmap shows what we are working on now, and what we plan to be working af
 
 ### Next
 
-* **Search Recall Improvements**
-  * We will begin scoping efforts to improve our ability to match on alphanumeric string-type searches.
-* **Search Engine Results Page (SERP) Redesign - Implementation**
-  * Based on our investigations, we will begin updating visual components of our SERP. 
-* **Javascript Indexing**
-  * Based on our investigations, we will adding support for indexing Javascript-based webpages.
-* **RSS Feed Indexing**
-  * In addition to sitemap indexing, we will add support for automated indexing of RSS feeds.
-* **Faceted Search - Frontend Interface**
-  * We will begin building the frontend components required to support this functionality.
-
+* **Results page redesign**
+  * We will begin to develop the new design and determine our best rollout strategy.
+* **Building Faceted Search**
+  * We will begin building the backend and frontend components required to support this functionality.
+* **Version Upgrades**
+  * We will continue work on the ElasticSearch upgrade to keep it up-to-date.
 
 ### Later
 
 * **Results Page Redesign Rollout**
-* **Faceted Search Rollout**
+* **Testing Faceted Search**
 * **Continued Indexing Improvements**
-* **Security and Privacy Improvements**
-* **User Role Enhancements** 
+* **Security and Privacy Improvements**.
 
 If you have questions or comments, please feel free to [reach out](mailto:search@gsa.gov) to our team.
 
 ## Previous Roadmaps
 
-* [FY 22 Q3: April - June 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q3-roadmap.html)
 * [FY 22 Q2: Janaury - March 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q2-roadmap.html)
 * [FY 22 Q1: October - December 2021]({{ site.baseurl}}/about/updates/roadmap/FY22Q1-roadmap.html)
 * [FY 21 Q4: July - September 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q4-roadmap.html)
