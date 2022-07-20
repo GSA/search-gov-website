@@ -38,6 +38,7 @@ This roadmap shows what we are working on now, and what we plan to be working af
   * We are taking steps to bolster our system's resiliance and reliability.
 * **Security and Logging Improvements**
   * We are adding additional defenses to protect our system from attack, and ways to better visualize incoming traffic. 
+
 ### Next
 
 * **Search Recall Improvements**
