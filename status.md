@@ -11,16 +11,16 @@ sidenav: support
 
 <!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
 
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Potential Degradation <br />
-Date: August 3, 2022, 11:16am ET - ongoing<br />
-Details: We are investigating a possible issue with our search service. As of 12:00ET it appears to have been a network a connectivity issue. We will continue to provide updates every 30 minutes.
-
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation in Bing Web Results <br />
 Date: June 14, 2022 - ongoing <br />
 Details: Beginning June 14, some sites using the Bing Web index started experiencing issues returning search results. Sites on the Search.gov in-house web index are not affected. We are actively working to resolve this issue. We will update this page periodically as we have more information. Please reach out to <a href="mailto:search@gsa.gov">search@gsa.gov</a> if you are experiencing issues.
 
 
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: August 3, 2022, 11:16AM ET - 11:23AM ET<br />
+Details: From 11:16AM ET - 11:23AM ET, a network connectivity issue caused failure for most search requests. The issue is resolved and Search.gov is now  operational.
 
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
 Date: June 17, 2022 1:42PM ET - 2:29PM ET <br />
