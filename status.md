@@ -12,8 +12,8 @@ sidenav: support
 <!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation" title="Intermittent Degradation">&nbsp;&nbsp;&nbsp; Potential Degradation <br />
-Date: August 3, 2022, 11:17am ET - ongoing<br />
-Details: We are investigating a possible issue with our search service. We will provide updates every 30 minutes.
+Date: August 3, 2022, 11:16am ET - ongoing<br />
+Details: We are investigating a possible issue with our search service. As of 12:00ET it appears to have been a network a connectivity issue. We will continue to provide updates every 30 minutes.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation in Bing Web Results <br />
 Date: June 14, 2022 - ongoing <br />
