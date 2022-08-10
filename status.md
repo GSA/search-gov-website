@@ -9,6 +9,12 @@ sidenav: support
 
 ## Current Status
 
+<!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Federalist. When we have more information, update the message with the appropriate status and manually update the timestamp.-->
+
+<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
+Date: {{ "now" | date: "%B %d, %Y %I:%M %p" }} ET - ongoing <br />
+Details: We are investigating a possible issue with our search service. We will provide updates every 30 minutes.
+
 <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
 ## Recent Events
