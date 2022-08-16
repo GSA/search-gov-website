@@ -1,15 +1,15 @@
 ---
+last_modified_at: January 17, 2020
+crumbname: Sitemaps
 layout: page
 title: XML Sitemaps
-crumbname: Sitemaps
-category: admin-center
-redirect_from: 
+redirect_from:
   - /blog/sitemaps.html
   - /manual/sitemaps.html
-tags: sitemaps indexing
-date: January 17, 2020
-last_modified_at: January 17, 2020
 sidenav: indexing
+date: January 17, 2020
+tags: sitemaps indexing
+category: admin-center
 ---
 An [XML sitemap](https://en.wikipedia.org/wiki/Sitemaps)  is an XML formatted file containing a list of URLs on a website. An XML sitemap provides information that allows a search engine to index your website more intelligently, and to keep its search index up to date. 
 
@@ -81,6 +81,7 @@ Most content management systems provide tools to generate a sitemap and keep it 
 
 ### Drupal
 [XML Sitemap Module](https://www.drupal.org/project/xmlsitemap) 
+[Simple XML Sitemap Module](https://www.drupal.org/project/simple_sitemap) and [patch to include static files](https://www.drupal.org/files/issues/2021-06-30/simple_sitemap-files-support-2947456-29.patch?utm_campaign=Search.gov%20Newsletter&utm_medium=email&_hsmi=198438564&_hsenc=p2ANqtz-8yCCK6Ih9dYXGdUCAlfyRtU4zd72dP_UGQV--3em_Fzk-35YH-I6z3MG_GcqLHIbP6HN53wUScxZx0ivUCtUoIW9BGiQ&utm_content=198438564&utm_source=hs_email)
 
 ### Wordpress
 [Yoast SEO Plugin](https://wordpress.org/plugins/wordpress-seo/) 
