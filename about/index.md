@@ -11,7 +11,7 @@ Our mission is to connect the public with the information they need from the gov
 
 We work to provide a modern, high quality, government-wide, self-service search engine that allows agencies to customize search experiences for the public, regardless of website type or organization.
 
-Search.gov is a product of the [U.S. General Services Administration’s Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions#smart), and there is no cost to federal agencies. [Learn more about GSA](https://www.gsa.gov/about-us/gsa-organization).
+Search.gov is a product of the [U.S. General Services Administration’s Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions#smart), and there is no cost to federal agencies. [Learn more about GSA](https://www.gsa.gov/about-us).
 
 Do you have any questions or need any assistance? We’re here to help!
 Email us at [search@gsa.gov](mailto:search@gsa.gov). You can also give us a call at [202-969-7426](tel:2029697426), Monday through Friday 9am to 5pm ET, except for federal holidays.
