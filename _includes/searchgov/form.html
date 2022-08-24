@@ -4,10 +4,8 @@
 
 {% if include.searchgov %}
   {% if include.searchgov.inline == true %}
-    <area referrerpolicy="no-referrer-when-downgrade">
     <form id="search_form" class="usa-search usa-search--small" action="{{site.baseurl}}/search/" accept-charset="UTF-8" method="get">
   {% else %}
-    <area referrerpolicy="no-referrer-when-downgrade">
     <form id="search_form" class="usa-search usa-search--small" action="{{include.searchgov.endpoint}}/search" accept-charset="UTF-8" method="get">
   {% endif %}
     
@@ -24,5 +22,4 @@
       </button>
     </div>
   </form>
-  </area>
 {% endif %}
