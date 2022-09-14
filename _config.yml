@@ -348,6 +348,9 @@ collections:
   releases:
     output: true
     permalink: /about/updates/releases/:title:output_ext
+  newsletters:
+    output: true
+    permalink: /about/updates/newsletters/:title:output_ext
 
 
 permalink: /:categories/:title:output_ext
