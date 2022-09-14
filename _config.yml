@@ -90,6 +90,8 @@ primary_navigation:
         url: "/about/updates/roadmap/"
       - name: Release Notes
         url: "/about/updates/releases/"
+      - name: Newsletters
+        url: "/about/updates/newsletters/"
       - name: Share Your Feedback
         url: "/about/feedback.html"
       - name: For Developers
@@ -176,6 +178,8 @@ about_us:
       url: "/about/updates/roadmap/"
     - name: Release Notes
       url: "/about/updates/releases/"
+    - name: Newsletters
+      url: "/about/updates/newsletters/"
     - name: Share Your Feedback
       url: "/about/feedback.html"
   - name: Related Resources
