@@ -1,15 +1,13 @@
 ---
 layout: page
-title: Search.gov Roadmap FY 23 Q1
-crumbname: Roadmap FY 23 Q1
+title: Search.gov Roadmap FY 22 Q4
+crumbname: Roadmap FY 22 Q4
 category: about
 tags: roadmap
 breadcrumbs:
   - label: Home
     url: /
   - label: About
-redirect_from:
-    - /about/roadmap.html
 sidenav: about_us
 ---
 
@@ -22,40 +20,42 @@ We know it’s helpful for our partners at federal agencies to know what’s com
 This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
 
 
-## FY 23 Q1: October - December 2022
+## FY 22 Q4: July - September 2022
 
 ### Now
 
-* **Faceted Search - Results API Support**
-  * We will work on supporting the faceted search functionality in our Results API.
-* **Javascript Indexing - Production Release**
-  * We will be getting our Javascript indexing feature tested and ready for production.
+* **Faceted Search - Backend Support**
+  * We are adding additional metadata indexing and searching support to enable faceted search. 
+* **Javascript Indexing - Investigations**
+  * We are scoping out the work required to support indexing of Javascript-powered, dynamic webpages.
+* **Version Upgrades**
+  * We will be upgrading our ElasticSearch and Tika version to keep them up-to-date and compliant. 
 * **Search Engine Results Page (SERP) Redesign - Investigations**
   * We will begin scoping the work required to upgrade our frontend technology in support of this redesign.
-* **Version Upgrades**
-  * We will be upgrading our ElasticSearch, Ruby, and Redis versions to keep them up-to-date and compliant. 
-* **RSS Feed Indexing**
-  * In addition to sitemap indexing, we will add support for automated indexing of RSS feeds.
-* **Additional Language Support**
-  * We will be adding support to our in-house index for Bengali, Hindi, Tagalog, Khmer, Vietnamese, Navajo, and Yu'pik search experiences.
-* **CI/CD Pipeline Investigations**
-  * We will begin to investigate the work required to improve our continuous integration / continuous deployment (CI/CD) pipelines.
-
+* **Continuity of Operations Plan Improvements** 
+  * We are taking steps to bolster our system's resiliance and reliability.
+* **Security and Logging Improvements**
+  * We are adding additional defenses to protect our system from attack, and ways to better visualize incoming traffic. 
 
 ### Next
 
-* **Search Engine Results Page (SERP) Redesign - Implementation and Rollout**
+* **Search Recall Improvements**
+  * We will begin scoping efforts to improve our ability to match on alphanumeric string-type searches.
+* **Search Engine Results Page (SERP) Redesign - Implementation**
   * Based on our investigations, we will begin updating visual components of our SERP. 
+* **Javascript Indexing**
+  * Based on our investigations, we will adding support for indexing Javascript-based webpages.
+* **RSS Feed Indexing**
+  * In addition to sitemap indexing, we will add support for automated indexing of RSS feeds.
 * **Faceted Search - Frontend Interface**
   * We will begin building the frontend components required to support this functionality.
-* **Version Upgrades**
-  * We will continue work on the software components to keep them up-to-date.
 
 
 ### Later
 
+* **Results Page Redesign Rollout**
+* **Faceted Search Rollout**
 * **Continued Indexing Improvements**
-* **Search Recall Improvements**
 * **Security and Privacy Improvements**
 * **User Role Enhancements** 
 
@@ -63,7 +63,6 @@ If you have questions or comments, please feel free to [reach out](mailto:search
 
 ## Previous Roadmaps
 
-* [FY 22 Q4: July - September 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q4-roadmap.html)
 * [FY 22 Q3: April - June 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q3-roadmap.html)
 * [FY 22 Q2: Janaury - March 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q2-roadmap.html)
 * [FY 22 Q1: October - December 2021]({{ site.baseurl}}/about/updates/roadmap/FY22Q1-roadmap.html)
