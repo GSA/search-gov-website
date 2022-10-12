@@ -50,7 +50,6 @@ This roadmap shows what we are working on now, and what we plan to be working af
 * **Faceted Search - Frontend Interface**
   * We will begin building the frontend components required to support this functionality.
 
-
 ### Later
 
 * **Results Page Redesign Rollout**
