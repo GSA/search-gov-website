@@ -26,11 +26,11 @@ This roadmap shows what we are working on now, and what we plan to be working af
 
 ### Now
 
-* **Faceted Search &ndash; Results API Support**
+* **Faceted Search &mdash; Results API Support**
   * We will work on supporting the faceted search functionality in our Results API.
-* **Javascript Indexing &ndash; Production Release**
+* **Javascript Indexing &mdash; Production Release**
   * We will be getting our Javascript indexing feature tested and ready for production.
-* **Search Engine Results Page (SERP) Redesign &ndash; Investigations**
+* **Search Engine Results Page (SERP) Redesign &mdash; Investigations**
   * We will begin scoping the work required to upgrade our frontend technology in support of this redesign.
 * **Version Upgrades**
   * We will be upgrading our ElasticSearch, Ruby, Rails, and Redis versions to keep them up-to-date and compliant. 
@@ -44,9 +44,9 @@ This roadmap shows what we are working on now, and what we plan to be working af
 
 ### Next
 
-* **Search Engine Results Page (SERP) Redesign &ndash; Implementation and Rollout**
+* **Search Engine Results Page (SERP) Redesign &mdash; Implementation and Rollout**
   * Based on our investigations, we will begin updating visual components of our SERP. 
-* **Faceted Search &ndash; Frontend Interface**
+* **Faceted Search &mdash; Frontend Interface**
   * We will begin building the frontend components required to support this functionality.
 * **Version Upgrades**
   * We will continue work on the software components to keep them up-to-date.

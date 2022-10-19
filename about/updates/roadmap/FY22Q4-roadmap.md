@@ -24,13 +24,13 @@ This roadmap shows what we are working on now, and what we plan to be working af
 
 ### Now
 
-* **Faceted Search &ndash; Backend Support**
+* **Faceted Search &mdash; Backend Support**
   * We are adding additional metadata indexing and searching support to enable faceted search. 
-* **Javascript Indexing &ndash; Investigations**
+* **Javascript Indexing &mdash; Investigations**
   * We are scoping out the work required to support indexing of Javascript-powered, dynamic webpages.
 * **Version Upgrades**
   * We will be upgrading our ElasticSearch and Tika version to keep them up-to-date and compliant. 
-* **Search Engine Results Page (SERP) Redesign &ndash; Investigations**
+* **Search Engine Results Page (SERP) Redesign &mdash; Investigations**
   * We will begin scoping the work required to upgrade our frontend technology in support of this redesign.
 * **Continuity of Operations Plan Improvements** 
   * We are taking steps to bolster our system's resiliance and reliability.
@@ -41,13 +41,13 @@ This roadmap shows what we are working on now, and what we plan to be working af
 
 * **Search Recall Improvements**
   * We will begin scoping efforts to improve our ability to match on alphanumeric string-type searches.
-* **Search Engine Results Page (SERP) Redesign &ndash; Implementation**
+* **Search Engine Results Page (SERP) Redesign &mdash; Implementation**
   * Based on our investigations, we will begin updating visual components of our SERP. 
 * **Javascript Indexing**
   * Based on our investigations, we will adding support for indexing Javascript-based webpages.
 * **RSS Feed Indexing**
   * In addition to sitemap indexing, we will add support for automated indexing of RSS feeds.
-* **Faceted Search &ndash; Frontend Interface**
+* **Faceted Search &mdash; Frontend Interface**
   * We will begin building the frontend components required to support this functionality.
 
 ### Later
