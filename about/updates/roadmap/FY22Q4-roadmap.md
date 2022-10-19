@@ -1,15 +1,13 @@
 ---
 layout: page
-title: Search.gov Roadmap Fiscal Year 2023 Quarter 1
-crumbname: Roadmap FY 2023 Q1
+title: Search.gov Roadmap Fiscal Year 2022 Quarter 4
+crumbname: Roadmap FY 2022 Q4
 category: about
 tags: roadmap
 breadcrumbs:
   - label: Home
     url: /
   - label: About
-redirect_from:
-    - /about/roadmap.html
 sidenav: about_us
 ---
 
@@ -22,40 +20,41 @@ We know it's helpful for our partners at federal agencies to know what's coming 
 This roadmap shows what we are working on now, and what we plan to be working after that. We'll update this roadmap quarterly.
 
 
-## FY 23 Q1: October&ndash;December 2022
+## FY 22 Q4: July&ndash;September 2022
 
 ### Now
 
-* **Faceted Search &mdash; Results API Support**
-  * We will work on supporting the faceted search functionality in our Results API.
-* **Javascript Indexing &mdash; Production Release**
-  * We will be getting our Javascript indexing feature tested and ready for production.
+* **Faceted Search &mdash; Backend Support**
+  * We are adding additional metadata indexing and searching support to enable faceted search. 
+* **Javascript Indexing &mdash; Investigations**
+  * We are scoping out the work required to support indexing of Javascript-powered, dynamic webpages.
+* **Version Upgrades**
+  * We will be upgrading our ElasticSearch and Tika version to keep them up-to-date and compliant. 
 * **Search Engine Results Page (SERP) Redesign &mdash; Investigations**
   * We will begin scoping the work required to upgrade our frontend technology in support of this redesign.
-* **Version Upgrades**
-  * We will be upgrading our ElasticSearch, Ruby, Rails, and Redis versions to keep them up-to-date and compliant. 
-* **RSS Feed Indexing**
-  * In addition to sitemap indexing, we will add support for automated indexing of RSS feeds into our primary web index.
-* **Additional Language Support**
-  * We will be adding support to our in-house index for Bengali, Hindi, Tagalog, Khmer, Vietnamese, Navajo, and Yu'pik search experiences.
-* **CI/CD Pipeline Investigations**
-  * We will investigate the work required to improve our continuous integration / continuous deployment (CI/CD) pipelines.
-
+* **Continuity of Operations Plan Improvements** 
+  * We are taking steps to bolster our system's resiliance and reliability.
+* **Security and Logging Improvements**
+  * We are adding additional defenses to protect our system from attack, and ways to better visualize incoming traffic. 
 
 ### Next
 
-* **Search Engine Results Page (SERP) Redesign &mdash; Implementation and Rollout**
+* **Search Recall Improvements**
+  * We will begin scoping efforts to improve our ability to match on alphanumeric string-type searches.
+* **Search Engine Results Page (SERP) Redesign &mdash; Implementation**
   * Based on our investigations, we will begin updating visual components of our SERP. 
+* **Javascript Indexing**
+  * Based on our investigations, we will adding support for indexing Javascript-based webpages.
+* **RSS Feed Indexing**
+  * In addition to sitemap indexing, we will add support for automated indexing of RSS feeds.
 * **Faceted Search &mdash; Frontend Interface**
   * We will begin building the frontend components required to support this functionality.
-* **Version Upgrades**
-  * We will continue work on the software components to keep them up-to-date.
-
 
 ### Later
 
+* **Results Page Redesign Rollout**
+* **Faceted Search Rollout**
 * **Continued Indexing Improvements**
-* **Search Recall Improvements**
 * **Security and Privacy Improvements**
 * **User Role Enhancements** 
 
@@ -63,7 +62,6 @@ If you have questions or comments, please feel free to [reach out](mailto:search
 
 ## Previous Roadmaps
 
-* [FY 2022 Q4: July&ndash;September 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q4-roadmap.html)
 * [FY 2022 Q3: April&ndash;June 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q3-roadmap.html)
 * [FY 2022 Q2: Janaury&ndash;March 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q2-roadmap.html)
 * [FY 2022 Q1: October&ndash;December 2021]({{ site.baseurl}}/about/updates/roadmap/FY22Q1-roadmap.html)
@@ -71,4 +69,4 @@ If you have questions or comments, please feel free to [reach out](mailto:search
 * [FY 2021 Q3: April&ndash;June 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q3-roadmap.html)
 * [FY 2021 Q2: January&ndash;March 2021]({{ site.baseurl}}/about/updates/roadmap/FY21Q2-roadmap.html)
 * [FY 2021 Q1: October&ndash;December 2020]({{ site.baseurl}}/about/updates/roadmap/FY21Q1-roadmap.html)
-* [FY 2020 Q4: July&ndash;September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
+* [FY 2020 Q4: July&ndash;September 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
