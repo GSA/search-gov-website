@@ -25,14 +25,14 @@ If you wish to test before launch, you'll need to publish the website to a publi
 ## On the Search.gov side of things:
 
 1. Sign up for a [user account](https://search.usa.gov/signup).
-2. Read our \[Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html) if you’d like some direction.
-3. Create and configure a search site in our [Admin Center](https://search.usa.gov/sites), as described in the \[Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html). Highlights include:
+2. Read our [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html) if you’d like some direction.
+3. Create and configure a search site in our [Admin Center](https://search.usa.gov/sites), as described in the [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html). Highlights include:
 
-* \[Add a search site]({{ site.baseurl }}/manual/add-site.html)
-* \[Brand your hosted search results page]({{ site.baseurl }}/manual/brand.html)
+* [Add a search site]({{ site.baseurl }}/manual/add-site.html)
+* [Brand your hosted search results page]({{ site.baseurl }}/manual/brand.html)
 
 1. Request that we index your domain by [emailing our team](mailto:search@gsa.gov). Note, the site must be publicly available for our indexer to be able to access your content.
-2. \[Preview your search results]({{ site.baseurl }}/manual/preview.html) once the indexing is complete.
+2. [Preview your search results]({{ site.baseurl }}/manual/preview.html) once the indexing is complete.
 
 ## On the Cloud.gov Pages side of things, part 2
 
@@ -51,7 +51,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 
 * Go to the Search.gov Admin Center, and find the `Activate` section, `API Access Key`. Copy this value to the `access_key` line in your Cloud.gov Pages `_config.yml` file.
 
-1. If you do not want \[type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the `suggestions` value to `false`.
+1. If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the `suggestions` value to `false`.
 2. When you're ready to launch your website, you will uncomment  the `url` line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.
 
 * If you tested using a demo domain, you'll need to update the `url` value to be your production domain.
