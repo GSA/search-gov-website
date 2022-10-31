@@ -82,7 +82,7 @@ Most content management systems provide tools to generate a sitemap and keep it 
 ### Drupal
 [XML Sitemap Module](https://www.drupal.org/project/xmlsitemap) 
 
-[Simple XML Sitemap Module](https://www.drupal.org/project/simple_sitemap) and [patch to include static files](https://www.drupal.org/files/issues/2021-06-30/simple_sitemap-files-support-2947456-29.patch?utm_campaign=Search.gov%20Newsletter&utm_medium=email&_hsmi=198438564&_hsenc=p2ANqtz-8yCCK6Ih9dYXGdUCAlfyRtU4zd72dP_UGQV--3em_Fzk-35YH-I6z3MG_GcqLHIbP6HN53wUScxZx0ivUCtUoIW9BGiQ&utm_content=198438564&utm_source=hs_email)
+[Simple XML Sitemap Module](https://www.drupal.org/project/simple_sitemap) and [patch to include static files](https://www.drupal.org/files/issues/2021-06-30/simple_sitemap-files-support-2947456-29.patch)
 
 ### Wordpress
 [Yoast SEO Plugin](https://wordpress.org/plugins/wordpress-seo/) 

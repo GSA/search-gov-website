@@ -3,7 +3,7 @@ layout: page
 title: Search.gov System Status
 tags: status support help
 description: This page provides the current operating status of the Search.gov system.
-last_modified_at: August 10, 2022
+last_modified_at: September 23, 2022
 sidenav: support
 ---
 
@@ -12,18 +12,22 @@ sidenav: support
 <!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Federalist. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
 
 <!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
-Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} ET - ongoing <br />
+Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
 Details: We are investigating a possible issue with our search service. We will provide updates every 30 minutes. -->
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 
-<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
-<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation in Bing Web Results <br />
-Date: June 14, 2022 - ongoing <br />
-Details: Beginning June 14, some sites using the Bing Web index started experiencing issues returning search results. Sites on the Search.gov in-house web index are not affected. We are actively working to resolve this issue. Please reach out to <a href="mailto:search@gsa.gov">search@gsa.gov</a> if you would like to switch your Bing-powered site to use the Search.gov in-house index. 
 
 ## Recent Events
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
+Date: October 26, 2022, 3:54 - 4:35PM ET <br />
+Details: From 3:54 - 4:35PM ET we experienced a partial degradation in our search. The issue appears to be resolved and Search.gov is now fully operational.
+
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation in Bing Web Results <br />
+Date: June 14, 2022 - September 22, 2022 <br />
+Details: Beginning June 14, some sites using the Bing Web index started experiencing issues returning search results. Sites on the Search.gov in-house web index are not affected. As of September 22, Bing believes the issue is resolved. Please reach out to <a href="mailto:search@gsa.gov">search@gsa.gov</a> if you continue to encounter any issues or would like to switch your Bing-powered site to use the Search.gov in-house index. 
 
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
 Date: August 3, 2022, 11:16AM ET - 11:23AM ET<br />
