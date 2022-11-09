@@ -46,4 +46,10 @@ In addition to HTML pages with their various file extensions, Search.gov indexes
 * TXT
 * Images can be indexed either using our [Flickr integration]({{ site.baseurl }}/admin-center/content/flickr.html), or by sending us an [MRSS feed]({{ site.baseurl }}/admin-center/content/rss.html). Note that images are not indexed during web page indexing, so you’ll need to use one of these two methods. 
 
-Please note that at this time we cannot index javascript content, [similar to most search engines](https://moz.com/blog/search-engines-ready-for-javascript-crawling). At this time we recommend your team adds well crafted, unique description text for each of your pages, or perhaps auto-generate description tag text from the first few lines of the article text. However the text is added, it should include the keywords you want the page to respond to in search, framed in plain language. This will give us, and other search engines, something to work with when we're matching and ranking results. See our discussion of description [metadata]({{ site.baseurl }}/indexing/metadata.html) for more information.
+{: #js-indexing }
+
+## Javascript-based content
+
+[Reach out to our team](mailto:search@gsa.gov) if you use Javascript to insert content into your pages. We can enable Javascript indexing on a per-domain basis. 
+
+For each page that is indexed with Javascript enabled, we allow up to 5 seconds for content to load. Because of this step, domains indexed with Javascript enabled do take slightly longer.
