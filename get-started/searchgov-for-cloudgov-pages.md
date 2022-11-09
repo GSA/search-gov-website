@@ -53,7 +53,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 </li>
 <li>If you're pulling search results into your website for display:<br />
 <ul>
-<li>Go to the Search.gov Admin Center, and find the <code>Activate</code>section, <code>API Access Key<code>. Copy this value to the <code>access_key</code>line in your Cloud.gov Pages <code>_config.yml</code>file.</li>
+<li>Go to the Search.gov Admin Center, and find the <code>Activate</code> section, <code>API Access Key</code>. Copy this value to the <code>access_key</code>line in your Cloud.gov Pages <code>_config.yml</code>file.</li>
 </ul>
 </li>
 <li>If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the <code>suggestions</code>value to <code>false<code>.</li>
