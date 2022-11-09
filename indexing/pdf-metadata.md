@@ -27,7 +27,7 @@ Similar to web pages, Search.gov relies on structured data in your PDF files to 
  * [What are good file naming conventions? — Oregon State University](https://webtech.training.oregonstate.edu/faq/what-are-good-file-naming-conventions)
 
 ## Make text in the document is searchable: 
-**Detail:** Search engines don’t provide readability for image only PDFs. If a PDF is created through a scan it often will be an image, preventing the text from being used to help find the file in customer searches. Run all scanned PDFs through Optical Character Recognition (OCR) to convert from an image to fully searchable text. For guides on running OCR we suggest [Is that PDF Searchable?](https://blogs.adobe.com/acrolaw/2007/02/is_that_pdf_sea/) (blog post) or [How to Create a Searchable PDF File](https://acrobatusers.com/tutorials/how-to-create-a-searchable-pdf-file/) (video)
+**Detail:** Search engines don’t provide readability for image only PDFs. If a PDF is created through a scan it often will be an image, preventing the text from being used to help find the file in customer searches. Run all scanned PDFs through Optical Character Recognition (OCR) to convert from an image to fully searchable text. For guides on running OCR we suggest [How to search a PDF](https://www.adobe.com/acrobat/resources/how-to-search-pdf.html) (instructions) or [How to Create a Searchable PDF File](https://acrobatusers.com/tutorials/how-to-create-a-searchable-pdf-file/) (video)
 
 **Used In:** Query matching, term frequency matching
 
