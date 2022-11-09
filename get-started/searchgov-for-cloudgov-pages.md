@@ -56,7 +56,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 <li>Go to the Search.gov Admin Center, and find the <code>Activate</code> section, <code>API Access Key</code>. Copy this value to the <code>access_key</code>line in your Cloud.gov Pages <code>_config.yml</code>file.</li>
 </ul>
 </li>
-<li>If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the <code>suggestions</code>value to <code>false<code>.</li>
+<li>If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the <code>suggestions</code>value to <code>false</code>.</li>
 <li>When you're ready to launch your website, you will uncomment  the <code>url</code>line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.<br />
 <ul>
 <li>If you tested using a demo domain, you'll need to update the <code>url</code>value to be your production domain.</li>
