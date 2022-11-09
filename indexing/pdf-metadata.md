@@ -9,9 +9,11 @@ last_modified_at: November 9, 2022
 sidenav: indexing
 ---
 
-You may have heard that PDFs are not the ideal document type for driving Search Engine Optimization. This is because much of the SEO value of PDFs is generally derived from metadata that must be created for each document file in a program such as Adobe Acrobat, which is a step that many often overlook. Non-HTML documents also fall lower in our ranking algorithm than HTML documents. However, if you do have PDFs on your domain, we have some tips to improve their discoverability.
+You may have heard that PDFs are not the ideal document type for driving Search Engine Optimization. This is because much of the SEO value for any file is derived from metadata inserted into the file. And for PDFs, this metadata must be created in each document file using a program such as Adobe Acrobat, and is a step that many often overlook. Non-HTML documents also fall lower in our ranking algorithm than HTML documents. However, if you do have PDFs on your website, we have some tips to improve their discoverability.
 
-Similar to web pages, Search.gov relies on structured data in your PDF files to present them in search results. By following these suggestions in preparing your PDF files you will improve the quality of your content in the index and the file’s ability to appear in the results rankings.
+Similar to web pages, Search.gov relies on structured metadata in your PDF files to present them in search results. By following these suggestions in preparing your PDF files, you will improve the quality of the data in our index and the file’s ability to appear in the results rankings.
+
+![Screenshot showing the Document Properties of a PDF. Editable fields include Title, Author, Subject, and Keywords. It also displays the file name, and the created and modified dates of the document.]({{ site.url }}/assets/img/site/pdf-metadata.png)
 
 ## Choose a descriptive file name: 
 **Example:**
@@ -19,15 +21,15 @@ Similar to web pages, Search.gov relies on structured data in your PDF files to 
 
 **Detail:** Similar to a title, a descriptive file name makes file content clear when a user downloads the file. We strongly recommend you do not use the default file name suggested by your scanner or PDF program, and instead insert the document title into the file properties using Adobe Acrobat or other PDF program. If a title is not set in the PDF file properties, the file name will appear in the search results page in place of the title. It’s best practice to use hyphens to separate words, rather than underscores. [Avoid using space characters and these uncommon characters in your file names.](https://www.mtu.edu/umc/services/digital/writing/characters-avoid/)
 
-**Used In:** If title isn’t set -- Query matching, term frequency matching
+**Used In:** Query matching, term frequency matching, and if the `title` tag is absent, the file name will be presented as the search result title.
 
 **Read More:** 
  * [The Ultimate Guide for an SEO-Friendly URL Structure — Search Engine Journal](https://www.searchenginejournal.com/technical-seo/url-structure/) 
  * [Filenames and file types — Google](https://developers.google.com/style/filenames) 
  * [What are good file naming conventions? — Oregon State University](https://webtech.training.oregonstate.edu/faq/what-are-good-file-naming-conventions)
 
-## Make text in the document is searchable: 
-**Detail:** Search engines don’t provide readability for image only PDFs. If a PDF is created through a scan it often will be an image, preventing the text from being used to help find the file in customer searches. Run all scanned PDFs through Optical Character Recognition (OCR) to convert from an image to fully searchable text. For guides on running OCR we suggest [How to search a PDF](https://www.adobe.com/acrobat/resources/how-to-search-pdf.html) (instructions) or [How to Create a Searchable PDF File](https://acrobatusers.com/tutorials/how-to-create-a-searchable-pdf-file/) (video)
+## Ensure text in the document is searchable: 
+**Detail:** Search engines don’t provide readability for image-only PDFs. Many PDFs now are created digitally, and the text is embedded in the file. however, if a PDF is created through a scan it often will be an image without embedded text, meaning the content cannot used to help find the file in search. Run all scanned PDFs through Optical Character Recognition (OCR) to convert from an image to fully searchable text. For guides on running OCR we suggest [How to search a PDF](https://www.adobe.com/acrobat/resources/how-to-search-pdf.html) (instructions) or [How to Create a Searchable PDF File](https://acrobatusers.com/tutorials/how-to-create-a-searchable-pdf-file/) (video)
 
 **Used In:** Query matching, term frequency matching
 
@@ -71,12 +73,10 @@ Similar to web pages, Search.gov relies on structured data in your PDF files to 
 
 **Used In:** Ranking fresher content higher than older content in the results.
 
-![Screenshot showing the Document Properties of a PDF. Editable fields include Title, Author, Subject, and Keywords. It also displays the file name, and the created and modified dates of the document.]({{ site.url }}/assets/img/site/pdf-metadata.png)
+# Resources
 
 Adobe has information about [editing document metadata](https://helpx.adobe.com/acrobat/using/pdf-properties-metadata.html) through xml files for PDF documents created in Acrobat 5.0 or later, and you can update the Modified date to your current date and time by re-saving your PDF file, but there is no simple way to edit these fields freely. If you are interested in having more control over dates affiliated with your PDF files, one approach to consider is using an RSS feed in your search.gov Admin Center to feed PDFs into your indexed items.
 
-# Resources
 We encourage you to read more on on how to improve PDF content for search at the following links:
 * [How to Optimize PDF Documents for Search](https://moz.com/ugc/how-to-optimize-pdf-documents-for-search)
 * [Add Metadata to a PDF in Acrobat - Instructions](https://www.teachucomp.com/add-metadata-to-a-pdf-in-acrobat-instructions/)
-
