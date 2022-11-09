@@ -142,6 +142,8 @@ primary_navigation:
         url: "/indexing/indexing-workflow.html"
       - name: Metadata and Tags
         url: "/indexing/metadata.html"
+      - name: "PDF Metadata"
+        url: "/indexing/pdf-metadata.html"
       - name: Website Redesign Tips
         url: "/indexing/redesign.html"
   - name: Support
@@ -263,6 +265,8 @@ indexing:
         children:
           - name: Metadata and Tags You Should Include in Your Website
             url: "/indexing/metadata.html"
+          - name: How to improve PDF discoverability
+            url: "/indexing/pdf-metadata.html"
           - name: How to Get Search Engines to Index the Right Content for Better Discoverability
             url: "/indexing/how-search-engines-index-content-better-discoverability.html"
   - name: Website Redesign Tips
