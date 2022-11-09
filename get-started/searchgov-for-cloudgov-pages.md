@@ -26,32 +26,33 @@ If you wish to test before launch, you'll need to publish the website to a publi
 
 1. Sign up for a [user account](https://search.usa.gov/signup).
 2. Read our [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html) if you’d like some direction.
-3. Create and configure a search site in our [Admin Center](https://search.usa.gov/sites), as described in the [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html). Highlights include:
-
-  * [Add a search site]({{ site.baseurl }}/manual/add-site.html)
-  * [Brand your hosted search results page]({{ site.baseurl }}/manual/brand.html)
-
+3. Create and configure a search site in our [Admin Center](https://search.usa.gov/sites), as described in the [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html). Highlights include:<br />
+<ul>
+<li>[Add a search site]({{ site.baseurl }}/manual/add-site.html)</li>
+<li>[Brand your hosted search results page]({{ site.baseurl }}/manual/brand.html)</li>
+<ul>
 4. Request that we index your domain by [emailing our team](mailto:search@gsa.gov). Note, the site must be publicly available for our indexer to be able to access your content.
 5. [Preview your search results]({{ site.baseurl }}/manual/preview.html) once the indexing is complete.
 
 ## On the Cloud.gov Pages side of things, part 2
 
 1. Open the `_config.yml` file in your Cloud.gov Pages repo.
-2. Add your site's domain to the `url` field, approximately line 25. Leave this line commented out for now.
-
-  * If you're testing pre-production, enter your **demo** domain in the `url` field, and uncomment the line to allow the XML sitemap to build using this demo domain.
-
+2. Add your site's domain to the `url` field, approximately line 25. Leave this line commented out for now.<br />
+<ul>
+<li>If you're testing pre-production, enter your **demo** domain in the `url` field, and uncomment the line to allow the XML sitemap to build using this demo domain.</li>
+<ul>
 3. Find the `Search.gov configuration` section following the navigation and sidebar configuration sections. Add your site handle from the Admin Center to the `affiliate` line.
-4. If you are using the hosted search results page:
-
-  * Delete the value in the `access_key` line and/or comment out the line.
-  * Set the `inline` value to `false`
-
-5. If you're pulling search results into your website for display:
-
-  * Go to the Search.gov Admin Center, and find the `Activate` section, `API Access Key`. Copy this value to the `access_key` line in your Cloud.gov Pages `_config.yml` file.
-
+4. If you are using the hosted search results page:<br />
+<ul>
+<li>Delete the value in the `access_key` line and/or comment out the line.</li>
+<li>Set the `inline` value to `false`.</li>
+<ul>
+5. If you're pulling search results into your website for display:<br />
+<ul>
+<li>Go to the Search.gov Admin Center, and find the `Activate` section, `API Access Key`. Copy this value to the `access_key` line in your Cloud.gov Pages `_config.yml` file.</li>
+<ul>
 6. If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the `suggestions` value to `false`.
-7. When you're ready to launch your website, you will uncomment  the `url` line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.
-
-  * If you tested using a demo domain, you'll need to update the `url` value to be your production domain.
+7. When you're ready to launch your website, you will uncomment  the `url` line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.<br />
+<ul>
+<li>If you tested using a demo domain, you'll need to update the `url` value to be your production domain.</li>
+<ul>
