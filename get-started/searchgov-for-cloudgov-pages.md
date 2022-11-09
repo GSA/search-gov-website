@@ -19,46 +19,46 @@ If you wish to test before launch, you'll need to publish the website to a publi
 
 ## On the Cloud.gov Pages side of things, part 1
 
-<ol><li>Open your `_config.yml` file in your Cloud.gov Pages repo. In the `plugins` section, confirm that the `jekyll-sitemap` gem is in the list. For more information, [read the docs here](https://github.com/jekyll/jekyll-sitemap) and the [instructions for GitHub Pages here](https://help.github.com/en/articles/sitemaps-for-github-pages).</li>
-<li> Discuss and decide which search results page to use. We recommend you use our hosted search results page. You can also pull search results into your website for display. Please note that at this time, pulling search results into your website will result in an incomplete set of search analytics.</li>
+<ol><li>Open your <pre>_config.yml</pre> file in your Cloud.gov Pages repo. In the <pre>plugins</pre>section, confirm that the <pre>jekyll-sitemap</pre> gem is in the list. For more information, <a href="https://github.com/jekyll/jekyll-sitemap">read the docs here</a> and the <a href="https://help.github.com/en/articles/sitemaps-for-github-pages">instructions for GitHub Pages here</a>.</li>
+<li>Discuss and decide which search results page to use. We recommend you use our hosted search results page. You can also pull search results into your website for display. Please note that at this time, pulling search results into your website will result in an incomplete set of search analytics.</li>
 </ol>
 
 ## On the Search.gov side of things:
 
-<ol><li>Sign up for a [user account](https://search.usa.gov/signup).</li>
-<li>Read our [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html) if you’d like some direction.</li>
-<li>Create and configure a search site in our [Admin Center](https://search.usa.gov/sites), as described in the [Search Site Launch Guide]({{ site.baseurl }}/manual/site-launch-guide.html). Highlights include:<br />
+<ol><li>Sign up for a <a href="https://search.usa.gov/signup">user account</a>.</li>
+<li>Read our <a href="{{ site.baseurl }}/manual/site-launch-guide.html">Search Site Launch Guide</a> if you’d like some direction.</li>
+<li>Create and configure a search site in our <a href="https://search.usa.gov/sites">Admin Center</a>, as described in the <a href="{{ site.baseurl }}/manual/site-launch-guide.html">Search Site Launch Guide</a>. Highlights include:<br />
 <ul>
 <li><a href="{{ site.baseurl }}/manual/add-site.html">Add a search site</a></li>
 <li><a href="{{ site.baseurl }}/manual/brand.html">Brand your hosted search results page</a></li>
 </ul></li>
-<li>Request that we index your domain by [emailing our team](mailto:search@gsa.gov). Note, the site must be publicly available for our indexer to be able to access your content.</li>
-<li>[Preview your search results]({{ site.baseurl }}/manual/preview.html) once the indexing is complete.</li>
+<li>Request that we index your domain by <a href="mailto:search@gsa.gov">emailing our team</a>. Note, the site must be publicly available for our indexer to be able to access your content.</li>
+<li><a href="{{ site.baseurl }}/manual/preview.html">Preview your search results</a> once the indexing is complete.</li>
 </ol>
 
 ## On the Cloud.gov Pages side of things, part 2
 
-<ol><li>Open the `_config.yml` file in your Cloud.gov Pages repo.</li>
-<li>Add your site's domain to the `url` field, approximately line 25. Leave this line commented out for now.<br />
+<ol><li>Open the <pre>_config.yml</pre> file in your Cloud.gov Pages repo.</li>
+<li>Add your site's domain to the <pre>url</pre> field, approximately line 25. Leave this line commented out for now.<br />
 <ul>
-<li>If you're testing pre-production, enter your **demo** domain in the `url` field, and uncomment the line to allow the XML sitemap to build using this demo domain.</li>
+<li>If you're testing pre-production, enter your **demo** domain in the <pre>url</pre> field, and uncomment the line to allow the XML sitemap to build using this demo domain.</li>
 </ul>
 </li>
-<li>Find the `Search.gov configuration` section following the navigation and sidebar configuration sections. Add your site handle from the Admin Center to the `affiliate` line.</li>
+<li>Find the <pre>Search.gov configuration</pre> section following the navigation and sidebar configuration sections. Add your site handle from the Admin Center to the <pre>affiliate</pre> line.</li>
 <li>If you are using the hosted search results page:<br />
 <ul>
-<li>Delete the value in the `access_key` line and/or comment out the line.</li>
-<li>Set the `inline` value to `false`.</li>
+<li>Delete the value in the <pre>access_key</pre> line and/or comment out the line.</li>
+<li>Set the <pre>inline</pre> value to <pre>false</pre>.</li>
 </ul>
 </li>
 <li>If you're pulling search results into your website for display:<br />
 <ul>
-<li>Go to the Search.gov Admin Center, and find the `Activate` section, `API Access Key`. Copy this value to the `access_key` line in your Cloud.gov Pages `_config.yml` file.</li>
+<li>Go to the Search.gov Admin Center, and find the <pre>Activate</pre>section, <pre>API Access Key<pre>. Copy this value to the <pre>access_key</pre>line in your Cloud.gov Pages <pre>_config.yml</pre>file.</li>
 </ul>
 </li>
-<li>If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the `suggestions` value to `false`.</li>
-</li>When you're ready to launch your website, you will uncomment  the `url` line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.<br />
+<li>If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the <pre>suggestions</pre>value to <pre>false<pre>.</li>
+<li>When you're ready to launch your website, you will uncomment  the <pre>url</pre>line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.<br />
 <ul>
-<li>If you tested using a demo domain, you'll need to update the `url` value to be your production domain.</li>
+<li>If you tested using a demo domain, you'll need to update the <pre>url</pre>value to be your production domain.</li>
 </ul></li>
 </ol>
