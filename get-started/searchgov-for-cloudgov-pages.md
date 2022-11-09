@@ -31,6 +31,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 <li>[Add a search site]({{ site.baseurl }}/manual/add-site.html)</li>
 <li>[Brand your hosted search results page]({{ site.baseurl }}/manual/brand.html)</li>
 <ul>
+
 4. Request that we index your domain by [emailing our team](mailto:search@gsa.gov). Note, the site must be publicly available for our indexer to be able to access your content.
 5. [Preview your search results]({{ site.baseurl }}/manual/preview.html) once the indexing is complete.
 
@@ -41,16 +42,20 @@ If you wish to test before launch, you'll need to publish the website to a publi
 <ul>
 <li>If you're testing pre-production, enter your **demo** domain in the `url` field, and uncomment the line to allow the XML sitemap to build using this demo domain.</li>
 <ul>
+
 3. Find the `Search.gov configuration` section following the navigation and sidebar configuration sections. Add your site handle from the Admin Center to the `affiliate` line.
+
 4. If you are using the hosted search results page:<br />
 <ul>
 <li>Delete the value in the `access_key` line and/or comment out the line.</li>
 <li>Set the `inline` value to `false`.</li>
 <ul>
+
 5. If you're pulling search results into your website for display:<br />
 <ul>
 <li>Go to the Search.gov Admin Center, and find the `Activate` section, `API Access Key`. Copy this value to the `access_key` line in your Cloud.gov Pages `_config.yml` file.</li>
 <ul>
+
 6. If you do not want [type-ahead search suggestions]({{ site.baseurl }}/manual/typeahead-api.html) to appear in your website’s search box, change the `suggestions` value to `false`.
 7. When you're ready to launch your website, you will uncomment  the `url` line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.<br />
 <ul>
