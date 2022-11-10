@@ -5,7 +5,7 @@ crumbname: What Search.gov Indexes
 category: admin-center
 tags: indexing seo
 date: April 24, 2019
-last_modified_at: April 24, 2019
+last_modified_at: November 10, 2022
 sidenav: indexing
 redirect_from:
     - /manual/what-searchgov-indexes.md
@@ -50,6 +50,8 @@ In addition to HTML pages with their various file extensions, Search.gov indexes
 
 ## Javascript-based content
 
-[Reach out to our team](mailto:search@gsa.gov) if you use Javascript to insert content into your pages. We can enable Javascript indexing on a per-domain basis. 
+Javascript frameworks like [Angular](https://angular.io/) and [React](https://reactjs.org/) insert content dynamically on a webpage.  These technologies pull structured information from databases into user-friendly webpages. To search this kind of content, we need to add a processing step to run all scripts before we try to index.
 
-For each page that is indexed with Javascript enabled, we allow up to 5 seconds for content to load. Because of this step, domains indexed with Javascript enabled do take slightly longer.
+If your site uses Javascript to insert content on your HTML pages, [reach out to our team](mailto:search@gsa.gov). We can enable Javascript indexing on a per-domain basis. 
+
+For each page indexed with Javascript enabled, we allow up to 5 seconds for content to load. Because of this step, domains indexed with Javascript enabled do take slightly longer.
