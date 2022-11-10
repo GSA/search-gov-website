@@ -1,5 +1,5 @@
 <!--
-  Federalist recommends you use Continuous Integration to automatically test
+  Cloud.gov Pages recommends you use Continuous Integration to automatically test
   and validate any new changes to your site. CircleCI is free for open source
   projcets. You should replace this badge with your own.
 
@@ -10,7 +10,7 @@
 
 # Search.gov Website 
 
-The Search.gov website serves as an educational resource and help manual for those using our service to power their site search. This website is based off of the [Federalist Jekyll template](https://github.com/18F/federalist-uswds-jekyll).
+The Search.gov website serves as an educational resource and help manual for those using our service to power their site search. This website is based off of the [Cloud.gov Pages Jekyll template](https://github.com/cloud-gov/pages-uswds-jekyll).
 
 This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.meritalk.com/articles/senate-passes-idea-act/). The standards require that a website or digital service:
 
@@ -29,7 +29,7 @@ We use NetlifyCMS as an easier way to edit the site content. Editing within this
 ### Logging In
 Navigate to [https://search.gov/admin/](https://search.gov/admin/) and login with your Github account.
 
-Note: You may get a message to log into [Federalist](https://federalistapp.18f.gov/sites) first. If so, log into Federalist and try to log in again to NetlifyCMS.
+Note: You may get a message to log into [Cloud.gov Pages](https://pages.cloud.gov/sites) first. If so, log into Cloud.gov Pages and try to log in again to NetlifyCMS.
 
 Once you log in successfully, you should see the following screen:
 ![NetlifyCMS Landing page, showing collections and posts](/assets/img/site/netlify-cms-landing.png)
@@ -54,7 +54,7 @@ Links will need to be added in markdown with the syntax below in order for our p
 [Link Text]({{ site.baseurl }}/folder1/folder2/index.html)
 ```
 
-{{ site.baseurl }} adds the correct folder path for the Federalist Preview URL to work.
+{{ site.baseurl }} adds the correct folder path for the Cloud.gov Pages preview URL to work.
 
 **Important Note** - if you are adding image or PDF references to any page within `admin-center`, use `{{ site.url }}` instead of `{{ site.baseurl }}`. This will add in "https://search.gov" to the URL, which means the resource will not appear until it exists in production. However, it will allow us to show that image within the preview modals in the Admin Center.
 
@@ -84,7 +84,7 @@ From the [NetlifyCMS Documentation](https://www.netlifycms.org/docs/configuratio
 | Edit draft |	Pushes another commit to the draft branch/pull request |
 | Approve and publish draft	| Merges pull request and deletes branch |
 
-Once you save changes to your draft, you'll be able to view a Preview link after Federalist builds the site. This will show as a link in the top right of the page editor.  
+Once you save changes to your draft, you'll be able to view a preview link after Cloud.gov Pages builds the site. This will show as a link in the top right of the page editor.  
 
 ## How to Edit the Site Locally 
 
@@ -110,7 +110,7 @@ docker-compose run ruby bundle exec jekyll build
 ```
 .
 
-Note that when built by Federalist, `npm run federalist` is used instead of
+Note that when built by Cloud.gov Pages, `npm run federalist` is used instead of
 `npm run build`.
 
 Open your web browser to [localhost:4000](http://localhost:4000/) to view your

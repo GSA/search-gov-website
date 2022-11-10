@@ -108,6 +108,8 @@ primary_navigation:
         url: "/get-started/go-live.html"
       - name: Results Page Feature Comparison
         url: "/admin-center/display/hosted-vs-api-results.html"
+      - name: Cloud.gov Pages Integration
+        url: "/get-started/searchgov-for-cloudgov-pages.html"
       - name: Training and Resources
         url: "/get-started/learn.html"
       - name: Website Redesign Tips
@@ -220,8 +222,8 @@ get_started:
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"
-      - name: Search.gov for Federalist
-        url: "/get-started/searchgov-for-federalist.html"
+      - name: Search.gov for Cloud.gov Pages
+        url: "/get-started/searchgov-for-cloudgov-pages.html"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
       - name: Training and Resources
