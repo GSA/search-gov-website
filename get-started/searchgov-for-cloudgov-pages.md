@@ -19,7 +19,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 
 ## On the Cloud.gov Pages side of things, part 1
 
-<ol><li>Open your <code>_config.yml</code> file in your Cloud.gov Pages repo. In the <code>plugins</code>section, confirm that the <code>jekyll-sitemap</code> gem is in the list. For more information, <a href="https://github.com/jekyll/jekyll-sitemap">read the docs here</a> and the <a href="https://help.github.com/en/articles/sitemaps-for-github-pages">instructions for GitHub Pages here</a>.</li>
+<ol><li>Open your <code>_config.yml</code> file in your Cloud.gov Pages repo. In the <code>plugins</code> section, confirm that the <code>jekyll-sitemap</code> gem is in the list. For more information, <a href="https://github.com/jekyll/jekyll-sitemap">read the docs here</a> and the <a href="https://help.github.com/en/articles/sitemaps-for-github-pages">instructions for GitHub Pages here</a>.</li>
 <li>Discuss and decide which search results page to use. We recommend you use our hosted search results page. You can also pull search results into your website for display. Please note that at this time, pulling search results into your website will result in an incomplete set of search analytics.</li>
 </ol>
 
@@ -53,12 +53,12 @@ If you wish to test before launch, you'll need to publish the website to a publi
 </li>
 <li>If you're pulling search results into your website for display:<br />
 <ul>
-<li>Go to the Search.gov Admin Center, and find the <code>Activate</code> section, <code>API Access Key</code>. Copy this value to the <code>access_key</code>line in your Cloud.gov Pages <code>_config.yml</code>file.</li>
+<li>Go to the Search.gov Admin Center, and find the <code>Activate</code> section, <code>API Access Key</code>. Copy this value to the <code>access_key</code> line in your Cloud.gov Pages <code>_config.yml</code> file.</li>
 </ul>
 </li>
-<li>If you do not want <a href="{{ site.baseurl }}/manual/typeahead-api.html">type-ahead search suggestions</a> to appear in your website’s search box, change the <code>suggestions</code>value to <code>false</code>.</li>
-<li>When you're ready to launch your website, you will uncomment  the <code>url</code>line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.<br />
+<li>If you do not want <a href="{{ site.baseurl }}/manual/typeahead-api.html">type-ahead search suggestions</a> to appear in your website’s search box, change the <code>suggestions</code> value to <code>false</code>.</li>
+<li>When you're ready to launch your website, you will uncomment  the <code>url</code> line, to allow your XML sitemap to build using your production domain. Then, let our team know you're live and we'll begin indexing.<br />
 <ul>
-<li>If you tested using a demo domain, you'll need to update the <code>url</code>value to be your production domain.</li>
+<li>If you tested using a demo domain, you'll need to update the <code>url</code> value to be your production domain.</li>
 </ul></li>
 </ol>
