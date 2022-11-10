@@ -2,9 +2,28 @@ $default-link-color: #005EA2;
 $side-navigation-highlight: #162e51;
 
 // Alert Banner Icon
+.alert-background {
+  background-color: #1a4480;
+}
+
+@media (max-width: 64rem) {
+  .alert-background .grid-container { 
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 64rem) {
+  .alert-background { 
+    padding-top: 2rem;
+  }
+}
+
 .usa-alert {
   padding-top: .75rem;
   padding-bottom: .75rem;
+  max-width: 74rem;
+  margin: 0 auto;
 
   &--info:before {
     background: url(../img/usa-icons/campaign.svg) no-repeat center/contain;  
