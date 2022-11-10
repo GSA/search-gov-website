@@ -41,7 +41,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 <ol><li>Open the <code>_config.yml</code> file in your Cloud.gov Pages repo.</li>
 <li>Add your site's domain to the <code>url</code> field, approximately line 25. Leave this line commented out for now.<br />
 <ul>
-<li>If you're testing pre-production, enter your **demo** domain in the <code>url</code> field, and uncomment the line to allow the XML sitemap to build using this demo domain.</li>
+<li>If you're testing pre-production, enter your <strong>demo</strong> domain in the <code>url</code> field, and uncomment the line to allow the XML sitemap to build using this demo domain.</li>
 </ul>
 </li>
 <li>Find the <code>Search.gov configuration</code> section following the navigation and sidebar configuration sections. Add your site handle from the Admin Center to the <code>affiliate</code> line.</li>
