@@ -2,7 +2,7 @@
 layout: page
 title: About Search.gov
 date: February 3, 2021
-last_modified_at: March 10, 2022
+last_modified_at: November 14, 2022
 sidenav: about_us
 ---
 Search.gov is a search engine built by the government, for the government. Available to federal agencies, we currently support over 300 million searches a year for about 2,200 websites, across one third of federal domains.
