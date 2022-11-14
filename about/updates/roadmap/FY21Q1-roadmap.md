@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Search.gov Roadmap FY 21 Q1
-crumbname: Roadmap FY 21 Q1
+title: Search.gov Roadmap Fiscal Year 2021 Quarter 1
+crumbname: Roadmap FY 2021 Q1
 category: about
 tags: roadmap
 breadcrumbs:
@@ -17,17 +17,17 @@ sidenav: about_us
 
 At Search.gov we aim to provide an excellent public search experience, a self-service search administration experience, and a rock-solid secure and compliant infrastructure to support it all, while keeping costs down across the government.
 
-We know it’s helpful for our partners at federal agencies to know what’s coming up next, to support planning for your own web platforms. 
+We know it's helpful for our partners at federal agencies to know what's coming up next, to support planning for your own web platforms. 
 
-This roadmap shows what we are working on now, and what we plan to be working after that. We’ll update this roadmap quarterly.
+This roadmap shows what we are working on now, and what we plan to be working after that. We'll update this roadmap quarterly.
 
 
-## FY 21 Q1: October &ndash; December 2020
+## FY 2021 Q1: October&ndash;December 2020
 
 ### Now
 
 * **Finalize click tracking in the Results API**
-  * For customers using the results API, we are working to include more features that are available for our users who use the hosted results page. Soon we’ll have a way to feed click data into our analytics for your reporting needs, and it will also allow us to use that data as a ranking factor in our relevance algorithm.
+  * For customers using the results API, we are working to include more features that are available for our users who use the hosted results page. Soon we'll have a way to feed click data into our analytics for your reporting needs, and it will also allow us to use that data as a ranking factor in our relevance algorithm.
 * **Version Upgrades**
   * We will be upgrading our Elasticsearch and JQuery components to keep them up-to-date and lay the groundwork for more efficient performance and, eventually, great new search features.
 * **Search.gov website redesign**
@@ -57,5 +57,5 @@ If you have questions or comments, please feel free to [reach out](mailto:search
 
 ## Previous Roadmaps
 
-* [FY 20 Q4: July &ndash; September, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
-* [FY 20 Q3: April &ndash; June, 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q3-roadmap.html)
+* [FY 2020 Q4: July&ndash;September 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q4-roadmap.html)
+* [FY 2020 Q3: April&ndash;June 2020]({{ site.baseurl}}/about/updates/roadmap/FY20Q3-roadmap.html)

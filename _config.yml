@@ -90,6 +90,8 @@ primary_navigation:
         url: "/about/updates/roadmap/"
       - name: Release Notes
         url: "/about/updates/releases/"
+      - name: Newsletters
+        url: "/about/updates/newsletters/"
       - name: Share Your Feedback
         url: "/about/feedback.html"
       - name: For Developers
@@ -106,6 +108,8 @@ primary_navigation:
         url: "/get-started/go-live.html"
       - name: Results Page Feature Comparison
         url: "/admin-center/display/hosted-vs-api-results.html"
+      - name: Cloud.gov Pages Integration
+        url: "/get-started/searchgov-for-cloudgov-pages.html"
       - name: Training and Resources
         url: "/get-started/learn.html"
       - name: Website Redesign Tips
@@ -140,6 +144,8 @@ primary_navigation:
         url: "/indexing/indexing-workflow.html"
       - name: Metadata and Tags
         url: "/indexing/metadata.html"
+      - name: "PDF Metadata"
+        url: "/indexing/pdf-metadata.html"
       - name: Website Redesign Tips
         url: "/indexing/redesign.html"
   - name: Support
@@ -176,6 +182,8 @@ about_us:
       url: "/about/updates/roadmap/"
     - name: Release Notes
       url: "/about/updates/releases/"
+    - name: Newsletters
+      url: "/about/updates/newsletters/"
     - name: Share Your Feedback
       url: "/about/feedback.html"
   - name: Related Resources
@@ -214,8 +222,8 @@ get_started:
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"
-      - name: Search.gov for Federalist
-        url: "/get-started/searchgov-for-federalist.html"
+      - name: Search.gov for Cloud.gov Pages
+        url: "/get-started/searchgov-for-cloudgov-pages.html"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
       - name: Training and Resources
@@ -259,6 +267,8 @@ indexing:
         children:
           - name: Metadata and Tags You Should Include in Your Website
             url: "/indexing/metadata.html"
+          - name: How to improve PDF discoverability
+            url: "/indexing/pdf-metadata.html"
           - name: How to Get Search Engines to Index the Right Content for Better Discoverability
             url: "/indexing/how-search-engines-index-content-better-discoverability.html"
   - name: Website Redesign Tips
@@ -348,6 +358,9 @@ collections:
   releases:
     output: true
     permalink: /about/updates/releases/:title:output_ext
+  newsletters:
+    output: true
+    permalink: /about/updates/newsletters/:title:output_ext
 
 
 permalink: /:categories/:title:output_ext
