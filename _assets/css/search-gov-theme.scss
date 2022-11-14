@@ -2,6 +2,41 @@ $default-link-color: #005EA2;
 $side-navigation-highlight: #162e51;
 
 // Alert Banner Icon
+.alert-background {
+  background-color: #1a4480;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.usa-alert--info .usa-alert__body {
+  padding-left: 2rem;
+}
+
+.usa-alert__body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width: 64rem) {
+  .alert-background .grid-container { 
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .usa-alert--info:before {
+    display: none;
+  }
+
+  .usa-alert--info .usa-alert__body {
+    padding-left: 1rem;
+  }
+
+}
+
+*+.usa-alert {
+  margin-top: 0;
+}
+
 .usa-alert {
   padding-top: .75rem;
   padding-bottom: .75rem;

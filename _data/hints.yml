@@ -11,7 +11,7 @@ document_collection:
 # https://search.usa.gov/sites/1/domains/8/new
 # https://search.usa.gov/sites/1/domains/8/edit
 site_domain:
-  domain: Leave off www to include all subdomains. Use www for results from www.agency.gov only.
+  domain: Leave off www to include all subdomains. Use www for results from www.agency.gov only. If your domain contains Javascript-based content, email our team.
 
 
 # https://search.usa.gov/sites/1/users/new
