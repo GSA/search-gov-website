@@ -29,10 +29,11 @@ In 2010, Search.gov moved to open-source software and expanded its use to agenci
 * **Dawn Pointer McCleskey** &ndash; Program Manager
 * **Arantxa Piperova** &ndash; Customer Success Manager
 * **Amani Farooque** &ndash; Product Manager
+* **Timothy Bill** &ndash; Scrummaster
 * **Robert Fink** &ndash; Technical Lead and DevOps
 * **Martha Thompson** &ndash; Senior Developer
-* **Yogesh Asthana** &ndash; Developer
 * **Bhavith Katpally** &ndash; Developer
-* **James Miller** &ndash; Developer
 * **Dan Swick** &ndash; Developer
+* **Dariusz Dzien** &ndash; Developer
 * **Lora Woodford** &ndash; Developer
+* **Yogesh Asthana** &ndash; Developer
