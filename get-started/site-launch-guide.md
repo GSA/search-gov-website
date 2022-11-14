@@ -120,6 +120,6 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 **What:** Once you’re ready to go live with your search site, take a look at the [Go-Live Checklist]({{ site.baseurl }}/get-started/go-live.html) to make sure you've covered all your bases. Then you will need to modify the form code for the search box on your website. We provide simple pre-formatted code in the Admin Center, or you can include these same parameters in another style of search box. [Read more and see required parameters here]({{ site.baseurl }}/admin-center/activate/code.html). 
 
-If you publish your site on Federalist, read these [alternative instructions]({{ site.baseurl }}/get-started/searchgov-for-federalist.html).
+If you publish your site on Cloud.gov Pages, read these [alternative instructions]({{ site.baseurl }}/get-started/searchgov-for-cloudgov-pages.html).
 
 You’re now live with Search.gov!

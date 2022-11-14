@@ -9,7 +9,7 @@ sidenav: support
 
 ## Current Status
 
-<!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Federalist. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
+<!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
 
 <!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
 Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
