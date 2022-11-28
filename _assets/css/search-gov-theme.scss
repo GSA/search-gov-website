@@ -141,6 +141,14 @@ main {
   width: 8rem;
 }
 
+// Code Block Styling
+
+pre.highlight {
+  background-color: #f0f0f0;
+  border: 1px solid #dfe1e2;
+  padding: 1rem;
+}
+
 @import 'components/header';
 @import 'components/hero';
 @import 'components/why-search-gov';
