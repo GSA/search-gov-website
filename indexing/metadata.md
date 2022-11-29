@@ -72,6 +72,20 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
   </div>
 </div>
 
+### Fields by Type
+
+|[Standard Fields](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name)|[OpenGraph Fields](https://ogp.me/)|[DublinCore Fields](https://www.dublincore.org/)|
+|:----:|:----:|:----:|:----:|
+|[`<main>`](#main-page-content)|[`og:title`](#title)|[`dcterms.keywords`](#tags)|
+|[`<title>`](#title)|[`og:description`](#description)|[`dc.subject`](#tags)|
+|[`description`](#description)|[`article:section`](#tags)|[`dcterms.subject`](#tags)|
+|[`keywords`](#tags)|[`article:tag`](#tags)|[`dcterms.audience`](#audience)|
+|[`robots`](#crawling-metadata)|[`article:published_time`](#created-date)|[`dc.type`](#content-type)|
+||[`article:modified_time`](#changed-date)|[`dcterms.type`](#content-type)|
+||[`og:image`](#thumbnail-image)|[`dc.date`](#created-date)|
+|||[`dc.date.created`](#created-date)|
+|||[`dcterms.created`](#created-date)|
+
 
 ### Main Page Content
 ```
@@ -166,9 +180,8 @@ The following fields will be used to support new features coming available in th
 ```
 <meta name="dc.type" content="foo">
 <meta name="dcterms.type" content="foo">
-<meta name="dcterms.type" content="foo">
 ```
-- **Detail:** The content type of the page. We combine these fields into one "Audience" field for searching and filtering.
+- **Detail:** The content type of the page. We combine these fields into one "Content Type" field for searching and filtering.
 - **Used In:** Faceted search
 
 
