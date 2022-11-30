@@ -53,9 +53,6 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
           <a class="usa-summary-box__link" href="#crawling-metadata">Crawling Metadata</a> 
         </li>
         <li>
-          <a class="usa-summary-box__link" href="#crawling-metadata">Crawling Metadata</a> 
-        </li>
-        <li>
           <a class="usa-summary-box__link" href="#thumbnail-image">Thumbnail Image</a> 
         </li>
         <li>
