@@ -332,7 +332,7 @@ tasks:
 searchgov:
 
   # You should not change this.
-  endpoint: https://find.search.gov
+  endpoint: https://pusheen.staging.search.usa.gov
 
   # replace this with your search.gov account
   affiliate: usasearch
