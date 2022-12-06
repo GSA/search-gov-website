@@ -16,9 +16,14 @@ There may be times when you want to add a system alert to your search results pa
 
 Use the Search Page Alert feature to add a text message to your search results page, which will appear at all times above all search results, *regardless of the query*. Enter a title and text for the alert, set the status to active, and hit `Save` to turn on your alert. The appearance of the alert is not customizable.
 
-See, for example, the custom alert on Defense.gov announcing their migration to a new system.
+## Suggested format:
+* **Title:** `Search index is being rebuilt`
+* **Text:** `We are launching a new example.gov. If your search does not return the content you expected, please check back soon for updated results.`
+* **Status:** If you are not ready for the alert to be displayed, set the status of the alert to `Inactive`. Set it to `Active` when you are ready for searchers to see it.
 
-![Custom System Alert on State.gov]({{ site.url }}/assets/img/site/system-alert.png "Custom System Alert on state.gov")
+See, for example, the custom alert on State.gov announcing their migration to a new system.
+
+![Custom System Alert on State.gov]({{ site.url }}/assets/img/site/system-alert.png "Custom System Alert on State.gov which reads, Attention. We recently archived our website. If your search does not return the content expected, please check 2017-2021.state.gov")
 
 ---
 
