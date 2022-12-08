@@ -41,7 +41,7 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
           <a class="usa-summary-box__link" href="#description">Description</a> 
         </li>
         <li>
-          <a class="usa-summary-box__link" href="#tags">Tags</a> 
+          <a class="usa-summary-box__link" href="#tags--keywords">Tags</a> 
         </li>
         <li>
           <a class="usa-summary-box__link" href="#created-date">Created Date</a> 
@@ -73,10 +73,10 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
 
 |[Standard Fields](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name)|[OpenGraph Fields](https://ogp.me/)|[DublinCore Fields](https://www.dublincore.org/)|
 |:----|:----|:----|:----|
-|[`<main>`](#main-page-content)|[`og:title`](#title)|[`dcterms.keywords`](#tags)|
-|[`<title>`](#title)|[`og:description`](#description)|[`dc.subject`](#tags)|
-|[`description`](#description)|[`article:section`](#tags)|[`dcterms.subject`](#tags)|
-|[`keywords`](#tags)|[`article:tag`](#tags)|[`dcterms.audience`](#audience)|
+|[`<main>`](#main-page-content)|[`og:title`](#title)|[`dcterms.keywords`](#tags--keywords)|
+|[`<title>`](#title)|[`og:description`](#description)|[`dc.subject`](#tags--keywords)|
+|[`description`](#description)|[`article:section`](#tags--keywords)|[`dcterms.subject`](#tags--keywords)|
+|[`keywords`](#tags--keywords)|[`article:tag`](#tags--keywords)|[`dcterms.audience`](#audience)|
 |[`robots`](#crawling-metadata)|[`article:published_time`](#created-date)|[`dc.type`](#content-type)|
 ||[`article:modified_time`](#changed-date)|[`dcterms.type`](#content-type)|
 ||[`og:image`](#thumbnail-image)|[`dc.date`](#created-date)|
