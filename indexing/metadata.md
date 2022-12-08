@@ -8,7 +8,7 @@ redirect_from:
   - /manual/metadata.html
 tags: indexing seo
 date: September 1, 2020
-last_modified_at: September 1, 2020
+last_modified_at: December 8, 2022
 sidenav: indexing
 ---
 
@@ -72,7 +72,7 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
 ### Fields by Type
 
 |[Standard Fields](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name)|[OpenGraph Fields](https://ogp.me/)|[DublinCore Fields](https://www.dublincore.org/)|
-|:----:|:----:|:----:|:----:|
+|:----|:----|:----|:----|
 |[`<main>`](#main-page-content)|[`og:title`](#title)|[`dcterms.keywords`](#tags)|
 |[`<title>`](#title)|[`og:description`](#description)|[`dc.subject`](#tags)|
 |[`description`](#description)|[`article:section`](#tags)|[`dcterms.subject`](#tags)|
@@ -85,6 +85,7 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
 
 
 ### Main Page Content
+We look for the following field:
 ```
 <main>
 ```
@@ -92,59 +93,71 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
 - **Used In:** Query matching, term frequency scoring
 
 ### Title
+
+We look for the following fields:
 ```
 <title>
-<meta property="og:title" content="Title goes here" />
+<meta property="og:title" content="Example" />
 ```
 - **Detail:** Unique title of the page. If you want to include the agency or section name, place that after the actual page title. We use the `og:title` property as the result title if it appears to be more substantive than the `<title>` tag. Note, Open Graph elements are used to display previews of your content in FaceBook and some other social media platforms.
+- **Data Gathering Logic:** We prefer whichever title field is longer between the two.
 - **Used In:** Query matching, term frequency scoring
 
 
 ### Description
+
+We look for the following fields:
 ```
-<meta name="description" content="foo" />
-<meta property="og:description" content="Description goes here" />
+<meta name="description" content="Example" />
+<meta property="og:description" content="Example" />
 ```
 - **Detail:** Your well crafted, plain language summary of the page content. This will often be used by search engines in place of a page snippet. Be sure to include the keywords you want the page to rank well for. Best to limit to 160 characters, so it will not be truncated. [Read more here](https://moz.com/learn/seo/meta-description). Note, Open Graph elements are used to display previews of your content in FaceBook and some other social media platforms.
 - **Used In:** Query matching, term frequency scoring
 
-### Tags
+### Tags & Keywords
 
+We look for the following fields:
 ```
-<meta name="keywords" content="foo bar baz" />
-<meta name="dcterms.keywords" content="foo" />
-<meta name="dc.subject" content="foo" />` 
-<meta name="dcterms.subject" content="foo" />
-<meta name="article:tag" content="foo" />
-<meta name="article:section" content="foo" />
+<meta name="keywords" content="example, example 2, example 3" />
+<meta name="dcterms.keywords" content="example" />
+<meta name="dc.subject" content="example" />` 
+<meta name="dcterms.subject" content="example" />
+<meta name="article:tag" content="example" />
+<meta name="article:section" content="example" />
 ```
-- **Detail:** While not often used by commercial search engines due to [keyword stuffing](https://support.google.com/webmasters/answer/66358?hl=en), Search.gov indexes your keywords, if you have added them. We pull all fields listed into one "Tags" field for searching and future facet filtering.
-- **Used In:** Query matching, term frequency scoring
+- **Detail:** While not often used by commercial search engines due to [keyword stuffing](https://support.google.com/webmasters/answer/66358?hl=en), Search.gov indexes your keywords, if you have added them. 
+- **Data Gathering Logic:** We pull all fields listed into one "Tags" field for searching and future facet filtering.
+- **Used In:** Query matching, term frequency scoring, faceted search (upcoming feature)
 
 
 ### Created Date
 
+We look for the following fields:
 ```
 <meta property="article:published_time" content="YYYY-MM-DD" />
-<meta name="dc.date" content="foo" />
-<meta name="dc.date.created" content="foo" />`  
-<meta name="dcterms.created" content="foo" />
+<meta name="dc.date" content="YYYY-MM-DD" />
+<meta name="dc.date.created" content="YYYY-MM-DD" />`  
+<meta name="dcterms.created" content="YYYY-MM-DD" />
 ```
 - **Detail:** The date fields are listed in order of preference. We only accept one `created` date, and use this list to determine the fallback options. Exact time is optional; [read more here](https://en.wikipedia.org/wiki/ISO_8601).
-- **Used In:** Page freshness scoring.
+- **Used In:** Page freshness scoring, faceted search (upcoming feature)
 
 
 ### Changed Date
+
+We look for the following fields:
 ```
 <meta property="article:modified_time" content="YYYY-MM-DD" />
 <lastmod>
 ```
 
 - **Detail:** Exact time is optional; [read more here](https://en.wikipedia.org/wiki/ISO_8601). The `<lastmod>` field is included in XML sitemaps to signal to search engines when a page was last modified. Search.gov collects this metadata in case there is no `article:modified_time` data included in the page itself.
-- **Used In:** Page freshness scoring.
+- **Used In:** Page freshness scoring, faceted search (upcoming feature)
 
 
 ### Crawling Metadata
+
+We look for the following field:
 ```
 <meta name="robots" content="..., ..." />
 ```
@@ -155,41 +168,49 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
 
 
 ## Upcoming Metadata Support
-The following fields will be used to support new features coming available in the next few months. While they won't impact your search until those features are released, we recommend incorporating these fields into your documents now to take advantage of these features faster later.
+The following fields will power new features coming in the next few months. These will not impact your search until we release those features. We recommend adding these fields to your documents *now* to use these new features sooner. 
 
 ### Thumbnail Image
+
+We look for the following field:
 ```
 <meta property="og:image" content="https://domain.com/my-image-url.jpg" />
 ```
 - **Detail:** An image associated to the content. Ideally, this image serves well as a thumbnail on both our search results page and on social media websites like Facebook and Twitter.
-- **Used In:** Results page display 
+- **Used In:** Results page display (upcoming feature)
 
 
 ### Audience
+
+We look for the following field:
 ```
-<meta name="dcterms.audience" content="foo">
+<meta name="dcterms.audience" content="example">
 ```
 - **Detail:** The intended audience of the page. 
-- **Used In:** Query matching, faceted search
+- **Used In:** Query matching, faceted search (upcoming feature)
 
 
 ### Content Type
+
+We look for the following fields:
 ```
-<meta name="dc.type" content="foo">
-<meta name="dcterms.type" content="foo">
+<meta name="dc.type" content="example">
+<meta name="dcterms.type" content="example">
 ```
 - **Detail:** The content type of the page. We combine these fields into one "Content Type" field for searching and filtering.
-- **Used In:** Faceted search
+- **Used In:** Faceted search (upcoming feature)
 
 
 ### Search.gov Custom Fields
+
+We look for the following fields:
 ```
 <meta name="searchgov_custom1" content="..., ..., ...">
 <meta name="searchgov_custom2" content="..., ..., ...">
 <meta name="searchgov_custom3" content="..., ..., ...">
 ```
-- **Detail:** These fields can hold any text content that you want to surface in your faceted search options. The fields accept single values or list-type content. 
-- **Used In:** Query matching, faceted search
+- **Detail:** These fields can support any text content that you want to surface in your faceted search options. The fields accept single values or list-type content. 
+- **Used In:** Query matching, faceted search (upcoming feature)
 
 
 
