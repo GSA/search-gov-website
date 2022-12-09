@@ -144,9 +144,12 @@ main {
 // Code Block Styling
 
 pre.highlight {
+  padding: 1rem;
+}
+
+.highlighter-rouge {
   background-color: #f0f0f0;
   border: 1px solid #dfe1e2;
-  padding: 1rem;
 }
 
 @import 'components/header';
