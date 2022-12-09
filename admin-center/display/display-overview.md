@@ -15,8 +15,9 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 Related resource: [Comparison of our hosted search results page and our results API]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html)
 
 ## Facets
-
 > These features are only available on the hosted search results page.
+
+{% include featured-accordion.html content="facet-renaming" accordion=false %}
 
 **Label.** By default, we use the label 'Search' for your facets. Enter a label in the label field if you'd like something other than this default. Keep your label consistent with the options you're listing and under 15 characters.
 

@@ -30,6 +30,8 @@ We'll show the videos by default. You can toggle the settings for showing your v
 
 **Facet**
 
+{% include featured-accordion.html content="facet-renaming" accordion=false %}
+
 ![Videos Facet on DigitalGov.gov]({{ site.url }}/assets/img/site/Videos-Facet.png "Videos Facet on DigitalGov.gov"){:height="95%" width="95%"}
 
 **Inline Module**
