@@ -147,7 +147,7 @@ We look for the following fields:
 
 ### Changed Date
 
-We look for the following fields:
+We look for the following field:
 ```
 <meta property="article:modified_time" content="YYYY-MM-DD" />
 ```
