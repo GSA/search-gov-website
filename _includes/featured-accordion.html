@@ -23,6 +23,8 @@
                         How to Index with Search.gov
                     {% when "manage-account" %}
                         Create or Edit Your User Account
+                    {% when "facet-renaming" %}
+                        Future Feature: Faceted Search
                     {% else %}
                         Related Content
                 {% endcase %}
@@ -93,6 +95,8 @@
                         For sites switching from Bing: When you give us the green light to switch to the new index, there is no action needed on your part other than the approval. We will change a setting in our back end, which will point your existing search site’s web results module to our index, and the change is effective immediately. All other elements of your search site remain the same: search features, branding, etc.
                     {% when "manage-account" %}
                         <a href="{{ site.baseurl }}/get-started/account.html#sign-up">Register for a new account</a>, <a href="{{ site.baseurl }}/get-started/account.html#login">log in</a> to make changes to an existing account, or <a href="{{ site.baseurl }}/support.html">find information</a> on how to resolve issues accessing your account.
+                    {% when "facet-renaming" %}
+                        <i><strong>Note:</strong> We are releasing a true faceted search feature in early 2023. At that point, we will be renaming the existing search facet features to avoid confusion.</i>
                     {% else %}
                 {% endcase %}
         {% if include.accordion %}

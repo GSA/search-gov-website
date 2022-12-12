@@ -26,6 +26,8 @@ Paths that are three or more subfolders deep may not return results immediately.
 
 ## Step 2. Opt to Show As a Facet
 
+{% include featured-accordion.html content="facet-renaming" accordion=false %}
+
 Click on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. Turn on your collection to allow searchers to see it as a search facet in the navigation bar above the search box on the results page (in the desktop view), or in the search menu (on smaller screens).
 
 ## Step 3. Check Your Search Results Page

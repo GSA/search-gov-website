@@ -88,6 +88,8 @@ If you opted to show your RSS feed(s) as a module, searchers will see inline new
 
 ### Facet
 
+{% include featured-accordion.html content="facet-renaming" accordion=false %}
+
 If you opted to show your RSS feed(s) as a facet, searchers can narrow their results to see only RSS-based content by clicking on the facet.
 
 Within the RSS-based results, searchers can opt to limit results to the last hour, day, week, month, or year, or they can set a custom date range. They also can sort results in descending order by relevance (best match first) or date (most recent first).

@@ -29,6 +29,8 @@ Your pre-launch checklist will be unique to your agency's workflow, requirements
 
 <i class="icon-check"></i> **6. Have you told us what to show on your results page?** Turn on (or off) the inline modules and facets that you want to appear on your search results page. You can change the default settings on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page in the Admin Center.
 
+{% include featured-accordion.html content="facet-renaming" accordion=false %}
+
 ## Connect Your Site to Search.gov
 
 Most agencies add these two [snippets of code]({{ site.baseurl }}/admin-center/activate/code.html) to the template(s) in their websites or content management systems (rather than adding them to individual pages).
