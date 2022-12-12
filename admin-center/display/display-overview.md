@@ -15,9 +15,9 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 Related resource: [Comparison of our hosted search results page and our results API]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html)
 
 ## Facets
-> These features are only available on the hosted search results page.
-
 {% include featured-accordion.html content="facet-renaming" accordion=false %}
+
+These features are only available on the hosted search results page.
 
 **Label.** By default, we use the label 'Search' for your facets. Enter a label in the label field if you'd like something other than this default. Keep your label consistent with the options you're listing and under 15 characters.
 
@@ -32,7 +32,7 @@ Type over the text in the Name field to edit a facet's display name. Keep each n
 
 ## Modules
 
-> These options control what types of search results are returned, and apply to both the hosted search results page and the search results API.
+These options control what types of search results are returned, and apply to both the hosted search results page and the search results API.
 
 **On/Off Options for Modules.** Turn on a module to allow searchers to see inline, contextually relevant results for selected content sources based on keyword matches with relevant queries. There are eight types of modules.
 
@@ -55,7 +55,7 @@ Type over the text in the Name field to edit a facet's display name. Keep each n
 
 ## Related Sites
 
-> This feature is only available on the hosted search results page.
+This feature is only available on the hosted search results page.
 
 Help visitors find content relevant to their search query that resides on other websites, such as the site for your parent organization or your Spanish-language site. When searchers click on the link to the related site, they see search results for their query on the related site.
 
