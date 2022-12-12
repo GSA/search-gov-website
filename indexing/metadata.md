@@ -71,6 +71,7 @@ Details on what we index for PDFs can be found in our [PDF Metadata documentatio
 
 ### Fields by Type
 
+{: .usa-table .usa-table--compact}
 |[Standard Fields](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name)|[OpenGraph Fields](https://ogp.me/)|[DublinCore Fields](https://www.dublincore.org/)|
 |:----|:----|:----|:----|
 |[`<main>`](#main-page-content)|[`og:title`](#title)|[`dcterms.keywords`](#tags--keywords)|
