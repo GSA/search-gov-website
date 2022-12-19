@@ -2,13 +2,14 @@
 layout: page
 title: How to Index with Search.gov
 crumbname: Indexing
-category: admin-center
 tags: indexing seo
 date: April 9, 2019
 last_modified_at: April 9, 2019
-sidenav: indexing
+subnav:
+  data: indexing
 redirect_from: 
   - /manual/indexing-with-searchgov.html
+  - /indexing/indexing-with-searchgov.html
 ---
 
 {% include featured-accordion.html content="indexing-short" accordion=true expanded=false %}

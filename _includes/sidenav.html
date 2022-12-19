@@ -3,20 +3,11 @@ The sidenav is not loaded by default on the main pages. To include this navigati
 _layouts/page.html layout template, or you can add a "sidenav" property in the front-matter of your page corresponding to a list in the main config file
 {% endcomment %}
 
-{% assign basedir = page.url | replace: "/", "" | lstrip %}
-
-<aside class="sidenav-testing" id="page-side-navigation">
+<aside class="sidenav" id="page-side-navigation">
   <ul class="site-sidenav usa-sidenav">
-    {% assign links = site.data.sidenav.primary %}
-    {% include nav/list.html links=links current='contains' %}
+    {% assign links = site.data.nav.primary %}
+    {% include nav/list.html links=links flat=false current='contains' %}
   </ul>
-  
-  <!-- <ul>
-    {% for link in links %}
-      <p>{{ link.href }}</p>
-      <p>{{ link.text }}</p>
-    {% endfor %}
-  </ul> -->
 </aside>
 
 <!-- <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">

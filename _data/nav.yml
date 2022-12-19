@@ -1,14 +1,19 @@
 primary:
   - text: About
     href: /about/
+    collapsible: true
   - text: Get Started
     href: /get-started/
+    collapsible: true
   - text: Admin Center
-    href: /admin-center/index.html
+    href: /admin-center/
+    collapsible: true
   - text: Manage your index
-    href: /indexing/indexing-with-searchgov.html
+    href: /indexing/
+    collapsible: true
   - text: Support
     href: /support.html
+    collapsible: true
   - text: For Developers
     href: /developer/
 
