@@ -4,7 +4,22 @@ _layouts/page.html layout template, or you can add a "sidenav" property in the f
 {% endcomment %}
 
 {% assign basedir = page.url | replace: "/", "" | lstrip %}
-<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+
+<aside class="sidenav-testing" id="page-side-navigation">
+  <ul class="site-sidenav usa-sidenav">
+    {% assign links = site.data.sidenav.primary %}
+    {% include nav/list.html links=links current='contains' %}
+  </ul>
+  
+  <!-- <ul>
+    {% for link in links %}
+      <p>{{ link.href }}</p>
+      <p>{{ link.text }}</p>
+    {% endfor %}
+  </ul> -->
+</aside>
+
+<!-- <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
       {% for nav_item in site[include.sidenav] %}
@@ -59,4 +74,4 @@ _layouts/page.html layout template, or you can add a "sidenav" property in the f
       {% endfor %}
     </ul>
   </nav>
-</aside>
+</aside> -->

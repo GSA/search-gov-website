@@ -4,6 +4,25 @@ title: About Search.gov
 date: February 3, 2021
 last_modified_at: November 14, 2022
 sidenav: about_us
+subnav: 
+  - text: Why Choose Search.gov?
+    href: "/about/why-choose-searchgov.html"
+  - text: Customers
+    href: "/about/customers.html"
+  - text: Search.gov in Policy
+    href: "/about/policy/"
+  - text: Year in Review
+    href: "/about/updates/year-in-review/"
+  - text: Security and Compliance
+    href: "/about/security.html"
+  - text: Our Product Roadmap
+    href: "/about/updates/roadmap/"
+  - text: Release Notes
+    href: "/about/updates/releases/"
+  - text: Newsletters
+    href: "/about/updates/newsletters/"
+  - text: Share Your Feedback
+    href: "/about/feedback.html"
 ---
 Search.gov is a search engine built by the government, for the government. Available to federal agencies, we currently support over 300 million searches a year for about 2,200 websites, across one third of federal domains.
 
