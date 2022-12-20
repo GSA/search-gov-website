@@ -32,7 +32,7 @@ module USWDS
 
   private def _resolve_from(href, pages)
     pages
-      .select { |page| page.permalink == href }
+      .select { |page| page.url == href }
       .first
   end
 
