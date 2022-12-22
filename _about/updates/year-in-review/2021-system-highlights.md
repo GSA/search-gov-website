@@ -5,8 +5,7 @@ description: Search.gov made many improvements in system structure and security 
 tags: release-notes year-in-review
 date: January 19, 2022
 last_modified_at: January 19 2022
-#subnav:
-  #data: about_us
+
 ---
 
 Every month we publish [release notes]({{site.baseurl}}/about/updates/releases/), highlighting the improvements we’ve made to our technology. The biggest changes in 2021 revolved around system security and legacy code cleanup, paving the way for new feature development in 2022.

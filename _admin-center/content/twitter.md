@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual manage-content social-media twitter
 date: May 28, 2014
 last_modified_at: May 28, 2014
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/twitter.html
 ---

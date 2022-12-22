@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual manage-content domains
 date: April 18, 2017
 last_modified_at: April 18, 2017
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/domains.html
 ---

@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual dashboard settings
 date: December 29, 2017
 last_modified_at: December 29, 2017
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/settings.html
 ---

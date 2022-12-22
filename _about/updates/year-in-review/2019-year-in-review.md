@@ -6,8 +6,7 @@ category: blog
 tags: year-in-review
 date: December 20, 2019
 last_modified_at: December 20, 2019
-#subnav:
-  #data: about_us
+
 redirect_from:
     - /blog/2019-annual-review.html
 ---

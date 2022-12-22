@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual manage-content routed-queries
 date: February 9, 2018
 last_modified_at: February 9, 2018
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/routed-queries.html
 ---

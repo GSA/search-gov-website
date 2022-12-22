@@ -6,8 +6,7 @@ category: admin-center
 tags: indexing seo
 date: July 9, 2019
 last_modified_at: July 9, 2019
-#subnav:
-  #data: indexing
+
 redirect_from: 
   - /manual/ranking-factors.html
 ---

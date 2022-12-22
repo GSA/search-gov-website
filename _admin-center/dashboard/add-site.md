@@ -6,8 +6,7 @@ tags: "help-manual settings add-site"
 date: March 2, 2017
 last_modified_at: March 2, 2017
 published: true
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - "/manual/add-site.html"
 ---

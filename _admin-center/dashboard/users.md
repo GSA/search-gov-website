@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual dashboard users
 date: August 10, 2018
 last_modified_at: August 10, 2018
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/users.html
 ---

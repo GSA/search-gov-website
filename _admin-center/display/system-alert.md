@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual manage-display alert
 date: February 7, 2018
 last_modified_at: February 7, 2018
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/system-alert.html
 ---

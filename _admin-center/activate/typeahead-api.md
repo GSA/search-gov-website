@@ -5,8 +5,7 @@ category: admin-center
 tags: api activate-search autocomplete
 date: October 26, 2017
 last_modified_at: October 26, 2017
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/typeahead-api.html
 ---

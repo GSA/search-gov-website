@@ -6,8 +6,7 @@ title: Setting up Search.gov for Cloud.gov Pages sites
 redirect_from:
   - /manual/searchgov-for-federalist.html
   - /get-started/searchgov-for-federalist.html
-#subnav:
-  #data: get_started
+
 date: April 22, 2019
 tags: getting-started go-live site-launch
 description: Detailed documentation on integrating Search.gov with Cloud.gov Pages websites.

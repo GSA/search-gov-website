@@ -5,8 +5,7 @@ description: The 2021 Search.gov Year In Review report shows how COVID-19 contin
 tags: year-in-review
 date: February 7, 2022
 last_modified_at: February 16, 2022
-#subnav:
-  #data: about_us
+
 ---
 <span style="float:right;"><img 
   src="{{ site.baseurl }}/files/2021-year-in-review-cover.png"

@@ -6,8 +6,7 @@ tags: indexing seo
 date: April 9, 2019
 last_modified_at: April 9, 2019
 permalink: /indexing/
-#subnav:
-  #data:
+
 redirect_from: 
   - /manual/indexing-with-searchgov.html
   - /indexing/indexing-with-searchgov.html

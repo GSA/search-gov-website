@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Dashboard
-#subnav:
-  #data: admin_center
+
 date: March 1, 2021
 last_modified_at: March 1, 2021
 ---

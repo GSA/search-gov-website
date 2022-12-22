@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual training videos
 date: June 20, 2019
 last_modified_at: April 13, 2021
-#subnav:
-  #data: get_started
+
 redirect_from:
     - /manual/training.html
 ---

@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual display modules
 date: February 27, 2017
 last_modified_at: February 27, 2017
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/govbox-health.html
 ---

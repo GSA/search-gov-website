@@ -72,8 +72,7 @@ and the following page:
 ---
 permalink: /page-one/
 title: Page one
-#subnav:
-  #data:
+
   - text: Section one
     href: "#section-one"
   - text: Section two
@@ -120,8 +119,7 @@ object for your `subnav` frontmatter:
 
 ```markdown
 ---
-#subnav:
-  #data:
+
   data: name_of_source
   text: key_for_text
   href: ["%-format", key_for_href]
@@ -146,8 +144,7 @@ subnav like so:
 
 ```markdown
 ---
-#subnav:
-  #data:
+
   data: releases # get data from site.data.releases
   text: name # x.y.z
   href: ["#%", name] # e.g. '#0-14-0'

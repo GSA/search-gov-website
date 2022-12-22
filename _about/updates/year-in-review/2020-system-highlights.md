@@ -7,8 +7,7 @@ category: releases
 tags: release-notes year-in-review
 redirect_from:
     - /releases/2020-system-highlights.html
-#subnav:
-  #data: about_us
+
 ---
 
 Every month we publish [release notes]({{ site.baseurl }}/about/updates/releases/), highlighting the improvements we’ve made to our technology. The biggest changes in 2020 revolved around our APIs and system version upgrades.

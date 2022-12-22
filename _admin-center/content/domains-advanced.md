@@ -6,8 +6,7 @@ tags: "help-manual manage-content domains advanced supplemental-feed supplementa
 published: true
 date: May 2, 2017
 last_modified_at: May 2, 2017
-#subnav:
-  #data: admin_center
+
 redirect_from:
     - /manual/domains-advanced.html
 ---

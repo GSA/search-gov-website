@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Manage Content
-#subnav:
-  #data: admin_center
+
 date: February 25, 2021
 last_modified_at: February 25, 2021
 ---

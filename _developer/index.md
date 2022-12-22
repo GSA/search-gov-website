@@ -5,8 +5,7 @@ category: developer
 tags: api open
 date: November 20, 2019
 last_modified_at: April 28, 2022
-#subnav:
-  #data: support
+
 permalink: /developer/
 ---
 In line with the White House's [Digital Government Strategy](https://digital.gov/resources/2012-digital-government-strategy/), we're making our code and data more open.

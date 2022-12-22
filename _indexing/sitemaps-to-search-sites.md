@@ -6,8 +6,7 @@ category: admin-center
 tags: go-live indexing
 date: April 9, 2019
 last_modified_at: April 9, 2019
-#subnav:
-  #data: indexing
+
 redirect_from:
     - /manual/sitemaps-to-search-sites.html
 ---

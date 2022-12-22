@@ -4,8 +4,7 @@ title: Get Started With Search.gov
 tags: get-started about
 date: March 4, 2021
 last_modified_at: April 6, 2021
-#subnav:
-  #data: get_started
+
 permalink: /get-started/
 ---
 

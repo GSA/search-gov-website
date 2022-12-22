@@ -5,8 +5,7 @@ category: admin-center
 tags: help-manual my-account
 date: June 23, 2020
 last_modified_at: June 23, 2020
-#subnav:
-  #data: get_started
+
 redirect_from:
     - /manual/account.html
 ---

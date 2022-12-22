@@ -4,8 +4,7 @@ title: "Help Manual: Managing Your Search Configuration"
 crumbname: Help Manual
 tags: help-manual
 last_modified_at: "March 3, 2021"
-#subnav:
-  #data: admin_center
+
 permalink: /admin-center/
 redirect_from:
     - /manual/
