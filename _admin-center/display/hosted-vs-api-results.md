@@ -4,7 +4,8 @@ title: "Results Page Feature Comparison: Hosted Vs. API"
 tags: display brand api
 date: September 15, 2020
 last_modified_at: April 6, 2021
-
+#subnav:
+  #data: admin_center
 ---
 
 After you get your [search site set up]({{ site.baseurl }}/get-started/site-launch-guide.html) and we have your content indexed, it’s time to think about how you want to display the search results to your users. We offer two options:

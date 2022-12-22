@@ -9,7 +9,8 @@ redirect_from:
 tags: how-to manage-content indexing
 date: January 17, 2020
 last_modified_at: January 17, 2020
-
+#subnav:
+  #data: indexing
 ---
 
 A `/robots.txt` file is a text file that instructs automated web bots on how to crawl and/or index a website. Web teams use them to provide information about what site directories should or should not be crawled, how quickly content should be accessed, and which bots are welcome on the site.

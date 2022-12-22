@@ -6,7 +6,8 @@ category: admin-center
 tags: indexing seo pdf
 date: November 9, 2022
 last_modified_at: November 9, 2022
-
+#subnav:
+  #data: indexing
 ---
 
 You may have heard that PDFs are not the ideal document type for driving Search Engine Optimization. This is because much of the SEO value for any file is derived from metadata inserted into the file. And for PDFs, this metadata must be created in each document file using a program such as Adobe Acrobat, and is a step that many often overlook. Non-HTML documents also fall lower in our ranking algorithm than HTML documents. However, if you do have PDFs on your website, we have some tips to improve their discoverability.

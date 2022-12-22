@@ -5,7 +5,8 @@ category: admin-center
 tags: "help-manual settings clone-site"
 date: August 11, 2016
 last_modified_at: August 11, 2016
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/clone-site.html
 ---

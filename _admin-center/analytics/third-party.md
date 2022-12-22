@@ -5,7 +5,8 @@ category: admin-center
 tags: help-manual analytics third-party google-analytics foresee DAP
 date: June 5, 2020
 last_modified_at: June 5, 2020
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/third-party.html
 ---

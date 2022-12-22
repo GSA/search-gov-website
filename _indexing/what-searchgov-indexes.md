@@ -6,7 +6,8 @@ category: admin-center
 tags: indexing seo
 date: April 24, 2019
 last_modified_at: November 10, 2022
-
+#subnav:
+  #data: indexing
 redirect_from:
     - /manual/what-searchgov-indexes.md
 

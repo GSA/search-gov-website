@@ -6,7 +6,8 @@ category: admin-center
 tags: help-manual
 date: September 4, 2019
 last_modified_at: September 4, 2019
-
+#subnav:
+  #data: get_started
 redirect_from:
     - /blog/go-live.html
     - /manual/go-live.html

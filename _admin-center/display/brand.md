@@ -5,7 +5,8 @@ category: admin-center
 tags: help-manual manage-display font colors header footer
 date: August 13, 2015
 last_modified_at: August 13, 2015
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/brand.html
 ---

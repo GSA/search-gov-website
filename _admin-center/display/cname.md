@@ -5,7 +5,8 @@ category: admin-center
 tags: help-manual activate-search cname 
 date: September 21, 2018
 last_modified_at: September 21, 2018
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/cname.html
 ---

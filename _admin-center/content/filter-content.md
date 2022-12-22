@@ -6,7 +6,8 @@ tags: "help-manual manage-content domains filter-urls"
 date: March 24, 2017
 last_modified_at: March 24, 2017
 published: true
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/filter-content.html
 ---

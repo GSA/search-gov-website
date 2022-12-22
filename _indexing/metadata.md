@@ -9,7 +9,8 @@ redirect_from:
 tags: indexing seo
 date: September 1, 2020
 last_modified_at: December 8, 2022
-
+#subnav:
+  #data: indexing
 ---
 
 Search.gov, like other search engines, relies on structured data to help inform how we index your content and how it is presented in search results. You should also read up on the metadata and structured data used by [Google](https://support.google.com/webmasters/answer/79812?hl=en) and [Bing](https://www.bing.com/webmaster/help/marking-up-your-site-with-structured-data-3a93e731).

@@ -5,7 +5,8 @@ category: admin-center
 tags: help-manual manage-display facets modules related-sites
 date: February 27, 2017
 last_modified_at: February 27, 2017
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/display-overview.html
 ---

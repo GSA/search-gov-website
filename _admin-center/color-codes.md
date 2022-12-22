@@ -4,7 +4,8 @@ title: Key to Color Coding in the Admin Center
 category: admin-center
 last_modified_at: "November 02, 2015"
 tags: help-manual manage-users best-bets rss
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/color-codes.html
 ---

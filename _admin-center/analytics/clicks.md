@@ -5,7 +5,8 @@ category: admin-center
 tags: help-manual analytics clicks
 date: February 28, 2018
 last_modified_at: February 28, 2018
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/clicks.html
 

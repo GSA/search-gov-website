@@ -5,7 +5,8 @@ category: admin-center
 tags: help-manual activate-search code-snippets
 date: October 13, 2020
 last_modified_at: October 13, 2020
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/code.html
 ---

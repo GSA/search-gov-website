@@ -6,7 +6,8 @@ title: XML Sitemaps
 redirect_from:
   - /blog/sitemaps.html
   - /manual/sitemaps.html
-
+#subnav:
+  #data: indexing
 date: January 17, 2020
 tags: sitemaps indexing
 category: admin-center

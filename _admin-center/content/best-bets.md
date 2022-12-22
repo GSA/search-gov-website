@@ -5,7 +5,8 @@ category: admin-center
 tags: help-manual manage-content best-bets
 date: March 19, 2020
 last_modified_at: March 19, 2020
-
+#subnav:
+  #data: admin_center
 redirect_from:
     - /manual/best-bets.html
 ---

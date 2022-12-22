@@ -9,7 +9,8 @@ redirect_from:
 tags: indexing seo
 date: February 27, 2020
 last_modified_at: February 27, 2020
-
+#subnav:
+  #data: indexing
 ---
 
 Website structure and content can have a significant impact on the ability of search engines to provide a good search experience. As a result, the Search Engine Optimization industry evolved to provide better understanding of these impacts and close critical gaps. Some elements on your website will actively hinder the search experience, and this post will show you how to target valuable content and exclude distractions.
