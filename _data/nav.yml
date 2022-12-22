@@ -94,90 +94,90 @@ primary:
     href: /developer/
 
 
-about_us:
-  - text: Why Choose Search.gov?
-    href: "/about/why-choose-searchgov.html"
-  - text: Customers
-    href: "/about/customers.html"
-  - text: Search.gov in Policy
-    href: "/about/policy/"
-  - text: Year in Review
-    href: "/about/updates/year-in-review/"
-  - text: Security and Compliance
-    href: "/about/security.html"
-  - text: Our Product Roadmap
-    href: "/about/updates/roadmap/"
-  - text: Release Notes
-    href: "/about/updates/releases/"
-  - text: Newsletters
-    href: "/about/updates/newsletters/"
-  - text: Share Your Feedback
-    href: "/about/feedback.html"
+# about_us:
+#   - text: Why Choose Search.gov?
+#     href: "/about/why-choose-searchgov.html"
+#   - text: Customers
+#     href: "/about/customers.html"
+#   - text: Search.gov in Policy
+#     href: "/about/policy/"
+#   - text: Year in Review
+#     href: "/about/updates/year-in-review/"
+#   - text: Security and Compliance
+#     href: "/about/security.html"
+#   - text: Our Product Roadmap
+#     href: "/about/updates/roadmap/"
+#   - text: Release Notes
+#     href: "/about/updates/releases/"
+#   - text: Newsletters
+#     href: "/about/updates/newsletters/"
+#   - text: Share Your Feedback
+#     href: "/about/feedback.html"
 
-admin_center:
-  - text: Dashboard
-    href: "/admin-center/dashboard/"
-  - text: Analytics
-    href: "/admin-center/analytics/"
-  - text: Content
-    href: "/admin-center/content/"
-  - text: Display
-    href: "/admin-center/display/"
-  - text: Preview
-    href: "/admin-center/preview.html"
-  - text: Activate
-    href: "/admin-center/activate/"
+# admin_center:
+#   - text: Dashboard
+#     href: "/admin-center/dashboard/"
+#   - text: Analytics
+#     href: "/admin-center/analytics/"
+#   - text: Content
+#     href: "/admin-center/content/"
+#   - text: Display
+#     href: "/admin-center/display/"
+#   - text: Preview
+#     href: "/admin-center/preview.html"
+#   - text: Activate
+#     href: "/admin-center/activate/"
 
 
-get_started:
-  - text: Sign Up
-    href: "/get-started/account.html"
-  - text: Site Launch Guide
-    href: "/get-started/site-launch-guide.html"
-  - text: Search.gov for Cloud.gov Pages
-    href: "/get-started/searchgov-for-cloudgov-pages.html"
-  - text: "Going live with Search.gov: Checklist"
-    href: "/get-started/go-live.html"
-  - text: Training and Resources
-    href: "/get-started/learn.html"
-  - text: Training Webinars
-    href: "/get-started/training.html"
+# get_started:
+#   - text: Sign Up
+#     href: "/get-started/account.html"
+#   - text: Site Launch Guide
+#     href: "/get-started/site-launch-guide.html"
+#   - text: Search.gov for Cloud.gov Pages
+#     href: "/get-started/searchgov-for-cloudgov-pages.html"
+#   - text: "Going live with Search.gov: Checklist"
+#     href: "/get-started/go-live.html"
+#   - text: Training and Resources
+#     href: "/get-started/learn.html"
+#   - text: Training Webinars
+#     href: "/get-started/training.html"
     
 
-indexing:
-  - text: What Search.gov Indexes From Your Website
-    href: "/indexing/what-searchgov-indexes.html"
-  - text: How Search.gov Ranks Your Search Results
-    href: "/indexing/ranking-factors.html"
-  - text: How a Page on a Sitemap Becomes a Search Result
-    href: "/indexing/sitemaps-to-search-sites.html"
-  - text: A Step-By-Step Indexing Workflow
-    href: "/indexing/indexing-workflow.html"
-  - text: How Search Engines Index Your Website (Webinar)
-    href: "/get-started/training.html#how-engines-index"
-  - text: All About XML Sitemaps
-    href: "/indexing/sitemaps.html"
-  - text: "/robots.txt Files"
-    href: "/indexing/robotstxt.html"
-  - text: Metadata and Tags You Should Include in Your Website
-    href: "/indexing/metadata.html"
-  - text: How to improve PDF discoverability
-    href: "/indexing/pdf-metadata.html"
-  - text: How to Get Search Engines to Index the Right Content for Better Discoverability
-    href: "/indexing/how-search-engines-index-content-better-discoverability.html"
+# indexing:
+#   - text: What Search.gov Indexes From Your Website
+#     href: "/indexing/what-searchgov-indexes.html"
+#   - text: How Search.gov Ranks Your Search Results
+#     href: "/indexing/ranking-factors.html"
+#   - text: How a Page on a Sitemap Becomes a Search Result
+#     href: "/indexing/sitemaps-to-search-sites.html"
+#   - text: A Step-By-Step Indexing Workflow
+#     href: "/indexing/indexing-workflow.html"
+#   - text: How Search Engines Index Your Website (Webinar)
+#     href: "/get-started/training.html#how-engines-index"
+#   - text: All About XML Sitemaps
+#     href: "/indexing/sitemaps.html"
+#   - text: "/robots.txt Files"
+#     href: "/indexing/robotstxt.html"
+#   - text: Metadata and Tags You Should Include in Your Website
+#     href: "/indexing/metadata.html"
+#   - text: How to improve PDF discoverability
+#     href: "/indexing/pdf-metadata.html"
+#   - text: How to Get Search Engines to Index the Right Content for Better Discoverability
+#     href: "/indexing/how-search-engines-index-content-better-discoverability.html"
 
-support:
-  - text: Support
-    href: "/support.html"
-  - text: System Status
-    href: "/status.html"
-  - text: Training and Resources
-    href: "/get-started/learn.html"
-  - text: Training Webinars
-    href: "/get-started/training.html"
-  - text: Website Redesign Tips
-    href: "/indexing/redesign.html"
-  - text: Share Your Feedback
-    href: "/about/feedback.html"
-  - text: For Developers
-    href: "/developer/"
+# support:
+#   - text: Support
+#     href: "/support.html"
+#   - text: System Status
+#     href: "/status.html"
+#   - text: Training and Resources
+#     href: "/get-started/learn.html"
+#   - text: Training Webinars
+#     href: "/get-started/training.html"
+#   - text: Website Redesign Tips
+#     href: "/indexing/redesign.html"
+#   - text: Share Your Feedback
+#     href: "/about/feedback.html"
+#   - text: For Developers
+#     href: "/developer/"
