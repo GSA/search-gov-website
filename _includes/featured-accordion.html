@@ -14,7 +14,7 @@
                 {% assign content = include.content %}
                 {% case content %}
                     {% when "add-users" %}
-                        Manage Your Site’s Users
+                        Manage Your Site's Users
                     {% when "access-existing-site" %}
                         Get Access to an Existing Search Site
                     {% when "indexing-short" %}
@@ -34,7 +34,7 @@
             {% endif %}
                 {% case content %}
                     {% when "add-users" %}
-                        <a href="{{site.baseurl}}/admin-center/dashboard/users.html">Follow these instructions</a> to add or remove users to your website’s search.gov account. 
+                        <a href="{{site.baseurl}}/admin-center/dashboard/users.html">Follow these instructions</a> to add or remove users to your website's search.gov account. 
                     {% when "access-existing-site" %}
                         If you need to gain access to the analytics data of an existing search site, ask a team member at your agency to <a href="{{site.baseurl}}/admin-center/dashboard/users.html">add you as a user</a>. Please don't create a new search site as this action will not grant you the access you need.
                     {% when "indexing-short" %}
@@ -43,7 +43,7 @@
                         <h4>A. Define Domains and Subdomains</h4>
 
                         <strong>Who:</strong> You, the agency web team, in consultation with the Search.gov team <br>
-                        <strong>What:</strong> The Admin Center Domains list controls what we pull out of our index for a search on your site. But we also need to know what to put in to the index to begin with. We’ll work with you to confirm the domains and subdomains you want discoverable through search. For example, after discussing with you, we may plan to index all of your subdomains, or just a selection of the major sections. <br><br>
+                        <strong>What:</strong> The Admin Center Domains list controls what we pull out of our index for a search on your site. But we also need to know what to put in to the index to begin with. We'll work with you to confirm the domains and subdomains you want discoverable through search. For example, after discussing with you, we may plan to index all of your subdomains, or just a selection of the major sections. <br><br>
                         
                         <strong>If you have <a href="{{ site.baseurl}}/indexing/what-searchgov-indexes.html#js-indexing">Javascript-based content</a> on your domains</strong> please let our team know. We will work with you to ensure content on those pages is successfully indexed. <br><br>
                         
@@ -69,23 +69,23 @@
                         <h4>C. Index Subdomains</h4>
                         
                         <strong>Who:</strong> The Search.gov team<br>
-                        <strong>What:</strong> Once sitemaps are posted to your website, our system will index your content. Alert us when the sitemaps are posted, and we’ll add your domains to our list of domains that we monitor. Then, indexing will begin.
+                        <strong>What:</strong> Once sitemaps and/or feeds are posted to your website, our system will index your content. Alert us when these URL discovery resources are posted, and we'll add your domains to our list of domains that we monitor. Then, indexing will begin.
                         
                         By default, we make 1 request per second to a domain. If a `Crawl-delay` is declared in your <a href="{{ site.baseurl }}/indexing/robotstxt.html">/robots.txt file</a>, we will honor that delay while fetching your content for indexing. The length of time required to index a site is `(number of items) x (crawl delay) / 3600 = hours to index`.
                         
-                        If you use a firewall service, it’s possible our indexer will be blocked. We can provide our IP addresses for you to whitelist in your firewall. 
+                        If you use a firewall service, it's possible our indexer will be blocked. We can provide our IP addresses for you to whitelist in your firewall. 
                         
                         Please note, we can only index domains that are publicly accessible. This means that if you have a password-protected staging environment, we will not be able to index it for you as part of your testing process. <a href="mailto:search@gsa.gov">Please reach out</a> and we can discuss options if you need to test our service pre-production.
                         
                         <h4>D. Test Index</h4>
                         
                         <strong>Who:</strong> Search.gov Team<br>
-                        <strong>What:</strong> For search sites switching from Bing: After your content is indexed, we’ll start up a parallel search site using your current site configuration and the new index, and run a number of test queries to ensure the index is performing satisfactorily. Our test will cover your live site’s most popular queries. 
+                        <strong>What:</strong> For search sites switching from Bing: After your content is indexed, we'll start up a parallel search site using your current site configuration and the new index, and run a number of test queries to ensure the index is performing satisfactorily. Our test will cover your live site's most popular queries. 
                         
                         <h4>E. Review Index</h4>
                         
                         <strong>Who:</strong> You, the agency web team<br>
-                        <strong>What:</strong> For sites switching from Bing: After we’re satisfied with the index, we’ll send you a link to the test search site, so you can review and provide feedback.
+                        <strong>What:</strong> For sites switching from Bing: After we're satisfied with the index, we'll send you a link to the test search site, so you can review and provide feedback.
                         
                         For brand new sites: You will be able to test the index using your regular search site(s).
                         
@@ -94,7 +94,7 @@
                         <strong>Who:</strong> You, the agency web team, in collaboration with Search.gov<br>
                         <strong>What:</strong>  For brand new sites: Your index is ready to go, you can proceed with the rest of the site launch steps and go live without any further action from our team.
                         
-                        For sites switching from Bing: When you give us the green light to switch to the new index, there is no action needed on your part other than the approval. We will change a setting in our back end, which will point your existing search site’s web results module to our index, and the change is effective immediately. All other elements of your search site remain the same: search features, branding, etc.
+                        For sites switching from Bing: When you give us the green light to switch to the new index, there is no action needed on your part other than the approval. We will change a setting in our back end, which will point your existing search site's web results module to our index, and the change is effective immediately. All other elements of your search site remain the same: search features, branding, etc.
                     {% when "manage-account" %}
                         <a href="{{ site.baseurl }}/get-started/account.html#sign-up">Register for a new account</a>, <a href="{{ site.baseurl }}/get-started/account.html#login">log in</a> to make changes to an existing account, or <a href="{{ site.baseurl }}/support.html">find information</a> on how to resolve issues accessing your account.
                     {% when "facet-renaming" %}
