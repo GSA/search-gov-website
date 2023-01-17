@@ -27,7 +27,7 @@ You can [read more detail on each of the following elements here]({{ site.baseur
 * meta keywords
 * locale or language (from the opening `<html>` tag)
 * url
-* lastmod (collected from XML sitemaps)
+* lastmod (collected from XML sitemaps and feeds)
 
 ### [Open Graph protocol](http://ogp.me/)  elements
 

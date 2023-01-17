@@ -57,6 +57,7 @@ Sitemap: https://www.example.gov/sitemap.xml
 Sitemap: https://www.example.gov/independent-subsection-sitemap.xml
 ```
 * Only list sitemaps for the domain matching where the robots.txt file is. A different subdomain's sitemap should be listed on that subdomain's robots.txt.
+* We support RSS 2.0 and Atom 2.0 feeds as sitemaps as well. If you list these feeds in your robots.txt file, our system will automatically begin indexing them.
 
 ### Allow only the content that you want searchable 
 We recommend disallowing any directories or files that should not be searchable. For example:
