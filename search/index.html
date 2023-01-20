@@ -1,6 +1,6 @@
 ---
 permalink: /search/
-layout: page
+layout: wide
 title: Search
 ---
 
@@ -10,7 +10,12 @@ title: Search
 
   var urlParams = new URLSearchParams(window.location.search);    
   var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
-  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: urlParams.get('query') }
+  var sitelimit_options = urlParams.getAll("sitelimit-option");
+  var sitelimits = []
+
+  sitelimit_options.forEach(element => sitelimits.push("search.gov/" + element));
+
+  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: urlParams.get('query'), sitelimit: sitelimits.join(' ') }
   
   
   Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
@@ -21,8 +26,9 @@ title: Search
       for (item in posts.web.results){
         render_result(`
           <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
-            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title']}</a></b>
+            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}</a></b>
             <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
+            <div class="text-base-light"> ${posts.web.results[item]['url']}</div>
           </li>
           `, true)
         
@@ -42,28 +48,188 @@ title: Search
       document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
     }
 
+    window.onload = function() {
+     document.querySelector("#onpage-search #extended-search-field-small").value=urlParams.get('query') ;
+     document.querySelector(".sitelimit-options #extended-search-field-small").value=urlParams.get('query') ;
+     var options = ["about", "indexing", "admin-center", "developer", "get-started", "about/updates/newsletters", "about/updates/releases"];
+
+     options.forEach ((item) => {
+      if (sitelimit_options.includes(item)) {
+              document.querySelector(`input[name='sitelimit-option'][value='${item}']`).checked = true;
+        } 
+      });
+    }
+
 //]]>
 </script>
 
 
 {% if site.searchgov %}
-  <h1>Search Results</h1>
-  <ol id="search-results"></ol>
 
-  {% if site.searchgov.affiliate == "federalist-uswds-example" %}
-    <div class="usa-alert usa-alert--info">
-      <div class="usa-alert__body">
-        This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
-        <ol>
-          <li>Create an account with Search.gov at <a href="https://search.usa.gov/signup">https://search.usa.gov/signup</a></li>
-          <li>Go to the "Activate" section and get "API Access Key"</a></li>          
-          <li>Open <code>_config.yml</code> and look for <code>searchgov</code> fields</li>
-          <li>Add your <code>affiliate</code> and <code>access_key</code></li>
-          <li>Your results will not show up immediately. Make sure you follow <a href="https://search.gov/manual/searchgov-for-federalist.html">instructions to index your site</a>.</li> 
-        </ol>
-      </div>
+  <script>
+
+  </script>
+  <div class="search-two-column">
+  <div class="column-left">
+    <div id="onpage-search">
+      {% include searchgov/form.html searchgov=site.searchgov %}
     </div>
-  {% endif %}  
+
+    <h3>Search Results</h3>
+    <ol id="search-results"></ol>
+
+    {% if site.searchgov.affiliate == "federalist-uswds-example" %}
+      <div class="usa-alert usa-alert--info">
+        <div class="usa-alert__body">
+          This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
+          <ol>
+            <li>Create an account with Search.gov at <a href="https://search.usa.gov/signup">https://search.usa.gov/signup</a></li>
+            <li>Go to the "Activate" section and get "API Access Key"</a></li>          
+            <li>Open <code>_config.yml</code> and look for <code>searchgov</code> fields</li>
+            <li>Add your <code>affiliate</code> and <code>access_key</code></li>
+            <li>Your results will not show up immediately. Make sure you follow <a href="https://search.gov/manual/searchgov-for-federalist.html">instructions to index your site</a>.</li> 
+          </ol>
+        </div>
+      </div>
+      {% endif %} 
+  </div>
+  
+  
+  <div class="column-right">
+    <div class="usa-accordion usa-accordion--bordered">
+      <h4 class="usa-accordion__heading">
+        <button
+          type="button"
+          class="usa-accordion__button"
+          aria-expanded="true"
+          aria-controls="a1"
+        >
+          Filter by section
+        </button>
+      </h4>
+      <div id="a1" class="usa-accordion__content usa-prose">
+        <form class="usa-form sitelimit-options">
+          <fieldset class="usa-fieldset">
+            <!-- <legend class="usa-legend">Filter your search</legend> -->
+            <div class="usa-checkbox">
+              <input
+                class="usa-checkbox__input usa-checkbox__input--tile"
+                id="check-indexing-limit"
+                type="checkbox"
+                name="sitelimit-option"
+                value="indexing"
+                onChange="this.form.submit()"
+              />
+              <label class="usa-checkbox__label" for="check-indexing-limit"
+                >Indexing
+                <!-- <span class="usa-checkbox__label-description"
+                  >Our in-house content indexing processes</span
+                > -->
+                </label
+              >
+            </div>
+            <div class="usa-checkbox">
+              <input
+                class="usa-checkbox__input usa-checkbox__input--tile"
+                id="check-admin-center-limit"
+                type="checkbox"
+                name="sitelimit-option"
+                value="admin-center"
+                onChange="this.form.submit()"
+              />
+              <label class="usa-checkbox__label" for="check-admin-center-limit"
+                >Admin Center
+                <!-- <span class="usa-checkbox__label-description"
+                  >Configuring your search site</span> -->
+                </label
+              >
+            </div>
+            <div class="usa-checkbox">
+              <input
+                class="usa-checkbox__input usa-checkbox__input--tile"
+                id="check-about-limit"
+                type="checkbox"
+                name="sitelimit-option"
+                value="about"
+                onChange="this.form.submit()"
+              />
+              <label class="usa-checkbox__label" for="check-about-limit"
+                >About
+                <!-- <span class="usa-checkbox__label-description"
+                  >Learn about the Search.gov Program</span> -->
+                </label
+              >
+            </div>
+            <div class="usa-checkbox">
+              <input
+                class="usa-checkbox__input usa-checkbox__input--tile"
+                id="check-get-started-limit"
+                type="checkbox"
+                name="sitelimit-option"
+                value="get-started"
+                onChange="this.form.submit()"
+              />
+              <label class="usa-checkbox__label" for="check-get-started-limit"
+                >Get Started
+                <!-- <span class="usa-checkbox__label-description"
+                  >How to set up your search for the first time</span> -->
+                </label
+              >
+            </div>
+            <div class="usa-checkbox">
+              <input
+                class="usa-checkbox__input usa-checkbox__input--tile"
+                id="check-developer-limit"
+                type="checkbox"
+                name="sitelimit-option"
+                value="developer"
+                onChange="this.form.submit()"
+              />
+              <label class="usa-checkbox__label" for="check-developer-limit"
+                >Developer
+                <!-- <span class="usa-checkbox__label-description"
+                  >Resources for developers integrating with our system</span> -->
+                </label
+              >
+            </div>
+            <div class="usa-checkbox">
+              <input
+                class="usa-checkbox__input usa-checkbox__input--tile"
+                id="check-releases-limit"
+                type="checkbox"
+                name="sitelimit-option"
+                value="about/updates/releases"
+                onChange="this.form.submit()"
+              />
+              <label class="usa-checkbox__label" for="check-releases-limit"
+                >Product Releases
+                <!-- <span class="usa-checkbox__label-description"
+                  >Monthly notes on our product releases</span> -->
+                </label
+              >
+            </div>
+            <div class="usa-checkbox">
+              <input
+                class="usa-checkbox__input usa-checkbox__input--tile"
+                id="check-newsletter-limit"
+                type="checkbox"
+                name="sitelimit-option"
+                value="about/updates/newsletters"
+                onChange="this.form.submit()"
+              />
+              <label class="usa-checkbox__label" for="check-newsletter-limit"
+                >Newsletters
+                <!-- <span class="usa-checkbox__label-description"
+                  >Monthly updates from our team</span> -->
+                </label
+              >
+            </div>
+          </fieldset>
+          <input class="usa-input usagov-search-autocomplete" id="extended-search-field-small" type="hidden" name="query" autocomplete="off">
+        </form>
+      </div>
+  </div> 
+  </div>
 {% else %}
   <script>
     window.location = "/";

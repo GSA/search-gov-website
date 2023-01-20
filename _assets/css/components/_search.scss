@@ -1,0 +1,16 @@
+.search-two-column {
+    display: flex;
+    justify-content: space-between;
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.column-left {
+    width: 60%;
+}
+
+.column-right {
+    width: 30%;
+}

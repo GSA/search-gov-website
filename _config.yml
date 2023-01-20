@@ -335,13 +335,13 @@ searchgov:
   endpoint: https://find.search.gov
 
   # replace this with your search.gov account
-  affiliate: usasearch
+  affiliate: searchgov-demo
 
   # replace with your access key
-  access_key: Q_XTNBtjvH-l0g1JU5QVj9G6vJRFnYkoR2NMSZKFWBc=
+  access_key: d7eqRTmQVuBV0CDyzxkkZXkAy-7ma6Z7qOAMG0MQAp8=
 
   # this renders the results within the page instead of sending to user to search.gov
-  inline: false
+  inline: true
   
   # this allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   suggestions: true
