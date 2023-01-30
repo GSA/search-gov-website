@@ -14,7 +14,7 @@ redirect_from:
 
 ## Content
 
-When we think about indexing pages for search, we usually think about indexing the primary content of the page. But if the page isn’t structured to tell the search engine where that content is to be found, it will collect the `<body>` tag, and then filter out the `<nav>` and `<footer>` elements, if present. If `<main>`, `<nav>`, or `<footer>` are not present, we collect the full contents of the `<body>` tag. Learn more on our post about aiming search engines at the content you really want to be searchable, using [the </main> element]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html#main-element).
+When we think about indexing pages for search, we usually think about indexing the primary content of the page. But if the page doesn't include a `<main>` element to tell the search engine where that content is to be found, it will collect the `<body>` tag, and then filter out the `<nav>` and `<footer>` elements, if present. If `<main>`, `<nav>`, or `<footer>` are not present, we collect the full contents of the `<body>` tag. Learn more on our post about aiming search engines at the content you really want to be searchable, using [the </main> element]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html#main-element).
 
 ## Metadata
 
