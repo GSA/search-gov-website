@@ -55,9 +55,12 @@ Your robots.txt file should also list one or more of your [XML sitemaps]({{ site
 ```
 Sitemap: https://www.example.gov/sitemap.xml
 Sitemap: https://www.example.gov/independent-subsection-sitemap.xml
+Sitemap: https://www.example.gov/rss-feed-of-uploaded-files.xml
+Sitemap: https://other.example.gov/cross-submitted-sitemap.xml
 ```
-* Only list sitemaps for the domain matching where the robots.txt file is. A different subdomain's sitemap should be listed on that subdomain's robots.txt.
-* We support RSS 2.0 and Atom 2.0 feeds as sitemaps as well. If you list these feeds in your robots.txt file, our system will automatically begin indexing them.
+* List all sitemaps for the domain matching where the robots.txt file is. A different subdomain's sitemap should be listed on that subdomain's robots.txt.
+* We also support RSS 2.0 and Atom 2.0 feeds as sitemaps. If you list these feeds in your robots.txt file as sitemaps, our system will index the feed urls automatically.
+* If you must, you may "cross submit" a sitemap for this domain's urls using a sitemap posted on a different domain. Read the [XML sitemap protocol](https://sitemaps.org/protocol.html#location) to ensure proper implementation.
 
 ### Allow only the content that you want searchable 
 We recommend disallowing any directories or files that should not be searchable. For example:

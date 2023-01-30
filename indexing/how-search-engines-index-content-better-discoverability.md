@@ -84,7 +84,7 @@ Use a canonical link to limit the search engine to indexing only the first page 
 
 There are individual pages on your websites that do not make good search results. This could be archived event pages, list views such as Recent Blog Posts, etc. Blocking individual pages on the [robots.txt file]({{ site.baseurl }}/indexing/robotstxt.html) will be difficult if you don’t have easy access to edit the file Even if edits are easy, it could quickly lead to an unmanageably long `robots.txt`. 
 
-It's also important to note that search engines will pay attention to `Disallow` directives in `robots.txt` when crawling, but may not when accessing your URLs from other sources, like links from other sites or your sitemap. **Search.gov will rely on robots meta tags when working off your sitemap or feeds to know what content you want searchable, and what you don't want searchable.**
+It's also important to note that search engines will pay attention to `Disallow` directives in `robots.txt` when crawling, but not when accessing your URLs from other sources, like through links from other sites or your sitemap. **Search.gov relies on robots meta tags in the `<head>` of each page on your sitemaps or RSS feeds to know what content you want searchable, and what you don't want searchable.**
 
 To achieve best results for blocking indexing of particular pages, you’ll want to employ meta robots tags in the `<head>` of the pages you want to exclude from the search index.
 
