@@ -9,6 +9,36 @@
     var posts;
     var results;
     var html = "";
+    var facets = {
+        audience: {
+            name: "Audience",
+            values: []
+        },
+        content_type: {
+            name: "Content Type",
+            values: []
+        },
+        mime_type: {
+            name: "File Type",
+            values: []
+        },
+        tags: {
+            name: "Tags",
+            values: []
+        },
+        searchgov_custom1: {
+            name: "Custom Field 1",
+            values: []
+        },
+        searchgov_custom2: {
+            name: "Custom Field 2",
+            values: []
+        },
+        searchgov_custom3: {
+            name: "Custom Field 3",
+            values: []
+        },
+    };
 
     var searchEndpoint = new URL("https://api.gsa.gov/technology/searchgov/v2/results/i14y");
 
@@ -30,6 +60,7 @@
             // parse the json response in to an array of objects.
             posts = JSON.parse(request.responseText);
 
+            // renders the results with the formatting required
             for (item in posts.web.results){
                 render_result(`
                   <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
@@ -41,17 +72,32 @@
                 
               }
             
-            for (item in posts.web.aggregations){
-                // render_facets(` 
-                //     <li>${JSON.stringify(posts.web.aggregations[item])}</li>
-                // `, true);
-                for (var key in posts.web.aggregations[item]) {
-                    if (posts.web.aggregations[item].hasOwnProperty(key)) {
-                      render_facets(`<legend class="usa-legend">${key}</legend>`)
+            // updates our facets object with the correct aggregations
+            for (var props in facets){ 
+                for (item in posts.web.aggregations){
+                        for (var key in posts.web.aggregations[item]) {
+                            if (posts.web.aggregations[item].hasOwnProperty(key)) {
+                                if (key == props) {
+                                    for (i in posts.web.aggregations[item][key])
+                                        facets[props].values.push(posts.web.aggregations[item][key][i]);
+                                }
+                            }
+                        }
+                    }
+                }
 
-                      for (var facetValue in posts.web.aggregations[item][key]) {
-                            var agg_key = posts.web.aggregations[item][key][facetValue].agg_key; 
-                            var doc_count = posts.web.aggregations[item][key][facetValue].doc_count;
+                console.log(facets);
+
+                for (key in facets) {
+                    if (facets[key].values.length > 0) {
+                        render_facets(`<legend class="usa-legend">${facets[key].name}</legend>`)
+                    }
+
+                    for (var facetValue in facets[key].values) {
+                        
+                            console.log(facets[key].values[facetValue])
+                            var agg_key = facets[key].values[facetValue].agg_key; 
+                            var doc_count = facets[key].values[facetValue].doc_count;
 
                             render_facets(`
                             <div class="usa-checkbox">
@@ -66,11 +112,10 @@
                                 >${agg_key} (${doc_count})</label
                                 >
                             </div>
-                            `)                     
+                            `) 
                         }
-                  }
-                }
-            }
+                    }
+                
         }
     };
 
@@ -84,9 +129,8 @@
         // console.log(urlParams);
         params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: searchInput.value, include_facets: true }
         Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
-
-        resultBox.innerHTML = "";
         facetBox.innerHTML = "";
+        resultBox.innerHTML = "";
         html = "";
         results = [];
         request.open("GET", searchEndpoint);
