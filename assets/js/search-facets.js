@@ -86,8 +86,6 @@
                     }
                 }
 
-                console.log(facets);
-
                 for (key in facets) {
                     if (facets[key].values.length > 0) {
                         render_facets(`<legend class="usa-legend">${facets[key].name}</legend>`)
@@ -95,7 +93,6 @@
 
                     for (var facetValue in facets[key].values) {
                         
-                            console.log(facets[key].values[facetValue])
                             var agg_key = facets[key].values[facetValue].agg_key; 
                             var doc_count = facets[key].values[facetValue].doc_count;
 
@@ -125,12 +122,40 @@
     searchBox.onsubmit = function(e) {
         e.preventDefault();
 
-        // var urlParams = new URLSearchParams(window.location.search);    
-        // console.log(urlParams);
         params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: searchInput.value, include_facets: true }
         Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
         facetBox.innerHTML = "";
         resultBox.innerHTML = "";
+        facets = {
+            audience: {
+                name: "Audience",
+                values: []
+            },
+            content_type: {
+                name: "Content Type",
+                values: []
+            },
+            mime_type: {
+                name: "File Type",
+                values: []
+            },
+            tags: {
+                name: "Tags",
+                values: []
+            },
+            searchgov_custom1: {
+                name: "Custom Field 1",
+                values: []
+            },
+            searchgov_custom2: {
+                name: "Custom Field 2",
+                values: []
+            },
+            searchgov_custom3: {
+                name: "Custom Field 3",
+                values: []
+            },
+        };
         html = "";
         results = [];
         request.open("GET", searchEndpoint);
