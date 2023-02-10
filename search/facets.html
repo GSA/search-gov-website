@@ -1,0 +1,46 @@
+---
+permalink: /search/facets
+layout: wide
+title: Search - Facets Example
+---
+<div class="search-two-column">
+  <div class="column-left">
+    <div>
+      <fieldset class="usa-fieldset" id="facet-panel">
+
+      </fieldset>
+    </div>
+  </div>
+  
+  <div class="column-right">
+    <div id="onpage-search">
+      <form class="usa-search usa-search--small" role="search" id="search-box">
+        <label class="usa-sr-only" for="search-field-en-small">Search</label>
+        <input
+          class="usa-input"
+          id="search-field-en-small"
+          type="search"
+          name="search"
+        />
+        <button class="usa-button" type="submit">
+          <img
+            src="{{ site.url }}/img/usa-icons-bg/search--white.svg"
+            class="usa-search__submit-icon"
+            alt="Search"
+          />
+        </button>
+      </form>
+    </div>
+    <h3>Search Results</h3>
+    <ol id="search-results"></ol>
+  </div>
+</div>
+
+
+
+
+<!-- <label for="search-box">Search</label>
+<input type="text" id="search-box" placeholder="Search for a post..."> -->
+<div id="search-results"></div>
+
+<script src="{{site.baseurl}}/assets/js/search-facets.js"></script>
