@@ -40,7 +40,15 @@
         },
     };
 
-    var searchEndpoint = new URL("https://api.gsa.gov/technology/searchgov/v2/results/i14y");
+    var facetParams = {
+        audience:[],
+        content_type:[],
+        mime_type: [],
+        tags: [],
+        searchgov_custom1: [],
+        searchgov_custom2: [],
+        searchgov_custom3: []
+    };
 
     function render_result(content, append = true){
         const previous = document.getElementById('search-results').innerHTML;
@@ -52,10 +60,24 @@
         facetBox.innerHTML = (append == true) ? previous + content : content;
     }
 
+
+
     request.onreadystatechange = function(e) {
 
         // the request is done and successful.
         if (request.readyState === 4 && request.status === 200) {
+
+            // clear out request parameters
+            facetParams = {
+                audience:[],
+                content_type:[],
+                mime_type: [],
+                tags: [],
+                searchgov_custom1: [],
+                searchgov_custom2: [],
+                searchgov_custom3: []
+            };
+            params = {};
 
             // parse the json response in to an array of objects.
             posts = JSON.parse(request.responseText);
@@ -86,44 +108,82 @@
                     }
                 }
 
-                for (key in facets) {
-                    if (facets[key].values.length > 0) {
-                        render_facets(`<legend class="usa-legend">${facets[key].name}</legend>`)
+            for (key in facets) {
+                if (facets[key].values.length > 0) {
+                    render_facets(`<legend class="usa-legend">${facets[key].name}</legend>`)
+                }
+
+                for (var facetValue in facets[key].values) {
+                    
+                        var agg_key = facets[key].values[facetValue].agg_key; 
+                        var doc_count = facets[key].values[facetValue].doc_count;
+
+                        render_facets(`
+                        <div class="usa-checkbox">
+                            <input
+                            class="usa-checkbox__input"
+                            id="check-${key}-${agg_key}"
+                            type="checkbox"
+                            name="${key}"
+                            value="${key}-${agg_key}"
+                            />
+                            <label class="usa-checkbox__label" for="check-${key}-${agg_key}"
+                            >${agg_key} (${doc_count})</label
+                            >
+                        </div>
+                        `) 
                     }
+                }
+            
 
-                    for (var facetValue in facets[key].values) {
-                        
-                            var agg_key = facets[key].values[facetValue].agg_key; 
-                            var doc_count = facets[key].values[facetValue].doc_count;
+            var checkBoxes = document.querySelectorAll("input.usa-checkbox__input");
+            var selectedFacets = [];
 
-                            render_facets(`
-                            <div class="usa-checkbox">
-                                <input
-                                class="usa-checkbox__input"
-                                id="check-${agg_key}"
-                                type="checkbox"
-                                name="${key}"
-                                value="${agg_key}"
-                                />
-                                <label class="usa-checkbox__label" for="check-${agg_key}"
-                                >${agg_key} (${doc_count})</label
-                                >
-                            </div>
-                            `) 
+            for (i in checkBoxes) {
+                try {
+                    checkBoxes[i].addEventListener('change', (event) => 
+                    {
+                        selectedFacets = document.querySelectorAll('input.usa-checkbox__input:checked');
+                        for (f in selectedFacets) {
+                            if (facetParams[selectedFacets[f].name]){
+                                var value = selectedFacets[f].value.replace(selectedFacets[f].name + "-", "");
+
+                                if (!facetParams[selectedFacets[f].name].includes(value)) {
+                                    facetParams[selectedFacets[f].name].push(value);
+                                }
+                            }
                         }
-                    }
+                    });
+                }
+
+                catch {
+
+                }
+            } 
                 
         }
     };
 
+    
+    
+    
     
 
     // detect input on the search box.
     searchBox.onsubmit = function(e) {
         e.preventDefault();
 
-        params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: searchInput.value, include_facets: true }
-        Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
+        var searchEndpoint = new URL("https://api.gsa.gov/technology/searchgov/v2/results/i14y");
+        params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: searchInput.value, include_facets: true };
+
+        for (var key in facetParams) {
+            if (facetParams[key].length > 0) {
+                params[key]=facetParams[key];
+            }
+        };
+
+        Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]));
+
         facetBox.innerHTML = "";
         resultBox.innerHTML = "";
         facets = {
@@ -159,6 +219,6 @@
         html = "";
         results = [];
         request.open("GET", searchEndpoint);
-        request.send();
+        request.send(); 
     };
 })();
