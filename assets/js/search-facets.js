@@ -109,8 +109,22 @@
                 }
 
             for (key in facets) {
+                facetHTML = ""
                 if (facets[key].values.length > 0) {
-                    render_facets(`<legend class="usa-legend">${facets[key].name}</legend>`)
+                    facetHTML =`
+                    <div class="usa-accordion">
+                    <h4 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="true"
+                        aria-controls="${facets[key].name}"
+                        >
+                        ${facets[key].name}
+                        </button>
+                    </h4>
+                    <div id="${facets[key].name}" class="usa-accordion__content usa-prose">
+                    `
                 }
 
                 for (var facetValue in facets[key].values) {
@@ -118,7 +132,7 @@
                         var agg_key = facets[key].values[facetValue].agg_key; 
                         var doc_count = facets[key].values[facetValue].doc_count;
 
-                        render_facets(`
+                        facetHTML += `
                         <div class="usa-checkbox">
                             <input
                             class="usa-checkbox__input"
@@ -131,9 +145,14 @@
                             >${agg_key} (${doc_count})</label
                             >
                         </div>
-                        `) 
+                        `
                     }
+
+                    facetHTML+=`</div></div>`
+                    render_facets(facetHTML, true);
                 }
+
+                
             
 
             var checkBoxes = document.querySelectorAll("input.usa-checkbox__input");
