@@ -67,17 +67,6 @@
         // the request is done and successful.
         if (request.readyState === 4 && request.status === 200) {
 
-            // clear out request parameters
-            facetParams = {
-                audience:[],
-                content_type:[],
-                mime_type: [],
-                tags: [],
-                searchgov_custom1: [],
-                searchgov_custom2: [],
-                searchgov_custom3: []
-            };
-            params = {};
 
             // parse the json response in to an array of objects.
             posts = JSON.parse(request.responseText);
@@ -151,11 +140,35 @@
                     facetHTML+=`</div></div>`
                     render_facets(facetHTML, true);
                 }
+            
+            var checkBoxes = document.querySelectorAll("input.usa-checkbox__input");
 
+            for (i in checkBoxes) {
+                var checkField = checkBoxes[i].name;
+                if (checkField && checkBoxes[i].value) {
+                    var checkValue = checkBoxes[i].value.replace(checkField + "-", "");
+                    if (facetParams[checkField] && facetParams[checkField].includes(checkValue)) {
+                        checkBoxes[i].checked = true;
+                    }
+                }
+                
+            }
+                
+            
+            // clear out request parameters
+            facetParams = {
+                audience:[],
+                content_type:[],
+                mime_type: [],
+                tags: [],
+                searchgov_custom1: [],
+                searchgov_custom2: [],
+                searchgov_custom3: []
+            };
+            params = {};
                 
             
 
-            var checkBoxes = document.querySelectorAll("input.usa-checkbox__input");
             var selectedFacets = [];
 
             for (i in checkBoxes) {
@@ -183,6 +196,7 @@
         }
     };
 
+
     
     
     
@@ -192,6 +206,7 @@
     searchBox.onsubmit = function(e) {
         e.preventDefault();
 
+        
         var searchEndpoint = new URL("https://api.gsa.gov/technology/searchgov/v2/results/i14y");
         params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: searchInput.value, include_facets: true };
 
