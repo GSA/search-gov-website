@@ -73,11 +73,38 @@
 
             // renders the results with the formatting required
             for (item in posts.web.results){
+
+                resultFacetInfo = ""
+                if (posts.web.results[item]['content_type']){
+                    resultFacetInfo+=`<div class="facet-field">Content Type: ` + posts.web.results[item]['content_type'] + `</div>`
+                }
+
+                if (posts.web.results[item]['mime_type']){
+                    resultFacetInfo+=`<div class="facet-field">File Type: ` + posts.web.results[item]['mime_type'] + `</div>`
+                }
+
+                if (posts.web.results[item]['searchgov_custom1']){
+                    resultFacetInfo+=`<div class="facet-field">Custom Field 1: ` + posts.web.results[item]['searchgov_custom1'] + `</div>`
+                }
+
+                if (posts.web.results[item]['searchgov_custom2']){
+                    resultFacetInfo+=`<div class="facet-field">Custom Field 2: ` + posts.web.results[item]['searchgov_custom2'] + `</div>`
+                }
+
+                if (posts.web.results[item]['searchgov_custom3']){
+                    resultFacetInfo+=`<div class="facet-field">Custom Field 3: ` + posts.web.results[item]['searchgov_custom3'] + `</div>`
+                }
+
+                if (posts.web.results[item]['tags']){
+                    resultFacetInfo+=`<div class="facet-field">Tags: ` + posts.web.results[item]['searchgov_custom1'] + `</div>`
+                }
+
                 render_result(`
                   <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
                     <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>').replace("| Search.gov", "")}</a></b>
                     <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}... </div>
-                    <div class="text-base-light"> ${posts.web.results[item]['url']}</div>
+                    <div class="text-base-light result-url"> ${posts.web.results[item]['url']}</div>
+                    ${resultFacetInfo}
                   </li>
                   `, true)
                 
