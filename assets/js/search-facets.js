@@ -177,6 +177,9 @@
                     if (facetParams[checkField] && facetParams[checkField].includes(checkValue)) {
                         checkBoxes[i].checked = true;
                     }
+                    else {
+                        checkBoxes[i].checked = false;
+                    }
                 }
                 
             }
