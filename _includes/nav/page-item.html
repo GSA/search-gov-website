@@ -1,7 +1,5 @@
 {% include nav/current.html page=include.page primary=include.primary %}
-<!-- <script>console.log({{include.page.url}})</script> -->
-<a href="{{ site.baseurl }}{{ include.page.url }}"{%
-  if _current -%} class="usa-current"{% endif %}>
+<a href="{{ site.baseurl }}{{ include.page.url }}">
   {% unless sidenav %}<span>{% endunless %}
     {{ include.text | default: include.page.title | smartify }}
   {% unless sidenav %}</span>{% endunless %}
