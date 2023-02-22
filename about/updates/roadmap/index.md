@@ -31,7 +31,7 @@ This roadmap shows what we are working on now, and what we plan to be working af
 * **Search Engine Results Page (SERP) Redesign &mdash; Frontend Development**
   * We will continue frontend development to build and test the new results page designs.
 * **Version Upgrades**
-  * We will be upgrading our Ruby version to keep them up-to-date and compliant. 
+  * We will be upgrading our Ruby version to keep it up-to-date and compliant. 
 * **CI/CD Pipeline Investigations**
   * We will investigate the work required to improve our continuous integration / continuous deployment (CI/CD) pipelines.
 
