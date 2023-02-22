@@ -37,6 +37,8 @@ View a detailed report of the number of times searchers have input specific term
 
 Read [Understanding Your Users' Needs By Analyzing Search Terms](https://www.digitalgov.gov/2013/10/24/understanding-your-users-needs-by-analyzing-search-terms/) for tips on how to create a semi-automated report for analyzing the data in this CSV file on a regular basis.
 
+The monthly report will return up to 50,000 unique search terms.
+
 ## Definitions
 
 All data presented on this page (and other pages in the Admin Center) are IP-deduped to exclude bots and other noise in an attempt to accurately represent searchers' intent on your site. Some definitions follow.
