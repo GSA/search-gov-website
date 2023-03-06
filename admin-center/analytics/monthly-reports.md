@@ -35,7 +35,9 @@ Use this report to inform which [modules you opt to display]({{ site.baseurl }}/
 
 View a detailed report of the number of times searchers have input specific terms and phrases by clicking on the CSV (comma-separated values) link to download the list as a text file. Once you've downloaded the CSV file, you can easily [import it  into Excel](https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-e8ab9ff3-be8d-43f1-9d52-b5e8a008ba5c) or another speadsheet program to analyze the data.
 
-Read [Understanding Your Users' Needs By Analyzing Search Terms](https://www.digitalgov.gov/2013/10/24/understanding-your-users-needs-by-analyzing-search-terms/) for tips on how to create a semi-automated report for analyzing the data in this CSV file on a regular basis.
+Read [Understanding Your Users' Needs By Analyzing Search Terms](https://www.digital.gov/2013/10/24/understanding-your-users-needs-by-analyzing-search-terms/) for tips on how to create a semi-automated report for analyzing the data in this CSV file on a regular basis.
+
+The monthly report will return up to 50,000 unique search terms.
 
 ## Definitions
 
