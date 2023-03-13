@@ -1,17 +1,14 @@
 ---
 layout: page
-title: Search.gov Roadmap Fiscal Year 2023 Quarter 2
-crumbname: Roadmap FY 2023 Q2
+title: Search.gov Roadmap Fiscal Year 2023 Quarter 1
+crumbname: Roadmap FY 2023 Q1
 category: about
 tags: roadmap
 breadcrumbs:
   - label: Home
     url: /
   - label: About
-redirect_from:
-    - /about/roadmap.html
-#subnav:
-  #data: about_us
+sidenav: about_us
 ---
 
 ## Overview
@@ -23,23 +20,30 @@ We know it's helpful for our partners at federal agencies to know what's coming 
 This roadmap shows what we are working on now, and what we plan to be working after that. We'll update this roadmap quarterly.
 
 
-## FY 2023 Q2: January&ndash;March 2023
+## FY 2023 Q1: October&ndash;December 2022
 
 ### Now
 
 * **Faceted Search &mdash; Results API Support**
   * We will work on supporting the faceted search functionality in our Results API.
-* **Search Engine Results Page (SERP) Redesign &mdash; Frontend Development**
-  * We will continue frontend development to build and test the new results page designs.
+* **Javascript Indexing &mdash; Production Release**
+  * We will be getting our Javascript indexing feature tested and ready for production.
+* **Search Engine Results Page (SERP) Redesign &mdash; Investigations**
+  * We will begin scoping the work required to upgrade our frontend technology in support of this redesign.
 * **Version Upgrades**
-  * We will be upgrading our Ruby version to keep it up-to-date and compliant. 
+  * We will be upgrading our ElasticSearch, Ruby, Rails, and Redis versions to keep them up-to-date and compliant. 
+* **RSS Feed Indexing**
+  * In addition to sitemap indexing, we will add support for automated indexing of RSS feeds into our primary web index.
+* **Additional Language Support**
+  * We will be adding support to our in-house index for Bengali, Hindi, Tagalog, Khmer, Vietnamese, Navajo, and Yu'pik search experiences.
 * **CI/CD Pipeline Investigations**
   * We will investigate the work required to improve our continuous integration / continuous deployment (CI/CD) pipelines.
 
+
 ### Next
 
-* **Search Engine Results Page (SERP) Redesign &mdash; Rollout**
-  * Once testing of the new results page is completed, we will roll out the new design to our customers.
+* **Search Engine Results Page (SERP) Redesign &mdash; Implementation and Rollout**
+  * Based on our investigations, we will begin updating visual components of our SERP. 
 * **Faceted Search &mdash; Frontend Interface**
   * We will begin building the frontend components required to support this functionality.
 * **Version Upgrades**
@@ -57,7 +61,6 @@ If you have questions or comments, please feel free to [reach out](mailto:search
 
 ## Previous Roadmaps
 
-* [FY 2022 Q4: October&ndash;December 2022]({{ site.baseurl}}/about/updates/roadmap/FY23Q1-roadmap.html)
 * [FY 2022 Q4: July&ndash;September 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q4-roadmap.html)
 * [FY 2022 Q3: April&ndash;June 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q3-roadmap.html)
 * [FY 2022 Q2: Janaury&ndash;March 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q2-roadmap.html)
