@@ -8,7 +8,8 @@ var subNavItems = document.querySelectorAll(".is-current a");
 
 for (i in subNavItems) {
     // determine the parent folder of the current page URL
-    var subfolder = window.location.href.split('/').slice(0,4).join('/')+"/";
+    var subfolder = window.location.href.split('/').slice(0,-1).join('/')+"/";
+    console.log(subfolder);
 
     // add styling if the current page matches a page listed in the submenu
     if (subNavItems[i].href == window.location.href) {
