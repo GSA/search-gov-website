@@ -8,6 +8,11 @@ primary:
         href: "/about/customers.html"
       - text: Search.gov in Policy
         href: "/about/policy/"
+        links:
+          - text: Government URLs
+            href: "/about/policy/govt-urls.html"
+          - text: Terms of Service
+            href: "/about/policy/tos.html"
       - text: Year in Review
         href: "/about/updates/year-in-review/"
       - text: Security and Compliance

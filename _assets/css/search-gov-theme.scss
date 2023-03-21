@@ -98,6 +98,35 @@ $side-navigation-highlight: #162e51;
   }
 }
 
+.usa-sidenav__sublist .usa-sidenav__sublist .usa-sidenav__item {
+  font-size: .875rem;
+  margin-left: .5rem;
+}
+
+.usa-sidenav__sublist .usa-sidenav__item:has(.usa-sidenav__sublist) {
+  .usa-current {
+    color: $side-navigation-highlight;
+  
+    &::after {
+      background-color: $side-navigation-highlight;
+      border-radius: 99rem;
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0.25rem;
+      top: 0.25rem;
+      width: 0.25rem;
+      left: 0;
+    }
+  }
+
+  .usa-sidenav__sublist .usa-current {
+    &::after {
+      display: none;
+    }
+  }
+}
+
 //Archive Banner Styling
 .archived-content {
   background-color: #FACE00;
