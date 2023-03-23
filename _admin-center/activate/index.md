@@ -5,6 +5,7 @@ title: Activate
   #data: admin_center
 date: March 1, 2021
 last_modified_at: March 1, 2021
+permalink: /admin-center/activate/
 ---
 
 <i class="icon-code"></i> The Activate section provides the code and tools you need to launch Search.gov on your website.

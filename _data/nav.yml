@@ -45,16 +45,85 @@ primary:
     links:
       - text: Dashboard
         href: "/admin-center/dashboard/"
+        links:
+          - text: Add Site
+            href: "/admin-center/dashboard/add-site.html"
+          - text: Supported Languages
+            href: "/admin-center/dashboard/supported-languages.html"
+          - text: Site Overview
+            href: "/admin-center/dashboard/site-overview.html"
+          - text: Manage Users
+            href: "/admin-center/dashboard/users.html"
+          - text: Settings
+            href: "/admin-center/dashboard/settings.html"
+          - text: Clone Site
+            href: "/admin-center/dashboard/clone-site.html"
       - text: Analytics
         href: "/admin-center/analytics/"
+        links:
+          - text: Queries
+            href: "/admin-center/analytics/queries.html"
+          - text: Clicks
+            href: "/admin-center/analytics/clicks.html"
+          - text: Referrers
+            href: "/admin-center/analytics/referrers.html"
+          - text: Monthly Reports
+            href: "/admin-center/analytics/monthly-reports.html"
+          - text: Module Codes
+            href: "/admin-center/analytics/module-codes.html"
+          - text: Third Party Tracking
+            href: "/admin-center/analytics/third-party.html"
+          - text: Analytics Alerts
+            href: "/admin-center/analytics/analytics-alerts.html"
       - text: Content
         href: "/admin-center/content/"
+        links:
+          - text: Content Overview
+            href: "/admin-center/content/content-overview.html"
+          - text: Domains
+            href: "/admin-center/content/domains.html"
+          - text: Collections
+            href: "/admin-center/content/collections.html"
+          - text: Best Bets
+            href: "/admin-center/content/best-bets.html"
+          - text: Routed Queries
+            href: "/admin-center/content/routed-queries.html"
+          - text: RSS Feeds
+            href: "/admin-center/content/rss.html"
+          - text: Youtube
+            href: "/admin-center/content/youtube.html"
+          - text: Twitter
+            href: "/admin-center/content/twitter.html"
+          - text: Flickr
+            href: "/admin-center/content/flickr.html"
       - text: Display
         href: "/admin-center/display/"
+        links:
+          - text: Display Overview
+            href: "/admin-center/display/display-overview.html"
+          - text: Brand 
+            href: "/admin-center/display/brand.html"
+          - text: No Results Page
+            href: "/admin-center/display/no-results.html"
+          - text: Search Page Alert
+            href: "/admin-center/display/system-alert.html"
+          - text: Jobs Module
+            href: "/admin-center/display/jobs-module.html"
+          - text: Federal Register Module
+            href: "/admin-center/display/federal-register-module.html"
+          - text: Health Topics Module
+            href: "/admin-center/display/health-module.html"
+          - text: Hosted Results vs. API Results
+            href: "/admin-center/display/hosted-vs-api-results.html"
       - text: Preview
         href: "/admin-center/preview.html"
       - text: Activate
         href: "/admin-center/activate/"
+        links:
+          - text: Code Snippets
+            href: "/admin-center/activate/code.html"
+          - text: Typeahead API
+            href: "/admin-center/activate/typeahead-api.html"
   - text: Manage your index
     href: /indexing/
     links: 

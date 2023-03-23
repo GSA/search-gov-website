@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Dashboard
-#subnav:
-  #data: admin_center
 date: March 1, 2021
 last_modified_at: March 1, 2021
+permalink: /admin-center/dashboard/
 ---
 
 <i class="icon-dashboard"></i> The Dashboard section shows the search site's daily traffic, settings, and user list. Review or edit these settings using the following options:

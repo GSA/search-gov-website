@@ -5,6 +5,7 @@ title: 'Analytics'
   #data: admin_center
 date: March 1, 2021
 last_modified_at: March 1, 2021
+permalink: /admin-center/analytics/
 ---
 {% include featured-accordion.html content="access-existing-site" accordion=true %}
 

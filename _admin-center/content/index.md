@@ -5,6 +5,7 @@ title: Manage Content
   #data: admin_center
 date: February 25, 2021
 last_modified_at: February 25, 2021
+permalink: /admin-center/content/
 ---
 <i class="icon-file"></i> This section allows you to set up the content that will appear in search results. You can search web content across multiple domains, and use our social media integrations to bring in content from those platforms.
 

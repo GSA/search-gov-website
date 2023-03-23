@@ -5,6 +5,7 @@ title: Manage Display
   #data: admin_center
 date: March 1, 2021
 last_modified_at: March 1, 2021
+permalink: /admin-center/display/
 ---
 
 <i class="icon-desktop"></i> Manage the Display settings for your search results page using the tools in this section. The Display Overview options apply to all sites. The Brand, custom No Results page, and Search Page Alert options apply only to our hosted search results page.
