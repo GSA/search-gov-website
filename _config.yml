@@ -352,6 +352,21 @@ searchgov:
 ##########################################################################################
 
 collections:
+  about:
+    output: true
+    permalink: /about/:path:output_ext
+  admin-center:
+    output: true
+    permalink: /admin-center/:path:output_ext
+  developer:
+    output: true
+    permalink: /developer/:path:output_ext
+  get-started:
+    output: true
+    permalink: /get-started/:path:output_ext
+  indexing:
+    output: true
+    permalink: /indexing/:path:output_ext
   pages:
     output: true
     permalink: /:path/

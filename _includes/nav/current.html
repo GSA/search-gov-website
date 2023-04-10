@@ -1,0 +1,19 @@
+{% capture void %}
+{% assign _current = false %}
+{% if include.page.url == page.url %}
+  {% assign _current = true %}
+{% elsif page.collection and include.page.collection == page.collection %}
+  {% assign _current = true %}
+{% elsif page.collection == "releases" and include.page.collection == "about" %}
+  {% assign _current = true %}
+{% elsif page.collection == "newsletters" and include.page.collection == "about" %}
+  {% assign _current = true %}
+{% elsif include.page.subnav %}
+  {% for _subnav in include.page.subnav %}
+    {% if _subnav.href and _subnav.href == page.permalink %}
+      {% assign _current = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% endcapture %}
