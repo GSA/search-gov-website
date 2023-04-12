@@ -60,6 +60,37 @@
         facetBox.innerHTML = (append == true) ? previous + content : content;
     }
 
+    function updateLabel(content){
+        var displayValue = "";
+        switch(content) {
+            case "text/html":
+                displayValue = "Webpage";
+                break;
+            case "application/pdf":
+                displayValue = "PDF";
+                break;
+            case "text/plain":
+                displayValue = "Text File";
+                break;
+            case "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+                displayValue = "DOCX";
+                break;
+            case "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet":
+                displayValue = "XLSX";
+                break; 
+            case "application/msword":
+                displayValue = "DOC";
+                break; 
+            case "application/vnd.ms-excel":
+                displayValue = "XLS";
+                break; 
+            default:
+                displayValue = content;
+                break;
+          }
+        return(displayValue);
+;    }
+
 
 
     request.onreadystatechange = function(e) {
@@ -80,7 +111,8 @@
                 }
 
                 if (posts.web.results[item]['mime_type']){
-                    resultFacetInfo+=`<div class="facet-field">File Type: ` + posts.web.results[item]['mime_type'] + `</div>`
+                    var filetype = updateLabel(posts.web.results[item]['mime_type']);
+                    resultFacetInfo+=`<div class="facet-field">File Type: ` + filetype + `</div>`
                 }
 
                 if (posts.web.results[item]['searchgov_custom1']){
@@ -96,7 +128,7 @@
                 }
 
                 if (posts.web.results[item]['tags']){
-                    resultFacetInfo+=`<div class="facet-field">Tags: ` + posts.web.results[item]['searchgov_custom1'] + `</div>`
+                    resultFacetInfo+=`<div class="facet-field">Tags: ` + posts.web.results[item]['tags'] + `</div>`
                 }
 
                 render_result(`
@@ -147,6 +179,7 @@
                     
                         var agg_key = facets[key].values[facetValue].agg_key; 
                         var doc_count = facets[key].values[facetValue].doc_count;
+                        var label = updateLabel(agg_key);
 
                         facetHTML += `
                         <div class="usa-checkbox">
@@ -158,7 +191,7 @@
                             value="${key}-${agg_key}"
                             />
                             <label class="usa-checkbox__label" for="check-${key}-${agg_key}"
-                            >${agg_key} (${doc_count})</label
+                            >${label} (${doc_count})</label
                             >
                         </div>
                         `
