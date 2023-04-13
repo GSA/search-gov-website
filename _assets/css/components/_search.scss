@@ -1,7 +1,7 @@
 .search-two-column {
     display: flex;
     justify-content: space-between;
-    max-width: 64rem;
+    max-width: 72rem;
     margin-left: auto;
     margin-right: auto;
     padding: 2rem;
@@ -27,4 +27,15 @@
 
 .usa-checkbox__label {
     max-width: 10rem;
+}
+
+.result-image {
+    max-height: 133px;
+    max-width: 200px;
+    margin: 0.5rem;
+}
+
+.search-result {
+    display: flex;
+    flex-direction: row;
 }

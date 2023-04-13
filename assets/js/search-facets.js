@@ -38,6 +38,14 @@
             name: "Custom Field 3",
             values: []
         },
+        created: {
+            name: "Published Date",
+            values: []
+        },
+        changed: {
+            name: "Last Updated",
+            values: []
+        },
     };
 
     var facetParams = {
@@ -131,12 +139,25 @@
                     resultFacetInfo+=`<div class="facet-field">Tags: ` + posts.web.results[item]['tags'] + `</div>`
                 }
 
+                if (posts.web.results[item]['publication_date']){
+                    resultFacetInfo+=`<div class="facet-field">Published: ` + posts.web.results[item]['publication_date'] + `</div>`
+                }
+
+                if (posts.web.results[item]['updated_date']){
+                    resultFacetInfo+=`<div class="facet-field">Updated: ` + posts.web.results[item]['updated_date'] + `</div>`
+                }
+
                 render_result(`
-                  <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
-                    <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>').replace("| Search.gov", "")}</a></b>
-                    <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}... </div>
-                    <div class="text-base-light result-url"> ${posts.web.results[item]['url']}</div>
-                    ${resultFacetInfo}
+                  <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest search-result">
+                    <div class="result-left"> 
+                        ${posts.web.results[item]['thumbnail_url'] ? `<img class="result-image" src="${posts.web.results[item]['thumbnail_url']}"}>`: ""}
+                    </div>
+                    <div class="result-right">
+                        <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>').replace("| Search.gov", "")}</a></b>
+                        <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}... </div>
+                        <div class="text-base-light result-url"> ${posts.web.results[item]['url']}</div>
+                        ${resultFacetInfo}
+                    </div>
                   </li>
                   `, true)
                 
@@ -191,7 +212,7 @@
                             value="${key}-${agg_key}"
                             />
                             <label class="usa-checkbox__label" for="check-${key}-${agg_key}"
-                            >${label} (${doc_count})</label
+                            >${label} ${doc_count ? `(${doc_count})` : ""}</label
                             >
                         </div>
                         `
@@ -312,6 +333,14 @@
                 name: "Custom Field 3",
                 values: []
             },
+            created: {
+                name: "Published Date",
+                values: []
+            },
+            changed: {
+                name: "Last Updated",
+                values: []
+            }
         };
         html = "";
         results = [];
