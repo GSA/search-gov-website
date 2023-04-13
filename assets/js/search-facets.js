@@ -200,22 +200,44 @@
                     
                         var agg_key = facets[key].values[facetValue].agg_key; 
                         var doc_count = facets[key].values[facetValue].doc_count;
+                        var dateSince = facets[key].values[facetValue].from_as_string ? new Date(facets[key].values[facetValue].from_as_string).toISOString().split('T')[0] : "";
+                        var dateUntil = facets[key].values[facetValue].to_as_string ? new Date(facets[key].values[facetValue].to_as_string).toISOString().split('T')[0] : "";
                         var label = updateLabel(agg_key);
 
-                        facetHTML += `
-                        <div class="usa-checkbox">
-                            <input
-                            class="usa-checkbox__input"
-                            id="check-${key}-${agg_key}"
-                            type="checkbox"
-                            name="${key}"
-                            value="${key}-${agg_key}"
-                            />
-                            <label class="usa-checkbox__label" for="check-${key}-${agg_key}"
-                            >${label} ${doc_count ? `(${doc_count})` : ""}</label
-                            >
-                        </div>
-                        `
+                        if (dateSince || dateUntil) {
+                            facetHTML += `
+                            <div class="usa-radio">
+                                <input
+                                class="usa-radio__input"
+                                id="radio-${key}-${agg_key}"
+                                type="radio"
+                                name="${key}"
+                                value="${key}-${agg_key}"
+                                ${dateSince ? `data-dateSince="${dateSince}"` : ""}
+                                ${dateUntil ? `data-dateUntil="${dateUntil}"` : ""}
+                                />
+                                <label class="usa-radio__label" for="radio-${key}-${agg_key}"
+                                >${label} ${doc_count ? `(${doc_count})` : ""}</label
+                                >
+                            </div>
+                            `
+                        }
+                        else {
+                            facetHTML += `
+                            <div class="usa-checkbox">
+                                <input
+                                class="usa-checkbox__input"
+                                id="check-${key}-${agg_key}"
+                                type="checkbox"
+                                name="${key}"
+                                value="${key}-${agg_key}"
+                                />
+                                <label class="usa-checkbox__label" for="check-${key}-${agg_key}"
+                                >${label} ${doc_count ? `(${doc_count})` : ""}</label
+                                >
+                            </div>
+                            `
+                        }
                     }
 
                     facetHTML+=`</div></div>`
@@ -223,7 +245,9 @@
                 }
             
             var checkBoxes = document.querySelectorAll("input.usa-checkbox__input");
+            var radioButtons = document.querySelectorAll("input.usa-radio__input");
 
+            // select the right checkboxes
             for (i in checkBoxes) {
                 var checkField = checkBoxes[i].name;
                 if (checkField && checkBoxes[i].value) {
@@ -233,6 +257,21 @@
                     }
                     else {
                         checkBoxes[i].checked = false;
+                    }
+                }
+                
+            }
+
+            // select the right radio buttons
+            for (i in radioButtons) {
+                var radioField = radioButtons[i].name;
+                if (radioField && radioButtons[i].value) {
+                    var radioValue = radioButtons[i].value.replace(radioField + "-", "");
+                    if (facetParams[radioField] && facetParams[radioField].includes(radioValue)) {
+                        radioButtons[i].checked = true;
+                    }
+                    else {
+                        radioButtons[i].checked = false;
                     }
                 }
                 
@@ -247,7 +286,11 @@
                 tags: [],
                 searchgov_custom1: [],
                 searchgov_custom2: [],
-                searchgov_custom3: []
+                searchgov_custom3: [], 
+                created_since: [],
+                created_until: [],
+                updated_since: [],
+                updated_until: []
             };
             params = {};
                 
@@ -275,7 +318,41 @@
                 catch {
 
                 }
-            } 
+            }
+
+            var selectedDates = [];
+                for (i in radioButtons) {
+                    try {
+                        radioButtons[i].addEventListener('change', (event) => 
+                        {
+                            selectedDates = document.querySelectorAll('input.usa-radio__input:checked');
+                            var value;
+                            for (f in selectedDates) {
+                                if (facetParams[(selectedDates[f].name + "_since")]){
+                                    value = selectedDates[f].dataset.datesince;
+                                    if (!facetParams[(selectedDates[f].name + "_since")].includes(value)) {
+                                        facetParams[(selectedDates[f].name + "_since")].push(value);
+                                    }
+                                }
+
+                                if (facetParams[(selectedDates[f].name + "_until")]){
+                                    value = selectedDates[f].dataset.dateuntil;
+                                    if (!facetParams[(selectedDates[f].name + "_until")].includes(value)) {
+                                        facetParams[(selectedDates[f].name + "_until")].push(value);
+                                    }
+                                }
+
+
+
+                                
+                            }
+                        });
+                    }
+
+                    catch {
+
+                    }
+                } 
                 
         }
     };
@@ -337,7 +414,7 @@
                 name: "Published Date",
                 values: []
             },
-            changed: {
+            updated: {
                 name: "Last Updated",
                 values: []
             }
