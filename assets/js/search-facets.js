@@ -55,7 +55,13 @@
         tags: [],
         searchgov_custom1: [],
         searchgov_custom2: [],
-        searchgov_custom3: []
+        searchgov_custom3: [],
+        created: [],
+        changed: [],
+        created_since: "",
+        created_until: "",
+        updated_since: "",
+        updated_until: ""
     };
 
     function render_result(content, append = true){
@@ -287,10 +293,12 @@
                 searchgov_custom1: [],
                 searchgov_custom2: [],
                 searchgov_custom3: [], 
-                created_since: [],
-                created_until: [],
-                updated_since: [],
-                updated_until: []
+                created: [],
+                changed: [],
+                created_since: "",
+                created_until: "",
+                updated_since: "",
+                updated_until: ""
             };
             params = {};
                 
@@ -326,25 +334,15 @@
                         radioButtons[i].addEventListener('change', (event) => 
                         {
                             selectedDates = document.querySelectorAll('input.usa-radio__input:checked');
-                            var value;
                             for (f in selectedDates) {
-                                if (facetParams[(selectedDates[f].name + "_since")]){
-                                    value = selectedDates[f].dataset.datesince;
-                                    if (!facetParams[(selectedDates[f].name + "_since")].includes(value)) {
-                                        facetParams[(selectedDates[f].name + "_since")].push(value);
-                                    }
+                                if (selectedDates[f].name === "changed"){
+                                    facetParams["updated_since"] = selectedDates[f].dataset.datesince;
+                                    facetParams["updated_until"] = selectedDates[f].dataset.dateuntil;
                                 }
-
-                                if (facetParams[(selectedDates[f].name + "_until")]){
-                                    value = selectedDates[f].dataset.dateuntil;
-                                    if (!facetParams[(selectedDates[f].name + "_until")].includes(value)) {
-                                        facetParams[(selectedDates[f].name + "_until")].push(value);
-                                    }
-                                }
-
-
-
-                                
+                                if (selectedDates[f].name === "created"){
+                                    facetParams["created_since"] = selectedDates[f].dataset.datesince;
+                                    facetParams["created_until"] = selectedDates[f].dataset.dateuntil;
+                                }                                
                             }
                         });
                     }
@@ -372,7 +370,7 @@
         params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: searchInput.value, include_facets: true };
 
         for (var key in facetParams) {
-            if (facetParams[key].length > 0) {
+            if (facetParams[key].length > 0 && (facetParams[key]!="changed" || facetParams[key]!="created")) {
                 params[key]=facetParams[key];
             }
         };
@@ -414,7 +412,7 @@
                 name: "Published Date",
                 values: []
             },
-            updated: {
+            changed: {
                 name: "Last Updated",
                 values: []
             }
