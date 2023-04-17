@@ -17,6 +17,7 @@
 
 .result-url {
     margin-bottom: .25rem;
+    word-wrap: break-word;
 }
 
 .facet-field {
@@ -35,7 +36,15 @@
     margin: 0.5rem;
 }
 
+#search-results {
+    padding-left: 0px;
+}
+
 .search-result {
     display: flex;
     flex-direction: row;
+}
+
+.result-right {
+    max-width: 100%;
 }

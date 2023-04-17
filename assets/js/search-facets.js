@@ -1,14 +1,21 @@
 ---
 ---
+// This search page allows us to conduct searches without a page refresh via AJAX calls
+// I used this demo as a starting point: https://blog.carsonevans.ca/2015/09/01/add-search-feature-to-a-jekyll-blog/
+
 (function() {
     var request = new XMLHttpRequest();
-    var searchBox = document.getElementById("search-box");
+
+    // define HTML elements that will be altered or read
+    var searchBox = document.getElementById("search-box"); 
     var searchInput = document.getElementById("search-field-en-small")
     var resultBox = document.getElementById("search-results");
     var facetBox = document.getElementById('facet-panel')
-    var posts;
-    var results;
-    var html = "";
+
+    // posts will store the results in the API response
+    var posts; 
+
+    // sets up the facets information required to render the facets on the search page
     var facets = {
         audience: {
             name: "Audience",
@@ -48,6 +55,7 @@
         },
     };
 
+    // sets up the parameters that are passed to the Results API to actually filter the query
     var facetParams = {
         audience:[],
         content_type:[],
@@ -64,16 +72,19 @@
         updated_until: ""
     };
 
+    // renders result HTML given specific content in the right place on the page
     function render_result(content, append = true){
         const previous = document.getElementById('search-results').innerHTML;
         resultBox.innerHTML = (append == true) ? previous + content : content;
       }
 
+    // renders facet HTML in the right place on the page
     function render_facets(content, append = true){
         const previous = document.getElementById('facet-panel').innerHTML;
         facetBox.innerHTML = (append == true) ? previous + content : content;
     }
 
+    // maps raw facet values to human-readable values. this is specifically done for mimetype right now, but could be used for any facet values.
     function updateLabel(content){
         var displayValue = "";
         switch(content) {
@@ -117,6 +128,9 @@
             posts = JSON.parse(request.responseText);
 
             // renders the results with the formatting required
+
+            render_result(posts.web.total == 1 ? `<i>${posts.web.total} result</i>` : `<i>${posts.web.total} results</i>`);
+
             for (item in posts.web.results){
 
                 resultFacetInfo = ""
@@ -130,19 +144,19 @@
                 }
 
                 if (posts.web.results[item]['searchgov_custom1']){
-                    resultFacetInfo+=`<div class="facet-field">Custom Field 1: ` + posts.web.results[item]['searchgov_custom1'] + `</div>`
+                    resultFacetInfo+=`<div class="facet-field">Custom Field 1: ` + String(posts.web.results[item]['searchgov_custom1']).replaceAll(",", ", ") + `</div>`
                 }
 
                 if (posts.web.results[item]['searchgov_custom2']){
-                    resultFacetInfo+=`<div class="facet-field">Custom Field 2: ` + posts.web.results[item]['searchgov_custom2'] + `</div>`
+                    resultFacetInfo+=`<div class="facet-field">Custom Field 2: ` + String(posts.web.results[item]['searchgov_custom2']).replaceAll(",", ", ") + `</div>`
                 }
 
                 if (posts.web.results[item]['searchgov_custom3']){
-                    resultFacetInfo+=`<div class="facet-field">Custom Field 3: ` + posts.web.results[item]['searchgov_custom3'] + `</div>`
+                    resultFacetInfo+=`<div class="facet-field">Custom Field 3: ` + String(posts.web.results[item]['searchgov_custom3']).replaceAll(",", ", ") + `</div>`
                 }
 
                 if (posts.web.results[item]['tags']){
-                    resultFacetInfo+=`<div class="facet-field">Tags: ` + posts.web.results[item]['tags'] + `</div>`
+                    resultFacetInfo+=`<div class="facet-field">Tags: ` + String(posts.web.results[item]['tags']).replaceAll(",", ", ") + `</div>`
                 }
 
                 if (posts.web.results[item]['publication_date']){
@@ -250,11 +264,11 @@
                     render_facets(facetHTML, true);
                 }
             
-            var checkBoxes = document.querySelectorAll("input.usa-checkbox__input");
-            var radioButtons = document.querySelectorAll("input.usa-radio__input");
+            var checkBoxes = document.getElementById("facet-panel").querySelectorAll("input.usa-checkbox__input");
+            var radioButtons = document.getElementById("facet-panel").querySelectorAll("input.usa-radio__input");
 
             // select the right checkboxes
-            for (i in checkBoxes) {
+            Object.keys(checkBoxes).forEach(function(i) {
                 var checkField = checkBoxes[i].name;
                 if (checkField && checkBoxes[i].value) {
                     var checkValue = checkBoxes[i].value.replace(checkField + "-", "");
@@ -266,22 +280,32 @@
                     }
                 }
                 
-            }
+            });
 
             // select the right radio buttons
-            for (i in radioButtons) {
-                var radioField = radioButtons[i].name;
-                if (radioField && radioButtons[i].value) {
-                    var radioValue = radioButtons[i].value.replace(radioField + "-", "");
-                    if (facetParams[radioField] && facetParams[radioField].includes(radioValue)) {
-                        radioButtons[i].checked = true;
+            Object.keys(radioButtons).forEach(function(i) {
+                try {
+                    var radioField = radioButtons[i].name ? radioButtons[i].name : "";
+
+                    if (radioField === "changed") {
+                        radioField = "updated"
                     }
-                    else {
-                        radioButtons[i].checked = false;
+                    var radio_dateUntil = radioButtons[i].dataset.dateuntil ? radioButtons[i].dataset.dateuntil : "";
+                    var radio_dateSince = radioButtons[i].dataset.datesince ? radioButtons[i].dataset.datesince : "";
+
+                    if (radioField && radio_dateUntil && radio_dateSince && facetParams[radioField + "_since"] && facetParams[radioField + "_until"]) {
+                        if (facetParams[radioField + "_since"] === radio_dateSince && facetParams[radioField + "_until"] === radio_dateUntil ) {
+                            radioButtons[i].checked = true;
+                        }
+                        else {
+                            radioButtons[i].checked = false;
+                        }
                     }
                 }
-                
-            }
+                catch(e) {
+                    console.log(e);
+                }
+            });
                 
             
             // clear out request parameters
@@ -306,7 +330,7 @@
 
             var selectedFacets = [];
 
-            for (i in checkBoxes) {
+            Object.keys(checkBoxes).forEach(function(i) {
                 try {
                     checkBoxes[i].addEventListener('change', (event) => 
                     {
@@ -326,10 +350,10 @@
                 catch {
 
                 }
-            }
+            });
 
             var selectedDates = [];
-                for (i in radioButtons) {
+            Object.keys(radioButtons).forEach(function(i) {
                     try {
                         radioButtons[i].addEventListener('change', (event) => 
                         {
@@ -350,7 +374,7 @@
                     catch {
 
                     }
-                } 
+                });
                 
         }
     };
