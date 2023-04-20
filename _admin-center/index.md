@@ -47,7 +47,6 @@ Related resources:
 * [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html)
 * [RSS]({{ site.baseurl }}/admin-center/content/rss.html)
 * [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)
-* [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)
 * [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)
 
 ## <i class="icon-desktop"></i> [Manage Display]({{ site.baseurl }}/admin-center/display/)

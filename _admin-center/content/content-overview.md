@@ -45,7 +45,6 @@ Once you've added your web pages, you can create [Collections]({{ site.baseurl }
 ## Add Your News
 
 * **RSS Feeds.** Do you have RSS feeds set up for your press releases, blog posts, or other newsworthy content? When you [add an RSS]({{ site.baseurl }}/admin-center/content/rss.html), we'll index the items on that feed.
-* **Twitter.** Does your agency use Twitter? You can [add your Twitter handle]({{ site.baseurl }}/admin-center/content/twitter.html), and we'll index your tweets. You have the option of asking us to index the tweets from other Twitter users that you maintain in public lists on Twitter. Because tweets are ephemeral, we display tweets from the past three days when they match a searcher's query.
 
 ## Add Your Recommendations
 

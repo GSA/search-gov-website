@@ -16,7 +16,6 @@ permalink: /admin-center/content/
 * [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) &ndash; for very targeted queries, bypass the results page and funnel searchers straight from the search box to a landing page
 * [RSS]({{ site.baseurl }}/admin-center/content/rss.html) &ndash; index news feeds, speeches, pdfs, and other media attachments
 * [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)
-* [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)
 * [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)
 
 For questions about indexing, including sitemaps, see our [Indexing help section]({{ site.baseurl }}/indexing/indexing-with-searchgov.html).

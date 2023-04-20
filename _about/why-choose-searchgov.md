@@ -83,7 +83,7 @@ There are several key differences between our service and other options in the m
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
-      <th scope="row">Search social<br />media content<br />(<a href="{{ site.baseurl }}/admin-center/content/twitter.html">Twitter</a>, <a href="{{ site.baseurl }}/admin-center/content/flickr.html">images</a>,<br /><a href="{{ site.baseurl }}/admin-center/content/youtube.html">YouTube</a>)</th>
+      <th scope="row">Search social<br />media content<br />(<a href="{{ site.baseurl }}/admin-center/content/flickr.html">images</a>,<br /><a href="{{ site.baseurl }}/admin-center/content/youtube.html">YouTube</a>)</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>

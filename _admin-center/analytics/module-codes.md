@@ -38,7 +38,6 @@ This page lists all the module codes and their full names.
 | QRTD  | Routed Queries |
 | SPEL  | Spelling Suggestions (Search.gov) |
 | SREL  | Related Searches |
-| TWEET | Tweets (Twitter) |
 | VIDS  | Video Results (YouTube) |
 
 \* indicates a deprecated module code.
