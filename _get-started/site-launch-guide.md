@@ -5,7 +5,7 @@ crumbname: Site Launch Guide
 category: admin-center
 tags: go-live site-launch indexing
 date: April 22, 2019
-last_modified_at: February 3, 2021
+last_modified_at: April 20, 2023
 #subnav:
   #data: get_started
 redirect_from:
@@ -90,7 +90,6 @@ If we will be indexing your content ourselves, we will follow these steps:
 * [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) allow you to bypass the results page entirely for a given query, where you know exactly the page you want a person to get to after running that query. This is helpful for always getting people to the landing page for a process, rather than their clicking to a mid-process page from a search results page.
 * [RSS]({{ site.baseurl }}/admin-center/content/rss.html) feeds can be indexed and searched either as separate tabs on the search results, or as an inline module promoting your latest content alongside your web results.
 * [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) videos can also be searched
-* [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)    
 * [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)   
 * [Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html) are one of the most frequently searched topics on agency websites. Use our jobs module to show your agency’s postings from USAJOBS in your own website’s search results.
 * [_Federal Register_]({{ site.baseurl }}/admin-center/display/federal-register-module.html) rules and notices can be added to your search results in a separate module. 

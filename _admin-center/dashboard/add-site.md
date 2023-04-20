@@ -4,7 +4,7 @@ title: How to Add a New Search Site
 category: admin-center
 tags: "help-manual settings add-site"
 date: March 2, 2017
-last_modified_at: March 2, 2017
+last_modified_at: April 20, 2023
 published: true
 #subnav:
   #data: admin_center
@@ -36,7 +36,7 @@ Tell us the homepage URL of your website. Enter a fully qualified URL, including
 We use this homepage URL to: 
 
 1. Seed your [domains]({{ site.baseurl }}/admin-center/content/domains.html) list.
-1. Scan for any social media accounts ([Flickr]({{ site.baseurl }}/admin-center/content/flickr.html), [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html), and [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)), your favicon to use on your search results browser tab, and [RSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) that are linked from your homepage, or another page you specify on the Display Overview page.
+1. Scan for any social media accounts ([Flickr]({{ site.baseurl }}/admin-center/content/flickr.html) and [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)), your favicon to use on your search results browser tab, and [RSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) that are linked from your homepage, or another page you specify on the Display Overview page.
 1. Link the default [logo]({{ site.baseurl }}/admin-center/display/brand.html) on your results page to your homepage.
 
 ## Display Name

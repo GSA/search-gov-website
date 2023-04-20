@@ -92,8 +92,6 @@ primary:
             href: "/admin-center/content/rss.html"
           - text: Youtube
             href: "/admin-center/content/youtube.html"
-          - text: Twitter
-            href: "/admin-center/content/twitter.html"
           - text: Flickr
             href: "/admin-center/content/flickr.html"
       - text: Display

@@ -5,7 +5,7 @@ crumbname: Go-Live
 category: admin-center
 tags: help-manual
 date: September 4, 2019
-last_modified_at: September 4, 2019
+last_modified_at: April 20, 2023
 #subnav:
   #data: get_started
 redirect_from:
@@ -22,7 +22,7 @@ Your pre-launch checklist will be unique to your agency's workflow, requirements
 
 <i class="icon-check"></i> **3. Have you told us about your RSS feeds?** We love [RSS feeds]({{ site.baseurl }}/admin-center/content/rss.html). Tell us about all of your feeds, even if you opt not to show them (see #5 below). They're a quick way for us to index your new and updated content, in addition to the content listed on your sitemap (see above). (Tip: Preview your feeds from the RSS page in the [Admin Center](https://search.usa.gov/sites/) to confirm that we've indexed your content.)
 
-<i class="icon-check"></i> **4. Have you told us about your social media accounts?** [Flickr photostreams]({{ site.baseurl }}/admin-center/content/flickr.html), [tweets]({{ site.baseurl }}/admin-center/content/twitter.html), and [YouTube videos]({{ site.baseurl }}/admin-center/content/youtube.html) are a great way to highlight your recent content and offer a single point of access to your various publishing channels. 
+<i class="icon-check"></i> **4. Have you told us about your social media accounts?** [Flickr photostreams]({{ site.baseurl }}/admin-center/content/flickr.html) and [YouTube videos]({{ site.baseurl }}/admin-center/content/youtube.html) are a great way to highlight your recent content and offer a single point of access to your various publishing channels. 
 
 ## Customize the Display of Your Search Results Page
 

@@ -4,7 +4,7 @@ title: How to Select the Options That Appear on Your Results Page
 category: admin-center
 tags: help-manual manage-display facets modules related-sites
 date: February 27, 2017
-last_modified_at: February 27, 2017
+last_modified_at: April 20, 2023
 #subnav:
   #data: admin_center
 redirect_from:
@@ -48,8 +48,6 @@ These options control what types of search results are returned, and apply to bo
 1. **Related Searches.** Help visitors better define the focus of their search by offering them searches related to their current search term. Suggestions are derived from the searches performed on your website. Up to five searches related to your visitors' original search are displayed and are updated in near real time.
 
 1. **Health Topics.** Help searchers find high-quality, authoritative health information from MedlinePlus and ClinicalTrials.gov. For more information, including a screenshot, read our post [Help Searchers Find Health Information]({{ site.baseurl }}/admin-center/display/health-module.html).
-
-1. **Recent Tweets.** This option only appears after you've told us about your [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html) account. When a searcher's query matches the text of a tweet published within the past three days, the tweet appears in the Recent Tweets module.
 
 1. **Typeahead Search.** Help searchers refine their query by displaying typeahead search suggestions as a list in the search box. The list forms as a searcher begins to type in the search box. Suggestions are listed in order of most popular (that is, most searched). They're updated every few seconds. See, for example, the suggestions as you type di... on [SocialSecurity.gov's search results page](https://search.ssa.gov/search?affiliate=ssa). ***Note:*** this will enable typeahead on your search results page that is hosted by our service. If you wish to display typeahead suggestions on your agency’s website, please review instructions for our [JavaScript snippet and API]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). 
 

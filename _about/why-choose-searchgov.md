@@ -4,7 +4,7 @@ title: Why Choose Search.gov?
 description: There are several key differences between Search.gov and other options in the marketplace. Learn about our features, how they can help people find what they need on your agency's website, and how we can help make it easy to get search right on your website.
 tags: about-us features
 date: March 4, 2021
-last_modified_at: November 22, 2021
+last_modified_at: April 20, 2023
 #subnav:
   #data: about_us
 ---
@@ -83,7 +83,7 @@ There are several key differences between our service and other options in the m
       <td class="text-tabular text-right">No</td>
     </tr>
     <tr>
-      <th scope="row">Search social<br />media content<br />(<a href="{{ site.baseurl }}/admin-center/content/twitter.html">Twitter</a>, <a href="{{ site.baseurl }}/admin-center/content/flickr.html">images</a>,<br /><a href="{{ site.baseurl }}/admin-center/content/youtube.html">YouTube</a>)</th>
+      <th scope="row">Search social<br />media content<br />(<a href="{{ site.baseurl }}/admin-center/content/flickr.html">images</a>,<br /><a href="{{ site.baseurl }}/admin-center/content/youtube.html">YouTube</a>)</th>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>

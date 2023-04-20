@@ -3,7 +3,7 @@ layout: page
 title: "Results Page Feature Comparison: Hosted Vs. API"
 tags: display brand api
 date: September 15, 2020
-last_modified_at: April 6, 2021
+last_modified_at: April 20, 2023
 #subnav:
   #data: admin_center
 ---
@@ -36,7 +36,6 @@ After you get your [search site set up]({{ site.baseurl }}/get-started/site-laun
 | [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to send searchers to specific pages | Yes | Yes &mdash; requires additional logic |
 | [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html) &mdash; document search | Yes | Yes &mdash; requires separate endpoint call |
 | [YouTube Videos]({{ site.baseurl }}/admin-center/content/youtube.html) | Yes | Yes &mdash; requires separate endpoint call |
-| [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html) | Yes | Yes |
 | [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html) | Yes | No |
 | [MRSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html) &mdash; image search | Yes | No |
 | [Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html) | Yes | Yes |

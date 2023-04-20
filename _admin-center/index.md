@@ -3,7 +3,7 @@ layout: page
 title: "Help Manual: Managing Your Search Configuration"
 crumbname: Help Manual
 tags: help-manual
-last_modified_at: "March 3, 2021"
+last_modified_at: "April 20, 2023"
 #subnav:
   #data: admin_center
 permalink: /admin-center/
@@ -47,7 +47,6 @@ Related resources:
 * [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html)
 * [RSS]({{ site.baseurl }}/admin-center/content/rss.html)
 * [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)
-* [Twitter]({{ site.baseurl }}/admin-center/content/twitter.html)
 * [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)
 
 ## <i class="icon-desktop"></i> [Manage Display]({{ site.baseurl }}/admin-center/display/)
