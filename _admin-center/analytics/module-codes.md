@@ -4,7 +4,7 @@ title: Key for Search Module Codes and Names
 category: admin-center
 tags: help-manual analytics clicks queries
 date: March 15, 2018
-last_modified_at: March 15, 2018
+last_modified_at: April 20, 2023
 #subnav:
   #data: admin_center
 redirect_from:
@@ -38,6 +38,7 @@ This page lists all the module codes and their full names.
 | QRTD  | Routed Queries |
 | SPEL  | Spelling Suggestions (Search.gov) |
 | SREL  | Related Searches |
+| TWEET* | Tweets (Twitter) |
 | VIDS  | Video Results (YouTube) |
 
-\* indicates a deprecated module code.
+\* indicates a deprecated module code. Analytics may include data for these modules prior to their deprecation.

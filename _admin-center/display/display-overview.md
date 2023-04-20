@@ -4,7 +4,7 @@ title: How to Select the Options That Appear on Your Results Page
 category: admin-center
 tags: help-manual manage-display facets modules related-sites
 date: February 27, 2017
-last_modified_at: February 27, 2017
+last_modified_at: April 20, 2023
 #subnav:
   #data: admin_center
 redirect_from:

@@ -3,7 +3,7 @@ layout: page
 title: "Help Manual: Managing Your Search Configuration"
 crumbname: Help Manual
 tags: help-manual
-last_modified_at: "March 3, 2021"
+last_modified_at: "April 20, 2023"
 #subnav:
   #data: admin_center
 permalink: /admin-center/

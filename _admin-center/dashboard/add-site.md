@@ -4,7 +4,7 @@ title: How to Add a New Search Site
 category: admin-center
 tags: "help-manual settings add-site"
 date: March 2, 2017
-last_modified_at: March 2, 2017
+last_modified_at: April 20, 2023
 published: true
 #subnav:
   #data: admin_center

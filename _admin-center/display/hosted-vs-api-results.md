@@ -3,7 +3,7 @@ layout: page
 title: "Results Page Feature Comparison: Hosted Vs. API"
 tags: display brand api
 date: September 15, 2020
-last_modified_at: April 6, 2021
+last_modified_at: April 20, 2023
 #subnav:
   #data: admin_center
 ---
