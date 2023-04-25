@@ -3,7 +3,7 @@ layout: page
 title: Search.gov System Status
 tags: status support help
 description: This page provides the current operating status of the Search.gov system.
-last_modified_at: September 23, 2022
+last_modified_at: April 25, 2023
 #subnav:
   #data: support
 ---
@@ -22,7 +22,7 @@ Details: We are investigating a possible issue with our search service. We will 
  -->
  
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 12PM ET and 3PM ET on Tuesday, April 25. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues.
+We will be doing planned maintenance between 12PM ET and 6PM ET on Tuesday, April 25. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues.
 
 ## Recent Events
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
