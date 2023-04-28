@@ -26,6 +26,10 @@ We will be doing planned maintenance between 12PM ET and 6PM ET on Tuesday, Apri
 
 ## Recent Events
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
+Date: April 28, 2023, 2:20 - 2:42PM ET <br />
+Details: From 2:20 - 2:42PM ET we experienced a slight degradation in our search results. The issue appears to be resolved and Search.gov is now fully operational.
+
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
 Date: April 27, 2023, 12:13 - 1:02PM ET <br />
 Details: From 12:13 - 1:02PM ET we experienced a partial degradation in our search. The issue appears to be resolved and Search.gov is now fully operational.
 
