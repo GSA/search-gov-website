@@ -1,0 +1,157 @@
+img.year-review-hero-image {
+  width: 100%;
+}
+
+.together-internal-nav {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+}
+
+.together-internal-nav {
+  margin-bottom: -4px;
+}
+
+.together-internal-nav__list {
+  align-items: center;
+  flex-direction: row;
+}
+
+.together-internal-nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.together-internal-nav__item {
+  margin-right: 5rem;
+}
+
+.together-internal-nav__item {
+  margin: auto;
+  padding: 0;
+}
+
+.together-internal-nav__link, .together-internal-nav__link:visited {
+  border-bottom: none;
+  color: #565c65;
+  display: block;
+  font-size: .81rem;
+  padding: 0.5rem 0.25rem;
+  text-decoration: none;
+}
+
+.together-internal-nav__link, .together-internal-nav__link:visited {
+  border-bottom: 2px solid transparent;
+  font-size: 1.06rem;
+  padding: 0.75rem 0.5rem;
+}
+
+.usa-in-page-nav-together-list {
+  padding: 0 1.5rem;
+}
+
+.usa-in-page-nav-together__item {
+  list-style: none;
+  padding: .75rem 0 .75rem .75rem;
+  border-top: solid 1px #cccccc;
+
+  a {
+    text-decoration: none;
+    color: #4d5560;
+  }
+}
+
+.usa-in-page-nav-together__item:last-child {
+  border-bottom: solid 1px #cccccc;
+}
+
+blockquote.year-in-review {
+  background: #E9F3FA;
+  border-left: solid 6px #0076D5;
+}
+
+blockquote.overview {
+  min-height: 360px;
+  font-size: 1.5rem;
+}
+
+.overview-thumbs {
+  p {
+    font-size: .875rem;
+    margin: .25rem 0;
+  }
+}
+
+.overview-partners {
+  p {
+    font-size: .875rem;
+    margin: .25rem 0;
+  }
+
+  img {
+    max-width: 200px;
+  }
+}
+
+.year-checklist {
+  p {
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 2.5rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    color: #0076D5;
+    padding: 0.75em 2rem;
+    border: none;
+    background: white;
+    border-radius: 5rem;
+    cursor: pointer;
+  }
+}
+
+.bg-blue {
+  background: #0076D5;
+}
+
+.usa-in-page-nav-together {
+  margin-left: 0.25rem;
+  margin-top: 2.25rem;
+  position: sticky;
+  top: 8rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.usa-in-page-nav-together nav {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.example-website {
+  background: #e9f3fa;
+}
+
+h3.design-header {
+  position: relative;
+}
+
+h3.design-header:after {
+  background-color: #B50B0C;
+  bottom: -5px;
+  content: '';
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: 70px;
+}
