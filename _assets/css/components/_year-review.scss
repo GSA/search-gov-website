@@ -22,7 +22,6 @@ img.year-review-hero-image {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0.5rem 0;
   text-align: center;
 }
 
@@ -36,19 +35,22 @@ img.year-review-hero-image {
 }
 
 .together-internal-nav__link, .together-internal-nav__link:visited {
-  border-bottom: none;
   color: #565c65;
   display: block;
-  font-size: .81rem;
-  padding: 0.5rem 0.25rem;
+  font-size: 1.05em;
+  padding: 0.75rem 0.5rem;
   text-decoration: none;
+  border-bottom: solid 5px transparent;
 }
 
-.together-internal-nav__link, .together-internal-nav__link:visited {
-  border-bottom: 2px solid transparent;
-  font-size: 1.06rem;
-  padding: 0.75rem 0.5rem;
+.together-internal-nav__link:hover {
+  border-bottom: solid 5px #255E9D !important;
 }
+
+// .together-internal-nav__link, .together-internal-nav__link:visited {
+//   font-size: 1.06rem;
+//   padding: 0.75rem 0.5rem;
+// }
 
 .usa-in-page-nav-together-list {
   padding: 0 1.5rem;
