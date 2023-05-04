@@ -12,19 +12,23 @@ last_modified_at: April 25, 2023
 
 <!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
 
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
+<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
 Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
-Details: We are investigating a possible issue with our search service. We will provide updates every 30 minutes.
+Details: We are investigating a possible issue with our search service. We will provide updates every 30 minutes. -->
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 
-<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
  
 <!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Planned Maintenance<br /> 
 We will be doing planned maintenance between 12PM ET and 6PM ET on Tuesday, April 25. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues. -->
 
 ## Recent Events
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: May 4, 2023, 2:13PM ET - 4:14PM ET<br />
+Details: From 2:13PM ET - 4:14PM ET, a misconfiguration in our DNS caused failure for search requests to sites using masked domains (e.g., search.example.gov, instead of search.usa.gov). The issue is resolved and Search.gov is now fully operational.
+
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
 Date: April 28, 2023, 2:20 - 2:42PM ET <br />
 Details: From 2:20 - 2:42PM ET we experienced a slight degradation in our search results. The issue appears to be resolved and Search.gov is now fully operational.
