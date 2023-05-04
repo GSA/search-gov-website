@@ -27,7 +27,7 @@ We will be doing planned maintenance between 12PM ET and 6PM ET on Tuesday, Apri
 ## Recent Events
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
 Date: May 4, 2023, 2:13PM ET - 4:14PM ET<br />
-Details: From 2:13PM ET - 4:14PM ET, a misconfiguration in our DNS caused failure for search requests to sites using masked domains (e.g., search.example.gov, instead of search.usa.gov). The issue is resolved and Search.gov is now fully operational.
+Details: From 2:13PM ET - 4:14PM ET, a misconfiguration in our DNS caused failure for search requests to sites using masked domains (e.g., search.example.gov, instead of search.usa.gov). The issue is resolved and Search.gov is now fully operational. We are improving our monitoring so this sort of issue can be detected immediately in the future.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
 Date: April 28, 2023, 2:20 - 2:42PM ET <br />
