@@ -48,7 +48,7 @@ last_modified_at: April 24, 2022
             <div class="grid-row grid-gap-4 margin-y-2">
                 <div class="grid-col-6">
                     <div class="example-website padding-x-4 padding-y-2">
-                        <h3 class="design-header">Old Website</h3>
+                        <h3 class="design-header">Original Website</h3>
                         <p>example.gov/site/the-website-starts-here</p>
                         <p><a href="">www.example.gov</a></p>
                     </div>
