@@ -18,19 +18,17 @@ Details: We are investigating a possible issue with our search service. We will 
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 
-<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
-
-<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
-Date: May 9, 2023, 9:06AM ET - ongoing <br />
-Details: From 9:06AM ET some of our servers began dropping momentarily, and we see occasional dips in search service. We are actively monitoring and investigating, and will provide updates every 30 minutes. 
-
-* Update: 11:25AM - we are still investigating.
-* Update: 12:10PM - we are attempting a fix.
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
  
 <!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Planned Maintenance<br /> 
 We will be doing planned maintenance between 12PM ET and 6PM ET on Tuesday, April 25. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues. -->
 
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
+Date: May 9, 2023, 9:06AM - 12:39PM ET <br />
+Details: During planned maintenance the evening of May 8, we replaced a server. The new server received our standard configuration, but was never fully functional. When traffic began increasing normally at the beginning of the business day, at 9:06AM ET, the server's issues caused ripple effects across the system, without providing indicators of a root cause. We pulled the server out of rotation, and as of 12:39PM ET, search is now fully operational.
+
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
 Date: May 4, 2023, 2:13PM ET - 4:14PM ET<br />
 Details: From 2:13PM ET - 4:14PM ET, a misconfiguration in our DNS caused failure for search requests to sites using masked domains (e.g., search.example.gov, instead of search.usa.gov). The issue is resolved and Search.gov is now fully operational. We are improving our monitoring so this sort of issue can be detected immediately in the future.
