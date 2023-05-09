@@ -158,7 +158,7 @@ last_modified_at: April 24, 2022
         </ul>
     </main>
 </article>
-<div class="desktop:grid-col-4">
+<div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
     <aside class="usa-in-page-nav-together">
         <nav role="navigation" arial-label="In-page navigation">
             <ul class="usa-in-page-nav-together-list">

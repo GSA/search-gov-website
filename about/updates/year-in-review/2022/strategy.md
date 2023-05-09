@@ -86,7 +86,7 @@ last_modified_at: April 24, 2022
         <p>They contacted our team at the beginning of their redesign process to review plans, and we offered feedback. When they had implementations in place, we assisted in the technical review. After the subdomains were complete, the main HRSA.gov site was relaunched. By this final launch, the team had refined all of their technical and procedural plans and was running the migrations, and only needed to send us notice of the area being relaunched, and the date. This “rolling big bang” hybrid approach allowed the HRSA team to effectively manage internal resources, focusing on just one set of stakeholders at a time, while keeping up a steady pace accomplishing major milestones and ultimately completing the project on time.</p>
     </main>
 </article>
-<div class="desktop:grid-col-4">
+<div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
     <aside class="usa-in-page-nav-together">
         <nav role="navigation" arial-label="In-page navigation">
             <ul class="usa-in-page-nav-together-list">

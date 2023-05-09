@@ -101,7 +101,7 @@ last_modified_at: April 24, 2022
         <p>For each URL, our system checks if it is still active, and if so, pulls the updated content into our index. If the URL is no longer active, we remove it from the index. We also pick up all new URLs listed in the sitemap. When re-indexing is complete, we notify the Justice.gov team. The updates to the search results appear to searchers gradually, as our system works through each URL.</p>
     </main>
 </article>
-<div class="desktop:grid-col-4">
+<div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
     <aside class="usa-in-page-nav-together">
         <nav role="navigation" arial-label="In-page navigation">
             <ul class="usa-in-page-nav-together-list">
