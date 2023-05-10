@@ -106,7 +106,6 @@ We look for the following fields:
 - **Data Gathering Logic:** We collect both fields, and use whichever is longer in search results. If both are blank, we will use the URL as the title of the document.
 - **Used In:** Query matching, term frequency scoring
 
-
 ### Description
 
 We look for the first instance of the following fields:
@@ -130,9 +129,8 @@ We look for the following fields:
 <meta name="article:section" content="example" />
 ```
 - **Detail:** While not often used by commercial search engines due to [keyword stuffing](https://support.google.com/webmasters/answer/66358?hl=en), Search.gov indexes your keywords, if you have added them. 
-- **Data Gathering Logic:** We pull all fields listed into one "Tags" field for searching and future facet filtering. We also dedupe keywords so that our `Tags` field only contains unique terms. Each keyword will be treated as a unique term when searching and filtering content. 
-- **Used In:** Query matching, term frequency scoring, faceted search (upcoming feature)
-
+- **Data Gathering Logic:** We pull all fields listed into one "Tags" field for searching and faceted search (metadata-driven results filtering). We also dedupe keywords so that our `Tags` field only contains unique terms. Each keyword will be treated as a unique term when searching and filtering content. 
+- **Used In:** Query matching, term frequency scoring, faceted search (metadata-driven results filtering, currently available via the Results API)
 
 ### Created Date
 
@@ -144,8 +142,7 @@ We look for the following fields:
 <meta name="dcterms.created" content="YYYY-MM-DD" />
 ```
 - **Detail:** The date fields are listed in order of preference. We only accept one `created` date, and use this list to determine the fallback options. Exact time is optional; read more technical [background and guidance](https://en.wikipedia.org/wiki/ISO_8601).
-- **Used In:** Page freshness scoring, faceted search (upcoming feature)
-
+- **Used In:** Page freshness scoring, faceted search (metadata-driven results filtering, currently available via the Results API)
 
 ### Changed Date
 
@@ -153,13 +150,11 @@ We look for the following field:
 ```
 <meta property="article:modified_time" content="YYYY-MM-DD" />
 ```
-
 - **Detail:** Exact time is optional; read more technical [background and guidance](https://en.wikipedia.org/wiki/ISO_8601). 
 <!-- The `<lastmod>` field is included in XML sitemaps to signal to search engines when a page was last modified. Search.gov collects this metadata in case there is no `article:modified_time` data included in the page itself. -->
-- **Used In:** Page freshness scoring, faceted search (upcoming feature)
+- **Used In:** Page freshness scoring, faceted search (metadata-driven results filtering, currently available via the Results API)
 
-
-### Crawling Metadata
+### Robots meta tag - Crawling directive
 
 We look for the following field:
 ```
@@ -168,12 +163,6 @@ We look for the following field:
 - **Detail:** Use the [meta robots tag]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html#robots) to block the search engine from indexing a particular page.
 - **Used In:** Used during indexing, does not affect relevance ranking.
 
-
-
-
-## Upcoming Metadata Support
-The following fields will power new features coming in the next few months. These will not affect your search until we release those features. However, we recommend adding these fields to your documents now so that the new features will be available to you immediately after they are released.
-
 ### Thumbnail Image
 
 We look for the following field:
@@ -181,8 +170,7 @@ We look for the following field:
 <meta property="og:image" content="https://example.gov/my-image-url.jpg" />
 ```
 - **Detail:** An image associated to the content. Ideally, this image serves well as a thumbnail on both our search results page and on social media platforms.
-- **Used In:** Results page display (upcoming feature)
-
+- **Used In:** Results page display (upcoming feature for hosted results, currently available via the Results API)
 
 ### Audience
 
@@ -191,8 +179,7 @@ We look for the following field:
 <meta name="dcterms.audience" content="example">
 ```
 - **Detail:** The intended audience of the page. 
-- **Used In:** Query matching, faceted search (upcoming feature)
-
+- **Used In:** Query matching and faceted search (metadata-driven results filtering, currently available via the Results API)
 
 ### Content Type
 
@@ -203,8 +190,7 @@ We look for the following fields:
 <meta name="og:type" content="example">
 ```
 - **Detail:** The content type of the page. We combine these fields into one "Content Type" field for searching and filtering.
-- **Used In:** Faceted search (upcoming feature)
-
+- **Used In:** Faceted search (metadata-driven results filtering, currently available via the Results API)
 
 ### Search.gov Custom Fields
 
@@ -214,8 +200,5 @@ We look for the following fields:
 <meta name="searchgov_custom2" content="..., ..., ...">
 <meta name="searchgov_custom3" content="..., ..., ...">
 ```
-- **Detail:** These fields can support any text content that you want to offers in your faceted search options. The fields accept single values or list-type content. Each listed value will be treated as a unique term when searching and filtering content. 
-- **Used In:** Query matching, faceted search (upcoming feature)
-
-
-
+- **Detail:** These fields can support any text content that you want to offers in your faceted search options (metadata-driven results filtering). The fields accept single values or list-type content. Each listed value will be treated as a unique term when searching and filtering content. 
+- **Used In:** Query matching, faceted search (currently available via the Results API)
