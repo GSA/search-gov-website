@@ -27,19 +27,19 @@ Either URL format works.
 
 When you add the URL for your YouTube channel, we'll automatically index your videos &mdash; both your uploaded videos and playlists.
 
-We'll show the videos by default. You can toggle the settings for showing your videos on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page, choosing to show them as a facet, inline module, or both.
+We'll show the videos by default. You can toggle the settings for showing your videos on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page, choosing to show them as a search tab, inline module, or both.
 
-**Facet**
+**Search Tab**
 
 {% include featured-accordion.html content="facet-renaming" accordion=false %}
 
-![Videos Facet on DigitalGov.gov]({{ site.url }}/assets/img/site/Videos-Facet.png "Videos Facet on DigitalGov.gov"){:height="95%" width="95%"}
+![Videos search tab on DigitalGov.gov]({{ site.url }}/assets/img/site/Videos-Facet.png "Videos Search Tab on DigitalGov.gov"){:height="95%" width="95%"}
 
 **Inline Module**
 
 ![Inline Module on DigitalGov.gov]({{ site.url }}/assets/img/site/Videos-Inline-Module.png "Inline Module on DigitalGov.gov"){:height="95%" width="95%"}
 
-You can edit the default facet label, Videos, on the [RSS]({{ site.baseurl }}/admin-center/content/rss.html) page.
+You can edit the default search tab label, Videos, on the [RSS]({{ site.baseurl }}/admin-center/content/rss.html) page.
 
 ---
 
