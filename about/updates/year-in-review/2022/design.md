@@ -14,7 +14,8 @@ last_modified_at: April 24, 2022
     <main id="main-content">
         <h1 class="title">{{page.title}}</h1>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/4_logo.png" alt="" />
-        <h2 id="section_1">4. Content strategy revisions</h2>
+        <hr class="section-break" id="section_1">
+        <h2 id="">4. Content strategy revisions</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>If the content is being rewritten during a relaunch, the team will need to reindex the website to ensure accurate results. Now is the time to establish content governance for the new site, so content across the site will be of a similar quality, and maintained over time. This includes metadata strategy and requirements, and schedules for reviews and updates.</p>
@@ -35,7 +36,8 @@ last_modified_at: April 24, 2022
         <p>Some of the content strategy focused on interactive elements. They used new design components from the US Web Design System (USWDS) to structure content with visual cues of how to do tasks, including process lists and clickable call to action buttons. Their UX, content and developer teams worked together to create interactive tools that allow visitors to find their elected officials and where to report scams.</p>
         <p>The team is promoting the beta sites on social media and banners on the main USA.gov. They link to the beta sites to drive traffic and get feedback. They are also conducting ongoing usability tests on specific new features. Together, these data help USAGov identify what’s working and glean ideas to improve the completed site.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/5_logo.png" alt="" />
-        <h2 id="section_2">5. Information architecture revisions</h2>
+        <hr class="section-break" id="section_2">
+        <h2 id="">5. Information architecture revisions</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>Changes to a website’s information architecture almost always change every URL on the website. By extension, all of the old URLs will no longer work, which means that every search result will break. Agencies must reindex websites when they change architecture, even if the content does not change. Reindexing guarantees that the URLs with the new structure will be returned in search.</p>
@@ -71,7 +73,8 @@ last_modified_at: April 24, 2022
         <p>The new architecture emphasizes topics, programs, and resources, and narrows down to state-level information within those higher level categories. In addition, each state manages a state-specific page. This page then links out to all the relevant state information in the other folders.</p>
         <p>The new structure is a set of distinct content categories with strategic cross-linking. This allows the state teams to provide targeted support to their constituents, and allows the central NRCS web team to manage content without redundancy.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/6_logo.png" alt="" />
-        <h2 id="section_3">6. Design: Visual and structural</h2>
+        <hr class="section-break" id="section_3">
+        <h2 id="">6. Design: Visual and structural</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>Website design can have a large impact on search. Develop page template code carefully so the information that the agency wants searchable is picked up by search engines, and the text that is not valuable for search is not.</p>

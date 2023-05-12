@@ -14,7 +14,8 @@ last_modified_at: April 24, 2022
     <main id="main-content">
         <h1 class="title">{{page.title}}</h1>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/7_logo.png" alt="" />
-        <h2 id="section_1">7. Content migration</h2>
+        <hr class="section-break" id="section_1">
+        <h2 id="">7. Content migration</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>This phase of a website redesign has very little impact on search, because the space does not include decisions about content structure and presentation. Sometimes test content remains in the website and is indexed and returned in search after launch. Update placeholder text to final content, and delete test pages.</p>
@@ -56,7 +57,8 @@ last_modified_at: April 24, 2022
         <p>Looking back, the web team would have built in more time to complete the content migration. The team may have taken a phased approach instead of a full site migration, updating and publishing sections or subdomains individually.</p>
         <p>As a best practice, the team has implemented a stronger content governance, so that content is now kept current, reviewed, and archived on a regular basis. The team is looking forward to using these lessons and best practices for redesigns in the future.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/8_logo.png" alt="" />
-        <h2 id="section_2">8. Testing</h2>
+        <hr class="section-break" id="section_2">
+        <h2 id="">8. Testing</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>There are several benefits of including search capability in pre-launch test plans. Testing can confirm that sitemaps are building properly, the site content can be indexed cleanly, and the connection between the search box and search service is working as expected.</p>
@@ -85,7 +87,8 @@ last_modified_at: April 24, 2022
         <p>Then, they watched their server monitors and web analytics to see how quickly the suggestions were being displayed, and how often were people clicking on them. They ran the A/B test for two months, to allow time for different usage patterns to emerge.</p>
         <p>At the end of the test, they were satisfied that people found the feature useful and deployed the type-ahead code to all of their servers.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/9_logo.png" alt="" />
-        <h2 id="section_3">9. Rollout</h2>
+        <hr class="section-break" id="section_3">
+        <h2 id="">9. Rollout</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>For search, launch day holds the most activity. New content needs to be indexed, content that has been migrated or updated must be re-indexed, and decommissioned content needs to be removed from search results. Our team needs to know the date and time of your relaunch, so that we can start all these activities as soon as possible. We provide some guidance on other search experience items that need to be updated at or soon after launch.</p>

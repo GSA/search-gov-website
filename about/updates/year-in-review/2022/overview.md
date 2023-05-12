@@ -12,7 +12,8 @@ last_modified_at: April 24, 2022
 <div class="grid-row grid-gap">
 <article class="desktop:grid-col-8 usa-prose article">
     <main id="main-content">
-        <h1 class="title" id="section_1">{{page.title}}</h1>
+        <hr class="section-break" id="section_1">
+        <h1 class="title" id="">{{page.title}}</h1>
         <p>For the past several years Search.gov has reported on the top public needs based on the search terms they used. This report shows the public experience of seeking services and information from the government.</p>
         <p>This year we will take a different approach. This report tells our story of change, and how these changes affect search and findability.</p>
         <p>2022 has been a year of tremendous change for federal digital communications, as agencies work to meet the public’s needs, as well as new legal and policy requirements. Search.gov too has experienced great changes resulting from these laws and policies, and other enabling factors.</p>
@@ -50,7 +51,8 @@ last_modified_at: April 24, 2022
                 <p>9. Rollout</p>
             </div>
         </div>
-        <h2 id="section_2">Acknowledgements</h2>
+        <hr class="section-break" id="section_2">
+        <h2 id="">Acknowledgements</h2>
         <p>Our thanks to our partners who graciously shared their stories for this report.</p>
         <div class="grid-row grid-gap overview-partners">
             <div class="tablet:grid-col-3">
@@ -92,14 +94,16 @@ last_modified_at: April 24, 2022
             <blockquote class="year-in-review overview padding-4 padding-top-6 margin-x-0">In the review, I hope you capture the assistance you and the Search.gov team provided to us, both leading up to and during the launch. We couldn’t have launched without you.</blockquote>
             </div>
         </div>
-		<h2 id="section_3">2022 top topics in search</h2>
+        <hr class="section-break" id="section_3">
+		<h2 id="">2022 top topics in search</h2>
 		<p>While this year we focused on website modernization and its impact on search and findability, the public still has searched for services and information like any other year.</p>
 		<p>Here is a high level summary of the top interests across participating agencies during 2022.</p>
 		<h2>2022 top topics in search</h2>
 		<p>While this year we focused on website modernization and its impact on search and findability, the public still has searched for services and information like any other year.</p>
 		<p>Here is a high level summary of the top interests across participating agencies during 2022.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/top-topics-in-seach.png" alt="Top search topics during 2022" />
-		<h2 id="section_4">2022 migration context</h2>
+        <hr class="section-break" id="section_4">
+		<h2 id="">2022 migration context</h2>
 		<p>In 2022, many agencies relaunched their websites. Several factors combined to create the right conditions, including new laws and funding priorities.</p>
 		<p>The 21st Century Integrated Digital Experience Act (21st Century IDEA) lays out several requirements to improve the quality of government websites and other digital services. Specifically, agencies were told to modernize their websites, and report their progress to Congress and the public each year.</p>
 		<p>In the four years since the law was passed, agencies have</p>
@@ -117,7 +121,8 @@ last_modified_at: April 24, 2022
 			<li>The Coronavirus Aid, Relief, and Economic Security (CARES) Act was passed to help the American public in a time of crisis. While the CARES Act did not target web improvements specifically, many of these improvements helped carry out the act’s purpose. These improvements include updating data collection, service delivery, and application systems.</li>
 			<li>The American Rescue Plan (ARP), passed in 2021, supplemented appropriated budgets across government, to ensure services and programs were able to deliver on their missions to the public. This often took the form of improving the digital space.</li>
 		</ul>
-        <h2 id="section_5">Search.gov’s own renovation</h2>
+        <hr class="section-break" id="section_5">
+        <h2 id="">Search.gov’s own renovation</h2>
         <p>Like many agency teams, Search.gov has been busy this year getting long-awaited improvement plans developed and into production, so the public can interact with the government more easily. Our improvements are made possible by American Rescue Plan resources.</p>
         <p>During 2022 our efforts included:</p>
         <h3>Adding faceted search</h3>

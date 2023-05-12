@@ -14,7 +14,8 @@ last_modified_at: April 24, 2022
     <main id="main-content">
         <h1 class="title">{{page.title}}</h1>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/1_Icon.png" alt="" />
-        <h2 id="section_1">1. Baseline site assessment: Customer experience and usability research</h2>
+        <hr class="section-break" id="section_1">
+        <h2 id="">1. Baseline site assessment: Customer experience and usability research</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>Baseline usability research reveals the strengths and shortcomings of the current website, including the search function. It highlights gaps in findability, which will show</p>
@@ -39,7 +40,8 @@ last_modified_at: April 24, 2022
         <h3>National Aeronautics and Space Administration NASA.gov</h3>
         <p>[story being reviewed/completed with agency, to be inserted soon.]</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/2_Icon.png" alt="" />
-        <h2 id="section_2">2. Content management system or publishing platform choice</h2>
+        <hr class="section-break" id="section_2">
+        <h2 id="">2. Content management system or publishing platform choice</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>Search engines are programmed to collect data and content in specific ways, and each one is different. Presenting relevant information about a page in the HTML elements that the search engine is looking for will help the page rank appropriately in results. Search engine optimization (SEO) is the practice of tailoring the elements placed on a page and the information included in them to support search engine bots’ data harvesting. Different content management systems provide different levels of SEO support.</p>
@@ -63,7 +65,8 @@ last_modified_at: April 24, 2022
         <p>As with all major version changes, the two versions had significant differences. They have different features requiring different work required to upgrade them.</p>
         <p>The team would need alternative upgrade plans depending on what version they finally chose. . In the end, they chose to move to the newer version, looking at the likely production release date and the earlier version’s end of life date.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/3_Icon.png" alt="" />
-        <h2 id="section_3">3. Relaunch path selection</h2>
+        <hr class="section-break" id="section_3">
+        <h2 id="">3. Relaunch path selection</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>Update any search index when you launch the new website. If you relaunch your website in multiple waves, you will need to reindex the site with each wave, to ensure that search results stay correct.</p>
