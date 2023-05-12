@@ -100,7 +100,7 @@ last_modified_at: April 24, 2022
 </article>
     <div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
         <aside class="usa-in-page-nav-together">
-            <nav role="navigation" arial-label="In-page navigation">
+            <nav class="navigation" id="yrNav" role="navigation" arial-label="In-page navigation">
                 <ul id="top-menu" class="usa-in-page-nav-together-list in-page-nav-menu">
                     <li class="usa-in-page-nav-together__item"><a href="#section_1" class="usa-in-page-nav-together__link usa-current">4. Content strategy revisions</a></li>
                     <li class="usa-in-page-nav-together__item"><a href="#section_2" class="usa-in-page-nav-together__link">5. Information architecture revisions</a></li>
