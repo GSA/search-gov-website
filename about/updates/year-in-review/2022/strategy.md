@@ -16,7 +16,7 @@ last_modified_at: April 24, 2022
         <h1 class="title">{{page.title}}</h1>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/1_Icon.png" alt="" />
         <hr class="section-break" id="section_1">
-        <h2 id="">1. Baseline site assessment: Customer experience and usability research</h2>
+        <h2 id="">1. Baseline site assessment: Customer experience and usability researchers</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
         <p>Baseline usability research reveals the strengths and shortcomings of the current website, including the search function. It highlights gaps in findability, which will show</p>
