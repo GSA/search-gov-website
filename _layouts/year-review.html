@@ -9,7 +9,8 @@ This template is for a single page that does not have a date associated with it.
 <section class="usa-layout-docs usa-section padding-0">
   <div class="grid-container padding-y-0">
     <div class="grid-row">
-      <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/{{page.hero-image}}" class="year-review-hero-image"/>
+      <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/{{page.hero-image-desktop}}" class="year-review-hero-image desktop:display-block tablet:display-none"/>
+      <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/{{page.hero-image}}" class="year-review-hero-image desktop:display-none tablet:display-block"/>
       <div class="year-review-text desktop:display-block tablet:display-none"><p class="review-header">2022 Year in Review</p>
       <p><strong>The great migration:</strong> Search in support of federal web modernization</p></div>
     </div>
@@ -71,41 +72,3 @@ This template is for a single page that does not have a date associated with it.
     </div>
   </div>
 </section>
-
-<script>
-$(document).ready(function() {
-		$('a[href*=#]').bind('click', function(e) {
-				e.preventDefault(); // prevent hard jump, the default behavior
-
-				var target = $(this).attr("href"); // Set the target as variable
-
-				// perform animated scrolling by getting top-position of target-element and set it as scroll target
-				$('html, body').stop().animate({
-						scrollTop: $(target).offset().top
-				}, 600, function() {
-						location.hash = target; //attach the hash (#jumptarget) to the pageurl
-				});
-
-				return false;
-		});
-});
-
-$(window).scroll(function() {
-		var scrollDistance = $(window).scrollTop();
-
-		// Show/hide menu on scroll
-		//if (scrollDistance >= 850) {
-		//		$('nav').fadeIn("fast");
-		//} else {
-		//		$('nav').fadeOut("fast");
-		//}
-	
-		// Assign active class to nav links while scolling
-		$('.page-section').each(function(i) {
-				if ($(this).position().top <= scrollDistance) {
-						$('.navigation a.active').removeClass('active');
-						$('.navigation a').eq(i).addClass('active');
-				}
-		});
-}).scroll();
-</script>

@@ -4,6 +4,7 @@ title: Overview
 description: The 2022 Search.gov Year In Review.
 tags: year-in-review
 hero-image: Overview_Hero.png
+hero-image-desktop: Overview_Hero_desktop.png
 date: April 24, 2022
 last_modified_at: April 24, 2022
 
