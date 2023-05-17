@@ -39,8 +39,8 @@ last_modified_at: April 24, 2022
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/NASA_logo.png" alt="NASA" />
         <h3>National Aeronautics and Space Administration NASA.gov</h3>
         <p>[story being reviewed/completed with agency, to be inserted soon.]</p>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/2_Icon.png" alt="" />
         <hr class="section-break" id="section_2">
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/2_Icon.png" alt="" />
         <h2 id="">2. Content management system or publishing platform choice</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
@@ -64,8 +64,8 @@ last_modified_at: April 24, 2022
         <p>Moving directly to the next version too early may mean that that release isn’t fully stable.</p>
         <p>As with all major version changes, the two versions had significant differences. They have different features requiring different work required to upgrade them.</p>
         <p>The team would need alternative upgrade plans depending on what version they finally chose. . In the end, they chose to move to the newer version, looking at the likely production release date and the earlier version’s end of life date.</p>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/3_Icon.png" alt="" />
         <hr class="section-break" id="section_3">
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/3_Icon.png" alt="" />
         <h2 id="">3. Relaunch path selection</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>

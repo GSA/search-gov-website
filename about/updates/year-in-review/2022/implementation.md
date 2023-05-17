@@ -56,8 +56,8 @@ last_modified_at: April 24, 2022
         <p>In all, the content migration took about 18 months.</p>
         <p>Looking back, the web team would have built in more time to complete the content migration. The team may have taken a phased approach instead of a full site migration, updating and publishing sections or subdomains individually.</p>
         <p>As a best practice, the team has implemented a stronger content governance, so that content is now kept current, reviewed, and archived on a regular basis. The team is looking forward to using these lessons and best practices for redesigns in the future.</p>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/8_logo.png" alt="" />
         <hr class="section-break" id="section_2">
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/8_logo.png" alt="" />
         <h2 id="">8. Testing</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
@@ -86,8 +86,8 @@ last_modified_at: April 24, 2022
         <p>After they were satisfied with the basic connection, they prepared an A/B test to be able to compare the experience with the suggestions to the one without. They deployed the type-ahead connection to just one of their web servers. They set their load balancer to send 5% of traffic to the updated server.</p>
         <p>Then, they watched their server monitors and web analytics to see how quickly the suggestions were being displayed, and how often were people clicking on them. They ran the A/B test for two months, to allow time for different usage patterns to emerge.</p>
         <p>At the end of the test, they were satisfied that people found the feature useful and deployed the type-ahead code to all of their servers.</p>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/9_logo.png" alt="" />
         <hr class="section-break" id="section_3">
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/9_logo.png" alt="" />
         <h2 id="">9. Rollout</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>

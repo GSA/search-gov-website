@@ -35,8 +35,8 @@ last_modified_at: April 24, 2022
         <p>After they finished this review, their writers developed a set of “user intents” Each page focuses on a single user intent. Using the search trend data, the team wrote headlines and link text that matched what people wanted to know more about.</p>
         <p>Some of the content strategy focused on interactive elements. They used new design components from the US Web Design System (USWDS) to structure content with visual cues of how to do tasks, including process lists and clickable call to action buttons. Their UX, content and developer teams worked together to create interactive tools that allow visitors to find their elected officials and where to report scams.</p>
         <p>The team is promoting the beta sites on social media and banners on the main USA.gov. They link to the beta sites to drive traffic and get feedback. They are also conducting ongoing usability tests on specific new features. Together, these data help USAGov identify what’s working and glean ideas to improve the completed site.</p>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/5_logo.png" alt="" />
         <hr class="section-break" id="section_2">
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/5_logo.png" alt="" />
         <h2 id="">5. Information architecture revisions</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
@@ -72,8 +72,8 @@ last_modified_at: April 24, 2022
         <p>With their new site, they wanted to ensure that people in any particular state would be able to find everything they need easily. They also wanted to streamline their content, focusing more on topics without regard to agency structure. So they created an architecture that is almost an inversion of the old site, reflecting users and their needs, rather than how NRCS is organized.</p>
         <p>The new architecture emphasizes topics, programs, and resources, and narrows down to state-level information within those higher level categories. In addition, each state manages a state-specific page. This page then links out to all the relevant state information in the other folders.</p>
         <p>The new structure is a set of distinct content categories with strategic cross-linking. This allows the state teams to provide targeted support to their constituents, and allows the central NRCS web team to manage content without redundancy.</p>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/6_logo.png" alt="" />
         <hr class="section-break" id="section_3">
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/6_logo.png" alt="" />
         <h2 id="">6. Design: Visual and structural</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
