@@ -5,8 +5,8 @@ description: The 2022 Search.gov Year In Review.
 tags: year-in-review
 hero-image: Strategy_Hero.png
 hero-image-desktop: Strategy_Hero_desktop.png
-date: April 24, 2022
-last_modified_at: April 24, 2022
+date: May 18, 2023
+last_modified_at: May 18, 2023
 
 ---
 
@@ -14,8 +14,8 @@ last_modified_at: April 24, 2022
 <article class="desktop:grid-col-8 usa-prose article">
     <main id="main-content">
         <h1 class="title">{{page.title}}</h1>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/1_Icon.png" alt="" />
         <hr class="section-break" id="section_1">
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/1_Icon.png" alt="" />
         <h2 id="">1. Baseline site assessment: Customer experience and usability researchers</h2>
         <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">
         <h3>Impact on search</h3>
@@ -37,8 +37,11 @@ last_modified_at: April 24, 2022
             <li>User interviews and survey feedback help researchers understand people’s experience. Interviews allow the researchers to go into detail with participants, while surveys provide structured input from a broad population sample. The challenge with interviews is in reaching a representative group. Survey data, especially from online surveys, may require teams to filter out invalid responses from bots.</li>
             <li>Web analytics show how many people visited the site, which pages they went to, how long they were on each page, what device browser they used, and many other aspects of interaction with the site. Reviewing analytics allows the web team to determine which pages are used most often, and which pages are used less. This data helps prioritize content additions and updates, and archiving pages that are no longer needed. </li>
         </ul>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/NASA_logo.png" alt="NASA" />
-        <h3>National Aeronautics and Space Administration NASA.gov</h3>
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/ONRR_logo.png" alt="ONRR" />
+        <h3>The Office of Natural Resources Revenue ONRR.gov</h3>
+        <p>[story being reviewed/completed with agency, to be inserted soon.]</p>
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/SSA_logo.png" alt="ONRR" />
+        <h3>The United States Social Security Administration SSA.gov</h3>
         <p>[story being reviewed/completed with agency, to be inserted soon.]</p>
         <hr class="section-break" id="section_2">
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2022/img/2_Icon.png" alt="" />
