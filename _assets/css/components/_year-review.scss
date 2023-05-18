@@ -152,6 +152,12 @@ blockquote.overview {
   }
 }
 
+@media screen and (max-width: 1247px) {
+  .year-review-text {
+    top: 300px;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .year-review-text {
     display: none;
