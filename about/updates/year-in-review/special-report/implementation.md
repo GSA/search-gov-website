@@ -37,7 +37,7 @@ last_modified_at: May 18, 2023
 		<p>They conducted an audit of web analytics data and customer feedback surveys, and met with internal stakeholders, many of whom are frequent users of the website themselves.</p>
 		<p>The web team learned that there were large groups of older content that were not being used. They also learned that people often looked for information on the main website that was published on a subdomain.</p>
 		<p>In addition, the team learned that there were people from the general public trying to use their website who were confused by pages written for experts.</p>
-		<p>The team developed a strategy that focused on four main areas:<p>
+		<p>The team developed a strategy that focused on four main areas:</p>
 		<ul>
 			<li>archiving outdated pages, including removing and archiving one content type entirely; </li>
 			<li>rewriting pages to use plain language; </li>
@@ -49,8 +49,7 @@ Content that was slated to be removed was discussed and reviewed with agency sta
 		<p>This required the web team and other staff to deliver alternate solutions to the content users. While the web team managed content creation for the new website, they were also managing the new website’s design process, and keeping the old website up and running.</p>
 		<p>In all, the content migration took about 18 months.</p>
 		<p>Looking back, the web team would have built in more time to complete the content migration. The team may have taken a phased approach instead of a full site migration, updating and publishing sections or subdomains individually.</p>
-		<p>As a best practice, the team has implemented a stronger content governance, so that content is now kept current, reviewed, and archived on a regular basis. The team is looking forward to using these lessons and best practices for redesigns in the future.
-</p>
+		<p>As a best practice, the team has implemented a stronger content governance, so that content is now kept current, reviewed, and archived on a regular basis. The team is looking forward to using these lessons and best practices for redesigns in the future.</p>
         <hr class="section-break" id="section_2">
         <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/8_logo.png" alt="" />
         <h2 id="">8. Testing</h2>
