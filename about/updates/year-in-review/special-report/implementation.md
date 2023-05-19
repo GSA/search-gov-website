@@ -74,6 +74,7 @@ Content that was slated to be removed was discussed and reviewed with agency sta
 		<ul>
 			<li>by placing a script on the agency website that pulls suggestions from our system, or</li>
 			<li>by using an API connection to pull the suggestions directly.</li>
+        </ul>
 		<p>This team chose the direct API method, and wrote code to create the connection. Before rolling this feature out to all website users, the team wanted to test whether their implementation was going to provide a fast and useful experience.</p>
 		<p>They analyzed their search data to find common needs that were often mistyped, or showed other meaningful signals that the searcher might like some help entering their search. They sent us a curated list of suggestions that they wanted to start out with, and we loaded them into the system.</p>
 		<p>Then, they tested in their staging environment to make sure their connection to the type-ahead API was sending us the characters typed in the search box, and that their website was showing the suggestions we returned to them.</p>

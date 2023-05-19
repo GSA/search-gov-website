@@ -13,6 +13,7 @@ last_modified_at: May 18, 2023
 <div class="grid-row grid-gap">
 <article class="desktop:grid-col-8 usa-prose article">
     <main id="main-content">
+        <hr class="section-break" id="section_1">
         <h1 class="title" id="">Overview</h1>
         <p>For the past several years Search.gov has reported each year on the top public needs based on the search terms they used.</p>
         <p>This special report will take a different approach. It still offers a high level view of the public experience of seeking services and information from the government. But it also tells the story of change, and how these changes affect search and findability.</p>
@@ -31,8 +32,6 @@ last_modified_at: May 18, 2023
 		<p>2022 was a year of tremendous change for federal digital communications, as agencies work to meet the public’s needs, as well as new legal and policy requirements. Search.gov too has experienced great changes resulting from these laws and policies, and other enabling factors. This trend of change continues across government, and is gathering momentum.</p>
 		<p>In this special report, we discuss a website redesign’s nine phases and their impact on search. If your agency has the resources, you can conduct many of these phases at the same time.</p>
 		<p>If a small team tries to conduct multiple phases at the same time, this will likely extend the timeline. Also, you can conduct some of the phases in a different order from what we present here, and indeed the outcome of one phase may indicate revisions are needed in previously completed phases.</p>
-
-        </ul>
         <div class="grid-row grid-gap overview-thumbs padding-y-2">
             <div class="tablet:grid-col-4">
             <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/Strategy_thumbnail.png" alt="" />
@@ -113,7 +112,6 @@ last_modified_at: May 18, 2023
 			<li>13 top topics</li>
 			<li>365 days of connecting people with what they need</li>
 		</ul>
-
         <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/top-topics-in-seach.png" alt="Horizontal bar chart showing the top search topics during 2022. Benefits - 39.2 million searches. Space - 17.6 million searches. Health - 12.3 million searches. Forms - 6.2 million searches. Savings, treasury bonds, and banking - 4.6 million searches. Jobs - 4.3 million searches. Locations and appointments - 3.5 million searches. Login to systems - 2.5 million searches. Immigration - 2.3 million searches. Weather - 2.1 million searches. Infrastructure - 1.8 million searches. Update personal data - 1.4 million searches. Lost card - 800 thousand searches." />
         <hr class="section-break" id="section_4">
 		<h2 id="">Recent website migration context</h2>
