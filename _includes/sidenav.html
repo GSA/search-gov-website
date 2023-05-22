@@ -3,60 +3,11 @@ The sidenav is not loaded by default on the main pages. To include this navigati
 _layouts/page.html layout template, or you can add a "sidenav" property in the front-matter of your page corresponding to a list in the main config file
 {% endcomment %}
 
-{% assign basedir = page.url | replace: "/", "" | lstrip %}
-<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
-  <nav>
-    <ul class="usa-sidenav">
-      {% for nav_item in site[include.sidenav] %}
-      {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
-        {% unless nav_item.children %}
-        <li class="usa-sidenav__item">
-          <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-            href="{{ nav_item.url | prepend: site.env.BASEURL || site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
-        </li>
-        {% else %}
-        <li class="usa-sidenav__item">
-          {% if nav_item.url %}
-            <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}" href="{{ nav_item.url | prepend: site.env.BASEURL || site.baseurl}}">
-          {% endif %}
-            <span class="{% if nav_item.url == null %}usa-sidenav-label{% endif %}">{{ nav_item.name | escape }}</span>
-          {% if nav_item.url %}
-          </a>
-          {% endif %}
-          <ul class="usa-sidenav__sublist">
-            {% for subnav_item in nav_item.children %}
-              {% assign linkdir = subnav_item.url |  replace: "/", ""  | lstrip %}
-              {% unless subnav_item.children %}
-              <li class="usa-sidenav__item">
-                <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-                  href="{{ subnav_item.url | prepend: site.env.BASEURL || site.baseurl}}">
-                  <span>{{ subnav_item.name | escape }}</span>
-                </a>
-              </li>
-              {% else %}
-              <li class="usa-sidenav__item">
-                {% if subnav_item.url %}
-                <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}" href="{{ subnav_item.url | prepend: site.env.BASEURL || site.baseurl }}">
-                {% endif %}
-                <span class="{% if subnav_item.url == null %}usa-sidenav-label{% endif %}">{{ subnav_item.name | escape }}</span>
-                {% if subnav_item.url %}
-                </a>
-                {% endif %}
-                <ul class="usa-sidenav__sublist">
-                  {% for grandchild in subnav_item.children %}
-                  {% assign linkdir = grandchild.url |  replace: "/", ""  | lstrip %}
-                  <li class="usa-sidenav__item">
-                    <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}" href="{{ grandchild.url | prepend: site.env.BASEURL || site.baseurl }}">{{ grandchild.name | escape }}</a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </li>
-              {% endunless %}
-            {% endfor %}
-          </ul>
-        </li>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </nav>
+<aside class="sidenav" id="page-side-navigation" aria-label="Section navigation">
+  {% assign sidenav = site.data.nav.primary %}
+  {% if sidenav %}
+  <ul class="site-sidenav usa-sidenav">
+    {% include nav/list.html links=sidenav %}
+  </ul>
+  {% endif %}
 </aside>
