@@ -31,13 +31,5 @@ In 2010, Search.gov moved to open-source software and expanded its use to agenci
 
 * **Dawn Pointer McCleskey** &mdash; Program Manager
 * **Arantxa Piperova** &mdash; Customer Success Manager
-* **Dan Swick** &mdash; Developer
-* Contractors
-  * **Amani Farooque** &mdash; Product Manager
-  * **Timothy Bill** &mdash; Scrum Master
-  * **Robert Fink** &mdash; Technical Lead and DevOps
-  * **Martha Thompson** &mdash; Senior Developer
-  * **Lora Woodford** &mdash; Developer
-  * **Bhavith Katpally** &mdash; Developer
-  * **Yogesh Asthana** &mdash; Developer
-  * **Dariusz Dzien** &mdash; Developer
+* **Jim Kreft** &mdash; Search Experience Designer
+* Search.gov is supported by a team of contractors, who provide product management, software development, devops, and system security services.
