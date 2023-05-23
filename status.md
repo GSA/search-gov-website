@@ -20,8 +20,8 @@ Details: We are investigating a possible issue with our search service. We will 
 
 <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
  
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 3PM ET and 6PM ET today, May 23, 2023. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues.
+<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+We will be doing planned maintenance between 3PM ET and 6PM ET today, May 23, 2023. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues. -->
 
 ## Recent Events
 
