@@ -2,7 +2,7 @@
 layout: page
 title: How to Select the Options That Appear on Your Results Page
 category: admin-center
-tags: help-manual manage-display facets modules related-sites
+tags: help-manual manage-display facets search-tabs modules related-sites
 date: February 27, 2017
 last_modified_at: April 20, 2023
 #subnav:
@@ -15,20 +15,20 @@ Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > 
 
 Related resource: [Comparison of our hosted search results page and our results API]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html)
 
-## Facets
+## Search Tabs
 {% include featured-accordion.html content="facet-renaming" accordion=false %}
 
 These features are only available on the hosted search results page.
 
-**Label.** By default, we use the label 'Search' for your facets. Enter a label in the label field if you'd like something other than this default. Keep your label consistent with the options you're listing and under 15 characters.
+**Label for Search Tabs.** By default, we use the label 'Search' for your search options in phone and tablet views. Enter a word in the label field if you'd like something other than this default. Keep the label consistent with the options you're listing and under 15 characters.
 
-See the sample results page below that shows the facets with the default label, Search, displayed for a [search on *passport* on USA.gov](https://search.usa.gov/search?affiliate=usagov&query=passport). (It is most easily seen by clicking on the menu option from a mobile phone.)
+See the sample results page below that shows the search tabs with the default label, Search, displayed for a [search on *passport* on USA.gov](https://search.usa.gov/search?affiliate=usagov&query=passport). (It is most easily seen by clicking on the menu option from a mobile phone.)
 
-**On/off options for facets.** Select which facets you'd like to appear on your results page. Turn an option on to allow searchers to see it. Turn an option on or off at any time.
+**On/off options for search tabs.** Select which search tabs you'd like to appear on your results page. Turn an option on to allow searchers to see it. Turn an option on or off at any time.
 
-Type over the text in the Name field to edit a facet's display name. Keep each name short (15 or fewer characters) and consistent with the content you're searching. Click on the hyperlink in the Source field to update the facet's source content. Hover over the icon with three horizontal lines on the left to change the order.
+Type over the text in the Name field to edit a search tab's display name. Keep each name short (15 or fewer characters) and consistent with the content you're searching. Click on the hyperlink in the Source field to update the search tab's source content. Hover over the icon with three horizontal lines on the left to change the order.
 
-**More.** We show up to four facets above your search box. If you turn on the display of more than four facets, you'll see them listed under a 'More' dropdown menu. Email us at <search@gsa.gov> if you'd like to use a custom label instead of the default 'More'.
+**More.** We show up to four search tabs above your search box. If you turn on the display of more than four search tabs, you'll see them listed under a 'More' dropdown menu. Email us at <search@gsa.gov> if you'd like to use a custom label instead of the default 'More'.
 
 
 ## Modules

@@ -28,7 +28,7 @@ Your pre-launch checklist will be unique to your agency's workflow, requirements
 
 <i class="icon-check"></i> **5. Have you made the search results page look like your website?** Customize the [brand]({{ site.baseurl }}/admin-center/display/brand.html) (font, colors, logo, favicon, and navigation links) of your search results page to create a seamless experience for users as they search and browse your website.
 
-<i class="icon-check"></i> **6. Have you told us what to show on your results page?** Turn on (or off) the inline modules and facets that you want to appear on your search results page. You can change the default settings on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page in the Admin Center.
+<i class="icon-check"></i> **6. Have you told us what to show on your results page?** Turn on (or off) the inline modules and search tabs that you want to appear on your search results page. You can change the default settings on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page in the Admin Center.
 
 {% include featured-accordion.html content="facet-renaming" accordion=false %}
 
