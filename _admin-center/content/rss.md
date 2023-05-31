@@ -73,11 +73,11 @@ Any items missing a required element won't display in your search results.
 	<media:content type="" url="https://gallery.usgs.gov/images/05_24_2013/gkb4Erq11X_05_24_2013/large/CoastalEco_KPrzybyla_kelly18.JPG"/>
 	</item>
 
-## Step 2. Opt to Show As a Facet, Inline Module, or Both
+## Step 2. Opt to Show As a Search Tab, Inline Module, or Both
 
 Allow searchers to see inline results for recent, relevant RSS results *across all of your RSS feeds* by turning on the News module on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. When a searcher’s query matches the title of an RSS article published within the past four months, the article appears in the News module. Very recent news results (less than five days) appear at the top of the page and less recent news results appear at the bottom. Up to three articles are displayed. You can edit the default module title, News, on the Display Overview page.
 
-Allow searchers to narrow results to a specific feed by turning on the option to show the facet on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. To ensure searchers don't encounter too many dead ends, we recommend showing only feeds with a significant amount of content as a facet.
+Allow searchers to narrow results to a specific feed by turning on the option to show the search tab on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page. To ensure searchers don't encounter too many dead ends, we recommend showing only feeds with a significant amount of content as a search tab.
 
 ## Step 3. Check Your Search Results Page
 
@@ -87,11 +87,11 @@ If you opted to show your RSS feed(s) as a module, searchers will see inline new
 
 ![RSS Inline Module Example]({{ site.url }}/assets/img/site/RSS-Inline.png)
 
-### Facet
+### Search Tab
 
 {% include featured-accordion.html content="facet-renaming" accordion=false %}
 
-If you opted to show your RSS feed(s) as a facet, searchers can narrow their results to see only RSS-based content by clicking on the facet.
+If you opted to show your RSS feed(s) as a search tab, searchers can narrow their results to see only RSS-based content by clicking on the search tab.
 
 Within the RSS-based results, searchers can opt to limit results to the last hour, day, week, month, or year, or they can set a custom date range. They also can sort results in descending order by relevance (best match first) or date (most recent first).
 
@@ -99,7 +99,7 @@ Within the RSS-based results, searchers can opt to limit results to the last hou
 
 We show the number of results returned for searches against your feed(s).
 
-![RSS Facet Example with Results Count]({{ site.url }}/assets/img/site/RSS-Facet.png)
+![RSS Search Tab Example with Results Count]({{ site.url }}/assets/img/site/RSS-Facet.png)
 
 ## Step 4. Check the Status of Your Feeds
 
