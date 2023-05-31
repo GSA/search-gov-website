@@ -207,3 +207,13 @@ hr.section-break {
   border: none;
   height: 50px;
 }
+
+.checklist-redesign-button {
+  box-shadow: inset 0 0 0 2px #ffffff;
+  color: #ffffff;
+
+  &:hover {
+    color: #0076DC;
+    background-color: #ffffff;
+  }
+}
