@@ -3,7 +3,7 @@ layout: page
 title: Search.gov System Status
 tags: status support help
 description: This page provides the current operating status of the Search.gov system.
-last_modified_at: May 16, 2023
+last_modified_at: May 30, 2023
 #subnav:
   #data: support
 ---
@@ -18,12 +18,17 @@ Details: We are investigating a possible issue with our search service. We will 
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 
-<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
+<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
 
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 3PM ET and 6PM ET today, May 30, 2023. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues.
+<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+We will be doing planned maintenance between 3PM ET and 6PM ET today, May 30, 2023. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues. -->
+
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
+Date: May 30, 2023, 3:30PM ET - ongoing <br />
+Details: At approximately 3:30PM ET on May 30, 2023, our image search response times became very slow. Some browsers may interpret this response time as a timeout. We are investigating the root cause.
+
 
 ## Recent Events
 
