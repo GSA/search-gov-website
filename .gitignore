@@ -5,3 +5,12 @@ node_modules
 .bundle
 .jekyll-cache/
 vendor
+.DS_Store
+_posts/.DS_Store
+_assets/css/.DS_Store
+_assets/.DS_Store
+admin-center/content/.DS_Store
+admin-center/display/.DS_Store
+files/.DS_Store
+_assets/.DS_Store
+_assets/css/.DS_Store

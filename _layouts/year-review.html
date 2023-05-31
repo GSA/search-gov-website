@@ -1,0 +1,74 @@
+---
+layout: base
+---
+
+{% comment %}
+This template is for a single page that does not have a date associated with it. For example, an about page.
+{% endcomment %}
+
+<section class="usa-layout-docs usa-section padding-0">
+  <div class="grid-container padding-y-0">
+    <div class="grid-row">
+      <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/{{page.hero-image-desktop}}" class="year-review-hero-image desktop:display-block tablet:display-none"/>
+      <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/{{page.hero-image}}" class="year-review-hero-image desktop:display-none tablet:display-block"/>
+      <div class="year-review-text desktop:display-block tablet:display-none"><p class="review-header">The great migration</p>
+      <p><strong>Special report:</strong> Search in support of federal web modernization</p></div>
+    </div>
+  </div>
+</section>
+<nav class="usa-layout-docs usa-section together-internal-nav text-base padding-0 margin-top-neg-5" aria-label="Together report internal navigation">
+  <div class="grid-container">
+    <div class="">
+      <ul id="internal-nav" class="together-internal-nav__list deskop:padding-x-15 padding-y-0 margin-y-0 bg-gray-10">
+            <li class="together-internal-nav__item">
+              <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/overview.html" class="together-internal-nav__link current">
+                Overview
+              </a>
+            </li>
+            <li class="together-internal-nav__item">
+              <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/strategy.html" class="together-internal-nav__link ">     
+                Strategy
+              </a>
+            </li>
+            <li class="together-internal-nav__item">
+              <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/design.html" class="together-internal-nav__link ">     
+                Design
+              </a>
+            </li>
+            <li class="together-internal-nav__item">
+              <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/implementation.html" class="together-internal-nav__link ">     
+                Implementation
+              </a>
+            </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="usa-layout-docs usa-section">
+  <div id="main-container" class="grid-container">
+    <div class="grid-row grid-gap">
+      
+      {% comment %}
+      Do not remove the article semantic tag or the article class. They are required for Admin Center help links to work.
+      {% endcomment %}
+     
+      {{ content }}
+      
+    </div>
+  </div>
+</div>
+<section class="usa-layout-docs usa-section bg-blue year-checklist">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet:grid-col-9">
+        <p>Ready for your redesign?</p>
+      </div>
+      <div class="tablet:grid-col-3 tablet:margin-y-6">
+        <a class="usa-button usa-button--outline checklist-redesign-button" href="{{ site.baseurl }}/indexing/redesign.html">Checklist for a successful website redesign</a>
+      </div>
+    </div>
+  </div>
+</section>
