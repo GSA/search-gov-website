@@ -60,38 +60,38 @@ last_modified_at: May 18, 2023
         <p>Our thanks to our partners who graciously shared their stories for this report.</p>
         <div class="grid-row grid-gap overview-partners">
             <div class="tablet:grid-col-3">
-            <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-doi.png" alt="Department of the Interior" />
-                <p>Department of the Interior</p>
+            <a href="https://www.doi.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-doi.png" alt="Department of the Interior" /></a>
+                <a href="https://www.doi.gov" target="new"><p>Department of the Interior</p></a>
             </div>
             <div class="tablet:grid-col-3">
-            <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-doj.png" alt="Department of Justice" />
-                <p>Department of Justice</p>
+            <a href="https://www.justice.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-doj.png" alt="Department of Justice" /></a>
+                <a href="https://www.justice.gov" target="new"><p>Department of Justice</p></a>
             </div>
             <div class="tablet:grid-col-3">
-            <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-ftc.png" alt="Federal Trade Commission (FTC" />
-                <p>Federal Trade Commission (FTC)</p>
+            <a href="https://www.ftc.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-ftc.png" alt="Federal Trade Commission (FTC" /></a>
+                <a href="https://www.ftc.gov" target="new"><p>Federal Trade Commission (FTC)</p></a>
             </div>
             <div class="tablet:grid-col-3">
-            <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-hrsa.png" alt="Health Resources & Services Administration (HRSA)" />
-                <p>Health Resources & Services Administration (HRSA)</p>
+            <a href="https://www.hrsa.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-hrsa.png" alt="Health Resources & Services Administration (HRSA)" /></a>
+                <a href="https://www.hrsa.gov" target="new"><p>Health Resources & Services Administration (HRSA)</p></a>
             </div>
         </div>
          <div class="grid-row grid-gap overview-partners">
             <div class="tablet:grid-col-3">
-            <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-nrcs.png" alt="Natural Resources Conservation Services (NRCS)" />
-                <p>Natural Resources Conservation Services (NRCS)</p>
+            <a href="https://www.nrcs.usda.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-nrcs.png" alt="Natural Resources Conservation Services (NRCS)" /></a>
+                <a href="https://www.nrcs.usda.gov" target="new"><p>Natural Resources Conservation Services (NRCS)</p></a>
             </div>
             <div class="tablet:grid-col-3">
-            <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-ssa.png" alt="Social Security Administration (SSA)" />
-                <p>Social Security Administration (SSA)</p>
+            <a href="https://www.ssa.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-ssa.png" alt="Social Security Administration (SSA)" /></a>
+                <a href="https://www.ssa.gov" target="new"><p>Social Security Administration (SSA)</p></a>
             </div>
             <div class="tablet:grid-col-3">
-            <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-onrr.png" alt="The Office of Natural Resources Revenue" />
-                <p>The Office of Natural Resources Revenue (ONRR)</p>
+            <a href="https://www.onrr.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-onrr.png" alt="The Office of Natural Resources Revenue" /></a>
+                <a href="https://www.onrr.gov" target="new"><p>The Office of Natural Resources Revenue (ONRR)</p></a>
             </div>
             <div class="tablet:grid-col-3">
-            <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-usagov.png" alt="USA.gov" />
-                <p>USA.gov</p>
+            <a href="https://www.usa.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-usagov.png" alt="USA.gov" /></a>
+                <a href="https://www.usa.gov" target="new"><p>USA.gov</p></a>
             </div>
         </div>
         <div class="grid-row grid-gap">
