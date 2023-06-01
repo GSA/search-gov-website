@@ -30,7 +30,7 @@ last_modified_at: May 18, 2023
         </blockquote>
         <p>Content migration involves inserting content from the old website into the new website. It requires coordinating among multiple participating teams. It’s the end of the work that began with the baseline site assessment, and moved through updates to content strategy and information architecture.</p>
 		<p>The relaunch path chosen earlier in the process will determine how much content moves and when. Technical and human factors will influence how smoothly the content migration phase proceeds. Technical factors may include how easy or difficult it is to get content out of the old website, cleaning up content prior to importing it into the new website, or reformatting page style code to work with the new system. Specific to human factors, authors need to agree to the content strategy, content edits need to be reviewed in a timely manner, and communication with internal partner teams needs to be frequent and thorough.</p>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/9_logo.png" alt="" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/Example-gov_logo.png" alt="" />
         <h3>Anonymous.gov</h3>
         <h4>An unattributed story</h4>
         <p>While all phases of a website redesign take effort, content migration requires real toil. It’s long and often messy, and we thank this agency for sharing their recent content migration experience with us. We share their story without attribution.</p>
