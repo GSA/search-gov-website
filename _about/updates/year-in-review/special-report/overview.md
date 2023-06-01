@@ -68,10 +68,6 @@ last_modified_at: May 18, 2023
                 <a href="https://www.justice.gov" target="new"><p>Department of Justice</p></a>
             </div>
             <div class="tablet:grid-col-3">
-            <a href="https://www.ftc.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-ftc.png" alt="Federal Trade Commission (FTC" /></a>
-                <a href="https://www.ftc.gov" target="new"><p>Federal Trade Commission (FTC)</p></a>
-            </div>
-            <div class="tablet:grid-col-3">
             <a href="https://www.hrsa.gov" target="new"><img src="{{ site.baseurl }}/about/updates/year-in-review/special-report/img/overview-hrsa.png" alt="Health Resources & Services Administration (HRSA)" /></a>
                 <a href="https://www.hrsa.gov" target="new"><p>Health Resources & Services Administration (HRSA)</p></a>
             </div>
