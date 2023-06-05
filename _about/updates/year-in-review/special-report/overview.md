@@ -1,7 +1,7 @@
 ---
 layout: year-review
-title: "The great migration: Overview"
-description: The 2022 Search.gov Year In Review.
+title: "The great migration: Search in support of federal web modernization"
+description: Special report on federal agency experience with modernizing websites, and an exploration of the impact of website redesigns on searchability and SEO.
 tags: year-in-review
 hero-image: Overview_Hero.png
 hero-image-desktop: Overview_Hero_desktop.png
