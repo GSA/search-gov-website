@@ -34,7 +34,7 @@ last_modified_at: May 18, 2023
         <h3>Anonymous.gov</h3>
         <h4>An unattributed story</h4>
         <p>While all phases of a website redesign take effort, content migration requires real toil. It’s long and often messy, and we thank this agency for sharing their recent content migration experience with us. We share their story without attribution.</p>
-		<p>When the Office of Public Affairs web team began work on the redesign, the agency had decided to take a “big bang” approach, to relaunch not only the main website, but a set of subdomains aimed at different audiences as well. In total, they had about 50,000 items to move, including web pages, images, and PDFs of legal documents.</p>
+		<p>When the public affairs office web team began work on the redesign, the agency had decided to take a “big bang” approach, to relaunch not only the main website, but a set of subdomains aimed at different audiences as well. In total, they had about 50,000 items to move, including web pages, images, and PDFs of documents.</p>
 		<p>They conducted an audit of web analytics data and customer feedback surveys, and met with internal stakeholders, many of whom are frequent users of the website themselves.</p>
 		<p>The web team learned that there were large groups of older content that were not being used. They also learned that people often looked for information on the main website that was published on a subdomain.</p>
 		<p>In addition, the team learned that there were people from the general public trying to use their website who were confused by pages written for experts.</p>
@@ -43,7 +43,7 @@ last_modified_at: May 18, 2023
 			<li>archiving outdated pages, including removing and archiving one content type entirely; </li>
 			<li>rewriting pages to use plain language; </li>
 			<li>creating obvious cross-links between websites to get people to the right place; and </li>
-			<li>moving their legal documents into a dedicated section so they would be easier to find and not blended with other content types. </li>
+			<li>moving their documents into a dedicated section so they would be easier to find and not blended with other content types. </li>
 		</ul>
 		<p>Despite having a sound content strategy, there were a few bumps in the road. 
 Content that was slated to be removed was discussed and reviewed with agency staff during the migration. However, by the launch of the new site, the agency discovered unexpected business needs for the removed content.</p>
