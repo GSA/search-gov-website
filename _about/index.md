@@ -30,6 +30,6 @@ In 2010, Search.gov moved to open-source software and expanded its use to agenci
 ## Meet the Team
 
 * **Dawn Pointer McCleskey** &mdash; Program Manager
-* **Arantxa Piperova** &mdash; Customer Success Manager
 * **Jim Kreft** &mdash; Search Experience Designer
+* **Arantxa Piperova** &mdash; Customer Success Manager
 * Search.gov is supported by a team of contractors, who provide product management, software development, devops, and system security services.
