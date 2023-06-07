@@ -1,6 +1,6 @@
 ---
 layout: year-review
-title: "The great migration: Design"
+title: "Making the big move: Design"
 description: Discussion of the design phases of a website redesign, and their impact on search. Content strategy, information architecture, and design - both visual and structural.
 tags: year-in-review
 hero-image: Design_Hero.png

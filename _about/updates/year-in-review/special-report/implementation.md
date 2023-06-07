@@ -1,6 +1,6 @@
 ---
 layout: year-review
-title: "The great migration: Implementation"
+title: "Making the big move: Implementation"
 description: Discussion of the technical implementation phases of a website redesign, and their impact on search. Content migration, testing, and rollout.
 tags: year-in-review
 hero-image: Implementation_hero.png

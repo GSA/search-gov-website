@@ -1,6 +1,6 @@
 ---
 layout: year-review
-title: "The great migration: Strategy"
+title: "Making the big move: Strategy"
 description: Discussion of website redesign strategy and its impact on search. Usability testing, technology selection, and rollout strategy.
 tags: year-in-review
 hero-image: Strategy_Hero.png
