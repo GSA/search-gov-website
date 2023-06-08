@@ -218,7 +218,6 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Office of Government Ethics](https://www.oge.gov/)
 * [Office of Natural Resources Revenue](https://www.onrr.gov)
 * [Office of Navajo and Hopi Indian Relocation](https://www.onhir.gov/)
-* [Office of Personnel Management](https://www.opm.gov)
 * [Office of Surface Mining Reclamation and Enforcement](https://www.osmre.gov)
 * [Patent & Trademark Office](https://www.uspto.gov)
 * [Peace Corps](https://www.peacecorps.gov/)
