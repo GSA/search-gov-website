@@ -22,8 +22,8 @@ Details: We are investigating a possible issue with our search service. We will 
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
 
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 10:45 AM ET and 11:45 AM ET today, June 23, 2023. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues. 
+<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+We will be doing planned maintenance between 10:45 AM ET and 11:45 AM ET today, June 23, 2023. We do not anticipate any downtime. Please reach out to search@gsa.gov if you encounter any issues. -->
 
 ## Recent Events
 
