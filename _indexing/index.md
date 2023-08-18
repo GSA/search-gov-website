@@ -11,6 +11,7 @@ permalink: /indexing/
 redirect_from: 
   - /manual/indexing-with-searchgov.html
   - /indexing/indexing-with-searchgov.html
+  - /seo-guides/index.html
 ---
 
 {% include featured-accordion.html content="indexing-short" accordion=true expanded=false %}
