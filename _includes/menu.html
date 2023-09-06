@@ -1,55 +1,67 @@
-{% comment %}
-To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
-where we provide an easy way to manage your navigation system
-{% endcomment %}
+{% comment %} To modify the menu system, you are welcome to edit this HTML
+directly or you can look inside _config.yml where we provide an easy way to
+manage your navigation system {% endcomment %}
 
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
-    {% include logo.html %}
+    {% include "logo.html" %}
     <button class="usa-menu-btn">Menu</button>
   </div>
-  <nav role="navigation" class="usa-nav">
+  <nav
+    id="menu-navigation"
+    aria-label="Menu navigation"
+    role="navigation"
+    class="usa-nav"
+  >
     <div class="usa-nav__inner">
-      <button class="usa-nav__close">{% asset img/close.svg alt="close" %}</button>
+      <button class="usa-nav__close">
+        {% image "./node_modules/@uswds/uswds/dist/img/usa-icons/close.svg" "close" %}
+      </button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for nav_item in include.primary_navigation %}
-        {% unless nav_item.children %}
-        {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
-        {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+        {% for nav_item in primary_navigation %}
+          {% unless nav_item.children %}
+        {% assign basedir = page.url | remove_first: '/' | split: '/' | first |
+        lstrip %} {% assign linkdir = nav_item.url | replace: "/", "" | lstrip
+        %}
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-            href="{{ nav_item.url | prepend: site.env.BASEURL || site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+          <a
+            class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+            href="{{ nav_item.url | url }}"
+            ><span>{{ nav_item.name | escape }}</span></a
+          >
         </li>
-        {% else %}
-        {% assign nav_id = 'primary-nav-' | append: forloop.index %}
+        {% else %} {% assign nav_id = 'primary-nav-' | append: forloop.index %}
         <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
-            aria-controls="{{ nav_id }}"><span>{{ nav_item.name | escape }}</span></button>
+          <button
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="{{ nav_id }}"
+          >
+            <span>{{ nav_item.name | escape }}</span>
+          </button>
           <ul id="{{ nav_id }}" class="usa-nav__submenu">
             {% for subnav_item in nav_item.children %}
             <li class="usa-nav__submenu-item">
-              <a href="{{ subnav_item.url | prepend: site.env.BASEURL || site.baseurl }}">{{ subnav_item.name | escape }}</a>
+              <a href="{{ subnav_item.url | url }}"
+                >{{ subnav_item.name | escape }}</a
+              >
             </li>
             {% endfor %}
           </ul>
-
         </li>
-        {% endunless %}
-        {% endfor %}
+        {% endunless %} {% endfor %}
       </ul>
       <div class="usa-nav__secondary">
-        <ul class="usa-button-group">
-          <li class="usa-button-group__item">
-            <a href="{{ site.baseurl }}/status.html" class="usa-button usa-button--unstyled system-status">System Status</a>
+        <ul class="usa-nav__secondary-links">
+          {% for nav_item in secondary_navigation %}
+          <li class="usa-nav__secondary-item">
+            <a href="{{ nav_item.url | url }}"
+              >{{ nav_item.name | escape }}</a
+            >
           </li>
-          <li class="usa-button-group__item">
-            <a href="https://search.usa.gov/signup" class="usa-button usa-button--unstyled sign-in">Sign up</a>
-          </li>
-          <li class="usa-button-group__item">
-            <a href="https://search.usa.gov/sites" class="usa-button login">Login</a>
-          </li>
+          {% endfor %}
         </ul>
-        {% include searchgov/form.html searchgov=site.searchgov %}
+        {% include "searchgov/form.html" searchgov: site.searchgov %}
       </div>
     </div>
   </nav>

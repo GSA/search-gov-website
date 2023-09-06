@@ -1,1 +1,0 @@
-document.body.innerHTML += "<p>Javascript-inserted content. Used for integration testing.</p>";

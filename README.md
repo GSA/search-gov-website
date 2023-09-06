@@ -1,16 +1,8 @@
-<!--
-  Cloud.gov Pages recommends you use Continuous Integration to automatically test
-  and validate any new changes to your site. CircleCI is free for open source
-  projcets. You should replace this badge with your own.
+# 11ty-uswds-template
 
-  https://circleci.com/
--->
-[![CircleCI](https://circleci.com/gh/GSA/search-gov-website.svg?style=svg)](https://app.circleci.com/pipelines/github/GSA/search-gov-website)
+## Why this project
 
-
-# Search.gov Website 
-
-The Search.gov website serves as an educational resource and help manual for those using our service to power their site search. This website is based off of the [Cloud.gov Pages Jekyll template](https://github.com/cloud-gov/pages-uswds-jekyll).
+This is an [11ty](https://www.11ty.dev/) static site generator (SSG) template using [U.S. Web Design System v 3.0 (USWDS)](https://designsystem.digital.gov/) and is focused on providing developers a starter template and reference implementation for Federalist/Cloud.gov Pages websites.
 
 This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.meritalk.com/articles/senate-passes-idea-act/). The standards require that a website or digital service:
 
@@ -23,102 +15,173 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 - allows for user customization; and
 - is mobile-friendly.
 
-## How to Edit Content
+## Key Functionality
+This repository contains the following examples and functionality:
 
-### Editorial Workflow
+✅  Publish blog posts, press releases, announcements, etc. To modify this code, check out `blog/index.html`, which manages how the posts are listed. You should then check out `_includes/layouts/post.html` to see how individual posts are structured.
 
-Check your text against HemingwayApp or other plain language reviewer.
+✅ Publish single one-off pages. Instead of creating lots of folders throughout the root directory, you should put single pages in `pages` folder and change the `permalink` at the top of each page. Use sub-folders only when you really need to.
 
-Save your changes to a new branch, and create a PR. Get the preview link from Cloud.gov Pages, and include this in the PR comment. Check lighthouse in your browser's Inspect panel to ensure no structural issues are present. If any, fix them. 
-
-Once everything is ready, set the Program Manager or other federal team member as Reviewer. At least one accepted review is required before merging.
-
-### Logging In
-
-Log in to your Github account.
-
-### Editing Existing Pages
-
-Create a new branch with the naming convention `yourgithubuser-change-you-are-making`.
-
-Navigate to the page you want to edit. You'll see an editor interface where you can update content. You need to edit it in raw [Markdown](https://www.markdownguide.org/cheat-sheet/).
-
-Note: some pages have HTML or complex markdown tables. Some examples of such pages are below:
-* /support.html
-* /status.html
-* /about/why-choose-searchgov.html
-* /admin-center/display/hosted-vs-api-results.html
-* /admin-center/entries/color-codes
-
-### Adding Hyperlinks
-Links will need to be added in markdown with the syntax below in order for our preview functionality to work. 
+✅  There are two different kinds of `pages`, one does not have a side bar navigation, and the other uses `_includes/sidenav.html`. You can enable this option by adding `sidenav: true` to your page front matter.
 
 ```
-[Link Text]({{ site.baseurl }}/folder1/folder2/index.html)
+---
+title: Document with Sidenav
+layout: layout/page
+sidenav: true
+permalink: /document-with-sidenav
+---
 ```
 
-{{ site.baseurl }} adds the correct folder path for the Cloud.gov Pages preview URL to work.
+✅ [Search.gov](https://search.gov) integration - Once you have registered and configured Search.gov for your site by following [these instructions](https://federalist.18f.gov/documentation/search/), add your "affiliate" and "access key" to `_data/site.yml`. Ex.
 
-**Important Note** - if you are adding image or PDF references to any page within `admin-center`, use `{{ site.url }}` instead of `{{ site.baseurl }}`. This will add in "https://search.gov" to the URL, which means the resource will not appear until it exists in production. However, it will allow us to show that image within the preview modals in the Admin Center.
-
-## How to Edit the Site Locally 
-
-### Running the application
-
-#### With locally installed `node` and `ruby`
-    $ npm install
-    $ bundle install
-    $ npm start 
-    OR
-    $ bundle exec jekyll serve
-
-To build but not serve the site, run `npm run build` or `bundle exec jekyll build`.
-
-#### With Docker
-    $ docker-compose run node npm install
-    $ docker-compose build
-    $ docker-compose up
-
-To build but not serve the site, run:
 ```
-docker-compose run ruby bundle exec jekyll build
+searchgov:
+
+  # You should not change this.
+  endpoint: https://search.usa.gov
+
+  # replace this with your search.gov account
+  affiliate: federalist-uswds-example
+
+  # replace with your access key
+  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+
+  # this renders the results within the page instead of sending to user to search.gov
+  inline: true
 ```
-.
 
-Note that when built by Cloud.gov Pages, `npm run federalist` is used instead of
-`npm run build`.
+The logic for using Search.gov can be found in `_includes/searchgov/form.html` and supports displaying the results inline or sending the user to Search.gov the view the results. This setting defaults to "inline" but can be changed by setting
+```
+searchgov:
+  inline: false
+```
+in `_data/site.yml`.
 
-Open your web browser to [localhost:4000](http://localhost:4000/) to view your
-site.
+✅ [Digital Analytics Program (DAP)](https://digital.gov/services/dap/) integration - Once you have registered your site with DAP add your "agency" and optionally, `subagency` to `_data/site.yml` and uncomment the appropriate lines. Ex.
 
-#### Troubleshooting
-If you get an error like the below:
-> Assets:  File to import not found or unreadable: uswds. Load paths: node_modules/uswds/dist/img node_modules/uswds/dist/js node_modules/uswds/dist/scss node_modules/netlify-cms/dist assets/css assets/fonts assets/images assets/videos assets/audios assets/components assets/javascript assets/video assets/audio assets/image assets/img assets/js _assets/css _assets/fonts _assets/images _assets/videos _assets/audios _assets/components _assets/javascript _assets/video _assets/audio _assets/image _assets/img _assets/js css fonts images videos audios components javascript audio video image img js .jekyll-cache/assets/proxied
+```
+dap:
+  # agency: your-agency
 
-This typically means a package in Node can’t be found. Run `npm install` and try running `bundle exec jekyll serve` again once done.
+  # Optional
+  # subagency: your-subagency
+```
 
-### Testing
+✅ [Google Analytics](https://analytics.google.com/analytics/web/) integration - If you have a Google Analytics account to use, add your "ua" to `_data/site.yml` and uncomment the appropriate lines. Ex.
 
-#### With locally installed `node` and `ruby`
-    $ npm test
-    OR
-    $ bundle exec htmlproofer _site; npx a11y '_site/**/*.html'
+```
+ga:
+  # ua: your-ua
+```
 
-#### With Docker
-    $ docker-compose run ruby bundle exec htmlproofer _site; npx a11y '_site/**/*.html'
+## Getting Started
+
+### Installing Dependencies
+
+`npm install`
+
+TODO
+
+### Running a Dev Instance
+
+`npm run dev`
+
+TODO
+
+## Netlify CMS
 
 
-### Editing Tips
-- Do not edit files in the `_site/` folder. These files are auto-generated, and any change you make in the folder will be overwritten.
-- To edit the look and feel of the site, you need to edit files in `_includes/` folder, which render key components, like the menu, side navigation, and logos.
 
+### Config
 
-## Technologies you should be familiarize yourself with
+The Netlify CMS can be configured in [`/admin/config.yml`](./admin/config.yml) and you will update the
+`repo` key to be your Github organization and repository name.
 
-- [Jekyll](https://jekyllrb.com/docs/) &mdash; The primary site engine that builds your code and content.
-- [Front Matter](https://jekyllrb.com/docs/frontmatter) &mdash; The top of each page/post includes keywords within `--` tags. This is meta data that helps Jekyll build the site, but you can also use it to pass custom variables.
-- [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) 
+```yml
+backend:
+  name: github
+  repo: <your-github-org>/<your-repository-name>
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
+  branch: master
+  use_graphql: true
+```
 
+### Running Locally
+
+You can run the Netlify CMS locally to more easily customize and troubleshoot the CMS to you content.
+We provide comments in the [`/admin/config.yml`](./admin/config.yml) instructing you how to change the `backend` values from your production site to the local development.
+
+> *Note: Make sure to not commit and push the config with the `backend` set for local develop to Github or
+else you will break your production site's Netlify CMS.
+
+```yml
+# Local development backend
+backend:
+  name: git-gateway
+local_backend: true
+```
+
+Once you [`/admin/config.yml`](./admin/config.yml) is set to local development, you run `npm run dev:cms` to
+serve as a development authentication server.
+
+## How To
+
+### Adding Collections
+
+TODO
+
+### Adding Static Data
+
+TODO
+
+### Creating links
+
+For preview links generated on the platform, we automatically set the `pathPrefix` in the [`.eleventy.js`](/.eleventy.js) file base on the `BASEURL` environment variable. We use the built-in 11ty filter for `url` to properly append the prefix path for the linked page.  When adding new links, use the following syntax:
+
+```liquid
+<a href="{{ '/myDir/' | url }}">Link to My Dir</a>
+```
+
+See the [11ty docs](https://www.11ty.dev/docs/filters/url/)
+
+### Referencing Images
+
+All of your images will be stored in the `_img/` directory. To reference your images in your templates you can use the `shortcodes` built into the template.
+
+For referencing an image without a style class, you will pass the template shortcode the image's source path and the alternative image name in that order. ie:
+
+```
+{% image "_img/my-image.png" "My PNG Image Alternative Name" %}
+```
+
+For referencing an image with a style class, you will pass the template shortcode the image's source path, class names, and the alternative image name in that order. ie:
+
+```
+{% image_with_class "_img/my-image.png" "img-class another-class" "My PNG Image Alternative Name" %}
+```
+
+### Referencing USWDS Sprite Icons
+
+USWDS has sprite icons available for use. Here is the [list of icons](https://designsystem.digital.gov/components/icon/) available when using the sprite shortcode `uswds_icon` in the template. The following example is how you can reference the icon in a template.
+
+```
+{% uswds_icon "<USWDS sprite name>" %}
+```
+
+### Expanding SCSS Styles
+
+CSS and SASS can be added or imported into the `styles/styles.scss`. You can also use [USWDS Design Tokens](https://designsystem.digital.gov/design-tokens/) in the `styles/themes` files to update colors, fonts, and layout to fit your site's branding. This template uses [esbuild](https://esbuild.github.io/)and [autoprefixer](https://github.com/postcss/autoprefixer) to bundle your SASS/CSS and fingerprint the files in the site build.
+
+### Adding custom Javascript
+
+Javascript can be added to the admin UI or site UI by adding or importing code into the `js/admin.js` or `js/app.js` files respectively. This template uses [esbuild](https://esbuild.github.io/) to bundle your javascript and fingerprint the files in the site build.
+
+### Customizing 11ty
+
+TODO
 
 ## Contributing
 
@@ -128,10 +191,6 @@ See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
 
-> This project is in the public domain within the United States, and copyright
-> and related rights in the work worldwide are waived through the [CC0 1.0
-> Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+> This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 >
-> All contributions to this project will be released under the CC0 dedication.
-> By submitting a pull request, you are agreeing to comply with this waiver of
-> copyright interest.
+> All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.

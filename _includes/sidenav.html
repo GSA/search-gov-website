@@ -1,13 +1,51 @@
-{% comment %}
+{% comment %} 
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
-_layouts/page.html layout template, or you can add a "sidenav" property in the front-matter of your page corresponding to a list in the main config file
+_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
 {% endcomment %}
 
-<aside class="sidenav" id="page-side-navigation" aria-label="Section navigation">
-  {% assign sidenav = site.data.nav.primary %}
-  {% if sidenav %}
-  <ul class="site-sidenav usa-sidenav">
-    {% include nav/list.html links=sidenav %}
-  </ul>
-  {% endif %}
+<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+  <nav>
+    <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <a href="">Parent link</a>
+      </li>
+      <li class="usa-sidenav__item">
+        <a href="" class="usa-current">Current page</a>
+        <ul class="usa-sidenav__sublist">
+          <li class="usa-sidenav__item">
+            <a href="">Child link</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="" class="usa-current">Child link</a>
+            <ul class="usa-sidenav__sublist">
+              <li class="usa-sidenav__item">
+                <a href="">Grandchild link</a>
+              </li>
+              <li class="usa-sidenav__item">
+                <a href="">Grandchild link</a>
+              </li>
+              <li class="usa-sidenav__item">
+                <a href="" class="usa-current">Grandchild link</a>
+              </li>
+              <li class="usa-sidenav__item">
+                <a href="">Grandchild link</a>
+              </li>
+            </ul>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Child link</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Child link</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="">Child link</a>
+          </li>
+        </ul>
+      </li>
+      <li class="usa-sidenav__item">
+        <a href="">Parent link</a>
+      </li>
+    </ul>
+  </nav>
 </aside>
