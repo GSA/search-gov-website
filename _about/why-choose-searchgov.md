@@ -105,7 +105,7 @@ There are several key differences between our service and other options in the m
     </tr>
     <tr>
       <th scope="row">Relevance Ranking<br />Control</th>
-      <td class="text-tabular text-right">Planned<a href="#3plus">++</a></td>
+      <td class="text-tabular text-right">Planned<a href="#3plus">+++</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">Depends on<br />the service</td>
