@@ -41,3 +41,4 @@ After you get your [search site set up]({{ site.baseurl }}/get-started/site-laun
 | [Jobs]({{ site.baseurl }}/admin-center/display/jobs-module.html) | Yes | Yes |
 | [Federal Register Documents]({{ site.baseurl }}/admin-center/display/federal-register-module.html) | Yes | Yes |
 | [Health Topics]({{ site.baseurl }}/admin-center/display/health-module.html) | Yes | Yes |
+| Faceted Search | Planned | [Yes](https://open.gsa.gov/api/searchgov-results/) |
