@@ -27,7 +27,7 @@ This roadmap shows what we are working on now, and what we plan to be working af
 
 ### Now
 
-* **Search Engine Results Page (SERP) Redesign &mdash; Data Integration & Release**
+* **Search Engine Results Page (SERP) Redesign &ndash; Data Integration & Release**
   * We will release the new results page design.
   * We will finalize updates to the Admin Center to allow agencies to customize the look and feel of the new results page design.
 * **Faceted Search**
