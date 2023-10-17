@@ -40,7 +40,7 @@ This roadmap shows what we are working on now, and what we plan to be working af
 * **Search Recall Improvements**
   * We will improve our multilingual search processing. 
 * **System Security**
-  * We will release improvements related to ato security controls.
+  * We will release improvements related to ATO security controls.
 * **Infrastructure Improvements**
   * We will prepare to move to a new orchestration tool. 
 
