@@ -47,7 +47,7 @@ Customer support is central at Search.gov. Our success is bound up with the succ
 	      </ol>
         Another reason for login failures is that you chose the "Log in with your government employee id" link below the sign in button.  Sometimes, using that option sends search.gov a different email than the one that you registered with search.gov (such as your personal email). With the wrong email, the search.gov system rejects your login attempt.  We recommend entering your email and password each time instead.
         <figure>
-          <img src="{{ site.url }}/files/signin_guidance.png" alt="A screenshot of the login.gov sign in page for Search.gov.  There is a blue box around the username and password fields, and the username field is filled in with username@agency.gov, and the password field is filled in with dots.  There is a red X over the link that reads Sign in with your government id" />
+          <img src="{{ site.baseurl }}/files/signin_guidance.png" alt="A screenshot of the login.gov sign in page for Search.gov.  There is a blue box around the username and password fields, and the username field is filled in with username@agency.gov, and the password field is filled in with dots.  There is a red X over the link that reads Sign in with your government id" />
           <figcaption>Always enter the email associated with your search.gov account and your login.gov password, instead of the "Sign in with your government employee id" shortcut link</figcaption>
         </figure>
       </div>
