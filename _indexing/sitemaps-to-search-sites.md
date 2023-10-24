@@ -55,5 +55,5 @@ Following a particular page through this cycle looks like this:
 1. The searcher is brought to the page on the website
 
     <img class="img-responsive"
-        src="{{ site.url }}/files/sitemaps-to-search-results.png"
+        src="{{ site.baseurl }}/files/sitemaps-to-search-results.png"
         alt="Diagram showing a large circle, representing the Search.gov website. To the left of the circle is an array of small blocks, each representing an individual sitemap. Arrows point from the sitemaps to the large circle. To the right of the circle is a set of pentagons representing search sites. To the right of these is a vertical bar representing the Public. Arrows flow from the circle, through the pentagon and end at the bar, representing the flow of search results from the central Search.gov index through the search sites to the members of the public who are searching.">
