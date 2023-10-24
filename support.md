@@ -46,6 +46,10 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         <li>Search.gov checks for that email address's status and should let you in. If you still see a credentials error, <a href="mailto:search@gsa.gov">email us</a> for help.</li>
 	      </ol>
         Another possibility is that you were logged into another service using your personal email in login.gov, and then you chose the "Log in with your government employee id" link below the sign in button.  Unfortunately, sometimes using that option sends search.gov a different email than the one that is regisitered with search.gov (such as your personal email), which leads to your login attempt being rejected.  We recommend entering your email and password each time instead.
+        <figure>
+          <img src="{{ site.url }}/files/signin_guidance.png" alt="A screenshot of the login.gov sign in page for Search.gov.  There is a blue box around the username and password fields, and the username field is filled in with username@agency.gov, and the password field is filled in with dots.  There is a red X over the link that reads Sign in with your government id" />
+          <figcaption>Always enter the email associated with your search.gov account and your login.gov password, instead of the "Sign in with your government employee id" shortcut link</figcaption>
+        </figure>
       </div>
       
        <!-- Use the accurate heading level to maintain the document outline -->
