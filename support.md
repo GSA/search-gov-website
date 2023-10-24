@@ -45,10 +45,10 @@ Customer support is central at Search.gov. Our success is bound up with the succ
         <li>Login.gov will send you back to Search.gov along with the email address you presented to them</li>
         <li>Search.gov checks for that email address's status and should let you in. If you still see a credentials error, <a href="mailto:search@gsa.gov">email us</a> for help.</li>
 	      </ol>
-        Another reason for login failures is that you chose the "Log in with your government employee id" link below the sign in button.  Sometimes, using that option sends search.gov a different email than the one that you registered with search.gov (such as your personal email). With the wrong email, the search.gov system rejects your login attempt.  We recommend entering your email and password each time instead.
+        Another reason for login failures is that often customers choose the "Log in with your government employee ID” link located below the Sign in button (see picture below). Unfortunately, sometimes using that option sends Search.gov a different email than the one that you registered with your [Search.gov](http://search.gov/) account (such as your personal email). When we receive an email address that is not associated with your [Search.gov](http://search.gov/) account, our system rejects your login attempt. To avoid running into this issue, we recommend entering your email address and password linked to your [Search.gov](http://search.gov/) account each time instead.
         <figure>
           <img src="{{ site.baseurl }}/files/signin_guidance.png" alt="A screenshot of the login.gov sign in page for Search.gov.  There is a blue box around the username and password fields, and the username field is filled in with username@agency.gov, and the password field is filled in with dots.  There is a red X over the link that reads Sign in with your government id" />
-          <figcaption>Always enter the email associated with your search.gov account and your login.gov password, instead of the "Sign in with your government employee id" shortcut link</figcaption>
+          <figcaption>Always enter the email address associated with your Search.gov account and your Login.gov password, instead of using the "Sign in with your government employee ID” shortcut link. Thank you.</figcaption>
         </figure>
       </div>
       
