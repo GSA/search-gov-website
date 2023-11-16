@@ -61,10 +61,10 @@ See the sample search box below that is limited to news on [NIH.gov for a search
 
 If you don't want to set up a Collection, you can use the `sitelimit` parameter to search a subset of your content. Compare the collection-based results above with the results for [the same search using the sitelimit parameter](https://search.usa.gov/search?affiliate=nih&query=autism&sitelimit=nih.gov/news).
 
-Note that the searcher sees that results are filtered to nih.gov/news in a message under the search box, among other differences.
+We include a message that the results are filtered to the target folder, and give the option to expand the search.
+
+The location you include in the sitelimit parameter must be within the scope you've set in your [Domains list]({{ site.url }}/admin-center/content/domains.html). You can include more than one location with a `+`, for example `www.example.gov/limittothisfolder+www.example.gov/asecondfolder`.
 
 Simply add the following line to your form code on your search box to use the `sitelimit` parameter.
 
 `<input type="hidden" name="sitelimit" id="sitelimit" value="www.example.gov/limittothisfolder">` 
-
-The location you include in the sitelimit parameter must be within the scope you've set in your [Domains list]({{ site.url }}/admin-center/content/domains.html). You can include more than one location with a `+`, for example `www.example.gov/limittothisfolder+www.example.gov/asecondfolder`.
