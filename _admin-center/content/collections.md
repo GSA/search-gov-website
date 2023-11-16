@@ -4,7 +4,7 @@ title: How to Create Collections Within Our Index
 category: admin-center
 tags: help-manual manage-content collections
 date: December 28, 2016
-last_modified_at: December 28, 2016
+last_modified_at: November 16, 2023
 #subnav:
   #data: admin_center
 redirect_from:
@@ -66,3 +66,5 @@ Note that the searcher sees that results are filtered to nih.gov/news in a messa
 Simply add the following line to your form code on your search box to use the `sitelimit` parameter.
 
 `<input type="hidden" name="sitelimit" id="sitelimit" value="www.example.gov/limittothisfolder">` 
+
+The location you include in the sitelimit parameter must be within the scope you've set in your [Domains list]({{ site.url }}/admin-center/content/domains.html). You can include more than one location with a `+`, for example `www.example.gov/limittothisfolder+www.example.gov/asecondfolder`.
