@@ -200,5 +200,5 @@ We look for the following fields:
 <meta name="searchgov_custom2" content="..., ..., ...">
 <meta name="searchgov_custom3" content="..., ..., ...">
 ```
-- **Detail:** These fields can support any text content that you want to offers in your faceted search options (metadata-driven results filtering). The fields accept single values or list-type content. Each listed value will be treated as a unique term when searching and filtering content. 
+- **Detail:** These fields can support any text content that you want to offer in your faceted search options (metadata-driven results filtering). The fields accept single values or list-type content. Each listed value will be treated as a unique term when searching and filtering content. 
 - **Used In:** Query matching, faceted search (currently available via the Results API)

@@ -98,14 +98,14 @@ There are several key differences between our service and other options in the m
     </tr>
     <tr>
       <th scope="row">Faceted search<br />and metadata<br />driven search</th>
-      <td class="text-tabular text-right">Planned</td>
+      <td class="text-tabular text-right">Yes<a href="#2plus">++</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">Yes</td>
       <td class="text-tabular text-right">Depends on<br />the service</td>
     </tr>
     <tr>
       <th scope="row">Relevance Ranking<br />Control</th>
-      <td class="text-tabular text-right">Planned<a href="#2plus">++</a></td>
+      <td class="text-tabular text-right">Planned<a href="#3plus">+++</a></td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">No</td>
       <td class="text-tabular text-right">Depends on<br />the service</td>
@@ -147,4 +147,6 @@ There are several key differences between our service and other options in the m
 
 <a name="1plus"></a>\+ Search.gov allows web teams to manage their search configurations without running changes through developer teams. If you would like to use our Results API to pull results and display them within your website's template, this would require developer assistance to establish and maintain the API calls, and to design and build the search results page.
 
-<a name="2plus"></a>\+\+ Our relevance ranking is already tuned to government needs, but we will be adding site-level controls.
+<a name="2plus"></a>\+\+ Faceted search is available via our <a href="https://open.gsa.gov/api/searchgov-results/" target="new">results API</a>, and will be available on our hosted results page soon.
+
+<a name="3plus"></a>\+\+\+ Our relevance ranking is already tuned to government needs, but we will be adding site-level controls.

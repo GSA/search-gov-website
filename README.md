@@ -23,24 +23,27 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 - allows for user customization; and
 - is mobile-friendly.
 
-## How to Edit Content via NetlifyCMS
-We use NetlifyCMS as an easier way to edit the site content. Editing within this tool will create a PR with your suggested changes that can then be reviewed by another member of the Search.gov team.
+## How to Edit Content
+
+### Editorial Workflow
+
+Check your text against HemingwayApp or other plain language reviewer.
+
+Save your changes to a new branch, and create a PR. Get the preview link from Cloud.gov Pages, and include this in the PR comment. Check lighthouse in your browser's Inspect panel to ensure no structural issues are present. If any, fix them. 
+
+Once everything is ready, set the Program Manager or other federal team member as Reviewer. At least one accepted review is required before merging.
 
 ### Logging In
-Navigate to [https://search.gov/admin/](https://search.gov/admin/) and login with your Github account.
 
-Note: You may get a message to log into [Cloud.gov Pages](https://pages.cloud.gov/sites) first. If so, log into Cloud.gov Pages and try to log in again to NetlifyCMS.
-
-Once you log in successfully, you should see the following screen:
-![NetlifyCMS Landing page, showing collections and posts](/assets/img/site/netlify-cms-landing.png)
+Log in to your Github account.
 
 ### Editing Existing Pages
-To edit an existing page, you can search in the Collections search box, or click through the navigational structure to find the page.
-![NetlifyCMS Collections list, showing a sample folder (About) and items within that folder](/assets/img/site/cms-collections.png)
 
-Once you find the page, click the page you want to edit. You'll see an editor interface where you can update content. Most often, you'll be editing the `body` field. You can edit this in Rich Text mode, or switch the toggle to edit it in raw [Markdown](https://www.markdownguide.org/cheat-sheet/).
+Create a new branch with the naming convention `yourgithubuser-change-you-are-making`.
 
-Note: some pages have HTML or complex markdown tables, which will need to be edited in the "Markdown" mode. Some examples of such pages are below:
+Navigate to the page you want to edit. You'll see an editor interface where you can update content. You need to edit it in raw [Markdown](https://www.markdownguide.org/cheat-sheet/).
+
+Note: some pages have HTML or complex markdown tables. Some examples of such pages are below:
 * /support.html
 * /status.html
 * /about/why-choose-searchgov.html
@@ -57,34 +60,6 @@ Links will need to be added in markdown with the syntax below in order for our p
 {{ site.baseurl }} adds the correct folder path for the Cloud.gov Pages preview URL to work.
 
 **Important Note** - if you are adding image or PDF references to any page within `admin-center`, use `{{ site.url }}` instead of `{{ site.baseurl }}`. This will add in "https://search.gov" to the URL, which means the resource will not appear until it exists in production. However, it will allow us to show that image within the preview modals in the Admin Center.
-
-
-### Adding Media
-Media can be uploaded to the site via NetlifyCMS as well. Click on "Media" on the top menu, and you'll see an interface where you can browse through existing images and upload new ones. These can then be added via the page editor to any page you're working on.
-
-![NetlifyCMS Media modal, showing a search bar and thumbnails of uploaded images](/assets/img/site/cms-media-library.png)
-
-### Creating a New Page
-To create a new page, click the "Quick add" button at the top right. From here, you can select the top-level folder this page belongs to. Once you click it, you'll be taken to that same page editor view as editing an existing post.
-
-If the page should live immediately within the folder you selected, then you can leave the Path field blank. Otherwise, if you want to nest this page in an existing folder, indicate this in the "Path" field. For example, the Releases page (https://search.gov/about/updates/releases/) has a Path value of `updates/releases`. 
-
-![NetlifyCMS Quick add drop down menu, showing the different content types we have available](/assets/img/site/cms-quickadd.png) 
-
-
-### Editorial Workflow
-Any proposed change you make will automatically create a Pull Request in Github. We can use the workflow to mark items as Draft, In Review, and Ready. These correspond to actions and labels in Github that can be tracked there as well.
-![View of the editorial workflow with a post in the Draft column](/assets/img/site/workflow-draft.png)
-
-From the [NetlifyCMS Documentation](https://www.netlifycms.org/docs/configuration-options/#publish-mode):
-
-| Actions in Netlify UI | Perform these Git actions |
-| ----------------------| --------------------------|
-| Save draft | Commits to a new branch (named according to the pattern cms/collectionName/entrySlug), and opens a pull request |
-| Edit draft |	Pushes another commit to the draft branch/pull request |
-| Approve and publish draft	| Merges pull request and deletes branch |
-
-Once you save changes to your draft, you'll be able to view a preview link after Cloud.gov Pages builds the site. This will show as a link in the top right of the page editor.  
 
 ## How to Edit the Site Locally 
 
@@ -121,8 +96,6 @@ If you get an error like the below:
 > Assets:  File to import not found or unreadable: uswds. Load paths: node_modules/uswds/dist/img node_modules/uswds/dist/js node_modules/uswds/dist/scss node_modules/netlify-cms/dist assets/css assets/fonts assets/images assets/videos assets/audios assets/components assets/javascript assets/video assets/audio assets/image assets/img assets/js _assets/css _assets/fonts _assets/images _assets/videos _assets/audios _assets/components _assets/javascript _assets/video _assets/audio _assets/image _assets/img _assets/js css fonts images videos audios components javascript audio video image img js .jekyll-cache/assets/proxied
 
 This typically means a package in Node can’t be found. Run `npm install` and try running `bundle exec jekyll serve` again once done.
-
-
 
 ### Testing
 

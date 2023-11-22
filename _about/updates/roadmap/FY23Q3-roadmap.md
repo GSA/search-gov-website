@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Search.gov Roadmap Fiscal Year 2024 Quarter 1
-crumbname: Roadmap FY 2024 Q1
+title: Search.gov Roadmap Fiscal Year 2023 Quarter 3
+crumbname: Roadmap FY 2023 Q3
 category: about
 tags: roadmap
 breadcrumbs:
@@ -23,54 +23,46 @@ We know it's helpful for our partners at federal agencies to know what's coming 
 This roadmap shows what we are working on now, and what we plan to be working after that. We'll update this roadmap quarterly.
 
 
-## FY 2024 Q1: October&ndash;December 2023
+## FY 2023 Q3: April&ndash;June 2023
 
 ### Now
 
-* **Search Engine Results Page (SERP) Redesign &ndash; Data Integration & Release**
-  * We will release the new results page design.
-  * We will finalize updates to the Admin Center to allow agencies to customize the look and feel of the new results page design.
-* **Faceted Search**
-  * We will build the frontend components required to support this functionality.
-  * We will update our Admin Center to allow agencies to control their faceted search experiences.
+* **Search Engine Results Page (SERP) Redesign &mdash; Frontend Development & Release**
+  * We will continue efforts to build, test, and release the new results page designs.
+* **Indexing Improvements**
+  * We will make sure fewer manual indexing interventions are needed for successful indexing.
 * **Alphanumeric String Search Investiagtions**
-  * We will finalize and release our natural language processing and AI to support alphanumeric string matching.
-* **Crawling Investigations**
-  * We will continue exploring options to support crawling for our indexed domains.
-* **Search Recall Improvements**
-  * We will improve our multilingual search processing. 
-* **System Security**
-  * We will release improvements related to ATO security controls.
-* **Infrastructure Improvements**
-  * We will prepare to move to a new orchestration tool. 
+  * We will be investigating ways to better support alphanumeric string matching.
+* **Version Upgrades**
+  * We will be upgrading our Ruby version to keep it up-to-date and compliant. 
+* **Twitter Removal**
+  * We will be removing our Twitter integration from our application.
+* **CI/CD Pipeline Investigations**
+  * We will investigate the work required to improve our continuous integration and continuous deployment (CI/CD) pipelines.
 
 ### Next
 
-* **Infrastructure Improvements**
-  * We will complete the move to a new orchestration tool. 
+* **Alphanumeric String Search - Testing**
+  * We will test solutions identified to improve alphanumeric string matching.
+* **Crawling Investigations**
+  * We will explore options to support crawling for a subset of our indexed domains.
+* **Faceted Search &mdash; Frontend Interface**
+  * We will begin building the frontend components required to support this functionality.
 * **Version Upgrades**
   * We will continue work on the software components to keep them up-to-date.
-* **Natural Language Support**
-  * We will investigate options for complex synonym handling.
-  * We will investigate options for more flexible spelling corrections. 
-* **User Role Enhancements**
-  * We will add more user roles for the Admin Center.
-  * We will create permission sets for the new roles. 
 
 
 ### Later
 
 * **Continued Indexing Improvements**
-* **Relevance Ranking Improvements**
-   * Admin center controls
-   * Add machine learning to the ranking algorithm 
-
+* **Search Recall Improvements**
+* **Security and Privacy Improvements**
+* **User Role Enhancements** 
 
 If you have questions or comments, please feel free to [reach out](mailto:search@gsa.gov) to our team.
 
 ## Previous Roadmaps
 
-* [FY 2023 Q4: July&ndash;September 2023]({{ site.baseurl}}/about/updates/roadmap/FY23Q4-roadmap.html)
 * [FY 2023 Q2: January&ndash;March 2023]({{ site.baseurl}}/about/updates/roadmap/FY23Q2-roadmap.html)
 * [FY 2023 Q1: October&ndash;December 2022]({{ site.baseurl}}/about/updates/roadmap/FY23Q1-roadmap.html)
 * [FY 2022 Q4: July&ndash;September 2022]({{ site.baseurl}}/about/updates/roadmap/FY22Q4-roadmap.html)
