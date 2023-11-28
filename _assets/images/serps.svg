@@ -1,3 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 288"><defs><style>.cls-1{fill:#1a4480;stroke:#1a4480;}.cls-1,.cls-10,.cls-11,.cls-12,.cls-13,.cls-3,.cls-4,.cls-5,.cls-6{stroke-miterlimit:10;}.cls-2{fill:#d4f1ff;}.cls-10,.cls-3,.cls-4,.cls-5,.cls-6{fill:none;}.cls-3,.cls-4,.cls-5,.cls-6{stroke:#73b3e7;stroke-width:2px;}.cls-4{stroke-dasharray:5.17 5.17;}.cls-5{stroke-dasharray:5.07 5.07;}.cls-6{stroke-dasharray:5 5;}.cls-12,.cls-7{fill:#e41d3d;}.cls-11,.cls-8{fill:#73b3e7;}.cls-9{fill:#005ea2;}.cls-10{stroke:#fff;stroke-width:3px;}.cls-11,.cls-12,.cls-13{stroke:#005ea2;stroke-width:0.5px;}.cls-13{fill:#d9e8f6;}</style></defs><g id="Concept_1" data-name="Concept 1"><rect id="Background" class="cls-1" width="560" height="288"/><g id="Blue_bar_desktop" data-name="Blue bar desktop"><rect class="cls-2" x="49.93" y="71.13" width="241.41" height="22.09" rx="10"/><rect class="cls-2" x="49.93" y="82.53" width="241.41" height="10.69"/><rect class="cls-2" x="311.81" y="28.69" width="108.94" height="22.09" rx="10"/><rect class="cls-2" x="311.81" y="40.09" width="108.94" height="10.69"/><rect class="cls-2" x="442.39" y="151.45" width="63.53" height="22.09" rx="10"/><rect class="cls-2" x="442.39" y="162.85" width="63.53" height="10.69"/><line class="cls-3" x1="420.75" y1="40.09" x2="421.85" y2="42.33"/><line class="cls-4" x1="424.12" y1="46.98" x2="473.07" y2="146.89"/><line class="cls-3" x1="474.21" y1="149.21" x2="475.31" y2="151.45"/><line class="cls-3" x1="166.26" y1="65.55" x2="168.7" y2="65.01"/><line class="cls-5" x1="173.65" y1="63.91" x2="309.72" y2="33.61"/><line class="cls-3" x1="312.19" y1="33.06" x2="314.63" y2="32.51"/><line class="cls-3" x1="170.63" y1="209.59" x2="173.08" y2="210.1"/><line class="cls-6" x1="177.97" y1="211.13" x2="439.99" y2="266.25"/><line class="cls-3" x1="442.44" y1="266.76" x2="444.88" y2="267.28"/></g><g id="Hex_cluster" data-name="Hex cluster"><polygon class="cls-7" points="505.72 76.68 487.02 76.68 477.67 92.88 487.02 109.07 505.72 109.07 515.07 92.88 505.72 76.68"/><polygon class="cls-8" points="527.12 64.2 516.16 64.2 510.67 73.7 516.16 83.2 527.12 83.2 532.61 73.7 527.12 64.2"/><polygon class="cls-9" points="508.92 53.4 500.55 53.4 496.37 60.64 500.55 67.89 508.92 67.89 513.1 60.64 508.92 53.4"/></g><g id="Mobile"><rect class="cls-10" x="442.39" y="151.1" width="63.53" height="117.18" rx="10"/></g><g id="Tablet"><rect class="cls-10" x="311.81" y="28.69" width="110.12" height="160.94" rx="10"/></g><g id="Desktop"><rect class="cls-10" x="49.93" y="69.72" width="241.41" height="139.97" rx="10"/></g><polygon class="cls-7" points="47.42 246.63 47.42 227.93 31.23 218.58 15.04 227.93 15.04 246.63 31.23 255.98 47.42 246.63"/><polygon class="cls-8" points="59.9 268.03 59.9 257.06 50.41 251.58 40.91 257.06 40.91 268.03 50.41 273.51 59.9 268.03"/><polygon class="cls-9" points="70.71 249.83 70.71 241.46 63.46 237.28 56.22 241.46 56.22 249.83 63.46 254.01 70.71 249.83"/><polygon class="cls-7" points="94.23 251.13 94.23 240.16 84.74 234.68 75.24 240.16 75.24 251.13 84.74 256.61 94.23 251.13"/><polygon class="cls-8" points="102.91 267.73 102.91 259.37 95.66 255.18 88.42 259.37 88.42 267.73 95.66 271.91 102.91 267.73"/><polygon class="cls-9" points="110.83 252.26 110.83 246.45 105.81 243.55 100.78 246.45 100.78 252.26 105.81 255.16 110.83 252.26"/><g id="Concept_3" data-name="Concept 3"><polygon class="cls-11" points="73.36 105.09 76.25 110.95 82.72 111.89 78.04 116.45 79.15 122.89 73.36 119.85 67.58 122.89 68.68 116.45 64 111.89 70.47 110.95 73.36 105.09"/><polygon class="cls-11" points="332 63.59 334.89 69.45 341.36 70.39 336.68 74.95 337.78 81.39 332 78.35 326.21 81.39 327.32 74.95 322.64 70.39 329.1 69.45 332 63.59"/><polygon class="cls-11" points="461.31 180.73 464.2 186.59 470.67 187.53 465.99 192.09 467.1 198.53 461.31 195.49 455.53 198.53 456.63 192.09 451.95 187.53 458.42 186.59 461.31 180.73"/><polygon class="cls-12" points="93.08 97.88 95.97 103.74 102.44 104.68 97.76 109.25 98.87 115.69 93.08 112.65 87.3 115.69 88.4 109.25 83.72 104.68 90.19 103.74 93.08 97.88"/><polygon class="cls-12" points="348.48 54.69 351.37 60.55 357.84 61.49 353.16 66.05 354.27 72.49 348.48 69.45 342.7 72.49 343.8 66.05 339.12 61.49 345.59 60.55 348.48 54.69"/><polygon class="cls-12" points="478.18 176.59 481.07 182.45 487.54 183.39 482.86 187.95 483.97 194.39 478.18 191.35 472.4 194.39 473.5 187.95 468.82 183.39 475.29 182.45 478.18 176.59"/></g><rect class="cls-8" x="451.44" y="213.58" width="48.08" height="5"/><rect class="cls-8" x="451.44" y="224.38" width="12.76" height="5"/><rect class="cls-8" x="451.44" y="235.33" width="24.98" height="5"/><rect class="cls-8" x="477.78" y="235.33" width="16.52" height="5"/><rect class="cls-8" x="465.42" y="224.38" width="12.76" height="5"/><rect class="cls-8" x="479.62" y="224.38" width="12.76" height="5"/><polygon class="cls-13" points="93.08 118.16 94.93 121.92 99.08 122.52 96.08 125.44 96.79 129.57 93.08 127.62 89.38 129.57 90.08 125.44 87.09 122.52 91.23 121.92 93.08 118.16"/><polygon class="cls-13" points="475.31 195.87 477.16 199.63 481.3 200.23 478.3 203.15 479.01 207.28 475.31 205.33 471.6 207.28 472.31 203.15 469.31 200.23 473.45 199.63 475.31 195.87"/><polygon class="cls-13" points="348.48 73.59 350.33 77.34 354.48 77.95 351.48 80.87 352.19 84.99 348.48 83.05 344.78 84.99 345.48 80.87 342.49 77.95 346.63 77.34 348.48 73.59"/><g id="T_Words"><rect class="cls-8" x="324.41" y="89.92" width="88.34" height="5"/><rect class="cls-8" x="324.41" y="100.72" width="23.44" height="5"/><rect class="cls-8" x="324.41" y="111.67" width="45.9" height="5"/><rect class="cls-8" x="372.81" y="111.67" width="30.35" height="5"/><rect class="cls-8" x="350.1" y="100.72" width="23.44" height="5"/><rect class="cls-8" x="376.19" y="100.72" width="23.44" height="5"/></g><g id="T_Entry"><circle class="cls-8" cx="329.95" cy="137.52" r="7.76"/><g id="T_words-2" data-name="T_words"><rect class="cls-8" x="344.27" y="129.55" width="55.33" height="5"/><rect class="cls-8" x="344.27" y="141.52" width="18" height="5"/><rect class="cls-8" x="365.58" y="141.52" width="18" height="5"/><rect class="cls-8" x="387.13" y="141.52" width="27.84" height="5"/></g></g><g id="T_Entry-2" data-name="T_Entry"><circle class="cls-8" cx="329.95" cy="165.96" r="7.76"/><g id="T_words-3" data-name="T_words"><rect class="cls-8" x="344.27" y="157.99" width="55.33" height="5"/><rect class="cls-8" x="344.27" y="169.96" width="18" height="5"/><rect class="cls-8" x="365.58" y="169.96" width="18" height="5"/><rect class="cls-8" x="387.13" y="169.96" width="27.84" height="5"/></g></g><rect class="cls-8" x="108.01" y="104.11" width="168.47" height="5"/><rect class="cls-8" x="108.01" y="114.92" width="44.71" height="5"/><rect class="cls-8" x="158.37" y="114.92" width="89.41" height="5"/><rect class="cls-8" x="108.01" y="127.87" width="87.53" height="5"/><rect class="cls-8" x="200.32" y="127.87" width="57.88" height="5"/><polygon class="cls-8" points="493.02 35.94 482.06 35.94 476.58 45.44 482.06 54.93 493.02 54.93 498.51 45.44 493.02 35.94"/><polygon class="cls-9" points="490.45 20.85 484.64 20.85 481.74 25.88 484.64 30.91 490.45 30.91 493.35 25.88 490.45 20.85"/><circle class="cls-8" cx="70.62" cy="156.1" r="7.76"/><rect class="cls-8" x="84.93" y="148.13" width="87.53" height="5"/><rect class="cls-8" x="177.25" y="148.13" width="57.88" height="5"/><rect class="cls-8" x="84.93" y="160.1" width="168.47" height="5"/><circle class="cls-8" cx="70.62" cy="186.61" r="7.76"/><rect class="cls-8" x="84.93" y="178.65" width="87.53" height="5"/><rect class="cls-8" x="177.25" y="178.65" width="57.88" height="5"/><rect class="cls-8" x="84.93" y="190.61" width="168.47" height="5"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 288">
+    <defs>
+        <style>
+           .cls-1{
+     fill:#1a4480;
+     stroke:#1a4480;
+}
+ .cls-1,.cls-10,.cls-11,.cls-12,.cls-13,.cls-3,.cls-4,.cls-5,.cls-6{
+    stroke-miterlimit:10;
+}
+.cls-2{
+    fill:#d4f1ff;
+}
+.cls-10,.cls-3,.cls-4,.cls-5,.cls-6{
+    fill:none;
+}
+.cls-3,.cls-4,.cls-5,.cls-6{
+    stroke:#73b3e7;
+    stroke-width:2px;
+}
+.cls-4{
+    stroke-dasharray:5.17 5.17;
+}
+.cls-5{
+    stroke-dasharray:5.07 5.07;
+}
+.cls-6{
+    stroke-dasharray:5 5;
+}
+.cls-12,.cls-7{
+    fill:#e41d3d;
+}
+.cls-11,.cls-8{
+    fill:#73b3e7;
+}
+.cls-9{
+    fill:white;
+}
+.cls-10{
+    stroke:#fff;
+    stroke-width:3px;
+}
+.cls-11,.cls-12,.cls-13{
+    stroke:#005ea2;
+    stroke-width:0.5px;
+}
+.cls-13{
+    fill:#d9e8f6;
+}
+
+</style>
+          </defs>
+          <g id="Concept_1" data-name="Concept 1">
+            <rect id="Background" class="cls-1" width="560" height="288"/>
+            <g id="Blue_bar_desktop" data-name="Blue bar desktop">
+              <rect class="cls-2" x="49.93" y="71.13" width="241.41" height="22.09" rx="10"/>
+              <rect class="cls-2" x="49.93" y="82.53" width="241.41" height="10.69"/>
+              <rect class="cls-2" x="311.81" y="28.69" width="108.94" height="22.09" rx="10"/>
+              <rect class="cls-2" x="311.81" y="40.09" width="108.94" height="10.69"/>
+              <rect class="cls-2" x="442.39" y="151.45" width="63.53" height="22.09" rx="10"/>
+              <rect class="cls-2" x="442.39" y="162.85" width="63.53" height="10.69"/>
+              <line class="cls-3" x1="420.75" y1="40.09" x2="421.85" y2="42.33"/>
+              <line class="cls-4" x1="424.12" y1="46.98" x2="473.07" y2="146.89"/>
+              <line class="cls-3" x1="474.21" y1="149.21" x2="475.31" y2="151.45"/>
+              <line class="cls-3" x1="166.26" y1="65.55" x2="168.7" y2="65.01"/>
+              <line class="cls-5" x1="173.65" y1="63.91" x2="309.72" y2="33.61"/>
+              <line class="cls-3" x1="312.19" y1="33.06" x2="314.63" y2="32.51"/>
+              <line class="cls-3" x1="170.63" y1="209.59" x2="173.08" y2="210.1"/>
+              <line class="cls-6" x1="177.97" y1="211.13" x2="439.99" y2="266.25"/>
+              <line class="cls-3" x1="442.44" y1="266.76" x2="444.88" y2="267.28"/>
+            </g>
+            <g id="Hex_cluster" data-name="Hex cluster">
+              <polygon class="cls-7" points="505.72 76.68 487.02 76.68 477.67 92.88 487.02 109.07 505.72 109.07 515.07 92.88 505.72 76.68"/>
+              <polygon class="cls-8" points="527.12 64.2 516.16 64.2 510.67 73.7 516.16 83.2 527.12 83.2 532.61 73.7 527.12 64.2"/>
+              <polygon class="cls-9" points="508.92 53.4 500.55 53.4 496.37 60.64 500.55 67.89 508.92 67.89 513.1 60.64 508.92 53.4"/>
+            </g>
+            <g id="Mobile">
+              <rect class="cls-10" x="442.39" y="151.1" width="63.53" height="117.18" rx="10"/>
+            </g>
+            <g id="Tablet">
+              <rect class="cls-10" x="311.81" y="28.69" width="110.12" height="160.94" rx="10"/>
+            </g>
+            <g id="Desktop">
+              <rect class="cls-10" x="49.93" y="69.72" width="241.41" height="139.97" rx="10"/>
+            </g>
+            <polygon class="cls-7" points="47.42 246.63 47.42 227.93 31.23 218.58 15.04 227.93 15.04 246.63 31.23 255.98 47.42 246.63"/>
+            <polygon class="cls-8" points="59.9 268.03 59.9 257.06 50.41 251.58 40.91 257.06 40.91 268.03 50.41 273.51 59.9 268.03"/>
+            <polygon class="cls-9" points="70.71 249.83 70.71 241.46 63.46 237.28 56.22 241.46 56.22 249.83 63.46 254.01 70.71 249.83"/>
+            <polygon class="cls-7" points="94.23 251.13 94.23 240.16 84.74 234.68 75.24 240.16 75.24 251.13 84.74 256.61 94.23 251.13"/>
+            <polygon class="cls-8" points="102.91 267.73 102.91 259.37 95.66 255.18 88.42 259.37 88.42 267.73 95.66 271.91 102.91 267.73"/>
+            <polygon class="cls-9" points="110.83 252.26 110.83 246.45 105.81 243.55 100.78 246.45 100.78 252.26 105.81 255.16 110.83 252.26"/>
+            <g id="Concept_3" data-name="Concept 3"><polygon class="cls-11" points="73.36 105.09 76.25 110.95 82.72 111.89 78.04 116.45 79.15 122.89 73.36 119.85 67.58 122.89 68.68 116.45 64 111.89 70.47 110.95 73.36 105.09"/>
+              <polygon class="cls-11" points="332 63.59 334.89 69.45 341.36 70.39 336.68 74.95 337.78 81.39 332 78.35 326.21 81.39 327.32 74.95 322.64 70.39 329.1 69.45 332 63.59"/>
+              <polygon class="cls-11" points="461.31 180.73 464.2 186.59 470.67 187.53 465.99 192.09 467.1 198.53 461.31 195.49 455.53 198.53 456.63 192.09 451.95 187.53 458.42 186.59 461.31 180.73"/>
+              <polygon class="cls-12" points="93.08 97.88 95.97 103.74 102.44 104.68 97.76 109.25 98.87 115.69 93.08 112.65 87.3 115.69 88.4 109.25 83.72 104.68 90.19 103.74 93.08 97.88"/>
+              <polygon class="cls-12" points="348.48 54.69 351.37 60.55 357.84 61.49 353.16 66.05 354.27 72.49 348.48 69.45 342.7 72.49 343.8 66.05 339.12 61.49 345.59 60.55 348.48 54.69"/>
+              <polygon class="cls-12" points="478.18 176.59 481.07 182.45 487.54 183.39 482.86 187.95 483.97 194.39 478.18 191.35 472.4 194.39 473.5 187.95 468.82 183.39 475.29 182.45 478.18 176.59"/>
+            </g>
+            <rect class="cls-8" x="451.44" y="213.58" width="48.08" height="5"/>
+            <rect class="cls-8" x="451.44" y="224.38" width="12.76" height="5"/>
+            <rect class="cls-8" x="451.44" y="235.33" width="24.98" height="5"/>
+            <rect class="cls-8" x="477.78" y="235.33" width="16.52" height="5"/>
+            <rect class="cls-8" x="465.42" y="224.38" width="12.76" height="5"/>
+            <rect class="cls-8" x="479.62" y="224.38" width="12.76" height="5"/>
+            <polygon class="cls-13" points="93.08 118.16 94.93 121.92 99.08 122.52 96.08 125.44 96.79 129.57 93.08 127.62 89.38 129.57 90.08 125.44 87.09 122.52 91.23 121.92 93.08 118.16"/>
+            <polygon class="cls-13" points="475.31 195.87 477.16 199.63 481.3 200.23 478.3 203.15 479.01 207.28 475.31 205.33 471.6 207.28 472.31 203.15 469.31 200.23 473.45 199.63 475.31 195.87"/>
+            <polygon class="cls-13" points="348.48 73.59 350.33 77.34 354.48 77.95 351.48 80.87 352.19 84.99 348.48 83.05 344.78 84.99 345.48 80.87 342.49 77.95 346.63 77.34 348.48 73.59"/>
+            <g id="T_Words"><rect class="cls-8" x="324.41" y="89.92" width="88.34" height="5"/><rect class="cls-8" x="324.41" y="100.72" width="23.44" height="5"/><rect class="cls-8" x="324.41" y="111.67" width="45.9" height="5"/><rect class="cls-8" x="372.81" y="111.67" width="30.35" height="5"/><rect class="cls-8" x="350.1" y="100.72" width="23.44" height="5"/><rect class="cls-8" x="376.19" y="100.72" width="23.44" height="5"/></g><g id="T_Entry"><circle class="cls-8" cx="329.95" cy="137.52" r="7.76"/><g id="T_words-2" data-name="T_words"><rect class="cls-8" x="344.27" y="129.55" width="55.33" height="5"/><rect class="cls-8" x="344.27" y="141.52" width="18" height="5"/><rect class="cls-8" x="365.58" y="141.52" width="18" height="5"/><rect class="cls-8" x="387.13" y="141.52" width="27.84" height="5"/></g></g><g id="T_Entry-2" data-name="T_Entry"><circle class="cls-8" cx="329.95" cy="165.96" r="7.76"/><g id="T_words-3" data-name="T_words"><rect class="cls-8" x="344.27" y="157.99" width="55.33" height="5"/><rect class="cls-8" x="344.27" y="169.96" width="18" height="5"/><rect class="cls-8" x="365.58" y="169.96" width="18" height="5"/><rect class="cls-8" x="387.13" y="169.96" width="27.84" height="5"/></g></g><rect class="cls-8" x="108.01" y="104.11" width="168.47" height="5"/><rect class="cls-8" x="108.01" y="114.92" width="44.71" height="5"/><rect class="cls-8" x="158.37" y="114.92" width="89.41" height="5"/><rect class="cls-8" x="108.01" y="127.87" width="87.53" height="5"/><rect class="cls-8" x="200.32" y="127.87" width="57.88" height="5"/><polygon class="cls-8" points="493.02 35.94 482.06 35.94 476.58 45.44 482.06 54.93 493.02 54.93 498.51 45.44 493.02 35.94"/><polygon class="cls-9" points="490.45 20.85 484.64 20.85 481.74 25.88 484.64 30.91 490.45 30.91 493.35 25.88 490.45 20.85"/><circle class="cls-8" cx="70.62" cy="156.1" r="7.76"/><rect class="cls-8" x="84.93" y="148.13" width="87.53" height="5"/><rect class="cls-8" x="177.25" y="148.13" width="57.88" height="5"/><rect class="cls-8" x="84.93" y="160.1" width="168.47" height="5"/><circle class="cls-8" cx="70.62" cy="186.61" r="7.76"/><rect class="cls-8" x="84.93" y="178.65" width="87.53" height="5"/><rect class="cls-8" x="177.25" y="178.65" width="57.88" height="5"/><rect class="cls-8" x="84.93" y="190.61" width="168.47" height="5"/></g></svg>
