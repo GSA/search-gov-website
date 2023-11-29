@@ -11,26 +11,20 @@
 ========================================
 */
 
-// -------------------------------------
-// Import individual theme settings
-@import "theme/uswds-theme-general";
-@import "theme/uswds-theme-typography";
-@import "theme/uswds-theme-spacing";
-@import "theme/uswds-theme-color";
-@import "theme/uswds-theme-utilities";
-@import "theme/uswds-theme-components";
-
 // Set correct paths for use with asset pipeline
-$theme-font-path: "../uswds/fonts";
-$theme-image-path: "../uswds/img";
+$theme-font-path: "/assets/uswds/fonts";
+$theme-image-path: "/assets/uswds/img";
 
 // -------------------------------------
 // Import individual USWDS packages...
-@import "scss/packages/required";
-@import "scss/packages/global";
+@import "../../node_modules/uswds/dist/scss/uswds";
 
-@import "scss/packages/uswds-components";
-@import "scss/packages/uswds-utilities";
+//@import "_sass/theme/uswds-theme-general";
+//@import "_sass/theme/uswds-theme-typography";
+//@import "_sass/theme/uswds-theme-spacing";
+//@import "_sass/theme/uswds-theme-color";
+//@import "scss/packages/uswds-components";
+//@import "scss/packages/uswds-utilities";
 
 @import "search-gov-theme";
 
@@ -51,7 +45,7 @@ i.e.
 
 // default mode hide banner
 .usa-banner__content {
-  display: hidden;
+  display: none;
 }
 
 @media screen and (min-width: 640px) {

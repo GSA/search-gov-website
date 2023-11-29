@@ -6,6 +6,7 @@ node_modules
 .jekyll-cache/
 vendor
 .DS_Store
+.idea
 _posts/.DS_Store
 _assets/css/.DS_Store
 _assets/.DS_Store

@@ -11,9 +11,8 @@ last_modified_at: December 20, 2019
 redirect_from:
     - /blog/2019-annual-review.html
 ---
-<span style="float:right;"><img 
-  src="{{ site.url }}/files/2019_annual_review_small.png" 
-  alt="Top Topics in 2019 poster, small version. Following is a link to a larger PDF version. The poster shows a set of 16 pie charts, one for each top topic. The pie charts show the details of the top 25 queries run in 2019 for that topic." style="width:260px;height:300px;"><br />
+<span style="float:right;"><img src="{{ site.uswds_img_path }}/us_flag_small.png"
+alt="Top Topics in 2019 poster, small version. Following is a link to a larger PDF version. The poster shows a set of 16 pie charts, one for each top topic. The pie charts show the details of the top 25 queries run in 2019 for that topic." style="width:260px;height:300px;"><br />
 [Open large version]({{ site.url }}/files/2019_annual_review_large.pdf)
 </span>
 <br />
