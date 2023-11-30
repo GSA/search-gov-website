@@ -96,7 +96,7 @@ $theme-header-max-width: "desktop";
 $theme-header-min-width: "desktop";
 
 // Hero
-$theme-hero-image: url("/assets/images/serps.svg");
+$theme-hero-image: '{{ site.baseurl }}{{ site.img_path }}/serps.svg';
 
 // Icon List
 $theme-icon-list-font-family: "body";

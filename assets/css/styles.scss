@@ -12,8 +12,12 @@
 */
 
 // Set correct paths for use with asset pipeline
-$theme-font-path: "/assets/uswds/fonts";
-$theme-image-path: "/assets/uswds/img";
+$theme-font-path: '{{ site.baseurl }}{{ site.font_path }}';
+$theme-image-path: '{{ site.baseurl }}{{ site.uswds_img_path }}';
+$theme-why-search-gov: '{{ site.baseurl }}{{ site.img_path}}/squiggles.svg';
+$theme-site-launch-path: '{{ site.baseurl }}{{ site.img_path}}/site/launch.svg';
+$theme-usa-icon-path: '{{ site.baseurl }}{{ site.uswds_img_path}}/usa-icons/campaign.svg';
+$theme-usa-hero-path: '{{ site.baseurl }}{{ site.img_path}}/serps.svg';
 
 // -------------------------------------
 // Import individual USWDS packages...
