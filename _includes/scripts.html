@@ -23,7 +23,9 @@
 </script>
 {% endif %}
 
-<script src="{{site.baseurl}}/assets/js/app.js"></script>
+<script src="{{site.baseurl}}{{ site.js_path }}/app.js"></script>
+<script src="{{site.baseurl}}{{ site.js_path }}/uswds-init.js"></script>
+<script src="{{site.baseurl}}{{ site.js_path }}/uswds.js"></script>
 
 {% if site.searchgov %}
   {% if site.searchgov.suggestions == true %}

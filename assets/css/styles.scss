@@ -15,20 +15,23 @@
 $theme-font-path: '{{ site.baseurl }}{{ site.font_path }}';
 $theme-image-path: '{{ site.baseurl }}{{ site.uswds_img_path }}';
 $theme-why-search-gov: '{{ site.baseurl }}{{ site.img_path}}/squiggles.svg';
-$theme-site-launch-path: '{{ site.baseurl }}{{ site.img_path}}/site/launch.svg';
+$theme-site-launch-path: '{{ site.baseurl }}{{ site.img_alt_path}}/site/launch.svg';
 $theme-usa-icon-path: '{{ site.baseurl }}{{ site.uswds_img_path}}/usa-icons/campaign.svg';
 $theme-usa-hero-path: '{{ site.baseurl }}{{ site.img_path}}/serps.svg';
 
 // -------------------------------------
 // Import individual USWDS packages...
-@import "../../node_modules/uswds/dist/scss/uswds";
+@import "../../node_modules/uswds/dist/scss/packages/required";
+@import "../../node_modules/uswds/dist/scss/packages/global";
+@import "../../node_modules/uswds/dist/scss/packages/uswds-components";
+@import "../../node_modules/uswds/dist/scss/packages/uswds-utilities";
 
-//@import "_sass/theme/uswds-theme-general";
-//@import "_sass/theme/uswds-theme-typography";
-//@import "_sass/theme/uswds-theme-spacing";
-//@import "_sass/theme/uswds-theme-color";
-//@import "scss/packages/uswds-components";
-//@import "scss/packages/uswds-utilities";
+@import "_sass/theme/uswds-theme-general";
+@import "_sass/theme/uswds-theme-typography";
+@import "_sass/theme/uswds-theme-spacing";
+@import "_sass/theme/uswds-theme-color";
+@import "_sass/theme/uswds-theme-components";
+@import "_sass/theme/uswds-theme-utilities";
 
 @import "search-gov-theme";
 

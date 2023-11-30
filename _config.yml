@@ -452,8 +452,7 @@ assets:
       - "not dead"
   compression: true
   sources:
-    - _sass
-    - node_modules
+    - node_modules/uswds/dist
 
 timezone: America/New_York
 
@@ -461,3 +460,4 @@ uswds_img_path: /assets/uswds/img
 img_path: /assets/images
 img_alt_path: /assets/img
 font_path: /assets/uswds/fonts
+js_path: /assets/js
