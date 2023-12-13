@@ -1,5 +1,3 @@
-//= require js/uswds.min.js
-
 // Add your custom javascript here
 
 // update sidenav styling (TODO: figure out how to do this without needing JS)

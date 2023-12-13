@@ -1,6 +1,6 @@
 .usa-hero {
   background-color: color('primary-dark');
-  background-image: asset_url('serps.svg');
+  background-image: url($theme-usa-hero-path);
   background-position: 90% 50%;
   background-repeat: no-repeat;
   background-size: 45%;

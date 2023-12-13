@@ -42,8 +42,8 @@ $side-navigation-highlight: #162e51;
   padding-bottom: .75rem;
 
   &--info:before {
-    background: url(../img/usa-icons/campaign.svg) no-repeat center/contain;  
-    -webkit-mask: url(../img/usa-icons/campaign.svg) no-repeat center/contain;  
+    background: url($theme-usa-icon-path) no-repeat center/contain;
+    -webkit-mask: url($theme-usa-icon-path) no-repeat center/contain;
     background-position-y: center;
     height: 100%;
   }
@@ -159,7 +159,7 @@ a {
 //External Link Styling
 main {
   [href^=http]:not([href*=".gov"]):not([href*='.mil']):not([href*='localhost'])::after{
-    background-image: url("../assets/img/site/launch.svg");
+    background-image: url($theme-site-launch-path);
     background-position: 50% 60%;
     background-repeat: no-repeat;
     background-size: 100%;

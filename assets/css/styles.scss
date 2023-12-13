@@ -1,3 +1,6 @@
+---
+---
+
 /*
 * * * * * ==============================
 * * * * * ==============================
@@ -8,27 +11,27 @@
 ========================================
 */
 
-// -------------------------------------
-// Import individual theme settings
-@import "theme/uswds-theme-general";
-@import "theme/uswds-theme-typography";
-@import "theme/uswds-theme-spacing";
-@import "theme/uswds-theme-color";
-@import "theme/uswds-theme-utilities";
-@import "theme/uswds-theme-components";
-
 // Set correct paths for use with asset pipeline
-$theme-font-path: "fonts";
-$theme-image-path: "img";
+$theme-font-path: '{{ site.baseurl }}{{ site.font_path }}';
+$theme-image-path: '{{ site.baseurl }}{{ site.uswds_img_path }}';
+$theme-why-search-gov: '{{ site.baseurl }}{{ site.img_path}}/squiggles.svg';
+$theme-site-launch-path: '{{ site.baseurl }}{{ site.img_alt_path}}/site/launch.svg';
+$theme-usa-icon-path: '{{ site.baseurl }}{{ site.uswds_img_path}}/usa-icons/campaign.svg';
+$theme-usa-hero-path: '{{ site.baseurl }}{{ site.img_path}}/serps.svg';
 
 // -------------------------------------
 // Import individual USWDS packages...
-@import "scss/packages/required";
-@import "overrides/all";
-@import "scss/packages/global";
+@import "../../node_modules/uswds/dist/scss/packages/required";
+@import "../../node_modules/uswds/dist/scss/packages/global";
+@import "../../node_modules/uswds/dist/scss/packages/uswds-components";
+@import "../../node_modules/uswds/dist/scss/packages/uswds-utilities";
 
-@import "scss/packages/uswds-components";
-@import "scss/packages/uswds-utilities";
+@import "_sass/theme/uswds-theme-general";
+@import "_sass/theme/uswds-theme-typography";
+@import "_sass/theme/uswds-theme-spacing";
+@import "_sass/theme/uswds-theme-color";
+@import "_sass/theme/uswds-theme-components";
+@import "_sass/theme/uswds-theme-utilities";
 
 @import "search-gov-theme";
 
@@ -49,7 +52,7 @@ i.e.
 
 // default mode hide banner
 .usa-banner__content {
-  display: hidden;
+  display: none;
 }
 
 @media screen and (min-width: 640px) {

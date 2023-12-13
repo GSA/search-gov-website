@@ -1,7 +1,7 @@
 source "https://rubygems.org"
-ruby "2.7.5"
+ruby "3.1.3"
 
-gem "jekyll", "~> 4.3.0"
+gem "jekyll", "4.3.2"
 gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
 gem "autoprefixer-rails"
 
@@ -11,7 +11,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', "3.0.0"
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
-  gem 'jekyll-assets', git: "https://github.com/envygeeks/jekyll-assets"
   gem 'jekyll-environment-variables', group: :jekyll_plugins
 end
 

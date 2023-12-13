@@ -1,5 +1,5 @@
 .why-search-gov {
-  background-image: asset_url('squiggles.svg');
+  background-image: url($theme-why-search-gov);
   background-position: 0 -14px; // magic number is just a quirk of the bg image
   background-repeat: no-repeat;
   background-size: auto 103%;

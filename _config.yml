@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://search.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
-# twitter: 
+# twitter:
 
 #################################################################
 #
@@ -63,7 +63,7 @@ url: "https://search.gov" # the base hostname & protocol for your site, e.g. htt
 dap:
   agency: GSA
 
-# Optional
+  # Optional
   subagency: TTS
 
 # Configuration for Google Analytics
@@ -167,34 +167,34 @@ primary_navigation:
 about_us:
   - name: About Us
     url: /about/
-    children: 
-    - name: Why Choose Search.gov?
-      url: "/about/why-choose-searchgov.html"
-    - name: Customers
-      url: "/about/customers.html"
-    - name: Search.gov in Policy
-      url: "/about/policy/"
-    - name: Year in Review
-      url: "/about/updates/year-in-review/"
-    - name: Security and Compliance
-      url: "/about/security.html"
-    - name: Our Product Roadmap
-      url: "/about/updates/roadmap/"
-    - name: Release Notes
-      url: "/about/updates/releases/"
-    - name: Newsletters
-      url: "/about/updates/newsletters/"
-    - name: Share Your Feedback
-      url: "/about/feedback.html"
+    children:
+      - name: Why Choose Search.gov?
+        url: "/about/why-choose-searchgov.html"
+      - name: Customers
+        url: "/about/customers.html"
+      - name: Search.gov in Policy
+        url: "/about/policy/"
+      - name: Year in Review
+        url: "/about/updates/year-in-review/"
+      - name: Security and Compliance
+        url: "/about/security.html"
+      - name: Our Product Roadmap
+        url: "/about/updates/roadmap/"
+      - name: Release Notes
+        url: "/about/updates/releases/"
+      - name: Newsletters
+        url: "/about/updates/newsletters/"
+      - name: Share Your Feedback
+        url: "/about/feedback.html"
   - name: Related Resources
-    children: 
-    - name: For Developers
-      url: "/developer/"
+    children:
+      - name: For Developers
+        url: "/developer/"
 
 admin_center:
   - name: Admin Center Help Manual
     url: "/admin-center/"
-    children: 
+    children:
       - name: Dashboard
         url: "/admin-center/dashboard/"
       - name: Analytics
@@ -239,7 +239,7 @@ get_started:
         url: "/admin-center/display/hosted-vs-api-results.html"
       - name: Website Redesign Tips
         url: "/indexing/redesign.html"
-    
+
 
 indexing:
   - name: Index With Search.gov
@@ -310,7 +310,7 @@ tasks:
     copy: If you’re unable to log in to your account, email us for help.
     url: mailto:search@gsa.gov
     cta: Email Us
-  - heading: Re-index your site or submit sitemap 
+  - heading: Re-index your site or submit sitemap
     copy: Let us know if your search results are outdated, or if you have a new sitemap.
     url: mailto:search@gsa.gov
     cta: Email Us
@@ -342,7 +342,7 @@ searchgov:
 
   # this renders the results within the page instead of sending to user to search.gov
   inline: false
-  
+
   # this allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   suggestions: true
 
@@ -455,3 +455,10 @@ assets:
     - node_modules/uswds/dist
 
 timezone: America/New_York
+
+uswds_img_path: /assets/uswds/img
+img_path: /assets/images
+img_alt_path: /assets/img
+font_path: /assets/uswds/fonts
+js_path: /assets/js
+
