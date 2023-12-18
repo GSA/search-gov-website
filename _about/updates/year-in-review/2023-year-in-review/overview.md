@@ -21,24 +21,21 @@ last_modified_at: Dec 18, 2023
         <div class="grid-row grid-gap">
         </div>
 		<p>The top five topics in 2023 were:</p>
-<ol>
-<li>TBD</li>
-<li>TBD</li>
-<li>TBD</li>
-<li>TBD</li>
-<li>TBD</li>
-</ol>
+        <ol>
+            <li>TBD</li>
+            <li>TBD</li>
+            <li>TBD</li>
+            <li>TBD</li>
+            <li>TBD</li>
+        </ol>
         <hr class="section-break" id="section_2">
-<h2>Emerging trends in government search</h2>
-
-<p>This year has been transformative in **UPDATE** And we look forward to sharing more information over the coming months about</p>
-
-<ul>
-<li><strong>Artificial intelligence in government search --</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-<li><strong>Search engine optimization --</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-<li><strong>Our methods in search design and customer care --</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-</ul>
-
+        <h2>Emerging trends in government search</h2>
+        <p>This year has been transformative in **UPDATE** And we look forward to sharing more information over the coming months about</p>
+        <ul>
+            <li><strong>Artificial intelligence in government search --</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li><strong>Search engine optimization --</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li><strong>Our methods in search design and customer care --</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+        </ul>
         <hr class="section-break" id="section_3">
 		<h2>2023 top topics in search</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -50,9 +47,8 @@ last_modified_at: Dec 18, 2023
 			<li>TBD top topics</li>
 			<li>365 days of connecting people with what they need</li>
         </ul>
-<br>		
+        <br>		
 		<img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/top-topics-in-search-sample.png" alt="Horizontal bar chart showing the top search topics during 2022. Benefits - 39.2 million searches. Space - 17.6 million searches. Health - 12.3 million searches. Forms - 6.2 million searches. Savings, treasury bonds, and banking - 4.6 million searches. Jobs - 4.3 million searches. Locations and appointments - 3.5 million searches. Login to systems - 2.5 million searches. Immigration - 2.3 million searches. Weather - 2.1 million searches. Infrastructure - 1.8 million searches. Update personal data - 1.4 million searches. Lost card - 800 thousand searches." />
-
         <hr class="section-break" id="section_4">
         <h2 id="">So how's the renovation coming?</h2>
         <p>In our <a href="{{ site.baseurl }}/about/updates/year-in-review/overview.html#section-5">last report</a> we shared several improvements we were working hard to deliver. </p>
@@ -63,12 +59,13 @@ last_modified_at: Dec 18, 2023
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <ul>
                     <li>Lorem ipsum dolor</li>
                     <li>Lorem ipsum dolor</li>
                     <li>Lorem ipsum dolor</li>
                 </ul>
+            </li>
         </ul>
         <p>Next we will Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <h3>Updating our results page</h3>
@@ -88,7 +85,6 @@ last_modified_at: Dec 18, 2023
                     <li>Lorem ipsum dolor</li>
                     <li>Lorem ipsum dolor</li>
                 </ul>
-
         <hr class="section-break" id="section_5">
         <h2 id="">Conclusion</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -99,7 +95,7 @@ last_modified_at: Dec 18, 2023
                     <li>Lorem ipsum dolor</li>
                 </ul>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</main>
+    </main>
 </article>
 <div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
     <aside class="usa-in-page-nav-together">
