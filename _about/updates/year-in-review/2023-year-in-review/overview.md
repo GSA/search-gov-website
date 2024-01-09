@@ -3,8 +3,8 @@ layout: year-review-2023
 title: "2023 in review"
 description: Year-end report on what people were searching for on federal government websites.
 tags: year-in-review
-hero-image: sample-pie-hero.png
-hero-image-desktop: sample-pie-hero-desktop.png
+hero-image: 2023YIR2023-overview.png
+hero-image-desktop: 2023YIR2023-overview-wide.png
 date: Dec 18, 2023
 last_modified_at: Dec 18, 2023
 

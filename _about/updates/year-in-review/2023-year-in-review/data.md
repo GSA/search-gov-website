@@ -3,8 +3,8 @@ layout: year-review-2023
 title: "2023 year in review: Data"
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 tags: year-in-review
-hero-image: sample-pie-hero.png
-hero-image-desktop: sample-pie-hero-desktop.png
+hero-image: 2023YIR2023-overview.png
+hero-image-desktop: 2023YIR2023-overview-wide.png
 date: Dec 18, 2023
 last_modified_at: Dec 18, 2023
 
@@ -17,9 +17,9 @@ last_modified_at: Dec 18, 2023
         <p>Intro section about what this data shows about public experience gov wide. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <hr class="section-break" id="section_1">
         <h3 id="">1. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -110,9 +110,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_2">
         <h3 id="">2. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -203,9 +203,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_3">
         <h3 id="">3. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -296,9 +296,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_4">
         <h3 id="">4. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -389,9 +389,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_5">
         <h3 id="">5. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -482,9 +482,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_6">
         <h3 id="">6. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -575,9 +575,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_7">
         <h3 id="">7. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -668,9 +668,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_8">
         <h3 id="">8. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -761,9 +761,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_9">
         <h3 id="">9. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -854,9 +854,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_10">
         <h3 id="">10. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -947,9 +947,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_11">
         <h3 id="">11. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -1040,9 +1040,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_12">
         <h3 id="">12. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -1133,9 +1133,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_13">
         <h3 id="">13. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -1226,9 +1226,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_14">
         <h3 id="">14. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -1319,9 +1319,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_15">
         <h3 id="">15. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
@@ -1412,9 +1412,9 @@ last_modified_at: Dec 18, 2023
 
         <hr class="section-break" id="section_16">
         <h3 id="">16. Topic TBD</h3>
+<blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">NN million searches</blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br>
-        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/sample-pie-data-small.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
+        <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/theme-sample-pie-chart.png" alt="Pie chart showing relative proportion of the top 25 search terms related to TBD TOPIC" />
 <br>
 <table class="usa-table usa-table--compact">
 <tr>
