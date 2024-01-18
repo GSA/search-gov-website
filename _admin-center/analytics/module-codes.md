@@ -21,7 +21,7 @@ This page lists all the module codes and their full names.
 | AIDOC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Collections |
 | BBG   | Best Bets: Graphics |
 | BOOS  | Best Bets: Text |
-| BSPEL | Spelling Suggestions (Bing/Google) |
+| BSPEL | Spelling Suggestions (Bing) |
 | BWEB  | Web Results (Bing) |
 | DECOR* | Value-added Links for SEC Filings |
 | FRDOC | Federal Register Documents |
@@ -34,7 +34,7 @@ This page lists all the module codes and their full names.
 | NIMAG | Image Results (MRSS) |
 | OASIS | Image Results (Search.gov) |
 | OSPEL | Spelling Suggestions (Search.gov Images) |
-| OVER  | Spelling Overrides (Bing/Google) |
+| OVER  | Spelling Overrides (Bing) |
 | QRTD  | Routed Queries |
 | SPEL  | Spelling Suggestions (Search.gov) |
 | SREL  | Related Searches |
