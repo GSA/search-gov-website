@@ -24,10 +24,10 @@ At Search.gov we aim to provide a self-service, plug and play search solution. T
 1. [Configure the branding of your results page](#configure-branding)
 1. [Connect your website’s search box to your search site](#go-live)
 
-![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.url }}/files/site-launch-workflow.png){: .img-responsive}
+![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.baseurl }}/files/site-launch-workflow.png){: .img-responsive}
 [Site launch flow chart detailed description](#add-site)
 
-[Open large version]({{ site.url }}/files/site-launch-workflow.png)
+[Open large version]({{ site.baseurl }}/files/site-launch-workflow.png)
 
 {: #add-site }
 
@@ -65,7 +65,7 @@ Once you've created your site, note the actions available on the left-hand navig
 
 **Who:** Search.gov team, in consultation with you, the agency web team
 
-**What:** By default a new search site will be connected to the Bing web index to receive web results. Websites with very low levels of search traffic can continue to use the Bing web index after they launched our service. However, sites that will see greater than 150,000 queries per year will need to be indexed directly by our service before going live.  We monitor new sites established in our system, and will reach out if we think your site will need to be indexed by us, or if we need more information to make a determination.
+**What:** By default a new search site will be connected to the Bing web index to receive web results. Websites with very low levels of search traffic can continue to use the Bing web index after they launched our service. However, sites that will see greater than 35,000 queries per year will need to be indexed directly by our service before going live.  We monitor new sites established in our system, and will reach out if we think your site will need to be indexed by us, or if we need more information to make a determination.
 
 Regardless of the index used to support your search, we can only serve publicly accessible content. You will not be able to use our service for secure content, including intranets, and we can never index or serve personally identifiable information (PII) or other confidential data.
 
