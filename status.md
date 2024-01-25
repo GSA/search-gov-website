@@ -3,7 +3,7 @@ layout: page
 title: Search.gov System Status
 tags: status support help
 description: This page provides the current operating status of the Search.gov system.
-last_modified_at: January 24, 2023
+last_modified_at: January 25, 2023
 #subnav:
   #data: support
 ---
@@ -22,10 +22,13 @@ Details: We are investigating a possible issue with our search service. We will 
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date in the announcement and in the last_modified_at at the top of the page. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
 
-<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 4:30pm and 6pm ET today, January 23, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. -->
+<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+We will be doing planned maintenance between 3pm and 6pm ET today, January 25, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues.
 
 ## Recent Events
+
+<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+We performed planned maintenance on January 9, 2024, which caused a degradation in service between 5:03pm and 5:38pm ET. During this time, some agencies received degraded results, and some API users received server error responses.
 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
 Date: May 30, 2023, 3:30PM ET - May 31, 2023, 9:45AM ET <br />
