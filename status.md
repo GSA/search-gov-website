@@ -22,8 +22,8 @@ Details: We are investigating a possible issue with our search service. We will 
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date in the announcement and in the last_modified_at at the top of the page. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
 
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 3pm and 6pm ET today, January 30, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues.
+<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+We will be doing planned maintenance between 3pm and 6pm ET today, January 30, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. -->
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 We will be doing planned maintenance between 8pm and 11pm ET Wednesday, January 31, 2024. We anticipate some interruption in service for all sites using our hosted results page. Over the course of the maintenance window, up to 15% of requests may fail. We do not anticipate interruptions in service for API users.
