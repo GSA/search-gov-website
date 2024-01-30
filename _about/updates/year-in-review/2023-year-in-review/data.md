@@ -3,8 +3,8 @@ layout: year-review-2023
 title: "2023 year in review: Data"
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 tags: year-in-review
-hero-image: 2023YIR2023-overview.png
-hero-image-desktop: 2023YIR2023-overview-wide.png
+hero-image: 2023YIR-data.png
+hero-image-desktop: 2023YIR-data-wide.png
 date: Dec 18, 2023
 last_modified_at: Dec 18, 2023
 
