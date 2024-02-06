@@ -26,7 +26,7 @@ Details: We are investigating a possible issue with our search service. We will 
 We will be doing planned maintenance between 3pm and 6pm ET today, February 6, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues.
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will also be doing planned maintenance between 8pm and 11pm ET Tuesday, February 6 and Wednesday, Wednesday, February 7, 2024. We anticipate some interruption in service for all sites. Over the course of the maintenance window, up to 25% of requests may fail. We will be working hard to further limit the possible impact.
+We will also be doing planned maintenance between 8pm and 11pm ET Tuesday, February 6 and Wednesday, February 7, 2024. We anticipate some interruption in service for all sites. Over the course of the maintenance window, up to 25% of requests may fail. We will be working hard to further limit the possible impact.
 
 
 ## Recent Events
