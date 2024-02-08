@@ -34,7 +34,7 @@ We will also be doing planned maintenance between 8pm and 11pm ET Tuesday, Febru
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 <img src="https://search.gov/assets/img/site/red-status-system-down.png" width="15px" height="15px" alt="Outage" title="Outage">&nbsp;&nbsp;&nbsp; Outage <br />
 Date: February 7, 2024, 8:18pm &ndash; 9:04pm ET<br />
-Details: At 8:00pm ET, we began performing planned maintenance on our proxy layer. At 8:18pm a failure occurred, and we were unable to receive any requests for processing. We investigated and began a rollback procedure. The rollback was complete at 9:04pm ET, and we began processing requests normally again. Search.gov is now fully operational.
+Details: At 8:00pm ET, we began performing planned maintenance on our proxy layer. We anticipated up to 25% of requests would fail between 8pm-11pm. At 8:18pm a failure occurred, and we were unable to receive any requests for processing. We investigated and began a rollback procedure. The rollback was complete at 9:04pm ET, and we began processing requests normally again. Total impact was 18% during the maintenance window. Search.gov is now fully operational.
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
