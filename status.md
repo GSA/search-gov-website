@@ -25,11 +25,12 @@ Details: We are investigating a possible issue with our search service. We will 
 <!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 We will be doing planned maintenance between 3pm and 6pm ET today, February 8, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. -->
 
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing significant planned maintenance between 8pm and 11pm ET Thursday, February 8, 2024. We anticipate some interruption in service for all sites. Over the course of the maintenance window, up to 25% of requests may fail.
-
-
 ## Recent Events
+
+<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
+Date: February 8, 2024, 9:18-9:25pm ET.
+Details: We performed planned maintenance on our proxy layer. We anticipated up to 25% of requests would fail during the maintenance period of 8pm-11pm. From 9:18-9:25pm we processed requests at 60%. Total impact was 3% during the maintenance window. Search.gov is now fully operational.
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 <img src="https://search.gov/assets/img/site/red-status-system-down.png" width="15px" height="15px" alt="Outage" title="Outage">&nbsp;&nbsp;&nbsp; Outage <br />
