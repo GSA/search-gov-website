@@ -39,16 +39,16 @@ last_modified_at: Dec 18, 2023
         <hr class="section-break" id="section_3">
 		<h2>2023 top topics in search</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		<p>Here is a high level summary of the top interests across participating agencies during 2022.</p>
+		<p>Here is a high level summary of the top interests across participating agencies during 2023.</p>
 		<ul>
 			<li><strong>TBD</strong> queries</li>
 			<li><strong>32%</strong> of federal domains, including <strong>54%</strong> of top domains</li>
 			<li><strong>~2,200</strong> gov websites</li>
-			<li><strong>TBD</strong> top topics</li>
+			<li><strong>13</strong> top topics</li>
 			<li><strong>365 days</strong> of connecting people with what they need</li>
 		</ul>
         <br>		
-		<img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/top-topics-in-search-sample.png" alt="Horizontal bar chart showing the top search topics during 2022. Benefits - 39.2 million searches. Space - 17.6 million searches. Health - 12.3 million searches. Forms - 6.2 million searches. Savings, treasury bonds, and banking - 4.6 million searches. Jobs - 4.3 million searches. Locations and appointments - 3.5 million searches. Login to systems - 2.5 million searches. Immigration - 2.3 million searches. Weather - 2.1 million searches. Infrastructure - 1.8 million searches. Update personal data - 1.4 million searches. Lost card - 800 thousand searches." />
+		<img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" alt="alt text will be updated" />
         <hr class="section-break" id="section_4">
         <h2 id="">So how's the renovation coming?</h2>
         <p>In our <a href="{{ site.baseurl }}/about/updates/year-in-review/overview.html#section-5">last report</a> we shared several improvements we were working hard to deliver. </p>
