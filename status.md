@@ -25,11 +25,12 @@ Details: We are investigating a possible issue with our search service. We will 
 <!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 We will be doing planned maintenance between 3pm and 6pm ET today, February 8, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. -->
 
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 9:30am and 12:30pm ET today, February 14, 2024. The Admin Center will be unavailable during this time, and there will be no searcher impact. Please reach out to search@gsa.gov if you encounter any issues.
-
-
 ## Recent Events
+
+<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
+Date: February 14, 2024, 10:13-10:24am ET.
+We performed planned maintenance on our database between 9:30am and 12:30pm ET today. From 10:14-10:24am ET, our app servers did not process requests. The system self-healed, and Search.gov is now fully operational.
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
