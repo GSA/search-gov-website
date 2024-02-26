@@ -13,8 +13,7 @@ last_modified_at: Dec 18, 2023
 <div class="grid-row grid-gap">
 <article class="desktop:grid-col-8 usa-prose article">
     <main id="main-content">
-        <hr class="section-break" id="section_1">
-        <h2 class="title" id="">Overview</h2>
+        <h2 class="title" id="section_1">Overview</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -48,7 +47,7 @@ last_modified_at: Dec 18, 2023
 			<li><strong>365 days</strong> of connecting people with what they need</li>
 		</ul>
         <br>		
-		<img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" alt="alt text will be updated" />
+		<embed src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" type="image/svg+xml" />
         <hr class="section-break" id="section_4">
         <h2 id="">So how's the renovation coming?</h2>
         <p>In our <a href="{{ site.baseurl }}/about/updates/year-in-review/overview.html#section-5">last report</a> we shared several improvements we were working hard to deliver. </p>
@@ -98,15 +97,15 @@ last_modified_at: Dec 18, 2023
     </main>
 </article>
 <div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
-    <aside class="usa-in-page-nav-together">
+    <aside class="usa-in-page-nav-year-review-2023">
         <nav role="navigation" arial-label="In-page navigation">
                 <p class="usa-sidenav-label">On this page:</p>
-            <ul class="usa-in-page-nav-together-list">
-                <li class="usa-in-page-nav-together__item"><a href="#section_1" class="usa-in-page-nav-together__link usa-current">Introduction</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_2" class="usa-in-page-nav-together__link">Emerging trends</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_3" class="usa-in-page-nav-together__link">2023 top topics in search</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_4" class="usa-in-page-nav-together__link">Search.gov renovation update</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_5" class="usa-in-page-nav-together__link">Conclusion</a></li>
+            <ul class="usa-in-page-nav-year-review-2023-list">
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_1" class="usa-in-page-nav-year-review-2023__link usa-current">Overview</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_2" class="usa-in-page-nav-year-review-2023__link">Emerging trends</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_3" class="usa-in-page-nav-year-review-2023__link">2023 top topics in search</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_4" class="usa-in-page-nav-year-review-2023__link">Search.gov renovation update</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_5" class="usa-in-page-nav-year-review-2023__link">Conclusion</a></li>
             </ul>
         </nav>
     </aside>

@@ -6,61 +6,61 @@ img.year-review-2023-pie-chart {
   width: 33%;
 }
 
-.together-internal-nav {
+.year-review-2023-internal-nav {
   position: sticky;
   left: 0;
   top: 0;
   z-index: 99999;
 }
 
-.together-internal-nav {
+.year-review-2023-internal-nav {
   margin-bottom: -4px;
 }
 
-.together-internal-nav__list {
+.year-review-2023-internal-nav__list {
   align-items: center;
   flex-direction: row;
 }
 
-.together-internal-nav__list {
+.year-review-2023-internal-nav__list {
   display: flex;
   list-style: none;
   margin: 0;
   text-align: center;
 }
 
-.together-internal-nav__item {
+.year-review-2023-internal-nav__item {
   margin-right: 5rem;
 }
 
-.together-internal-nav__item {
+.year-review-2023-internal-nav__item {
   margin: auto;
   padding: 0;
 }
 
-.together-internal-nav__link, .together-internal-nav__link:visited {
-  color: #565c65;
+.year-review-2023-internal-nav__link, .year-review-2023-internal-nav__link:visited {
+  color: #454545;
   display: block;
-  font-size: 1.05em;
+  font-size: 1.2em;
   padding: 0.75rem 0.5rem;
   text-decoration: none;
   border-bottom: solid 5px transparent;
 }
 
-.together-internal-nav__link:hover {
+.year-review-2023-internal-nav__link:hover {
   border-bottom: solid 5px #255E9D !important;
 }
 
-// .together-internal-nav__link, .together-internal-nav__link:visited {
+// .year-review-2023-internal-nav__link, .year-review-2023-internal-nav__link:visited {
 //   font-size: 1.06rem;
 //   padding: 0.75rem 0.5rem;
 // }
 
-.usa-in-page-nav-together-list {
+.usa-in-page-nav-year-review-2023-list {
   padding: 0 1.5rem;
 }
 
-.usa-in-page-nav-together__item {
+.usa-in-page-nav-year-review-2023__item {
   list-style: none;
   padding: .75rem 0 .75rem .75rem;
   border-top: solid 1px #cccccc;
@@ -80,11 +80,11 @@ img.year-review-2023-pie-chart {
   }
 }
 
-.usa-in-page-nav-together__item:last-child {
+.usa-in-page-nav-year-review-2023__item:last-child {
   border-bottom: solid 1px #cccccc;
 }
 
-.usa-in-page-nav-together__item:before {
+.usa-in-page-nav-year-review-2023__item:before {
   border-left: solid 3px #255E9D;
 }
 
@@ -172,7 +172,7 @@ blockquote.overview {
   background: #0076D5;
 }
 
-.usa-in-page-nav-together {
+.usa-in-page-nav-year-review-2023 {
   margin-left: 0.25rem;
   margin-top: 2.25rem;
   position: sticky;
@@ -181,7 +181,7 @@ blockquote.overview {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
-.usa-in-page-nav-together nav {
+.usa-in-page-nav-year-review-2023 nav {
   background-color: #fff;
   border-radius: 0.5rem;
   padding: 1rem;

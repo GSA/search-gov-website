@@ -1506,26 +1506,23 @@ last_modified_at: Dec 18, 2023
     </main>
 </article>
 <div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
-    <aside class="usa-in-page-nav-together">
+    <aside class="usa-in-page-nav-year-review-2023">
         <nav class="navigation" id="yrNav" role="navigation" arial-label="In-page navigation">
                 <p class="usa-sidenav-label">On this page:</p>
-            <ul class="usa-in-page-nav-together-list">
-                <li class="usa-in-page-nav-together__item"><a href="#section_1" class="usa-in-page-nav-together__link usa-current">1. Topic 1 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_2" class="usa-in-page-nav-together__link">2. Topic 2 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_3" class="usa-in-page-nav-together__link">3. Topic 3 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_4" class="usa-in-page-nav-together__link">4. Topic 4 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_5" class="usa-in-page-nav-together__link">5. Topic 5 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_6" class="usa-in-page-nav-together__link">6. Topic 6 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_7" class="usa-in-page-nav-together__link">7. Topic 7 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_8" class="usa-in-page-nav-together__link">8. Topic 8 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_9" class="usa-in-page-nav-together__link">9. Topic 9 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_10" class="usa-in-page-nav-together__link">10. Topic 10 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_11" class="usa-in-page-nav-together__link">11. Topic 11 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_12" class="usa-in-page-nav-together__link">12. Topic 12 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_13" class="usa-in-page-nav-together__link">13. Topic 13 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_14" class="usa-in-page-nav-together__link">14. Topic 14 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_15" class="usa-in-page-nav-together__link">15. Topic 15 TBD</a></li>
-                <li class="usa-in-page-nav-together__item"><a href="#section_16" class="usa-in-page-nav-together__link">16. Topic 16 TBD</a></li>
+            <ul class="usa-in-page-nav-year-review-2023-list">
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_1" class="usa-in-page-nav-year-review-2023__link usa-current">1. Topic 1 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_2" class="usa-in-page-nav-year-review-2023__link">2. Topic 2 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_3" class="usa-in-page-nav-year-review-2023__link">3. Topic 3 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_4" class="usa-in-page-nav-year-review-2023__link">4. Topic 4 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_5" class="usa-in-page-nav-year-review-2023__link">5. Topic 5 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_6" class="usa-in-page-nav-year-review-2023__link">6. Topic 6 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_7" class="usa-in-page-nav-year-review-2023__link">7. Topic 7 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_8" class="usa-in-page-nav-year-review-2023__link">8. Topic 8 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_9" class="usa-in-page-nav-year-review-2023__link">9. Topic 9 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_10" class="usa-in-page-nav-year-review-2023__link">10. Topic 10 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_11" class="usa-in-page-nav-year-review-2023__link">11. Topic 11 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_12" class="usa-in-page-nav-year-review-2023__link">12. Topic 12 TBD</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_13" class="usa-in-page-nav-year-review-2023__link">13. Topic 13 TBD</a></li>
                 </ul>
             </nav>
         </aside>
