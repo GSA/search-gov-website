@@ -4,7 +4,7 @@ title: Key for Search Module Codes and Names
 category: admin-center
 tags: help-manual analytics clicks queries
 date: March 15, 2018
-last_modified_at: April 20, 2023
+last_modified_at: February 29, 2024
 #subnav:
   #data: admin_center
 redirect_from:
@@ -27,6 +27,7 @@ This page lists all the module codes and their full names.
 | FRDOC | Federal Register Documents |
 | I14Y  | Web Results (Search.gov via [i14y]({{ site.baseurl }}/developer/i14y.html)) |
 | IMAG  | Image Results (Bing) |
+| ISPEL | Spelling Suggestions (Search.gov) |
 | JOBS  | Jobs |
 | LOVER | Spelling Overrides (Search.gov) |
 | MEDL  | Health Topics |
