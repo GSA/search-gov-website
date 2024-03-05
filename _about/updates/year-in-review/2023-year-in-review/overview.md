@@ -25,6 +25,13 @@ last_modified_at: Dec 18, 2023
             <li>TBD</li>
             <li>TBD</li>
         </ol>
+		<ul>
+			<li><strong>TBD</strong> queries</li>
+			<li><strong>32%</strong> of federal domains, including <strong>54%</strong> of top domains</li>
+			<li><strong>~2,200</strong> gov websites</li>
+			<li><strong>13</strong> top topics</li>
+			<li><strong>365 days</strong> of connecting people with what they need</li>
+		</ul>
         <hr class="section-break" id="section_2">
         <h2>Emerging trends in government search</h2>
         <p>This year has been transformative in **UPDATE** And we look forward to sharing more information over the coming months about</p>
@@ -36,15 +43,7 @@ last_modified_at: Dec 18, 2023
         <hr class="section-break" id="section_3">
 		<h2>2023 top topics in search</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		<p>Here is a high level summary of the top interests across participating agencies during 2023.</p>
-		<ul>
-			<li><strong>TBD</strong> queries</li>
-			<li><strong>32%</strong> of federal domains, including <strong>54%</strong> of top domains</li>
-			<li><strong>~2,200</strong> gov websites</li>
-			<li><strong>13</strong> top topics</li>
-			<li><strong>365 days</strong> of connecting people with what they need</li>
-		</ul>
-        <br>		
+		<p>Here is a high level summary of the top interests across participating agencies during 2023.</p>		
 		<embed src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" type="image/svg+xml" />
         <hr class="section-break" id="section_4">
         <h2 id="">So how's the renovation coming?</h2>
