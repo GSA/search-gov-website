@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 ---
 
 {% comment %}
@@ -7,18 +7,18 @@ This template is for a single page that does not have a date associated with it.
 {% endcomment %}
 
 <section class="usa-layout-docs usa-section padding-0">
-  <div class="grid-container padding-y-0">
+  <div class="grid-container">
     <div class="grid-row">
-      <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/{{page.hero-image-desktop}}" class="year-review-2023-hero-image desktop:display-block tablet:display-none" alt="Illustration of several people moving along a line that leads to a loop ending in an arrow pointing up and to the right."/>
-      <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/{{page.hero-image}}" class="year-review-2023-hero-image desktop:display-none tablet:display-block" alt="Illustration of several people moving along a line that leads to a loop ending in an arrow pointing up and to the right."/>
-      <div class="year-review-2023-text desktop:display-block tablet:display-none"><h1 class="review-header">2023 in review</p><br></div>
+      <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/{{page.hero-image-desktop}}" class="year-review-2023-hero-image desktop:display-block tablet:display-none mobile:display-none" alt="Illustration of several people moving along a line that leads to a loop ending in an arrow pointing up and to the right."/>
+      <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/{{page.hero-image}}" class="year-review-2023-hero-image desktop:display-none tablet:display-block mobile:display-block" alt="Illustration of several people moving along a line that leads to a loop ending in an arrow pointing up and to the right."/>
+      <div class="year-review-2023-text desktop:display-block"><h1 class="review-header-2023">{{page.title}}</h1><br></div>
     </div>
   </div>
 </section>
 <nav class="usa-layout-docs usa-section year-review-2023-internal-nav text-base padding-0 margin-top-neg-5" aria-label="Search.gov 2023 year in review report internal navigation">
   <div class="grid-container">
     <div class="">
-      <ul id="internal-nav" class="year-review-2023-internal-nav__list deskop:padding-x-15 padding-y-0 margin-y-0 bg-gray-10">
+      <ul id="internal-nav" class="year-review-2023-internal-nav__list desktop:padding-x-15 padding-y-0 margin-y-0 bg-gray-10">
             <li class="year-review-2023-internal-nav__item">
               <a href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/overview.html" class="year-review-2023-internal-nav__link current">
                 Overview
@@ -52,10 +52,10 @@ This template is for a single page that does not have a date associated with it.
   <div class="grid-container">
     <div class="grid-row">
       <div class="tablet:grid-col-9">
-        <p>CTA TBD</p>
+        <p>New to Search.gov? <br />We want to learn about your site!</p>
       </div>
       <div class="tablet:grid-col-3 tablet:margin-y-6">
-        <a class="usa-button usa-button--outline checklist-redesign-button" href="{{ site.baseurl }}/indexing/redesign.html">CTA TBD - update this link target too</a>
+        <a class="usa-button usa-button--outline checklist-redesign-button" href="mailto:search@gsa.gov">Connect with us</a>
       </div>
     </div>
   </div>
