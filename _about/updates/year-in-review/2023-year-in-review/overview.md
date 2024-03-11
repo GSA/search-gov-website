@@ -99,7 +99,7 @@ last_modified_at: March 6, 2024
                 <ul>
                     <li>We support more formats of sitemaps now, including RSS feeds and plain text files. Sitemaps, feeds, and plain text lists all help search engines know what URLs to visit for indexing.</li>
                     <li>We investigated and prototyped a spider, to support discovering URLs on websites that cannot post a sitemap, feed, or flat list.</li>
-                    <li>We began exploring Artificial Intelligence (AI)-based solutions for improving content matching (recall) for searches, especially those containing strings of letters and numbers that are hard to provide spelling corrections for.</li>
+                    <li>We began exploring Artificial Intelligence (AI)-based solutions for improving content matching (recall) for searches, especially those containing strings of letters and numbers that are hard to provide spelling corrections for. After prototyping the tool most likely to achieve our objectives, we found that it was not performant at scale, and so early in 2024 we changed tack to use simpler approaches. We will continue to explore AI tooling in the future for different language-handling use cases.</li>
                 </ul>
         <hr class="section-break" id="section_5">
         <h2 id="">Conclusion</h2>
