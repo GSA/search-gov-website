@@ -45,7 +45,7 @@ last_modified_at: March 6, 2024
 		<p>The most common search needs in 2023 represent topics we see almost every year. (There were no spikes of interest recorded.) Each of these topics is discussed in detail on the <a href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/data.html">next page</a>.</p>	
 		<span alt="The following list reports the top topics and how many times people searched for information in this topic area. Use the links in the list to jump to the corresponding section of the data page. Tab through the list to continue reading the overview." />	
 		<embed class="grid-col" src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" type="image/svg+xml" />
-		<a name="ssa"</a><p>We are pleased to share examples of how last year’s redesigns have improved the public’s process of finding information. Search patterns showed the redesigns resulted in meaningful change. Specifically, analytics showed a dramatic decrease in the number of searches for two common topics: benefits and replacing identification cards.</p>
+		<a name="ssa"></a><p>We are pleased to share examples of how last year’s redesigns have improved the public’s process of finding information. Search patterns showed the redesigns resulted in meaningful change. Specifically, analytics showed a dramatic decrease in the number of searches for two common topics: benefits and replacing identification cards.</p>
 		<p>That means people are finding what they need more quickly and easily in the improved websites. Their need for search was reduced because of the upgrades.</p>
 		<table class="usa-table usa-table--compact">
 		  <thead>
