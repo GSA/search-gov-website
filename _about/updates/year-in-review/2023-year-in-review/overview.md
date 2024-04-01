@@ -25,7 +25,7 @@ last_modified_at: March 29, 2024
     </aside>
 </div>
 <article class="desktop:grid-col-8 tablet:grid-col-6 grid-col usa-prose article">
-        <h2 class="heading" id="section_1">Overview</h2>
+        <h2 class="review-header-2023 year-review-2023-text" id="section_1">Overview</h2>
         <p>Search.gov is a search engine supporting one third of federal domains. This gives us a bird's-eye view of how the public interacts with government when searching a wide range of topics. This report presents our observations on government search during 2023.</p>
         <p>The topics people search most on government websites remain fairly steady: taxation, benefits, passports, etc. They also need trustworthy information on topics that affect their daily lives, such as health, weather, and employment. Some years have atypical spikes of interest, such <a href="{{ site.baseurl }}/about/updates/year-in-review/2020-year-in-review.html" target="new">COVID-19</a> in 2020. And people always seem interested in NASA.gov’s information on space exploration and research.</p>
         <p>Last year, we released a <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/overview.html" target="new">special report on website modernization</a>, which told the stories of many of our customers as they moved through the phases of redesign. We also reported about how  the redesigns interacted with search experiences and search engine optimization (SEO). This year, we are returning to a focus on search data.</p>
@@ -46,7 +46,7 @@ last_modified_at: March 29, 2024
         </ol>
   
   <hr class="section-break" id="section_2">
-  <h2 class="review-header-2023">Emerging trends in government search</h2> 
+  <h2 class="review-header-2023 year-review-2023-text">Emerging trends in government search</h2> 
 
 		<p>The influence of artificial intelligence (AI) and related tools expanded significantly during 2023. As technologies change rapidly, searches on government websites remain a customer experience issue. We look forward to sharing more information over the coming months about:</p>
         <ul>
@@ -56,7 +56,7 @@ last_modified_at: March 29, 2024
         </ul>
         
 <hr class="section-break" id="section_3">
-	<h2 class="review-header-2023">2023 top topics in search</h2>
+	<h2 class="review-header-2023 year-review-2023-text">2023 top topics in search</h2>
 		<p>The most common search needs in 2023 represent topics we see almost every year. (There were no spikes of interest recorded.) Each of these topics is discussed in detail on the <a href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/data.html">Data page</a>.</p>		
 
 		<embed class="grid-col" src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" type="image/svg+xml"></embed>
@@ -89,20 +89,20 @@ last_modified_at: March 29, 2024
 		    </tr>
 		  </tbody>
 		</table>
-		<h3 class="review-subheader-2023">Benefits</h3>
+		<h3 class="review-subheader-2023 year-review-2023-text">Benefits</h3>
 		<p>The decrease in search traffic around benefits directly reflects the Social Security Administration’s successful redesign that launched in December 2022. SSA focused their efforts on <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/strategy.html#ssa-case-study">usability testing</a> and supporting users’ ability to find information. Their goal was to get people to the right place as quickly as possible to conduct their transactions. They studied their website metrics and search data, and made sure the most frequent searches were prominently available in the new design and architecture.</p>
 		<p>The search traffic shows that SSA’s efforts paid off: As soon as the new site launched on December 6, 2022, their search traffic patterns immediately dropped to a new steady low level. People are now arriving at SSA.gov and finding what they need without searching as much.</p> 
 		<p>The navigation experience is not only quicker and more direct at SSA.gov, the search experience is more effective, too: People clicked on search results more often, indicating it’s easier for people to identify what resources are most useful after they have run a search.</p>
-		<h3 class="review-subheader-2023">Lost card</h3>
+		<h3 class="review-subheader-2023 year-review-2023-text">Lost card</h3>
 		<p>“Lost identification card” has been a common search theme for years, whether it’s a lost passport, Social Security card, or other government issued identifier. Thanks to the redesign of SSA.gov, search traffic related to lost cards in 2023 was 55% lower than in 2022. “Replace card” is a prominent option on the <a href="https://www.ssa.gov" target="new">SSA.gov homepage</a>, and the first option on the <a href="https://www.ssa.gov/number-card" target="new">Number and card page</a> available through the main navigation. This is a victory for public sector usability.</p>
 
 		
 <hr class="section-break" id="section_4">
-        <h2 class="review-header-2023" id="">Update on Search.gov’s “renovation”</h2>
+        <h2 class="review-header-2023 year-review-2023-text" id="">Update on Search.gov’s “renovation”</h2>
         <p>In last year’s special report we shared <a href="{{ site.baseurl }}/about/updates/year-in-review/overview.html#section-5">several of our projects</a> to expand and improve our service. This work is supported by the American Rescue Plan.</p>
-        <h3 class="review-subheader-2023">Search filters</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text">Search filters</h3>
         <p>Most people have interacted with search filters on e-commerce websites. We built search filters for general websites that will work across multiple websites. To date, this has only been available to database-driven search experiences, like catalogs, or within individual websites using content management systems.. It will allow searchers to narrow results to their interests, based on tags that government experts have applied to web pages and resources. We were very excited to <a href="https://blog.usa.gov/less-is-more-improving-the-publics-web-search-experience-with-filters" target="new">support NASA.gov</a> as they became the first agency to launch this feature. We will build the interface and customer controls next.</p>
-        <h3 class="review-subheader-2023">Results page redesign</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text">Results page redesign</h3>
         <p>The majority of agencies who use Search.gov elect to use the results page we provide, instead of building their own. During 2023, we focused on completing our results page redesign, and released it in beta at the end of the year. This redesign implements U.S. Web Design System (USWDS) components, and brings our look and feel into alignment with standards being applied across government.</p>
         <p>Highlights include:</p>
                 <ul>
@@ -112,7 +112,7 @@ last_modified_at: March 29, 2024
                 </ul>
         <p>Sample of the new results page design.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/digital-gov-results-example.png" alt="Search results on digital.gov for the term 'modernization'" />
-        <h3 class="review-subheader-2023">Indexing improvements</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text">Indexing improvements</h3>
         <p>To provide search results, we need to index data from websites. To index that data, we need to know what pages and files exist on the websites. In 2023, we resolved many backend processing quirks that made indexing some websites challenging.</p>
                 <ul>
                     <li>We support more formats of sitemaps now, including RSS feeds and plain text files. Sitemaps, feeds, and plain text lists all help search engines know what URLs to visit for indexing.</li>
@@ -120,7 +120,7 @@ last_modified_at: March 29, 2024
                     <li>We began exploring Artificial Intelligence (AI)-based solutions for improving content matching (recall) for searches, especially those containing strings of letters and numbers that are hard to provide spelling corrections for. After prototyping the tool most likely to achieve our objectives, we found that it was not performant at scale, and so early in 2024 we changed tack to use simpler approaches. We will continue to explore AI tooling in the future for different language-handling use cases.</li>
                 </ul>
         <hr class="section-break" id="section_5">
-        <h2 class="review-header-2023"id="">Conclusion</h2>
+        <h2 class="review-header-2023 year-review-2023-text" id="">Conclusion</h2>
         <p>The impact of user-centered work during website redesigns is clear. The data shows significant improvements in findability when customer experience is the foundation of the work. People can access important information more easily, either through navigation or search.</p>
         <p>Over the course of 2024, we will share our experiences at the intersection of customer experience and search engines in a series of posts. Although search engines are complex, they are not magic.</p>
         <p>If you are interested in integrating with Search.gov, reach out to us at search@gsa.gov. We offer support from the early stages of trying our service, through implementation, and beyond.</p>

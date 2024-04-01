@@ -34,10 +34,10 @@ last_modified_at: March 29, 2024
         </aside>
     </div>
 <article class="desktop:grid-col-8 usa-prose article">
-        <h2 class="review-header-2023">Data</h2>
+        <h2 class="review-header-2023 year-review-2023-text">Data</h2>
         <p>This page details what people searched for on government websites via Search.gov during 2023. Reading the public’s searches in their own words allows us to understand how challenging it can be to navigate the government, when someone is not clear about where to look.</p>
         <hr class="section-break" id="section_1">
-        <h3 class="review-subheader-2023" id="">1. Space</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">1. Space</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">19.2 million searches</blockquote>
         <p>Space is always a popular topic, and 2023 was no different. NASA relaunched their website in October, with a significant redesign based on usability research and testing. They implemented our new <a href="https://blog.usa.gov/less-is-more-improving-the-publics-web-search-experience-with-filters" target="new">search filters feature</a> at that same time.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/space-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to outer space. No pie slices are significantly bigger than others." />
@@ -155,7 +155,7 @@ last_modified_at: March 29, 2024
 
 
         <hr class="section-break" id="section_2">
-        <h3 class="review-subheader-2023" id="">2. Benefits</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">2. Benefits</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">13.2 million searches</blockquote>
         <p>One of the primary ways people interact with the government is to request and receive support. In past years, the topic of benefits had search volumes close to double that of other topics. As <a href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/overview/html#ssa">discussed earlier</a>, this year we saw a significant benefits-related queries decrease by over 50%.</p>
 
@@ -275,7 +275,7 @@ last_modified_at: March 29, 2024
 		</table>
 
         <hr class="section-break" id="section_3">
-        <h3 class="review-subheader-2023" id="">3. Health</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">3. Health</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">11.8 million searches</blockquote>
         <p>Health-related searches on government websites more than doubled between 2019 and 2020 during the Covid-19 pandemic, and have continued at this high level each year since. The search terms people use are very general, indicating a high level understanding of medical challenges and treatments. “Ivermectin” appears three times in the top 25 queries, showing the impact of social media trends on government information seeking.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/health-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to health. The top search term, 'health' is represented by a pie slice about one quarter of the whole chart." />
@@ -364,7 +364,7 @@ last_modified_at: March 29, 2024
 	<p>&ast; “nichd” is the National Institute of Child Health and Human Development.</p>
 
         <hr class="section-break" id="section_4">
-        <h3 class="review-subheader-2023" id="">4. Banking and finance</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">4. Banking and finance</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">6.9 million searches</blockquote>
         <p>Last year, for the first time, we saw Treasury savings bonds emerge as a significant topic in government search. This year we expanded this topic to include all banking and finance searches. The top two search terms are “pension” and “loans.” Together with other retirement and loan-related searches in the top 25, these topics represent more than 20% of all banking and finance related searches on government websites.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/banking-finance-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to banking and finance. The top search term, 'pension' takes up one third of the chart, and the second search term, loans, takes up another third of the chart." />
@@ -452,7 +452,7 @@ last_modified_at: March 29, 2024
 		</table>
 
         <hr class="section-break" id="section_5">
-        <h3 class="review-subheader-2023" id="">5. Forms</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">5. Forms</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">5 million searches</blockquote>
         <p>Over the years, we have seen people search simply using the word “forms,” indicating they do not know what form they may need; 2023 was no different. People search for “forms,” but they need the benefit or service on the other side of the form. This remains a significant usability challenge for most government agencies.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/forms-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to forms. The top search term, 'forms' takes up about 40% of the pie chart. The second most popular search term, 'dd214' is about 20% of the chart." />
@@ -540,7 +540,7 @@ last_modified_at: March 29, 2024
 		</table>
 
         <hr class="section-break" id="section_6">
-        <h3 class="review-subheader-2023" id="">6. Jobs</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">6. Jobs</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">4.4 million searches</blockquote>
         <p>Searches for jobs and career-related information are consistently high year-over-year. While USAJOBS is the central application portal for the jobs themselves, many job seekers start at the agency they’re interested in working for. Search.gov provides postings directly from USAJOBS on the agency search results page.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/jobs-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to jobs. The pie slices for the top two search terms, 'jobs' and 'careers' represent 50% of the chart, with jobs slightly more popular than careers." />
@@ -628,7 +628,7 @@ last_modified_at: March 29, 2024
 </table>
 
         <hr class="section-break" id="section_7">
-        <h3 class="review-subheader-2023" id="">7. Locations and appointments</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">7. Locations and appointments</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">3.4 million searches</blockquote>
         <p>Searches for office locations and about how to make appointments were higher again in 2023 compared with 2020 and 2021, though still not as high as pre-pandemic levels.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/offices-appointments-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to locations and appointments. The top four search terms represent about 55% of the chart, equally popular." />
@@ -716,7 +716,7 @@ last_modified_at: March 29, 2024
 </table>
 
         <hr class="section-break" id="section_8">
-        <h3 class="review-subheader-2023" id="">8. Weather and climate</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">8. Weather and climate</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">2.3 million searches</blockquote>
         <p>Climate disasters are increasing in frequency, and 2023 broke many records, according to <a href="https://coast.noaa.gov/states/fast-facts/hurricane-costs.html" target="new">NOAA’s Office of Coastal Management</a>. We saw an increase in weather and climate related searches in 2023 compared to 2022.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/weather-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to weather and climate. The first and third most popular searches, 'hurricane center' and 'hurricane' represent over 25% of the chart." />
@@ -804,7 +804,7 @@ last_modified_at: March 29, 2024
 </table>
 
         <hr class="section-break" id="section_9">
-        <h3 class="review-subheader-2023" id="">9. Login to systems</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">9. Login to systems</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">1.8 million searches</blockquote>
         <p>To receive services and benefits, the public usually needs to create an account with an agency system. Every year we see a consistently high number of searches for the login screen of these systems. Sometimes people just search for the word “login,” or “my account,” or sometimes they search for the name of the system. 2023 saw a decrease in searches for login and authentication compared to 2022. Though there is no obvious cause for this decrease, it may indicate that agencies are making it easier to find the login screen for their systems.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/login-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to logging in to government systems. The top three search terms, 'login' as one word, 'log in' as two words, and 'sign in' represent over 50% of the chart." />
@@ -892,7 +892,7 @@ last_modified_at: March 29, 2024
 </table>
 
         <hr class="section-break" id="section_10">
-        <h3 class="review-subheader-2023" id="">10. Infrastructure</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">10. Infrastructure</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">1.7 million searches</blockquote>
         <p>Our country is built on networks. Roads, bridges, rivers, wires, pipelines, towers, and more create the connections that are so critical to daily life. Searches for infrastructure related terms increased again in 2023 to 1.7 million.</p>
 
@@ -984,7 +984,7 @@ last_modified_at: March 29, 2024
 </table>
 
         <hr class="section-break" id="section_11">
-        <h3 class="review-subheader-2023" id="">11. Coming to the United States</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">11. Coming to the United States</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">1.5 million searches</blockquote>
         <p>Searches related to immigration on websites integrated with Search.gov were about 20% lower in 2023 compared to 2022. Reflecting the participating agencies, most searches were about visas and visa renewals.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/immigration-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to immigration and visiting the United States. The top two search terms, 'visa' and 'esta' represent about 40% of the chart." />
@@ -1073,7 +1073,7 @@ last_modified_at: March 29, 2024
 <p>&ast; Esta is the Electronic System for Travel Authorization from the Department of Homeland Security.</p>
 
         <hr class="section-break" id="section_12">
-        <h3 class="review-subheader-2023" id="">12. Update personal data</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">12. Update personal data</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">900,000 searches</blockquote>
         <p>When we move house or make another significant life change, we need to let people know where and how to contact us. We change addresses or names, update bank accounts and phone numbers.</p>
 
@@ -1164,7 +1164,7 @@ last_modified_at: March 29, 2024
 </table>
 
         <hr class="section-break" id="section_13">
-        <h3 class="review-subheader-2023" id="">13. Lost card</h3>
+        <h3 class="review-subheader-2023 year-review-2023-text" id="">13. Lost card</h3>
 <blockquote class="year-in-review padding-x-4 padding-y-2 margin-x-0">350,000 searches</blockquote>
         <p>People often need to replace a lost or stolen identification card. For many years, we saw a consistent number of searches related to this topic around 1.1 million. In 2023, however, we saw only 350,000 thousand. Normally this would not be enough to report as a top topic, but the change from previous years is remarkable. We credit this drop to the successful redesigns of many websites last year. Previously, people needed to search for instructions and forms, but now links to these resources are easily accessible on home pages and in menus.</p>
         <img src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/lost-card-top-25-search-terms-pie-chart.svg" alt="Pie chart showing relative proportion of the top 25 search terms related to replacing lost identification." />
