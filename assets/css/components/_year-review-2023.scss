@@ -144,8 +144,20 @@ blockquote.overview {
   top: 360px;
   padding-left: 30px;
 
+  .review-title-2023 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+  }
+
   .review-header-2023 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .review-subheader-2023 {
+    font-size: 1.2rem;
     margin: 0;
     font-weight: bold;
   }

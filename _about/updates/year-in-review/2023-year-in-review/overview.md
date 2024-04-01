@@ -25,7 +25,7 @@ last_modified_at: March 29, 2024
     </aside>
 </div>
 <article class="desktop:grid-col-8 tablet:grid-col-6 grid-col usa-prose article">
-        <h2 id="section_1">Overview</h2>
+        <h2 class="heading" id="section_1">Overview</h2>
         <p>Search.gov is a search engine supporting one third of federal domains. This gives us a bird's-eye view of how the public interacts with government when searching a wide range of topics. This report presents our observations on government search during 2023.</p>
         <p>The topics people search most on government websites remain fairly steady: taxation, benefits, passports, etc. They also need trustworthy information on topics that affect their daily lives, such as health, weather, and employment. Some years have atypical spikes of interest, such <a href="{{ site.baseurl }}/about/updates/year-in-review/2020-year-in-review.html" target="new">COVID-19</a> in 2020. And people always seem interested in NASA.gov’s information on space exploration and research.</p>
         <p>Last year, we released a <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/overview.html" target="new">special report on website modernization</a>, which told the stories of many of our customers as they moved through the phases of redesign. We also reported about how  the redesigns interacted with search experiences and search engine optimization (SEO). This year, we are returning to a focus on search data.</p>
@@ -44,8 +44,9 @@ last_modified_at: March 29, 2024
             <li>Banking and finance</li>
             <li>Forms</li>
         </ol>
-        <hr class="section-break" id="section_2">
-        <h2>Emerging trends in government search</h2> 
+  
+  <hr class="section-break" id="section_2">
+  <h2 class="review-title-2023">Emerging trends in government search</h2> 
 
 		<p>The influence of artificial intelligence (AI) and related tools expanded significantly during 2023. As technologies change rapidly, searches on government websites remain a customer experience issue. We look forward to sharing more information over the coming months about:</p>
         <ul>
@@ -54,7 +55,7 @@ last_modified_at: March 29, 2024
             <li><strong>Our methods in search design and customer care:</strong> Our success is our customers’ success, and we will share our approaches to running our large, government shared service.</li>
         </ul>
         <hr class="section-break" id="section_3">
-		<h2>2023 top topics in search</h2>
+		<h2 class="review-title-2023">2023 top topics in search</h2>
 		<p>The most common search needs in 2023 represent topics we see almost every year. (There were no spikes of interest recorded.) Each of these topics is discussed in detail on the <a href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/data.html">Data page</a>.</p>		
 
 		<embed class="grid-col" src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" type="image/svg+xml" />
