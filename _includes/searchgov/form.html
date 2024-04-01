@@ -4,15 +4,14 @@
 
 {% if include.searchgov %}
   {% if include.searchgov.inline == true %}
-    <form id="search_form" class="usa-search usa-search--small" action="{{site.baseurl}}/search/" accept-charset="UTF-8" method="get">
+    <form id="search_form" class="usa-search usa-search--small" action="{{site.baseurl}}/search/" accept-charset="UTF-8" method="get" role="search">
   {% else %}
-    <form id="search_form" class="usa-search usa-search--small" action="{{include.searchgov.endpoint}}/search" accept-charset="UTF-8" method="get">
+    <form id="search_form" class="usa-search usa-search--small" action="{{include.searchgov.endpoint}}/search" accept-charset="UTF-8" method="get" role="search">
   {% endif %}
     
-  
-    <input name="utf8" type="hidden" value="&#x2713;" />
-    <input name="affiliate" type="hidden" value="{{include.searchgov.affiliate}}" />
       <label class="usa-sr-only" for="search_form">Search</label>
+      <input name="utf8" type="hidden" value="&#x2713;" />
+      <input name="affiliate" type="hidden" value="{{include.searchgov.affiliate}}" />
   
     <div role="search">
       <label class="usa-sr-only" for="extended-search-field-small">Search suggestions</label>

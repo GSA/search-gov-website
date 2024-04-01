@@ -55,7 +55,7 @@ See the sample search box below that is limited to news on [NIH.gov for a search
   
 [![NIH.gov news-only search results page]({{ site.url }}/assets/img/site/manual-collection-4.png "NIH.gov news-only search results page")](https://search.nih.gov/search/docs?affiliate=nih&dc=565&query=autism)
 
-<a name="sitelimit"></a>
+<a id="sitelimit"></a>
 
 ***Pro Tip*** 
 

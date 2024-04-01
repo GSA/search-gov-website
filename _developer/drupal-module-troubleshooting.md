@@ -67,7 +67,7 @@ curl "https://i14y.usa.gov/api/v1/documents" -XPOST -H "Content-Type:application
 
 If you have another question about indexing with our service through the `usasearch` Drupal module, [don't hesitate to ask](mailto:search@gsa.gov)!
 
-<a name="search-errors"></a>
+<a id="search-errors"></a>
 
 ## Search errors
 

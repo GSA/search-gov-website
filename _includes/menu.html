@@ -3,7 +3,7 @@ To modify the menu system, you are welcome to edit this HTML directly or you can
 where we provide an easy way to manage your navigation system
 {% endcomment %}
 
-<header class="usa-header usa-header--extended" role="banner">
+<header class="usa-header usa-header--extended">
   <div class="usa-navbar">
     {% include logo.html %}
     <button class="usa-menu-btn">Menu</button>
@@ -11,6 +11,20 @@ where we provide an easy way to manage your navigation system
   <nav role="navigation" class="usa-nav">
     <div class="usa-nav__inner">
       <button class="usa-nav__close"><img src="{{ site.baseurl }}{{ site.uswds_img_path }}/close.svg" alt="close" /></button>
+      <div class="usa-nav__secondary">
+        <ul class="usa-button-group">
+          <li class="usa-button-group__item">
+            <a href="{{ site.baseurl }}/status.html" class="usa-button usa-button--unstyled system-status">System Status</a>
+          </li>
+          <li class="usa-button-group__item">
+            <a href="https://search.usa.gov/signup" class="usa-button usa-button--unstyled sign-in">Sign up</a>
+          </li>
+          <li class="usa-button-group__item">
+            <a href="https://search.usa.gov/sites" class="usa-button login">Login</a>
+          </li>
+        </ul>
+        {% include searchgov/form.html searchgov=site.searchgov %}
+      </div>
       <ul class="usa-nav__primary usa-accordion">
         {% for nav_item in include.primary_navigation %}
         {% unless nav_item.children %}
@@ -37,20 +51,6 @@ where we provide an easy way to manage your navigation system
         {% endunless %}
         {% endfor %}
       </ul>
-      <div class="usa-nav__secondary">
-        <ul class="usa-button-group">
-          <li class="usa-button-group__item">
-            <a href="{{ site.baseurl }}/status.html" class="usa-button usa-button--unstyled system-status">System Status</a>
-          </li>
-          <li class="usa-button-group__item">
-            <a href="https://search.usa.gov/signup" class="usa-button usa-button--unstyled sign-in">Sign up</a>
-          </li>
-          <li class="usa-button-group__item">
-            <a href="https://search.usa.gov/sites" class="usa-button login">Login</a>
-          </li>
-        </ul>
-        {% include searchgov/form.html searchgov=site.searchgov %}
-      </div>
     </div>
   </nav>
 </header>

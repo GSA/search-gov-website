@@ -19,7 +19,7 @@ The launch of a new or redesigned site is a great time to think about refreshing
 * [Break Glass In Case of Emergency](#emergency)
 * [Get Fancy](#fancy)
 
-<a name="commercial"></a> 
+<a id="commercial"></a> 
 ## Tell Search Engines to (Re-)Index Your Site
 
 DigitalGov Search does not crawl. Crawling is hard and expensive, and others have systems in place that do this very well, so we rely on commercial search engines’ indexes of your site. Search engines create **indexes** of the websites they crawl, and search queries are run against those indexes. If a website is restructured but the search indexes are not updated, the old structure will be presented in search results.
@@ -34,7 +34,7 @@ DigitalGov Search does not crawl. Crawling is hard and expensive, and others hav
   * Put your file at the root of your site, `https://www.example.gov/sitemap.xml`.
 * See also our [tips on preparing for a site redesign]({{ site.baseurl }}/indexing/redesign.html).
 
-<a name="direct"></a> 
+<a id="direct"></a> 
 ## And, Tell Us about Your Content and We’ll Index It Directly
 
 While we don’t crawl, we will index any pages you tell us about. The steps mentioned above will be useful for searchers out on the web looking for your information and services. By default we leverage the commercial indexes for your site search, but we have our own indexes as well.  If you’re having a hard time getting search engines to index your new site, re-index your old site, or you just prefer our indexes, there are a couple of ways you can tell us about your content.
@@ -42,7 +42,7 @@ While we don’t crawl, we will index any pages you tell us about. The steps men
 * You can [**send us all of your content** via RSS]({{ site.baseurl }}/admin-center/content/rss.html) for direct indexing. We’ll need the URL, title, description, update date, and the full content or body of each item. Sort by update date in descending order. This can be an RSS or Atom feed. [Let us know](mailto:search@gsa.gov) you created this feed. There are a few different options for indexing feeds so we’ll make sure it’s set up in the best way possible.
 * Better yet, **publish your content via API**. We are in the beginning stages of development for a bootstrap API and a CRUD API. If you’d like to be part of our beta testing group and give feedback on the product, [let us know](mailto:search@gsa.gov). We want to get people kicking the tires on the prototype early, in the coming weeks. (note, this is current as of April 2015)
 
-<a name="ac"></a>
+<a id="ac"></a>
 ## Update Your Search Settings in the Admin Center
 
 Don’t forget to update your content settings in the Admin Center to point to your new content. This is an important, but often overlooked step.
@@ -54,14 +54,14 @@ Don’t forget to update your content settings in the Admin Center to point to y
 * When undergoing a [site redesign]({{ site.baseurl }}/indexing/redesign.html), be sure to **update** Collections, Best Bets, RSS Feeds, Header and Footer links, related sites, image assets, and results page colors, as appropriate. 
 * If you set up a **test search site** to go with your beta site, we recommend you **transfer** all the new settings over to your old site when you take your beta site into production, in order to maintain continuity of analytics. The test search site will have separate analytics from your existing, live search. If you would like help transferring your settings, [let us know](mailto:search@gsa.gov).
 
-<a name="emergency"></a>
+<a id="emergency"></a>
 ## Break Glass In Case of Emergency
 
 We have a stopgap measure available to [filter certain results]({{ site.baseurl }}/admin-center/content/domains-advanced.html) directly in the Admin Center. Under `[Search.gov Home]({{ site.baseurl }}/) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Analytics > Queries` you’ll see an option for Filter URLs. 
 
 **Important Note!** This is meant to be a **stopgap measure** until search engines’ indexes have caught up. After they’re updated there, the urls you’ve filtered here **should be removed**. They are appended to your query and are counted against the byte limit we can include in any one query. Please don’t forget to remove them after you no longer need them.
 
-<a name="fancy"></a>
+<a id="fancy"></a>
 ## Get Fancy
 
 At any time, you can use some of our more advanced options to get the most out of your search. Don’t wait for a redesign to take advantage of these features.

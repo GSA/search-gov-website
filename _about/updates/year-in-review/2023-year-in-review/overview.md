@@ -6,12 +6,25 @@ tags: year-in-review
 hero-image: 2023YIR-overview.png
 hero-image-desktop: 2023YIR-overview-wide.png
 date: March 6, 2024
-last_modified_at: March 6, 2024
+last_modified_at: March 29, 2024
 
 ---
 
+<div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
+    <aside class="usa-in-page-nav-year-review-2023">
+        <nav aria-label="In-page navigation">
+                <h4 class="usa-sidenav-label">On this page:</h4>
+            <ul class="usa-in-page-nav-year-review-2023-list">
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_1" class="usa-in-page-nav-year-review-2023__link usa-current">Overview</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_2" class="usa-in-page-nav-year-review-2023__link">Emerging trends</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_3" class="usa-in-page-nav-year-review-2023__link">2023 top topics in search</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_4" class="usa-in-page-nav-year-review-2023__link">Search.gov renovation update</a></li>
+                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_5" class="usa-in-page-nav-year-review-2023__link">Conclusion</a></li>
+            </ul>
+        </nav>
+    </aside>
+</div>
 <article class="desktop:grid-col-8 tablet:grid-col-6 grid-col usa-prose article">
-    <main id="main-content">
         <h2 id="section_1">Overview</h2>
         <p>Search.gov is a search engine supporting one third of federal domains. This gives us a bird's-eye view of how the public interacts with government when searching a wide range of topics. This report presents our observations on government search during 2023.</p>
         <p>The topics people search most on government websites remain fairly steady: taxation, benefits, passports, etc. They also need trustworthy information on topics that affect their daily lives, such as health, weather, and employment. Some years have atypical spikes of interest, such <a href="{{ site.baseurl }}/about/updates/year-in-review/2020-year-in-review.html" target="new">COVID-19</a> in 2020. And people always seem interested in NASA.gov’s information on space exploration and research.</p>
@@ -42,10 +55,11 @@ last_modified_at: March 6, 2024
         </ul>
         <hr class="section-break" id="section_3">
 		<h2>2023 top topics in search</h2>
-		<p>The most common search needs in 2023 represent topics we see almost every year. (There were no spikes of interest recorded.) Each of these topics is discussed in detail on the <a href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/data.html">next page</a>.</p>	
-		<span alt="The following list reports the top topics and how many times people searched for information in this topic area. Use the links in the list to jump to the corresponding section of the data page. Tab through the list to continue reading the overview." />	
+		<p>The most common search needs in 2023 represent topics we see almost every year. (There were no spikes of interest recorded.) Each of these topics is discussed in detail on the <a href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/data.html">Data page</a>.</p>		
+
 		<embed class="grid-col" src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" type="image/svg+xml" />
-		<a name="ssa"></a><p>We are pleased to share examples of how last year’s redesigns have improved the public’s process of finding information. Search patterns showed the redesigns resulted in meaningful change. Specifically, analytics showed a dramatic decrease in the number of searches for two common topics: benefits and replacing identification cards.</p>
+
+		<a id="ssa"></a><p>We are pleased to share examples of how last year’s redesigns have improved the public’s process of finding information. Search patterns showed the redesigns resulted in meaningful change. Specifically, analytics showed a dramatic decrease in the number of searches for two common topics: benefits and replacing identification cards.</p>
 		<p>That means people are finding what they need more quickly and easily in the improved websites. Their need for search was reduced because of the upgrades.</p>
 		<table class="usa-table usa-table--compact">
 		  <thead>
@@ -71,11 +85,11 @@ last_modified_at: March 6, 2024
 		    </tr>
 		  </tbody>
 		</table>
-		<p><strong>Benefits</strong></p>
+		<h3>Benefits</h3>
 		<p>The decrease in search traffic around benefits directly reflects the Social Security Administration’s successful redesign that launched in December 2022. SSA focused their efforts on <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/strategy.html#ssa-case-study">usability testing</a> and supporting users’ ability to find information. Their goal was to get people to the right place as quickly as possible to conduct their transactions. They studied their website metrics and search data, and made sure the most frequent searches were prominently available in the new design and architecture.</p>
 		<p>The search traffic shows that SSA’s efforts paid off: As soon as the new site launched on December 6, 2022, their search traffic patterns immediately dropped to a new steady low level. People are now arriving at SSA.gov and finding what they need without searching as much.</p> 
 		<p>The navigation experience is not only quicker and more direct at SSA.gov, the search experience is more effective, too: People clicked on search results more often, indicating it’s easier for people to identify what resources are most useful after they have run a search.</p>
-		<p><strong>Lost card</strong></p>
+		<h3>Lost card</h3>
 		<p>“Lost identification card” has been a common search theme for years, whether it’s a lost passport, Social Security card, or other government issued identifier. Thanks to the redesign of SSA.gov, search traffic related to lost cards in 2023 was 55% lower than in 2022. “Replace card” is a prominent option on the <a href="https://www.ssa.gov" target="new">SSA.gov homepage</a>, and the first option on the <a href="https://www.ssa.gov/number-card" target="new">Number and card page</a> available through the main navigation. This is a victory for public sector usability.</p>
 
 		
@@ -106,22 +120,9 @@ last_modified_at: March 6, 2024
         <p>The impact of user-centered work during website redesigns is clear. The data shows significant improvements in findability when customer experience is the foundation of the work. People can access important information more easily, either through navigation or search.</p>
         <p>Over the course of 2024, we will share our experiences at the intersection of customer experience and search engines in a series of posts. Although search engines are complex, they are not magic.</p>
         <p>If you are interested in integrating with Search.gov, reach out to us at search@gsa.gov. We offer support from the early stages of trying our service, through implementation, and beyond.</p>
-    </main>
-</article>
-<div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
-    <aside class="usa-in-page-nav-year-review-2023">
-        <nav role="navigation" arial-label="In-page navigation">
-                <p class="usa-sidenav-label">On this page:</p>
-            <ul class="usa-in-page-nav-year-review-2023-list">
-                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_1" class="usa-in-page-nav-year-review-2023__link usa-current">Overview</a></li>
-                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_2" class="usa-in-page-nav-year-review-2023__link">Emerging trends</a></li>
-                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_3" class="usa-in-page-nav-year-review-2023__link">2023 top topics in search</a></li>
-                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_4" class="usa-in-page-nav-year-review-2023__link">Search.gov renovation update</a></li>
-                <li class="usa-in-page-nav-year-review-2023__item"><a href="#section_5" class="usa-in-page-nav-year-review-2023__link">Conclusion</a></li>
-            </ul>
-        </nav>
-    </aside>
-</div>
 <div>
 <a class="usa-button usa-button--outline" href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/data.html">Dive into the data</a>
 </div>
+
+</article>
+

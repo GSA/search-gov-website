@@ -181,7 +181,7 @@ last_modified_at: June 8, 2023
 </article>
 <div class="desktop:grid-col-4 desktop:display-block tablet:display-none">
     <aside class="usa-in-page-nav-together">
-        <nav role="navigation" arial-label="In-page navigation">
+        <nav arial-label="In-page navigation">
                 <p class="usa-sidenav-label">On this page:</p>
             <ul class="usa-in-page-nav-together-list">
                 <li class="usa-in-page-nav-together__item"><a href="#section_1" class="usa-in-page-nav-together__link usa-current">Introduction</a></li>

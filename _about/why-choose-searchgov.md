@@ -141,12 +141,12 @@ There are several key differences between our service and other options in the m
   </table>
 </div>
 
-<a name="1star"></a>\* Some features are only available with Solr if you buy a hosted Solr service or you manage a crawler stack in-house
+<a id="1star"></a>\* Some features are only available with Solr if you buy a hosted Solr service or you manage a crawler stack in-house
 
-<a name="2star"></a>\*\* Solr search is available at no cost for uncustomized, single-website CMS search. Costs are associated with hosted Solr services or development effort.
+<a id="2star"></a>\*\* Solr search is available at no cost for uncustomized, single-website CMS search. Costs are associated with hosted Solr services or development effort.
 
-<a name="1plus"></a>\+ Search.gov allows web teams to manage their search configurations without running changes through developer teams. If you would like to use our Results API to pull results and display them within your website's template, this would require developer assistance to establish and maintain the API calls, and to design and build the search results page.
+<a id="1plus"></a>\+ Search.gov allows web teams to manage their search configurations without running changes through developer teams. If you would like to use our Results API to pull results and display them within your website's template, this would require developer assistance to establish and maintain the API calls, and to design and build the search results page.
 
-<a name="2plus"></a>\+\+ Faceted search is available via our <a href="https://open.gsa.gov/api/searchgov-results/" target="new">results API</a>, and will be available on our hosted results page soon.
+<a id="2plus"></a>\+\+ Faceted search is available via our <a href="https://open.gsa.gov/api/searchgov-results/" target="new">results API</a>, and will be available on our hosted results page soon.
 
-<a name="3plus"></a>\+\+\+ Our relevance ranking is already tuned to government needs, but we will be adding site-level controls.
+<a id="3plus"></a>\+\+\+ Our relevance ranking is already tuned to government needs, but we will be adding site-level controls.
