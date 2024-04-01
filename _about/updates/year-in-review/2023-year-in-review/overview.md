@@ -59,7 +59,7 @@ last_modified_at: March 29, 2024
 	<h2 class="review-header-2023">2023 top topics in search</h2>
 		<p>The most common search needs in 2023 represent topics we see almost every year. (There were no spikes of interest recorded.) Each of these topics is discussed in detail on the <a href="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/data.html">Data page</a>.</p>		
 
-		<embed class="grid-col" src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" type="image/svg+xml"></embed>
+		<embed class="grid-col" src="{{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/img/2023-top-topics-table-of-contents.svg" type="image/svg+xml" />
 
 		<a id="ssa"></a>
     <p>We are pleased to share examples of how last year’s redesigns have improved the public’s process of finding information. Search patterns showed the redesigns resulted in meaningful change. Specifically, analytics showed a dramatic decrease in the number of searches for two common topics: benefits and replacing identification cards.</p>
