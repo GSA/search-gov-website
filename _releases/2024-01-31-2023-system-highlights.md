@@ -3,7 +3,7 @@ layout: post
 category: releases
 title: 2023 system highlights
 filename-custom: 2023-System-Highlights
-last_modified_at: 2023-12-31
+last_modified_at: January 31, 2024
 sidenav: about_us
 release-year: "2023"
 description: "Summary of the major improvements we made to the Search.gov system during 2023."

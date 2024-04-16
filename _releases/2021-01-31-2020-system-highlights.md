@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: post
 title: 2020 System Highlights
 description: An overview of the biggest technical improvements for Search.gov over 2020.
 crumbname: 2020 System Highlights
 category: releases
 tags: release-notes year-in-review
 release-year: "2020"
-last_modified_at: 2021-01-31
+last_modified_at: January 31, 2021
 redirect_from:
     - /releases/2020-system-highlights.html
     - /about/updates/year-in-review/2020-system-highlights.html
