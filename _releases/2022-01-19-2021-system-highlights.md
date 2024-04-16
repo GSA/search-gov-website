@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: post
 title: 2021 System Highlights
 description: Search.gov made many improvements in system structure and security in 2021.
 tags: release-notes year-in-review
 date: January 19, 2022
+release-year: "2021"
 last_modified_at: January 19 2022
+redirect_from: /about/updates/year-in-review/2021-system-highlights.html
 #subnav:
   #data: about_us
 ---
