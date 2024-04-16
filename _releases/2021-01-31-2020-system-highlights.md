@@ -6,6 +6,7 @@ crumbname: 2020 System Highlights
 category: releases
 tags: release-notes year-in-review
 release-year: "2020"
+last_modified_at: 2021-01-31
 redirect_from:
     - /releases/2020-system-highlights.html
     - /about/updates/year-in-review/2020-system-highlights.html
