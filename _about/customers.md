@@ -36,6 +36,12 @@ We have a proven track record of delivering fast, relevant search results to fed
         </a>
     </div>
     <div class="customer-logo-item">
+        <a href="https://www.hhs.gov">
+            <img alt="Official seal of the Department of Health and Human Services" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-hhs.png">
+            Commerce
+        </a>
+    </div>
+<div class="customer-logo-item">
         <a href="https://www.hud.gov">
             <img alt="Official seal of the Department of Housing and Urban Development" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-hud.png"/>
             HUD
@@ -89,7 +95,7 @@ We have a proven track record of delivering fast, relevant search results to fed
 
 * [AbilityOne Office of Inspector General](https://oversight.gov/abilityone)
 * [Access Board](https://www.access-board.gov/)
-* [Administrative Office of the U.S. Courts](https://www.cit.uscourts.gov)
+* [Administrative Office of the U.S. Courts](https://www.uscourts.gov)
 * [Advisory Council on Historic Preservation](https://www.achp.gov)
 * [Agency for International Development Site Archive](https://2012-2017.usaid.gov)
 * [Agricultural Marketing Service](https://www.ams.usda.gov)
@@ -127,6 +133,7 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Department of Defense](https://www.defense.gov)
 * [Department of Education](https://www.ed.gov)
 * [Department of Energy Office of Science](https://www.es.net/)
+* [Department of Health and Human Services](https://www.hhs.gov)
 * [Department of Health and Human Services Office of Inspector General](https://oig.hhs.gov/)
 * [Department of Homeland Security Office of the Inspector General](https://www.oig.dhs.gov)
 * [Department of Housing and Urban Development](https://www.hud.gov)
@@ -219,10 +226,8 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Office of Natural Resources Revenue](https://www.onrr.gov)
 * [Office of Navajo and Hopi Indian Relocation](https://www.onhir.gov/)
 * [Office of Surface Mining Reclamation and Enforcement](https://www.osmre.gov)
-* [Patent & Trademark Office](https://www.uspto.gov)
 * [Peace Corps](https://www.peacecorps.gov/)
 * [Pipeline and Hazardous Materials Safety Administration](https://www.phmsa.dot.gov/)
-* [Postal Service Office of the Inspector General](https://www.uspsoig.gov)
 * [Public Buildings Reform Board](https://www.pbrb.gov)
 * [Risk Management Agency](https://rma.usda.gov/)
 * [Rural Development](https://www.rd.usda.gov)
