@@ -38,7 +38,7 @@ We have a proven track record of delivering fast, relevant search results to fed
     <div class="customer-logo-item">
         <a href="https://www.hhs.gov">
             <img alt="Official seal of the Department of Health and Human Services" src="{{ site.baseurl }}/assets/img/site/customers-hhs.png">
-            Commerce
+            Health and Human Services
         </a>
     </div>
 <div class="customer-logo-item">
