@@ -18,12 +18,16 @@ Details: We are investigating a possible issue with our search service. We will 
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 
-<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational - Search.gov in-house index powered sites
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date in the announcement and in the last_modified_at at the top of the page. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
 
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 11am and 8pm ET today, May 22, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues.
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation - Bing index-powered sites<br />
+Date: May 23, 2023, 1:20AM ET &ndash; ongoing<br />
+Details: From approximately 1:20AM ET, the Bing web search API began returnning errors. Search.gov sites leveraging Bing results will present searchers with a "Sorry, no results" message until the issue is resolved by Bing. Microsoft does not provide a public status page for the Bing API, but https://downdetector.com/status/bing/ provides some insight.
+
+<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+We will be doing planned maintenance between 11am and 8pm ET today, May 22, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. -->
  
 
 ## Recent Events
