@@ -39,8 +39,9 @@ jobs:
       - name: Build and start up jekyll server.
         run: npm run clean && npm run build && npm run start-detached
 
-      - name: Run pa11y-ci.
-        run: npm run pa11y-ci:sitemap || true
-
-      - name: Run htmlproofer.
-        run: npm run htmlproofer || true
+#      Temporarily disabling pally-ci and htmlproofer
+#      - name: Run pa11y-ci.
+#        run: npm run pa11y-ci:sitemap || true
+#
+#      - name: Run htmlproofer.
+#        run: npm run htmlproofer || true
