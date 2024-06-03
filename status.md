@@ -3,7 +3,7 @@ layout: page
 title: Search.gov System Status
 tags: status support help
 description: This page provides the current operating status of the Search.gov system.
-last_modified_at: February 8, 2023
+last_modified_at: May 23, 2024
 #subnav:
   #data: support
 ---
@@ -18,14 +18,33 @@ Details: We are investigating a possible issue with our search service. We will 
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 
-<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational 
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date in the announcement and in the last_modified_at at the top of the page. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
-
-<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 3pm and 6pm ET today, February 8, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. -->
+<!--
+<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+We will be doing planned maintenance between 1pm and 8pm ET today, May 23, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. -->
+ 
 
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: May 23, 2024, 7:50AM ET &ndash; 2:00PM ETbr />
+Details: During planned maintenance to migrate infrastructure that supports Elasticsearch, unexpected issues are leading to a partial degration of the search.gov in-house index. This affected customers whose web results come from our in-house index, as well as additional features such as Best Bets, RSS news, etc., for searches that were new after the change, as well as accessing the admin interface. Searches that had also been run prior to the change were served from cache. 
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation - Bing index-powered sites<br />
+Date: May 23, 2023, 1:20AM ET &ndash; 9:30 AMET<br />
+Details: Update 11:15am - Beginning approximately 1:20AM ET, Thursday May 23, the Bing web search API began returning errors. At approximately 9:45AM ET, Bing began returning results again. During this time, Search.gov sites leveraging Bing results were presenting searchers with a "Sorry, no results" message. Though results are now returning.
+
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: April 30, 2024, 5:00PM ET &ndash; 8:40PM ET<br />
+Details: During planned maintenance, a change to our production connection to Elasticsearch failed and we began returning errors for searches that require Elasticsearch. This affected customers whose web results come from our in-house index, as well as additional features such as Best Bets, RSS news, etc., for searches that were new after the change. Searches that had also been run prior to the change were served from cache. We rolled back the change. Search.gov is now fully operational.
+
+<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
+<img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
+Date: February 14, 2024, 10:13-10:24am ET.
+We performed planned maintenance on our database between 9:30am and 12:30pm ET today. From 10:14-10:24am ET, our app servers did not process requests. The system self-healed, and Search.gov is now fully operational.
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 <img src="https://search.gov/assets/img/site/yellow-status-intermittent-operations.png" width="15px" height="15px" alt="Partial Degradation" title="Partial Degradation">&nbsp;&nbsp;&nbsp; Partial Degradation <br />
