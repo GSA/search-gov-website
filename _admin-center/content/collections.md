@@ -4,7 +4,7 @@ title: How to Create Collections Within Our Index
 category: admin-center
 tags: help-manual manage-content collections
 date: December 28, 2016
-last_modified_at: December 28, 2016
+last_modified_at: November 16, 2023
 #subnav:
   #data: admin_center
 redirect_from:
@@ -59,9 +59,11 @@ See the sample search box below that is limited to news on [NIH.gov for a search
 
 ***Pro Tip*** 
 
-If you don't want to set up a Collection, you can use the `sitelimit` parameter to search a subset of your content. Compare the collection-based results above with the results for [the same search using the sitelimit parameter](https://search.usa.gov/search?affiliate=nih&query=autism&sitelimit=nih.gov/news).
+If you don't want to set up a Collection, you can use the `sitelimit` parameter to search a subset of your content. Compare the collection-based results above with the results for [the same search using the sitelimit parameter](https://search.usa.gov/search?affiliate=nih&query=autism&sitelimit=nih.gov/news). In this case, it's the `nih.gov/news` folder.
 
-Note that the searcher sees that results are filtered to nih.gov/news in a message under the search box, among other differences.
+We include a message that the results are only from the target folder, and give the option to expand the search.
+
+The location you include in the sitelimit parameter must be within the scope you've set in your [Domains list]({{ site.url }}/admin-center/content/domains.html). You can include more than one location with a `+`, for example `www.example.gov/limittothisfolder+www.example.gov/asecondfolder`.
 
 Simply add the following line to your form code on your search box to use the `sitelimit` parameter.
 
