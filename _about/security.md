@@ -12,11 +12,9 @@ System security is a top priority for Search.gov. When you connect your search b
 We have an ATO (Authorization to Operate) from the General Services Administration. Active customers can request a meeting to review security package documentation. Please [contact us](mailto:search@gsa.gov) with any questions.
 
 ## Reporting a Vulnerability
-Services operated by the U.S. General Services Administration (GSA)
-are covered by the GSA Vulnerability Disclosure Program (VDP).
+Services operated by the U.S. General Services Administration (GSA) are covered by the GSA Vulnerability Disclosure Program (VDP).
 
-See the GSA Vulnerability Disclosure Policy at (https://www.gsa.gov/vulnerability-disclosure-policy)
-for details including:
+See the [GSA Vulnerability Disclosure Policy](https://www.gsa.gov/vulnerability-disclosure-policy) for details including:
 
 * How to submit a report if you believe you have discovered a vulnerability.
 * Bug bounty scope.
