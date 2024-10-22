@@ -11,16 +11,17 @@ last_modified_at: May 23, 2024
 ## Current Status
 
 <!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
-<!--
+
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
 Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
-Details: There is a potential degradation with the Search.gov system. We will provide updates every 30 minutes. 
--->
+Details: There is a known degradation with the Search.gov system. We will provide updates every 30 minutes. 
+
 <!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Known Degradation">&nbsp;&nbsp; Known Degradation <br /> 
 Date: 2 pm EDT - ongoing <br />
-Details: There is a known issue with the search as you type functionality.  We are working on addressing the issue as soon as posslble
+Details: 
+* There is a known issue with the search as you type functionality.  We are working on addressing the issue as soon as posslble
 
 
 
