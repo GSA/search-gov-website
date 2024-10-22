@@ -14,7 +14,15 @@ last_modified_at: May 23, 2024
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
 Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
-Details: We know what the issue behind the 500 errors are, and are actively working to mitigate them. We will provide updates every 30 minutes. 
+Details: There is a potential degradation with the Search.gov system. We will provide updates every 30 minutes. 
+
+<!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
+
+<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Known Degradation">&nbsp;&nbsp; Known Degradation <br /> 
+Date: 2 pm EDT - ongoing <br />
+Details: There is a known issue with the search as you type functionality.  We are working on addressing the issue as soon as posslble
+
+
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 <!--
@@ -27,6 +35,11 @@ We will be doing planned maintenance between 1pm and 8pm ET today, May 23, 2024.
  
 
 ## Recent Events
+
+<img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
+Date: October 22, 2024, 12:03 ET &ndash; 3:00PM ET <br />
+Details: Post production cutover, we discovered a resource and timeout misconfiguration that led to the system being overwhelmed and returning errors for many queries during peak daily traffic.  These issues have been addressed, and the main functionality of the system have been addressed.
+
 
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">&nbsp;&nbsp;&nbsp; Serious Degradation <br />
 Date: May 23, 2024, 7:50AM ET &ndash; 2:00PM ETbr />
