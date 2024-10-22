@@ -14,7 +14,7 @@ last_modified_at: May 23, 2024
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
 Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
-Details: We are investigating a possible issue with our search service. We will provide updates every 30 minutes. 
+Details: We know what the issue behind the 500 errors are, and are actively working to mitigate them. We will provide updates every 30 minutes. 
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 <!--
