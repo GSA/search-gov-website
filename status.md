@@ -12,6 +12,16 @@ last_modified_at: May 23, 2024
 
 <!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
 
+<!-- <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
+Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
+Details: We are investigating a possible issue with our search service. We will provide updates every 30 minutes. -->
+
+<!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
+
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational 
+
+
+
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Performance Degradation">&nbsp;&nbsp; Major performance Degradation <br /> 
 <!-- Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br /> -->
 Date: October 22, 2024 2 PM Eastern - October 23, 12 PM Eastern <br />
@@ -20,18 +30,8 @@ Details:
 * The search.gov system is stable.
 * An email update to search.gov users has been sent.
 * The search.gov team is currently addressing issues that were discovered over the last day.
-  
+* Expect regular communications here and through user emails as to next steps.
 
-<!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
-<!--
-<img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Known Degradation">&nbsp;&nbsp; Known Degradation <br /> 
-Date:  October 23, 2024- 2 pm EDT - ongoing <br />
-Details: 
-*
--->
-<!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
-
-<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational 
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date in the announcement and in the last_modified_at at the top of the page. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
 <!--
