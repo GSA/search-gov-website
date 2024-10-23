@@ -15,11 +15,10 @@ last_modified_at: May 23, 2024
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Performance Degradation">&nbsp;&nbsp; Major performance Degradation <br /> 
 <!-- Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br /> -->
 Date: October 22, 2024 2 PM Eastern - ongoing <br />
+Status as of {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} :
 Details: 
-* There is a known degradation with the Search.gov system. We will provide updates every 30 minutes.
-* Search as you type assets (SAYT) are now being successfully served
-* All components of the system are working, but are very slow, leading to many errors.
-* Additional experts have been pulled in to troubleshoot.
+* We are cutting back to the previous production system.
+* We will send an email update to search.gov users shortly
 
 <!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
 <!--
