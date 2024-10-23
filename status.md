@@ -14,16 +14,18 @@ last_modified_at: May 23, 2024
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Potential Degradation">&nbsp;&nbsp; Potential Degradation <br /> 
 Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
-Details: There is a known degradation with the Search.gov system. We will provide updates every 30 minutes. 
+Details: 
+* There is a known degradation with the Search.gov system. We will provide updates every 30 minutes.
+* Search as you type assets (SAYT) are now being successfully served
+* All components of the system are working, but are very slow, leading to many errors.
+* Additional experts have been pulled in to troubleshoot.
 
 <!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Known Degradation">&nbsp;&nbsp; Known Degradation <br /> 
-Date: 2 pm EDT - ongoing <br />
+Date:  October 23, 2024- 2 pm EDT - ongoing <br />
 Details: 
-* There is a known issue with the search as you type functionality.  We are working on addressing the issue as soon as posslble
-
-
+* The 
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
 <!--
