@@ -172,4 +172,3 @@ If you have any other questions, feel free to reach out to us.
 
 [Email](mailto:search@gsa.gov)
 
-[Phone](tel:(202)-969-7426)
