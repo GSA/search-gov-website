@@ -35,7 +35,7 @@ Details:
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date in the announcement and in the last_modified_at at the top of the page. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
 
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing an infrastructure cutover between 5pm and 10pm ET today, December 24, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. 
+We will be doing an infrastructure cutover between 5pm and 10pm ET today, December 4, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. 
  
 
 ## Recent Events
