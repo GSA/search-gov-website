@@ -21,7 +21,7 @@ Details: We are investigating a possible issue with our search service. We will 
 <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational 
 
 
-
+<!--
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Performance Degradation">&nbsp;&nbsp; Major performance Degradation <br /> 
 <!-- Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br /> -->
 Date: October 22, 2024 2 PM Eastern - October 23, 12 PM Eastern <br />
@@ -31,12 +31,12 @@ Details:
 * An email update to search.gov users has been sent.
 * The search.gov team is currently addressing issues that were discovered over the last day.
 * Expect regular communications here and through user emails as to next steps.
-
+-->
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date in the announcement and in the last_modified_at at the top of the page. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
-<!--
+
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
-We will be doing planned maintenance between 1pm and 8pm ET today, May 23, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. -->
+We will be doing an infrastructure cutover between 5pm and 10pm ET today, May 23, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. 
  
 
 ## Recent Events
