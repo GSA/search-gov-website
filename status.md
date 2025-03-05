@@ -17,8 +17,7 @@ Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
 Details: We are investigating a possible issue with our search service. We will provide updates every 30 minutes. -->
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
-<!--
-<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational
 
 
 <!--
@@ -34,9 +33,10 @@ Details:
  
 <!-- TO ANNOUNCE A PROD PUSH, uncomment the next two lines, update the date in the announcement and in the last_modified_at at the top of the page. Commit straight to Main. When the prod push is complete, re-comment them out. Commit to Main again. -->
 
+<!--
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 We will be doing an infrastructure cutover between 5pm and 10pm ET today, December 4, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. 
- 
+--> 
 
 ## Recent Events
 
