@@ -16,13 +16,14 @@ last_modified_at: May 23, 2024
 Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
 Details: We are investigating a possible issue with our search service.  We will provide updates every 30 minutes. -->
 
+<!--
 <img src="https://search.gov/assets/img/site/orange-status-serious-degradation.png" width="15px" height="15px" alt="Serious Degradation" title="Serious Degradation">	Serious Degradation:
 Date: {{ "now" | date: "%B %d, %Y %I:%M %p %Z" }} - ongoing <br />
-We are investigating a possible issue with our search service. One or more components of the Search.gov service is unavailable, but other services are fully operational.&nbsp;&nbsp;&nbsp;
+We are investigating a possible issue with our search service. One or more components of the Search.gov service is unavailable, but other services are fully operational.&nbsp;&nbsp;&nbsp; -->
 
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
-<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
+<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational 
 
 
 <!--
