@@ -23,7 +23,7 @@ We are investigating a possible issue with our search service. One or more compo
 
 
 <!-- When updating the status page, comment out (rather than delete) the "Fully Operational" message below, so it is easy to reinstate it later. -->
-<img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational 
+<!-- <img src="https://search.gov/assets/img/site/green-status-normal-operations.png" width="15px" height="15px" alt="Fully Operational" title="Fully Operational">&nbsp;&nbsp;&nbsp; Fully Operational -->
 
 
 <!--
