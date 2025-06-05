@@ -86,14 +86,6 @@ primary_navigation:
         url: "/about/updates/year-in-review/"
       - name: Security and Compliance
         url: "/about/security.html"
-      - name: Our Product Roadmap
-        url: "/about/updates/roadmap/"
-      - name: Release Notes
-        url: "/about/updates/releases/"
-      - name: Newsletters
-        url: "/about/updates/newsletters/"
-      - name: Share Your Feedback
-        url: "/about/feedback.html"
       - name: For Developers
         url: "/developer/"
   - name: Get Started
@@ -178,14 +170,6 @@ about_us:
         url: "/about/updates/year-in-review/"
       - name: Security and Compliance
         url: "/about/security.html"
-      - name: Our Product Roadmap
-        url: "/about/updates/roadmap/"
-      - name: Release Notes
-        url: "/about/updates/releases/"
-      - name: Newsletters
-        url: "/about/updates/newsletters/"
-      - name: Share Your Feedback
-        url: "/about/feedback.html"
   - name: Related Resources
     children:
       - name: For Developers
