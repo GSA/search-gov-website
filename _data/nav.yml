@@ -17,14 +17,6 @@ primary:
         href: "/about/updates/year-in-review/"
       - text: Security and Compliance
         href: "/about/security.html"
-      - text: Our Product Roadmap
-        href: "/about/updates/roadmap/"
-      - text: Release Notes
-        href: "/about/updates/releases/"
-      - text: Newsletters
-        href: "/about/updates/newsletters/"
-      - text: Share Your Feedback
-        href: "/about/feedback.html"
   - text: Get Started
     href: /get-started/
     links:
