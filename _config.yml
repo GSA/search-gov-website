@@ -176,7 +176,7 @@ about_us:
         url: "/developer/"
 
 admin_center:
-  - name: Admin Center Help Manual
+  - name: Manage Your Site Search
     url: "/admin-center/"
     children:
       - name: Dashboard
@@ -280,13 +280,13 @@ support:
 # Homepage highlights section
 highlights:
   - heading: Highly configurable
-    copy: No developers required - use our easy interface to design your search experience yourself, including what content to search, recommended content, and the look and feel of your search results page.
+    copy: No developers required. Use our easy interface to design your search experience, including what content to search, recommended content, and the look and feel of your search results page.
   - heading: Built for government
-    copy: Because we only engage with government clients, we orient ourselves around your needs, whether it is security, compliance, search results coverage, or the unique circumstances of government web publishing.
-  - heading: Hands-on customer service
-    copy: Our team of experts is available to help you with your questions, ranging from technical support and troubleshooting to search engine optimization consultations. Your success is our mission.
-  - heading: No barriers to entry
-    copy: Adopting a new tool or service is often difficult for federal agencies, but getting started with Search.gov is friction free. Our service is ready to use, and does not require interagency agreements, payments, or other common procedural challenges.
+    copy: Because we only serve government, we orient ourselves around your needs, whether it is security, compliance, search results coverage, or the unique circumstances of government web publishing.
+  - heading: Customer service
+    copy: We are available to help you with your questions. Your success is our mission.
+  - heading: No paperwork required
+    copy: Our service is ready to use. It does not require interagency agreements, payments, or other common procedural challenges.
 
 # Homepage How Do I? section
 tasks:
