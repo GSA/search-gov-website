@@ -26,5 +26,3 @@ We are available to help you with your questions. Your success is our mission.
 ## No paperwork required
 
 Our service is ready to use. It does not require interagency agreements, payments, or other common procedural challenges. 
-
-We look forward to working with you!

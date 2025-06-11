@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Search.gov year in review
-crumbname: Year in review
+title: Search.gov Year in Review
+crumbname: Year in Review
 category: blog
 tags: annual-review
 date: February 7, 2022
@@ -12,7 +12,7 @@ redirect_from:
     - /blog/annual-reviews.html
 ---
 
-## What people are trying to do on government websites, in their own words
+**What people are trying to do on government websites, in their own words**
 
 Search.gov is pleased to present our annual reviews &mdash; high level reports that show, in their own words, what the public has been searching for across government websites.
 
@@ -20,7 +20,7 @@ From common needs for forms and process status checks, to the latest information
 
 * [2023]({{ site.baseurl }}/about/updates/year-in-review/2023-year-in-review/overview.html)
 
-* [2022 special report]({{ site.baseurl }}/about/updates/year-in-review/special-report/overview.html) Making the big move: Search in support of federal web modernization
+* [2022 special report]({{ site.baseurl }}/about/updates/year-in-review/special-report/overview.html) (Making the big move: Search in support of federal web modernization)
 
 * [2021]({{ site.baseurl }}/about/updates/year-in-review/2021-year-in-review.html)
 
