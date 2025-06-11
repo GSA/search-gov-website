@@ -14,13 +14,11 @@ permalink: /developer/
 
 These APIs are available for use on official government websites only. You must be a Search.gov customer with an [active user account]({{ site.baseurl }}/get-started/account.html).
 
-**Search Results API** &mdash; This API exposes all relevant results "modules" in a single JSON call, including: web results, best bets, health topics, job openings, recent news, recent videos, *Federal Register* documents, and related searches. Use it to pull search results from our service to display on your agency's website or mobile applications. 
+**[Search Results API](https://open.gsa.gov/api/searchgov-results/)** &mdash; This API exposes all relevant results "modules" in a single JSON call, including: web results, best bets, health topics, job openings, recent news, recent videos, *Federal Register* documents, and related searches. Use it to pull search results from our service to display on your agency's website or mobile applications. 
 
-* See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) between our Results API modules and our hosted search results page.
-* [Results API technical documentation](https://open.gsa.gov/api/searchgov-results/)
-* The Results API should be used in parallel with our [Clicks API](https://open.gsa.gov/api/searchgov-clicks/).
+See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) between our Results API modules and our hosted search results page.
 
-**[Clicks API](https://open.gsa.gov/api/searchgov-clicks/)**  - This API is to use in parallel with the Search Results API. It allows sites that display results on their own websites to send click action data into our system for analysis.
+**[Clicks API](https://open.gsa.gov/api/searchgov-clicks/)**  - Use this API with the Search Results API to send click data into the system for analysis.
 
 **[Typeahead API](https://open.gsa.gov/api/searchgov-suggestions/)**  - This API exposes the typeahead suggestions that often appear below your search box as searchers enter their search terms. We recommend, however, that instead of using this API you [use our javascript snippet]({{ site.baseurl }}/admin-center/activate/typeahead-api.html) that will call the API for you.
 
