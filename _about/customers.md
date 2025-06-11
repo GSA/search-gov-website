@@ -3,95 +3,89 @@ layout: page
 title: Our Customers
 tags: about-us customer-federal
 date: March 2, 2017
-last_modified_at: June 8, 2023
+last_modified_at: June 11, 2025
 #subnav:
   #data: about_us
 ---
 
-We have a proven track record of delivering fast, relevant search results to federal agencies large and small. We support 35% of federal domains, with more than 2,200 search configurations from over 200 agencies, bureaus, and offices.
+We have a proven track record of delivering fast, relevant search results for over 200 federal agencies, large and small. 
+
+## Cabinet Agencies
 
 <div class="customer-logo-container">
     <div class="customer-logo-item">
-        <a href="https://www.usda.gov">
+        <a href="https://search.usa.gov/search?affiliate=usda">
             <img alt="Official seal of the Department of Agriculture" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-usda.png">
             Agriculture
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.commerce.gov">
+        <a href="https://search.usa.gov/search?affiliate=www.commerce.gov">
             <img alt="Official seal of the Department of Commerce" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-commerce.png">
             Commerce
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.defense.gov">
+        <a href="https://search.usa.gov/search?affiliate=defensegov">
             <img alt="Official seal of the Department of Defense" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-defense.png"/>
             Defense
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.ed.gov">
-            <img alt="Official seal of the Department of Education" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-education.png"/>
-            Education
-        </a>
-    </div>
-    <div class="customer-logo-item">
-        <a href="https://www.hud.gov">
+        <a href="https://search.usa.gov/search?affiliate=housingandurbandevelopment">
             <img alt="Official seal of the Department of Housing and Urban Development" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-hud.png"/>
             HUD
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.doi.gov">
+        <a href="https://search.usa.gov/search?affiliate=doi.gov">
             <img alt="Official seal of the Department of the Interior" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-interior.png"/>
             Interior
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.justice.gov">
+        <a href="https://search.usa.gov/search?affiliate=justice">
             <img alt="Official seal of the Department of Justice" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-doj.png"/>
             Justice
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.dol.gov">
+        <a href="https://search.usa.gov/search?affiliate=www.dol.gov">
             <img alt="Official seal of the Department of Labor" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-labor.png"/>
             Labor
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.state.gov">
+        <a href="https://search.usa.gov/search?affiliate=dos_stategov">
             <img alt="Official seal of the Department of State" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-state.png"/>
             State
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.transportation.gov">
+        <a href="https://search.usa.gov/search?affiliate=usdot">
             <img alt="Official seal of the Department of Transportation" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-dot.png"/>
             Transportation
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://home.treasury.gov">
+        <a href="https://search.usa.gov/search?affiliate=treas">
             <img alt="Official seal of the Department of the Treasury" src="https://d3qcdigd1fhos0.cloudfront.net/blog/img/customers-treasury.png"/>
             Treasury
         </a>
     </div>
     <div class="customer-logo-item">
-        <a href="https://www.va.gov">
+        <a href="https://www.va.gov/search/">
             <img alt="Official seal of the Department of Veterans Affairs" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg"/>
             Veterans Affairs
         </a>
     </div>
 </div>
 
-## Participating Agencies
+## Other Participating Agencies
 
-* [AbilityOne Office of Inspector General](https://oversight.gov/abilityone)
 * [Access Board](https://www.access-board.gov/)
 * [Administrative Office of the U.S. Courts](https://www.cit.uscourts.gov)
 * [Advisory Council on Historic Preservation](https://www.achp.gov)
-* [Agency for International Development Site Archive](https://2012-2017.usaid.gov)
 * [Agricultural Marketing Service](https://www.ams.usda.gov)
 * [Agricultural Research Service](https://www.ars.usda.gov)
 * [Alcohol and Tobacco Tax and Trade Bureau](https://www.ttb.gov)
@@ -122,26 +116,15 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Defense Intelligence Agency](https://www.dia.mil)
 * [Defense Logistics Agency](https://www.dla.mil/)
 * [Defense Media Activity](https://www.dma.mil)
-* [Department of Agriculture](https://www.usda.gov/)
-* [Department of Commerce](https://www.commerce.gov)
-* [Department of Defense](https://www.defense.gov)
-* [Department of Education](https://www.ed.gov)
 * [Department of Energy Office of Science](https://www.es.net/)
 * [Department of Health and Human Services Office of Inspector General](https://oig.hhs.gov/)
 * [Department of Homeland Security Office of the Inspector General](https://www.oig.dhs.gov)
-* [Department of Housing and Urban Development](https://www.hud.gov)
-* [Department of Justice](https://www.justice.gov)
-* [Department of Labor](https://www.dol.gov)
 * [Department of Labor Office of Inspector General](https://www.oig.dol.gov/)
-* [Department of State](https://www.state.gov)
 * [Department of the Air Force](https://www.af.mil)
 * [Department of the Army](https://www.army.mil)
 * [Department of the Interior](https://www.doi.gov/)
 * [Department of the Navy](https://www.navy.mil/)
-* [Department of the Treasury](https://www.treasury.gov/)
 * [Department of the Treasury Office of Inspector General](https://oig.treasury.gov/)
-* [Department of Transportation](https://www.transportation.gov)
-* [Department of Veterans Affairs](https://www.va.gov/)
 * [DOD High Performance Computing Centers](https://centers.hpc.mil/)
 * [DOD White House Communications Agency](https://www.whitehousecommsagency.mil)
 * [DOE Energy Information Administration (EIA)](https://www.eia.gov)
@@ -219,7 +202,6 @@ We have a proven track record of delivering fast, relevant search results to fed
 * [Office of Natural Resources Revenue](https://www.onrr.gov)
 * [Office of Navajo and Hopi Indian Relocation](https://www.onhir.gov/)
 * [Office of Surface Mining Reclamation and Enforcement](https://www.osmre.gov)
-* [Patent & Trademark Office](https://www.uspto.gov)
 * [Peace Corps](https://www.peacecorps.gov/)
 * [Pipeline and Hazardous Materials Safety Administration](https://www.phmsa.dot.gov/)
 * [Postal Service Office of the Inspector General](https://www.uspsoig.gov)

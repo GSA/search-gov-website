@@ -86,8 +86,6 @@ primary_navigation:
         url: "/about/updates/year-in-review/"
       - name: Security and Compliance
         url: "/about/security.html"
-      - name: For Developers
-        url: "/developer/"
   - name: Get Started
     children:
       - name: Get Started With Search.gov
@@ -316,7 +314,7 @@ tasks:
 searchgov:
 
   # You should not change this.
-  endpoint: https://find.search.gov
+  endpoint: https://search.usa.gov
 
   # replace this with your search.gov account
   affiliate: usasearch

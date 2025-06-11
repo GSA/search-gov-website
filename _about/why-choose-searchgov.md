@@ -4,12 +4,12 @@ title: Why Choose Search.gov?
 description: Learn about how Search.gov makes it easy to get search right on your website.
 tags: about-us features
 date: March 4, 2021
-last_modified_at: June 6, 2025
+last_modified_at: June 11, 2025
 #subnav:
   #data: about_us
 ---
 
-Search.gov is a by-government, for-government search engine provided to federal agencies by the General Services Administration. We understand the needs and challenges that government web teams face. We've designed our service to meet you where you are.
+We understand the needs and challenges that government web teams face. We've designed our service to meet you where you are.
 
 ## Highly configurable
 
@@ -26,5 +26,3 @@ We are available to help you with your questions. Your success is our mission.
 ## No paperwork required
 
 Our service is ready to use. It does not require interagency agreements, payments, or other common procedural challenges. 
-
-We look forward to working with you!
