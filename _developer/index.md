@@ -14,7 +14,7 @@ permalink: /developer/
 
 These APIs are available for use on official government websites only. You must be a Search.gov customer with an [active user account]({{ site.baseurl }}/get-started/account.html).
 
-**Search Results API** &mdash; This API exposes all relevant results "modules" in a single JSON call, including: web results, best bets, health topics, job openings, recent news, recent videos, *Federal Register* documents, and related searches. Use it to ***pull search results*** from our service to display on your agency's website or mobile applications. 
+**Search Results API** &mdash; This API exposes all relevant results "modules" in a single JSON call, including: web results, best bets, health topics, job openings, recent news, recent videos, *Federal Register* documents, and related searches. Use it to pull search results from our service to display on your agency's website or mobile applications. 
 
 * See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) between our Results API modules and our hosted search results page.
 * [Results API technical documentation](https://open.gsa.gov/api/searchgov-results/)
@@ -34,6 +34,6 @@ These APIs are available for use on official government websites only. You must 
 
 **[search-gov-website](https://github.com/gsa/search-gov-website)** &mdash; Pages and layout for our website, <https://search.gov>.
 
-**[Unique Child Attribute](https://github.com/GSA/activerecord-validate_unique_child_attribute)** &mdash; activerecord-validate_unique_child_attribute is an ActiveRecord extension to enforce uniqueness validations when accepting nested attributes. Works around [Rails issue #4568](https://github.com/rails/rails/issues/4568).
+**[Unique Child Attribute](https://github.com/GSA/activerecord-validate_unique_child_attribute)** &mdash; activerecord-validate_unique_child_attribute is an ActiveRecord extension to enforce uniqueness validations when accepting nested attributes.
 
 **[Robots Tag Parser](https://github.com/GSA/robots_tag_parser)** &mdash; A gem that parses X-Robots-Tag HTTP headers to aid in our indexing.
