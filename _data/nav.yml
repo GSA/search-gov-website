@@ -28,7 +28,7 @@ primary:
         href: "/get-started/searchgov-for-cloudgov-pages.html"
       - text: "Going live with Search.gov: Checklist"
         href: "/get-started/go-live.html"
-  - text: Manage Your Site Search
+  - text: Manage Your Search Site
     href: /admin-center/
     links:
       - text: Dashboard
