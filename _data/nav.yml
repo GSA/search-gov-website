@@ -1,5 +1,5 @@
 primary:
-  - text: About
+  - text: About Us
     href: /about/
     links:
       - text: Why Choose Search.gov?
@@ -28,11 +28,7 @@ primary:
         href: "/get-started/searchgov-for-cloudgov-pages.html"
       - text: "Going live with Search.gov: Checklist"
         href: "/get-started/go-live.html"
-      - text: Training and Resources
-        href: "/get-started/learn.html"
-      - text: Training Webinars
-        href: "/get-started/training.html"
-  - text: Admin Center
+  - text: Manage Your Search Site
     href: /admin-center/
     links:
       - text: Dashboard
@@ -114,7 +110,7 @@ primary:
             href: "/admin-center/activate/code.html"
           - text: Typeahead API
             href: "/admin-center/activate/typeahead-api.html"
-  - text: Manage your index
+  - text: Index with Search.gov
     href: /indexing/
     links: 
       - text: What Search.gov Indexes From Your Website
@@ -144,15 +140,7 @@ primary:
         href: "/support.html"
       - text: System Status
         href: "/status.html"
-      - text: Training and Resources
-        href: "/get-started/learn.html"
-      - text: Training Webinars
-        href: "/get-started/training.html"
       - text: Website Redesign Tips
         href: "/indexing/redesign.html"
-      - text: Share Your Feedback
-        href: "/about/feedback.html"
-      - text: For Developers
-        href: "/developer/"
   - text: For Developers
     href: /developer/
