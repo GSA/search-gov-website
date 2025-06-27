@@ -4,7 +4,7 @@ title: How to Activate Your Search by Adding Our Code Snippets to Your Website
 category: admin-center
 tags: help-manual activate-search code-snippets
 date: October 13, 2020
-last_modified_at: October 13, 2020
+last_modified_at: June 27, 2025
 #subnav:
   #data: admin_center
 redirect_from:
@@ -94,7 +94,3 @@ For example, on `example.gov`, the following hidden value would be added to limi
     <input type="hidden" name="sitelimit" id="sitelimit" value="research.example.gov" />
 
 See it in action on NPS.gov: type a query in the search box on <a href="https://www.nps.gov/isro/index.htm">https://www.nps.gov/isro/index.htm</a> and click the `This Site` button.
-
-----
-
-***Pro tip!*** You can use a [domain mask]({{ site.baseurl }}/admin-center/display/cname.html) on your results page, which allows you to show searchers your own domain (instead of search.USA.gov).

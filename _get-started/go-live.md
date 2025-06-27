@@ -67,12 +67,6 @@ Most agencies add these two [snippets of code]({{ site.baseurl }}/admin-center/a
 	//]]>
 	</script>
 
-## Set Up Nice-to-have Features (Optional)
-
-<i class="icon-check"></i> **9. Have you masked your domain?** We offer [DNS masking]({{ site.baseurl }}/admin-center/display/cname.html), which allows you to show searchers search.YOURSITE.gov (instead of search.USA.gov). If you leverage DNS masking you will have to change your search box form action from search.usa.gov to search.YOURSITE.gov. Be sure to alert us you will be adding a domain mask, so we can add you to our SSL certificate before you update your search box form code.
-
-<i class="icon-check"></i> **10. Have you added the Javascripts for your other third-party web services to your results page?** If you have a [third-party service]({{ site.baseurl }}/admin-center/analytics/third-party.html) running on your website, you likely want it to run on your results page. Agencies often include their Foresee, Google Analytics, Omniture, or WebTrends code, among others. If your federal website participates in the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), you do not need to take any action: DAP code is included on your results page, by default.
-
 ## Don't Forget SEO
 
 <i class="icon-check"></i> **11. Have you registered your site with the major commercial search engines?** Register for both [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster) and [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en) to maximize the coverage of your content in their search results.

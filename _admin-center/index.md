@@ -14,13 +14,6 @@ redirect_from:
 
 This help manual follows the order of settings that are available to manage your search site in the [Admin Center](https://search.usa.gov/sites).
 
-Related resources:
-
-* [Search Site Launch Guide]({{ site.baseurl }}/get-started/site-launch-guide.html) &ndash; for new customers.
-* [Website Redesign Checklist]({{ site.baseurl }}/indexing/redesign.html) &ndash; for existing customers working on a relaunch.
-* [Indexing Process Documentation]({{ site.baseurl }}/indexing/indexing-with-searchgov.html) &ndash; for everyone.
-
-
 ## <i class="icon-dashboard"></i> [Dashboard]({{ site.baseurl }}/admin-center/dashboard/)
 
 * [Site Overview]({{ site.baseurl }}/admin-center/dashboard/site-overview.html)
@@ -40,10 +33,9 @@ Related resources:
 ## <i class="icon-file"></i> [Manage Content]({{ site.baseurl }}/admin-center/content/)
 
 * [Content Overview]({{ site.baseurl }}/admin-center/content/content-overview.html)
-* [Domains]({{ site.baseurl }}/admin-center/content/domains.html) (plus advanced options to [add]({{ site.baseurl }}/admin-center/content/domains-advanced.html) or [filter]({{ site.baseurl }}/admin-center/content/filter-content.html) URLs.)
-  \* For questions about indexing, including sitemaps, see our [Indexing help section]({{ site.baseurl }}/indexing/indexing-with-searchgov.html).<br>
+* [Domains]({{ site.baseurl }}/admin-center/content/domains.html)
 * [Collections]({{ site.baseurl }}/admin-center/content/collections.html)
-* [Best Bets: Text and/or Graphics]({{ site.baseurl }}/admin-center/content/best-bets.html)
+* [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html)
 * [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html)
 * [RSS]({{ site.baseurl }}/admin-center/content/rss.html)
 * [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)
@@ -70,15 +62,15 @@ Related resources:
 
 {: #additional-resources }
 
-## Additional Help Resources
+## Additional Resources
+
+### Launching or Re-launching Your Search
+* [Search Site Launch Guide]({{ site.baseurl }}/get-started/site-launch-guide.html) &ndash; for new customers.
+* [Website Redesign Checklist]({{ site.baseurl }}/indexing/redesign.html) &ndash; for existing customers working on a relaunch.
+* [Indexing Process Documentation]({{ site.baseurl }}/indexing/indexing-with-searchgov.html) &ndash; for everyone.
 
 ### SEO (Search Engine Optimization)
 
 * [XML Sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)
 * [/robots.txt Files]({{ site.baseurl }}/indexing/robotstxt.html)
 * [How to Get Search Engines to Index the Right Content For Better Discoverability]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html)
-
-### Launching or Re-launching Your Search
-* [Go-Live Check List]({{ site.baseurl }}/get-started/go-live.html)
-* [Website Redesign Checklist]({{ site.baseurl }}/indexing/redesign.html)
-* [Using Your Own Domain on Your Results Page]({{ site.baseurl }}/admin-center/display/cname.html)
