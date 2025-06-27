@@ -4,7 +4,7 @@ title: Route Queries to a Specific Page
 category: admin-center
 tags: help-manual manage-content routed-queries
 date: February 9, 2018
-last_modified_at: February 9, 2018
+last_modified_at: June 27, 2025
 #subnav:
   #data: admin_center
 redirect_from:
@@ -21,13 +21,13 @@ We recommend creating a routed query for [top tasks](https://digitalgov.gov/2015
 
 ## Add a Routed Query
 
-***Routed Query URL.*** Add the URL of the web page that you want to direct visitors to.
+**Routed Query URL.** Add the URL of the web page that you want to direct visitors to.
 
-***Routed Query Description.*** Add a brief description to help you remember why you created this entry and what it does. Descriptions aren't used for indexing or visible to searchers.
+**Routed Query Description.** Add a brief description to help you remember why you created this entry and what it does. Descriptions aren't used for indexing or visible to searchers.
 
-***Keywords.*** Add the specific words or phrases used to trigger the routing. Searchers will only be directed to the URL above when their query term exactly matches one of the listed keywords. Common keywords include synonyms, acronyms, compound words, misspellings, slang, or other variants. Enter each keyword (word or phrase up to 255 characters) in a separate field. 
+**Keywords.** Add the specific words or phrases used to trigger the routing. Searchers will only be directed to the URL above when their query term exactly matches one of the listed keywords. Common keywords include synonyms, acronyms, compound words, misspellings, slang, or other variants. Enter each keyword (word or phrase up to 255 characters) in a separate field. 
 
-*Note*: Any keyword that you add to a Routed Query will become a permanent [typeahead suggestion]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). This applies to all 3 ways that typeahead suggestions are displayed from our system: the module that can be turned on in the [Display Overview section]({{ site.baseurl }}/admin-center/display/display-overview.html#modules), the [JavaScript snippet]({{ site.baseurl }}/admin-center/activate/typeahead-api.html), and the [API]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). If you do not want certain keywords to appear as typeahead suggestions, [email us](mailto:search@gsa.gov).
+*Note*: Any keyword that you add to a Routed Query will become a permanent [typeahead suggestion]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). This applies to all three ways that typeahead suggestions are displayed from our system: the module that can be turned on in the [Display Overview section]({{ site.baseurl }}/admin-center/display/display-overview.html#modules), the [JavaScript snippet]({{ site.baseurl }}/admin-center/activate/typeahead-api.html), and the [API]({{ site.baseurl }}/admin-center/activate/typeahead-api.html). 
 
 ## Examples of How It Works
 

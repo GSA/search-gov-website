@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Help Manual: Managing Your Search Configuration"
+title: "Manage Your Search Site"
 crumbname: Help Manual
 tags: help-manual
-last_modified_at: "April 20, 2023"
+last_modified_at: "June 27, 2025"
 #subnav:
   #data: admin_center
 permalink: /admin-center/
@@ -12,7 +12,7 @@ redirect_from:
     - /manual/index.html
 ---
 
-This help manual follows the order of settings that are available in the [Search Admin Center](https://search.usa.gov/sites).
+This help manual follows the order of settings that are available to manage your search site in the [Admin Center](https://search.usa.gov/sites).
 
 Related resources:
 
@@ -82,9 +82,3 @@ Related resources:
 * [Go-Live Check List]({{ site.baseurl }}/get-started/go-live.html)
 * [Website Redesign Checklist]({{ site.baseurl }}/indexing/redesign.html)
 * [Using Your Own Domain on Your Results Page]({{ site.baseurl }}/admin-center/display/cname.html)
-
-### Training Videos
-* [Getting Started Video (YouTube)](https://www.youtube.com/watch?v=TnlpuudK_WY) (4 mins)
-* [All Training Videos]({{ site.baseurl }}/get-started/training.html)
-
-Do you have other questions or comments about how our service works? [Email us](mailto:search@gsa.gov).

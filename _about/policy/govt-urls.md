@@ -7,7 +7,7 @@ redirect_from:
 #subnav:
   #data: about_us
 date: March 11, 2022
-last_modified_at: June 11, 2025
+last_modified_at: June 27, 2025
 tags: seo policy government-urls
 category: developer
 ---
@@ -19,12 +19,7 @@ Most U.S. government websites end in `.gov` or `.mil`, but some end in `.com`, `
 
 ## How to Submit a Domain
 
-You can submit a domain to the list by:
-
-* [Opening a GitHub issue](https://github.com/GSA/govt-urls/issues) in GitHub.
-* [Emailing us](mailto:search@gsa.gov) the domain name and federal agency.
-
-We review all submissions before including them on the list.
+You can submit a domain to the list by [opening a GitHub issue](https://github.com/GSA/govt-urls/issues). We review all submissions before including them on the list.
 
 ### What Is Included in the List?
 

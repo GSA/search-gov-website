@@ -4,7 +4,7 @@ title: How to Add Your Flickr Images to Our Index
 category: admin-center
 tags: help-manual manage-content social-media flickr images
 date: February 27, 2017
-last_modified_at: February 27, 2017
+last_modified_at: June 27, 2025
 #subnav:
   #data: admin_center
 redirect_from:
@@ -21,12 +21,8 @@ The URL must be for your overall photostream. You cannot specify individual phot
 
 ## Opt to Display Your Flickr Images
 
-When you add the URL for your Flickr photostream, we'll automatically index all of the images in your photostream.
+When you add the URL for your Flickr photostream, we'll automatically index all of the images in your photostream. We'll display the images from your Flickr photostream by default.
 
-On the image results page, we'll display the images from your Flickr photostream by default. If you'd like to backfill them with the standard image results from your website, [email us](mailto:search@gsa.gov) and we'll turn on your web images for you.
+## Other image options
 
----
-
-***Pro Tips*** 
-
-* Do you have a multimedia gallery on your website for your agency's photos, images, videos, podcasts, or other multimedia content? Do you use a content management system, database, or media RSS (MRSS) feed to power this gallery? You can index [MRSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) so that your multimedia content is automatically included in your search results.
+Do you have a multimedia gallery on your website for your agency's photos, images, videos, podcasts, or other multimedia content? Do you use a content management system, database, or media RSS (MRSS) feed to power this gallery? You can index [MRSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) so that your multimedia content is automatically included in your search results.
