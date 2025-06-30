@@ -90,7 +90,7 @@ primary_navigation:
     children:
       - name: Get Started With Search.gov
         url: "/get-started/"
-      - name: Sign Up/Create an Account
+      - name: Create Account and Sign In
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"

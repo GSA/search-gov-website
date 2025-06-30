@@ -1,10 +1,10 @@
 ---
 layout: page
-title: How to Create and Edit Your User Account
+title: How to Create an Account and Sign In
 category: admin-center
 tags: help-manual my-account
 date: June 23, 2020
-last_modified_at: June 27, 2025
+last_modified_at: June 30, 2025
 #subnav:
   #data: get_started
 redirect_from:
