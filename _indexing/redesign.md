@@ -8,48 +8,18 @@ redirect_from:
   - /manual/redesign.html
 tags: seo site-launch indexing
 date: August 30, 2019
-last_modified_at: August 30, 2019
+last_modified_at: June 27, 2025
 #subnav:
   #data: indexing
 
 ---
 
-We often receive questions when an agency conducts a major website upgrade, changes content management systems, or both. We created this checklist to help ensure your redesign is successful. The stages are:
-
-**Ready...**
-
-1\. [Let the Search.gov team know you are launching a new site](#contact-us)
-
-2\. [Develop a reindexing plan](#develop-plan)
-
-**Set…**
-
-3\. [Prepare xml sitemaps and SEO elements](#prep-seo)
-
-4\. [Add a Search Page Alert](#search-page-alert)
-
-5\. [Prepare color scheme updates and new logo to add to Admin Center](#update-brand)
-
-6\. [Prepare updates to your other search features](#update-features)
-
-**Go!**
-
-7\. [Flip the new website live, let us know](#go-live)
-
-8\. [Implement the changes to the search site](#parallel-tracks)
-
-9\. [Results begin to show](#results-show)
-
-**Victory lap**
-
-10\. [Alert Google and Bing that your website has been refreshed](#google-bing)
+We often receive questions when an agency conducts a major website upgrade, changes content management systems, or both. We created this checklist to help ensure your redesign is successful.
 
 ![Flow chart showing the steps involved in getting the search index ready to go on Search.gov, for a website that’s being relaunched.]({{ site.url }}/assets/img/site/website-relaunch-workflow.png)
 [Website relaunch flow chart detailed description](#description)
 
 [Open large version]({{ site.url }}/assets/img/site/website-relaunch-workflow.png)
-
-       
 
 {: #description }
 
@@ -61,7 +31,7 @@ We often receive questions when an agency conducts a major website upgrade, chan
 
 **Who:**  You, the agency web team
 
-**What:** Send us an [email](mailto:search@gsa.gov), give us a call, either way, please let us know that you’re working on a redesign of your website. If we know ahead of time, we can help you get your new search experience prepped and in good shape on the day of the relaunch. When you reach out to us, include the planned launch date.
+**What:** [Email us](mailto:search@gsa.gov) to let us know that you’re working on a redesign of your website. If we know ahead of time, we can help you get your new search experience prepped and in good shape on the day of the relaunch. When you reach out to us, include the planned launch date.
 
 It’s important to plan ahead, because if there are any changes to your site structure, your search results will break, which will lead to frustration for the public as they try to use your new site. This is true for our service, and out on Google and Bing. To avoid an avalanche of `404 not found` errors from your search results, wherever possible, use 301 redirects to send visitors from the old pages to the appropriate new pages. For more on 301 redirects, read tips from [Bing](http://blogs.bing.com/webmaster/2011/10/06/managing-redirects-301s-302s-and-canonicals/) and [Google](https://support.google.com/webmasters/answer/93633). Notify other websites that link to you of the changes.
 
@@ -82,13 +52,13 @@ We’ll also ask you about the timeline for launch, so that we can reserve a tim
 
 {: #prep-seo }
 
-### 3. Prepare xml sitemaps and SEO elements
+### 3. Prepare XML sitemaps and SEO elements
 
 **Who:** You, the agency web team
 
 **What:** Action items that usually come out of the planning discussions include
 
-* Ensure that each domain and subdomain you want to be searchable launches with an [xml sitemap]({{ site.baseurl }}/indexing/sitemaps.html).
+* Ensure that each domain and subdomain you want to be searchable launches with an [XML sitemap]({{ site.baseurl }}/indexing/sitemaps.html).
 * Add [metadata]({{ site.baseurl }}/indexing/metadata.html) blocks to the `<head>` of your page templates, and Semantic Markup to the `<body>`.
   * Sometimes these pieces are in place, but need to be modified or moved.
 * Talk with other web teams to ask them to do the above items on their sites, so you can leverage them when your site searches their site’s content.
@@ -168,15 +138,10 @@ At this point, the work splits into two parallel tracks, with your team and ours
 
 {: #google-bing }
 
-### 10. Alert Google and Bing that your website has been refreshed.
+### 10. Alert Google and Bing that your website has been refreshed
 
 **Who:** You, the agency web team
 
 **What:** Register for the commercial search engines' webmaster tools, if you haven’t already done so.
 * [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster)
-* [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en).
-* Resources: 
-  *[How to move your content to a new location](http://googlewebmastercentral.blogspot.com/2012/04/how-to-move-your-content-to-new.html)*, Google Webmaster Central Blog.
-  * In Bing, submit your new [Sitemaps ](https://www.bing.com/webmasters/help/sitemaps-3b5cf6ed) together with the [Content Removal tool](https://www.bing.com/webmasters/help/bing-content-removal-tool-cb6c294d).
-
-If you've undergone a redesign, followed these steps, and your site search results are not what you'd expect, [send us an email](mailto:search@gsa.gov).
+* [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en)

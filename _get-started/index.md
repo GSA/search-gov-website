@@ -3,13 +3,13 @@ layout: page
 title: Get Started With Search.gov
 tags: get-started about
 date: March 4, 2021
-last_modified_at: November 14, 2024
+last_modified_at: June 27, 2025
 #subnav:
   #data: get_started
 permalink: /get-started/
 ---
 
-## Welcome!
+## Welcome
 
 Search.gov is a search engine built by government, for government, available at no cost to federal agencies. This page provides information on what we offer and how it all works.
 
@@ -22,17 +22,14 @@ Search.gov is a search engine built by government, for government, available at 
   * [How a Page On a Sitemap Becomes a Search Result]({{ site.baseurl }}/indexing/sitemaps-to-search-sites.html)
   * [A Step-by-step Indexing Workflow]({{ site.baseurl }}/get-started/site-launch-guide.html#indexing-workflow)
   * [All About XML Sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)
-* Watch our 4-minute [Getting Started video (YouTube)](https://www.youtube.com/watch?v=p-y9T23ziEg), or a recording of our [webinar Intro to Search.gov]({{ site.baseurl }}/get-started/training.html), a one-hour overview of our system.
 * Review our [Search Site Launch Guide]({{ site.baseurl }}/get-started/site-launch-guide.html), a step by step guide that takes you through everything you need to do to start using our service.
 * [Learn what search features are available through our different results page options]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html)
-* Contact Us: [email us](mailto:search@gsa.gov) if you have any questions. We will be happy to schedule a call to go over your specific search needs.
 
 ## Get Search.gov For Your Site
 
 If you're ready to start using our service as your search solution, please:
 
 * [Create or edit your Search.gov user account]({{ site.baseurl }}/get-started/account.html) to power the search box on your federal government website at no cost.
-* Contact us at search@gsa.gov so we can learn about your website(s) and talk through options for indexing your content.
 * Follow the steps from our [Search Site Launch Guide]({{ site.baseurl }}/get-started/site-launch-guide.html) to create your search experience.
 * Learn how to manage your search site configuration: review our [Help Manual]({{ site.baseurl }}/admin-center/) to implement the settings available through our [Admin Center](https://search.usa.gov/login).
 * Review our [Go-live Checklist]({{ site.baseurl }}/get-started/go-live.html) for tips and reminders.

@@ -5,7 +5,7 @@ crumbname: Site Launch Guide
 category: admin-center
 tags: go-live site-launch indexing
 date: April 22, 2019
-last_modified_at: April 20, 2023
+last_modified_at: June 27, 2025
 #subnav:
   #data: get_started
 redirect_from:
@@ -57,7 +57,7 @@ Once you've created your site, note the actions available on the left-hand navig
 
 **Who:** You, the agency web team
 
-**What:** In the content management section, the domains list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain. [Read more here]({{ site.baseurl }}/admin-center/content/domains.html).
+**What:** In the content management section, the [domains]({{ site.baseurl }}/admin-center/content/domains.html) list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain.
 
 {: #select-index }
 
@@ -108,9 +108,7 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 **Who:** You, the agency web team
 
-**What:** To make the results page complement your website’s look and feel, upload your logo, set the font style, and customize the page colors to ensure a more seamless experience for your searchers as they move from your site to ours, and back again. You can also add header and footer links to support navigation back to your website. [See more details here]({{ site.baseurl }}/admin-center/display/brand.html). 
-
-[Masking the domain for your results page]({{ site.baseurl }}/admin-center/display/cname.html) is another way you can provide continuity to your searchers as they move back and forth between your site and our system.
+**What:** To make the results page complement your website’s [look and feel]({{ site.baseurl }}/admin-center/display/brand.html), upload your logo, set the font style, and customize the page colors to ensure a more seamless experience for your searchers as they move from your site to ours, and back again. You can also add header and footer links to support navigation back to your website.
 
 {: #go-live }
 

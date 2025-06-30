@@ -4,7 +4,7 @@ title: How to Create Collections Within Our Index
 category: admin-center
 tags: help-manual manage-content collections
 date: December 28, 2016
-last_modified_at: November 16, 2023
+last_modified_at: June 27, 2025
 #subnav:
   #data: admin_center
 redirect_from:
@@ -22,8 +22,6 @@ Enter a name for the collection (such as FAQs, Archive, or News).
 Enter the domains, subdomains, or subfolders that you want this collection to search in. Start each URL prefix with `https://` and end it in a trailing slash to avoid unintended matches (e.g., `https://publications.example.gov/docs/` and `https://answers.example.gov`).
 
 You cannot specify URLs for individual web pages. If you are including a subfolder, be sure to include the folder(s) where the files are actually stored, not the folder where the index page lives.
-
-Paths that are three or more subfolders deep may not return results immediately. [Email us](mailto:search@gsa.gov) if you are not seeing search results for these paths.
 
 ## Step 2. Opt to Show As a Search Tab
 

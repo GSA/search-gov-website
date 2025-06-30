@@ -90,7 +90,7 @@ primary_navigation:
     children:
       - name: Get Started With Search.gov
         url: "/get-started/"
-      - name: Sign Up/Create an Account
+      - name: Create Account and Sign In
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"
@@ -289,13 +289,13 @@ highlights:
 # Homepage How Do I? section
 tasks:
   - heading: Get help to log in
-    copy: If you’re unable to log in to your account, email us for help.
-    url: mailto:search@gsa.gov
-    cta: Email Us
-  - heading: Re-index your site or submit sitemap
-    copy: Let us know if your search results are outdated, or if you have a new sitemap.
-    url: mailto:search@gsa.gov
-    cta: Email Us
+    copy: If you cannot log in to your account, contact us for help.
+    url: /support.html
+    cta: Request Support
+  - heading: Update content in search results
+    copy: Learn what to do if your search results are outdated or if you have a new XML sitemap.
+    url: /support.html
+    cta: Request Support
   - heading: Learn about Results API features
     copy: We offer a robust API for pulling search results, but its feature set is different from our hosted results page.
     url: /admin-center/display/hosted-vs-api-results.html

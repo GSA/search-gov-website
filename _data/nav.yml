@@ -20,7 +20,7 @@ primary:
   - text: Get Started
     href: /get-started/
     links:
-      - text: Sign Up
+      - text: Create Account and Sign In
         href: "/get-started/account.html"
       - text: Site Launch Guide
         href: "/get-started/site-launch-guide.html"

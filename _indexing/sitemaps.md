@@ -1,5 +1,5 @@
 ---
-last_modified_at: January 17, 2020
+last_modified_at: June 27, 2025
 crumbname: Sitemaps
 layout: page
 title: XML Sitemaps
@@ -12,11 +12,11 @@ date: January 17, 2020
 tags: sitemaps indexing
 category: admin-center
 ---
-An [XML sitemap](https://en.wikipedia.org/wiki/Sitemaps)  is an XML formatted file containing a list of URLs on a website. An XML sitemap provides information that allows a search engine to index your website more intelligently, and to keep its search index up to date. 
+An XML sitemap is a formatted file containing a list of URLs on a website. It provides information that allows a search engine to index your website more intelligently, and to keep its search index up to date. 
 
-Sitemaps tell search engines what URLs are on a website, and, if URLs are added as they are published, they tell the engines what new content needs to be picked up. They may also provide additional metadata about each URL, such as the last modified date, which signals to the engine to update the index record for that page.  
+XML sitemaps tell search engines what URLs are on a website and what new content needs to be picked up. They may also provide additional metadata about each URL, such as the last modified date, which signals to the engine to update the index record for that page.  
 
-Search.gov uses sitemaps to tell us what URLs should be in our index and when a URL has been updated. Sitemaps are used in a similar way by [Google](https://support.google.com/webmasters/answer/156184) , Bing, and and other search engines. *Having an xml sitemap will improve your Google SEO (search engine optimization).*
+Search.gov uses XML sitemaps to tell us what URLs should be in our index and when a URL has been updated. Publishing an XML sitemap will also optimized your sites for search engines.
 
 Example: [https://search.gov/sitemap.xml]({{ site.baseurl }}/sitemap.xml)
 
@@ -94,30 +94,10 @@ Most content management systems provide tools to generate a sitemap and keep it 
 [Sitemap Generator](http://docs.wagtail.io/en/latest/reference/contrib/sitemaps.html) 
 
 ### Github Pages (Jekyll)
-[Jekyll Sitemap gem](https://help.github.com/articles/sitemaps-for-github-pages/) 
-
-### Online generators
-(Note: free online generators often have a limit to the number of URLs they will include, and do not always generate the most accurate sitemaps. Use them only as a last resort.)
-
-[Free Sitemap Generator](https://freesitemapgenerator.com) 
-
-[Web Sitemap](http://www.web-site-map.com/) 
+[Jekyll Sitemap gem](https://help.github.com/articles/sitemaps-for-github-pages/)
 
 ## Sitemap checklist
-<i class="icon-check" ></i> 1. One or more sitemaps have been created
-
-<i class="icon-check"></i> 2. The URLs in the sitemap have been reviewed (clean URLs, only includes URLs that should be searchable)
-
-<i class="icon-check"></i> 3. Each sitemap’s XML format has been [validated](https://www.websiteplanet.com/webtools/sitemap-validator/) 
-
-<i class="icon-check"></i> 4. Each sitemap (or a sitemap index) is listed in the site’s robots.txt file
-
-## Additional Resources:
-[Official Documentation from Sitemaps.org](https://www.sitemaps.org/) 
-
-[Google’s guide to building a sitemap](https://support.google.com/webmasters/answer/183668?hl=en&ref_topic=4581190) 
-
-[Sitemap validator](https://www.websiteplanet.com/webtools/sitemap-validator/) 
-
-## More questions?
-If you have questions that aren't answered here, [email us](mailto:search@gsa.gov). We'll also keep updating this page over time.
+1. One or more sitemaps have been created
+1. The URLs in the sitemap have been reviewed (clean URLs, only includes URLs that should be searchable)
+1. Each sitemap’s XML format has been validated 
+1. Each sitemap (or a sitemap index) is listed in the site’s robots.txt file

@@ -26,7 +26,3 @@ When you [turn on the Job Openings]({{ site.baseurl }}/admin-center/display/disp
 Searchers will also see a direct link to [USAJobs.gov](https://www.usajobs.gov) for all current job openings (specific to your department or agency, if applicable), as shown in the sample below for a search on [*jobs*](https://secsearch.sec.gov/search?utf8=%E2%9C%93&affiliate=secsearch&sort_by=&query=jobs) on SEC.gov. 
 
 ![Search results for jobs on DOI.gov]({{ site.url }}/assets/img/site/govbox-jobs.png "Search results for jobs on DOI.gov")
-
----
-
-If you would like to show job openings in your results, but do not see the toggle to turn them on, [email us](mailto:search@gsa.gov) for assistance.

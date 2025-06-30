@@ -1,5 +1,5 @@
 ---
-last_modified_at: October 28, 2022
+last_modified_at: June 27, 2025
 crumbname: Search.gov for Cloud.gov Pages
 layout: page
 title: Setting up Search.gov for Cloud.gov Pages sites
@@ -24,7 +24,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 <li>Discuss and decide which search results page to use. We recommend you use our hosted search results page. You can also pull search results into your website for display. Please note that at this time, pulling search results into your website will result in an incomplete set of search analytics.</li>
 </ol>
 
-## On the Search.gov side of things:
+## On the Search.gov side of things
 
 <ol><li>Sign up for a <a href="https://search.usa.gov/signup">user account</a>.</li>
 <li>Read our <a href="{{ site.baseurl }}/manual/site-launch-guide.html">Search Site Launch Guide</a> if you’d like some direction.</li>
@@ -33,7 +33,7 @@ If you wish to test before launch, you'll need to publish the website to a publi
 <li><a href="{{ site.baseurl }}/manual/add-site.html">Add a search site</a></li>
 <li><a href="{{ site.baseurl }}/manual/brand.html">Brand your hosted search results page</a></li>
 </ul></li>
-<li>Request that we index your domain by <a href="mailto:search@gsa.gov">emailing our team</a>. Note, the site must be publicly available for our indexer to be able to access your content.</li>
+<li><a href="mailto:search@gsa.gov">Email us</a> to request that we index your domain. The site must be publicly available for us to access and index your content.</li>
 <li><a href="{{ site.baseurl }}/manual/preview.html">Preview your search results</a> once the indexing is complete.</li>
 </ol>
 
