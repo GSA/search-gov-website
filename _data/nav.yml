@@ -2,21 +2,10 @@ primary:
   - text: About Us
     href: /about/
     links:
-      - text: Why Choose Search.gov?
-        href: "/about/why-choose-searchgov.html"
-      - text: Customers
-        href: "/about/customers.html"
-      - text: Search.gov in Policy
-        href: "/about/policy/"
-        links:
-          - text: Government URLs
-            href: "/about/policy/govt-urls.html"
-          - text: Terms of Service
-            href: "/about/policy/tos.html"
-      - text: Year in Review
+      - text: Terms of Service
+        href: "/about/policy/tos.html"
+      - text: Year in Review Reports
         href: "/about/updates/year-in-review/"
-      - text: Security and Compliance
-        href: "/about/security.html"
   - text: Get Started
     href: /get-started/
     links:
