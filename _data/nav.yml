@@ -3,7 +3,7 @@ primary:
     href: /about/
     links:
       - text: Terms of Service
-        href: "/about/policy/tos.html"
+        href: "/about/tos.html"
       - text: Year in Review Reports
         href: "/about/updates/year-in-review/"
   - text: Get Started

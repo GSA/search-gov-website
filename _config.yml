@@ -76,10 +76,10 @@ primary_navigation:
     children:
       - name: About Us
         url: "/about/"
-      - name: Year in Review
-        url: "/about/updates/year-in-review/"
       - name: Terms of Service
         url: "/about/tos.html"
+      - name: Year in Review Reports
+        url: "/about/updates/year-in-review/"
   - name: Get Started
     children:
       - name: Get Started With Search.gov
