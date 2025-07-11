@@ -69,8 +69,6 @@ primary:
             href: "/admin-center/content/rss.html"
           - text: Youtube
             href: "/admin-center/content/youtube.html"
-          - text: Flickr
-            href: "/admin-center/content/flickr.html"
       - text: Display
         href: "/admin-center/display/"
         links:

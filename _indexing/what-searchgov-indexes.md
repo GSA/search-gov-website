@@ -1,11 +1,11 @@
 ---
 layout: page
-title: What Search.gov Indexes From Your Website
-crumbname: What Search.gov Indexes
+title: Content indexed by Search.gov
+crumbname: Content indexed by Search.gov
 category: admin-center
 tags: indexing seo
 date: April 24, 2019
-last_modified_at: November 10, 2022
+last_modified_at: July 11, 2025
 #subnav:
   #data: indexing
 redirect_from:
@@ -39,13 +39,12 @@ You can [read more detail on each of the following elements here]({{ site.baseur
 
 ## File formats
 
-In addition to HTML pages with their various file extensions, Search.gov indexes the following file types:
+In addition to HTML pages with their various file extensions, we index the following file types:
 
 * PDFs
-* Word docs
-* Excel docs
-* TXT
-* Images can be indexed either using our [Flickr integration]({{ site.baseurl }}/admin-center/content/flickr.html), or by sending us an [MRSS feed]({{ site.baseurl }}/admin-center/content/rss.html). Note that images are not indexed during web page indexing, so you’ll need to use one of these two methods. 
+* Word documents
+* Excel spreadsheets
+* Text files
 
 {: #js-indexing }
 
