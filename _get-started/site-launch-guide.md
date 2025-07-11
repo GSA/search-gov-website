@@ -12,7 +12,7 @@ redirect_from:
     - /manual/site-launch-guide.html
 ---
 
-This page includes the basic steps you need to take to start using our service. If your website is planning to go or is already going through a redesign process, see our [checklist]({{site.baseurl}}/indexing/redesign.html) for a successful redesign, content management migration, or both.
+This page includes the basic steps you need to take to start using our service. If your website is planning to go or is already going through a redesign process, see our [checklist for a successful redesign]({{site.baseurl}}/indexing/redesign.html), content management migration, or both.
 
 At Search.gov we aim to provide a self-service, plug and play search solution. This guide will walk you through everything you need to do, and let you know when to reach out to us. The basic steps are:
 
@@ -61,13 +61,13 @@ Once you've created your site, note the actions available on the left-hand navig
 
 {: #select-index }
 
-## 3. Web Index Selection
+## 3. Web Index Creation
 
 **Who:** Search.gov team, in consultation with you, the agency web team
 
-**What:** By default a new search site will be connected to the Bing web index to receive web results. Websites with very low levels of search traffic can continue to use the Bing web index after they launched our service. However, sites that will see greater than 35,000 queries per year will need to be indexed directly by our service before going live.  We monitor new sites established in our system, and will reach out if we think your site will need to be indexed by us, or if we need more information to make a determination.
+**What:** We need to index your content before going live.  We monitor newly established sites and index their domains.
 
-Regardless of the index used to support your search, we can only serve publicly accessible content. You will not be able to use our service for secure content, including intranets, and we can never index or serve personally identifiable information (PII) or other confidential data.
+We can only index publicly accessible content. You cannot use our service for secure content, including intranets, and we can never index or serve personally identifiable information (PII) or other confidential data.
 
 [Jump to Step 4. Add Features](#add-features) if you don't need the details of the indexing process at this time.)
 
@@ -120,4 +120,4 @@ If we will be indexing your content ourselves, we will follow these steps:
 
 If you publish your site on Cloud.gov Pages, read these [alternative instructions]({{ site.baseurl }}/get-started/searchgov-for-cloudgov-pages.html).
 
-You’re now live with Search.gov!
+Congratulations, you’re now live with Search.gov.
