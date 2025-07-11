@@ -1,42 +1,23 @@
 ---
 layout: page
-title: 2019 in Review
-crumbname: 2019 in Review
+title: 2019 year in review
+description: Learn how the public sought information and services from the federal government in 2019.
+crumbname: 2019 year in review
 category: blog
 tags: year-in-review
 date: December 20, 2019
-last_modified_at: December 20, 2019
+last_modified_at: July 11, 2025
 #subnav:
   #data: about_us
 redirect_from:
     - /blog/2019-annual-review.html
 ---
-<span style="float:right;"><img src="{{ site.baseurl }}{{ site.uswds_img_path }}/us_flag_small.png"
-alt="Top Topics in 2019 poster, small version. Following is a link to a larger PDF version. The poster shows a set of 16 pie charts, one for each top topic. The pie charts show the details of the top 25 queries run in 2019 for that topic." style="width:260px;height:300px;"><br />
-[Open large version]({{ site.url }}/files/2019_annual_review_large.pdf)
-</span>
-<br />
 
-#### **295,916,305** queries
-#### **~2,000 gov** websites
-#### **16** top topics
-#### **365** days of connecting people with what they need.
+Used by one-third of federal domains, Search.gov provides a consistent search experience for the public as they interact with different government websites. The service’s broad use gives insight into not only what services and information the public needs, but how people seek it out. Web analytics often just show what resources people used. Search data shows why people went to get those resources.
 
-<br />
+* 295,916,305 queries
+* ~2,000 gov websites
+* 365 days of connecting people with what they need.
+* 16 top topics
 
-## System Highlights
-
-* Added ranking factors to our search algorithm (popularity, freshness).
-* Released help documentation about site launches and the indexing process.
-* Added a sitelimit feature to provide an alternative to Collection search scoping.
-* Added indexing coverage for javascript pages and other metadata-only files.
-* Increased security on user accounts:
-  * Automatic disabling after 90 days of inactivity.
-  * MFA login through Login.gov.
-* Upgraded Ruby.
-* Upgraded Rails.
-* Upgraded Elasticsearch.
-* Upgraded jQuery.
-* Increased server capacity and processing power.
-* Added query caching on our primary index to improve response time.
-* Expanded our Elasticsearch system twice.
+The [2019 year in review report (PDF, 1,441 KB, 1 page)]({{ site.baseurl }}/files/2019_annual_review_large.pdf) explores the top needs of 2019, expressed in the public’s own words. 

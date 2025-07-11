@@ -1,7 +1,7 @@
 ---
 layout: year-review-2023
-title: "2023 in review"
-description: Year-end report on what people were searching for on federal government websites during 2023.
+title: "2023 year in review: Overview"
+description: Year-end report on what people searched for on federal government websites in 2023
 tags: year-in-review
 hero-image: 2023YIR-overview.png
 hero-image-desktop: 2023YIR-overview-wide.png
@@ -13,15 +13,15 @@ last_modified_at: March 6, 2024
 <article class="desktop:grid-col-8 tablet:grid-col-6 grid-col usa-prose article">
     <main id="main-content">
         <h2 id="section_1">Overview</h2>
-        <p>Search.gov is a search engine supporting one third of federal domains. This gives us a bird's-eye view of how the public interacts with government when searching a wide range of topics. This report presents our observations on government search during 2023.</p>
+        <p>Search.gov is a search engine supporting one third of federal domains. This gives us a bird's-eye view of how the public interacts with government when searching a wide range of topics. This report presents our observations on government search in 2023.</p>
         <p>The topics people search most on government websites remain fairly steady: taxation, benefits, passports, etc. They also need trustworthy information on topics that affect their daily lives, such as health, weather, and employment. Some years have atypical spikes of interest, such <a href="{{ site.baseurl }}/about/updates/year-in-review/2020-year-in-review.html" target="new">COVID-19</a> in 2020. And people always seem interested in NASA.gov’s information on space exploration and research.</p>
         <p>Last year, we released a <a href="{{ site.baseurl }}/about/updates/year-in-review/special-report/overview.html" target="new">special report on website modernization</a>, which told the stories of many of our customers as they moved through the phases of redesign. We also reported about how  the redesigns interacted with search experiences and search engine optimization (SEO). This year, we are returning to a focus on search data.</p>
 		<ul>
 			<li><strong>246 million searches</strong> queries</li>
 			<li><strong>32%</strong> of federal domains, including <strong>54%</strong> of top domains</li>
 			<li><strong>~2,200</strong> gov websites</li>
-			<li><strong>13</strong> top topics</li>
 			<li><strong>365 days</strong> of connecting people with what they need</li>
+			<li><strong>13</strong> top topics</li>
 		</ul>
 		<p>The top five search topics in 2023 were:</p>
         <ol>
@@ -34,7 +34,7 @@ last_modified_at: March 6, 2024
         <hr class="section-break" id="section_2">
         <h2>Emerging trends in government search</h2> 
 
-		<p>The influence of artificial intelligence (AI) and related tools expanded significantly during 2023. As technologies change rapidly, searches on government websites remain a customer experience issue. We look forward to sharing more information over the coming months about:</p>
+		<p>The influence of artificial intelligence (AI) and related tools expanded significantly in 2023. As technologies change rapidly, searches on government websites remain a customer experience issue. We look forward to sharing more information over the coming months about:</p>
         <ul>
             <li><strong>Artificial intelligence in government search:</strong> We will explore the intersection of technology, website governance, and public privacy.</li>
             <li><strong>Search engine optimization:</strong> We will dive deep into strategies and techniques for improving SEO, tailored to the government context.</li>

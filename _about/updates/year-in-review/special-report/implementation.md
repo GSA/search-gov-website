@@ -1,7 +1,7 @@
 ---
 layout: year-review
 title: "Making the big move: Implementation"
-description: Discussion of the technical implementation phases of a website redesign, and their impact on search. Content migration, testing, and rollout.
+description: The implementation phases of a website redesign and their impact on search
 tags: year-in-review
 hero-image: Implementation_hero.png
 hero-image-desktop: Implementation_hero_desktop.png
