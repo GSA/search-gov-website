@@ -40,6 +40,4 @@ Using USA.gov an as example, every time someone goes to [USA.gov](https://www.us
 
 If they get routed to the [Unclaimed Money from the Government](https://www.usa.gov/unclaimed-money) and search again for one of these terms, they'll get the standard list of search results. We won't take people in an endless loop.
 
-If they search for something not on the above list, like *show me missing money*, they'll still get the normal search results. 
-
-![Standard search results for 'I am looking for unclaimed money' on USA.gov]({{ site.url }}/assets/img/site/unclaimed-money.png){:height="95%" width="95%"}
+If they search for something not on the above list, like *show me missing money*, they'll still get the regular search results.
