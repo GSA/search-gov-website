@@ -5,7 +5,7 @@ crumbname: Go-Live
 category: admin-center
 tags: help-manual
 date: September 4, 2019
-last_modified_at: July 11, 2025
+last_modified_at: July 15, 2025
 #subnav:
   #data: get_started
 redirect_from:
@@ -20,15 +20,11 @@ Your pre-launch checklist will be unique to your agency's workflow, requirements
 
 <i class="icon-check"></i> **2. Have we indexed your your content?** We follow search engine optimization (SEO) best practices and leverage your [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html) to monitor for new content. Verify also that you have a [robots.txt file]({{ site.baseurl }}/indexing/robotstxt.html). These two files are typically located in the root directory of your website at `example.gov/robots.txt` and `example.gov/sitemap.xml`. Also verify that your robots.txt file allows our user agent (`usasearch`) to access your public content.
 
-<i class="icon-check"></i> **3. Have you told us about your RSS feeds?** We love [RSS feeds]({{ site.baseurl }}/admin-center/content/rss.html). Tell us about all of your feeds, even if you opt not to show them (see #5 below). They're a quick way for us to index your new and updated content, in addition to the content listed on your sitemap (see above). (Tip: Preview your feeds from the RSS page in the [Admin Center](https://search.usa.gov/sites/) to confirm that we've indexed your content.)
-
-<i class="icon-check"></i> **4. Have you told us about your YouTube videos?** [YouTube videos]({{ site.baseurl }}/admin-center/content/youtube.html) are a great way to highlight your recent content and offer a single point of access to your multimedia content. 
-
 ## Customize the display
 
-<i class="icon-check"></i> **5. Have you made the search results page look like your website?** Customize the [brand]({{ site.baseurl }}/admin-center/display/brand.html) (font, colors, logo, favicon, and navigation links) of your search results page to create a seamless experience for users as they search and browse your website.
+<i class="icon-check"></i> **3. Have you made the search results page look like your website?** Customize the [brand]({{ site.baseurl }}/admin-center/display/brand.html) (font, colors, logo, favicon, and navigation links) of your search results page to create a seamless experience for users as they search and browse your website.
 
-<i class="icon-check"></i> **6. Have you told us what to show on your results page?** Turn on (or off) the inline modules and search tabs that you want to appear on your search results page. You can change the default settings on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page in the Admin Center.
+<i class="icon-check"></i> **4. Have you told us what to show on your results page?** Turn on (or off) the inline modules and search tabs that you want to appear on your search results page. You can change the default settings on the [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) page in the Admin Center.
 
 {% include featured-accordion.html content="facet-renaming" accordion=false %}
 
@@ -36,7 +32,7 @@ Your pre-launch checklist will be unique to your agency's workflow, requirements
 
 Most agencies add this [code snippet]({{ site.baseurl }}/admin-center/activate/code.html) to the template in their content management systems (rather than adding them to individual pages).
 
-<i class="icon-check"></i> **7. Does your search box point to Search.gov?** Update your search box form code point to our service so that, when users perform a search, they'll see the Search.gov results page.
+<i class="icon-check"></i> **5. Does your search box point to Search.gov?** Update your search box form code point to our service so that, when users perform a search, they'll see the Search.gov results page.
 
 	<form accept-charset="UTF-8" 
 	action="https://search.usa.gov/search" 
@@ -57,4 +53,4 @@ Most agencies add this [code snippet]({{ site.baseurl }}/admin-center/activate/c
 
 ## Remember SEO
 
-<i class="icon-check"></i> **8. Have you registered your site with the major commercial search engines?** Register for both [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster) and [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en) to maximize the coverage of your content in their search results.
+<i class="icon-check"></i> **6. Have you registered your site with the major commercial search engines?** Register for both [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster) and [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en) to maximize the coverage of your content in their search results.

@@ -82,8 +82,6 @@ If we will be indexing your content ourselves, we will follow these steps:
 * [Collections]({{ site.baseurl }}/admin-center/content/collections.html) allow you to set up alternative search scopes from the Domains you declare for the main search. Often Collections point at particular subfolders or subdomains of the primary domain for the site. Sometimes they point at a different domain entirely. If you are indexed by Search.gov and you want a Collection to search another domain, check with us to see if we have that content already indexed.  
 * [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) work like ads in Google, and allow you to pin certain results to the top of your search results. Use Best Bets to boost specific web pages.
 * [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) allow you to bypass the results page entirely for a given query, where you know exactly the page you want a person to get to after running that query. This is helpful for always getting people to the landing page for a process, rather than their clicking to a mid-process page from a search results page.
-* [RSS]({{ site.baseurl }}/admin-center/content/rss.html) feeds can be indexed and searched either as separate tabs on the search results, or as an inline module promoting your latest content alongside your web results.
-* [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) videos can also be searched
 
 {: #turn-features-on }
 

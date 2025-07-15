@@ -32,17 +32,14 @@ This help manual follows the order of settings that are available to manage your
 
 ## <i class="icon-file"></i> [Manage content]({{ site.baseurl }}/admin-center/content/)
 
-* [Content overview]({{ site.baseurl }}/admin-center/content/content-overview.html)
 * [Domains]({{ site.baseurl }}/admin-center/content/domains.html)
 * [Collections]({{ site.baseurl }}/admin-center/content/collections.html)
 * [Best bets]({{ site.baseurl }}/admin-center/content/best-bets.html)
 * [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html)
-* [RSS]({{ site.baseurl }}/admin-center/content/rss.html)
-* [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)
 
 ## <i class="icon-desktop"></i> [Manage display]({{ site.baseurl }}/admin-center/display/)
 
-* [Display overview]({{ site.baseurl }}/admin-center/display/display-overview.html) (including [job openings]({{ site.baseurl }}/admin-center/display/jobs-module.html), [*Federal Register*]({{ site.baseurl }}/admin-center/display/federal-register-module.html), and [health topics]({{ site.baseurl }}/admin-center/display/health-module.html))
+* [Display overview]({{ site.baseurl }}/admin-center/display/display-overview.html)
 * [Brand]({{ site.baseurl }}/admin-center/display/brand.html) (font & colors, image assets, and header & footer)
 * [Custom no results]({{ site.baseurl }}/admin-center/display/no-results.html) page
 * [Custom search page alert]({{ site.baseurl }}/admin-center/display/system-alert.html)

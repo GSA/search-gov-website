@@ -4,7 +4,7 @@ title: How to add a site
 category: admin-center
 tags: "help-manual settings add-site"
 date: March 2, 2017
-last_modified_at: July 11, 2025
+last_modified_at: July 15, 2025
 published: true
 #subnav:
   #data: admin_center
@@ -31,13 +31,7 @@ Tell us the homepage URL of your website. Enter a fully qualified URL, including
 * www.nasa.gov (use https://www.nasa.gov)  
 * https://www.sec.gov/litigation.shtml (use the higher-level folder, https://www.sec.gov/litigation)  
 * https://www.gsa.gov/portal/category/100000?utm_source=OCM&utm_medium=print-radio&utm_term=&utm_campaign=shortcuts (use the higher-level domain, https://www.gsa.gov)
-* http://www.doc.gov (use the domain that resolves, https://www.commerce.gov)  
-
-We use this homepage URL to prepopulate the following three things: 
-
-1. Seed your [domains]({{ site.baseurl }}/admin-center/content/domains.html) list.
-1. Scan for your [YouTube accounts]({{ site.baseurl }}/admin-center/content/youtube.html)), favicon to use on your search results browser tab, and [RSS feeds]({{ site.baseurl }}/admin-center/content/rss.html) that are linked from your homepage, or another page you specify on the Display Overview page.
-1. Link the default [logo]({{ site.baseurl }}/admin-center/display/brand.html) on your results page to your homepage.
+* http://www.doc.gov (use the domain that resolves, https://www.commerce.gov)
 
 ## Display name
 

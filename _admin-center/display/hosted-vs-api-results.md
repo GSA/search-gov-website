@@ -40,6 +40,4 @@ Learn more about [how to use the results API](https://open.gsa.gov/api/searchgov
 | [Collections]({{ site.baseurl }}/admin-center/content/collections.html) to search alternative locations | Yes | No |
 | [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) &mdash; Text and Graphics options, to post recommended items at the top of results | Yes | Yes |
 | [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to send searchers to specific pages | Yes | Yes, with additional logic |
-| [RSS Feeds]({{ site.baseurl }}/admin-center/content/rss.html) &mdash; document search | Yes | Yes, with separate endpoint call |
-| [YouTube Videos]({{ site.baseurl }}/admin-center/content/youtube.html) | Yes | Yes, with separate endpoint call |
 | Faceted Search | No | Yes |
