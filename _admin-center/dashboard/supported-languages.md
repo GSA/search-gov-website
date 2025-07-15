@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Languages Supported on Search.gov Results Pages
+title: Languages supported by Search.gov
 category: admin-center
 tags: help-manual display settings
 date: December 28, 2016
-last_modified_at: December 28, 2016
+last_modified_at: July 11, 2025
 #subnav:
   #data: admin_center
 redirect_from:
@@ -22,7 +22,7 @@ When you add a search site, you have the option to set the language to something
 | Amharic | Kyrgyz
 | Arabic | Lao
 | Armenian | Latvian
-| Azerbaijani&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Lithuanian
+| Azerbaijani | Lithuanian
 | Baluchi* | Macedonian
 | Bangla* | Malay
 | Belarusian | Mongolian
@@ -37,7 +37,7 @@ When you add a search site, you have the option to set the language to something
 | Dutch | Russian
 | English | Serbian
 | Estonian | Sindhi
-| Finnish* | ‎Slovak
+| Finnish* | Slovak
 | French | Slovene*
 | Georgian | Somalian
 | German | Spanish

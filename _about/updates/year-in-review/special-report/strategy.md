@@ -1,7 +1,7 @@
 ---
 layout: year-review
 title: "Making the big move: Strategy"
-description: Discussion of website redesign strategy and its impact on search. Usability testing, technology selection, and rollout strategy.
+description: The strategy phases of a website redesign and their impact on search
 tags: year-in-review
 hero-image: Strategy_Hero.png
 hero-image-desktop: Strategy_Hero_desktop.png

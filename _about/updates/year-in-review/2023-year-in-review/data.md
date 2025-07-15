@@ -1,7 +1,7 @@
 ---
 layout: year-review-2023
 title: "2023 year in review: Data"
-description: A dive into the data for the top search topics in Search.gov for 2023. 
+description: A dive into the data for the top search topics in Search.gov for 2023 
 tags: year-in-review
 hero-image: 2023YIR-data.png
 hero-image-desktop: 2023YIR-data-wide.png

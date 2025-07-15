@@ -1,42 +1,29 @@
 ---
 layout: page
-title: 2020 in Review
-description: The 2020 Search.gov Year In Review report shows how significantly the COVID-19 pandemic affected how the public sought information and services from the government.
+title: 2020 year in review
+description: Learn how the public sought information and services from the federal government in 2020.
 crumbname: 2020 in Review
 category: blog
 tags: year-in-review
+last_modified_at: July 11, 2025
 #subnav:
   #data: about_us
 ---
-<span><a href="{{ site.url }}/files/2020-annual-review.pdf"><img 
-  src="{{ site.url }}/assets/img/site/2020-annual-review-cover.png"
-  alt="2020 Year In Review, cover image showing a pie chart made out of tiny people. Following is a link to the full PDF report." style="width:280px;border:1px solid #333333;"></a><br />
-[Download full report]({{ site.url }}/files/2020-annual-review.pdf)
-</span>
-<br />
 	
-#### **320,581,805** queries
-#### **~ 2,200** websites
-#### **20** top topics
-#### **365 days** of connecting people with what they need
+Used by one-third of federal domains, Search.gov provides a consistent search experience for the public as they interact with different government websites. The service’s broad use also gives insight into not only what services and information the public needs, but how people seek it out. Web analytics often just show what resources people used. Search data shows why people went to get those resources.
 
-<br />
+* 320,581,805 queries
+* ~ 2,200 websites
+* 365 days of connecting people with what they need
+* 20 top topics
 
-Search.gov is a search engine service provided by the GSA’s Technology Transformation Services. Used by one-third of federal domains, it provides a high-quality, standard search experience for the public as they interact with different government websites. The service’s broad use also gives insight into not only what services and information the public needs, but how people seek it out. Often, web analytics just show what resources people used. Search data shows why people went to get those resources.
+The [2020 year in review report (PDF, 1,663 KB, 25 pages)]({{ site.baseurl }}/files/2020-annual-review.pdf) explores the top needs of 2020, expressed in the public’s own words.
 
-This Annual Review explores the top needs of 2020, expressed in the public’s own words.
-
-<br />
-
-## A Year Like No Other
+## A year like no other
 
 Between the COVID-19 pandemic, social unrest, and environmental emergencies, 2020 was truly an extraordinary year. In a typical year, search traffic to federal websites follows predictable patterns. For most agencies, the public comes searching for information at a fairly steady rate, with surges ahead of deadlines, such as for applications for benefits or grants. Similarly, we see the same topics in roughly the same order, looking at how frequently each topic gets searched for. 
 
 The COVID-19 pandemic changed search patterns and volume significantly. Some topics, like loan forgiveness, saw as high as a 500% increase in volume, while others dropped dramatically. The Trusted Traveler Programs, on the other hand, got 90% fewer queries in 2020 compared to 2019. Forms, usually one of the top needs, saw a steady level of demand but still dropped to 5th place in 2020 due to other emergent needs.
-
-[Read the report]({{ site.url }}/files/2020-annual-review.pdf)
-
-<br />
 
 ## Governmentwide window to public experience
 
@@ -48,9 +35,7 @@ We can see trends in challenges as well. For instance, 25% of people search for 
 
 Since we don’t track individual searchers, we cannot show a complete journey from beginning to end. However, the themes and trends provide government with a considerable amount of information to improve the public experience with navigating government information.
 
-[Read the report]({{ site.url }}/files/2020-annual-review.pdf)
-
-<br />
+Read the full [2020 year in review report (PDF, 1,663 KB, 25 pages)]({{ site.baseurl }}/files/2020-annual-review.pdf) for more information on how the public sought information and services from the federal government in 2020.
 
 ## Methods
 
@@ -58,10 +43,4 @@ The Search.gov system collects unsampled data about search traffic through our s
 
 For this report, we used an analysis method designed to detect the topic of the search from any of these data points: the search term, the URL of the selected search result, the website being searched, or the webpage being searched from. For example, a person searching for an application form may use the word “forms” or they may search using a specific form name, but select a search result from the website’s forms folder. We also considered how different searchers may use different words to talk about the same idea, such as “lost green card” or “i-90,” the USCIS form number to apply for a replacement green card.
 
-The time frame studied was January 1 &ndash; December 31, 2020. 
-
-[Read the report]({{ site.url }}/files/2020-annual-review.pdf)
-
-<br />
-
-[Read our 2020 system highlights]({{ site.baseurl }}/about/updates/year-in-review/2020-system-highlights.html), an overview of the biggest improvements we made to our system last year.
+The time frame studied was January 1 to December 31, 2020.

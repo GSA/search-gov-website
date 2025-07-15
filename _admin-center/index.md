@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Manage Your Search Site"
+title: How to manage your search site
 crumbname: Help Manual
 tags: help-manual
-last_modified_at: "June 27, 2025"
+last_modified_at: July 11, 2025
 #subnav:
   #data: admin_center
 permalink: /admin-center/
@@ -39,7 +39,6 @@ This help manual follows the order of settings that are available to manage your
 * [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html)
 * [RSS]({{ site.baseurl }}/admin-center/content/rss.html)
 * [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html)
-* [Flickr]({{ site.baseurl }}/admin-center/content/flickr.html)
 
 ## <i class="icon-desktop"></i> [Manage Display]({{ site.baseurl }}/admin-center/display/)
 

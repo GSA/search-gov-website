@@ -76,16 +76,10 @@ primary_navigation:
     children:
       - name: About Us
         url: "/about/"
-      - name: Why Choose Search.gov?
-        url: "/about/why-choose-searchgov.html"
-      - name: Customers
-        url: "/about/customers.html"
-      - name: Search.gov in Policy
-        url: "/about/policy/"
-      - name: Year in Review
+      - name: Terms of Service
+        url: "/about/tos.html"
+      - name: Year in Review Reports
         url: "/about/updates/year-in-review/"
-      - name: Security and Compliance
-        url: "/about/security.html"
   - name: Get Started
     children:
       - name: Get Started With Search.gov
@@ -158,20 +152,10 @@ about_us:
   - name: About Us
     url: /about/
     children:
-      - name: Why Choose Search.gov?
-        url: "/about/why-choose-searchgov.html"
-      - name: Customers
-        url: "/about/customers.html"
-      - name: Search.gov in Policy
-        url: "/about/policy/"
-      - name: Year in Review
+      - name: Year in Review Reports
         url: "/about/updates/year-in-review/"
-      - name: Security and Compliance
-        url: "/about/security.html"
-  - name: Related Resources
-    children:
-      - name: For Developers
-        url: "/developer/"
+      - name: Terms of Service
+        url: "/about/tos.html"
 
 admin_center:
   - name: Manage Your Site Search
@@ -194,7 +178,6 @@ admin_center:
     children:
       - name: Website Redesign Tips
         url: "/indexing/redesign.html"
-
 
 get_started:
   - name: Get Started With Search.gov

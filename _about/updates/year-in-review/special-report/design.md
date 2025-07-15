@@ -1,7 +1,7 @@
 ---
 layout: year-review
 title: "Making the big move: Design"
-description: Discussion of the design phases of a website redesign, and their impact on search. Content strategy, information architecture, and design - both visual and structural.
+description: The design phases of a website redesign and their impact on search
 tags: year-in-review
 hero-image: Design_Hero.png
 hero-image-desktop: Design_Hero_desktop.png
