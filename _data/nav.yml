@@ -95,8 +95,6 @@ primary:
         links:
           - text: Code Snippets
             href: "/admin-center/activate/code.html"
-          - text: Typeahead API
-            href: "/admin-center/activate/typeahead-api.html"
   - text: Index with Search.gov
     href: /indexing/
     links: 
