@@ -13,8 +13,6 @@ redirect_from:
 ---
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > Add Site
 
-{% include featured-accordion.html content="access-existing-site" accordion=true %}
-
 ## Homepage URL
 
 Tell us the homepage URL of your website. Enter a fully qualified URL, including the protocol, such as `https://www.example.gov`. 

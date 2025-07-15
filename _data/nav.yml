@@ -25,8 +25,6 @@ primary:
         links:
           - text: Add Site
             href: "/admin-center/dashboard/add-site.html"
-          - text: Supported Languages
-            href: "/admin-center/dashboard/supported-languages.html"
           - text: Site Overview
             href: "/admin-center/dashboard/site-overview.html"
           - text: Manage Users
@@ -74,12 +72,6 @@ primary:
             href: "/admin-center/display/no-results.html"
           - text: Search Page Alert
             href: "/admin-center/display/system-alert.html"
-          - text: Jobs Module
-            href: "/admin-center/display/jobs-module.html"
-          - text: Federal Register Module
-            href: "/admin-center/display/federal-register-module.html"
-          - text: Health Topics Module
-            href: "/admin-center/display/health-module.html"
           - text: Hosted Results vs. API Results
             href: "/admin-center/display/hosted-vs-api-results.html"
       - text: Preview

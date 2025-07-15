@@ -29,15 +29,15 @@ Learn more about [how to use the results API](https://open.gsa.gov/api/searchgov
 {: .usa-table .usa-table--compact}
 | Analytics Features | Hosted results page | API |
 | :-- | :--: | :--: |
-| [Query Tracking]({{ site.baseurl }}/admin-center/analytics/queries.html) to see what people searched for on your website | Yes | Yes |
-| [Click Tracking]({{ site.baseurl }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes, with the [clicks API](https://open.gsa.gov/api/searchgov-clicks/) |
-| [Referrer Tracking]({{ site.baseurl }}/admin-center/analytics/referrers.html) to see where people were when they ran their searches | Yes | No |
+| [Query tracking]({{ site.baseurl }}/admin-center/analytics/queries.html) to see what people searched for on your website | Yes | Yes |
+| [Click tracking]({{ site.baseurl }}/admin-center/analytics/clicks.html) to see what people clicked on from the results pages | Yes | Yes, with the [clicks API](https://open.gsa.gov/api/searchgov-clicks/) |
+| [Referrer tracking]({{ site.baseurl }}/admin-center/analytics/referrers.html) to see where people were when they ran their searches | Yes | No |
 
 {: .usa-table .usa-table--compact}
 | Content Features | Hosted results page | API |
 | :-- | :--: | :--: |
 | [Domains]({{ site.baseurl }}/admin-center/content/domains.html) to search by default | Yes | Yes |
 | [Collections]({{ site.baseurl }}/admin-center/content/collections.html) to search alternative locations | Yes | No |
-| [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) &mdash; Text and Graphics options, to post recommended items at the top of results | Yes | Yes |
-| [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to send searchers to specific pages | Yes | Yes, with additional logic |
+| [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) to "pin" recommended items at the top of results | Yes | Yes |
+| [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to send searchers to specific pages | Yes | Yes, with additional logic |
 | Faceted Search | No | Yes |
