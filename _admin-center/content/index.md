@@ -4,17 +4,18 @@ title: How to manage content
 #subnav:
   #data: admin_center
 date: February 25, 2021
-last_modified_at: July 11, 2025
+last_modified_at: July 15, 2025
 permalink: /admin-center/content/
 ---
-<i class="icon-file"></i> This section allows you to set up the content that will appear in search results. You can search web content across multiple domains, and use our social media integrations to bring in content from those platforms.
+Find it in the Admin Center: Search.gov Home > Admin Center > YourSite > Manage Content > Content Overview
 
-* [Content Overview]({{ site.baseurl }}/admin-center/content/content-overview.html)
-* [Domains]({{ site.baseurl }}/admin-center/content/domains.html) to set the primary target for your search
-* [Collections]({{ site.baseurl }}/admin-center/content/collections.html) to set up alternative search scopes that can appear as tabs across the top of search results
-* [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) to place recommendations at the top of search results
-* [Routed Queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) for very targeted queries, bypass the results page and funnel searchers straight from the search box to a landing page
-* [RSS]({{ site.baseurl }}/admin-center/content/rss.html) to index press releases, blog posts, and other news content
-* [YouTube]({{ site.baseurl }}/admin-center/content/youtube.html) to index videos
+To display the results on your search results page, we index content from various sources. Each time a searcher enters a query on your site, we determine which indexes answer the searcher’s question and display results from them. This means a single search results page often includes items from several indexes.
 
-For questions about indexing, including sitemaps, check out our [tips on indexing with Search.gov]({{ site.baseurl }}/indexing/indexing-with-searchgov.html).
+Use the following options to manage the content included on the search results page:
+
+* [Domains]({{ site.baseurl }}/admin-center/content/domains.html) to show results for all of your web pages listed within these domains
+* [Collections]({{ site.baseurl }}/admin-center/content/collections.html) to narrow the results to a specific subset of content
+* [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) to "pin" recommendations at the top of search results
+* [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to bypass the results page and send searchers directly to a landing page
+
+Check out our [tips on indexing with Search.gov]({{ site.baseurl }}/indexing/indexing-with-searchgov.html) for more information about managing your content.

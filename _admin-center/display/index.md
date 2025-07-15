@@ -12,8 +12,8 @@ permalink: /admin-center/display/
 
 * [Display Overview]({{ site.baseurl }}/admin-center/display/display-overview.html) &ndash; decide which types of content will be included in the search results page
 * [Brand]({{ site.baseurl }}/admin-center/display/brand.html) &ndash; manage the look and feel of your hosted results page, including font, colors, and logos
-* Custom [No Results]({{ site.baseurl }}/admin-center/display/no-results.html) page &ndash; add links and optional text in case a search has no results
-* Custom [Search Page Alert]({{ site.baseurl }}/admin-center/display/system-alert.html) &ndash; add text to tell searchers about something that affects their search experience
+* [Custom no results page]({{ site.baseurl }}/admin-center/display/no-results.html) &ndash; add links and optional text in case a search has no results
+* [Custom search page alert]({{ site.baseurl }}/admin-center/display/system-alert.html) &ndash; add text to tell searchers about something that affects their search experience
 
 We also offer a Search Results API that will allow you to display results within your own website's framework. 
 
