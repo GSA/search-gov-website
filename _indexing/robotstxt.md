@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robots.txt Files
+title: An introduction to robots.txt files
 crumbname: Robots.txt
 category: admin-center
 redirect_from: 
@@ -8,39 +8,56 @@ redirect_from:
   - /manual/robotstxt.html
 tags: how-to manage-content indexing
 date: January 17, 2020
-last_modified_at: January 17, 2020
+last_modified_at: July 24, 2025
 #subnav:
   #data: indexing
 ---
 
-A `/robots.txt` file is a text file that instructs automated web bots on how to crawl and/or index a website. Web teams use them to provide information about what site directories should or should not be crawled, how quickly content should be accessed, and which bots are welcome on the site.
+**Understand how and why to create a robots.txt file**
 
-## What should my robots.txt file look like?
-Please refer to the [robots.txt protocol](http://www.robotstxt.org/robotstxt.html)  for detailed information on how and where to create your robots.txt. Key points to keep in mind:
+## What is a robots.txt file?
 
-* The file must be located at the root of the domain, and each subdomain needs its own file.
-* The robots.txt protocol is case sensitive.
-* It's easy to accidentally block crawling of everything:
-  * `Disallow: /` means disallow everything.
-  * `Disallow:  ` means disallow nothing, which will allow everything.
-  * `Allow: /` means allow everything.
-  * `Allow:  ` means allow nothing, which will disallow everything.
-* The instructions in robots.txt are guidance for bots, not binding requirements &mdash; bad bots may ignore your settings.
+A robots.txt file is a text file that instructs internet bots on how to crawl and index a website. 
 
-## How can I optimize my robots.txt for Search.gov?
+Visit [https://www.usa.gov/robots.txt](https://www.usa.gov/robots.txt) to see an example of a well-structured robots.txt file on a federal government website.
 
-### Crawl delay
-A robots.txt file may specify a "crawl delay" directive for one or more user agents, which tells a bot how quickly it can request pages from a website. For example, a crawl delay of 10 specifies that a crawler should not request a new page more than every 10 seconds.
+## Why is a robots.txt file important?
+
+When you have a robots.txt file on your website, the public can more easily find your agency's content on search engines.
+
+This file is crucial because it instructs web crawlers (like those from search engines) which parts of a website they should or should not access. 
+
+You can also use it manage your site's performance, [security](https://digital.gov/topics/security), and [search engine optimizaton](https://digital.gov/topics/search-engine-optimization) by telling search engines how to crawl and index your content. 
+
+## How to create a robots.txt file
+
+Use a robots.txt file to provide guidance to the bots on how to interact with your website. Refer to the [Robots Exclusion Protocol on robotstxt.org](http://www.robotstxt.org/robotstxt.html) for detailed information on how and where to create your robots.txt file. 
+
+Key points include:
+
+* Place a robots.txt file at the root of your domain and any subdomains. Each subdomain needs its own file.
+* Pay attention to casing. The robots.txt protocol is case-sensitive.
+* Be careful when you write the instructions:
+  * Use `Disallow: /`&nbsp;to disallow everything.
+  * Use `Disallow: `&nbsp;to disallow nothing. In other words, use it to allow everything.
+  * Use `Allow: /`&nbsp;to allow everything.
+  * Use `Allow: `&nbsp;to allow nothing. In other words, use it to disallow everything.
+* Remember that the robots.txt instructions are guidance, not binding requirements. Bad bots may ignore your instructions.
+
+### Point to your XML sitemap
+
+List the location of your [XML sitemap]({{ site.baseurl }}/indexing/sitemaps.html) in your robots.txt file. 
 
 ```
-  500,000 URLs
-     x 10 seconds between requests
-5,000,000 seconds for all requests
-
-5,000,000 seconds = 58 days to index the site once.
+# Sitemaps
+Sitemap: https://www.usa.gov/sitemap.xml
 ```
 
-We recommend a crawl-delay of 2 seconds for our `usasearch` user agent, and setting a higher crawl delay for all other bots. The lower the crawl delay, the faster Search.gov will be able to index your site. In the robots.txt file, it would look like this:
+### Set the crawl delay
+
+Use the crawl delay instructions to tell bots how quickly they it can request pages from your website. For example, use a crawl delay of 10 to tell bots that they should not request a new page more than every 10 seconds.
+
+If you use [Search.gov](https://search.usa.gov/sites), the Search.gov team recommends a crawl-delay of 2 seconds for their `usasearch` user agent and a crawl delay of 10 seconds for all other bots. A lower crawl delay allows Search.gov to index the content on your site more quickly, and they are a trusted bot. 
 
 ```
 User-agent: usasearch  
@@ -50,21 +67,9 @@ User-agent: *
 Crawl-delay: 10
 ```
 
-### XML Sitemaps
-Your robots.txt file should also list one or more of your [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html). For example:
+### Manage content
 
-```
-Sitemap: https://www.example.gov/sitemap.xml
-Sitemap: https://www.example.gov/independent-subsection-sitemap.xml
-Sitemap: https://www.example.gov/rss-feed-of-uploaded-files.xml
-Sitemap: https://other.example.gov/cross-submitted-sitemap.xml
-```
-* List all sitemaps for the domain matching where the robots.txt file is. A different subdomain's sitemap should be listed on that subdomain's robots.txt.
-* We also support RSS 2.0 and Atom 2.0 feeds as sitemaps. If you list these feeds in your robots.txt file as sitemaps, our system will index the feed urls automatically.
-* If you must, you may "cross submit" a sitemap for this domain's urls using a sitemap posted on a different domain. Read the [XML sitemap protocol](https://sitemaps.org/protocol.html#location) to ensure proper implementation.
-
-### Allow only the content that you want searchable 
-We recommend disallowing any directories or files that should not be searchable. For example:
+Disallow any directories or files that you do not want listed in search results.
 
 ```
 Disallow: /archive/
@@ -72,35 +77,12 @@ Disallow: /news-1997/
 Disallow: /reports/duplicative-page.html
 ```
 
-* Note that if you disallow a directory after it's been indexed by a search engine, this may not trigger a removal of that content from the index. You'll need to go into the search engine's webmaster tools to request removal.
-* Also note that search engines may index individual pages within a disallowed folder if the search engine learns about the URL from a non-crawl method, like a link from another site or your sitemap. To ensure a given page is not searchable, set a [robots meta tag]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html#robots) on that page.
-
-
-### Customize settings for different bots
-You can set different permissions for different bots. For example, if you want us to index your archived content but don't want Google or Bing to index it, you can specify that:
+You can set different permissions for different bots. For example, if you want Search.gov to index your archived content but don't want a commercial search engine to index it, you can be this specific.
 
 ```
 User-agent: usasearch  
-Crawl-delay: 2
 Allow: /archive/
 
 User-agent: *
-Crawl-delay: 10
 Disallow: /archive/
 ```
-
-## Robots.txt checklist
-<i class="icon-check" ></i> 1. A robots.txt file has been created in the site's root directory (`https://example.gov/robots.txt`)
-
-<i class="icon-check"></i> 2. The robots.txt file disallows any directories and files that automated bots should not crawl
-
-<i class="icon-check"></i> 3. The robots.txt file lists one or more [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)  
-
-<i class="icon-check"></i> 4. The robots.txt file format has been [validated](https://www.websiteplanet.com/webtools/sitemap-validator/) 
-
-## Additional Resources
-[Yoast SEO's Ultimate Guide to Robots.txt](https://yoast.com/ultimate-guide-robots-txt/)   
-
-[Google's "Learn about robots.txt files"](https://support.google.com/webmasters/answer/6062608?hl=en&ref_topic=6061961)   
-
-
