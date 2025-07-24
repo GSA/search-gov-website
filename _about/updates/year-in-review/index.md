@@ -5,7 +5,7 @@ crumbname: Year in review search reports
 category: blog
 tags: annual-review
 date: February 7, 2022
-last_modified_at: July 11, 2025
+last_modified_at: July 24, 2025
 #subnav:
   #data: about_us
 redirect_from: 
@@ -23,11 +23,5 @@ Search.gov connects the public with government &mdash; from common needs for for
 * [2021 year in review report]({{ site.baseurl }}/about/updates/year-in-review/2021-year-in-review.html)
 
 * [2020 year in review report]({{ site.baseurl }}/about/updates/year-in-review/2020-year-in-review.html)
-
-* [2019 year in review report]({{ site.baseurl }}/about/updates/year-in-review/2019-year-in-review.html)
-
-* [2018 year in review report]({{ site.baseurl }}/about/updates/year-in-review/2018-year-in-review.html)
-
-* [2017 year in review report]({{ site.baseurl }}/about/updates/year-in-review/2017-year-in-review.html)
 
 Changes in the data over time reflect which agencies use our service and major news in a given year. The data represents only the federal government websites that use Search.gov. It does not include data on searches run on commercial search engines.
