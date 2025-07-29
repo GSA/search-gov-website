@@ -7,16 +7,12 @@ primary:
       - text: Year in review search reports
         href: "/about/updates/year-in-review/"
   - text: Get started
-    href: /get-started/
+    href: "/get-started/account.html"
     links:
-      - text: Create Account and Sign In
+      - text: How to create an account and sign in
         href: "/get-started/account.html"
-      - text: Site launch guide
+      - text: How to go live with Search.gov
         href: "/get-started/site-launch-guide.html"
-      - text: Search.gov for Cloud.gov Pages
-        href: "/get-started/searchgov-for-cloudgov-pages.html"
-      - text: "Go-live checklist"
-        href: "/get-started/go-live.html"
       - text: An advanced approach to search engine optimization
         href: "/indexing/an-advanced-approach-to-seo.html"
   - text: Manage your search site
@@ -86,7 +82,7 @@ primary:
   - text: Support
     href: "/support.html"
     links:
-      - text: For developers
+      - text: Resources for developers
         href: /developer/
       - text: System status
         href: "/status.html"

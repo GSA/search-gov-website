@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Edit Your Domains
+title: How to add your domains
 category: admin-center
 tags: help-manual manage-content domains
 date: April 18, 2017
@@ -12,6 +12,8 @@ redirect_from:
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Domains
+
+We can only index publicly accessible content. You cannot use Search.gov for secure content, including intranets.
 
 ## How to include content
 
@@ -46,3 +48,11 @@ You can remove or filter specific URLs by:
 
 * Removing the page from your site and returning a 404 (Not Found), 401 (Gone), or 301 (Permanently Moved) HTTP status.
 * Adding a noindex robots metatag or x-robots tag. This blocks them from all crawlers that follow the robots exclusion protocol.
+
+## Optimize your search results
+
+We follow [search engine optimization (SEO)](https://digital.gov/topics/search-engine-optimization) best practices. 
+
+Create a [robots.txt file](https://digital.gov/resources/introduction-robots-txt-files) and [XML sitemap](https://search.gov/indexing/sitemaps.html) to optimize your search results.
+
+Also make sure your robots.txt file allows our user agent (`usasearch`) to access your content.
