@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Checklist for a Successful Website Redesign
-crumbname: Redesign Guide
+title: Checklist for a successful website redesign
+crumbname: Redesign checklist
 category: admin-center
 redirect_from: 
   - /blog/redesign.html
   - /manual/redesign.html
 tags: seo site-launch indexing
 date: August 30, 2019
-last_modified_at: June 27, 2025
+last_modified_at: June 29, 2025
 #subnav:
   #data: indexing
 
@@ -33,7 +33,7 @@ We often receive questions when an agency conducts a major website upgrade, chan
 
 **What:** [Email us](mailto:search@gsa.gov) to let us know that you’re working on a redesign of your website. If we know ahead of time, we can help you get your new search experience prepped and in good shape on the day of the relaunch. When you reach out to us, include the planned launch date.
 
-It’s important to plan ahead, because if there are any changes to your site structure, your search results will break, which will lead to frustration for the public as they try to use your new site. This is true for our service, and out on Google and Bing. To avoid an avalanche of `404 not found` errors from your search results, wherever possible, use 301 redirects to send visitors from the old pages to the appropriate new pages. For more on 301 redirects, read tips from [Bing](http://blogs.bing.com/webmaster/2011/10/06/managing-redirects-301s-302s-and-canonicals/) and [Google](https://support.google.com/webmasters/answer/93633). Notify other websites that link to you of the changes.
+It’s important to plan ahead, because if there are any changes to your site structure, your search results will break, which will lead to frustration for the public as they try to use your new site. To avoid `404 not found` errors from your search results, use `301` redirects to send visitors from the old pages to the appropriate new pages. Also notify other websites that link to you of the changes.
 
 
 {: #develop-plan }
@@ -126,13 +126,13 @@ At this point, the work splits into two parallel tracks, with your team and ours
 **What:** We complete several backend tasks
 * Switch your production search site to use the new index, which will begin empty for your domain(s).
 * Tell our indexer to begin working on your domain(s).
-  * The time it takes to get your content indexed depends on the number of items you have, and whether you have a crawl delay declared in your `/robots.txt` file. Generally speaking, a few hundred items should be done in an hour or two, a few thousand items should be done in several hours, etc. 
+  * The time it takes to get your content indexed depends on the number of items you have, and whether you have a crawl delay declared in your [robots.txt file](https://digital.gov/resources/introduction-robots-txt-files). Generally speaking, a few hundred items should be done in an hour or two, a few thousand items should be done in several hours, etc. 
 
 {: #results-show }
 
 ### 9. Results begin to show
 
-**What:** Our indexer will first read your sitemap, collect the urls, and then work through them in the order they were collected. We will work at the crawl delay set in your `/robots.txt` file, or 1 request per second, whichever is slower. This delay is the time after we’ve rendered a page, before requesting the next page to render.
+**What:** Our indexer will first read your XML sitemap, collect the URLs, and then work through them in the order they were collected. We will work at the crawl delay set in your robots.txt file, or one request per second, whichever is slower. This delay is the time after we have rendered a page, before requesting the next page to render.
 
 ## Victory lap
 

@@ -12,7 +12,7 @@
 
 The Search.gov website serves as an educational resource and help manual for those using our service to power their site search. This website is based off of the [Cloud.gov Pages Jekyll template](https://github.com/cloud-gov/pages-uswds-jekyll).
 
-This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.meritalk.com/articles/senate-passes-idea-act/). The standards require that a website or digital service:
+This project strives to be compliant with requirements set by [21st Century IDEA](https://digital.gov/resources/delivering-digital-first-public-experience):
 
 - is accessible to individuals with disabilities;
 - has a consistent appearance;

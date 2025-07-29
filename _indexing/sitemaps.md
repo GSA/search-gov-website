@@ -1,103 +1,98 @@
 ---
-last_modified_at: June 27, 2025
+last_modified_at: July 29, 2025
 crumbname: Sitemaps
 layout: page
-title: XML Sitemaps
+title: An introduction to XML sitemaps
 redirect_from:
-  - /blog/sitemaps.html
-  - /manual/sitemaps.html
+  - "/blog/sitemaps.html"
+  - "/manual/sitemaps.html"
 #subnav:
   #data: indexing
 date: January 17, 2020
 tags: sitemaps indexing
 category: admin-center
 ---
-An XML sitemap is a formatted file containing a list of URLs on a website. It provides information that allows a search engine to index your website more intelligently, and to keep its search index up to date. 
+**Understand how and why to create an XML sitemap**
 
-XML sitemaps tell search engines what URLs are on a website and what new content needs to be picked up. They may also provide additional metadata about each URL, such as the last modified date, which signals to the engine to update the index record for that page.  
+## What is an XML sitemap?
 
-Search.gov uses XML sitemaps to tell us what URLs should be in our index and when a URL has been updated. Publishing an XML sitemap will also optimized your sites for search engines.
+An XML sitemap is a XML file that lists the URLs on a website. Search engines use XML sitemaps as a roadmap to efficiently discover, crawl, and index content on a website.
 
-Example: [https://search.gov/sitemap.xml]({{ site.baseurl }}/sitemap.xml)
+Visit [https://www.gsa.gov/sitemap.xml](https://www.gsa.gov/sitemap.xml) to see an example of a well-structured XML sitemap on a federal government website.
 
-## What content should be on XML sitemap?
+## Why is an XML sitemap important?
 
-Some sitemaps are comprehensive, but for very large sites you may need to publish several sitemaps. Each sitemap should be no more than 50MB or 50,000 URLs, whichever comes first. You do not need to add URLs of content you want to remain unsearchable.
+When you have an XML sitemap on your website, the public can more easily find your agency's content on search engines.
 
-**Note** that an HTML formatted file listing the pages of a site is more akin to an index page, and is not the same as an XML sitemap. HTML files are human friendly, but not machine friendly, and Search engines need an xml formatted file in order to leverage the information for indexing work.
+This file is crucial because it provides search engines with a comprehensive list of URLs on your website. It also tells search engines what new and updated content they need to crawl and index. 
 
-## More than one web platform? Use multiple sitemaps.
+## How to create an XML sitemap
 
-It's common for agencies to use more than one platform to publish their websites. For instance, a CMS was launched, but some content is still on the legacy site's platform. In this case, use available plugins for the CMS's in your environment to auto-generate sitemaps for that content. Manually generate a sitemap for any static content. You can publish a [sitemap index file](https://www.sitemaps.org/protocol.html#index)  that lists the locations of all your specific sitemaps, or you can list all your sitemaps on your robots.txt file.
+Most content management systems have plugins that you can use to publish XML sitemaps.
 
-## How do search engines find my sitemap(s)?
+Refer to the [Sitemap Protocol on sitemaps.org](http://www.robotstxt.org/robotstxt.html) for detailed information on how and where to create your XML sitemap. Key points include:
 
-Sitemaps (or the [sitemap index](https://www.sitemaps.org/protocol.html#index) ) should be listed in your site’s robots.txt file, i.e.:  
-`Sitemap: https://www.example.gov/sitemap_1.xml`  
-`Sitemap: https://www.example.gov/sitemap_2.xml`  
+* Place the XML sitemap at the root of your domain and any subdomains. Each subdomain needs its own file.
+* Point to the XML sitemap from your robots.txt file.
+* Replace any special characters by escaping them using HTML entities. For example, use `&quot;` for `"` and `&amp;` for `&`.
+* Save the XML sitemap file as UTF-8 encoded.
+* Do not exceed 50,000 URLs or a file size of 50MB, whichever comes first. 
 
-List the appropriate sitemap(s) for the domain or subdomain. `www.example.gov/robots.txt` would list sitemaps for content in the `www` subdomain, while `forms.example.gov/robots.txt` would list sitemaps for the `forms` subdomain.
+If you have any pages you do not want to be found on search engines, do not include these URLs in your XML sitemap.  
 
-Read more about [robots.txt files]({{ site.baseurl }}/indexing/robotstxt.html), and take a look at ours: [https://search.gov/robots.txt]({{ site.baseurl }}/robots.txt)
+### Format the XML sitemap properly
 
-## What should my XML sitemap look like?
-
-Please refer to the official [sitemaps protocol](https://www.sitemaps.org/protocol.html)  for full information on how a sitemap should be structured.
-
-When publishing your sitemap, be sure it begins with an `<xml>` declaration, and that the URLs are enclosed in opening and closing tags. To take a simplified example:
+When publishing your XML sitemap, be sure to include an `<xml>` declaration and opening and closing tags for each URL. The three required tags are `<urlset>`, `<url>`, and `<loc>`.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset>
 <url>
-<loc>https://example.gov/blog/file1.html</loc>
-<lastmod>2018-03-19T00:00:00+00:00</lastmod>
+<loc>https://www.gsa.gov/staff-directory</loc>
+<lastmod>2025-02-10</lastmod>
 </url>
 <url>
-<loc>https://example.gov/policy/new-policy.html</loc>
-<lastmod>2018-03-27T00:00:00+00:00</lastmod>
+<loc>https://www.gsa.gov/about-us/newsroom</loc>
+<lastmod>2025-07-16</lastmod>
 </url>
 </urlset>
 ```
-If you use multiple sitemaps, then you'll need to use a [sitemap index](https://www.sitemaps.org/protocol.html#index) , along these lines:
+
+Also [escape special characters](https://www.sitemaps.org/protocol.html#escaping) so search engines can process them.
+
+### Include optional metadata
+
+There are three optional tags that you may want to use: `<lastmod>`, `<changefreq>`, and `<priority>`.
+
+Of these three tags, the `<lastmod>` tag is the most common. You can use it to share the last modified date with search engines to they know when a page is updated and needs to be reindexed.
+
+### Point to XML sitemaps from your robots.txt file
+
+List the location of your XML sitemaps in your [robots.txt file](https://digital.gov/resources/introduction-robots-txt-files). 
+
+```
+# Sitemaps
+Sitemap: https://www.usa.gov/sitemap.xml
+```
+
+For large sites, you may need to publish several XML sitemaps. You can publish a [sitemap index file](https://www.sitemaps.org/protocol.html#index) or list all the XML sitemaps in your robots.txt file. 
+
+**Sitemap index file**
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex>
-<sitemap>https://example.gov/sitemap.xml?page=1</sitemap>
-<sitemap>https://example.gov/sitemap.xml?page=2</sitemap>
+<sitemap>https://uscis.gov/sitemap.xml?page=1</sitemap>
+<sitemap>https://uscis.gov/sitemap.xml?page=2</sitemap>
+<sitemap>https://uscis.gov/sitemap.xml?page=3</sitemap>
 </sitemapindex>
 ```
-Importantly, be sure that any [special characters in your URLs are escaped](https://www.sitemaps.org/protocol.html#escaping)  so the search engines will know how to read them.
 
-## What metadata does Search.gov require for each XML sitemap URL?
+**Robots.txt file listing multiple XML sitemaps**
 
-The sitemap protocol defines [required and optional XML tags](https://www.sitemaps.org/protocol.html#xmlTagDefinitions)  for each URL. We recommend including the `<lastmod>` value (the date of last modification of the file) whenever possible, to indicate when a file has been updated and needs to be re-indexed. 
-
-We do not have plans to support the `<priority>` tag, which is [no longer used](https://www.seroundtable.com/google-priority-change-frequency-xml-sitemap-20273.html)  by search engines like Google. We may support the `<changefreq>` tag in the future, but the `<lastmod>` tag is more accurate and supported by more search engines.
-
-## How can I create an XML sitemap?
-
-Most content management systems provide tools to generate a sitemap and keep it updated. Below are some tools that we recommend:
-
-### Drupal
-[XML Sitemap Module](https://www.drupal.org/project/xmlsitemap) 
-
-[Simple XML Sitemap Module](https://www.drupal.org/project/simple_sitemap) and [patch to include static files](https://www.drupal.org/files/issues/2021-06-30/simple_sitemap-files-support-2947456-29.patch)
-
-### Wordpress
-[Yoast SEO Plugin](https://wordpress.org/plugins/wordpress-seo/) 
-
-[Google Sitemap Plugin](https://wordpress.org/plugins/google-sitemap-generator/) 
-
-### Wagtail
-[Sitemap Generator](http://docs.wagtail.io/en/latest/reference/contrib/sitemaps.html) 
-
-### Github Pages (Jekyll)
-[Jekyll Sitemap gem](https://help.github.com/articles/sitemaps-for-github-pages/)
-
-## Sitemap checklist
-1. One or more sitemaps have been created
-1. The URLs in the sitemap have been reviewed (clean URLs, only includes URLs that should be searchable)
-1. Each sitemap’s XML format has been validated 
-1. Each sitemap (or a sitemap index) is listed in the site’s robots.txt file
+```
+# Sitemaps
+Sitemap: https://www.uscis.gov/sitemap.xml?page=1
+Sitemap: https://www.uscis.gov/sitemap.xml?page=2
+Sitemap: https://www.uscis.gov/sitemap.xml?page=3
+```

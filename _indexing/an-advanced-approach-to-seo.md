@@ -1,14 +1,15 @@
 ---
 layout: page
-title: How to get search engines to index the right content for better discoverability
-crumbname: Better Discoverability
+title: An advanced approach to search engine optimization
+crumbname: Advanced SEO
 category: admin-center
 redirect_from: 
   - "/blog/how-search-engines-index-content-better-discoverability.html"
-  - /manual/how-search-engines-index-content-better-discoverability.html
+  - "/manual/how-search-engines-index-content-better-discoverability.html"
+  - "/indexing/how-search-engines-index-content-better-discoverability.html"
 tags: indexing seo
 date: February 27, 2020
-last_modified_at: February 27, 2020
+last_modified_at: July 29, 2025
 #subnav:
   #data: indexing
 ---
@@ -208,12 +209,3 @@ Specifics about the event.
 Various scripts, etc.
 </body>
 ```
-
-## Resources
-
-* [HTML <main> Tag](https://www.w3schools.com/tags/tag_main.asp)  - accessed October 10, 2018.
-* [Robots meta tag and X-Robots-Tag HTTP header specifications
-](https://developers.google.com/search/reference/robots_meta_tag)  - accessed October 10, 2018.
-* [rel=canonical: the ultimate guide
-](https://yoast.com/rel-canonical/)  - accessed October 10, 2018.
-* [Consolidate duplicate URLs: Define a canonical page for similar or duplicate pages](https://support.google.com/webmasters/answer/139066?hl=en)  - accessed October 10, 2018.

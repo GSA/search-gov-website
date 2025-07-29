@@ -4,7 +4,7 @@ title: How to Edit Your Domains
 category: admin-center
 tags: help-manual manage-content domains
 date: April 18, 2017
-last_modified_at: July 11, 2025
+last_modified_at: July 29, 2025
 #subnav:
   #data: admin_center
 redirect_from:
@@ -37,7 +37,7 @@ List `yoursite.gov/folder` to include folders. This will include all subfolders,
 
 You can exclude specific subdomains or folders by:
 
-* Listing the excluded subdomains or folders in your [robots.txt](http://www.robotstxt.org) file. This blocks them from all crawlers that follow the robots exclusion protocol.
+* Listing the excluded subdomains or folders in your [robots.txt](https://digital.gov/resources/introduction-robots-txt-files) file. This blocks them from all crawlers that follow the robots exclusion protocol.
 * Excluding them by omission. For example, to exclude subdomain3, list only `subdomain1.yoursite.gov`, `subdomain2.yoursite.gov`, and `subdomain4.yoursite.gov`.
 
  ### Excluding URLs</a>
@@ -45,4 +45,4 @@ You can exclude specific subdomains or folders by:
 You can remove or filter specific URLs by:
 
 * Removing the page from your site and returning a 404 (Not Found), 401 (Gone), or 301 (Permanently Moved) HTTP status.
-* Adding a [noindex robots metatag or x-robots tag](https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag?csw=1). This blocks them from all crawlers that follow the robots exclusion protocol.
+* Adding a noindex robots metatag or x-robots tag. This blocks them from all crawlers that follow the robots exclusion protocol.

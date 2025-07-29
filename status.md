@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Search.gov System Status
+title: System status
 tags: status support help
 description: This page provides the current operating status of the Search.gov system.
 last_modified_at: May 23, 2024
@@ -8,7 +8,7 @@ last_modified_at: May 23, 2024
   #data: support
 ---
 
-## Current Status
+## Current status
 
 <!-- Uncomment the block below to post the first message once an issue is reported. The timestamp will update based on when the site builds in Cloud.gov Pages. When we have more information, comment the "Potential Degradation" back out and add a new update with the determined degradation status and manually entered timeframe. -->
 <!--
@@ -43,8 +43,6 @@ Details:
 <img src="{{ site.url }}/img/usa-icons/error_outline.svg" style="margin-bottom: -.25rem;" alt="Alert icon">&nbsp;&nbsp; Planned Maintenance<br /> 
 We will be doing an infrastructure cutover between 5pm and 10pm ET today, December 4, 2024. We do not anticipate any interruptions to service. Please reach out to search@gsa.gov if you encounter any issues. 
 --> 
-
-
 
 ## Legend
 
