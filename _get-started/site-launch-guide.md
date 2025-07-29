@@ -20,13 +20,13 @@ To customize the search experience for your website, you need to [create a new s
 
 ## Step 2. Add domains
 
-After creating the new site, you need to add the domains for the content you want included in the search results. You can add one or more domains in the `Content` section of the [Admin Center](https://search.usa.gov/sites).
+After creating the new site, you need to add the domains for the content you want included in the search results. You can add one or more domains in the Content section of the [Admin Center](https://search.usa.gov/sites).
 
 Review [how to add your domains]({{ site.baseurl }}/admin-center/content/domains.html) for more information.
 
 ## Step 3. Manage other content (optional)
 
-We offer several other ways to manage the content on your results page. You can set up collections, best bets, and routed queries in the `Content` section of the [Admin Center](https://search.usa.gov/sites).
+We offer several other ways to manage the content on your results page. You can set up collections, best bets, and routed queries in the Content section of the [Admin Center](https://search.usa.gov/sites).
 
 * Use [collections]({{ site.baseurl }}/admin-center/content/collections.html) to search a narrower or broader scope then the default results page.  
 * Use [best bets]({{ site.baseurl }}/admin-center/content/best-bets.html) to promote specific pages at the top of your search results.
@@ -34,13 +34,13 @@ We offer several other ways to manage the content on your results page. You can 
 
 ## Step 4. Design the results page
 
-There are several options you can use to make the results page match the design of your website. You can set fonts and colors and upload your logo in the `Display` section of the [Admin Center](https://search.usa.gov/sites).
+There are several options you can use to make the results page match the design of your website. You can set fonts and colors and upload your logo in the Display section of the [Admin Center](https://search.usa.gov/sites).
 
 You can also add header and footer links to support navigation between your website and the search results page to create a more seamless experience.
 
-If you created any collections, you will select the option to display them on the `Display overview` page in the [Admin Center](https://search.usa.gov/sites).
+If you created any collections, you will select the option to display them on the Display overview page in the [Admin Center](https://search.usa.gov/sites).
 
-Use the `Preview` option in the [Admin Center](https://search.usa.gov/sites) to preview the design.
+Use the Preview option in the [Admin Center](https://search.usa.gov/sites) to preview the design.
 
 Review [how to design your results page]({{ site.baseurl }}/admin-center/display/brand.html) for more information.
 
@@ -48,7 +48,7 @@ Review [how to design your results page]({{ site.baseurl }}/admin-center/display
 
 When you are ready to go live, you will need to modify the form code for the search box on your website. You will likely need to work with your technical team for this step.
 
-We provide this form code in the `Activate` section of the [Admin Center](https://search.usa.gov/sites).  
+We provide this form code in the Activate section of the [Admin Center](https://search.usa.gov/sites).  
 
 	<form accept-charset="UTF-8" 
 	action="https://search.usa.gov/search" 
@@ -83,4 +83,6 @@ If you use [Cloud.gov Pages](https://cloud.gov/pages/), you will also need to up
 * Delete the value in the `access_key` line.
 * Set the `inline` value to `false`.
 
-When you're ready to go live, [email us]({{ site.baseurl }}/support.html) so we can index your content.
+Please [contact the Pages support team](https://cloud.gov/pages/contact/) if you need help making these updates. 
+
+Then, when you're ready to go live, [email the Search.gov team](mailto:search@gsa.gov) so we can index your content.

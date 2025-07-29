@@ -11,9 +11,9 @@ redirect_from:
     - /manual/account.html
 ---
 
-Welcome! We are glad you are considering using Search.gov &mdash; a search engine built by government, for government. 
+Welcome! We are glad you are considering using Search.gov &mdash; the search engine built by government, for government. 
 
-You can use Search.gov to power the search results on your federal website at cost. The first thing you need to do to use Search.gov is to create an account. 
+You can use Search.gov to power the search results on your federal website at cost. To use Search.gov, the first thing you need to do is to create an account. 
 
 ## Create an account
 
@@ -39,7 +39,7 @@ We use Login.gov to allow you to sign in to your account safely and securely. Fo
 
 ### Reset your password
 
-Login.gov manages all passwords. If you forgot your password, follow the tips on how to [reset your password on Login.gov](https://login.gov/help/trouble-signing-in/overview/)].
+Login.gov manages all passwords. If you forgot your password, follow the tips on how to [reset your password on Login.gov](https://login.gov/help/trouble-signing-in/overview/).
 
 ### Connect your account
 
@@ -62,5 +62,4 @@ By voluntarily using Search.gov you are agreeing to our [terms of service]({{ si
 As a Search.gov customer, you can get started by:
 
 * Creating a [new site](https://search.usa.gov/sites/new) or managing an [existing site](https://search.usa.gov/user_sites) in the Admin Center.
-* Reviewing our [go-live checklist]({{ site.baseurl }}/get-started/go-live.html) for helpful tips on how to optimize your sites.
-* Following our [site launch guide]({{ site.baseurl }}/get-started/site-launch-guide.html) to prepare for launch.
+* Following our tips on [how to go live with Search.gov]({{ site.baseurl }}/get-started/site-launch-guide.html).
