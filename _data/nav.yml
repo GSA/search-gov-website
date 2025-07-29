@@ -1,12 +1,12 @@
 primary:
-  - text: About Us
+  - text: About Search.gov
     href: /about/
     links:
-      - text: Terms of Service
+      - text: Terms of service
         href: "/about/tos.html"
-      - text: Year in Review Reports
+      - text: Year in review search reports
         href: "/about/updates/year-in-review/"
-  - text: Get Started
+  - text: Get started
     href: /get-started/
     links:
       - text: Create Account and Sign In
@@ -81,31 +81,12 @@ primary:
         links:
           - text: Code Snippets
             href: "/admin-center/activate/code.html"
-  - text: Index with Search.gov
-    href: "/indexing/what-searchgov-indexes.html"
-    links: 
-      - text: What Search.gov Indexes From Your Website
-        href: "/indexing/what-searchgov-indexes.html"
-      - text: How Search.gov Ranks Your Search Results
-        href: "/indexing/ranking-factors.html"
-      - text: How a Page on a Sitemap Becomes a Search Result
-        href: "/indexing/sitemaps-to-search-sites.html"
-      - text: A Step-By-Step Indexing Workflow
-        href: "/indexing/indexing-workflow.html"
-      - text: Metadata and Tags You Should Include in Your Website
-        href: "/indexing/metadata.html"
-      - text: How to improve PDF discoverability
-        href: "/indexing/pdf-metadata.html"
-      - text: How to Get Search Engines to Index the Right Content for Better Discoverability
-        href: "/indexing/how-search-engines-index-content-better-discoverability.html"
-      - text: Website Redesign Tips
-        href: "/indexing/redesign.html"
   - text: Support
-    href: /support.html
     links:
-      - text: Support
-        href: "/support.html"
-      - text: System Status
+      - text: An advanced approach to search engine optimization
+        href: "/indexing/how-search-engines-index-content-better-discoverability.html"
+      - text: For developers
+        href: /developer/
+      - text: System status
         href: "/status.html"
-  - text: For Developers
-    href: /developer/
+        

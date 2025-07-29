@@ -4,8 +4,8 @@ crumbname: Sitemaps
 layout: page
 title: An introduction to XML sitemaps
 redirect_from:
-  - /blog/sitemaps.html
-  - /manual/sitemaps.html
+  - "/blog/sitemaps.html"
+  - "/manual/sitemaps.html"
 #subnav:
   #data: indexing
 date: January 17, 2020

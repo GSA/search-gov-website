@@ -1,10 +1,10 @@
 ---
 layout: page
-title: How to Create an Account and Sign In
+title: How to create an account and sign in
 category: admin-center
 tags: help-manual my-account
 date: June 23, 2020
-last_modified_at: June 30, 2025
+last_modified_at: July 29, 2025
 #subnav:
   #data: get_started
 redirect_from:
@@ -13,10 +13,9 @@ redirect_from:
 
 {% include featured-accordion.html content="add-users, access-existing-site" accordion=true %}
 
-
 [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites) > My Account
 
-## Create an Account {#sign-up}
+## Create an account {#sign-up}
 
 Register for a new account at <https://search.usa.gov/signup>
 
@@ -34,7 +33,7 @@ If you have a .gov or .mil address, you'll be able to access your account immedi
 
 If you don't have a .gov or .mil address, we'll ask for additional information to confirm that you're a government employee or contractor. We'll notify you when your account is approved.
 
-## Sign In {#login}
+## Sign in {#login}
 
 Sign in to an existing account at <https://search.usa.gov/login>. 
 
@@ -47,6 +46,6 @@ If you've previously logged in to Login.gov using an email address different fro
 
 <img src="{{ site.url }}/assets/img/site/login_gov-add-email.png" width="500px" alt="Screenshot of Login.gov account page showing where to find the 'Add email' button" title="Add another email in Login.gov">
 
-## Forgot Your Password? {#forgot-password}
+## Reset your password {#forgot-password}
 
-All passwords are now managed through Login.gov, so please use their password reset process at [https://secure.login.gov/manage/password](https://secure.login.gov/manage/password).
+All passwords are managed through Login.gov. Follow the tips on how to [reset your password on Login.gov](https://login.gov/help/trouble-signing-in/overview/)].

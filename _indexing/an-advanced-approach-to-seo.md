@@ -1,14 +1,15 @@
 ---
 layout: page
-title: How to get search engines to index the right content for better discoverability
-crumbname: Better Discoverability
+title: An advanced approach to search engine optimization
+crumbname: Advanced SEO
 category: admin-center
 redirect_from: 
   - "/blog/how-search-engines-index-content-better-discoverability.html"
-  - /manual/how-search-engines-index-content-better-discoverability.html
+  - "/manual/how-search-engines-index-content-better-discoverability.html"
+  - "/indexing/how-search-engines-index-content-better-discoverability.html"
 tags: indexing seo
 date: February 27, 2020
-last_modified_at: February 27, 2020
+last_modified_at: July 29, 2025
 #subnav:
   #data: indexing
 ---

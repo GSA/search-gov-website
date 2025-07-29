@@ -1,19 +1,17 @@
 ---
 layout: page
-title: Get Started With Search.gov
+title: Get started with Search.gov
 tags: get-started about
 date: March 4, 2021
-last_modified_at: June 27, 2025
+last_modified_at: July 29, 2025
 #subnav:
   #data: get_started
 permalink: /get-started/
 ---
 
-## Welcome
-
 Search.gov is a search engine built by government, for government, available at no cost to federal agencies. This page provides information on what we offer and how it all works.
 
-## Learn How Our Service Can Work For Your Site
+## Learn how our service can work for your site
 
 * [Why Choose Search.gov?]({{ site.baseurl }}/about/why-choose-searchgov.html) Check out the advantages of using our service over commercial search engines.
 * Learn how Search.gov indexes your content:
@@ -25,7 +23,7 @@ Search.gov is a search engine built by government, for government, available at 
 * Review our [Search Site Launch Guide]({{ site.baseurl }}/get-started/site-launch-guide.html), a step by step guide that takes you through everything you need to do to start using our service.
 * [Learn what search features are available through our different results page options]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html)
 
-## Get Search.gov For Your Site
+## Get Search.gov for your site
 
 If you're ready to start using our service as your search solution, please:
 

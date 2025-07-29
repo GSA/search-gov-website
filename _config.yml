@@ -72,33 +72,27 @@ dap:
 
 # Site Navigation
 primary_navigation:
-  - name: About Us
+  - name: About Search.gov
     children:
-      - name: About Us
+      - name: About Search.gov
         url: "/about/"
-      - name: Terms of Service
+      - name: Terms of service
         url: "/about/tos.html"
-      - name: Year in Review Reports
+      - name: Year in review search reports
         url: "/about/updates/year-in-review/"
-  - name: Get Started
+  - name: Get started
     children:
-      - name: Get Started With Search.gov
+      - name: Get started with Search.gov
         url: "/get-started/"
-      - name: Create Account and Sign In
+      - name: How to create an account and sign in
         url: "/get-started/account.html"
       - name: Site Launch Guide
         url: "/get-started/site-launch-guide.html"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
-      - name: Results Page Feature Comparison
-        url: "/admin-center/display/hosted-vs-api-results.html"
       - name: Cloud.gov Pages Integration
         url: "/get-started/searchgov-for-cloudgov-pages.html"
-      - name: Training and Resources
-        url: "/get-started/learn.html"
-      - name: Website Redesign Tips
-        url: "/indexing/redesign.html"
-  - name: Manage Your Search Site
+  - name: Manage your search site
     children:
       - name: Full Help Manual
         url: "/admin-center/index.html"
@@ -112,30 +106,17 @@ primary_navigation:
         url: "/admin-center/analytics/index.html"
       - name: Add Search Features
         url: "/get-started/site-launch-guide.html#add-features"
-      - name: Website Redesign Tips
-        url: "/indexing/redesign.html"
-  - name: Index With Search.gov
-    children:
-      - name: Start Here
-        url: "/indexing/indexing-with-searchgov.html"
-      - name: What We Index
-        url: "/indexing/what-searchgov-indexes.html"
-      - name: Relevance Ranking
-        url: "/indexing/ranking-factors.html"
-      - name: How a Page Becomes a Search Result
-        url: "/indexing/sitemaps-to-search-sites.html"
-      - name: Indexing Step-By-Step
-        url: "/indexing/indexing-workflow.html"
-      - name: Metadata and Tags
-        url: "/indexing/metadata.html"
-      - name: "PDF Metadata"
-        url: "/indexing/pdf-metadata.html"
-      - name: Website Redesign Tips
-        url: "/indexing/redesign.html"
+      - name: Results Page Feature Comparison
+        url: "/admin-center/display/hosted-vs-api-results.html"
   - name: Support
-    url: "/support.html"
-  - name: For Developers
-    url: "/developer/"
+    children:
+      - name: An advanced approach to search engine optimization
+        url: "/indexing/how-search-engines-index-content-better-discoverability.html"
+      - name: For developers
+        url: "/developer/"
+      - name: System status
+        url: "/status.html"
+
 # END Site Navigation
 
 # Sidebar configuration
