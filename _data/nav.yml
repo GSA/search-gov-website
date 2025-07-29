@@ -11,12 +11,14 @@ primary:
     links:
       - text: Create Account and Sign In
         href: "/get-started/account.html"
-      - text: Site Launch Guide
+      - text: Site launch guide
         href: "/get-started/site-launch-guide.html"
       - text: Search.gov for Cloud.gov Pages
         href: "/get-started/searchgov-for-cloudgov-pages.html"
-      - text: "Going live with Search.gov: Checklist"
+      - text: "Go-live checklist"
         href: "/get-started/go-live.html"
+      - text: An advanced approach to search engine optimization
+        href: "/indexing/an-advanced-approach-to-seo.html"
   - text: Manage your search site
     href: /admin-center/
     links:
@@ -84,8 +86,6 @@ primary:
   - text: Support
     href: "/support.html"
     links:
-      - text: An advanced approach to search engine optimization
-        href: "/indexing/an-advanced-approach-to-seo.html"
       - text: For developers
         href: /developer/
       - text: System status

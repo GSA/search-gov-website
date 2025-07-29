@@ -86,12 +86,14 @@ primary_navigation:
         url: "/get-started/"
       - name: How to create an account and sign in
         url: "/get-started/account.html"
-      - name: Site Launch Guide
+      - name: Site launch guide
         url: "/get-started/site-launch-guide.html"
-      - name: "Going live with Search.gov: Checklist"
+      - name: "Go-live checklist"
         url: "/get-started/go-live.html"
-      - name: Cloud.gov Pages Integration
+      - name: Cloud.gov pages integration
         url: "/get-started/searchgov-for-cloudgov-pages.html"
+      - name: An advanced approach to search engine optimization
+        url: "/indexing/an-advanced-approach-to-seo.html"
   - name: Manage your search site
     children:
       - name: Full Help Manual
@@ -110,8 +112,6 @@ primary_navigation:
         url: "/admin-center/display/hosted-vs-api-results.html"
   - name: Support
     children:
-      - name: An advanced approach to search engine optimization
-        url: "/indexing/an-advanced-approach-to-seo.html"
       - name: For developers
         url: "/developer/"
       - name: System status
