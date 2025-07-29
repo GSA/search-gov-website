@@ -11,41 +11,55 @@ redirect_from:
     - /manual/account.html
 ---
 
-{% include featured-accordion.html content="add-users, access-existing-site" accordion=true %}
+Welcome! We are glad you are considering using Search.gov &mdash; the search engine built by government, for government. 
 
-[Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites) > My Account
+You can use Search.gov to power the search results on your federal website at cost. To use Search.gov, the first thing you need to do is to create an account. 
 
-## Create an account {#sign-up}
+## Create an account
 
-Register for a new account at <https://search.usa.gov/signup>
+To create a new Search.gov account, go to <https://search.usa.gov/signup>. 
 
-Access to our service requires agreement with our [Terms of Service]({{ site.baseurl }}/tos.html) and verification that you're a federal government employee or contractor acting within the scope of your government contract. You must use a .gov or .mil address. 
+You must use your official government email account, in most cases a .gov or .mil account.
 
-Search.gov uses Login.gov for secure access to our system.
+We use Login.gov to allow you to sign in to your account safely and securely. Follow the prompts to sign in with your existing Login.gov account or to create a new account. 
 
-You will first need to register with Login.gov, and you'll receive an automatic email from them. Click on the link in the email to verify that your email address belongs to you. You'll need to provide them with a second method of authentication, such as a PIV/CAC card or a phone number.
+Then, check your inbox for an email from Login.gov to verify your email. 
 
-**Important note about Login.gov:** If you already registered with them with a different email address, for instance your personal email address for use with USAJOBS, you will need to log in to Login.gov, and on https://secure.login.gov/account use the `Add email` button in the upper right to add the government email address that you use with Search.gov.
+In addition to your password, Login.gov requires that you set up at least one authentication method to keep your account secure. Learn more about their [authentication methods on Login.gov](https://login.gov/help/get-started/authentication-methods/).
 
-<img src="{{ site.url }}/assets/img/site/login_gov-add-email.png"  width="500px" alt="Screenshot of Login.gov account page showing where to find the 'Add email' button" title="Add another email in Login.gov">
+If you run into any issues setting up your Login.gov account, visit their help center for more information on how to [get started with Login.gov](https://login.gov/help/get-started/overview/).
 
-If you have a .gov or .mil address, you'll be able to access your account immediately after you verify your email.
+## Sign in
 
-If you don't have a .gov or .mil address, we'll ask for additional information to confirm that you're a government employee or contractor. We'll notify you when your account is approved.
+To sign in and access the Admin Center, go to <https://search.usa.gov/sites>.
 
-## Sign in {#login}
+We use Login.gov to allow you to sign in to your account safely and securely. Follow the prompts to sign in with your existing account. 
 
-Sign in to an existing account at <https://search.usa.gov/login>. 
+## Troubleshooting tips
 
-1. Acknowledge you are accessing a government system
-1. Sign in at Login.gov with your email address and password, and provide your second factor of authentication (PIV/CAC card, code receive via SMS, etc.) <br />
-<img src="{{ site.url }}/assets/img/site/login-gov-sign-in.png" width="500px" alt="Screenshot showing Login.gov sign in page" title="Sign in to Login.gov">
-1. You will be returned to your Account page in Search.gov &mdash; use the `Select a Site` dropdown menu in the upper left to access your search configurations.
+### Reset your password
 
-If you've previously logged in to Login.gov using an email address different from the one you use to access Search.gov, go to https://secure.login.gov/account and use the `Add email` button in the upper right to add the government email address that you use with Search.gov.
+Login.gov manages all passwords. If you forgot your password, follow the tips on how to [reset your password on Login.gov](https://login.gov/help/trouble-signing-in/overview/).
 
-<img src="{{ site.url }}/assets/img/site/login_gov-add-email.png" width="500px" alt="Screenshot of Login.gov account page showing where to find the 'Add email' button" title="Add another email in Login.gov">
+### Connect your account
 
-## Reset your password {#forgot-password}
+If your Login.gov account is associated with both your personal and government email accounts, you might need to fix which account is connected to Search.gov.
 
-All passwords are managed through Login.gov. Follow the tips on how to [reset your password on Login.gov](https://login.gov/help/trouble-signing-in/overview/)].
+[Sign in to Login.gov](https://secure.login.gov/) and then check the settings under [Connected Accounts](https://secure.login.gov/account/connected_accounts). 
+ 
+It should list your .gov or .mil account for Search.gov. If it lists your personal .com account, follow the prompts to change it to your government email account. 
+ 
+Then, [sign in to Search.gov](https://search.usa.gov/sites) again using your updated Login.gov account settings.
+
+## Terms of service
+
+You must be a federal government employee or contractor acting within the scope of your government contract to use Search.gov. 
+
+By voluntarily using Search.gov you are agreeing to our [terms of service]({{ site.baseurl }}/tos.html).
+
+## What can I do next?
+
+As a Search.gov customer, you can get started by:
+
+* Creating a [new site](https://search.usa.gov/sites/new) or managing an [existing site](https://search.usa.gov/user_sites) in the Admin Center.
+* Following our tips on [how to go live with Search.gov]({{ site.baseurl }}/get-started/site-launch-guide.html).

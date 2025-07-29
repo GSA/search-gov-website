@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Brand Your Results Page
+title: How to design your results page
 category: admin-center
 tags: help-manual manage-display font colors header footer
 date: August 13, 2015

@@ -82,16 +82,10 @@ primary_navigation:
         url: "/about/updates/year-in-review/"
   - name: Get started
     children:
-      - name: Get started with Search.gov
-        url: "/get-started/"
       - name: How to create an account and sign in
         url: "/get-started/account.html"
-      - name: Site launch guide
+      - name: How to go live with Search.gov
         url: "/get-started/site-launch-guide.html"
-      - name: "Go-live checklist"
-        url: "/get-started/go-live.html"
-      - name: Cloud.gov pages integration
-        url: "/get-started/searchgov-for-cloudgov-pages.html"
       - name: An advanced approach to search engine optimization
         url: "/indexing/an-advanced-approach-to-seo.html"
   - name: Manage your search site
@@ -112,7 +106,7 @@ primary_navigation:
         url: "/admin-center/display/hosted-vs-api-results.html"
   - name: Support
     children:
-      - name: For developers
+      - name: Resources for developers
         url: "/developer/"
       - name: System status
         url: "/status.html"
@@ -130,13 +124,13 @@ primary_navigation:
 # `sidenav` property is specified, no sidebar will appear on the page
 
 about_us:
-  - name: About Us
+  - name: About Search.gov
     url: /about/
     children:
-      - name: Year in Review Reports
-        url: "/about/updates/year-in-review/"
-      - name: Terms of Service
+      - name: Terms of service
         url: "/about/tos.html"
+      - name: Year in review search reports
+        url: "/about/updates/year-in-review/"
 
 admin_center:
   - name: Manage Your Site Search
@@ -161,17 +155,13 @@ admin_center:
         url: "/indexing/redesign.html"
 
 get_started:
-  - name: Get Started With Search.gov
-    url: "/get-started/"
+  - name: Get started with Search.gov
+    url: "/get-started/account.html"
     children:
-      - name: Sign Up
+      - name: How to create an account and sign in
         url: "/get-started/account.html"
-      - name: Site Launch Guide
+      - name: How to go live with Search.gov
         url: "/get-started/site-launch-guide.html"
-      - name: Search.gov for Cloud.gov Pages
-        url: "/get-started/searchgov-for-cloudgov-pages.html"
-      - name: "Going live with Search.gov: Checklist"
-        url: "/get-started/go-live.html"
   - name: Related Resources
     children:
       - name: Results Page Feature Comparison
@@ -179,41 +169,13 @@ get_started:
       - name: Website Redesign Tips
         url: "/indexing/redesign.html"
 
-
-indexing:
-  - name: Index With Search.gov
-    url: "/indexing/indexing-with-searchgov.html"
-    children:
-      - name: How Does Indexing Work?
-        children:
-          - name: What Search.gov Indexes From Your Website
-            url: "/indexing/what-searchgov-indexes.html"
-          - name: How Search.gov Ranks Your Search Results
-            url: "/indexing/ranking-factors.html"
-          - name: How a Page on a Sitemap Becomes a Search Result
-            url: "/indexing/sitemaps-to-search-sites.html"
-          - name: A Step-By-Step Indexing Workflow
-            url: "/indexing/indexing-workflow.html"
-          - name: How Search Engines Index Your Website (Webinar)
-            url: "/get-started/training.html#how-engines-index"
-      - name: Page Level SEO Supports
-        children:
-          - name: Metadata and Tags You Should Include in Your Website
-            url: "/indexing/metadata.html"
-          - name: How to improve PDF discoverability
-            url: "/indexing/pdf-metadata.html"
-          - name: How to Get Search Engines to Index the Right Content for Better Discoverability
-            url: "/indexing/how-search-engines-index-content-better-discoverability.html"
-  - name: Website Redesign Tips
-    url: "/indexing/redesign.html"
-
 support:
   - name: Support
     url: "/support.html"
-  - name: System Status
-    url: "/status.html"
-  - name: For Developers
+  - name: Resources for developers
     url: "/developer/"
+  - name: System status
+    url: "/status.html"
 
 # END sidebar configuration
 

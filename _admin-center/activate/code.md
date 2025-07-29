@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Activate Your Search by Adding Our Code Snippets to Your Website
+title: How to connect your search box to Search.gov
 category: admin-center
 tags: help-manual activate-search code-snippets
 date: October 13, 2020

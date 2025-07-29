@@ -1,7 +1,7 @@
 ---
 layout: page
-title: How to launch a search site
-crumbname: Site Launch Guide
+title: How to go live with Search.gov
+crumbname: Go-live steps
 category: admin-center
 tags: go-live site-launch indexing
 date: April 22, 2019
@@ -12,101 +12,77 @@ redirect_from:
     - /manual/site-launch-guide.html
 ---
 
-This page includes the basic steps you need to take to start using our service. If your website is planning to go or is already going through a redesign process, see our [checklist for a successful redesign]({{site.baseurl}}/indexing/redesign.html), content management migration, or both.
+After you have [created an account]({{ site.baseurl }}/get-started/account.html), follow these five steps to go live with Search.gov. 
 
-At Search.gov we aim to provide a self-service, plug and play search solution. This guide will walk you through everything you need to do, and let you know when to reach out to us. 
+## Step 1. Create a new site
 
-![Flow chart showing the steps involved in launching a search site on Search.gov]({{ site.baseurl }}/files/site-launch-workflow.png){: .img-responsive}
-[Site launch flow chart detailed description](#add-site)
+To customize the search experience for your website, you need to [create a new site](https://search.usa.gov/sites/new) in the [Admin Center](https://search.usa.gov/sites). Start by entering some basic details about your site, including its homepage and display name.
 
-[Open large version]({{ site.baseurl }}/files/site-launch-workflow.png)
+## Step 2. Add domains
 
-The basic seven steps follow.
+After creating the new site, you need to add the domains for the content you want included in the search results. You can add one or more domains in the Content section of the [Admin Center](https://search.usa.gov/sites).
 
-{: #add-site }
+Review [how to add your domains]({{ site.baseurl }}/admin-center/content/domains.html) for more information.
 
-## 1. Add a site
+## Step 3. Manage other content (optional)
 
-**Who:**  You, the agency web team
+We offer several other ways to manage the content on your results page. You can set up collections, best bets, and routed queries in the Content section of the [Admin Center](https://search.usa.gov/sites).
 
-**What:** After you’ve successfully opened an account with Search.gov, you'll need to create a search site. A search site is where you configure the search experience for your website. Find the `Add Site` link at the top of the Admin Center, and enter some basic details about your site. Please note that our service is for publicly accessible, federal government content. More detailed information can be found on our [Add Site help page]({{ site.baseurl }}/admin-center/dashboard/add-site.html). 
+* Use [collections]({{ site.baseurl }}/admin-center/content/collections.html) to search a narrower or broader scope then the default results page.  
+* Use [best bets]({{ site.baseurl }}/admin-center/content/best-bets.html) to promote specific pages at the top of your search results.
+* Use [routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to bypass the results page entirely for a specific search term
 
-Once you've created your site, note the actions available on the left-hand navigation of your Admin Center. 
+## Step 4. Design the results page
 
-<i class="icon-dashboard"></i> The **[Dashboard]({{site.baseurl}}/admin-center/dashboard/)** is where you can view a Site Overview, manage users, update your site’s homepage, or site display name. 
+There are several options you can use to make the results page match the design of your website. You can set fonts and colors and upload your logo in the Display section of the [Admin Center](https://search.usa.gov/sites).
 
-<i class="icon-bar-chart"></i> **[Analytics]({{site.baseurl}}/admin-center/analytics/)** are provided for the past 13 months, reporting your top queries, clicks, and referrers (the pages people were on when they ran their searches), and monthly rollup data.
+You can also add header and footer links to support navigation between your website and the search results page to create a more seamless experience.
 
-<i class="icon-file"></i> **[Content]({{site.baseurl}}/admin-center/content/)** management is where you define what your search experience will include, both the default search scope, additional content sources, and alternative search views.
+If you created any collections, you will select the option to display them on the Display overview page in the [Admin Center](https://search.usa.gov/sites).
 
-<i class="icon-desktop"></i> **[Display]({{site.baseurl}}/admin-center/display/)** management is where you can configure the branding of your search results page.
+Use the Preview option in the [Admin Center](https://search.usa.gov/sites) to preview the design.
 
-<i class="icon-eye-open"></i> **[Preview]({{site.baseurl}}/admin-center/preview.html)** your search results page to see what your search experience will be like, before you go live.
+Review [how to design your results page]({{ site.baseurl }}/admin-center/display/brand.html) for more information.
 
-<i class="icon-code"></i> And finally, the **[Activate](/admin-center/activate/)** section provides pre-formatted code snippets to help you go live. Don’t be afraid of entering this area, nothing will actually be activated.
+## Step 5. Connect your search box to Search.gov
 
-{: #add-domains }
+When you are ready to go live, you will need to modify the form code for the search box on your website. You will likely need to work with your technical team for this step.
 
-## 2. Add domains
+We provide this form code in the Activate section of the [Admin Center](https://search.usa.gov/sites).  
 
-**Who:** You, the agency web team
+	<form accept-charset="UTF-8" 
+	action="https://search.usa.gov/search" 
+	id="search_form" 
+	method="get">
+	<div style="margin:0;padding:0;display:inline">
+		<input name="utf8" type="hidden" value="&#x2713;" />
+	</div>
+	<input id="affiliate" name="affiliate" type="hidden" value="YourSiteHandle" />
+	<label for="query">Enter Search Term(s):</label>
+	<input autocomplete="off" 
+		class="usagov-search-autocomplete" 
+		id="query" 
+		name="query" 
+		type="text" />
+	<input name="commit" type="submit" value="Search" />
+	</form>
 
-**What:** In the content management section, the [domains]({{ site.baseurl }}/admin-center/content/domains.html) list defines the default search scope for your site. You can include one domain or several, or you can focus on particular subdomains of one domain.
+You can also use these parameters in a more customized search box on your site.
 
-{: #select-index }
+Review [how to connect your search box to Search.gov]({{ site.baseurl }}/admin-center/activate/code.html) for more information. 
 
-## 3. Create the web index
+<hr>
 
-**Who:** Search.gov team, in consultation with you, the agency web team
+## Special instructions for Cloud.gov Pages customers
 
-**What:** We need to index your content before going live.  We monitor newly established sites and index their domains.
+If you use [Cloud.gov Pages](https://cloud.gov/pages/), you will also need to update the `_config.yml` file in your Cloud.gov Pages repository.
 
-We can only index publicly accessible content. You cannot use our service for secure content, including intranets, and we can never index or serve personally identifiable information (PII) or other confidential data.
+* Confirm that the `jekyll-sitemap` gem is listed as a plugin.
+* Add your domain to the `url` field. This builds the [XML sitemap](https://search.gov/indexing/sitemaps.html) for this domain.
+* Add your `site handle` from the [Admin Center](https://search.usa.gov/sites) to the `affiliate` line in the `Search.gov configuration` section.
+* Delete the value in the `access_key` line.
+* Set the `inline` value to `false`.
 
-[Jump to Step 4. Add Features](#add-features) if you don't need the details of the indexing process at this time.)
+Please [contact the Pages support team](https://cloud.gov/pages/contact/) if you need help making these updates. 
 
-If we will be indexing your content ourselves, we will follow these steps:
-
-{: #indexing-workflow }
-
-{% include featured-accordion.html content="indexing-long" accordion=true expanded=true %}
-
-{: #add-features }
-
-## 4. Add search features
-
-**Who:** You, the agency web team
-
-**What:** We offer several additional search features you can configure to enhance your search experience.
-
-* [Collections]({{ site.baseurl }}/admin-center/content/collections.html) allow you to set up alternative search scopes from the Domains you declare for the main search. Often Collections point at particular subfolders or subdomains of the primary domain for the site. Sometimes they point at a different domain entirely. If you are indexed by Search.gov and you want a Collection to search another domain, check with us to see if we have that content already indexed.  
-* [Best Bets]({{ site.baseurl }}/admin-center/content/best-bets.html) work like ads in Google, and allow you to pin certain results to the top of your search results. Use Best Bets to boost specific web pages.
-* [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) allow you to bypass the results page entirely for a given query, where you know exactly the page you want a person to get to after running that query. This is helpful for always getting people to the landing page for a process, rather than their clicking to a mid-process page from a search results page.
-
-{: #turn-features-on }
-
-## 5. Toggle on search features
-
-**Who:** You, the agency web team
-
-**What:** To display any of the search features you just added above, you’ll need to toggle ON the display for each one, using the [display overview page]({{ site.baseurl }}/admin-center/display/display-overview.html).
-
-{: #configure-branding }
-
-## 6. Configure the results page
-
-**Who:** You, the agency web team
-
-**What:** To make the results page complement your website’s [look and feel]({{ site.baseurl }}/admin-center/display/brand.html), upload your logo, set the font style, and customize the page colors to ensure a more seamless experience for your searchers as they move from your site to ours, and back again. You can also add header and footer links to support navigation back to your website.
-
-{: #go-live }
-
-## 7. Connect your search box to Search.gov
-
-**Who:** You, the agency web team, in collaboration with your deploy team, if different
-
-**What:** Once you’re ready to go live with your search site, take a look at the [Go-Live Checklist]({{ site.baseurl }}/get-started/go-live.html) to make sure you've covered all your bases. Then you will need to modify the form code for the search box on your website. We provide simple pre-formatted code in the Admin Center, or you can include these same parameters in another style of search box. [Read more and see required parameters here]({{ site.baseurl }}/admin-center/activate/code.html). 
-
-If you publish your site on Cloud.gov Pages, read these [alternative instructions]({{ site.baseurl }}/get-started/searchgov-for-cloudgov-pages.html).
-
-Congratulations, you’re now live with Search.gov.
+Then, when you're ready to go live, [email the Search.gov team](mailto:search@gsa.gov) so we can index your content.
