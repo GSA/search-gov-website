@@ -111,7 +111,7 @@ primary_navigation:
   - name: Support
     children:
       - name: An advanced approach to search engine optimization
-        url: "/indexing/how-search-engines-index-content-better-discoverability.html"
+        url: "/indexing/an-advanced-approach-to-seo.html"
       - name: For developers
         url: "/developer/"
       - name: System status
