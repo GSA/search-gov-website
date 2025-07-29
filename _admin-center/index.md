@@ -3,7 +3,7 @@ layout: page
 title: How to manage your search site
 crumbname: Help manual
 tags: help-manual
-last_modified_at: July 15, 2025
+last_modified_at: July 29, 2025
 #subnav:
   #data: admin_center
 permalink: /admin-center/
@@ -57,13 +57,7 @@ This help manual follows the order of settings that are available to manage your
 
 ## Additional resources
 
-### Launching or relaunching your search
+* [Indexing process documentation]({{ site.baseurl }}/indexing/indexing-with-searchgov.html) for everyone.
+* [How to get search engines to index the right content for better discoverability]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html)
 * [Search site launch guide]({{ site.baseurl }}/get-started/site-launch-guide.html) for new customers.
 * [Website redesign checklist]({{ site.baseurl }}/indexing/redesign.html) for existing customers working on a relaunch.
-* [Indexing process documentation]({{ site.baseurl }}/indexing/indexing-with-searchgov.html) for everyone.
-
-### Search engine optimization (SEO)
-
-* [XML sitemaps]({{ site.baseurl }}/indexing/sitemaps.html)
-* [/robots.txt files]({{ site.baseurl }}/indexing/robotstxt.html)
-* [How to get search engines to index the right content for better discoverability]({{ site.baseurl }}/indexing/how-search-engines-index-content-better-discoverability.html)

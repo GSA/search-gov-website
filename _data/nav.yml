@@ -82,7 +82,7 @@ primary:
           - text: Code Snippets
             href: "/admin-center/activate/code.html"
   - text: Index with Search.gov
-    href: /indexing/
+    href: "/indexing/what-searchgov-indexes.html"
     links: 
       - text: What Search.gov Indexes From Your Website
         href: "/indexing/what-searchgov-indexes.html"
@@ -92,18 +92,14 @@ primary:
         href: "/indexing/sitemaps-to-search-sites.html"
       - text: A Step-By-Step Indexing Workflow
         href: "/indexing/indexing-workflow.html"
-      - text: How Search Engines Index Your Website (Webinar)
-        href: "/get-started/training.html#how-engines-index"
-      - text: All About XML Sitemaps
-        href: "/indexing/sitemaps.html"
-      - text: "/robots.txt Files"
-        href: "/indexing/robotstxt.html"
       - text: Metadata and Tags You Should Include in Your Website
         href: "/indexing/metadata.html"
       - text: How to improve PDF discoverability
         href: "/indexing/pdf-metadata.html"
       - text: How to Get Search Engines to Index the Right Content for Better Discoverability
         href: "/indexing/how-search-engines-index-content-better-discoverability.html"
+      - text: Website Redesign Tips
+        href: "/indexing/redesign.html"
   - text: Support
     href: /support.html
     links:
@@ -111,7 +107,5 @@ primary:
         href: "/support.html"
       - text: System Status
         href: "/status.html"
-      - text: Website Redesign Tips
-        href: "/indexing/redesign.html"
   - text: For Developers
     href: /developer/

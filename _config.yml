@@ -191,15 +191,8 @@ get_started:
         url: "/get-started/searchgov-for-cloudgov-pages.html"
       - name: "Going live with Search.gov: Checklist"
         url: "/get-started/go-live.html"
-      - name: Training and Resources
-        url: "/get-started/learn.html"
-        children:
-          - name: Training Webinars
-            url: "/get-started/training.html"
   - name: Related Resources
     children:
-      - name: Why Choose Search.gov?
-        url: "/about/why-choose-searchgov.html"
       - name: Results Page Feature Comparison
         url: "/admin-center/display/hosted-vs-api-results.html"
       - name: Website Redesign Tips
@@ -222,12 +215,6 @@ indexing:
             url: "/indexing/indexing-workflow.html"
           - name: How Search Engines Index Your Website (Webinar)
             url: "/get-started/training.html#how-engines-index"
-      - name: Domain Level SEO Supports
-        children:
-          - name: All About XML Sitemaps
-            url: "/indexing/sitemaps.html"
-          - name: "/robots.txt Files"
-            url: "/indexing/robotstxt.html"
       - name: Page Level SEO Supports
         children:
           - name: Metadata and Tags You Should Include in Your Website
@@ -244,15 +231,6 @@ support:
     url: "/support.html"
   - name: System Status
     url: "/status.html"
-  - name: Training and Resources
-    url: "/get-started/learn.html"
-    children:
-      - name: Training Webinars
-        url: "/get-started/training.html"
-  - name: Website Redesign Tips
-    url: "/indexing/redesign.html"
-  - name: Share Your Feedback
-    url: "/about/feedback.html"
   - name: For Developers
     url: "/developer/"
 
