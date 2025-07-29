@@ -209,12 +209,3 @@ Specifics about the event.
 Various scripts, etc.
 </body>
 ```
-
-## Resources
-
-* [HTML <main> Tag](https://www.w3schools.com/tags/tag_main.asp)  - accessed October 10, 2018.
-* [Robots meta tag and X-Robots-Tag HTTP header specifications
-](https://developers.google.com/search/reference/robots_meta_tag)  - accessed October 10, 2018.
-* [rel=canonical: the ultimate guide
-](https://yoast.com/rel-canonical/)  - accessed October 10, 2018.
-* [Consolidate duplicate URLs: Define a canonical page for similar or duplicate pages](https://support.google.com/webmasters/answer/139066?hl=en)  - accessed October 10, 2018.

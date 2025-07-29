@@ -17,7 +17,7 @@ primary:
         href: "/get-started/searchgov-for-cloudgov-pages.html"
       - text: "Going live with Search.gov: Checklist"
         href: "/get-started/go-live.html"
-  - text: Manage Your Search Site
+  - text: Manage your search site
     href: /admin-center/
     links:
       - text: Dashboard
@@ -82,6 +82,7 @@ primary:
           - text: Code Snippets
             href: "/admin-center/activate/code.html"
   - text: Support
+    href: "/support.html"
     links:
       - text: An advanced approach to search engine optimization
         href: "/indexing/how-search-engines-index-content-better-discoverability.html"
