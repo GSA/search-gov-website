@@ -20,6 +20,8 @@ You can add anyone you'd like to your site &mdash; with or without a .gov or .mi
 
 [![Add a user]({{ site.url }}/assets/img/site/user.png)]({{ site.url }}/assets/img/site/user.png)
 
+Group accounts, using emails such as webteam@example.gov, are not allowed through our authentication provider, Login.gov. Please add everyone who requires access as an individual user.
+
 In addition to a text-based indicator, we use [color coding]({{ site.baseurl }}/admin-center/color-codes.html) to indicate each user's status. 
 
 {: .usa-table .usa-table--compact}
@@ -29,9 +31,3 @@ In addition to a text-based indicator, we use [color coding]({{ site.baseurl }}/
 | Yellow  | Pending email verification: user must verify their email address via the introductory email they received from our system |
 | Yellow  | Pending approval: requires manual approval by the Search.gov team |
 | Red   | Not approved: to regain access, the user must be manually re-approved by the Search.gov team |
-
----
-
-***Pro Tip*** 
-
-Group accounts, using emails such as webteam@example.gov, are not allowed through our authentication provider, Login.gov. Please make sure all individuals requiring access are added separately as users.

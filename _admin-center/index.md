@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to manage your search site
+title: How to manage your site in the Admin Center
 crumbname: Help manual
 tags: help-manual
 last_modified_at: July 29, 2025
