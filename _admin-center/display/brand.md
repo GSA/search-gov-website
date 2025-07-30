@@ -13,7 +13,7 @@ redirect_from:
 
 You can make the search results page match the design of your website. 
 
-There are dozens of fields, so you may need to consult your style guide or ask with your design team for help. 
+There are dozens of fields, so you may need to consult your style guide or ask your design team for help. 
 
 ## Font and colors
 
