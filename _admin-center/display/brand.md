@@ -15,7 +15,7 @@ You can make the search results page match the design of your website.
 
 There are dozens of fields, so you may need to consult your style guide or ask your design team for help. 
 
-## Set font and colors
+## Set fonts and colors
 
 Set your fonts and colors on the Visual Design page in the [Admin Center](https://search.usa.gov/sites).
 
@@ -43,6 +43,6 @@ The same is true for video results from YouTube and news results from RSS feeds.
 
 You can also link between two related sites to help visitors find other relevant content. This option is often used to point searchers to your department-level search results or websites in other languages.
 
-## Preview results page
+## Preview the results page
 
 Any updates you make to the design appear immediately on the search results page. Use the Preview option in the [Admin Center](https://search.usa.gov/sites) to preview the design.
