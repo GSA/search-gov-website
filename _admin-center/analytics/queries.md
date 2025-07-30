@@ -77,6 +77,38 @@ The click-through rate (CTR) is the the number of clicks from a query divided by
 
 High or low CTR's may indicate that users are not able to find relevant results. A CTR can be over 100%: if a user enters a query, clicks on a link, hits 'back' in their browser, returns to the search results, and clicks again, the CTR for that query would be 200% (2 clicks divided by 1 query, multiplied by 100 = 200%).
 
+We call several different indexes when serving search results, and we present results from each of these indexes in a separate block, or module, on the results page. Each module loads when there are relevant search results to display. Each module has a code, and you'll see these codes in the Download Details csv files available through the [Queries]({{ site.baseurl }}/admin-center/analytics/queries.html) or [Clicks]({{ site.baseurl }}/admin-center/analytics/clicks.html) pages of the Admin Center analytics section. 
+
+This page lists all the module codes and their full names.
+
+{: .usa-table .usa-table--compact}
+| Code    | Module Name |
+| :------------ | :---------------------------------- |
+| AIDOC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Collections |
+| BBG   | Best Bets: Graphics |
+| BOOS  | Best Bets: Text |
+| BSPEL | Spelling Suggestions (Bing) |
+| BWEB  | Web Results (Bing) |
+| DECOR* | Value-added Links for SEC Filings |
+| FRDOC | Federal Register Documents |
+| I14Y  | Web Results (Search.gov via [i14y]({{ site.baseurl }}/developer/i14y.html)) |
+| IMAG  | Image Results (Bing) |
+| JOBS  | Jobs |
+| LOVER | Spelling Overrides (Search.gov) |
+| MEDL  | Health Topics |
+| NEWS  | RSS Feeds |
+| NIMAG | Image Results (MRSS) |
+| OASIS | Image Results (Search.gov) |
+| OSPEL | Spelling Suggestions (Search.gov Images) |
+| OVER  | Spelling Overrides (Bing) |
+| QRTD  | Routed Queries |
+| SPEL  | Spelling Suggestions (Search.gov) |
+| SREL  | Related Searches |
+| TWEET* | Tweets (Twitter) |
+| VIDS  | Video Results (YouTube) |
+
+\* indicates a deprecated module code. Analytics may include data for these modules prior to their deprecation.
+
 ---
 
 ***Pro Tip*** 

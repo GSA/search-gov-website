@@ -11,47 +11,38 @@ redirect_from:
     - /manual/brand.html
 ---
 
-Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Display
+You can make the search results page match the design of your website. 
 
-To customize your search results page and match your site's brand:
+There are dozens of fields, so you may need to consult your style guide or ask your design team for help. 
 
-1. Define your color scheme on the Fonts & Colors page.
-1. Upload your logo on the Image Assets page. (We'll also link your logo to your homepage using the homepage URL you provide on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page.)
-1. Add your navigation links on the Header & Footer page.
+## Set fonts and colors
 
-## Font & Colors
+Set your fonts and colors on the Visual Design page in the [Admin Center](https://search.usa.gov/sites).
 
-**Font Family.** Leave the default font as-is, or select your preferred font family.
+## Upload images
 
-**Color Scheme.** Leave the default color scheme as-is, or select Custom to create a customized scheme. Customize the color of any page element by clicking on it and entering a valid three- or six-digit hex value. You can also pick a color by dragging your mouse inside the color picker window.
+Upload the logo that you want to appear at the top of your search results page on the in the Visual Design page in the [Admin Center](https://search.usa.gov/sites). 
 
-## Image Assets
+The file must be a GIF, JPG or PNG format and under 64 KB. Be sure to add [alternative text](https://www.section508.gov/training/alt-text/what-is-alternative-text/), also known as alt text, to convey the meaning of your logo. 
 
-**Favicon.** Provide the URL for your agency's favicon. (A [favicon](https://developer.mozilla.org/en-US/docs/Glossary/Favicon), short for favorites icon, is the small image associated with your website.)
+You can choose to display your site name at the top of the search results page. Visit the Settings page under the Dashboard section of the [Admin Center](https://search.usa.gov/sites) to edit your site name, if needed.
 
-**Logo.** Use the Choose File option to upload the logo that you'd like to appear in the header of your results page. Click on the option, Mark Logo for Deletion, to delete an uploaded logo. There isn't a required dimension. That said, images less than 550 pixels wide and 100 pixels high tend to work best.
+You can also provide the URL for your agency's favicon. A favicon, or favorite icon, is a small image associated with a website, typically displayed in the browser tab or address bar. 
 
-If you don't upload a logo, searchers will simply see the header, *Your Site Name*. We'll use the site name you provide on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page.
+## Create navigation
 
-**Logo Alignment.** Leave the logo center-aligned, or select Left to make it left-aligned or Right to make it right-aligned. (Right-aligned logos are typically used on sites with right-to-left [languages]({{ site.baseurl }}/admin-center/dashboard/settings.html) like Arabic, Hebrew, and Urdu.)
+You can add header links to support navigation between your website and the search results page to create a more seamless experience.
 
-**Logo Alt Text.** Add alt text for your logo. If you don't add custom alt text, we'll use the site name you provide on the [Settings]({{ site.baseurl }}/admin-center/dashboard/settings.html) page as the default alt text.
+Use the header title and URL fields on the Visual Design page in the [Admin Center](https://search.usa.gov/sites) to add these links.
 
-## Header & Footer
+## Create tabs and filters
 
-**Tagline.** Fill out text for a "tagline" if you'd like one to appear at the very top of your results page header.
+If you created any [collections]({{ site.baseurl }}/admin-center/content/collections.html) to search a narrower or broader scope than the default results page, you can turn on their display on the Display Overview page in the [Admin Center](https://search.usa.gov/sites).
 
-The default tagline style uses Georgia (font family), 1.3 em (size), and italic (style). Email us at <search@gsa.gov> if you'd like to change the default font family, size, or style.
+The same is true for video results from YouTube and news results from RSS feeds.
 
-**Menu Button Alignment.** Leave the Browse Site "hamburger" menu right-aligned, or select the Left option to make it left-aligned.
+You can also link between two related sites to help visitors find other relevant content. This option is often used to point searchers to your department-level search results or websites in other languages.
 
-**Header and Footer Links.** Fill out the titles and URLs for the navigation links you'd like to appear in your header and footer. You can add an email address by specifying *mailto:* within the URL field, such as:
+## Preview the results page
 
-Title: Contact us  
-URL: mailto:info@example.gov
-
-Use the list icon (with three horizontal lines) on the left to change the order.
-
-## Other Display Options
-
-We offer results through our Search Results API, if you'd like to create mash-ups or have complete control of the look and feel of your search results pages. See a [feature comparison]({{ site.baseurl }}/admin-center/display/hosted-vs-api-results.html) of our hosted results page vs. our Results API. For detailed information on the Results API, check out the [API documentation on Open.GSA.gov](https://open.gsa.gov/api/searchgov-results/).
+Any updates you make to the design appear immediately on the search results page. Use the Preview option in the [Admin Center](https://search.usa.gov/sites) to preview the design.

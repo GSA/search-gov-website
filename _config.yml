@@ -86,30 +86,20 @@ primary_navigation:
         url: "/get-started/account.html"
       - name: How to go live with Search.gov
         url: "/get-started/site-launch-guide.html"
-      - name: An advanced approach to search engine optimization
-        url: "/indexing/an-advanced-approach-to-seo.html"
-  - name: Manage your search site
+  - name: Manage your site
     children:
-      - name: Full Help Manual
+      - name: How to manage your site in the Admin Center
         url: "/admin-center/index.html"
-      - name: Add or Remove Users
-        url: "/admin-center/dashboard/users.html"
-      - name: Add a Site
-        url: "/admin-center/dashboard/add-site.html"
-      - name: Add Domains
-        url: "/admin-center/content/domains.html"
-      - name: Manage Your Search Analytics
-        url: "/admin-center/analytics/index.html"
-      - name: Add Search Features
-        url: "/get-started/site-launch-guide.html#add-features"
-      - name: Results Page Feature Comparison
-        url: "/admin-center/display/hosted-vs-api-results.html"
+      - name: How to design your results page
+        url: "/admin-center/display/brand.html"
+      - name: How to connect your search to Search.gov
+        url: "/admin-center/code.html"
   - name: Support
     children:
-      - name: Resources for developers
-        url: "/developer/"
       - name: System status
         url: "/status.html"
+      - name: An advanced approach to search engine optimization
+        url: "/indexing/an-advanced-approach-to-seo.html"
 
 # END Site Navigation
 
@@ -132,28 +122,6 @@ about_us:
       - name: Year in review search reports
         url: "/about/updates/year-in-review/"
 
-admin_center:
-  - name: Manage Your Site Search
-    url: "/admin-center/"
-    children:
-      - name: Dashboard
-        url: "/admin-center/dashboard/"
-      - name: Analytics
-        url: "/admin-center/analytics/"
-      - name: Content
-        url: "/admin-center/content/"
-      - name: Display
-        url: "/admin-center/display/"
-      - name: Preview
-        url: "/admin-center/preview.html"
-      - name: Activate
-        url: "/admin-center/activate/"
-  - name: Additional Resources
-    url: "/admin-center/#additional-resources"
-    children:
-      - name: Website Redesign Tips
-        url: "/indexing/redesign.html"
-
 get_started:
   - name: Get started with Search.gov
     url: "/get-started/account.html"
@@ -162,18 +130,19 @@ get_started:
         url: "/get-started/account.html"
       - name: How to go live with Search.gov
         url: "/get-started/site-launch-guide.html"
-  - name: Related Resources
+
+admin_center:
+  - name: How to manage your site in the Admin Center
+    url: "/admin-center/"
     children:
-      - name: Results Page Feature Comparison
-        url: "/admin-center/display/hosted-vs-api-results.html"
-      - name: Website Redesign Tips
-        url: "/indexing/redesign.html"
+      - name: How to design your results page
+        url: "/admin-center/display/brand.html"
+      - name: How to connect your search to Search.gov
+        url: "/admin-center/code.html"
 
 support:
   - name: Support
     url: "/support.html"
-  - name: Resources for developers
-    url: "/developer/"
   - name: System status
     url: "/status.html"
 

@@ -3,7 +3,7 @@ layout: page
 title: Terms of service
 tags: about-us
 date: March 1, 2017
-last_modified_at: July 11, 2025
+last_modified_at: July 29, 2025
 #subnav:
   #data: about_us
 redirect_from:
@@ -11,7 +11,7 @@ redirect_from:
     - tos.html
 ---
 
-The following terms of service ("Terms") governing the General Services Administration's (GSA) Search.gov website and services, including the content, documentation, code and related materials, are offered subject to your acceptance of the Terms as well as any relevant sections of the DigitalGov [Site Policies](https://digital.gov/policies) (collectively, the "Agreement"). Access to or use of Search.gov services or its content constitutes acceptance to this Agreement.
+The following terms of service ("Terms") governing the General Services Administration's (GSA) Search.gov website and services, including the content, documentation, code and related materials, are offered subject to your acceptance of the Terms as well as any relevant sections of the [Digital.gov policies](https://digital.gov/policies) (collectively, the "Agreement"). Access to or use of Search.gov services or its content constitutes acceptance to this Agreement.
 
 ## Data collection and use
 

@@ -30,7 +30,7 @@ This file is crucial because it provides search engines with a comprehensive lis
 
 Most content management systems have plugins that you can use to publish XML sitemaps.
 
-Refer to the [Sitemap Protocol on sitemaps.org](http://www.robotstxt.org/robotstxt.html) for detailed information on how and where to create your XML sitemap. Key points include:
+Refer to the [Sitemap Protocol on sitemaps.org](https://www.sitemaps.org/protocol.html) for detailed information on how and where to create your XML sitemap. Key points include:
 
 * Place the XML sitemap at the root of your domain and any subdomains. Each subdomain needs its own file.
 * Point to the XML sitemap from your robots.txt file.

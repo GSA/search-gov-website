@@ -5,14 +5,14 @@ crumbname: Go-live steps
 category: admin-center
 tags: go-live site-launch indexing
 date: April 22, 2019
-last_modified_at: July 11, 2025
+last_modified_at: July 30, 2025
 #subnav:
   #data: get_started
 redirect_from:
     - /manual/site-launch-guide.html
 ---
 
-After you have [created an account]({{ site.baseurl }}/get-started/account.html), follow these five steps to go live with Search.gov. 
+After you [create an account]({{ site.baseurl }}/get-started/account.html), follow these five steps to go live with Search.gov. 
 
 ## Step 1. Create a new site
 
@@ -28,7 +28,7 @@ Review [how to add your domains]({{ site.baseurl }}/admin-center/content/domains
 
 We offer several other ways to manage the content on your results page. You can set up collections, best bets, and routed queries in the Content section of the [Admin Center](https://search.usa.gov/sites).
 
-* Use [collections]({{ site.baseurl }}/admin-center/content/collections.html) to search a narrower or broader scope then the default results page.  
+* Use [collections]({{ site.baseurl }}/admin-center/content/collections.html) to search a narrower or broader scope than the default results page.  
 * Use [best bets]({{ site.baseurl }}/admin-center/content/best-bets.html) to promote specific pages at the top of your search results.
 * Use [routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to bypass the results page entirely for a specific search term
 
@@ -36,9 +36,9 @@ We offer several other ways to manage the content on your results page. You can 
 
 There are several options you can use to make the results page match the design of your website. You can set fonts and colors and upload your logo in the Display section of the [Admin Center](https://search.usa.gov/sites).
 
-You can also add header and footer links to support navigation between your website and the search results page to create a more seamless experience.
+You can also add header links to support navigation between your website and the search results page to create a more seamless experience.
 
-If you created any collections, you will select the option to display them on the Display overview page in the [Admin Center](https://search.usa.gov/sites).
+If you created any collections, you can select the option to display them on the Display Overview page in the [Admin Center](https://search.usa.gov/sites).
 
 Use the Preview option in the [Admin Center](https://search.usa.gov/sites) to preview the design.
 
@@ -46,32 +46,15 @@ Review [how to design your results page]({{ site.baseurl }}/admin-center/display
 
 ## Step 5. Connect your search box to Search.gov
 
-When you are ready to go live, you will need to modify the form code for the search box on your website. You will likely need to work with your technical team for this step.
+When you are ready to go live, you will need to modify the form code for the search box on your website.
 
-We provide this form code in the Activate section of the [Admin Center](https://search.usa.gov/sites).  
+We provide this form code in the Activate section of the [Admin Center](https://search.usa.gov/sites).
 
-	<form accept-charset="UTF-8" 
-	action="https://search.usa.gov/search" 
-	id="search_form" 
-	method="get">
-	<div style="margin:0;padding:0;display:inline">
-		<input name="utf8" type="hidden" value="&#x2713;" />
-	</div>
-	<input id="affiliate" name="affiliate" type="hidden" value="YourSiteHandle" />
-	<label for="query">Enter Search Term(s):</label>
-	<input autocomplete="off" 
-		class="usagov-search-autocomplete" 
-		id="query" 
-		name="query" 
-		type="text" />
-	<input name="commit" type="submit" value="Search" />
-	</form>
-
-You can also use these parameters in a more customized search box on your site.
+To modify the form code for the search box on your website, you will probably need to work with your technical team. They can also help you use these parameters to create a more customized search box on your site.
 
 Review [how to connect your search box to Search.gov]({{ site.baseurl }}/admin-center/activate/code.html) for more information. 
 
-<hr>
+---
 
 ## Special instructions for Cloud.gov Pages customers
 
