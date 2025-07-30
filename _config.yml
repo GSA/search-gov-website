@@ -86,18 +86,20 @@ primary_navigation:
         url: "/get-started/account.html"
       - name: How to go live with Search.gov
         url: "/get-started/site-launch-guide.html"
-      - name: An advanced approach to search engine optimization
-        url: "/indexing/an-advanced-approach-to-seo.html"
   - name: Manage your site
     children:
       - name: How to manage your site in the Admin Center
         url: "/admin-center/index.html"
+      - name: How to design your results page
+        url: "/admin-center/display/brand.html"
       - name: How to connect your search to Search.gov
         url: "/admin-center/code.html"
   - name: Support
     children:
       - name: System status
         url: "/status.html"
+      - name: An advanced approach to search engine optimization
+        url: "/indexing/an-advanced-approach-to-seo.html"
 
 # END Site Navigation
 
@@ -133,6 +135,8 @@ admin_center:
   - name: How to manage your site in the Admin Center
     url: "/admin-center/"
     children:
+      - name: How to design your results page
+        url: "/admin-center/display/brand.html"
       - name: How to connect your search to Search.gov
         url: "/admin-center/code.html"
 

@@ -13,7 +13,7 @@ primary:
         href: "/get-started/account.html"
       - text: How to go live with Search.gov
         href: "/get-started/site-launch-guide.html"
-  - text: Manage your search site
+  - text: Manage your site
     href: /admin-center/
     links:
       - text: How to design your results page
