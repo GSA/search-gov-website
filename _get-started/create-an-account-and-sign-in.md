@@ -4,11 +4,12 @@ title: How to create an account and sign in
 category: admin-center
 tags: help-manual my-account
 date: June 23, 2020
-last_modified_at: July 29, 2025
+last_modified_at: July 30, 2025
 #subnav:
   #data: get_started
 redirect_from:
     - /manual/account.html
+    - /get-started/account.html
 ---
 
 Welcome! We are glad you are considering using Search.gov &mdash; the search engine built by government, for government. 
@@ -62,4 +63,4 @@ By voluntarily using Search.gov you are agreeing to our [terms of service]({{ si
 As a Search.gov customer, you can get started by:
 
 * Creating a [new site](https://search.usa.gov/sites/new) or managing an [existing site](https://search.usa.gov/user_sites) in the Admin Center.
-* Following our tips on [how to go live with Search.gov]({{ site.baseurl }}/get-started/site-launch-guide.html).
+* Following our tips on [how to go live with Search.gov]({{ site.baseurl }}/get-started/go-live-with-searchgov.html).

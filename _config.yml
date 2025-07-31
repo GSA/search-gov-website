@@ -83,17 +83,21 @@ primary_navigation:
   - name: Get started
     children:
       - name: How to create an account and sign in
-        url: "/get-started/account.html"
+        url: "/get-started/create-an-account-and-sign-in.html"
       - name: How to go live with Search.gov
-        url: "/get-started/site-launch-guide.html"
+        url: "/get-started/go-live-with-searchgov.html"
   - name: Manage your site
     children:
       - name: How to manage your site in the Admin Center
         url: "/admin-center/index.html"
+      - name: How to manage your site users and settings
+        url: "/admin-center/manage-your-site-users-and-settings.html"
+      - name: How to add your domains
+        url: "/admin-center/add-your-domains.html"
       - name: How to design your results page
-        url: "/admin-center/display/brand.html"
+        url: "/admin-center/design-your-results-page.html"
       - name: How to connect your search to Search.gov
-        url: "/admin-center/code.html"
+        url: "/admin-center/connect-your-search-to-searchgov.html"
   - name: Support
     children:
       - name: System status
@@ -127,24 +131,30 @@ get_started:
     url: "/get-started/account.html"
     children:
       - name: How to create an account and sign in
-        url: "/get-started/account.html"
+        url: "/get-started/create-an-account-and-sign-in.html"
       - name: How to go live with Search.gov
-        url: "/get-started/site-launch-guide.html"
+        url: "/get-started/go-live-with-searchgov.html"
 
 admin_center:
   - name: How to manage your site in the Admin Center
     url: "/admin-center/"
     children:
+      - name: How to manage your site users and settings
+        url: "/admin-center/manage-your-site-users-and-settings.html"
+      - name: How to add your domains
+        url: "/admin-center/add-your-domains.html"
       - name: How to design your results page
-        url: "/admin-center/display/brand.html"
+        url: "/admin-center/design-your-results-page.html"
       - name: How to connect your search to Search.gov
-        url: "/admin-center/code.html"
+        url: "/admin-center/connect-your-search-to-searchgov.html"
 
 support:
   - name: Support
     url: "/support.html"
   - name: System status
     url: "/status.html"
+  - name: An advanced approach to search engine optimization
+    url: "/indexing/an-advanced-approach-to-seo.html"
 
 # END sidebar configuration
 

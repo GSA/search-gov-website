@@ -4,15 +4,16 @@ title: How to connect your search to Search.gov
 category: admin-center
 tags: help-manual activate-search code-snippets
 date: October 13, 2020
-last_modified_at: July 29, 2025
+last_modified_at: July 30, 2025
 #subnav:
   #data: admin_center
 redirect_from:
     - /manual/code.html
     - /admin-center/activate/code.html
+    - /admin-center/code.html
 ---
 
-When you are ready to [go live with Search.gov]({{ site.baseurl }}/get-started/site-launch-guide.html), you will need to connect your search to Search.gov.
+When you are ready to [go live with Search.gov]({{ site.baseurl }}/get-started/go-live-with-searchgov.html), you will need to connect your search to Search.gov.
 
 ## Update the form code
 
