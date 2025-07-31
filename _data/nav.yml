@@ -14,7 +14,7 @@ primary:
       - text: How to go live with Search.gov
         href: "/get-started/go-live-with-searchgov.html"
   - text: Manage your site
-    href: "/admin-center/index.hmtl"
+    href: "/admin-center/index.html"
     links:
       - text: How to manage your site in the Admin Center
         href: "/admin-center/index.html"
