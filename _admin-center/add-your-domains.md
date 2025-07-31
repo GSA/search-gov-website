@@ -4,11 +4,12 @@ title: How to add your domains
 category: admin-center
 tags: help-manual manage-content domains
 date: April 18, 2017
-last_modified_at: July 29, 2025
+last_modified_at: July 30, 2025
 #subnav:
   #data: admin_center
 redirect_from:
     - /manual/domains.html
+    - /admin-center/content/domains.html
 ---
 
 Find it in the Admin Center: [Search.gov Home]({{ site.baseurl }}/index.html) > [Admin Center](https://search.usa.gov/sites/) > YourSite > Manage Content > Domains
@@ -17,7 +18,7 @@ We can only index publicly accessible content. You cannot use Search.gov for sec
 
 ## How to include content
 
-Fill out the applicable domains, subdomains, or folders to return results specific to your website. You do not need to include `https://` as we recognize domains with or without it.
+Fill out the applicable domains, subdomains, or folders to return results specific to your website.
 
 ## Including entire sites
 
@@ -42,7 +43,7 @@ You can exclude specific subdomains or folders by:
 * Listing the excluded subdomains or folders in your [robots.txt](https://digital.gov/resources/introduction-robots-txt-files) file. This blocks them from all crawlers that follow the robots exclusion protocol.
 * Excluding them by omission. For example, to exclude subdomain3, list only `subdomain1.yoursite.gov`, `subdomain2.yoursite.gov`, and `subdomain4.yoursite.gov`.
 
- ### Excluding URLs</a>
+ ### Excluding URLs
 
 You can remove or filter specific URLs by:
 

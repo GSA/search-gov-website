@@ -10,9 +10,10 @@ last_modified_at: July 30, 2025
   #data: get_started
 redirect_from:
     - /manual/site-launch-guide.html
+    - /get-started/site-launch-guide.html
 ---
 
-After you [create an account]({{ site.baseurl }}/get-started/account.html), follow these five steps to go live with Search.gov. 
+After you [create an account]({{ site.baseurl }}/get-started/create-an-account-and-sign-in.html), follow these five steps to go live with Search.gov. 
 
 ## Step 1. Create a new site
 
@@ -22,7 +23,7 @@ To customize the search experience for your website, you need to [create a new s
 
 After creating the new site, you need to add the domains for the content you want included in the search results. You can add one or more domains in the Content section of the [Admin Center](https://search.usa.gov/sites).
 
-Review [how to add your domains]({{ site.baseurl }}/admin-center/content/domains.html) for more information.
+Review [how to add your domains]({{ site.baseurl }}/admin-center/add-your-domains.html) for more information.
 
 ## Step 3. Manage other content (optional)
 
@@ -42,7 +43,7 @@ If you created any collections, you can select the option to display them on the
 
 Use the Preview option in the [Admin Center](https://search.usa.gov/sites) to preview the design.
 
-Review [how to design your results page]({{ site.baseurl }}/admin-center/display/brand.html) for more information.
+Review [how to design your results page]({{ site.baseurl }}/admin-center/design-your-results-page.html) for more information.
 
 ## Step 5. Connect your search box to Search.gov
 
@@ -52,7 +53,7 @@ We provide this form code in the Activate section of the [Admin Center](https://
 
 To modify the form code for the search box on your website, you will probably need to work with your technical team. They can also help you use these parameters to create a more customized search box on your site.
 
-Review [how to connect your search box to Search.gov]({{ site.baseurl }}/admin-center/activate/code.html) for more information. 
+Review [how to connect your search box to Search.gov]({{ site.baseurl }}/admin-center/connect-your-search-to-searchgov.html) for more information. 
 
 ---
 
