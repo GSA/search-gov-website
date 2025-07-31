@@ -32,7 +32,7 @@ Replace `YourSiteHandle` with your site handle, which you can find on [sites lis
 
 To modify the form code for the search box on your website, you will probably need to work with your technical team. They can also help you use these parameters to create a more customized search box on your site.
 
-## Advanced options
+## Advanced form code options
 
 You can limit results to specific folders or subdomains by passing in a hidden value or creating a [collection]({{ site.baseurl }}/admin-center/content/collections.html).
 

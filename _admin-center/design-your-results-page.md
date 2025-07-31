@@ -63,15 +63,13 @@ Visit the Search Page Alert page in the [Admin Center](https://search.usa.gov/si
 When there are no results for a search, users see a message, "Sorry, no results found for '______'. Try entering fewer or broader query terms." 
 
 You can customize this message by:
-* Adding a personalized message
-* Adding links to other resources
+* Adding a more personal message for your agency
+* Adding links to other resources on your website
 
-For example, the USAGov team customize the [no results message on USA.gov](https://search.usa.gov/search?affiliate=usagov_en_internal&query=examplenoresultsmessage) to include the following.
+For example, the USAGov team customized the [no results message on USA.gov](https://search.usa.gov/search?affiliate=usagov_en_internal&query=examplenoresultsmessage) to include the following.
 
-```
-Sorry, no results found for '______'. Try entering fewer or more general search terms.
-
-You can also contact us about USA.gov or about any government question you have:
-[Call USA.gov](https://www.usa.gov/phone)
-[Chat with USA.gov](https://www.usa.gov/chat)
-```
+> Sorry, no results found for '______'. Try entering fewer or more general search terms.
+> 
+> You can also contact us about USA.gov or about any government question you have:
+> * [Call USA.gov](https://www.usa.gov/phone)
+> * [Chat with USA.gov](https://www.usa.gov/chat)
