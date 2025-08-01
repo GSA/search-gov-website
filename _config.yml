@@ -89,7 +89,7 @@ primary_navigation:
   - name: Manage your site
     children:
       - name: How to manage your users and settings
-        url: "/admin-center/manage-your-site-users-and-settings.html"
+        url: "/admin-center/manage-your-users-and-settings.html"
       - name: How to analyze your search analytics
         url: "/admin-center/analyze-your-search-analytics.html"
       - name: How to optimize your content

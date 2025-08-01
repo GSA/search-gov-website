@@ -43,10 +43,9 @@ The table includes information about the pages clicked and number of clicks.
 
 You can also drill down into the queries for each page.
 
-If you are using our [APIs]({{ site.baseurl }}/admin-center/connect-your-search-to-searchgov.html), you must use the Clicks API to send clicks data into our system so it appears in these reports.
+Note that, if you are using our [APIs]({{ site.baseurl }}/admin-center/connect-your-search-to-searchgov.html), you must use the Clicks API to send clicks data into our system so it appears in these reports.
 
-## Download details
-
+```
 You can download a detailed spreadsheet with the raw data for any queries and clicks. 
 
 The queries and clicks spreadsheets include the:
@@ -61,7 +60,8 @@ The clicks spreadsheet also includes the:
 
 * Clicked URL
 * Position of the clicked URL on the results page
-* Referring web page 
+* Referring web page
+```
 
 ## Review referrers
 
