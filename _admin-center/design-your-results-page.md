@@ -4,12 +4,19 @@ title: How to design your results page
 category: admin-center
 tags: help-manual manage-display font colors header footer
 date: August 13, 2015
-last_modified_at: July 30, 2025
+last_modified_at: August 1, 2025
 #subnav:
   #data: admin_center
 redirect_from:
     - /manual/brand.html
     - /admin-center/display/brand.html
+    - /admin-center/display/display-overview.html
+    - /admin-center/display/no-results.html
+    - /admin-center/display/system-alert.html
+    - /admin-center/display/jobs-module.html
+    - /admin-center/display/federal-register-module.html
+    - /admin-center/display/health-module.html
+    - /admin-center/preview.html
 ---
 
 You can make the search results page match the design of your website. 
@@ -38,7 +45,7 @@ Use the header title and URL fields on the Visual Design page in the [Admin Cent
 
 ## Create tabs and filters
 
-If you created any [collections]({{ site.baseurl }}/admin-center/content/collections.html) to search a narrower or broader scope than the default results page, you can turn on their display on the Display Overview page in the [Admin Center](https://search.usa.gov/sites).
+If you created any [collections]({{ site.baseurl }}/admin-center/optimize-your-content.html) to search a narrower or broader scope than the default results page, you can turn on their display on the Display Overview page in the [Admin Center](https://search.usa.gov/sites).
 
 The same is true for video results from YouTube and news results from RSS feeds.
 

@@ -4,19 +4,19 @@ title: An advanced approach to search engine optimization
 crumbname: Advanced SEO
 category: admin-center
 redirect_from: 
-  - "/blog/how-search-engines-index-content-better-discoverability.html"
-  - "/manual/how-search-engines-index-content-better-discoverability.html"
-  - "/indexing/how-search-engines-index-content-better-discoverability.html"
+  - /blog/how-search-engines-index-content-better-discoverability.html
+  - /manual/how-search-engines-index-content-better-discoverability.html
+  - /indexing/how-search-engines-index-content-better-discoverability.html
 tags: indexing seo
 date: February 27, 2020
-last_modified_at: July 29, 2025
+last_modified_at: August 1, 2025
 #subnav:
   #data: indexing
 ---
 
 Website structure and content can have a significant impact on the ability of search engines to provide a good search experience. As a result, the Search Engine Optimization industry evolved to provide better understanding of these impacts and close critical gaps. Some elements on your website will actively hinder the search experience, and this post will show you how to target valuable content and exclude distractions.
 
-We’ve written a [post about robots.txt files]({{ site.baseurl }}/indexing/robotstxt.html), talking about high level inclusion and exclusion of content from search engines. There are other key tools you will want to employ on your website to further target the content on individual pages:
+We’ve written about [robots.txt files](https://digital.gov/resources/introduction-robots-txt-files), talking about high level inclusion and exclusion of content from search engines. There are other key tools you will want to employ on your website to further target the content on individual pages:
 
 * [The <main> element](#main-element)
 * [Canonical links](#rel-canonical)
