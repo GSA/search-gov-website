@@ -29,7 +29,7 @@ By default, this page lists the 1,000 most popular queries for the current month
 
 You can change the time period or search for specific terms by using the generate report option.
 
-The table includes information about the number of queries, number of clicks, and click-through rate (CTR). The CTR is metric that measures the percentage of people who click on a specific link after seeing it. A higher rate generally suggests that your content is relevant and engaging to your searchers. 
+The table includes information about the number of queries, number of clicks, and click-through rate (CTR). The CTR is a metric that measures the percentage of people who click on a specific link after seeing it. Across all sites served by Search.gov, the average click-through rate is about 20%. A higher rate generally suggests that your content is relevant and engaging to your searchers. 
 
 You can also drill down into the clicks and referring URLs for each search term.
 
