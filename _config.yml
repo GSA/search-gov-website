@@ -88,10 +88,10 @@ primary_navigation:
         url: "/get-started/go-live-with-searchgov.html"
   - name: Manage your site
     children:
-      - name: How to manage your site in the Admin Center
-        url: "/admin-center/index.html"
       - name: How to manage your users and settings
         url: "/admin-center/manage-your-site-users-and-settings.html"
+      - name: How to analyze your search analytics
+        url: "/admin-center/analyze-your-search-analytics.html"
       - name: How to optimize your content
         url: "/admin-center/optimize-your-content.html"
       - name: How to design your results page
