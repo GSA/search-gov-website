@@ -4,7 +4,7 @@ title: How to optimize your content
 category: admin-center
 tags: help-manual manage-content domains best-bets routed-queries collections
 date: April 18, 2017
-last_modified_at: July 30, 2025
+last_modified_at: August 1, 2025
 #subnav:
   #data: admin_center
 redirect_from:
@@ -67,7 +67,7 @@ Collections often appear as a tab on your search results page. After you create 
 
 You can also set up a separate search box on your website that limits results to the collection only. Check out the tips on [how to set up a search box limited to a collection only]({{ site.url }}/admin-center/connect-your-search-to-searchgov.html). 
 
-## Recommend content with best bets
+### Recommend content with best bets
 
 You can use best bets to recommend and promote specific pages at the top of your search results page.
 
@@ -84,7 +84,7 @@ If multiple best bets are returned for search, only the two most relevent best b
 
 [Search for _vote_ on USA.gov](https://search.usa.gov/search?affiliate=usagov_en_internal&query=vote) to see an example of a best bet on a federal government website.
 
-## Route queries
+### Route queries
 
 You can use routed queries to get searchers to a specific web page as quickly as possible.
 
