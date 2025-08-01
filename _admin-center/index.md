@@ -3,7 +3,7 @@ layout: page
 title: How to manage your site in the Admin Center
 crumbname: Help manual
 tags: help-manual
-last_modified_at: July 30, 2025
+last_modified_at: August 1, 2025
 #subnav:
   #data: admin_center
 permalink: /admin-center/
@@ -14,9 +14,10 @@ redirect_from:
 
 Use this information to manage your site in the [Admin Center](https://search.usa.gov/sites).
 
-## Dashboard
-
-* [How to manage your site users and settings]({{ site.baseurl }}/admin-center/manage-your-site-users-and-settings.html)
+* **Dashboard:** [How to manage your users and settings]({{ site.baseurl }}/admin-center/manage-your-users-and-settings.html)
+* **Content:** [How to optimize your content]({{ site.baseurl }}/admin-center/optimize-your-content.html)
+* **Display:** [How to design your results page]({{ site.baseurl }}/admin-center/design-your-results-page.html)
+* **Activate:** [How to connect your search to Search.gov]({{ site.baseurl }}/admin-center/connect-your-search-to-searchgov.html)
 
 ## Analytics
 
@@ -25,18 +26,3 @@ Use this information to manage your site in the [Admin Center](https://search.us
 * [Referrers]({{ site.baseurl }}/admin-center/analytics/referrers.html)
 * [Monthly reports]({{ site.baseurl }}/admin-center/analytics/monthly-reports.html)
 * [3rd party tracking]({{ site.baseurl }}/admin-center/analytics/third-party.html)
-
-## Content
-
-* [How to add your domains]({{ site.baseurl }}/admin-center/add-your-domains.html)
-* [Collections]({{ site.baseurl }}/admin-center/content/collections.html)
-* [Best bets]({{ site.baseurl }}/admin-center/content/best-bets.html)
-* [Routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html)
-
-## Display
-
-* [How to design your results page]({{ site.baseurl }}/admin-center/design-your-results-page.html)
-
-## Activate
-
-* [How to connect your search to Search.gov]({{ site.baseurl }}/admin-center/connect-your-search-to-searchgov.html)

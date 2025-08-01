@@ -1,15 +1,16 @@
 ---
 layout: page
-title: How to manage your site users and settings
+title: How to manage your users and settings
 category: admin-center
 tags: help-manual dashboard settings
 date: December 29, 2017
-last_modified_at: July 30, 2025
+last_modified_at: August 1, 2025
 #subnav:
   #data: admin_center
 redirect_from:
     - /manual/settings.html
     - /admin-center/dashboard/settings.html
+    - /admin-center/manage-your-site-users-and-settings.html
 ---
 
 Search.gov offers several settings that allow you to manage user accounts and customize your search experience. You can find these settings in the Dashboard section of the [Admin Center](https://search.usa.gov/sites/).

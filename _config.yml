@@ -75,11 +75,11 @@ primary_navigation:
   - name: About Search.gov
     children:
       - name: About Search.gov
-        url: "/about/"
+        url: "/about/index.html"
       - name: Terms of service
         url: "/about/tos.html"
       - name: Year in review search reports
-        url: "/about/updates/year-in-review/"
+        url: "/about/updates/year-in-review/index.html"
   - name: Get started
     children:
       - name: How to create an account and sign in
@@ -90,73 +90,27 @@ primary_navigation:
     children:
       - name: How to manage your site in the Admin Center
         url: "/admin-center/index.html"
-      - name: How to manage your site users and settings
+      - name: How to manage your users and settings
         url: "/admin-center/manage-your-site-users-and-settings.html"
-      - name: How to add your domains
-        url: "/admin-center/add-your-domains.html"
+      - name: How to optimize your content
+        url: "/admin-center/optimize-your-content.html"
       - name: How to design your results page
         url: "/admin-center/design-your-results-page.html"
       - name: How to connect your search to Search.gov
         url: "/admin-center/connect-your-search-to-searchgov.html"
+
   - name: Support
     children:
       - name: System status
         url: "/status.html"
       - name: An advanced approach to search engine optimization
         url: "/indexing/an-advanced-approach-to-seo.html"
+      - name: An advanced approach to search engine optimization for PDFs
+        url: "/indexing/an-advanced-approach-to-seo-for-PDFs.html"
+      - name: Checklist for a successful website redesign
+        url: "/indexing/redesign.html"
 
 # END Site Navigation
-
-# Sidebar configuration
-#
-# A sidebar of up to 3 levels can be configured here
-# and included in the page by adding a `sidenav` property
-# to the front matter that corresponds to the key defined here.
-# Example:
-# Adding the property `sidenav: admin_center` to a page will
-# import the `admin_center` navigation defined below. If no
-# `sidenav` property is specified, no sidebar will appear on the page
-
-about_us:
-  - name: About Search.gov
-    url: /about/
-    children:
-      - name: Terms of service
-        url: "/about/tos.html"
-      - name: Year in review search reports
-        url: "/about/updates/year-in-review/"
-
-get_started:
-  - name: Get started with Search.gov
-    url: "/get-started/account.html"
-    children:
-      - name: How to create an account and sign in
-        url: "/get-started/create-an-account-and-sign-in.html"
-      - name: How to go live with Search.gov
-        url: "/get-started/go-live-with-searchgov.html"
-
-admin_center:
-  - name: How to manage your site in the Admin Center
-    url: "/admin-center/"
-    children:
-      - name: How to manage your site users and settings
-        url: "/admin-center/manage-your-site-users-and-settings.html"
-      - name: How to add your domains
-        url: "/admin-center/add-your-domains.html"
-      - name: How to design your results page
-        url: "/admin-center/design-your-results-page.html"
-      - name: How to connect your search to Search.gov
-        url: "/admin-center/connect-your-search-to-searchgov.html"
-
-support:
-  - name: Support
-    url: "/support.html"
-  - name: System status
-    url: "/status.html"
-  - name: An advanced approach to search engine optimization
-    url: "/indexing/an-advanced-approach-to-seo.html"
-
-# END sidebar configuration
 
 # Homepage highlights section
 highlights:
@@ -187,7 +141,6 @@ tasks:
     copy: You can manage who has access to your search site in the Admin Center.
     url: /admin-center/dashboard/users.html
     cta: Manage Users
-
 
 # Search.gov configuration
 #

@@ -5,7 +5,7 @@ crumbname: Go-live steps
 category: admin-center
 tags: go-live site-launch indexing
 date: April 22, 2019
-last_modified_at: July 30, 2025
+last_modified_at: August 1, 2025
 #subnav:
   #data: get_started
 redirect_from:
@@ -23,15 +23,17 @@ To customize the search experience for your website, you need to [create a new s
 
 After creating the new site, you need to add the domains for the content you want included in the search results. You can add one or more domains in the Content section of the [Admin Center](https://search.usa.gov/sites).
 
-Review [how to add your domains]({{ site.baseurl }}/admin-center/add-your-domains.html) for more information.
+Review [how to optimize your content]({{ site.baseurl }}/admin-center/optimize-your-content.html) for more information on adding domains.
 
 ## Step 3. Manage other content (optional)
 
-We offer several other ways to manage the content on your results page. You can set up collections, best bets, and routed queries in the Content section of the [Admin Center](https://search.usa.gov/sites).
+Search.gov offers several other ways to manage the content on your results page. You can set up collections, best bets, and routed queries in the Content section of the [Admin Center](https://search.usa.gov/sites).
 
-* Use [collections]({{ site.baseurl }}/admin-center/content/collections.html) to search a narrower or broader scope than the default results page.  
-* Use [best bets]({{ site.baseurl }}/admin-center/content/best-bets.html) to promote specific pages at the top of your search results.
-* Use [routed queries]({{ site.baseurl }}/admin-center/content/routed-queries.html) to bypass the results page entirely for a specific search term
+* Use collections to search a narrower or broader scope than the default results page.  
+* Use best bets to promote specific pages at the top of your search results.
+* Use routed queries to bypass the results page entirely for a specific search term
+
+Review [how to optimize your content]({{ site.baseurl }}/admin-center/optimize-your-content.html) for more information on using collections, best bets, and routed queries.
 
 ## Step 4. Design the results page
 
